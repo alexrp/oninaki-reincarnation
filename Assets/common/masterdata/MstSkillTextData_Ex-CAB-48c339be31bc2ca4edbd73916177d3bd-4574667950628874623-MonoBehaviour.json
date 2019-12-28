@@ -1,0 +1,2986 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": -4383824684166082180
+        },
+        "1 string m_Name": "MstSkillTextData_Ex",
+        "0 Sheet m_sheets": 
+        {
+            "0 Array Array": [
+                {"0 Sheet data": 
+                {
+                    "1 string m_name": "Ex",
+                    "0 Param m_list": 
+                    {
+                        "0 Array Array": [
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC01_101",
+                                "1 string m_description": "ダッシュしながら攻撃する。\n攻撃中に通常攻撃のボタンを押すと\n追撃することができる。\n<SKL_EFF_HIDE>鬼哭時は威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC01_102",
+                                "1 string m_description": "後ろに退き、距離を取ってから\n鬼ビ人が衝撃波を飛ばす。\n<SKL_EFF_HIDE>鬼哭時は衝撃波が貫通する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC01_103",
+                                "1 string m_description": "精神統一して放つ斬撃が交差する。\n発動前にボタンを押し続けると\n溜めが発生し、攻撃の威力が上昇する。\n<SKL_EFF_HIDE>鬼哭時は溜め入力時間が短くなる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC01_104",
+                                "1 string m_description": "ジャンプしながら斬り上げて\n浮遊した敵を鬼ビ人が斬り刻む。\n通常攻撃のボタンを押すと追撃する。\n<SKL_EFF_HIDE>鬼哭時はクリティカル率が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC01_105",
+                                "1 string m_description": "後退すると同時に鬼ビ人が前に出て\n連続攻撃しながら前進する。\n<SKL_EFF_HIDE>鬼哭時は連続攻撃回数が増加する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC01_106",
+                                "1 string m_description": "横薙ぎした後に一糸乱れぬ連携で\n鬼ビ人が上空から攻撃する。\n<SKL_EFF_HIDE>鬼哭時は攻撃に防御貫通が発生する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC01_107",
+                                "1 string m_description": "敵を突き刺した状態でボタンを\n押し続けると鬼ビ人が連続攻撃を行う。\n攻撃が当たる度にＨＰが回復する。\n<SKL_EFF_HIDE>鬼哭時は回復効果が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC01_108",
+                                "1 string m_description": "鬼ビ人と一体化した渾身の一撃を放つ。\n通常攻撃を行った回数が多いほど\n威力が上昇する奥義である。\n<SKL_EFF_HIDE>鬼哭時は攻撃中、無敵となる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC02_101",
+                                "1 string m_description": "ジャンプしてから降下攻撃を行う。\n攻撃が当たる瞬間に再びボタンを押すと\nクリティカルが必ず発生する。\n<SKL_EFF_HIDE>鬼哭時はクリティカル威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC02_102",
+                                "1 string m_description": "阿吽の呼吸で一気呵成に突撃を行う。\n<SKL_EFF_HIDE>鬼哭時はガード破壊できるようになり\n防御力を貫通してダメージを与える。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC02_103",
+                                "1 string m_description": "鬼ビ人が槍で作りあげた壁の後ろから\nクリティカル率が高い攻撃を行う。\n壁は敵を近づけず、弾を消滅させる。\n<SKL_EFF_HIDE>鬼哭時は壁が敵にダメージを与える。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC02_104",
+                                "1 string m_description": "鬼ビ人が上空から攻撃するとともに\n薙ぎ払って敵を吹き飛ばす。\n確率で敵を強制的に怯ませる。\n<SKL_EFF_HIDE>鬼哭時はクリティカル率が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC02_105",
+                                "1 string m_description": "鬼ビ人が地面から突き上げると同時に\n前方へ突きの一閃を見舞う。\n<SKL_EFF_HIDE>鬼哭時はＨＰが回復する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC02_106",
+                                "1 string m_description": "鬼ビ人を投擲して突撃させる。\n敵に当たっても消滅せずに貫通する。\n<SKL_EFF_HIDE>鬼哭時は威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC02_107",
+                                "1 string m_description": "鬼ビ人との絆があるからこそ成せる\n電光石火の乱れ突きを行う。\n<SKL_EFF_HIDE>鬼哭時はヒットする回数が増加する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC02_108",
+                                "1 string m_description": "天から彗星のごとく攻撃を行う。\nクリティカルの総発生回数が多いほど\n威力が上昇する奥義である。\n<SKL_EFF_HIDE>鬼哭時はクリティカル上昇が発生する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC03_101",
+                                "1 string m_description": "信頼関係があるからこそ可能な\n捨て身の突撃を鬼ビ人が行う。\n<SKL_EFF_HIDE>鬼哭時は攻撃上昇が発生する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC03_102",
+                                "1 string m_description": "鬼ビ人が敵を打ち上げたところに\n合わせて、勢いよく斬りつける。\n<SKL_EFF_HIDE>鬼哭時は威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC03_103",
+                                "1 string m_description": "鬼ビ人が回転しながら連続攻撃する。\n敵を吸い込む効果がある。\n<SKL_EFF_HIDE>鬼哭時はクリティカル率が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC03_104",
+                                "1 string m_description": "敵の眼前まで間合いを一気に詰めて\n防御してようと力の限りぶっ叩く。\n<SKL_EFF_HIDE>鬼哭時は攻撃に防御貫通が発生する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC03_105",
+                                "1 string m_description": "息の合った鬼ビ人との乱舞攻撃を行う。\n<SKL_EFF_HIDE>鬼哭時は発動からボタンを押していると\n攻撃をし続けることができる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC03_106",
+                                "1 string m_description": "強振して敵をかっ飛ばす攻撃を行う。\nまれに威力が上昇することがある。\n<SKL_EFF_HIDE>鬼哭時はクリティカル威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC03_107",
+                                "1 string m_description": "全力で斧を叩きつけ、大地を揺らす。\n必ずガードが破壊できる。\n<SKL_EFF_HIDE>鬼哭時は攻撃範囲が広くなる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC03_108",
+                                "1 string m_description": "全てを断ち斬る光芒一閃の一撃を放つ。\n溜め入力の総時間が長いほど\n威力が上昇する奥義である。\n<SKL_EFF_HIDE>鬼哭時は敵を絶対に怯ませる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC04_101",
+                                "1 string m_description": "鬼ビ人と背を合わせて薙ぎ払う。\n攻撃が敵の側背面に当たった時に\nその攻撃の威力が上昇する。\n<SKL_EFF_HIDE>鬼哭時は確率で毒が敵に発生する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC04_102",
+                                "1 string m_description": "洗練された流れるような動きで\n鬼ビ人と連続攻撃を行う。\n攻撃後は透明となって気配を断つ。\n<SKL_EFF_HIDE>鬼哭時はクリティカル率が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC04_103",
+                                "1 string m_description": "前方に衝撃波を飛ばすとすぐさま\n鬼ビ人が追撃の衝撃波を発射する。\n<SKL_EFF_HIDE>鬼哭時は透明が発生する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC04_104",
+                                "1 string m_description": "斬撃の軌跡が立体交差する攻撃を行う。\n攻撃が敵の側背面に当たった時に\n確率で毒が敵に発生する。\n<SKL_EFF_HIDE>鬼哭時は威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC04_105",
+                                "1 string m_description": "魂すらも刈り取る一撃を放つ。\n攻撃が敵の背面に当たった時に\n確率で即死が敵に発生する。\n<SKL_EFF_HIDE>鬼哭時は即死の発生率が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC04_106",
+                                "1 string m_description": "鎌を大地に叩きつける攻撃を行う。\n攻撃した場所に鬼ビ人が待機し\n敵が近づくと薙ぎ払って攻撃する。\n<SKL_EFF_HIDE>鬼哭時は鬼ビ人攻撃の範囲が広くなる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC04_107",
+                                "1 string m_description": "鬼ビ人と変幻自在の太刀筋で斬り刻む。\n攻撃が敵の側背面に当たった時に\nその攻撃のクリティカル率が上昇する。\n<SKL_EFF_HIDE>鬼哭時はヒット回数が増加する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC04_108",
+                                "1 string m_description": "魂すらも浄化する衝撃を生み出す。\n側背面に当たった攻撃回数が多いほど\n威力が上昇する奥義である。\n<SKL_EFF_HIDE>鬼哭時は範囲内の敵を移動不可にする。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC05_101",
+                                "1 string m_description": "鬼ビ人とともにダッシュしながら\n連続ヒットする攻撃を行う。\n確率で麻痺が敵に発生する。\n<SKL_EFF_HIDE>鬼哭時はヒット回数が増加する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC05_102",
+                                "1 string m_description": "上空に移動し鬼ビ人と連携攻撃を行う。\n攻撃が敵の行動中に当たった時は\nその攻撃の威力が上昇する。\n<SKL_EFF_HIDE>鬼哭時はクリティカル率が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC05_103",
+                                "1 string m_description": "後退して油断させた間隙を突き\n鬼ビ人が強襲の一撃を放つ。\n確率で麻痺が敵に発生する。\n<SKL_EFF_HIDE>鬼哭時は確率で毒が敵に発生する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC05_104",
+                                "1 string m_description": "敵の攻撃を無効化して反撃する。\n攻撃が敵の行動中に当たった時は\n無効化した攻撃を敵に反射する。\n<SKL_EFF_HIDE>鬼哭時は敵を絶対に怯ませる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC05_105",
+                                "1 string m_description": "挟み撃ちにして敵に刃を突き立てる。\n攻撃が敵の行動中に当たった時は\n絶対にクリティカルが発生する。\n<SKL_EFF_HIDE>鬼哭時はクリティカル威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC05_106",
+                                "1 string m_description": "敵を浮遊させて死角から攻撃する。\n攻撃が敵の行動中に当たった時は\n確率で毒が敵に発生する。\n<SKL_EFF_HIDE>鬼哭時は威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC05_107",
+                                "1 string m_description": "姿をくらまし、奇襲を仕掛ける。\n透明が発生し、攻撃が敵の行動中に\n当たった時は防御貫通が発生する。\n<SKL_EFF_HIDE>鬼哭時は確率で麻痺が敵に発生する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC05_108",
+                                "1 string m_description": "ボタンを押していると続く乱舞を行う。\n敵の行動中に攻撃が当たった回数が\n多いほど、威力が上昇する奥義である。\n<SKL_EFF_HIDE>鬼哭時はＨＰが回復する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC06_101",
+                                "1 string m_description": "鬼ビ人と練り上げた巨大な弾を撃つ。\nロックした敵への\nクリティカル率が上昇する。\n<SKL_EFF_HIDE>鬼哭時は敵を一瞬移動不可にする。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC06_102",
+                                "1 string m_description": "後退と同時に鬼ビ人が攻撃する。\n確率で敵を強制的に怯ませる。\nこの技はロックオンできない。\n<SKL_EFF_HIDE>鬼哭時は防御低下が敵に発生する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC06_103",
+                                "1 string m_description": "全方位に全弾発射の乱れ撃ちを行う。\n複数対象のロックオンができ\nロックした敵への威力が上昇する。\n<SKL_EFF_HIDE>鬼哭時はクリティカル率が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC06_104",
+                                "1 string m_description": "鬼ビ人と力の限り弾を撃ち尽くす。\n精度より速度を優先し、集弾性は低い。\nロックした敵に弾が収束する。\n<SKL_EFF_HIDE>鬼哭時は弾の集弾性が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC06_105",
+                                "1 string m_description": "ヒット回数が変わる乱反射攻撃を行う。\n複数対象のロックオンができ\nロックした敵のヒット回数が増加する。\n<SKL_EFF_HIDE>鬼哭時はヒット回数の幅が狭くなる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC06_106",
+                                "1 string m_description": "敵を打ち上げて、連続射撃する。\n押し続けるとヒット回数が増加する。\nこの技はロックオンできない。\n<SKL_EFF_HIDE>鬼哭時は威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC06_107",
+                                "1 string m_description": "無数の誘導弾を拡散射撃する。\nロックした敵に弾が収束する。\n<SKL_EFF_HIDE>鬼哭時は確率で敵を強制的に怯ませる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC06_108",
+                                "1 string m_description": "流星のように天から弾が降り注ぐ。\nロックオンの総回数が多いほど\n威力が上昇する奥義である。\n<SKL_EFF_HIDE>鬼哭時はヒット回数が増加する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC07_101",
+                                "1 string m_description": "鬼ビ人の力を展開した盾を構えて\n前方に突進しながら攻撃を行う。\n<SKL_EFF_HIDE>鬼哭時はＨＰが回復する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC07_102",
+                                "1 string m_description": "爆発を発生させる射撃攻撃を行う。\n発動前からボタンを押し続けていると\n攻撃の威力が上昇する。\n<SKL_EFF_HIDE>鬼哭時は溜め時間が短くなる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC07_103",
+                                "1 string m_description": "鬼ビ人が盾となり壁となって前進する。\n鬼ビ人に当たる敵にはダメージを与え\n当たる弾は消滅させる。\n<SKL_EFF_HIDE>鬼哭時は与えるダメージが増加する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC07_104",
+                                "1 string m_description": "地面に砲撃を接射して敵を浮遊させ\n盾砲の重量を活かして叩きつける。\n<SKL_EFF_HIDE>鬼哭時は威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC07_105",
+                                "1 string m_description": "鬼ビ人と背を合わせて回転しながら\n３６０度にレーザー射撃攻撃を行う。\n<SKL_EFF_HIDE>鬼哭時はヒット回数が増加する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC07_106",
+                                "1 string m_description": "鬼ビ人と敵を挟み打ちして\n寸分の狂いなく潰す近接攻撃を行う。\n攻撃低下と防御低下が敵に発生する。\n<SKL_EFF_HIDE>鬼哭時は能力低下値が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC07_107",
+                                "1 string m_description": "巨大なレーザーで射撃攻撃を行う。\nレーザーは連続ヒットし、ボタンを\n押し続けていると放射時間が長くなる。\n<SKL_EFF_HIDE>鬼哭時はクリティカル率が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC07_108",
+                                "1 string m_description": "全てを無にする絶対領域が発生する。\nシールドでの総防御回数が多いほど\n敵に与えるダメージが上昇する。\n<SKL_EFF_HIDE>鬼哭時は領域内で全能力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC08_101",
+                                "1 string m_description": "鬼ビ人の力を受けて放つ攻撃を行う。\n装置が生成できる。\n<SKL_EFF_HIDE>鬼哭時は防御貫通効果が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC08_102",
+                                "1 string m_description": "鬼ビ人と織り成す神速の乱舞を行う。\n装置生成数により威力が上昇する。\n<SKL_EFF_HIDE>鬼哭時はヒット回数が増加する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC08_103",
+                                "1 string m_description": "蹴りで崩し、鬼ビ人が気を叩き込む。\n装置生成数が多いほど、敵の防御力を\n貫通してダメージを与える。\n<SKL_EFF_HIDE>鬼哭時は装置が生成できる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC08_104",
+                                "1 string m_description": "鬼ビ人と作りあげた衝撃を発生させる。\n装置生成数が多いほど\nヒットする回数が増加する。\n<SKL_EFF_HIDE>鬼哭時はクリティカル率が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC08_105",
+                                "1 string m_description": "封じた気を爆散させる一撃を放つ。\n確率で攻撃上昇が発生し\n装置生成数により確率が上昇する。\n<SKL_EFF_HIDE>鬼哭時はＨＰが回復する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC08_106",
+                                "1 string m_description": "鬼ビ人と一体化して怯みづらくなり\n敵を浮遊させ、天から叩きつける。\n装置生成数が多いほど、怯ませやすい。\n<SKL_EFF_HIDE>鬼哭時は防御上昇が発生する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC08_107",
+                                "1 string m_description": "洗練された天衣無縫の連撃を行う。\n装置生成数が多いほど\nクリティカル率が上昇する。\n<SKL_EFF_HIDE>鬼哭時はクリティカル威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC08_108",
+                                "1 string m_description": "全展開で起動し、天地創造の光を放つ。\n装置の生成数と総生成数が多いほど\n威力とヒット回数が変わる奥義である。\n<SKL_EFF_HIDE>鬼哭時は威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC09_101",
+                                "1 string m_description": "鬼ビ人と鎖を使った連携攻撃を行う。\n攻撃が当たった時に敵を刻印できる。\n<SKL_EFF_HIDE>鬼哭時は攻撃範囲が広くなる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC09_102",
+                                "1 string m_description": "複数の鎖を全方位に放射する。\n確率で混乱が敵に発生する。\n刻印した敵への威力が上昇する。\n<SKL_EFF_HIDE>鬼哭時は混乱の発生率が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC09_103",
+                                "1 string m_description": "生気を奪う攻撃を行う。刻印した敵なら\n回復量が増加する。攻撃中にボタンを\n押し続けるとヒット回数が増加する。\n<SKL_EFF_HIDE>鬼哭時は攻撃に防御貫通が発生する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC09_104",
+                                "1 string m_description": "上空に退避してから鎖を飛ばす。\n攻撃が当たった時に\n確率で敵を刻印できる。\n<SKL_EFF_HIDE>鬼哭時は威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC09_105",
+                                "1 string m_description": "電磁誘導により加速させた弾を撃つ。\n確率で麻痺が敵に発生する。刻印した\n敵に必ずクリティカルが発生する。\n<SKL_EFF_HIDE>鬼哭時はクリティカル威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC09_106",
+                                "1 string m_description": "ありとあらゆるものを束縛する。\n確率で気絶が敵に発生する。\n攻撃が当たった時に敵を刻印できる。\n<SKL_EFF_HIDE>鬼哭時は発動の隙が小さくなる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC09_107",
+                                "1 string m_description": "鬼ビ人と舞いながら鎖を振り回す。\n攻撃が刻印した敵に当たった時は\n確率で何らかの状態異常が発生する。\n<SKL_EFF_HIDE>鬼哭時はクリティカル率が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC09_108",
+                                "1 string m_description": "縦横無尽に鎖が乱れ穿つ攻撃を行う。\n刻印した総回数が多いほど\n威力が上昇する奥義である。\n<SKL_EFF_HIDE>鬼哭時は敵を絶対に怯ませる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC11_101",
+                                "1 string m_description": "前方に突進する攻撃を行う。\n移動から技を使うと\nクリティカル率が上昇する。\n<SKL_EFF_HIDE>鬼哭時は攻撃範囲が広くなる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC11_102",
+                                "1 string m_description": "しっぽで衝撃波を発生させる。\n攻撃中に再びボタンを押すと追撃する。\n<SKL_EFF_HIDE>鬼哭時は威力が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC11_103",
+                                "1 string m_description": "ハウリングで全方位に攻撃を行う。\n攻撃上昇と防御上昇が発生する。\n<SKL_EFF_HIDE>鬼哭時は能力増加値が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC11_104",
+                                "1 string m_description": "一瞬の隙を突いて奇襲を仕掛ける。\n移動から技を使うと威力が上昇する。\n確率で混乱が敵に発生する。\n<SKL_EFF_HIDE>鬼哭時は確率で毒が敵に発生する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC11_105",
+                                "1 string m_description": "敵を吸い込み、天から一撃を与える。\n<SKL_EFF_HIDE>鬼哭時は吸い込む力が強くなり\n吸い込み中のヒット回数が増加する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC11_106",
+                                "1 string m_description": "鬼ビ人との阿吽の呼吸で行う\n瞬速の連続攻撃を繰り出す。\n<SKL_EFF_HIDE>鬼哭時はクリティカル率が上昇する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC11_107",
+                                "1 string m_description": "体内の力を凝縮してブレスを放つ。\n確率で気絶が敵に発生する。\n移動から技を使うと発生率が上昇する。\n<SKL_EFF_HIDE>鬼哭時は気絶の発生時間が長くなる。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC11_108",
+                                "1 string m_description": "大いなる自然の気を纏って駆ける。\n総移動距離が長いほど\n威力が上昇する奥義である。\n<SKL_EFF_HIDE>鬼哭時はＨＰを回復する。</SKL_EFF_HIDE>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC12_101",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC12_102",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC12_103",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC12_104",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC12_105",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC12_106",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC12_107",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "SKL_PC12_108",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_001",
+                                "1 string m_description": "<EX=SKL_PC01_101>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_002",
+                                "1 string m_description": "<EX=SKL_PC01_102>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_003",
+                                "1 string m_description": "<EX=SKL_PC01_103>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_004",
+                                "1 string m_description": "<EX=SKL_PC01_104>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_005",
+                                "1 string m_description": "<EX=SKL_PC01_105>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_006",
+                                "1 string m_description": "<EX=SKL_PC01_106>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_007",
+                                "1 string m_description": "<EX=SKL_PC01_107>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_008",
+                                "1 string m_description": "<EX=SKL_PC01_108>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_009",
+                                "1 string m_description": "攻撃が当たった時に\n増加する同調率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_010",
+                                "1 string m_description": "通常攻撃が当たった時に\n次に発動する技の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_011",
+                                "1 string m_description": "攻撃が当たった時に\n確率でＨＰが回復する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_012",
+                                "1 string m_description": "行動後の隙をキャンセルして発動した\n攻撃のクリティカル率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_013",
+                                "1 string m_description": "攻撃を受けた時に\n増加する同調率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_014",
+                                "1 string m_description": "敵を倒した時に同調率が増加する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_015",
+                                "1 string m_description": "ダッシュの回避時間が長くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_016",
+                                "1 string m_description": "ダメージを受けていない時間が長ければ\n攻撃力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_017",
+                                "1 string m_description": "癒し香を使用した時に\n増加する同調率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_018",
+                                "1 string m_description": "同調率が高いほど\n行動後の隙をキャンセルして\n発動した攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_019",
+                                "1 string m_description": "同調率が高いほど\nクリティカル時の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_020",
+                                "1 string m_description": "同調率が高いほど\n技の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_021",
+                                "1 string m_description": "同調率が１５０を超えると\n攻撃を行う時に敵の防御力を貫通して\nダメージを与えるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_022",
+                                "1 string m_description": "同調率が１５０を超えると\n受けた攻撃を確率で無効化する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_023",
+                                "1 string m_description": "移動速度が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_024",
+                                "1 string m_description": "クリティカル率が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_025",
+                                "1 string m_description": "同調率が上昇する場合\n代わりに攻撃力が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_026",
+                                "1 string m_description": "攻撃が当たった時に\n防御低下が敵に発生する。\nこの技による状態変化は重複発生する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_027",
+                                "1 string m_description": "攻撃が当たった時に\n確率で即死が敵に発生する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_028",
+                                "1 string m_description": "刀の鬼魂の所持数が多いほど\n技攻撃の威力が上昇する。\nアイシャの全ての技を\n修得している時に常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_029",
+                                "1 string m_description": "憑依をアイシャにする\n鬼ビ人チェンジをした時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_030",
+                                "1 string m_description": "憑依をアイシャにするための\n鬼ビ人チェンジの時間が短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_031",
+                                "1 string m_description": "鬼ビ人チェンジ後の隙を\n攻撃でキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_032",
+                                "1 string m_description": "鬼哭中に発動する技に\n鬼哭効果が発生するようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_033",
+                                "1 string m_description": "攻撃後の隙を通常攻撃で\nキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_034",
+                                "1 string m_description": "ダッシュ後の隙を移動や攻撃で\nキャンセルができるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_035",
+                                "1 string m_description": "同調率が高いほど\n通常攻撃の威力が上昇する。\nアイシャが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_036",
+                                "1 string m_description": "同調率が低下しづらくなる。\nアイシャが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_037",
+                                "1 string m_description": "鬼哭終了後の同調率が上昇する。\nアイシャが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_038",
+                                "1 string m_description": "同調率が高いほど、回復力が上昇する。\nアイシャが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_039",
+                                "1 string m_description": "<NAME=CK_0001>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_040",
+                                "1 string m_description": "<NAME=CK_0001>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_041",
+                                "1 string m_description": "<NAME=CK_0001>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0001_042",
+                                "1 string m_description": "<NAME=CK_0001>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_001",
+                                "1 string m_description": "<EX=SKL_PC02_101>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_002",
+                                "1 string m_description": "<EX=SKL_PC02_102>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_003",
+                                "1 string m_description": "<EX=SKL_PC02_103>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_004",
+                                "1 string m_description": "<EX=SKL_PC02_104>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_005",
+                                "1 string m_description": "<EX=SKL_PC02_105>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_006",
+                                "1 string m_description": "<EX=SKL_PC02_106>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_007",
+                                "1 string m_description": "<EX=SKL_PC02_107>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_008",
+                                "1 string m_description": "<EX=SKL_PC02_108>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_009",
+                                "1 string m_description": "クリティカルが発生した時に\n同調率が増加する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_010",
+                                "1 string m_description": "クリティカルが発生した時に\n発生しているＣＴを短くする。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_011",
+                                "1 string m_description": "クリティカルが発生した時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_012",
+                                "1 string m_description": "クリティカルが発生した時に\n防御上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_013",
+                                "1 string m_description": "技攻撃が当たった瞬間に\n再びボタンを押すと\nその攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_014",
+                                "1 string m_description": "技攻撃が当たった瞬間に\n再びボタンを押すと\nその攻撃のクリティカル率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_015",
+                                "1 string m_description": "技攻撃が当たった瞬間に再び\nボタンを押すと、その攻撃は\n防御力を貫通してダメージを与える。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_016",
+                                "1 string m_description": "正面から攻撃を受けた時に\n怯まなくなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_017",
+                                "1 string m_description": "ジャンプの回避時間が長くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_018",
+                                "1 string m_description": "癒し香を使用した時に\nクリティカル上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_019",
+                                "1 string m_description": "同調率が高いほど\nクリティカル率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_020",
+                                "1 string m_description": "同調率が高いほど、正面から受けた\n攻撃の被ダメージを減少する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_021",
+                                "1 string m_description": "同調率が１５０を超えると\nクリティカルが発生条件となる\n状態変化効果が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_022",
+                                "1 string m_description": "同調率が１５０を超えると\n攻撃を受けて怯まなかった時に\nその攻撃を反射する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_023",
+                                "1 string m_description": "攻撃が当たった時に\nクリティカル上昇が発生する。\nこの技による状態変化は重複発生する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_024",
+                                "1 string m_description": "クリティカル威力が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_025",
+                                "1 string m_description": "技攻撃が当たった瞬間に再びボタンを\n押すことで発生する効果が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_026",
+                                "1 string m_description": "敵の攻撃力が低下する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_027",
+                                "1 string m_description": "鬼哭化した時に発生している\n状態異常を全解除し\n自分の周囲にダメージを与える。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_028",
+                                "1 string m_description": "槍の鬼魂の所持数が多いほど\n技攻撃の威力が上昇する。\nザーフの全ての技を\n修得している時に常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_029",
+                                "1 string m_description": "憑依をザーフにする\n鬼ビ人チェンジをした時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_030",
+                                "1 string m_description": "憑依をザーフにするための\n鬼ビ人チェンジの時間が短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_031",
+                                "1 string m_description": "鬼ビ人チェンジ後の隙を\n攻撃でキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_032",
+                                "1 string m_description": "鬼哭中に発動する技に\n鬼哭効果が発生するようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_033",
+                                "1 string m_description": "攻撃後の隙を通常攻撃で\nキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_034",
+                                "1 string m_description": "ジャンプ攻撃の威力が上昇する。\n空中でジャンプ攻撃の方向を\n変えることができるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_035",
+                                "1 string m_description": "クリティカルが発生した時の\n威力が上昇する。\nザーフが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_036",
+                                "1 string m_description": "同調率が１５０以上の時に\n防御力が上昇する。\nザーフが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_037",
+                                "1 string m_description": "鬼哭中にクリティカルが発生した時に\n鬼哭ゲージが回復する。\nザーフが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_038",
+                                "1 string m_description": "癒し香を使用した時に\n状態異常の残発生時間を短くする。\nザーフが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_039",
+                                "1 string m_description": "<NAME=CK_0002>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_040",
+                                "1 string m_description": "<NAME=CK_0002>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_041",
+                                "1 string m_description": "<NAME=CK_0002>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0002_042",
+                                "1 string m_description": "<NAME=CK_0002>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_001",
+                                "1 string m_description": "<EX=SKL_PC03_101>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_002",
+                                "1 string m_description": "<EX=SKL_PC03_102>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_003",
+                                "1 string m_description": "<EX=SKL_PC03_103>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_004",
+                                "1 string m_description": "<EX=SKL_PC03_104>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_005",
+                                "1 string m_description": "<EX=SKL_PC03_105>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_006",
+                                "1 string m_description": "<EX=SKL_PC03_106>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_007",
+                                "1 string m_description": "<EX=SKL_PC03_107>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_008",
+                                "1 string m_description": "<EX=SKL_PC03_108>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_009",
+                                "1 string m_description": "技を使う時に溜め入力ができる。\nボタンを押し続けることで溜めとなり\n完了すると攻撃が発動する。\n溜め入力により攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_010",
+                                "1 string m_description": "限界まで溜めた時に\n攻撃上昇が発生する。\nこの技は重複して発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_011",
+                                "1 string m_description": "溜め入力中に敵から攻撃を受けても\n怯まなくなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_012",
+                                "1 string m_description": "限界まで溜めた時に同調率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_013",
+                                "1 string m_description": "限界まで溜めた攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_014",
+                                "1 string m_description": "限界まで溜めた攻撃は\nクリティカル威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_015",
+                                "1 string m_description": "ＨＰが低いほど、攻撃力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_016",
+                                "1 string m_description": "ＨＰが低いほど、防御力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_017",
+                                "1 string m_description": "ガード中は戦闘不能にならなくなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_018",
+                                "1 string m_description": "癒し香を使用した時に\n攻撃上昇が発生するようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_019",
+                                "1 string m_description": "同調率が高いほど、攻撃力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_020",
+                                "1 string m_description": "同調率が高いほど\nガード中の被ダメージが減少する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_021",
+                                "1 string m_description": "同調率が１５０を超えると\nクリティカル率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_022",
+                                "1 string m_description": "同調率が１５０を超えると\n被ダメージが多いほど\n次の攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_023",
+                                "1 string m_description": "最大ＨＰが上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_024",
+                                "1 string m_description": "限界まで溜めるのに\n必要となる時間が短くなる。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_025",
+                                "1 string m_description": "限界まで溜めた時に\n発生する効果が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_026",
+                                "1 string m_description": "ガードが破壊されづらくなる。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_027",
+                                "1 string m_description": "戦闘不能になるダメージを受けても\n一度だけＨＰ１で耐える。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_028",
+                                "1 string m_description": "斧の鬼魂の所持数が多いほど\n技攻撃の威力が上昇する。\nウィルの全ての技を\n修得している時に常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_029",
+                                "1 string m_description": "憑依をウィルにする\n鬼ビ人チェンジをした時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_030",
+                                "1 string m_description": "憑依をウィルにするための\n鬼ビ人チェンジの時間が短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_031",
+                                "1 string m_description": "鬼ビ人チェンジ後の隙を\n攻撃でキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_032",
+                                "1 string m_description": "鬼哭中に発動する技に\n鬼哭効果が発生するようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_033",
+                                "1 string m_description": "攻撃後の隙を通常攻撃で\nキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_034",
+                                "1 string m_description": "ガード後の隙を移動や攻撃で\nキャンセルができるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_035",
+                                "1 string m_description": "攻撃が当たった時に確率で\n敵を強制的に怯ませることができる。\nウィルが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_036",
+                                "1 string m_description": "攻撃が当たった時に確率で\n防御低下が敵に発生する。\nウィルが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_037",
+                                "1 string m_description": "攻撃力が上昇する。\nこの技は鬼哭中のみ発生する。\nウィルが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_038",
+                                "1 string m_description": "ＨＰが低いほど、回復力が上昇する。\nウィルが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_039",
+                                "1 string m_description": "<NAME=CK_0003>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_040",
+                                "1 string m_description": "<NAME=CK_0003>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_041",
+                                "1 string m_description": "<NAME=CK_0003>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0003_042",
+                                "1 string m_description": "<NAME=CK_0003>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_001",
+                                "1 string m_description": "<EX=SKL_PC04_101>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_002",
+                                "1 string m_description": "<EX=SKL_PC04_102>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_003",
+                                "1 string m_description": "<EX=SKL_PC04_103>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_004",
+                                "1 string m_description": "<EX=SKL_PC04_104>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_005",
+                                "1 string m_description": "<EX=SKL_PC04_105>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_006",
+                                "1 string m_description": "<EX=SKL_PC04_106>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_007",
+                                "1 string m_description": "<EX=SKL_PC04_107>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_008",
+                                "1 string m_description": "<EX=SKL_PC04_108>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_009",
+                                "1 string m_description": "攻撃が敵の側背面に当たった時に\n増加する同調率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_010",
+                                "1 string m_description": "攻撃が敵の側背面に当たった時に\n移動速度上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_011",
+                                "1 string m_description": "攻撃が敵の側背面に当たった時に\n防御上昇が発生する。\nこの技による状態変化は重複発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_012",
+                                "1 string m_description": "敵の背面に当たった攻撃の\n威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_013",
+                                "1 string m_description": "攻撃が敵の背面に当たった時に\nクリティカル上昇が発生する。\nこの技による状態変化は重複発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_014",
+                                "1 string m_description": "攻撃が敵の背面に当たった時に\n攻撃低下が敵に発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_015",
+                                "1 string m_description": "自分の状態変化発生数が多いほど\n攻撃力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_016",
+                                "1 string m_description": "攻撃が敵の側背面に当たった時に\n発生する状態変化効果が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_017",
+                                "1 string m_description": "ワープした時に\n移動速度上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_018",
+                                "1 string m_description": "癒し香を使用した時に\n透明が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_019",
+                                "1 string m_description": "同調率が高いほど\n敵の側背面に当たった攻撃の\n威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_020",
+                                "1 string m_description": "同調率が高いほど\n発生する状態変化時間が長くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_021",
+                                "1 string m_description": "同調率が１５０を超えると\n敵の防御力が低下する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_022",
+                                "1 string m_description": "同調率が１５０を超えると\n攻撃が当たった時に\n確率で即死が敵に発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_023",
+                                "1 string m_description": "状態異常が発生している敵に\n当たった攻撃の威力が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_024",
+                                "1 string m_description": "攻撃が敵の側背面に当たった時に\n攻撃上昇が発生する。\nこの技による状態変化は重複発生する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_025",
+                                "1 string m_description": "鬼哭中に攻撃が敵の背面に当たった時に\n鬼哭ゲージが回復する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_026",
+                                "1 string m_description": "攻撃が敵の背面に当たった時に\n発生している状態変化時間を長くする。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_027",
+                                "1 string m_description": "自分の状態変化発生数が多いほど\nクリティカル率が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_028",
+                                "1 string m_description": "鎌の鬼魂の所持数が多いほど\n技攻撃の威力が上昇する。\nイザナの全ての技を\n修得している時に常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_029",
+                                "1 string m_description": "憑依をイザナにする\n鬼ビ人チェンジをした時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_030",
+                                "1 string m_description": "憑依をイザナにするための\n鬼ビ人チェンジの時間が短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_031",
+                                "1 string m_description": "鬼ビ人チェンジ後の隙を\n攻撃でキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_032",
+                                "1 string m_description": "鬼哭中に発動する技に\n鬼哭効果が発生するようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_033",
+                                "1 string m_description": "攻撃後の隙を通常攻撃で\nキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_034",
+                                "1 string m_description": "ワープ後の隙を移動や攻撃で\nキャンセルができるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_035",
+                                "1 string m_description": "攻撃が当たった時に確率で\nＨＰが回復する。\nイザナが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_036",
+                                "1 string m_description": "鬼哭中に敵を倒した時に\n鬼哭ゲージが回復する。\nイザナが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_037",
+                                "1 string m_description": "自分の状態変化発生数が多いほど\n攻撃の威力が上昇する。\nこの技は鬼哭中のみ発生する。\nイザナが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_038",
+                                "1 string m_description": "鬼哭中に癒し香を使用した時に\n鬼哭ゲージが回復する。\nこの技は鬼哭中に１回有効となる。\nイザナが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_039",
+                                "1 string m_description": "<NAME=CK_0004>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_040",
+                                "1 string m_description": "<NAME=CK_0004>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_041",
+                                "1 string m_description": "<NAME=CK_0004>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0004_042",
+                                "1 string m_description": "<NAME=CK_0004>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_001",
+                                "1 string m_description": "<EX=SKL_PC05_101>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_002",
+                                "1 string m_description": "<EX=SKL_PC05_102>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_003",
+                                "1 string m_description": "<EX=SKL_PC05_103>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_004",
+                                "1 string m_description": "<EX=SKL_PC05_104>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_005",
+                                "1 string m_description": "<EX=SKL_PC05_105>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_006",
+                                "1 string m_description": "<EX=SKL_PC05_106>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_007",
+                                "1 string m_description": "<EX=SKL_PC05_107>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_008",
+                                "1 string m_description": "<EX=SKL_PC05_108>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_009",
+                                "1 string m_description": "カウンターを構えることができる。\n技を使う時にボタンを押し続けると構え\n攻撃を受けるとカウンターが発動する。\nカウンター発動時はＣＴが長くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_010",
+                                "1 string m_description": "カウンターが発動した時は\n技のＣＴが短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_011",
+                                "1 string m_description": "攻撃が敵の行動中に当たった時に\n確率で無敵が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_012",
+                                "1 string m_description": "敵の行動中に当たった攻撃の\nクリティカル率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_013",
+                                "1 string m_description": "敵の行動中に当たった攻撃の\n状態異常発生率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_014",
+                                "1 string m_description": "カウンターが発動した時は\n攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_015",
+                                "1 string m_description": "ダメージを受けていない時間が長ければ\n同調率が上昇しやすくなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_016",
+                                "1 string m_description": "ローリングの回避時間が長くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_017",
+                                "1 string m_description": "敵から攻撃を受けて\n浮遊以外のリアクションをしている時に\nローリングができるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_018",
+                                "1 string m_description": "癒し香を使用した時に無敵が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_019",
+                                "1 string m_description": "同調率が高いほど、敵の行動中に\n当たった攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_020",
+                                "1 string m_description": "同調率が高いほど\n反射で与えるダメージが増加する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_021",
+                                "1 string m_description": "同調率が１５０を超えると\n攻撃力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_022",
+                                "1 string m_description": "同調率が１５０を超えると\n戦闘不能になった時に\n癒し香を３個消費して完全回復する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_023",
+                                "1 string m_description": "カウンターが発動した時は\n受けるダメージが０になる。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_024",
+                                "1 string m_description": "攻撃が敵の行動中に当たった時に\n発生する効果が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_025",
+                                "1 string m_description": "反射で与えるダメージが増加する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_026",
+                                "1 string m_description": "ダメージを受けていない時間が長ければ\n攻撃力が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_027",
+                                "1 string m_description": "攻撃が敵の行動中に当たった時は\n追加でダメージを与える。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_028",
+                                "1 string m_description": "双剣の鬼魂の所持数が多いほど\n技攻撃の威力が上昇する。\nリガンの全ての技を\n修得している時に常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_029",
+                                "1 string m_description": "憑依をリガンにする\n鬼ビ人チェンジをした時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_030",
+                                "1 string m_description": "憑依をリガンにするための\n鬼ビ人チェンジの時間が短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_031",
+                                "1 string m_description": "鬼ビ人チェンジ後の隙を\n攻撃でキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_032",
+                                "1 string m_description": "鬼哭中に発動する技に\n鬼哭効果が発生するようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_033",
+                                "1 string m_description": "攻撃後の隙を通常攻撃で\nキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_034",
+                                "1 string m_description": "ローリング後の隙を移動や攻撃で\nキャンセルができるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_035",
+                                "1 string m_description": "攻撃を受けた時に\n確率でＨＰが回復する。\nリガンが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_036",
+                                "1 string m_description": "攻撃を受けた時にその攻撃を反射する。\nリガンが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_037",
+                                "1 string m_description": "回復力が上昇する。\nこの技は鬼哭中のみ発生する。\nリガンが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_038",
+                                "1 string m_description": "攻撃が当たった時に確率で\n癒し香の所持数が増加する。\nリガンが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_039",
+                                "1 string m_description": "<NAME=CK_0005>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_040",
+                                "1 string m_description": "<NAME=CK_0005>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_041",
+                                "1 string m_description": "<NAME=CK_0005>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0005_042",
+                                "1 string m_description": "<NAME=CK_0005>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_001",
+                                "1 string m_description": "<EX=SKL_PC06_101>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_002",
+                                "1 string m_description": "<EX=SKL_PC06_102>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_003",
+                                "1 string m_description": "<EX=SKL_PC06_103>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_004",
+                                "1 string m_description": "<EX=SKL_PC06_104>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_005",
+                                "1 string m_description": "<EX=SKL_PC06_105>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_006",
+                                "1 string m_description": "<EX=SKL_PC06_106>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_007",
+                                "1 string m_description": "<EX=SKL_PC06_107>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_008",
+                                "1 string m_description": "<EX=SKL_PC06_108>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_009",
+                                "1 string m_description": "ロックオンができるようになる。\n技を使う時にボタンを押し続けながら\n<ICON=BUTTON_MOVE>で対象を選択できる。\nロックすると様々な恩恵が得られる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_009_key",
+                                "1 string m_description": "ロックオンができるようになる。\n技を使う時にボタンを押し続けながら\n<ICON=BUTTON_MOVE_UP><ICON=BUTTON_MOVE_LEFT><ICON=BUTTON_MOVE_DOWN><ICON=BUTTON_MOVE_RIGHT>で対象を\n選択できる。\nロックすると様々な恩恵が得られる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_010",
+                                "1 string m_description": "攻撃がロックした敵に当たった時に\n同調率が増加する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_011",
+                                "1 string m_description": "ロックオン中に敵から攻撃を受けても\n怯まなくなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_012",
+                                "1 string m_description": "ロックした敵に当たった攻撃は\n怯ませやすくなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_013",
+                                "1 string m_description": "ロックした敵に当たった攻撃は\nクリティカル率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_014",
+                                "1 string m_description": "ロックした敵に当たった攻撃は\n確率で防御低下が敵に発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_015",
+                                "1 string m_description": "攻撃が当たった敵との距離が遠いほど\n攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_016",
+                                "1 string m_description": "耐性が１００の状態異常攻撃を\n受けた時にその攻撃を反射する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_017",
+                                "1 string m_description": "通常攻撃とジャンプ中に行う攻撃の\n威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_018",
+                                "1 string m_description": "癒し香を使用した時に\n状態異常耐性上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_019",
+                                "1 string m_description": "同調率が高いほど、ロックした敵に\n当たった攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_020",
+                                "1 string m_description": "同調率が高いほど\n状態異常耐性が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_021",
+                                "1 string m_description": "同調率が１５０を超えると\n攻撃がロックした敵に当たった時に\n確率で敵に攻撃低下が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_022",
+                                "1 string m_description": "同調率が１５０を超えると\n攻撃中の防御力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_023",
+                                "1 string m_description": "攻撃がロックした敵に当たった時に\n発生する効果が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_024",
+                                "1 string m_description": "ロックオン攻撃が当たった時に\n攻撃上昇が発生する。\nこの技による状態変化は重複発生する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_025",
+                                "1 string m_description": "攻撃が当たった敵の距離が遠いほど\nクリティカル率が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_026",
+                                "1 string m_description": "攻撃を行う時に敵の防御力を貫通して\nダメージを与えるようになる。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_027",
+                                "1 string m_description": "敵の移動速度が低下する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_028",
+                                "1 string m_description": "弩の鬼魂の所持数が多いほど\n技攻撃の威力が上昇する。\nディーアの全ての技を\n修得している時に常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_029",
+                                "1 string m_description": "憑依をディーアにする\n鬼ビ人チェンジをした時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_030",
+                                "1 string m_description": "憑依をディーアにするための\n鬼ビ人チェンジの時間が短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_031",
+                                "1 string m_description": "鬼ビ人チェンジ後の隙を\n攻撃でキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_032",
+                                "1 string m_description": "鬼哭中に発動する技に\n鬼哭効果が発生するようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_033",
+                                "1 string m_description": "攻撃後の隙を通常攻撃で\nキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_034",
+                                "1 string m_description": "グライダー攻撃の威力が上昇する。\n空中でグライダー攻撃の方向を\n変えることができるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_035",
+                                "1 string m_description": "弾が貫通するようになる。\nディーアが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_036",
+                                "1 string m_description": "耐性が１００の状態異常攻撃を\n受けた時にＨＰが回復する。\nディーアが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_037",
+                                "1 string m_description": "状態異常耐性が上昇する。\nこの技は鬼哭中のみ発生する。\nディーアが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_038",
+                                "1 string m_description": "状態異常が発生中であっても\n癒し香が使用できるようになる。\nディーアが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_039",
+                                "1 string m_description": "<NAME=CK_0006>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_040",
+                                "1 string m_description": "<NAME=CK_0006>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_041",
+                                "1 string m_description": "<NAME=CK_0006>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0006_042",
+                                "1 string m_description": "<NAME=CK_0006>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_001",
+                                "1 string m_description": "<EX=SKL_PC07_101>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_002",
+                                "1 string m_description": "<EX=SKL_PC07_102>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_003",
+                                "1 string m_description": "<EX=SKL_PC07_103>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_004",
+                                "1 string m_description": "<EX=SKL_PC07_104>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_005",
+                                "1 string m_description": "<EX=SKL_PC07_105>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_006",
+                                "1 string m_description": "<EX=SKL_PC07_106>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_007",
+                                "1 string m_description": "<EX=SKL_PC07_107>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_008",
+                                "1 string m_description": "<EX=SKL_PC07_108>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_009",
+                                "1 string m_description": "シールド中の移動速度が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_010",
+                                "1 string m_description": "シールド中に攻撃を受けた時に\n同調率が増加する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_011",
+                                "1 string m_description": "シールドを構えた時に\n敵を吹っ飛ばす攻撃が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_012",
+                                "1 string m_description": "シールドの構えを解いた時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_013",
+                                "1 string m_description": "近接攻撃の威力が上昇して\n敵のガードを破壊できるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_014",
+                                "1 string m_description": "射撃攻撃は敵の防御力を貫通して\nダメージを与えることができる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_015",
+                                "1 string m_description": "ＨＰが高いほど\n近接攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_016",
+                                "1 string m_description": "ＨＰが高いほど\n射撃攻撃のクリティカル率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_017",
+                                "1 string m_description": "再生が常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_018",
+                                "1 string m_description": "癒し香を使用した時に\n防御上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_019",
+                                "1 string m_description": "同調率が高いほど、シールド中に\n敵に与えるダメージが増加する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_020",
+                                "1 string m_description": "同調率が高いほど、防御力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_021",
+                                "1 string m_description": "同調率が１５０を超えると\n移動速度が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_022",
+                                "1 string m_description": "同調率が１５０を超えると\nシールド中に状態異常が発生しない。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_023",
+                                "1 string m_description": "シールド中の被ダメージが０になる。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_024",
+                                "1 string m_description": "シールド中に攻撃を受けたら\nその攻撃を反射する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_025",
+                                "1 string m_description": "シールド中に攻撃を受けたら\n攻撃上昇が発生する。\nこの技は重複して発生する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_026",
+                                "1 string m_description": "近接攻撃が敵に当たった時に\n移動速度低下が敵に発生する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_027",
+                                "1 string m_description": "射撃攻撃の威力が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_028",
+                                "1 string m_description": "盾砲の鬼魂の所持数が多いほど\n技攻撃の威力が上昇する。\nガウォードの全ての技を\n修得している時に常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_029",
+                                "1 string m_description": "憑依をガウォードにする\n鬼ビ人チェンジをした時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_030",
+                                "1 string m_description": "憑依をガウォードにするための\n鬼ビ人チェンジの時間が短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_031",
+                                "1 string m_description": "鬼ビ人チェンジ後の隙を\n攻撃でキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_032",
+                                "1 string m_description": "鬼哭中に発動する技に\n鬼哭効果が発生するようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_033",
+                                "1 string m_description": "攻撃後の隙を通常攻撃で\nキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_034",
+                                "1 string m_description": "シールド後の隙を移動や攻撃で\nキャンセルができるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_035",
+                                "1 string m_description": "攻撃を受けた時に\n確率でその攻撃を無効化する。\nガウォードが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_036",
+                                "1 string m_description": "直前の攻撃終了時から受けた攻撃回数が\n多いほど、次の攻撃の威力が上昇する。\nガウォードが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_037",
+                                "1 string m_description": "防御力が上昇する。\nこの技は鬼哭中のみ発生する。\nガウォードが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_038",
+                                "1 string m_description": "癒し香を使用した時に\n発生しているＣＴを短くする。\nガウォードが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_039",
+                                "1 string m_description": "<NAME=CK_0007>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_040",
+                                "1 string m_description": "<NAME=CK_0007>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_041",
+                                "1 string m_description": "<NAME=CK_0007>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0007_042",
+                                "1 string m_description": "<NAME=CK_0007>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_001",
+                                "1 string m_description": "<EX=SKL_PC08_101>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_002",
+                                "1 string m_description": "<EX=SKL_PC08_102>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_003",
+                                "1 string m_description": "<EX=SKL_PC08_103>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_004",
+                                "1 string m_description": "<EX=SKL_PC08_104>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_005",
+                                "1 string m_description": "<EX=SKL_PC08_105>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_006",
+                                "1 string m_description": "<EX=SKL_PC08_106>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_007",
+                                "1 string m_description": "<EX=SKL_PC08_107>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_008",
+                                "1 string m_description": "<EX=SKL_PC08_108>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_009",
+                                "1 string m_description": "連続発動した技が敵に当たった時に\n装置を生成する。最大４個まで生成でき\n一番遠くにあるものから消滅する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_010",
+                                "1 string m_description": "技を連続発動した時はＣＴが短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_011",
+                                "1 string m_description": "技の連続発動回数が多いほど\n攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_012",
+                                "1 string m_description": "装置の最大生成数が８になる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_013",
+                                "1 string m_description": "装置の消滅条件となる滞留可能時間と\n滞留可能距離が長くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_014",
+                                "1 string m_description": "装置生成数が多いほど\nクリティカル時の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_015",
+                                "1 string m_description": "装置生成数が多いほど\n攻撃中は怯みにくくなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_016",
+                                "1 string m_description": "装置生成数が多いほど\n攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_017",
+                                "1 string m_description": "覚醒の発生時間が長くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_018",
+                                "1 string m_description": "癒し香を使用した時に\n同調率低下禁止が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_019",
+                                "1 string m_description": "同調率が高いほど\n防御力を貫通してダメージを与える。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_020",
+                                "1 string m_description": "同調率が高いほど\n攻撃中の被ダメージが低下する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_021",
+                                "1 string m_description": "同調率が１５０を超えると\n技の連続発動回数が多いほど\n覚醒の発生率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_022",
+                                "1 string m_description": "同調率が１５０を超えると\n装置生成数が多いほど\nバリア内での被ダメージが低下する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_023",
+                                "1 string m_description": "装置の生成数が実際の生成数より\n多いものとして扱われる。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_024",
+                                "1 string m_description": "装置生成数が多いほど\nクリティカル率が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_025",
+                                "1 string m_description": "装置生成数が多いほど\n敵の防御力が低下する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_026",
+                                "1 string m_description": "ＣＴが短くなる。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_027",
+                                "1 string m_description": "バリア内では全ての能力が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_028",
+                                "1 string m_description": "格闘の鬼魂の所持数が多いほど\n技攻撃の威力が上昇する。\nルシカの全ての技を\n修得している時に常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_029",
+                                "1 string m_description": "憑依をルシカにする\n鬼ビ人チェンジをした時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_030",
+                                "1 string m_description": "憑依をルシカにするための\n鬼ビ人チェンジの時間が短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_031",
+                                "1 string m_description": "鬼ビ人チェンジ後の隙を\n攻撃でキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_032",
+                                "1 string m_description": "鬼哭中に発動する技に\n鬼哭効果が発生するようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_033",
+                                "1 string m_description": "攻撃後の隙を通常攻撃で\nキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_034",
+                                "1 string m_description": "バリアを展開した後に\n行動ができるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_035",
+                                "1 string m_description": "技を連続発動した時の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_036",
+                                "1 string m_description": "鬼哭中か覚醒中の攻撃力が上昇する。\nルシカが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_037",
+                                "1 string m_description": "覚醒の発生率が上昇する。\nこの技は鬼哭中のみ発生する。\nルシカが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_038",
+                                "1 string m_description": "癒し香を使用した時に\n自分の周囲にダメージを与える。\nルシカが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_039",
+                                "1 string m_description": "<NAME=CK_0008>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_040",
+                                "1 string m_description": "<NAME=CK_0008>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_041",
+                                "1 string m_description": "<NAME=CK_0008>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0008_042",
+                                "1 string m_description": "<NAME=CK_0008>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_001",
+                                "1 string m_description": "<EX=SKL_PC09_101>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_002",
+                                "1 string m_description": "<EX=SKL_PC09_102>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_003",
+                                "1 string m_description": "<EX=SKL_PC09_103>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_004",
+                                "1 string m_description": "<EX=SKL_PC09_104>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_005",
+                                "1 string m_description": "<EX=SKL_PC09_105>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_006",
+                                "1 string m_description": "<EX=SKL_PC09_106>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_007",
+                                "1 string m_description": "<EX=SKL_PC09_107>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_008",
+                                "1 string m_description": "<EX=SKL_PC09_108>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_009",
+                                "1 string m_description": "攻撃が当たった時に\n確率で敵を刻印できる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_010",
+                                "1 string m_description": "刻印した時に\nその敵にダメージを与える。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_011",
+                                "1 string m_description": "刻印した時に同調率が増加する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_012",
+                                "1 string m_description": "刻印した敵に当たった攻撃の\n威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_013",
+                                "1 string m_description": "攻撃が刻印した敵に当たった時に\n確率で毒がその敵に発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_014",
+                                "1 string m_description": "刻印している数が多いほど\n防御力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_015",
+                                "1 string m_description": "敵に発生する状態異常の\n発生時間が長くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_016",
+                                "1 string m_description": "攻撃が当たった時に敵に発生している\n状態異常の数が多いほど\nその攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_017",
+                                "1 string m_description": "鎖ジャンプ中に攻撃した時に\nボタンを押し続けていると\n鎖が当たった位置へ高速移動できる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_018",
+                                "1 string m_description": "癒し香を使用した時に\n状態異常発生率上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_019",
+                                "1 string m_description": "同調率が高いほど\n状態異常発生率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_020",
+                                "1 string m_description": "同調率が高いほど\n刻印した敵の攻撃力が低下する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_021",
+                                "1 string m_description": "同調率が１５０を超えると\n刻印が発生した時にＣＴが短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_022",
+                                "1 string m_description": "同調率が１５０を超えると\n刻印している数が多いほど\nクリティカル率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_023",
+                                "1 string m_description": "攻撃が状態異常の敵に当たった時は\n攻撃上昇が発生する。\nこの技による状態変化は重複発生する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_024",
+                                "1 string m_description": "刻印によって発生する効果が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_025",
+                                "1 string m_description": "刻印している数が多いほど\n敵の防御力が低下する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_026",
+                                "1 string m_description": "鬼哭化した時に毒が敵に必ず発生する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_027",
+                                "1 string m_description": "敵の状態異常耐性が低下する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_028",
+                                "1 string m_description": "鎖の鬼魂の所持数が多いほど\n技攻撃の威力が上昇する。\nトレイズの全ての技を\n修得している時に常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_029",
+                                "1 string m_description": "憑依をトレイズにする\n鬼ビ人チェンジをした時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_030",
+                                "1 string m_description": "憑依をトレイズにするための\n鬼ビ人チェンジの時間が短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_031",
+                                "1 string m_description": "鬼ビ人チェンジ後の隙を\n攻撃でキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_032",
+                                "1 string m_description": "鬼哭中に発動する技に\n鬼哭効果が発生するようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_033",
+                                "1 string m_description": "攻撃後の隙を通常攻撃で\nキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_034",
+                                "1 string m_description": "鎖ジャンプ攻撃の威力が上昇する。\n空中で鎖ジャンプ攻撃の方向を\n変えることができるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_035",
+                                "1 string m_description": "敵に状態異常を発生させた時に\nその敵にダメージを与える。\nトレイズが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_036",
+                                "1 string m_description": "状態異常によって発生する\nダメージが増加する。\nトレイズが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_037",
+                                "1 string m_description": "状態異常発生率が上昇する。\nこの技は鬼哭中のみ発生する。\nトレイズが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_038",
+                                "1 string m_description": "癒し香を使用した時に発生する\n状態変化効果が上昇する。\nトレイズが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_039",
+                                "1 string m_description": "<NAME=CK_0009>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_040",
+                                "1 string m_description": "<NAME=CK_0009>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_041",
+                                "1 string m_description": "<NAME=CK_0009>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0009_042",
+                                "1 string m_description": "<NAME=CK_0009>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_001",
+                                "1 string m_description": "<EX=SKL_PC11_101>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_002",
+                                "1 string m_description": "<EX=SKL_PC11_102>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_003",
+                                "1 string m_description": "<EX=SKL_PC11_103>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_004",
+                                "1 string m_description": "<EX=SKL_PC11_104>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_005",
+                                "1 string m_description": "<EX=SKL_PC11_105>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_006",
+                                "1 string m_description": "<EX=SKL_PC11_106>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_007",
+                                "1 string m_description": "<EX=SKL_PC11_107>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_008",
+                                "1 string m_description": "<EX=SKL_PC11_108>"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_009",
+                                "1 string m_description": "移動か二段ジャンプ中に\n同調率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_010",
+                                "1 string m_description": "移動か二段ジャンプ中は\n敵から攻撃を受けても怯まなくなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_011",
+                                "1 string m_description": "移動か二段ジャンプ中に\n確率で攻撃上昇が発生する。\nこの技による状態変化は重複発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_012",
+                                "1 string m_description": "移動か二段ジャンプ中に\n確率でクリティカル上昇が発生する。\nこの技による状態変化は重複発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_013",
+                                "1 string m_description": "移動している距離が長いほど\n状態強化の発生率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_014",
+                                "1 string m_description": "移動から行った攻撃は\n敵を怯ませやすくなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_015",
+                                "1 string m_description": "移動から行った攻撃は\n防御力を貫通してダメージを与える。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_016",
+                                "1 string m_description": "移動から行った攻撃が当たった時は\n確率で混乱が敵に発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_017",
+                                "1 string m_description": "ＨＰが高いほど\n敵の攻撃力が低下する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_018",
+                                "1 string m_description": "癒し香を使用する時に再生が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_019",
+                                "1 string m_description": "同調率が高いほど、移動から行った\n攻撃の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_020",
+                                "1 string m_description": "同調率が高いほど\n移動か二段ジャンプをしている時の\n被ダメージが減少する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_021",
+                                "1 string m_description": "同調率が１５０を超えると\n移動か二段ジャンプをしている時に\n発生する状態変化効果が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_022",
+                                "1 string m_description": "同調率が１５０を超えると\n発生している状態変化数が多いほど\nクリティカル率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_023",
+                                "1 string m_description": "状態強化の発生時間が長くなる。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_024",
+                                "1 string m_description": "状態強化の発生率が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_025",
+                                "1 string m_description": "ＨＰが高いほど\n敵の防御力が低下する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_026",
+                                "1 string m_description": "移動している距離が長いほど\n攻撃の威力が上昇する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_027",
+                                "1 string m_description": "鬼哭化した時に\n気絶が敵に必ず発生する。\nこの技は鬼哭中のみ発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_028",
+                                "1 string m_description": "牙の鬼魂の所持数が多いほど\n技攻撃の威力が上昇する。\nゼファーの全ての技を\n修得している時に常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_029",
+                                "1 string m_description": "憑依をゼファーにする\n鬼ビ人チェンジをした時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_030",
+                                "1 string m_description": "憑依をゼファーにするための\n鬼ビ人チェンジの時間が短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_031",
+                                "1 string m_description": "鬼ビ人チェンジ後の隙を\n攻撃でキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_032",
+                                "1 string m_description": "鬼哭中に発動する技に\n鬼哭効果が発生するようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_033",
+                                "1 string m_description": "攻撃後の隙を通常攻撃で\nキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_034",
+                                "1 string m_description": "二段ジャンプ攻撃の威力が上昇する。\n空中で二段ジャンプ攻撃の方向を\n変えることができるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_035",
+                                "1 string m_description": "最大ＨＰが上昇する。\nゼファーが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_036",
+                                "1 string m_description": "移動している時にＨＰが回復する。\nゼファーが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_037",
+                                "1 string m_description": "攻撃が当たった時に\n自分の周囲にダメージを与える。\nこの技は鬼哭中のみ発生する。\nゼファーが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_038",
+                                "1 string m_description": "癒し香を使用する時に\n最大ＨＰ上昇が発生する。\nゼファーが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_039",
+                                "1 string m_description": "<NAME=CK_0011>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_040",
+                                "1 string m_description": "<NAME=CK_0011>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_041",
+                                "1 string m_description": "<NAME=CK_0011>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0011_042",
+                                "1 string m_description": "<NAME=CK_0011>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_001",
+                                "1 string m_description": "アイシャの技が設定可能となり\n発動することができる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_002",
+                                "1 string m_description": "アイシャの技を発動した時に\n自動発動するアイシャの技と武器の\n効果が全て発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_003",
+                                "1 string m_description": "増加する同調率が上昇する。\nアイシャとジェクスが\n編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_004",
+                                "1 string m_description": "ザーフの技が設定可能となり\n発動することができる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_005",
+                                "1 string m_description": "ザーフの技を発動した時に\n自動発動するザーフの技と武器の\n効果が全て発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_006",
+                                "1 string m_description": "クリティカル率が上昇する。\nザーフとジェクスが\n編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_007",
+                                "1 string m_description": "ウィルの技が設定可能となり\n発動することができる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_008",
+                                "1 string m_description": "ウィルの技を発動した時に\n自動発動するウィルの技と武器の\n効果が全て発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_009",
+                                "1 string m_description": "攻撃力が上昇する。\nウィルとジェクスが\n編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_010",
+                                "1 string m_description": "イザナの技が設定可能となり\n発動することができる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_011",
+                                "1 string m_description": "イザナの技を発動した時に\n自動発動するイザナの技と武器の\n効果が全て発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_012",
+                                "1 string m_description": "状態変化の発生時間が長くなる。\nイザナとジェクスが\n編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_013",
+                                "1 string m_description": "リガンの技が設定可能となり\n発動することができる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_014",
+                                "1 string m_description": "リガンの技を発動した時に\n自動発動するリガンの技と武器の\n効果が全て発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_015",
+                                "1 string m_description": "反射して与えるダメージが増加する。\nリガンとジェクスが\n編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_016",
+                                "1 string m_description": "ディーアの技が設定可能となり\n発動することができる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_017",
+                                "1 string m_description": "ディーアの技を発動した時に\n自動発動するディーアの技と武器の\n効果が全て発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_018",
+                                "1 string m_description": "状態異常耐性が上昇する。\nディーアとジェクスが\n編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_019",
+                                "1 string m_description": "ガウォードの技が設定可能となり\n発動することができる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_020",
+                                "1 string m_description": "ガウォードの技を発動した時に\n自動発動するガウォードの技と武器の\n効果が全て発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_021",
+                                "1 string m_description": "防御力が上昇する。\nガウォードとジェクスが\n編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_022",
+                                "1 string m_description": "ルシカの技が設定可能となり\n発動することができる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_023",
+                                "1 string m_description": "ルシカの技を発動した時に\n自動発動するルシカの技と武器の\n効果が全て発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_024",
+                                "1 string m_description": "ＣＴが短くなる。\nルシカとジェクスが\n編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_025",
+                                "1 string m_description": "トレイズの技が設定可能となり\n発動することができる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_026",
+                                "1 string m_description": "トレイズの技を発動した時に\n自動発動するトレイズの技と武器の\n効果が全て発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_027",
+                                "1 string m_description": "状態異常発生率が上昇する。\nトレイズとジェクスが\n編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_028",
+                                "1 string m_description": "ゼファーの技が設定可能となり\n発動することができる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_029",
+                                "1 string m_description": "ゼファーの技を発動した時に\n自動発動するゼファーの技と武器の\n効果が全て発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_030",
+                                "1 string m_description": "クリティカル威力が上昇する。\nゼファーとジェクスが\n編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_031",
+                                "1 string m_description": "技の発動回数が多いほど\n必殺技の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_032",
+                                "1 string m_description": "憑依をジェクスにする\n鬼ビ人チェンジをした時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_033",
+                                "1 string m_description": "発動した技の種類が多いほど\n攻撃力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_034",
+                                "1 string m_description": "憑依をジェクスにするための\n鬼ビ人チェンジの時間が短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_035",
+                                "1 string m_description": "鬼ビ人チェンジ後の隙を\n攻撃でキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_036",
+                                "1 string m_description": "攻撃後の隙を必殺技で\nキャンセルできるようになる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_037",
+                                "1 string m_description": "晶炉の鬼魂の所持数が多いほど\n技攻撃の威力が上昇する。\nジェクスの全ての技を\n修得している時に常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_038",
+                                "1 string m_description": "鬼哭中に技を発動した時に\n鬼哭ゲージが回復する。\nジェクスが編成中なら常時発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_039",
+                                "1 string m_description": "<NAME=CK_0012>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_040",
+                                "1 string m_description": "<NAME=CK_0012>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_041",
+                                "1 string m_description": "<NAME=CK_0012>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "MNSKL_CK0012_042",
+                                "1 string m_description": "<NAME=CK_0012>の記憶が封じられている。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_001",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_002",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_003",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_004",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_005",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_006",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_007",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_008",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_009",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_010",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_011",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_012",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_013",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_014",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_015",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_016",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_017",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_018",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_019",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKENS_020",
+                                "1 string m_description": "未使用"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_001",
+                                "1 string m_description": "覚醒効果を設定できる領域が増える。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_002",
+                                "1 string m_description": "技の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_003",
+                                "1 string m_description": "技のクリティカル率が上昇し\nクリティカル威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_004",
+                                "1 string m_description": "技を発動した時に\nクリティカル率や状態変化発生率などの\n各種確率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_005",
+                                "1 string m_description": "技を発動する時に防御力を貫通して\nダメージを与えることができる。\nガード効果も低下する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_006",
+                                "1 string m_description": "技を発動した時にＨＰが回復する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_007",
+                                "1 string m_description": "技の発動中は怯みにくくなる。\n技が敵に当たった時に\n防御上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_008",
+                                "1 string m_description": "技が敵に当たった時に\n同調率が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_009",
+                                "1 string m_description": "技の鬼哭中の威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_010",
+                                "1 string m_description": "技を発動した後の隙をキャンセルして\n鬼ビ人アクションを行うことができる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_011",
+                                "1 string m_description": "攻撃した後の隙をキャンセルして\n技が発動できる。\nキャンセルした時は威力が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_012",
+                                "1 string m_description": "技が敵に当たった時に\n確率で敵を強制的に怯ませる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_013",
+                                "1 string m_description": "技の状態異常発生率が上昇する。\n技が敵に当たった時に確率で\n何らかの状態異常がその敵に発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_014",
+                                "1 string m_description": "技が敵に当たった時に\n攻撃低下がその敵に発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_015",
+                                "1 string m_description": "技が敵に当たった時に\n防御低下がその敵に発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_016",
+                                "1 string m_description": "技のＣＴが短くなる。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_017",
+                                "1 string m_description": "技の効果に影響がある\n影石の効果が上昇する。\n付与数により発生効果が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_018",
+                                "1 string m_description": "発動した技に影響がある\n自動発生する技の効果が上昇する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_019",
+                                "1 string m_description": "技が敵に当たった時に\n攻撃上昇が発生する。"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "AWAKE_PROP_020",
+                                "1 string m_description": "技が敵に当たった時に\n移動速度上昇が発生する。"
+                            }}
+                        ]
+                    }
+                }}
+            ]
+        }
+    }
+}

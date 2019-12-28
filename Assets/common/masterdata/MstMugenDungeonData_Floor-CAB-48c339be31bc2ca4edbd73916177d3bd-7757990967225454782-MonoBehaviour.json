@@ -1,0 +1,791 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": -8288930042833408008
+        },
+        "1 string m_Name": "MstMugenDungeonData_Floor",
+        "0 Sheet m_sheets": 
+        {
+            "0 Array Array": [
+                {"0 Sheet data": 
+                {
+                    "1 string m_name": "Floor",
+                    "0 Param m_list": 
+                    {
+                        "0 Array Array": [
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_001",
+                                "0 int m_floorMin": 1,
+                                "0 int m_floorMax": 5,
+                                "0 int m_enemyLvMin": 60,
+                                "0 int m_enemyLvMax": 62,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_002",
+                                "0 int m_floorMin": 6,
+                                "0 int m_floorMax": 10,
+                                "0 int m_enemyLvMin": 63,
+                                "0 int m_enemyLvMax": 65,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_003",
+                                "0 int m_floorMin": 11,
+                                "0 int m_floorMax": 15,
+                                "0 int m_enemyLvMin": 66,
+                                "0 int m_enemyLvMax": 68,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_004",
+                                "0 int m_floorMin": 16,
+                                "0 int m_floorMax": 20,
+                                "0 int m_enemyLvMin": 69,
+                                "0 int m_enemyLvMax": 71,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_005",
+                                "0 int m_floorMin": 21,
+                                "0 int m_floorMax": 25,
+                                "0 int m_enemyLvMin": 72,
+                                "0 int m_enemyLvMax": 74,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_006",
+                                "0 int m_floorMin": 26,
+                                "0 int m_floorMax": 30,
+                                "0 int m_enemyLvMin": 75,
+                                "0 int m_enemyLvMax": 77,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_007",
+                                "0 int m_floorMin": 31,
+                                "0 int m_floorMax": 35,
+                                "0 int m_enemyLvMin": 68,
+                                "0 int m_enemyLvMax": 70,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_008",
+                                "0 int m_floorMin": 36,
+                                "0 int m_floorMax": 40,
+                                "0 int m_enemyLvMin": 71,
+                                "0 int m_enemyLvMax": 73,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_009",
+                                "0 int m_floorMin": 41,
+                                "0 int m_floorMax": 45,
+                                "0 int m_enemyLvMin": 74,
+                                "0 int m_enemyLvMax": 76,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_010",
+                                "0 int m_floorMin": 46,
+                                "0 int m_floorMax": 50,
+                                "0 int m_enemyLvMin": 77,
+                                "0 int m_enemyLvMax": 79,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_011",
+                                "0 int m_floorMin": 51,
+                                "0 int m_floorMax": 55,
+                                "0 int m_enemyLvMin": 80,
+                                "0 int m_enemyLvMax": 82,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_012",
+                                "0 int m_floorMin": 56,
+                                "0 int m_floorMax": 60,
+                                "0 int m_enemyLvMin": 83,
+                                "0 int m_enemyLvMax": 85,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_013",
+                                "0 int m_floorMin": 61,
+                                "0 int m_floorMax": 65,
+                                "0 int m_enemyLvMin": 86,
+                                "0 int m_enemyLvMax": 88,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_014",
+                                "0 int m_floorMin": 66,
+                                "0 int m_floorMax": 70,
+                                "0 int m_enemyLvMin": 89,
+                                "0 int m_enemyLvMax": 91,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_015",
+                                "0 int m_floorMin": 71,
+                                "0 int m_floorMax": 75,
+                                "0 int m_enemyLvMin": 92,
+                                "0 int m_enemyLvMax": 94,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_016",
+                                "0 int m_floorMin": 76,
+                                "0 int m_floorMax": 80,
+                                "0 int m_enemyLvMin": 95,
+                                "0 int m_enemyLvMax": 97,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_017",
+                                "0 int m_floorMin": 81,
+                                "0 int m_floorMax": 85,
+                                "0 int m_enemyLvMin": 98,
+                                "0 int m_enemyLvMax": 100,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_018",
+                                "0 int m_floorMin": 86,
+                                "0 int m_floorMax": 90,
+                                "0 int m_enemyLvMin": 101,
+                                "0 int m_enemyLvMax": 103,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_019",
+                                "0 int m_floorMin": 91,
+                                "0 int m_floorMax": 95,
+                                "0 int m_enemyLvMin": 104,
+                                "0 int m_enemyLvMax": 106,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": ""},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "DUNGEON_020",
+                                "0 int m_floorMin": 96,
+                                "0 int m_floorMax": 100,
+                                "0 int m_enemyLvMin": 107,
+                                "0 int m_enemyLvMax": 109,
+                                "0 float m_enemyPointRatio": 45,
+                                "0 vector m_maps": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "ma_0001_21"},
+                                        {"1 string data": "ma_0001_31"},
+                                        {"1 string data": "ma_0002_41"},
+                                        {"1 string data": "ma_0002_61"},
+                                        {"1 string data": "ma_0002_71"},
+                                        {"1 string data": "ma_0002_81"},
+                                        {"1 string data": "ma_0101_11"},
+                                        {"1 string data": "ma_0102_11"},
+                                        {"1 string data": "ma_0102_21"},
+                                        {"1 string data": "ma_0103_11"},
+                                        {"1 string data": "ma_0103_21"},
+                                        {"1 string data": "ma_0104_11"},
+                                        {"1 string data": "ma_0201_11"},
+                                        {"1 string data": "ma_0201_31"},
+                                        {"1 string data": "ma_0202_11"},
+                                        {"1 string data": "ma_0203_11"},
+                                        {"1 string data": "ma_0203_31"},
+                                        {"1 string data": "ma_0401_11"},
+                                        {"1 string data": "ma_0401_21"},
+                                        {"1 string data": "ma_0401_31"},
+                                        {"1 string data": "ma_0401_41"},
+                                        {"1 string data": "ma_0402_11"},
+                                        {"1 string data": "ma_0402_21"},
+                                        {"1 string data": "ma_0402_41"}
+                                    ]
+                                }
+                            }}
+                        ]
+                    }
+                }}
+            ]
+        }
+    }
+}

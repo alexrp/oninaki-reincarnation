@@ -1,0 +1,59 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": -3843508364575963659
+        },
+        "1 string m_Name": "MstGlobalBattleData_Awakens",
+        "0 Sheet m_sheets": 
+        {
+            "0 Array Array": [
+                {"0 Sheet data": 
+                {
+                    "1 string m_name": "Awakens",
+                    "0 Param m_list": 
+                    {
+                        "0 Array Array": [
+                            {"0 Param data": 
+                            {
+                                "0 float m_activeTime": 30,
+                                "0 float m_banTime": 60,
+                                "0 float m_getCountLimitRatio": 0.200000003,
+                                "0 float m_baseRatio": 1,
+                                "0 float m_pinchAddRatio": 2,
+                                "0 int m_pinchJudgeHpRatio": 30,
+                                "0 int m_pinchJudgePotionRatio": 50,
+                                "0 float m_bossAddRatio": 2,
+                                "0 vector m_timeAddRatio": 
+                                {
+                                    "1 Array Array": [
+                                        {"0 float data": 0.5},
+                                        {"0 float data": 2},
+                                        {"0 float data": 5}
+                                    ]
+                                },
+                                "0 vector m_timeJudgeTime": 
+                                {
+                                    "1 Array Array": [
+                                        {"0 float data": 120},
+                                        {"0 float data": 300},
+                                        {"0 float data": 600}
+                                    ]
+                                },
+                                "0 float m_comboJudgeTime": 10
+                            }}
+                        ]
+                    }
+                }}
+            ]
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 6484277972320148975
+        },
+        "1 string m_Name": "MstGlobalBattleData_Synchro",
+        "0 Sheet m_sheets": 
+        {
+            "0 Array Array": [
+                {"0 Sheet data": 
+                {
+                    "1 string m_name": "Synchro",
+                    "0 Param m_list": 
+                    {
+                        "0 Array Array": [
+                            {"0 Param data": 
+                            {
+                                "0 int m_syncRatioBase": 0,
+                                "0 int m_syncRatioStatusChangeSmall": 20,
+                                "0 int m_syncRatioStatusChangeMedium": 100,
+                                "0 int m_syncRatioStatusChangeLarge": 150,
+                                "0 int m_syncRatioLimitMin": 200,
+                                "0 int m_syncRatioLimitMax": 300,
+                                "0 int m_syncRatioKikoku": 100,
+                                "0 float m_remainKikokuRate": 0.5,
+                                "0 float m_changeSyncRatioLevelUpMin": 1,
+                                "0 float m_changeSyncRatioLevelUpMax": 3,
+                                "0 float m_changeSyncRatioAwakenMin": 1,
+                                "0 float m_changeSyncRatioAwakenMax": 3,
+                                "0 float m_changeSyncRatioTimeStartTime": -1,
+                                "0 float m_changeSyncRatioTimeBetweenTime": -1,
+                                "0 float m_changeSyncRatioTimeValue": -1,
+                                "0 float m_skillComboUseDecRate": 1,
+                                "0 float m_changeSyncRatioReceiveDamageRate": 0.300000012
+                            }}
+                        ]
+                    }
+                }}
+            ]
+        }
+    }
+}

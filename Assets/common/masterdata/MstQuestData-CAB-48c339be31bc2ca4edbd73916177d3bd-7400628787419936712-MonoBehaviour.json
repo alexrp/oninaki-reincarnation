@@ -1,0 +1,799 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": -6995852540723942401
+        },
+        "1 string m_Name": "MstQuestData",
+        "0 Sheet m_sheets": 
+        {
+            "0 Array Array": [
+                {"0 Sheet data": 
+                {
+                    "1 string m_name": "Quest",
+                    "0 Param m_list": 
+                    {
+                        "0 Array Array": [
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_001",
+                                "1 string m_questCounterName": "クエスト1",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 210000,
+                                "0 int m_counterMax": 299999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_01_start",
+                                "1 string m_map": "ma_0101_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_10"},
+                                        {"1 string data": "EVENT_10_POS_01"},
+                                        {"1 string data": "EVENT_10_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_002",
+                                "1 string m_questCounterName": "クエスト2",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 0,
+                                "0 int m_counterMax": 299999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_02_start",
+                                "1 string m_map": "ma_0001_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_14"},
+                                        {"1 string data": "EVENT_14_POS_01"},
+                                        {"1 string data": "EVENT_14_POS_02"},
+                                        {"1 string data": "ma_0001_11_01055"}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_003",
+                                "1 string m_questCounterName": "クエスト3",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 210000,
+                                "0 int m_counterMax": 299999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_03_start",
+                                "1 string m_map": "ma_0104_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_12"},
+                                        {"1 string data": "EVENT_12_POS_01"},
+                                        {"1 string data": "EVENT_12_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_004",
+                                "1 string m_questCounterName": "クエスト4",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 230000,
+                                "0 int m_counterMax": 299999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_04_start",
+                                "1 string m_map": "ma_0103_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_01"},
+                                        {"1 string data": "EVENT_01_POS_01"},
+                                        {"1 string data": "EVENT_01_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_005",
+                                "1 string m_questCounterName": "クエスト5",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 0,
+                                "0 int m_counterMax": 299999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 3,
+                                "1 string m_npcPlacementId": "quest_05_start",
+                                "1 string m_map": "ma_0201_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "CE_0008"},
+                                        {"1 string data": "10"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_006",
+                                "1 string m_questCounterName": "クエスト6",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 231030,
+                                "0 int m_counterMax": 299999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_06_start",
+                                "1 string m_map": "ma_0002_32",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_04"},
+                                        {"1 string data": "EVENT_04_POS_01"},
+                                        {"1 string data": "EVENT_04_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_007",
+                                "1 string m_questCounterName": "クエスト7",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 2,
+                                "1 string m_npcPlacementId": "quest_07_start",
+                                "1 string m_map": "ma_0103_21",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "WP_0005_08_001"},
+                                        {"1 string data": "0"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_008",
+                                "1 string m_questCounterName": "クエスト8",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 3,
+                                "1 string m_npcPlacementId": "quest_08_start",
+                                "1 string m_map": "ma_0102_21",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "CE_0013_03"},
+                                        {"1 string data": "10"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_009",
+                                "1 string m_questCounterName": "クエスト9",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_09_start",
+                                "1 string m_map": "ma_0201_31",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_07"},
+                                        {"1 string data": "EVENT_07_POS_01"},
+                                        {"1 string data": "EVENT_07_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 2
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_010",
+                                "1 string m_questCounterName": "クエスト10",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 2,
+                                "1 string m_npcPlacementId": "quest_10_start",
+                                "1 string m_map": "ma_0104_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "WP_0002_01_001"},
+                                        {"1 string data": "100"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_011",
+                                "1 string m_questCounterName": "クエスト11",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 0,
+                                "0 int m_counterMax": 299999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_11_start",
+                                "1 string m_map": "ma_0002_21",
+                                "0 int m_worldMode": 2,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_01"},
+                                        {"1 string data": "EVENT_01_POS_01"},
+                                        {"1 string data": "EVENT_01_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_012",
+                                "1 string m_questCounterName": "クエスト12",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 430000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_12_start",
+                                "1 string m_map": "ma_0600_00",
+                                "0 int m_worldMode": 2,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_01"},
+                                        {"1 string data": "EVENT_01_POS_01"},
+                                        {"1 string data": "EVENT_01_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 2
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_013",
+                                "1 string m_questCounterName": "クエスト13",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_13_start",
+                                "1 string m_map": "ma_0203_21",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_07"},
+                                        {"1 string data": "EVENT_07_POS_01"},
+                                        {"1 string data": "EVENT_07_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_014",
+                                "1 string m_questCounterName": "クエスト14",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_14_start",
+                                "1 string m_map": "ma_0001_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_20"},
+                                        {"1 string data": "EVENT_20_POS_01"},
+                                        {"1 string data": "EVENT_20_POS_02"},
+                                        {"1 string data": "ma_0001_11_11048"}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_015",
+                                "1 string m_questCounterName": "クエスト15",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 3,
+                                "1 string m_npcPlacementId": "quest_15_start",
+                                "1 string m_map": "ma_0103_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "CE_0007_02"},
+                                        {"1 string data": "10"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_016",
+                                "1 string m_questCounterName": "クエスト16",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_16_start",
+                                "1 string m_map": "ma_0001_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_21"},
+                                        {"1 string data": "EVENT_21_POS_01"},
+                                        {"1 string data": "EVENT_21_POS_02"},
+                                        {"1 string data": "ma_0001_11_11018"}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_017",
+                                "1 string m_questCounterName": "クエスト17",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_17_start",
+                                "1 string m_map": "ma_0001_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_22"},
+                                        {"1 string data": "EVENT_22_POS_01"},
+                                        {"1 string data": "EVENT_22_POS_02"},
+                                        {"1 string data": "ma_0001_11_11009"}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_018",
+                                "1 string m_questCounterName": "クエスト18",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_18_start",
+                                "1 string m_map": "ma_0001_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_23"},
+                                        {"1 string data": "EVENT_23_POS_01"},
+                                        {"1 string data": "EVENT_23_POS_02"},
+                                        {"1 string data": "ma_0001_11_11012"}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_019",
+                                "1 string m_questCounterName": "クエスト19",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_19_start",
+                                "1 string m_map": "ma_0001_21",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_02"},
+                                        {"1 string data": "EVENT_02_POS_01"},
+                                        {"1 string data": "EVENT_02_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_020",
+                                "1 string m_questCounterName": "クエスト20",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 312070,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_20_start",
+                                "1 string m_map": "ma_0001_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_19"},
+                                        {"1 string data": "EVENT_19_POS_01"},
+                                        {"1 string data": "EVENT_19_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_021",
+                                "1 string m_questCounterName": "クエスト21",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 0,
+                                "0 int m_counterMax": 299999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 2,
+                                "1 string m_npcPlacementId": "quest_21_start",
+                                "1 string m_map": "ma_0001_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "WP_0003_01_001"},
+                                        {"1 string data": "0"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_022",
+                                "1 string m_questCounterName": "クエスト22",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 431000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_22_start",
+                                "1 string m_map": "ma_0001_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_24"},
+                                        {"1 string data": "EVENT_24_POS_01"},
+                                        {"1 string data": "EVENT_24_POS_02"},
+                                        {"1 string data": "ma_0001_11_61024"}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 2
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_023",
+                                "1 string m_questCounterName": "クエスト23",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_23_start",
+                                "1 string m_map": "ma_0203_31",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_07"},
+                                        {"1 string data": "EVENT_07_POS_01"},
+                                        {"1 string data": "EVENT_07_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 2
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_024",
+                                "1 string m_questCounterName": "クエスト24",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 2,
+                                "1 string m_npcPlacementId": "quest_24_start",
+                                "1 string m_map": "ma_0202_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": "200"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_025",
+                                "1 string m_questCounterName": "クエスト25",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 312070,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 2,
+                                "1 string m_npcPlacementId": "quest_25_start",
+                                "1 string m_map": "ma_0201_41",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "WP_0007_10_001"},
+                                        {"1 string data": "0"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 2
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_026",
+                                "1 string m_questCounterName": "クエスト26",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 2,
+                                "1 string m_npcPlacementId": "quest_26_start",
+                                "1 string m_map": "ma_0203_21",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "WP_0004_02_001,WP_0007_05_001,WP_0007_07_001,WP_0007_09_001,WP_0009_05_001,WP_0012_01_001"},
+                                        {"1 string data": "0"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_027",
+                                "1 string m_questCounterName": "クエスト27",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 231020,
+                                "0 int m_counterMax": 299999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_27_start",
+                                "1 string m_map": "ma_0202_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_05"},
+                                        {"1 string data": "EVENT_05_POS_01"},
+                                        {"1 string data": "EVENT_05_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_028",
+                                "1 string m_questCounterName": "クエスト28",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 2,
+                                "1 string m_npcPlacementId": "quest_28_start",
+                                "1 string m_map": "ma_0201_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": "150"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_029",
+                                "1 string m_questCounterName": "クエスト29",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 0,
+                                "0 int m_counterMax": 299999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 3,
+                                "1 string m_npcPlacementId": "quest_29_start",
+                                "1 string m_map": "ma_0001_21",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "CE_0012"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_030",
+                                "1 string m_questCounterName": "クエスト30",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 300000,
+                                "0 int m_counterMax": 999999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 3,
+                                "1 string m_npcPlacementId": "quest_30_start",
+                                "1 string m_map": "ma_0101_11",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "CE_0008_02"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_031",
+                                "1 string m_questCounterName": "クエスト31",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 230000,
+                                "0 int m_counterMax": 299999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 1,
+                                "1 string m_npcPlacementId": "quest_31_start",
+                                "1 string m_map": "ma_0201_21",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EVENT_05"},
+                                        {"1 string data": "EVENT_05_POS_01"},
+                                        {"1 string data": "EVENT_05_POS_02"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "QUEST_032",
+                                "1 string m_questCounterName": "クエスト32",
+                                "1 string m_counterName": "イベントリスト",
+                                "0 int m_counterMin": 0,
+                                "0 int m_counterMax": 299999,
+                                "1 string m_enableFlag": "",
+                                "1 string m_disableFlag": "",
+                                "0 int m_questType": 3,
+                                "1 string m_npcPlacementId": "quest_32_start",
+                                "1 string m_map": "ma_0103_21",
+                                "0 int m_worldMode": 1,
+                                "0 vector m_param": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "CE_0003"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 int m_onitamaNum": 1
+                            }}
+                        ]
+                    }
+                }}
+            ]
+        }
+    }
+}

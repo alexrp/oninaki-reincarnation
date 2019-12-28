@@ -1,0 +1,1030 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": -1896389107029812818
+        },
+        "1 string m_Name": "MstGroundReactionData",
+        "0 Sheet m_sheets": 
+        {
+            "0 Array Array": [
+                {"0 Sheet data": 
+                {
+                    "1 string m_name": "GroundReaction",
+                    "0 Param m_list": 
+                    {
+                        "0 Array Array": [
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ATTACK",
+                                "1 string m_kakuriyoEffectId": "",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_HIT_SOIL"},
+                                        {"1 string data": "SE_BT_HIT_SAND"},
+                                        {"1 string data": "SE_BT_HIT_GRASS"},
+                                        {"1 string data": "SE_BT_HIT_WOOD"},
+                                        {"1 string data": "SE_BT_HIT_STONE"},
+                                        {"1 string data": "SE_BT_HIT_RESIN"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CMN_GM_HIT_SOIL_00"},
+                                        {"1 string data": "EF_CMN_GM_HIT_SAND_00"},
+                                        {"1 string data": "EF_CMN_GM_HIT_GRASS_00"},
+                                        {"1 string data": "EF_CMN_GM_HIT_WOODCHIP_00"},
+                                        {"1 string data": "EF_CMN_GM_HIT_METAL_00"},
+                                        {"1 string data": "EF_CMN_GM_HIT_WATER_01"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "PLAYER",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_PC_SOIL"},
+                                        {"1 string data": "SE_FT_PC_SOIL"},
+                                        {"1 string data": "SE_FT_PC_GRASS"},
+                                        {"1 string data": "SE_FT_PC_WOOD"},
+                                        {"1 string data": "SE_FT_PC_STONE"},
+                                        {"1 string data": "SE_FT_PC_RESIN"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CMN_GM_FOOT_SOIL_00"},
+                                        {"1 string data": "EF_CMN_GM_FOOT_SAND_00"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": "EF_CMN_GM_FOOT_WATER_01"}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "PARTNER",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "KAMISHIRO",
+                                "1 string m_kakuriyoEffectId": "",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "NPC",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_PC_SOIL"},
+                                        {"1 string data": "SE_FT_PC_SOIL"},
+                                        {"1 string data": "SE_FT_PC_GRASS"},
+                                        {"1 string data": "SE_FT_PC_WOOD"},
+                                        {"1 string data": "SE_FT_PC_STONE"},
+                                        {"1 string data": "SE_FT_PC_RESIN"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY",
+                                "1 string m_kakuriyoEffectId": "",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1001",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1001_02",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1002",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1002_02",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1003",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1003_02",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1006",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1006_02",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1007",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1007_02",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1008",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1008_02",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1013",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"},
+                                        {"1 string data": "SE_FT_ENB_STONE"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_2001",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_2002",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_2003",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_2004",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_2005",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_2001_02",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_2002_02",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_2003_02",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_2004_02",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_2005_02",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"},
+                                        {"1 string data": "SE_BT_BOSS_JUMP"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1004",
+                                "1 string m_kakuriyoEffectId": "",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1005",
+                                "1 string m_kakuriyoEffectId": "",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_1005_02",
+                                "1 string m_kakuriyoEffectId": "",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"},
+                                        {"1 string data": "SE_BT_BOSS_FLOAT"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_3001",
+                                "1 string m_kakuriyoEffectId": "",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_3002",
+                                "1 string m_kakuriyoEffectId": "",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_3001_02",
+                                "1 string m_kakuriyoEffectId": "",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CE_3002_02",
+                                "1 string m_kakuriyoEffectId": "",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"},
+                                        {"1 string data": "SE_BT_BOSS_ROLLING"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                }
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0011",
+                                "1 string m_kakuriyoEffectId": "EF_CMN_GM_FOOT_KAKURIYO_00",
+                                "0 vector m_seId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SE_FT_PC_SOIL"},
+                                        {"1 string data": "SE_FT_PC_SOIL"},
+                                        {"1 string data": "SE_FT_PC_GRASS"},
+                                        {"1 string data": "SE_FT_PC_WOOD"},
+                                        {"1 string data": "SE_FT_PC_STONE"},
+                                        {"1 string data": "SE_FT_PC_RESIN"}
+                                    ]
+                                },
+                                "0 vector m_effectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CMN_GM_FOOT_SOIL_00"},
+                                        {"1 string data": "EF_CMN_GM_FOOT_SAND_00"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": "EF_CMN_GM_FOOT_WATER_01"}
+                                    ]
+                                }
+                            }}
+                        ]
+                    }
+                }}
+            ]
+        }
+    }
+}

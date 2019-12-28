@@ -1,0 +1,48 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 2821683284714037592
+        },
+        "1 string m_Name": "MstGlobalBattleData_Move",
+        "0 Sheet m_sheets": 
+        {
+            "0 Array Array": [
+                {"0 Sheet data": 
+                {
+                    "1 string m_name": "Move",
+                    "0 Param m_list": 
+                    {
+                        "0 Array Array": [
+                            {"0 Param data": 
+                            {
+                                "0 float m_gravityScale": 4,
+                                "0 int m_slopeLimitAngle": 65,
+                                "0 float m_walkStartInput": 0,
+                                "0 float m_runStartInput": 0.660000026,
+                                "0 float m_minMoveDistance": 0.25,
+                                "0 int m_speedDownWallAngle": 10,
+                                "0 int m_stopWallAngle": 80,
+                                "0 float m_minSpeedDownWallScale": 0.899999976,
+                                "0 float m_maxSpeedDownWallScale": 0.200000003,
+                                "0 int m_speedDownSlopeUpAngle": 20,
+                                "0 float m_maxSpeedDownSlopeUpScale": 0.75,
+                                "0 float m_onGroundReverseTime": 0.100000001,
+                                "0 float m_navMeshJumpHeight": 1.5,
+                                "0 float m_navMeshDropHeight": 10
+                            }}
+                        ]
+                    }
+                }}
+            ]
+        }
+    }
+}

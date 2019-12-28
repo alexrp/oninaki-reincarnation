@@ -1,0 +1,1067 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 6472366127445672910
+        },
+        "1 string m_Name": "MstKamishiroBaseData",
+        "0 Sheet m_sheets": 
+        {
+            "0 Array Array": [
+                {"0 Sheet data": 
+                {
+                    "1 string m_name": "Base",
+                    "0 Param m_list": 
+                    {
+                        "0 Array Array": [
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0000",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "wp_1000_01",
+                                "1 string m_weaponPrefabNameLeft": "",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 0,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_419",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_COMMON",
+                                "1 string m_usableGolemFlag": "",
+                                "1 string m_kamishiroChangeCancelFlag": "",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 100,
+                                "0 float m_onitamaExpOnHeal": 1,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "",
+                                "1 string m_bossFinishActLargeSkillId": "",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0,
+                                "0 int m_moveSpeedRatio": 85,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 100,
+                                "0 int m_knockBackDefense": 50,
+                                "0 int m_knockBlowDefense": 50,
+                                "0 int m_knockUpDefense": 50,
+                                "0 int m_knockDownDefense": 50,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 100,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 50,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0001",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CK_0001_SPIRIT_00"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "wp_0001_00",
+                                "1 string m_weaponPrefabNameLeft": "",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 0,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_BT_BLADE",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_BLADE",
+                                "1 string m_usableGolemFlag": "SKL_PC01_toPC12",
+                                "1 string m_kamishiroChangeCancelFlag": "SKL_PC01_CAHNGE_CANSEL",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 100,
+                                "0 float m_onitamaExpOnHeal": 1,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "SKL_PC01_UNIQUE",
+                                "1 string m_bossFinishActLargeSkillId": "SKL_PC01_999",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC01_001"},
+                                        {"1 string data": "SKL_PC01_002"},
+                                        {"1 string data": "SKL_PC01_003"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC01_101"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0,
+                                "0 int m_moveSpeedRatio": 80,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 100,
+                                "0 int m_knockBackDefense": 30,
+                                "0 int m_knockBlowDefense": 30,
+                                "0 int m_knockUpDefense": 30,
+                                "0 int m_knockDownDefense": 30,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 100,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 50,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0002",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CK_0002_SPIRIT_00"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "wp_0002_00",
+                                "1 string m_weaponPrefabNameLeft": "",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 0,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_BT_SPEAR",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_SPEAR",
+                                "1 string m_usableGolemFlag": "SKL_PC02_toPC12",
+                                "1 string m_kamishiroChangeCancelFlag": "SKL_PC02_CAHNGE_CANSEL",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 100,
+                                "0 float m_onitamaExpOnHeal": 1,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "SKL_PC02_UNIQUE",
+                                "1 string m_bossFinishActLargeSkillId": "SKL_PC02_999",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC02_001"},
+                                        {"1 string data": "SKL_PC02_002"},
+                                        {"1 string data": "SKL_PC02_003"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "SKL_PC02_010",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC02_101"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0,
+                                "0 int m_moveSpeedRatio": 70,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 80,
+                                "0 int m_knockBackDefense": 40,
+                                "0 int m_knockBlowDefense": 40,
+                                "0 int m_knockUpDefense": 40,
+                                "0 int m_knockDownDefense": 40,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 70,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 50,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0003",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CK_0003_SPIRIT_00"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "wp_0003_00",
+                                "1 string m_weaponPrefabNameLeft": "",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 0,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_BT_AX",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_AX",
+                                "1 string m_usableGolemFlag": "SKL_PC03_toPC12",
+                                "1 string m_kamishiroChangeCancelFlag": "SKL_PC03_CAHNGE_CANSEL",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 100,
+                                "0 float m_onitamaExpOnHeal": 1,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "SKL_PC03_UNIQUE",
+                                "1 string m_bossFinishActLargeSkillId": "SKL_PC03_999",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC03_001"},
+                                        {"1 string data": "SKL_PC03_002"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC03_101"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0,
+                                "0 int m_moveSpeedRatio": 65,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 90,
+                                "0 int m_knockBackDefense": 40,
+                                "0 int m_knockBlowDefense": 40,
+                                "0 int m_knockUpDefense": 40,
+                                "0 int m_knockDownDefense": 40,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 80,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 50,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0004",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CK_0004_SPIRIT_00"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "wp_0004_00",
+                                "1 string m_weaponPrefabNameLeft": "",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 0,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_BT_SCYTHE",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_SCYTHE",
+                                "1 string m_usableGolemFlag": "SKL_PC04_toPC12",
+                                "1 string m_kamishiroChangeCancelFlag": "SKL_PC04_CAHNGE_CANSEL",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 100,
+                                "0 float m_onitamaExpOnHeal": 1,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "SKL_PC04_UNIQUE",
+                                "1 string m_bossFinishActLargeSkillId": "SKL_PC04_999",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC04_001"},
+                                        {"1 string data": "SKL_PC04_002"},
+                                        {"1 string data": "SKL_PC04_003"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC04_101"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0,
+                                "0 int m_moveSpeedRatio": 70,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 90,
+                                "0 int m_knockBackDefense": 30,
+                                "0 int m_knockBlowDefense": 30,
+                                "0 int m_knockUpDefense": 30,
+                                "0 int m_knockDownDefense": 30,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 105,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 50,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0005",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CK_0005_SPIRIT_00"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "wp_0005_00",
+                                "1 string m_weaponPrefabNameLeft": "wp_0005_00",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 1,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_BT_SS",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_SS",
+                                "1 string m_usableGolemFlag": "SKL_PC05_toPC12",
+                                "1 string m_kamishiroChangeCancelFlag": "SKL_PC05_CAHNGE_CANSEL",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 100,
+                                "0 float m_onitamaExpOnHeal": 1,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "SKL_PC05_UNIQUE",
+                                "1 string m_bossFinishActLargeSkillId": "SKL_PC05_999",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC05_001"},
+                                        {"1 string data": "SKL_PC05_002"},
+                                        {"1 string data": "SKL_PC05_003"},
+                                        {"1 string data": "SKL_PC05_004"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC05_101"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0,
+                                "0 int m_moveSpeedRatio": 85,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 90,
+                                "0 int m_knockBackDefense": 30,
+                                "0 int m_knockBlowDefense": 30,
+                                "0 int m_knockUpDefense": 30,
+                                "0 int m_knockDownDefense": 30,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 110,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 50,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0006",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CK_0006_SPIRIT_00"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "wp_0006_00",
+                                "1 string m_weaponPrefabNameLeft": "wp_1006_00",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 1,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_BT_SHOOT",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_SHOOT",
+                                "1 string m_usableGolemFlag": "SKL_PC06_toPC12",
+                                "1 string m_kamishiroChangeCancelFlag": "SKL_PC06_CAHNGE_CANSEL",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 100,
+                                "0 float m_onitamaExpOnHeal": 1,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "SKL_PC06_UNIQUE",
+                                "1 string m_bossFinishActLargeSkillId": "SKL_PC06_999",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC06_001"},
+                                        {"1 string data": "SKL_PC06_002"},
+                                        {"1 string data": "SKL_PC06_003"},
+                                        {"1 string data": "SKL_PC06_004"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "SKL_PC06_010",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC06_101"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0,
+                                "0 int m_moveSpeedRatio": 75,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 90,
+                                "0 int m_knockBackDefense": 10,
+                                "0 int m_knockBlowDefense": 10,
+                                "0 int m_knockUpDefense": 10,
+                                "0 int m_knockDownDefense": 10,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 120,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 50,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0007",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CK_0007_SPIRIT_00"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "wp_0007_00",
+                                "1 string m_weaponPrefabNameLeft": "",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 0,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_BT_SHILDWEP",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_SHILDWEP",
+                                "1 string m_usableGolemFlag": "SKL_PC07_toPC12",
+                                "1 string m_kamishiroChangeCancelFlag": "SKL_PC07_CAHNGE_CANSEL",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 100,
+                                "0 float m_onitamaExpOnHeal": 1,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "SKL_PC07_UNIQUE",
+                                "1 string m_bossFinishActLargeSkillId": "SKL_PC07_999",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC07_001"},
+                                        {"1 string data": "SKL_PC07_002"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC07_101"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0,
+                                "0 int m_moveSpeedRatio": 65,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 90,
+                                "0 int m_knockBackDefense": 50,
+                                "0 int m_knockBlowDefense": 50,
+                                "0 int m_knockUpDefense": 50,
+                                "0 int m_knockDownDefense": 50,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 90,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 50,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0008",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CK_0008_SPIRIT_00"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "",
+                                "1 string m_weaponPrefabNameLeft": "",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 1,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_BT_FIST",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_FIST",
+                                "1 string m_usableGolemFlag": "SKL_PC08_toPC12",
+                                "1 string m_kamishiroChangeCancelFlag": "SKL_PC08_CAHNGE_CANSEL",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 100,
+                                "0 float m_onitamaExpOnHeal": 1,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "SKL_PC08_UNIQUE",
+                                "1 string m_bossFinishActLargeSkillId": "SKL_PC08_999",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC08_001"},
+                                        {"1 string data": "SKL_PC08_002"},
+                                        {"1 string data": "SKL_PC08_003"},
+                                        {"1 string data": "SKL_PC08_004"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC08_101"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0,
+                                "0 int m_moveSpeedRatio": 90,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 90,
+                                "0 int m_knockBackDefense": 10,
+                                "0 int m_knockBlowDefense": 10,
+                                "0 int m_knockUpDefense": 10,
+                                "0 int m_knockDownDefense": 10,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 130,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 50,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0009",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CK_0009_SPIRIT_00"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "wp_0009_00_r",
+                                "1 string m_weaponPrefabNameLeft": "wp_0009_00_l",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 1,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_BT_WHIP",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_WHIP",
+                                "1 string m_usableGolemFlag": "SKL_PC09_toPC12",
+                                "1 string m_kamishiroChangeCancelFlag": "SKL_PC09_CAHNGE_CANSEL",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 100,
+                                "0 float m_onitamaExpOnHeal": 1,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "SKL_PC09_UNIQUE",
+                                "1 string m_bossFinishActLargeSkillId": "SKL_PC09_999",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC09_001"},
+                                        {"1 string data": "SKL_PC09_002"},
+                                        {"1 string data": "SKL_PC09_003"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "SKL_PC09_010",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC09_101"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0,
+                                "0 int m_moveSpeedRatio": 70,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 90,
+                                "0 int m_knockBackDefense": 20,
+                                "0 int m_knockBlowDefense": 20,
+                                "0 int m_knockUpDefense": 20,
+                                "0 int m_knockDownDefense": 20,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 110,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 50,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0011",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CK_0011_SPIRIT_00"},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "",
+                                "1 string m_weaponPrefabNameLeft": "",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 0,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_BT_WOLF",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_WOLF",
+                                "1 string m_usableGolemFlag": "SKL_PC11_toPC12",
+                                "1 string m_kamishiroChangeCancelFlag": "SKL_PC11_CAHNGE_CANSEL",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 100,
+                                "0 float m_onitamaExpOnHeal": 1,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "SKL_PC11_UNIQUE",
+                                "1 string m_bossFinishActLargeSkillId": "SKL_PC11_999",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC11_001"},
+                                        {"1 string data": "SKL_PC11_002"},
+                                        {"1 string data": "SKL_PC11_003"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "SKL_PC11_010",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC11_104"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0.75,
+                                "0 int m_moveSpeedRatio": 95,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 90,
+                                "0 int m_knockBackDefense": 40,
+                                "0 int m_knockBlowDefense": 40,
+                                "0 int m_knockUpDefense": 40,
+                                "0 int m_knockDownDefense": 40,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 120,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 50,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_0012",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "EF_CK_0012_SPIRIT_00"},
+                                        {"1 string data": "EF_CK_0012_SPIRIT_01"}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "",
+                                "1 string m_weaponPrefabNameLeft": "",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 0,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_BT_GOREM",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_GOREM",
+                                "1 string m_usableGolemFlag": "",
+                                "1 string m_kamishiroChangeCancelFlag": "SKL_PC12_CAHNGE_CANSEL",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 100,
+                                "0 float m_onitamaExpOnHeal": 1,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "SKL_PC12_UNIQUE",
+                                "1 string m_bossFinishActLargeSkillId": "",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC12_001"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0.75,
+                                "0 int m_moveSpeedRatio": 60,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 90,
+                                "0 int m_knockBackDefense": 60,
+                                "0 int m_knockBlowDefense": 60,
+                                "0 int m_knockUpDefense": 60,
+                                "0 int m_knockDownDefense": 60,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 50,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 50,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_1004",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "",
+                                "1 string m_weaponPrefabNameLeft": "",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 0,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_419",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_COMMON",
+                                "1 string m_usableGolemFlag": "",
+                                "1 string m_kamishiroChangeCancelFlag": "",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 0,
+                                "0 float m_onitamaExpOnHeal": 0,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "SKL_PC00_UNIQUE",
+                                "1 string m_bossFinishActLargeSkillId": "",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC00_001_2"},
+                                        {"1 string data": "SKL_PC00_002_2"},
+                                        {"1 string data": "SKL_PC00_003_2"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC00_101"},
+                                        {"1 string data": "SKL_PC00_102_1"},
+                                        {"1 string data": "SKL_PC00_103"},
+                                        {"1 string data": "SKL_PC00_104"}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0,
+                                "0 int m_moveSpeedRatio": 80,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 90,
+                                "0 int m_knockBackDefense": 1000,
+                                "0 int m_knockBlowDefense": 1000,
+                                "0 int m_knockUpDefense": 1000,
+                                "0 int m_knockDownDefense": 1000,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 10,
+                                "0 int m_resistPoison": 100,
+                                "0 int m_resistConfu": 100,
+                                "0 int m_resistParalys": 100,
+                                "0 int m_resistStun": 100,
+                                "0 int m_resistDeath": 100,
+                                "0 int m_immuneRatio": 100,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "CK_2000",
+                                "0 vector m_spiritEffectId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_weaponPrefabNameRight": "",
+                                "1 string m_weaponPrefabNameLeft": "",
+                                "0 int m_weaponScale": 100,
+                                "1 UInt8 m_weaponTwoHanded": 0,
+                                "0 float m_battleModeInAnimSpeed": 1,
+                                "0 float m_battleModeOutAnimSpeed": 1,
+                                "1 string m_battleModeInSeId": "SE_419",
+                                "1 string m_battleModeOutSeId": "SE_BT_PD_COMMON",
+                                "1 string m_usableGolemFlag": "",
+                                "1 string m_kamishiroChangeCancelFlag": "",
+                                "0 int m_initOnitamaNum": 0,
+                                "0 float m_onitamaExpLimit": 0,
+                                "0 float m_onitamaExpOnHeal": 0,
+                                "0 float m_onitamaExpOnKikoku": 0,
+                                "1 string m_uniqueSkillId": "",
+                                "1 string m_bossFinishActLargeSkillId": "",
+                                "0 vector m_normalSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": "SKL_PC20_001"},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "1 string m_airSkillId": "",
+                                "0 vector m_initSkillId": 
+                                {
+                                    "1 Array Array": [
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""},
+                                        {"1 string data": ""}
+                                    ]
+                                },
+                                "0 float m_battleModeCollisionRadius": 0,
+                                "0 int m_moveSpeedRatio": 60,
+                                "0 int m_fallGravityScale": 100,
+                                "0 int m_fallAirInputScaleRatio": 90,
+                                "0 int m_knockBackDefense": 0,
+                                "0 int m_knockBlowDefense": 0,
+                                "0 int m_knockUpDefense": 0,
+                                "0 int m_knockDownDefense": 0,
+                                "0 float m_downTime": 1,
+                                "0 int m_weightRatio": 200,
+                                "0 int m_resistPoison": 0,
+                                "0 int m_resistConfu": 0,
+                                "0 int m_resistParalys": 0,
+                                "0 int m_resistStun": 0,
+                                "0 int m_resistDeath": 0,
+                                "0 int m_immuneRatio": 0,
+                                "0 float m_idleHealStartTime": -1,
+                                "0 int m_idleHealRatio": -1,
+                                "0 float m_idleHealInterval": -1,
+                                "0 int m_idleAnimSpeedRatio": 100,
+                                "0 int m_moveAnimSpeedRatio": 100,
+                                "0 int m_damageAnimSpeedRatio": 100,
+                                "0 int m_downAnimSpeedRatio": 100,
+                                "0 int m_downLoopAnimSpeedRatio": 100,
+                                "0 int m_huttobiLoopAnimSpeedRatio": 100,
+                                "0 int m_standupAnimSpeedRatio": 100
+                            }}
+                        ]
+                    }
+                }}
+            ]
+        }
+    }
+}

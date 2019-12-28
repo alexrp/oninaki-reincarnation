@@ -1,0 +1,316 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 7486738627659983113
+        },
+        "1 string m_Name": "MstTutorialTextData_Ge_Ex",
+        "0 Sheet m_sheets": 
+        {
+            "0 Array Array": [
+                {"0 Sheet data": 
+                {
+                    "1 string m_name": "Ex",
+                    "0 Param m_list": 
+                    {
+                        "0 Array Array": [
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_001_01",
+                                "1 string m_text": "Verwende Heil-Räucherstäbchen, um LP wiederherzustellen. LP werden außerhalb von Kämpfen automatisch wiederhergestellt. Setze ein Heil-Räucherstäbchen ein, wenn du es im Kampf brauchst. Du findest sie in Truhen oder bei besiegten Gegnern. Du kannst so viele verwenden, wie du hast. Durch Stufenaufstiege kannst du die Anzahl der Heil-Räucherstäbchen erhöhen, die du mitführen kannst."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_002_01",
+                                "1 string m_text": "Auf der Minikarte unten rechts siehst du deine aktuelle Umgebung, erreichbare Gebiete und den Standort deines nächsten Ziels. Du kannst die Größe der Minikarte ändern, indem du <ICON=BUTTON_MAP_CHANGE> drückst."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_003_01",
+                                "1 string m_text": "Die Welt der Lebenden\nDas Land des Fleischs und Bluts. Eine natürliche Welt voller Leben, in der mannigfaltige Kreaturen ihr Dasein genießen.\n\nDas Jenseits\nDas Land der Toten. Welt, die parallel zur Welt der Lebenden existiert und denselben Raum einnimmt. Dazwischen liegt ein dünner Schleier."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_003_02",
+                                "1 string m_text": "Drücke <ICON=BUTTON_WORLD_CAHANGE>, um zwischen der Welt der Lebenden und dem Jenseits zu wechseln. Wenn du an einem neuen Ort zum ersten Mal ins Jenseits reist, bist du schleierblind und kannst deine Umgebung nicht wahrnehmen. Im schleierblinden Zustand bist du verwundbar, und Angriffe, die du erleidest, sind tödlich."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_003_03",
+                                "1 string m_text": "Eine Grenze erscheint, wenn du einen\nSichtdieb besiegst - einen seltenen\nGefallenen in giftigem Miasma. Geh dort\ndurch den Schleier, und deine\nSchleierblindheit ist in diesem Jenseits-\nBereich aufgehoben. Außerdem wirken\nsogenannte Gesetze auf dich und die\nGefallenen."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_004_01",
+                                "1 string m_text": "Wechsle mit <ICON=BUTTON_KAMISHIRO_CAHANGE> die Daemonen, die erscheinen können. Wähle den, der am besten zur Situation passt."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_004_01_key",
+                                "1 string m_text": "Wechsle mit <ICON=BUTTON_KAMISHIRO_CAHANGE_UP><ICON=BUTTON_KAMISHIRO_CAHANGE_LEFT><ICON=BUTTON_KAMISHIRO_CAHANGE_DOWN><ICON=BUTTON_KAMISHIRO_CAHANGE_RIGHT> die Daemonen, die erscheinen können. Wähle den, der am besten zur Situation passt."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_005_01",
+                                "1 string m_text": "Schwächungszauber, die auf deinen Charakter wirken können:\n<ICON=BUTTON_STATUS_POISON> Gift: Bewirkt Zeitschaden.\n<ICON=BUTTON_STATUS_CONFUSION> Verwirren: Verhindert Erscheinen/Räucherst.\n<ICON=BUTTON_STATUS_PARALYSIS> Paralysieren: Verlangsamt.\n<ICON=BUTTON_STATUS_STUN> Betäuben: Verhindert alle Aktionen.\nSchwächungsz. werden nach einer Weile unwirksam. Es gibt auch Widerstände gegen sie, die das Risiko senken, verzaubert zu werden."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_006_01",
+                                "1 string m_text": "Verbundenheit steht für die Tiefe der Besessenheit von einem Daemon. Sie steigt im Kampf und fällt bei Fertigkeiteneinsatz. Hohe Verbundenheit stärkt den Angriff, doch ab 150 ist die Verteidigung beeinträchtigt - Vorsicht!"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_006_02",
+                                "1 string m_text": "Bei Verbundenheit ab 100 kannst du <ICON=BUTTON_KIKOKU> zum Erscheinen verwenden. Erscheinen erhöht die Werte noch weiter, alle Aktionen können abgebrochen werden, und du taumelst bei Schaden nicht.\n\nBei Erscheinen wird die Verbundenheit zur Erscheinen-Anzeige. Erreicht die Anzeige null, endet das Erscheinen."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_007_01",
+                                "1 string m_text": "Setzt du eine Fertigkeit ein, besteht eine Chance auf deren Erwachen, wodurch verschiedene, zufällig ausgewählte Effekte wirken. Diese Effekte können die Schlacht zu deinen Gunsten wenden, also mach guten Gebrauch von ihnen!"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_008_01",
+                                "1 string m_text": "Eine Fertigkeit ist erwacht und gewährt damit auch dir ein neues Erwachen! Wähle Daemonen aus, dann den Fertigkeitsbaum und die erwachte Fertigkeit, um die Kraft des Erwachens zu aktivieren."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_009_01",
+                                "1 string m_text": "Du hast den Alchemisten freigeschaltet. Besuche den Laden des Alchemisten beim zentralen Platz von Deto, um deine Waffen zu verbessern und anzupassen. Gerade vor schwierigen Missionen lohnt sich ein Besuch dort."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_011_01",
+                                "1 string m_text": "Viele verlorene Seelen wandern im Jenseits hinter dem Schleier. Wer ihnen mitfühlendes Gehör schenkt, wird vielleicht belohnt."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_012_01",
+                                "1 string m_text": "An Grenzsteinen sind zusätzliche Optionen verfügbar:\n\nGruppe\nVerwalte hier deine Daemonen. Benutze <ICON=BUTTON_KAMISHIRO_CAHANGE>, um die Daemonen im Kampf zu wechseln.\n\nDaemonenkunde\nKommuniziere mit deinen Daemonen, indem du mit ihnen sprichst und ihre Erinnerungen nacherlebst."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_012_01_key",
+                                "1 string m_text": "An Grenzsteinen sind zusätzliche Optionen verfügbar:\n\nGruppe\nVerwalte hier deine Daemonen. Benutze <ICON=BUTTON_KAMISHIRO_CAHANGE_UP><ICON=BUTTON_KAMISHIRO_CAHANGE_LEFT><ICON=BUTTON_KAMISHIRO_CAHANGE_DOWN><ICON=BUTTON_KAMISHIRO_CAHANGE_RIGHT>, um die Daemonen im Kampf zu wechseln.\n\nDaemonenkunde\nKommuniziere mit deinen Daemonen, indem du mit ihnen sprichst und ihre Erinnerungen nacherlebst."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_012_02",
+                                "1 string m_text": "Schnelles Reisen\nDu kannst dich auf der Weltkarte und an zahlreiche andere Ziele bewegen.\n\nSchwierigkeitsstufe ändern\nHier kannst du die Schwierigkeitsstufe des Spiels anpassen. Gegner erscheinen bei der neu ausgewählten Schwierigkeitsstufe.\n\nSpeichern\nSpeichere deine Fortschritte."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_012_02a",
+                                "1 string m_text": "Schnelles Reisen\nDu kannst dich auf der Weltkarte und an zahlreiche andere Ziele bewegen.\n\nSchwierigkeitsstufe\nHier kannst du die Schwierigkeitsstufe des Spiels anpassen. Gegner erscheinen gemäß der neu ausgewählten Schwierigkeitsstufe.\n\nSpeichern\nSpeichere deine Fortschritte."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_013_01",
+                                "1 string m_text": "Grenzsteine markieren die Grenze zwischen der Welt der Lebenden und dem Jenseits. Hier kannst du mit deinen Daemonen kommunizieren und sie auf den Kampf vorbereiten."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_014_01",
+                                "1 string m_text": "Du kannst Waffen verwenden, die du nicht mehr als Rohmaterial zum Verbessern anderer Waffen brauchst. Die Waffe, die als Material verwendet wird, hat keinen Einfluss auf das Ergebnis der Verbesserung. Du hast die freie Wahl."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_015_01",
+                                "1 string m_text": "Schattensteine können in Waffen gesockelt werden, denen sie verschiedene Effekte verleihen. Es kann jeweils nur ein Schattenstein desselben Typs gesockelt werden.\n\nEinmal gesockelte Schattensteine können nicht entfernt, jedoch durch andere ersetzt werden."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_016_01",
+                                "1 string m_text": "Waffen und Schattensteine lassen sich mithilfe von Alchemie in neue Gegenstände umwandeln. Verwende Waffen und Schattensteine, die du nicht mehr brauchst, um die Anforderungen der gewünschten Umwandlung zu erfüllen. Die Liste möglicher Umwandlungen wird geändert, wenn jeweils 100 Gegner besiegt wurden."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_017_01",
+                                "1 string m_text": "Je nach Materialien beim Umwandeln ist ein Bonus möglich, der die nächste Liste von Umwandlungskandidaten beeinflusst.\n\nMehr Beute\nChance auf Beutewaffen erhöht. Variiert je nach Waffentyp.\n\nVerbesserte Waffe\nVerbesserte Waffe wird Umwandlungsliste hinzugefügt."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_017_02",
+                                "1 string m_text": "Schattenstein-Sockel +\nEs passen mehr Schattensteine in einen Gegenstand.\n \nVerfeinerung\nHöhere Chance auf Waffen/Schattensteine, die nicht durch Umwandlung erzeugt werden können.\n \nKatalysator\nÜberträgt beim Umwandeln besondere Effekte."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_018_01",
+                                "1 string m_text": "Selten ist es möglich, Schattensteine wiederzugewinnen, die in Waffen gesockelt sind, welche als Materialien beim Umwandeln dienen. Wiedergewonnene Schattensteine können erneut gesockelt werden."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_019_01",
+                                "1 string m_text": "Die Waffe eines Daemons lässt sich mithilfe der Option „Ausrüstung“ im Daemonen-Menü wechseln."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_020_01",
+                                "1 string m_text": "Es können bis zu vier Fertigkeiten zugleich zugewiesen werden. Mithilfe des Fertigkeitsbaums können neue Fertigkeiten erworben werden. Rufe den Fertigkeitsbaum auf, um die erste Fertigkeit zu erhalten."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_020_02",
+                                "1 string m_text": "Jede Fertigkeit hat eine Abklingzeit, wenn sie eingesetzt wurde. Erneuter Einsatz ist erst nach der Abklingzeit möglich. Wähle eine Kombination von Fertigkeiten, die sich im Kampf ergänzen."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_021_01",
+                                "1 string m_text": "Der Fertigkeitsbaum ist die grafische Darstellung der Seele eines Daemons. Mithilfe von Seelensteinen im Fertigkeitsbaum können für jeden Daemon neue Fertigkeiten und Fähigkeiten erworben werden. Wurde eine neue Fertigkeit erlernt, kann sie mithilfe der Option „Fertigkeiten“ im Daemonen-Menü zum Einsatz im Kampf zugewiesen werden."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_022_01",
+                                "1 string m_text": "Dein Daemon ist um einen Rang aufgestiegen! Erhöht sich der Rang des Daemons, so vertieft sich eure Bindung, und die Fähigkeiten des Daemons im Besessen-Zustand erhöhen sich. Dein Daemon steigt um weitere Ränge auf, während du neue Fertigkeiten erwirbst."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_023_01",
+                                "1 string m_text": ""
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_024_01",
+                                "1 string m_text": "Erwachen kann deinen Fertigkeiten zugewiesen werden. Es ist sogar mehr Erwachen möglich, wenn eine Fertigkeit länger eingesetzt wird."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_025_01",
+                                "1 string m_text": "Mit Schnellem Reisen kannst du die Weltkarte aufrufen und dich beliebig zwischen Grenzsteinen bewegen, die du zuvor besucht hast."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_026_01",
+                                "1 string m_text": "So ist Reisen ohne Zeitverlust zu diversen Zielen über die Weltkarte möglich. Erkunde einen Grenzstein, wähle „Schnelles Reisen“ und dein Ziel aus."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_026_01a",
+                                "1 string m_text": "Mithilfe der Welkarte ist Reisen ohne Zeitverlust zu diversen Zielen möglich. Erkunde einen Grenzstein, wähle „Schnelles Reisen“ aus und rufe die Weltkarte auf."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_027_01",
+                                "1 string m_text": "Selten ist es möglich, dass Schatten in der Welt der Lebenden erscheinen. Wenn du das Jenseits betrittst, solange du von Schatten befleckt bist, treten dir besondere Gefallene entgegen. Besiege sie, um reich belohnt zu werden."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_029_01",
+                                "1 string m_text": "Im Heiligtum der Wiedergeburt kannst du gegen Gefallene kämpfen, denen du zuvor begegnet bist. Das Heiligtum ist in Stufen untergliedert. Auf jeder Stufe muss eine bestimmte Anzahl Gefallener besiegt werden, um die nächste Stufe zu erreichen. Grenzsteine erscheinen nur auf bestimmten Stufen."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_030_01",
+                                "1 string m_text": "Werden die Erinnerungen eines Daemons wiederhergestellt, so kann er mehr von seiner Vergangenheit mit dir teilen, und eure Bindung wird gestärkt. Erkunde die Grenzsteine, die du findest, und wähle „Daemonenkunde“ aus, um Erinnerungen anzusehen."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_031_01",
+                                "1 string m_text": "<NAME=WP_0001_11_001> Vorbestellungsbonus erhalten! Wähle „Daemonen“ und dann „Ausrüstung“ aus, um eine andere Waffe zu verwenden. Wenn du diese Waffe verwirfst, kannst du sie immer noch bei anderen Gegnern erhalten."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_032_01",
+                                "1 string m_text": "<NAME=WP_0002_11_001> Vorbestellungsbonus erhalten! Wähle „Daemonen“ und dann „Ausrüstung“ aus, um eine andere Waffe zu verwenden. Wenn du diese Waffe verwirfst, kannst du sie immer noch bei anderen Gegnern erhalten."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_033_01",
+                                "1 string m_text": "<NAME=WP_0003_11_001> Vorbestellungsbonus erhalten! Wähle „Daemonen“ und dann „Ausrüstung“ aus, um eine andere Waffe zu verwenden. Wenn du diese Waffe verwirfst, kannst du sie immer noch bei anderen Gegnern erhalten."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_034_01",
+                                "1 string m_text": "Seelenstein erhalten! Seelensteine sind Zeichen der zunehmenden Besessenheit von deinen Daemonen. Je häufiger du die Daemonen einsetzt, desto mehr Seelensteine kannst du erhalten.\n\nÖffne das Hauptmenü mit <ICON=BUTTON_MAIN_MENU>. Wähle „Daemonen“ und den Fertigkeitsbaum aus, um die Seelensteine zu verwenden.\n\n"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_035_01",
+                                "1 string m_text": "Wenn du einen neuen Daemon bekommst, kannst du ihn an einem Wegstein über das Gruppe-Menü individualisieren."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_036_01",
+                                "1 string m_text": "Besiegte Gefallene hinterlassen manchmal Schattensteine, die kristallisierte Essenz ihrer Macht. Einige besondere Schattensteine beginnen mit dem Namen des Gefallenen.\nDu kannst Schatten in Waffensteine einsetzen, um ihre Macht zu nutzen. Besuch den Alchimisten, um deine Waffen zu besetzen.\nIn einigen Waffen sind bereits Schattensteine eingesetzt, wenn sie fallengelassen werden."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_037_01",
+                                "1 string m_text": "<NAME=ma_0600_1>\nNeuer Ort verfügbar: <NAME=ma_0600_1>. Jenseits der Grenze der Gesetze wirst du Kämpfe einer neuen Art erleben."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_037_02",
+                                "1 string m_text": "Äonentor\nEin neues Portal ist im Ewigen Garten erschienen. Durch das Äonentor kannst du frei zwischen Kagachis Zeit und Sojus Zeit wechseln. Die Seelen der Verlorenen bleiben in ihrer jeweiligen Zeit gefangen, bis sie befreit werden."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_101_01",
+                                "1 string m_text": "Ein leidenschaftlicher und einfühlsamer Daemon. Aisha ist bei Kagachi, seit er zum Wächter ernannt wurde. Sie hat vage Erinnerungen ans Glücklichsein und sehnt sich sehr nach Liebe.\n\nAisha kann flink über das Schlachtfeld sprinten und ihre Schwerter schlagen schnell und hart zu, was sie zu einer ausgeglichenen Kriegerin macht."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_102_01",
+                                "1 string m_text": "Ein absolut ehrlicher Daemon mit einem ausgeprägten Gerechtigkeitssinn. Die innere Unruhe, die Zaav zu Lebzeiten verspürte, wohnt ihm noch immer inne. Er erinnert sich vage daran, dass er gehasst wurde und tiefe Reue empfand. \n\nZaav kämpft geschickt mit Speeren und zuckt nicht einmal mit der Wimper, wenn er Schläge einstecken muss. Auch kann er in die Luft springen und so vom Boden oder im Sprung angreifen."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_103_01",
+                                "1 string m_text": "Ein fröhlicher Daemon, der jedoch aufgrund seiner Erfahrungen in einem vorigen Leben ein wenig misstrauisch ist. Wil erinnert sich daran, viel gereist zu sein und große Freude, aber auch tiefen Hass empfunden zu haben.\n\nEr kann Gegner mit seiner starken Verteidigung erdrücken und hat die größte Kraft aller Daemonen. Mit seinen Äxten wehrt er eingehende Angriffe ab.\n"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_104_01",
+                                "1 string m_text": "Izana behält stets die Fassung und lässt\nsich im Kampf nicht zurückdrängen. Sie\nverfolgt die Worte und Taten der\nLebenden aus der Ferne. Sie kann sich\ndunkel an die kalten Tränen der Toten\nund das verzerrte Grinsen der Lebenden\nerinnern.\n\nSie schwingt Sensen, deren Reichweite\nZerstörung auf dem Schlachtfeld\nanrichten. Auch kann sie ihre Gegner\nim Nu aus dem Hinterhalt angreifen.\n\n"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_105_01",
+                                "1 string m_text": "Daemon, der ein Naturtalent auf dem Schlachtfeld ist. Rigan ist zwar nicht sehr wohlerzogen, hat aber ein gutes Herz. Er hat noch schwache Erinnerungen an eine warme, ausgestreckte Hand, von der er sich abwandte.\n\nRigan nutzt sein Tempo als Waffe und überwältigt seine Gegner mit schnellen Angriffen. Gegenangriffe und Ausweichrollen runden seinen äußerst technischen Kampfstil ab."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_106_01",
+                                "1 string m_text": "Vornehme, grazile Daemonin. Dia stellt das Wohl ihrer Gefährten über ihres. Sie kann sich undeutlich an Dunkelheit und ein tanzendes Licht auf ihrer Handfläche erinnern.\n\nMit Armbrust und Pistole lässt Dia Fernangriffe niederprasseln. Sie kann springen, um Abstand zum Gegner zu gewinnen, und dabei unbeirrt weiterschießen.\n"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_107_01",
+                                "1 string m_text": "Verwegener Daemon, der immer einsatzbereit ist, aber auch auf die Aktionen und Gefühle anderer Rücksicht nimmt. Er hat noch ferne Erinnerungen an seine Liebsten und an Augen voller Verzweiflung.\n\nGavod kann mit sperrigen Schildkanonen umgehen, die ihm die hohe Verteidigung eines Schildes bieten und ihn im Nahkampf einen vernichtenden Kanonenschlag entfesseln lassen."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_108_01",
+                                "1 string m_text": "Ihr Schicksal erfüllend sucht diese Daemonin in einem endlosen Zeitenmeer entschlossen nach Stärke und Weisheit. Denn nur das Licht der Hoffnung führt in eine neue Ära.\n\nLucika kämpft mit tödlicher Kampfkunst und ist stets auf der Suche nach neuen Geräten, die ihre Fähigkeiten steigern. Sie kann sich mit Barrieren verteidigen und in Angriffsserien massive Feuerkraft entfesseln."
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_109_01",
+                                "1 string m_text": "Daemon mit unstillbarem Wissensdurst.\nTreizes Neugier erstreckt sich auf diverse\nThemen, nur bei Gesellschaftsfragen hat\ner Lücken. Er erinnert sich noch vage an\nden bohrenden Blick seltsamer Augen.\n\nTreize zeichnet sich vor allem durch seine\nstets wechselnden Kettenangriffe aus. Er\nist Meister der Schwächungszauber, kann\nweite Sprünge machen und die Gegner\nam Boden dabei mit seinen Ketten\nbearbeiten.\n"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_111_01",
+                                "1 string m_text": "Die Seele dieses Einzelgängers wurde in der weiten Wildnis geschmiedet. Er hat noch ferne Erinnerungen an tagelange, hitzige Kämpfe mit würdigen Gegnern.\n\nZephyr kämpft mit denen, die ihn besitzen, indem sie auf seinem Rücken reiten. Er ist sehr beweglich und stets in Aktion. Blitzartige Überfälle sind seine Spezialität. Er kann Doppelsprünge und verschiedene Angriffe einsetzen, um die Distanz zum Gegner zu überwinden.\n\n"
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "TUTORIAL_112_01",
+                                "1 string m_text": "Myriaden von Welten durchwandernd wird Jex Zeuge zahlloser Anfänge und Untergänge. Seine gesammelten Erlebnisse formen sein Gedächtnis und beeinflussen sein Handeln.\n\nJex kann die Fertigkeiten anderer Daemonen einsetzen und im Kampf zwischen insgesamt acht Fertigkeitentypen wechseln. Es kann Verbundenheit ausgeben, um Spezialangriffe durchzuführen."
+                            }}
+                        ]
+                    }
+                }}
+            ]
+        }
+    }
+}

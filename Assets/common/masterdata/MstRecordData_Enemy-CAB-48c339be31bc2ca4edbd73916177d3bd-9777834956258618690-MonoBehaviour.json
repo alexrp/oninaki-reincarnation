@@ -1,0 +1,883 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 8663221858766130506
+        },
+        "1 string m_Name": "MstRecordData_Enemy",
+        "0 Sheet m_sheets": 
+        {
+            "0 Array Array": [
+                {"0 Sheet data": 
+                {
+                    "1 string m_name": "Enemy",
+                    "0 Param m_list": 
+                    {
+                        "0 Array Array": [
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_001",
+                                "1 string m_nameId": "CE_0001",
+                                "1 string m_parameterId": "CE_0001",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 1,
+                                "0 int m_radarChartAtk": 8,
+                                "0 int m_radarChartDef": 8,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_002",
+                                "1 string m_nameId": "CE_0001_02",
+                                "1 string m_parameterId": "CE_0001_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 3,
+                                "0 int m_radarChartAtk": 12,
+                                "0 int m_radarChartDef": 12,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_003",
+                                "1 string m_nameId": "CE_0001_03",
+                                "1 string m_parameterId": "CE_0001_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 10,
+                                "0 int m_radarChartAtk": 28,
+                                "0 int m_radarChartDef": 28,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_004",
+                                "1 string m_nameId": "CE_0001_04",
+                                "1 string m_parameterId": "CE_0001_04",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 15,
+                                "0 int m_radarChartAtk": 41,
+                                "0 int m_radarChartDef": 41,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_005",
+                                "1 string m_nameId": "CE_0002",
+                                "1 string m_parameterId": "CE_0002",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 4,
+                                "0 int m_radarChartAtk": 15,
+                                "0 int m_radarChartDef": 16,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 40
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_006",
+                                "1 string m_nameId": "CE_0002_02",
+                                "1 string m_parameterId": "CE_0002_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 13,
+                                "0 int m_radarChartAtk": 34,
+                                "0 int m_radarChartDef": 37,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 40
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_007",
+                                "1 string m_nameId": "CE_0002_03",
+                                "1 string m_parameterId": "CE_0002_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 16,
+                                "0 int m_radarChartAtk": 41,
+                                "0 int m_radarChartDef": 44,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 40
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_008",
+                                "1 string m_nameId": "CE_0003",
+                                "1 string m_parameterId": "CE_0003",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 14,
+                                "0 int m_radarChartAtk": 23,
+                                "0 int m_radarChartDef": 11,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_009",
+                                "1 string m_nameId": "CE_0003_02",
+                                "1 string m_parameterId": "CE_0003_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 59,
+                                "0 int m_radarChartAtk": 63,
+                                "0 int m_radarChartDef": 31,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_010",
+                                "1 string m_nameId": "CE_0003_03",
+                                "1 string m_parameterId": "CE_0003_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 100,
+                                "0 int m_radarChartAtk": 100,
+                                "0 int m_radarChartDef": 48,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_011",
+                                "1 string m_nameId": "CE_0004",
+                                "1 string m_parameterId": "CE_0004",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 5,
+                                "0 int m_radarChartAtk": 25,
+                                "0 int m_radarChartDef": 16,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_012",
+                                "1 string m_nameId": "CE_0004_02",
+                                "1 string m_parameterId": "CE_0004_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 14,
+                                "0 int m_radarChartAtk": 59,
+                                "0 int m_radarChartDef": 37,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_013",
+                                "1 string m_nameId": "CE_0004_03",
+                                "1 string m_parameterId": "CE_0004_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 18,
+                                "0 int m_radarChartAtk": 73,
+                                "0 int m_radarChartDef": 46,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_014",
+                                "1 string m_nameId": "CE_0005",
+                                "1 string m_parameterId": "CE_0005",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 2,
+                                "0 int m_radarChartAtk": 10,
+                                "0 int m_radarChartDef": 10,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_015",
+                                "1 string m_nameId": "CE_0005_02",
+                                "1 string m_parameterId": "CE_0005_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 10,
+                                "0 int m_radarChartAtk": 28,
+                                "0 int m_radarChartDef": 28,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_016",
+                                "1 string m_nameId": "CE_0005_03",
+                                "1 string m_parameterId": "CE_0005_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 13,
+                                "0 int m_radarChartAtk": 35,
+                                "0 int m_radarChartDef": 35,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_017",
+                                "1 string m_nameId": "CE_0006",
+                                "1 string m_parameterId": "CE_0006",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 8,
+                                "0 int m_radarChartAtk": 26,
+                                "0 int m_radarChartDef": 18,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 40
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_018",
+                                "1 string m_nameId": "CE_0006_02",
+                                "1 string m_parameterId": "CE_0006_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 14,
+                                "0 int m_radarChartAtk": 41,
+                                "0 int m_radarChartDef": 30,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 40
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_019",
+                                "1 string m_nameId": "CE_0006_03",
+                                "1 string m_parameterId": "CE_0006_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 19,
+                                "0 int m_radarChartAtk": 53,
+                                "0 int m_radarChartDef": 38,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 40
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_020",
+                                "1 string m_nameId": "CE_0007",
+                                "1 string m_parameterId": "CE_0007",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 3,
+                                "0 int m_radarChartAtk": 22,
+                                "0 int m_radarChartDef": 19,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 60
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_021",
+                                "1 string m_nameId": "CE_0007_02",
+                                "1 string m_parameterId": "CE_0007_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 10,
+                                "0 int m_radarChartAtk": 52,
+                                "0 int m_radarChartDef": 45,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 60
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_022",
+                                "1 string m_nameId": "CE_0007_03",
+                                "1 string m_parameterId": "CE_0007_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 13,
+                                "0 int m_radarChartAtk": 63,
+                                "0 int m_radarChartDef": 55,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 60
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_023",
+                                "1 string m_nameId": "CE_0008",
+                                "1 string m_parameterId": "CE_0008",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 4,
+                                "0 int m_radarChartAtk": 18,
+                                "0 int m_radarChartDef": 10,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 40
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_024",
+                                "1 string m_nameId": "CE_0008_02",
+                                "1 string m_parameterId": "CE_0008_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 24,
+                                "0 int m_radarChartAtk": 61,
+                                "0 int m_radarChartDef": 34,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 40
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_025",
+                                "1 string m_nameId": "CE_0008_03",
+                                "1 string m_parameterId": "CE_0008_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 30,
+                                "0 int m_radarChartAtk": 74,
+                                "0 int m_radarChartDef": 41,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 40
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_026",
+                                "1 string m_nameId": "CE_0009",
+                                "1 string m_parameterId": "CE_0009",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 41,
+                                "0 int m_radarChartAtk": 55,
+                                "0 int m_radarChartDef": 13,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_027",
+                                "1 string m_nameId": "CE_0009_02",
+                                "1 string m_parameterId": "CE_0009_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 66,
+                                "0 int m_radarChartAtk": 81,
+                                "0 int m_radarChartDef": 19,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_028",
+                                "1 string m_nameId": "CE_0010_01",
+                                "1 string m_parameterId": "CE_0010_01",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 3,
+                                "0 int m_radarChartAtk": 22,
+                                "0 int m_radarChartDef": 17,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_029",
+                                "1 string m_nameId": "CE_0010_04",
+                                "1 string m_parameterId": "CE_0010_04",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 7,
+                                "0 int m_radarChartAtk": 38,
+                                "0 int m_radarChartDef": 30,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_030",
+                                "1 string m_nameId": "CE_0010_07",
+                                "1 string m_parameterId": "CE_0010_07",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 11,
+                                "0 int m_radarChartAtk": 57,
+                                "0 int m_radarChartDef": 43,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_031",
+                                "1 string m_nameId": "CE_0011",
+                                "1 string m_parameterId": "CE_0011",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 39,
+                                "0 int m_radarChartAtk": 40,
+                                "0 int m_radarChartDef": 28,
+                                "0 int m_radarChartSpd": 0,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_032",
+                                "1 string m_nameId": "CE_0011_02",
+                                "1 string m_parameterId": "CE_0011_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 66,
+                                "0 int m_radarChartAtk": 63,
+                                "0 int m_radarChartDef": 44,
+                                "0 int m_radarChartSpd": 0,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_033",
+                                "1 string m_nameId": "CE_0011_03",
+                                "1 string m_parameterId": "CE_0011_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 80,
+                                "0 int m_radarChartAtk": 75,
+                                "0 int m_radarChartDef": 53,
+                                "0 int m_radarChartSpd": 0,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_034",
+                                "1 string m_nameId": "CE_0012",
+                                "1 string m_parameterId": "CE_0012",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 9,
+                                "0 int m_radarChartAtk": 27,
+                                "0 int m_radarChartDef": 23,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 40
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_035",
+                                "1 string m_nameId": "CE_0012_02",
+                                "1 string m_parameterId": "CE_0012_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 21,
+                                "0 int m_radarChartAtk": 52,
+                                "0 int m_radarChartDef": 45,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 40
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_036",
+                                "1 string m_nameId": "CE_0012_03",
+                                "1 string m_parameterId": "CE_0012_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 29,
+                                "0 int m_radarChartAtk": 68,
+                                "0 int m_radarChartDef": 60,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 40
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_037",
+                                "1 string m_nameId": "CE_0013",
+                                "1 string m_parameterId": "CE_0013",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 4,
+                                "0 int m_radarChartAtk": 18,
+                                "0 int m_radarChartDef": 14,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_038",
+                                "1 string m_nameId": "CE_0013_02",
+                                "1 string m_parameterId": "CE_0013_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 7,
+                                "0 int m_radarChartAtk": 30,
+                                "0 int m_radarChartDef": 22,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_039",
+                                "1 string m_nameId": "CE_0013_03",
+                                "1 string m_parameterId": "CE_0013_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 15,
+                                "0 int m_radarChartAtk": 52,
+                                "0 int m_radarChartDef": 39,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_040",
+                                "1 string m_nameId": "CE_0014",
+                                "1 string m_parameterId": "CE_0014",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 27,
+                                "0 int m_radarChartAtk": 53,
+                                "0 int m_radarChartDef": 41,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_041",
+                                "1 string m_nameId": "CE_0014_02",
+                                "1 string m_parameterId": "CE_0014_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 39,
+                                "0 int m_radarChartAtk": 72,
+                                "0 int m_radarChartDef": 56,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_042",
+                                "1 string m_nameId": "CE_0014_03",
+                                "1 string m_parameterId": "CE_0014_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 43,
+                                "0 int m_radarChartAtk": 79,
+                                "0 int m_radarChartDef": 62,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_043",
+                                "1 string m_nameId": "CE_0015",
+                                "1 string m_parameterId": "CE_0015",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 15,
+                                "0 int m_radarChartAtk": 35,
+                                "0 int m_radarChartDef": 26,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 60
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_044",
+                                "1 string m_nameId": "CE_0015_02",
+                                "1 string m_parameterId": "CE_0015_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 24,
+                                "0 int m_radarChartAtk": 52,
+                                "0 int m_radarChartDef": 39,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 60
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_045",
+                                "1 string m_nameId": "CE_0016",
+                                "1 string m_parameterId": "CE_0016",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 17,
+                                "0 int m_radarChartAtk": 59,
+                                "0 int m_radarChartDef": 44,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_046",
+                                "1 string m_nameId": "CE_0016_02",
+                                "1 string m_parameterId": "CE_0016_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 18,
+                                "0 int m_radarChartAtk": 63,
+                                "0 int m_radarChartDef": 47,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_047",
+                                "1 string m_nameId": "CE_0016_03",
+                                "1 string m_parameterId": "CE_0016_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 21,
+                                "0 int m_radarChartAtk": 70,
+                                "0 int m_radarChartDef": 53,
+                                "0 int m_radarChartSpd": 20,
+                                "0 int m_radarChartWgt": 20
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_048",
+                                "1 string m_nameId": "CE_0017",
+                                "1 string m_parameterId": "CE_0017",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 48,
+                                "0 int m_radarChartAtk": 52,
+                                "0 int m_radarChartDef": 31,
+                                "0 int m_radarChartSpd": 60,
+                                "0 int m_radarChartWgt": 60
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_049",
+                                "1 string m_nameId": "CE_0017_02",
+                                "1 string m_parameterId": "CE_0017_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 60,
+                                "0 int m_radarChartAtk": 63,
+                                "0 int m_radarChartDef": 38,
+                                "0 int m_radarChartSpd": 60,
+                                "0 int m_radarChartWgt": 60
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_050",
+                                "1 string m_nameId": "CE_0017_03",
+                                "1 string m_parameterId": "CE_0017_03",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 88,
+                                "0 int m_radarChartAtk": 88,
+                                "0 int m_radarChartDef": 53,
+                                "0 int m_radarChartSpd": 60,
+                                "0 int m_radarChartWgt": 60
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_053",
+                                "1 string m_nameId": "CE_1003",
+                                "1 string m_parameterId": "CE_1003",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 5,
+                                "0 int m_radarChartAtk": 12,
+                                "0 int m_radarChartDef": 11,
+                                "0 int m_radarChartSpd": 80,
+                                "0 int m_radarChartWgt": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_054",
+                                "1 string m_nameId": "CE_1003_02",
+                                "1 string m_parameterId": "CE_1003_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 75,
+                                "0 int m_radarChartAtk": 74,
+                                "0 int m_radarChartDef": 96,
+                                "0 int m_radarChartSpd": 80,
+                                "0 int m_radarChartWgt": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_055",
+                                "1 string m_nameId": "CE_1008",
+                                "1 string m_parameterId": "CE_1008",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 15,
+                                "0 int m_radarChartAtk": 17,
+                                "0 int m_radarChartDef": 15,
+                                "0 int m_radarChartSpd": 80,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_056",
+                                "1 string m_nameId": "CE_1008_02",
+                                "1 string m_parameterId": "CE_1008_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 47,
+                                "0 int m_radarChartAtk": 36,
+                                "0 int m_radarChartDef": 37,
+                                "0 int m_radarChartSpd": 80,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_057",
+                                "1 string m_nameId": "CE_1005",
+                                "1 string m_parameterId": "CE_1005",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 25,
+                                "0 int m_radarChartAtk": 22,
+                                "0 int m_radarChartDef": 15,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_058",
+                                "1 string m_nameId": "CE_1005_02",
+                                "1 string m_parameterId": "CE_1005_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 86,
+                                "0 int m_radarChartAtk": 83,
+                                "0 int m_radarChartDef": 58,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_059",
+                                "1 string m_nameId": "CE_1002",
+                                "1 string m_parameterId": "CE_1002",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 36,
+                                "0 int m_radarChartAtk": 30,
+                                "0 int m_radarChartDef": 14,
+                                "0 int m_radarChartSpd": 60,
+                                "0 int m_radarChartWgt": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_060",
+                                "1 string m_nameId": "CE_1002_02",
+                                "1 string m_parameterId": "CE_1002_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 100,
+                                "0 int m_radarChartAtk": 90,
+                                "0 int m_radarChartDef": 51,
+                                "0 int m_radarChartSpd": 60,
+                                "0 int m_radarChartWgt": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_061",
+                                "1 string m_nameId": "CE_1007",
+                                "1 string m_parameterId": "CE_1007",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 33,
+                                "0 int m_radarChartAtk": 30,
+                                "0 int m_radarChartDef": 19,
+                                "0 int m_radarChartSpd": 100,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_062",
+                                "1 string m_nameId": "CE_1007_02",
+                                "1 string m_parameterId": "CE_1007_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 89,
+                                "0 int m_radarChartAtk": 64,
+                                "0 int m_radarChartDef": 36,
+                                "0 int m_radarChartSpd": 100,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_063",
+                                "1 string m_nameId": "CE_1001",
+                                "1 string m_parameterId": "CE_1001",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 34,
+                                "0 int m_radarChartAtk": 36,
+                                "0 int m_radarChartDef": 36,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_064",
+                                "1 string m_nameId": "CE_1001_02",
+                                "1 string m_parameterId": "CE_1001_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 80,
+                                "0 int m_radarChartAtk": 87,
+                                "0 int m_radarChartDef": 80,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_065",
+                                "1 string m_nameId": "CE_1006",
+                                "1 string m_parameterId": "CE_1006",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 43,
+                                "0 int m_radarChartAtk": 42,
+                                "0 int m_radarChartDef": 29,
+                                "0 int m_radarChartSpd": 60,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_066",
+                                "1 string m_nameId": "CE_1006_02",
+                                "1 string m_parameterId": "CE_1006_02",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 86,
+                                "0 int m_radarChartAtk": 77,
+                                "0 int m_radarChartDef": 54,
+                                "0 int m_radarChartSpd": 60,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_067",
+                                "1 string m_nameId": "CE_1004",
+                                "1 string m_parameterId": "CE_1004",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 48,
+                                "0 int m_radarChartAtk": 39,
+                                "0 int m_radarChartDef": 27,
+                                "0 int m_radarChartSpd": 60,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_068",
+                                "1 string m_nameId": "CE_3000",
+                                "1 string m_parameterId": "CE_3000_RC",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 43,
+                                "0 int m_radarChartAtk": 62,
+                                "0 int m_radarChartDef": 45,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_069",
+                                "1 string m_nameId": "CE_3000_02",
+                                "1 string m_parameterId": "CE_3000_02_RC",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 57,
+                                "0 int m_radarChartAtk": 80,
+                                "0 int m_radarChartDef": 58,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_070",
+                                "1 string m_nameId": "CE_2005_02",
+                                "1 string m_parameterId": "CE_2000_02_RC",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 48,
+                                "0 int m_radarChartAtk": 55,
+                                "0 int m_radarChartDef": 44,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_071",
+                                "1 string m_nameId": "CE_2005",
+                                "1 string m_parameterId": "CE_2000_RC",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 57,
+                                "0 int m_radarChartAtk": 64,
+                                "0 int m_radarChartDef": 51,
+                                "0 int m_radarChartSpd": 40,
+                                "0 int m_radarChartWgt": 80
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_072",
+                                "1 string m_nameId": "CE_1011",
+                                "1 string m_parameterId": "CE_1011",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 100,
+                                "0 int m_radarChartAtk": 74,
+                                "0 int m_radarChartDef": 59,
+                                "0 int m_radarChartSpd": 60,
+                                "0 int m_radarChartWgt": 100
+                            }},
+                            {"0 Param data": 
+                            {
+                                "1 string m_id": "ENEMY_075",
+                                "1 string m_nameId": "CE_1013",
+                                "1 string m_parameterId": "CE_1013_RC",
+                                "1 string m_idleMotionName": "b_idleLoop",
+                                "0 int m_radarChartHp": 100,
+                                "0 int m_radarChartAtk": 100,
+                                "0 int m_radarChartDef": 100,
+                                "0 int m_radarChartSpd": 100,
+                                "0 int m_radarChartWgt": 80
+                            }}
+                        ]
+                    }
+                }}
+            ]
+        }
+    }
+}
