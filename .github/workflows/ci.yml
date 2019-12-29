@@ -1,4 +1,4 @@
-name: Check
+name: CI
 on:
   push:
   pull_request:
@@ -8,7 +8,7 @@ on:
     - reopened
     - synchronize
 jobs:
-  check:
+  ci:
     runs-on: ubuntu-latest
     steps:
     - name: Clone repository
@@ -20,3 +20,6 @@ jobs:
       shell: pwsh
       run: |
         ./lint.ps1
+    - name: Verify code integrity
+      run: |
+        peverify Code/Assembly-CSharp.dll --verify metadata
