@@ -1,0 +1,22 @@
+name: 
+on:
+  push:
+  pull_request:
+    types:
+    - edited
+    - opened
+    - reopened
+    - synchronize
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Clone repository
+      uses: actions/checkout@master
+    - name: Install dependencies
+      run: |
+        sudo npm install jsonlint markdownlint-cli -g
+    - name: Lint Markdown/JSON files
+      shell: pwsh
+      run: |
+        ./lint.ps1
