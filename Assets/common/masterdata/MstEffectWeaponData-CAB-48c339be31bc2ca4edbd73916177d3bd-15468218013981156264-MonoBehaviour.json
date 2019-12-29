@@ -1,91 +1,97 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 8879492181933481000
+    },
+    "1 string m_Name": "MstEffectWeaponData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 8879492181933480972
-        },
-        "1 string m_Name": "MstEffectWeaponData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "EffectWeapon",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "EffectWeapon",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EF_WEP_CK_0009_00",
-                                "1 string m_weaponId": "WP_0009_01_001",
-                                "1 string m_effectId": "EF_CK_0009_TRAIL_01"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "1 string m_weaponId": "WP_0009_02_001",
-                                "1 string m_effectId": "EF_CK_0009_TRAIL_02"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "1 string m_weaponId": "WP_0009_03_001",
-                                "1 string m_effectId": "EF_CK_0009_TRAIL_03"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "1 string m_weaponId": "WP_0009_04_001",
-                                "1 string m_effectId": "EF_CK_0009_TRAIL_04"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "1 string m_weaponId": "WP_0009_05_001",
-                                "1 string m_effectId": "EF_CK_0009_TRAIL_05"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "1 string m_weaponId": "WP_0009_06_001",
-                                "1 string m_effectId": "EF_CK_0009_TRAIL_06"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "1 string m_weaponId": "WP_0009_07_001",
-                                "1 string m_effectId": "EF_CK_0009_TRAIL_07"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "1 string m_weaponId": "WP_0009_08_001",
-                                "1 string m_effectId": "EF_CK_0009_TRAIL_08"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "1 string m_weaponId": "WP_0009_09_001",
-                                "1 string m_effectId": "EF_CK_0009_TRAIL_09"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "1 string m_weaponId": "WP_0009_10_001",
-                                "1 string m_effectId": "EF_CK_0009_TRAIL_10"
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "EF_WEP_CK_0009_00",
+                    "1 string m_weaponId": "WP_0009_01_001",
+                    "1 string m_effectId": "EF_CK_0009_TRAIL_01"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "1 string m_weaponId": "WP_0009_02_001",
+                    "1 string m_effectId": "EF_CK_0009_TRAIL_02"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "1 string m_weaponId": "WP_0009_03_001",
+                    "1 string m_effectId": "EF_CK_0009_TRAIL_03"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "1 string m_weaponId": "WP_0009_04_001",
+                    "1 string m_effectId": "EF_CK_0009_TRAIL_04"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "1 string m_weaponId": "WP_0009_05_001",
+                    "1 string m_effectId": "EF_CK_0009_TRAIL_05"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "1 string m_weaponId": "WP_0009_06_001",
+                    "1 string m_effectId": "EF_CK_0009_TRAIL_06"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "1 string m_weaponId": "WP_0009_07_001",
+                    "1 string m_effectId": "EF_CK_0009_TRAIL_07"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "1 string m_weaponId": "WP_0009_08_001",
+                    "1 string m_effectId": "EF_CK_0009_TRAIL_08"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "1 string m_weaponId": "WP_0009_09_001",
+                    "1 string m_effectId": "EF_CK_0009_TRAIL_09"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "1 string m_weaponId": "WP_0009_10_001",
+                    "1 string m_effectId": "EF_CK_0009_TRAIL_10"
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

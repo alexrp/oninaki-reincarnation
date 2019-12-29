@@ -1,751 +1,795 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 1941662808023380700
+    },
+    "1 string m_Name": "MstGimmick_0001",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 1941662808023380637
-        },
-        "1 string m_Name": "MstGimmick_0001",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Gimmick",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Gimmick",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "ma_0001_11",
-                                "1 string m_placementId": "SAFEAREA_01",
-                                "1 string m_gimmickType": "SafeArea",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "SAFEAREA_02",
-                                "1 string m_gimmickType": "SafeArea",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "SAFEAREA_03",
-                                "1 string m_gimmickType": "SafeArea",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_01",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 1,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_02",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 1,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "COUTPROP",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 112050,
-                                "0 int m_counterRangeHigh": 112089,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "COUTFENCE",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 112040,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "COUTFENCE",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 112090,
-                                "0 int m_counterRangeHigh": 422000,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "COUTSTAND",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 422000,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "GALLOW",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 423000,
-                                "0 int m_counterRangeHigh": 999999,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "UrbanDOOR",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 131040,
-                                "0 int m_counterRangeHigh": 212020,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "UrbanDOOR",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 221011,
-                                "0 int m_counterRangeHigh": 299999,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "BLOCK_COLLISION_01",
-                                "1 string m_gimmickType": "BlockCollision",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 131080,
-                                "0 int m_counterRangeHigh": 999999,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "CharaBlock",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "BLOCK_COLLISION_02",
-                                "1 string m_gimmickType": "BlockCollision",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "CharaBlock",
-                                "1 string m_unlockGimmickId": "MANHOLE_B"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "BLOCK_COLLISION_03",
-                                "1 string m_gimmickType": "BlockCollision",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 2,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "CharaBlock",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "BLOCK_COLLISION_04",
-                                "1 string m_gimmickType": "BlockCollision",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 2,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "CharaBlock",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "BLOCK_COLLISION_05",
-                                "1 string m_gimmickType": "BlockCollision",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 212020,
-                                "0 int m_counterRangeHigh": 221010,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "CharaBlock",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "BLOCK_COLLISION_06",
-                                "1 string m_gimmickType": "BlockCollision",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 112050,
-                                "0 int m_counterRangeHigh": 112089,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "CharaBlock",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "BLOCK_COLLISION_07",
-                                "1 string m_gimmickType": "BlockCollision",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 112050,
-                                "0 int m_counterRangeHigh": 112089,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "CharaBlock",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "GIMMICK_01",
-                                "1 string m_gimmickType": "AgeMove",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 321110,
-                                "0 int m_counterRangeHigh": 331009,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "GIMMICK_02",
-                                "1 string m_gimmickType": "AgeMove",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 331030,
-                                "0 int m_counterRangeHigh": 332000,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "GIMMICK_03",
-                                "1 string m_gimmickType": "AgeMove",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 332020,
-                                "0 int m_counterRangeHigh": 333000,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "MANHOLE_A",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 131080,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "MANHOLE_B",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 333030,
-                                "0 int m_counterRangeHigh": 999999,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "NAWA_A",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 231019,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "現代襲撃_短期OFF",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "NAWA_B",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 231020,
-                                "0 int m_counterRangeHigh": 999999,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "EFFECTCT",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 212020,
-                                "0 int m_counterRangeHigh": 221010,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "ma_0001_14",
-                                "1 string m_placementId": "BOOKSHELF",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 131070,
-                                "0 int m_counterRangeHigh": 299999,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "ma_0001_21",
-                                "1 string m_placementId": "SAFEAREA_01",
-                                "1 string m_gimmickType": "SafeArea",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "SAFEAREA_02",
-                                "1 string m_gimmickType": "SafeArea",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "SAFEAREA_03",
-                                "1 string m_gimmickType": "SafeArea",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_01",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_02",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_03",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_04",
-                                "1 string m_gimmickType": "ItemBoxWithBarrier",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_05",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_06",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "LADDER",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 299999,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "DOOR",
-                                "1 string m_gimmickType": "",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 299999,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "ma_0001_31",
-                                "1 string m_placementId": "SAFEAREA_01",
-                                "1 string m_gimmickType": "SafeArea",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "SAFEAREA_02",
-                                "1 string m_gimmickType": "SafeArea",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "SAFEAREA_03",
-                                "1 string m_gimmickType": "SafeArea",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_01",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_02",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_03",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_04",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_05",
-                                "1 string m_gimmickType": "ItemBoxWithBarrier",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_06",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 2,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_mapName": "ma_0001_11",
+                    "1 string m_placementId": "SAFEAREA_01",
+                    "1 string m_gimmickType": "SafeArea",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "SAFEAREA_02",
+                    "1 string m_gimmickType": "SafeArea",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "SAFEAREA_03",
+                    "1 string m_gimmickType": "SafeArea",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_01",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 1,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_02",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 1,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "COUTPROP",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 112050,
+                    "0 int m_counterRangeHigh": 112089,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "COUTFENCE",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 112040,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "COUTFENCE",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 112090,
+                    "0 int m_counterRangeHigh": 422000,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "COUTSTAND",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 422000,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "GALLOW",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 423000,
+                    "0 int m_counterRangeHigh": 999999,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "UrbanDOOR",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 131040,
+                    "0 int m_counterRangeHigh": 212020,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "UrbanDOOR",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 221011,
+                    "0 int m_counterRangeHigh": 299999,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "BLOCK_COLLISION_01",
+                    "1 string m_gimmickType": "BlockCollision",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 131080,
+                    "0 int m_counterRangeHigh": 999999,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "CharaBlock",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "BLOCK_COLLISION_02",
+                    "1 string m_gimmickType": "BlockCollision",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "CharaBlock",
+                    "1 string m_unlockGimmickId": "MANHOLE_B"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "BLOCK_COLLISION_03",
+                    "1 string m_gimmickType": "BlockCollision",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 2,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "CharaBlock",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "BLOCK_COLLISION_04",
+                    "1 string m_gimmickType": "BlockCollision",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 2,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "CharaBlock",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "BLOCK_COLLISION_05",
+                    "1 string m_gimmickType": "BlockCollision",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 212020,
+                    "0 int m_counterRangeHigh": 221010,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "CharaBlock",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "BLOCK_COLLISION_06",
+                    "1 string m_gimmickType": "BlockCollision",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 112050,
+                    "0 int m_counterRangeHigh": 112089,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "CharaBlock",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "BLOCK_COLLISION_07",
+                    "1 string m_gimmickType": "BlockCollision",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 112050,
+                    "0 int m_counterRangeHigh": 112089,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "CharaBlock",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "GIMMICK_01",
+                    "1 string m_gimmickType": "AgeMove",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 321110,
+                    "0 int m_counterRangeHigh": 331009,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "GIMMICK_02",
+                    "1 string m_gimmickType": "AgeMove",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 331030,
+                    "0 int m_counterRangeHigh": 332000,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "GIMMICK_03",
+                    "1 string m_gimmickType": "AgeMove",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 332020,
+                    "0 int m_counterRangeHigh": 333000,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "MANHOLE_A",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 131080,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "MANHOLE_B",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 333030,
+                    "0 int m_counterRangeHigh": 999999,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "NAWA_A",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 231019,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "現代襲撃_短期OFF",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "NAWA_B",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 231020,
+                    "0 int m_counterRangeHigh": 999999,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "EFFECTCT",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 212020,
+                    "0 int m_counterRangeHigh": 221010,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "ma_0001_14",
+                    "1 string m_placementId": "BOOKSHELF",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 131070,
+                    "0 int m_counterRangeHigh": 299999,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "ma_0001_21",
+                    "1 string m_placementId": "SAFEAREA_01",
+                    "1 string m_gimmickType": "SafeArea",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "SAFEAREA_02",
+                    "1 string m_gimmickType": "SafeArea",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "SAFEAREA_03",
+                    "1 string m_gimmickType": "SafeArea",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_01",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_02",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_03",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_04",
+                    "1 string m_gimmickType": "ItemBoxWithBarrier",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_05",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_06",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "LADDER",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 299999,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "DOOR",
+                    "1 string m_gimmickType": "",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 299999,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "ma_0001_31",
+                    "1 string m_placementId": "SAFEAREA_01",
+                    "1 string m_gimmickType": "SafeArea",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "SAFEAREA_02",
+                    "1 string m_gimmickType": "SafeArea",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "SAFEAREA_03",
+                    "1 string m_gimmickType": "SafeArea",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_01",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_02",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_03",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_04",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_05",
+                    "1 string m_gimmickType": "ItemBoxWithBarrier",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_06",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 2,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

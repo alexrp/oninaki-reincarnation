@@ -1,40 +1,37 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 877289167640715100
+    },
+    "1 string m_Name": "MstGlobalBgmData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 877289167640715152
-        },
-        "1 string m_Name": "MstGlobalBgmData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Bgm",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Bgm",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "0 int m_typeIndexEvent": 0,
-                                "0 int m_typeIndexBoss": 1,
-                                "0 int m_typeIndexCrisis": 2,
-                                "0 int m_typeIndexKikoku": 3,
-                                "0 int m_typeIndexMapin": 4,
-                                "0 float m_fadeDuration": 5
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "0 int m_typeIndexEvent": 0,
+                    "0 int m_typeIndexBoss": 1,
+                    "0 int m_typeIndexCrisis": 2,
+                    "0 int m_typeIndexKikoku": 3,
+                    "0 int m_typeIndexMapin": 4,
+                    "0 float m_fadeDuration": 5
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

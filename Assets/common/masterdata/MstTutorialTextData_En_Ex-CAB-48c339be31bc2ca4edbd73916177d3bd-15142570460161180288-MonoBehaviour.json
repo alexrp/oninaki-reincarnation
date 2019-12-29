@@ -1,306 +1,357 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 7486738627659983000
+    },
+    "1 string m_Name": "MstTutorialTextData_En_Ex",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 7486738627659983113
-        },
-        "1 string m_Name": "MstTutorialTextData_En_Ex",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Ex",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Ex",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_001_01",
-                                "1 string m_text": "Use Healing Incense to recover HP. HP recovers automatically outside of battle, so use this when locked in combat. You'll find Healing Incense in chests or on fallen enemies. You can use as many as you have. Level up to increase the number of Healing Incenses you can carry."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_002_01",
-                                "1 string m_text": "The mini map at the bottom right of the screen displays your current surroundings, showing areas you can reach and the location of your next objective. You can change the size of the mini map by pressing <ICON=BUTTON_MAP_CHANGE>."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_003_01",
-                                "1 string m_text": "The Living World\nThe land of flesh and blood. A natural world brimming with life, where creatures high and low rejoice in being alive.\n\nThe Beyond\nThe land of the dead. A world that exists in parallel with the Living World, occupying the same space, separated by a thin veil."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_003_02",
-                                "1 string m_text": "Press <ICON=BUTTON_WORLD_CAHANGE> to move between the Living World and the Beyond. The first time you travel to the Beyond in a new location, you will be Veil Blind, preventing you from sensing your surroundings. You are vulnerable as long as you are Veil Blind, so any attacks you suffer are fatal."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_003_03",
-                                "1 string m_text": "A nexus appears when you defeat a Sight Stealer, a rare type of Fallen that appears wreathed in a noxious miasma. If you Cross the Veil near a nexus, your Veil Blindness will be lifted in this region of the Beyond. This also bestows special effects known as Precepts on you and the Fallen within."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_004_01",
-                                "1 string m_text": "Use <ICON=BUTTON_KAMISHIRO_CAHANGE> to swap between the Daemons you can Manifest. Be sure to use the Daemon that best suits the situation."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_004_01_key",
-                                "1 string m_text": "Use <ICON=BUTTON_KAMISHIRO_CAHANGE_UP><ICON=BUTTON_KAMISHIRO_CAHANGE_LEFT><ICON=BUTTON_KAMISHIRO_CAHANGE_DOWN><ICON=BUTTON_KAMISHIRO_CAHANGE_RIGHT> to swap between the Daemons you can Manifest. Be sure to use the Daemon that best suits the situation."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_005_01",
-                                "1 string m_text": "Here are some of the debuffs that can affect your character:\n\n<ICON=BUTTON_STATUS_POISON> Poison: Deals damage over time\n<ICON=BUTTON_STATUS_CONFUSION> Muddle: Prevents Manifest & Incense\n<ICON=BUTTON_STATUS_PARALYSIS> Paralyze: Slows movement\n<ICON=BUTTON_STATUS_STUN> Stun: Inhibits all actions\n\nDebuffs wear off over time. There are also resistances to each debuff that reduce the chance of being affected."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_006_01",
-                                "1 string m_text": "Affinity reflects the depth of possession with a Daemon. It rises during battle, and falls when you use skills. High Affinity increases your Attack, but if it goes over 150 it decreases Defense, so tread carefully!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_006_02",
-                                "1 string m_text": "When Affinity is 100 or higher, you can press <ICON=BUTTON_KIKOKU> to Manifest. When you Manifest, your stats increase even further, you can cancel all actions, and damage will not Stagger you.\n\nWhile Manifested, Affinity becomes the Manifest Gauge. When the gauge reaches zero, Manifestation ends."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_007_01",
-                                "1 string m_text": "When you use a skill it has a chance to Awaken, triggering a variety of possible effects, chosen at random. These effects can turn the tide of battle, so be sure to make good use of them!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_008_01",
-                                "1 string m_text": "A skill has Awoken, granting you a new Awakening! Select Daemons, then Skill Tree to choose the skill that Awoke and enable the Awakening's power."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_009_01",
-                                "1 string m_text": "You've unlocked the Alchemist. Visit the Alchemist's shop just off the central plaza of Deto to enhance and customize your weapons. It's a good idea to pay a visit before embarking on a difficult mission."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_011_01",
-                                "1 string m_text": "Many Lost Souls wander Beyond the Veil. Good things may come to those who lend them a sympathetic ear."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_012_01",
-                                "1 string m_text": "Additional commands are available while at a Waystone:\n\nParty\nManage your Daemons here.\nUse <ICON=BUTTON_KAMISHIRO_CAHANGE> to Shift between Daemons during battle.\n\nDaemon Lore\nCommune with your Daemons, talking with them and reliving their memories."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_012_01_key",
-                                "1 string m_text": "Additional commands are available while at a Waystone:\n\nParty\nManage your Daemons here.\nUse <ICON=BUTTON_KAMISHIRO_CAHANGE_UP><ICON=BUTTON_KAMISHIRO_CAHANGE_LEFT><ICON=BUTTON_KAMISHIRO_CAHANGE_DOWN><ICON=BUTTON_KAMISHIRO_CAHANGE_RIGHT> to Shift between Daemons during battle.\n\nDaemon Lore\nCommune with your Daemons, talking with them and reliving their memories."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_012_02a",
-                                "1 string m_text": "Fast Travel\nAllows you to move between Waystones within the same map, or return to the world map.\n\nDifficulty\nYou can adjust the game's difficulty here. Enemies will respawn at the newly selected difficulty.\n\nSave\nSave your progress."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_013_01",
-                                "1 string m_text": "Waystones mark the boundary between the Living World and the Beyond. Here you can commune with your Daemons and prepare them for battle."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_014_01",
-                                "1 string m_text": "You can use weapons you no longer need as raw materials to enhance other weapons. The weapon used for materials has no effect on the results of the enhancement, so choose any weapon you like."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_015_01",
-                                "1 string m_text": "Socketing shadestones in a weapon can imbue it with various effects. You cannot socket more than one of the same type of shadestone at the same time.\n\nOnce socketed, a shadestone cannot be removed, but socketing a new shadestone will replace the old one."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_016_01",
-                                "1 string m_text": "Your weapons and shadestones can be transmuted into new items using alchemy. Use weapons and shadestones you no longer need to meet the requirements for the desired transmutation. The list of possible transmutations changes every 100 enemies you kill."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_017_01",
-                                "1 string m_text": "Depending on the materials used to transmute, you may gain a bonus that affects the next list of transmutation candidates.\n\nIncreased Drops\nIncreases chance of weapons dropping. Unique for each weapon type.\n\nUpgraded Weapon\nAdds an upgraded weapon to the transmutation list."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_017_02",
-                                "1 string m_text": "Shadestone Socket +\nIncreases the number of shadestones that can be socketed in an item.\n\nRefinement\nIncreases the chance of getting weapons and shadestones you don't have as possible transmutations.\n\nCatalyst\nConfers special effects when transmuting."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_018_01",
-                                "1 string m_text": "On rare occasions, you can recover the shadestones socketed in a weapon that you use as materials for transmutation. Recovered shadestones can be socketed in another weapon."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_019_01",
-                                "1 string m_text": "You can change a Daemon's weapon using Change Equipment on the Daemons menu."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_020_01",
-                                "1 string m_text": "You can assign up to four skills at once. New skills can be acquired using the Skill Tree. Go to the Skill Tree to acquire your first skill."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_020_02",
-                                "1 string m_text": "Each skill has a cooldown that begins when you use the skill. The skill cannot be used again until the cooldown ends. Choose a combination of skills that complement each other on the battlefield."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_021_01",
-                                "1 string m_text": "The skill tree is a visual depiction of a Daemon's soul. You can use soulstones on the skill tree to acquire new skills and abilities for each Daemon. After acquiring a skill, you can assign it for use in battle using Change Skills on the Daemons menu."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_022_01",
-                                "1 string m_text": "Your Daemon gained a rank! Each time a Daemon's rank increases, your bond with them deepens, and their capabilities while possessed increase. Your Daemon will continue to gain ranks as you acquire new skills."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_023_01",
-                                "1 string m_text": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_024_01",
-                                "1 string m_text": "The Awakenings you gain can be assigned to your skills. You might even acquire more Awakenings if you continue using the same skill."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_025_01",
-                                "1 string m_text": "Selecting Fast Travel allows you to go to the world map and move between any Waystones you've previously visited."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_026_01a",
-                                "1 string m_text": "You can instantly travel to various destinations using the world map. Simply examine a Waystone, select Fast Travel, and move to the world map."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_027_01",
-                                "1 string m_text": "On rare occasions, Shadow may appear in the Living World. If you enter the Beyond while tainted by Shadow, you'll face special Fallen. Defeat them to claim rich rewards."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_029_01",
-                                "1 string m_text": "The Sanctum of Rebirth allows you to battle Fallen you've previously encountered. The Sanctum is divided into levels, each requiring a different number of Fallen to be defeated before you can advance to the next. Waystones only appear on certain levels."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_030_01",
-                                "1 string m_text": "Recovering a Daemon's memories allows them to share more of their past with you, strengthening your bond. Examine the Waystones you find and select Daemon Lore to view their memories."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_031_01",
-                                "1 string m_text": "<NAME=WP_0001_11_001> pre-order bonus acquired! Select Daemons, followed by Change Equipment to equip a new weapon. If you discard this weapon, you'll still be able to obtain it from other enemies."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_032_01",
-                                "1 string m_text": "<NAME=WP_0002_11_001> pre-order bonus acquired! Select Daemons, followed by Change Equipment to equip a new weapon. If you discard this weapon, you'll still be able to obtain it from other enemies."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_033_01",
-                                "1 string m_text": "<NAME=WP_0003_11_001> pre-order bonus acquired! Select Daemons, followed by Change Equipment to equip a new weapon. If you discard this weapon, you'll still be able to obtain it from other enemies."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_034_01",
-                                "1 string m_text": "Soulstone acquired! Soulstones form as a sign of the deepening possession of your Daemons. The more you use your Daemons, the more soulstones you can acquire.\n\nPress <ICON=BUTTON_MAIN_MENU> to open the Main Menu, then select Daemons, followed by Skill Tree to use your soulstones.\n\n"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_035_01",
-                                "1 string m_text": "When you get a new Daemon, you can customize it at a Waystone using the Party menu."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_036_01",
-                                "1 string m_text": "Defeated Fallen sometimes leave behind shadestones, the crystalized essence of their power. Some special shadestones begin with the name of the Fallen.\n\nYou can socket weapons with shadestones to harness their power. Visit the Alchemist to socket your weapons.\n\nSome weapons are already socketed with shadestones when they drop."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_037_01",
-                                "1 string m_text": "<NAME=ma_0600_1>\nYou can now visit a new location, the <NAME=ma_0600_1>. Beyond the reach of the precepts, there you will face battles unlike those you've encountered so far."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_037_02",
-                                "1 string m_text": "Aeongate\nA new portal has appeared in the Eternal Garden. The Aeongate enables you to travel freely between Kagachi's time and Soju's. The souls of the Lost remain trapped in their respective time until they are freed."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_101_01",
-                                "1 string m_text": "A passionate and caring Daemon. Aisha has been at Kagachi's side since he first became a Watcher. She still holds distant memories of fleeting happiness and an intense longing for love. \n\nAisha can dash to move quickly across the battlefield, and the swords she wields strike fast and hard, making her a well-balanced warrior."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_102_01",
-                                "1 string m_text": "A Daemon with a strong sense of justice and unwavering honesty. Even in death, the inner turmoil Zaav felt in life is evident within him. He still holds distant memories of hatred suffered and deep regrets. \n\nZaav wields spears as he charges into the fray, and he doesn't flinch at taking a few hard hits. He can also leap into the air, enabling him to attack from land or sky."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_103_01",
-                                "1 string m_text": "A cheerful Daemon who's easy to like, though dealings in his past life have left it difficult for him to trust others. Wil still holds distant memories of roaming far and wide, a time of great joy mixed with bitter hatred. \n\nAble to crush foes through stern defenses, he boasts the most offensive power of any Daemon, and he can use his massive axes to block incoming attacks."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_104_01",
-                                "1 string m_text": "Able to maintain her composure in most any situation, Izana knows how to stand her ground. She is an aloof Daemon who observes the living with great interest. Izana still holds distant memories of the cold tears of the dead and the twisted smiles of the living. \n\nShe wields scythes that cut through large swathes of the battlefield. She also moves in the blink of an eye, enabling her to strike from the blind spots of her foes."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_105_01",
-                                "1 string m_text": "A Daemon who's a natural on the battlefield. Though Rigan's upbringing left him with a course tongue, his heart is no less kind for it. He still holds distant memories of turning away from a warm, outstretched hand.\n\nRigan uses speed as his weapon, defeating foes by overwhelming them with quick attacks. He also employs counterattacks and evasive rolls for a highly technical style of combat."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_106_01",
-                                "1 string m_text": "A Daemon whose manner and graceful bearing exude refinement. Dia always prioritizes her companions above herself. She still holds distant memories of wandering through darkness, and a faint light dancing in the palm of a hand. \n\nWielding a crossbow in one hand and a pistol in the other, Dia unleashes a hail of attacks from afar. She can spring into the air, gaining distance, even while maintaining the onslaught."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_107_01",
-                                "1 string m_text": "An audacious Daemon who's never caught off guard, Gavod is keenly aware of the actions and emotions of others, and makes every effort to accommodate them. He still holds distant memories of loved ones, and eyes filled with despair.\n\nGavod uses shieldcannons, unwieldy weapons that afford the protection of a shield and allow the user to keep up heavy, close-range attacks before unleashing a devastating cannon blast."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_108_01",
-                                "1 string m_text": "A Daemon who devotes herself to fulfilling her destiny. Adrift on an endless sea of time, Lucika is determined to seek out what strength and wisdom she can. For only the light of hope can guide those who would usher in a new era.\n\nWhile always in search of new devices to heighten her abilities, Lucika battles foes with deadly martial arts. She can deploy barriers to defend herself, and chain attacks to devastate foes."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_109_01",
-                                "1 string m_text": "A Daemon with an insatiable thirst for knowledge. Though Treize's curiosity extends to most topics, he has a blind spot when it comes to societal concerns. He still holds distant memories of strange eyes piercing him with their gaze.\n\nTreize stands out from others with the ever-changing attacks of his chains. A master of debuffs, he can leap into the air, covering huge distances even as his chains lash out at enemies below."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_111_01",
-                                "1 string m_text": "A Daemon whose soul was forged in the great wilderness, Zephyr shuns the pack. He still holds distant memories of days spent locked in combat with worthy foes.\n\nZephyr does battle with those who possess him riding on his back. He moves constantly, excelling at hit-and-run tactics. Zephyr can double jump and use various charging skills to control the distance he keeps with his foes."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_112_01",
-                                "1 string m_text": "A machine who wanders myriad worlds. Jex has borne witness to countless beginnings, and endings. The experiences it accumulates become memory, and inform each successive action it takes.\n\nJex can use the skills of other Daemons. In total it can use eight different types of skills, shifting seamlessly between them in battle. It can spend Affinity to unleash special attacks."
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_001_01",
+                    "1 string m_text": "Use Healing Incense to recover HP. HP recovers automatically outside of battle, so use this when locked in combat. You'll find Healing Incense in chests or on fallen enemies. You can use as many as you have. Level up to increase the number of Healing Incenses you can carry."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_002_01",
+                    "1 string m_text": "The mini map at the bottom right of the screen displays your current surroundings, showing areas you can reach and the location of your next objective. You can change the size of the mini map by pressing <ICON=BUTTON_MAP_CHANGE>."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_003_01",
+                    "1 string m_text": "The Living World\nThe land of flesh and blood. A natural world brimming with life, where creatures high and low rejoice in being alive.\n\nThe Beyond\nThe land of the dead. A world that exists in parallel with the Living World, occupying the same space, separated by a thin veil."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_003_02",
+                    "1 string m_text": "Press <ICON=BUTTON_WORLD_CAHANGE> to move between the Living World and the Beyond. The first time you travel to the Beyond in a new location, you will be Veil Blind, preventing you from sensing your surroundings. You are vulnerable as long as you are Veil Blind, so any attacks you suffer are fatal."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_003_03",
+                    "1 string m_text": "A nexus appears when you defeat a Sight Stealer, a rare type of Fallen that appears wreathed in a noxious miasma. If you Cross the Veil near a nexus, your Veil Blindness will be lifted in this region of the Beyond. This also bestows special effects known as Precepts on you and the Fallen within."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_004_01",
+                    "1 string m_text": "Use <ICON=BUTTON_KAMISHIRO_CAHANGE> to swap between the Daemons you can Manifest. Be sure to use the Daemon that best suits the situation."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_004_01_key",
+                    "1 string m_text": "Use <ICON=BUTTON_KAMISHIRO_CAHANGE_UP><ICON=BUTTON_KAMISHIRO_CAHANGE_LEFT><ICON=BUTTON_KAMISHIRO_CAHANGE_DOWN><ICON=BUTTON_KAMISHIRO_CAHANGE_RIGHT> to swap between the Daemons you can Manifest. Be sure to use the Daemon that best suits the situation."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_005_01",
+                    "1 string m_text": "Here are some of the debuffs that can affect your character:\n\n<ICON=BUTTON_STATUS_POISON> Poison: Deals damage over time\n<ICON=BUTTON_STATUS_CONFUSION> Muddle: Prevents Manifest & Incense\n<ICON=BUTTON_STATUS_PARALYSIS> Paralyze: Slows movement\n<ICON=BUTTON_STATUS_STUN> Stun: Inhibits all actions\n\nDebuffs wear off over time. There are also resistances to each debuff that reduce the chance of being affected."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_006_01",
+                    "1 string m_text": "Affinity reflects the depth of possession with a Daemon. It rises during battle, and falls when you use skills. High Affinity increases your Attack, but if it goes over 150 it decreases Defense, so tread carefully!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_006_02",
+                    "1 string m_text": "When Affinity is 100 or higher, you can press <ICON=BUTTON_KIKOKU> to Manifest. When you Manifest, your stats increase even further, you can cancel all actions, and damage will not Stagger you.\n\nWhile Manifested, Affinity becomes the Manifest Gauge. When the gauge reaches zero, Manifestation ends."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_007_01",
+                    "1 string m_text": "When you use a skill it has a chance to Awaken, triggering a variety of possible effects, chosen at random. These effects can turn the tide of battle, so be sure to make good use of them!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_008_01",
+                    "1 string m_text": "A skill has Awoken, granting you a new Awakening! Select Daemons, then Skill Tree to choose the skill that Awoke and enable the Awakening's power."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_009_01",
+                    "1 string m_text": "You've unlocked the Alchemist. Visit the Alchemist's shop just off the central plaza of Deto to enhance and customize your weapons. It's a good idea to pay a visit before embarking on a difficult mission."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_011_01",
+                    "1 string m_text": "Many Lost Souls wander Beyond the Veil. Good things may come to those who lend them a sympathetic ear."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_012_01",
+                    "1 string m_text": "Additional commands are available while at a Waystone:\n\nParty\nManage your Daemons here.\nUse <ICON=BUTTON_KAMISHIRO_CAHANGE> to Shift between Daemons during battle.\n\nDaemon Lore\nCommune with your Daemons, talking with them and reliving their memories."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_012_01_key",
+                    "1 string m_text": "Additional commands are available while at a Waystone:\n\nParty\nManage your Daemons here.\nUse <ICON=BUTTON_KAMISHIRO_CAHANGE_UP><ICON=BUTTON_KAMISHIRO_CAHANGE_LEFT><ICON=BUTTON_KAMISHIRO_CAHANGE_DOWN><ICON=BUTTON_KAMISHIRO_CAHANGE_RIGHT> to Shift between Daemons during battle.\n\nDaemon Lore\nCommune with your Daemons, talking with them and reliving their memories."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_012_02a",
+                    "1 string m_text": "Fast Travel\nAllows you to move between Waystones within the same map, or return to the world map.\n\nDifficulty\nYou can adjust the game's difficulty here. Enemies will respawn at the newly selected difficulty.\n\nSave\nSave your progress."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_013_01",
+                    "1 string m_text": "Waystones mark the boundary between the Living World and the Beyond. Here you can commune with your Daemons and prepare them for battle."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_014_01",
+                    "1 string m_text": "You can use weapons you no longer need as raw materials to enhance other weapons. The weapon used for materials has no effect on the results of the enhancement, so choose any weapon you like."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_015_01",
+                    "1 string m_text": "Socketing shadestones in a weapon can imbue it with various effects. You cannot socket more than one of the same type of shadestone at the same time.\n\nOnce socketed, a shadestone cannot be removed, but socketing a new shadestone will replace the old one."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_016_01",
+                    "1 string m_text": "Your weapons and shadestones can be transmuted into new items using alchemy. Use weapons and shadestones you no longer need to meet the requirements for the desired transmutation. The list of possible transmutations changes every 100 enemies you kill."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_017_01",
+                    "1 string m_text": "Depending on the materials used to transmute, you may gain a bonus that affects the next list of transmutation candidates.\n\nIncreased Drops\nIncreases chance of weapons dropping. Unique for each weapon type.\n\nUpgraded Weapon\nAdds an upgraded weapon to the transmutation list."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_017_02",
+                    "1 string m_text": "Shadestone Socket +\nIncreases the number of shadestones that can be socketed in an item.\n\nRefinement\nIncreases the chance of getting weapons and shadestones you don't have as possible transmutations.\n\nCatalyst\nConfers special effects when transmuting."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_018_01",
+                    "1 string m_text": "On rare occasions, you can recover the shadestones socketed in a weapon that you use as materials for transmutation. Recovered shadestones can be socketed in another weapon."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_019_01",
+                    "1 string m_text": "You can change a Daemon's weapon using Change Equipment on the Daemons menu."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_020_01",
+                    "1 string m_text": "You can assign up to four skills at once. New skills can be acquired using the Skill Tree. Go to the Skill Tree to acquire your first skill."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_020_02",
+                    "1 string m_text": "Each skill has a cooldown that begins when you use the skill. The skill cannot be used again until the cooldown ends. Choose a combination of skills that complement each other on the battlefield."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_021_01",
+                    "1 string m_text": "The skill tree is a visual depiction of a Daemon's soul. You can use soulstones on the skill tree to acquire new skills and abilities for each Daemon. After acquiring a skill, you can assign it for use in battle using Change Skills on the Daemons menu."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_022_01",
+                    "1 string m_text": "Your Daemon gained a rank! Each time a Daemon's rank increases, your bond with them deepens, and their capabilities while possessed increase. Your Daemon will continue to gain ranks as you acquire new skills."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_023_01",
+                    "1 string m_text": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_024_01",
+                    "1 string m_text": "The Awakenings you gain can be assigned to your skills. You might even acquire more Awakenings if you continue using the same skill."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_025_01",
+                    "1 string m_text": "Selecting Fast Travel allows you to go to the world map and move between any Waystones you've previously visited."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_026_01a",
+                    "1 string m_text": "You can instantly travel to various destinations using the world map. Simply examine a Waystone, select Fast Travel, and move to the world map."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_027_01",
+                    "1 string m_text": "On rare occasions, Shadow may appear in the Living World. If you enter the Beyond while tainted by Shadow, you'll face special Fallen. Defeat them to claim rich rewards."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_029_01",
+                    "1 string m_text": "The Sanctum of Rebirth allows you to battle Fallen you've previously encountered. The Sanctum is divided into levels, each requiring a different number of Fallen to be defeated before you can advance to the next. Waystones only appear on certain levels."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_030_01",
+                    "1 string m_text": "Recovering a Daemon's memories allows them to share more of their past with you, strengthening your bond. Examine the Waystones you find and select Daemon Lore to view their memories."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_031_01",
+                    "1 string m_text": "<NAME=WP_0001_11_001> pre-order bonus acquired! Select Daemons, followed by Change Equipment to equip a new weapon. If you discard this weapon, you'll still be able to obtain it from other enemies."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_032_01",
+                    "1 string m_text": "<NAME=WP_0002_11_001> pre-order bonus acquired! Select Daemons, followed by Change Equipment to equip a new weapon. If you discard this weapon, you'll still be able to obtain it from other enemies."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_033_01",
+                    "1 string m_text": "<NAME=WP_0003_11_001> pre-order bonus acquired! Select Daemons, followed by Change Equipment to equip a new weapon. If you discard this weapon, you'll still be able to obtain it from other enemies."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_034_01",
+                    "1 string m_text": "Soulstone acquired! Soulstones form as a sign of the deepening possession of your Daemons. The more you use your Daemons, the more soulstones you can acquire.\n\nPress <ICON=BUTTON_MAIN_MENU> to open the Main Menu, then select Daemons, followed by Skill Tree to use your soulstones.\n\n"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_035_01",
+                    "1 string m_text": "When you get a new Daemon, you can customize it at a Waystone using the Party menu."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_036_01",
+                    "1 string m_text": "Defeated Fallen sometimes leave behind shadestones, the crystalized essence of their power. Some special shadestones begin with the name of the Fallen.\n\nYou can socket weapons with shadestones to harness their power. Visit the Alchemist to socket your weapons.\n\nSome weapons are already socketed with shadestones when they drop."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_037_01",
+                    "1 string m_text": "<NAME=ma_0600_1>\nYou can now visit a new location, the <NAME=ma_0600_1>. Beyond the reach of the precepts, there you will face battles unlike those you've encountered so far."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_037_02",
+                    "1 string m_text": "Aeongate\nA new portal has appeared in the Eternal Garden. The Aeongate enables you to travel freely between Kagachi's time and Soju's. The souls of the Lost remain trapped in their respective time until they are freed."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_101_01",
+                    "1 string m_text": "A passionate and caring Daemon. Aisha has been at Kagachi's side since he first became a Watcher. She still holds distant memories of fleeting happiness and an intense longing for love. \n\nAisha can dash to move quickly across the battlefield, and the swords she wields strike fast and hard, making her a well-balanced warrior."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_102_01",
+                    "1 string m_text": "A Daemon with a strong sense of justice and unwavering honesty. Even in death, the inner turmoil Zaav felt in life is evident within him. He still holds distant memories of hatred suffered and deep regrets. \n\nZaav wields spears as he charges into the fray, and he doesn't flinch at taking a few hard hits. He can also leap into the air, enabling him to attack from land or sky."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_103_01",
+                    "1 string m_text": "A cheerful Daemon who's easy to like, though dealings in his past life have left it difficult for him to trust others. Wil still holds distant memories of roaming far and wide, a time of great joy mixed with bitter hatred. \n\nAble to crush foes through stern defenses, he boasts the most offensive power of any Daemon, and he can use his massive axes to block incoming attacks."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_104_01",
+                    "1 string m_text": "Able to maintain her composure in most any situation, Izana knows how to stand her ground. She is an aloof Daemon who observes the living with great interest. Izana still holds distant memories of the cold tears of the dead and the twisted smiles of the living. \n\nShe wields scythes that cut through large swathes of the battlefield. She also moves in the blink of an eye, enabling her to strike from the blind spots of her foes."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_105_01",
+                    "1 string m_text": "A Daemon who's a natural on the battlefield. Though Rigan's upbringing left him with a course tongue, his heart is no less kind for it. He still holds distant memories of turning away from a warm, outstretched hand.\n\nRigan uses speed as his weapon, defeating foes by overwhelming them with quick attacks. He also employs counterattacks and evasive rolls for a highly technical style of combat."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_106_01",
+                    "1 string m_text": "A Daemon whose manner and graceful bearing exude refinement. Dia always prioritizes her companions above herself. She still holds distant memories of wandering through darkness, and a faint light dancing in the palm of a hand. \n\nWielding a crossbow in one hand and a pistol in the other, Dia unleashes a hail of attacks from afar. She can spring into the air, gaining distance, even while maintaining the onslaught."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_107_01",
+                    "1 string m_text": "An audacious Daemon who's never caught off guard, Gavod is keenly aware of the actions and emotions of others, and makes every effort to accommodate them. He still holds distant memories of loved ones, and eyes filled with despair.\n\nGavod uses shieldcannons, unwieldy weapons that afford the protection of a shield and allow the user to keep up heavy, close-range attacks before unleashing a devastating cannon blast."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_108_01",
+                    "1 string m_text": "A Daemon who devotes herself to fulfilling her destiny. Adrift on an endless sea of time, Lucika is determined to seek out what strength and wisdom she can. For only the light of hope can guide those who would usher in a new era.\n\nWhile always in search of new devices to heighten her abilities, Lucika battles foes with deadly martial arts. She can deploy barriers to defend herself, and chain attacks to devastate foes."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_109_01",
+                    "1 string m_text": "A Daemon with an insatiable thirst for knowledge. Though Treize's curiosity extends to most topics, he has a blind spot when it comes to societal concerns. He still holds distant memories of strange eyes piercing him with their gaze.\n\nTreize stands out from others with the ever-changing attacks of his chains. A master of debuffs, he can leap into the air, covering huge distances even as his chains lash out at enemies below."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_111_01",
+                    "1 string m_text": "A Daemon whose soul was forged in the great wilderness, Zephyr shuns the pack. He still holds distant memories of days spent locked in combat with worthy foes.\n\nZephyr does battle with those who possess him riding on his back. He moves constantly, excelling at hit-and-run tactics. Zephyr can double jump and use various charging skills to control the distance he keeps with his foes."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_112_01",
+                    "1 string m_text": "A machine who wanders myriad worlds. Jex has borne witness to countless beginnings, and endings. The experiences it accumulates become memory, and inform each successive action it takes.\n\nJex can use the skills of other Daemons. In total it can use eight different types of skills, shifting seamlessly between them in battle. It can spend Affinity to unleash special attacks."
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

@@ -1,223 +1,251 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 3206499839727409700
+    },
+    "1 string m_Name": "MstRecordQuestTextData_Ge",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 3206499839727409910
-        },
-        "1 string m_Name": "MstRecordQuestTextData_Ge",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Data",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Data",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_001",
-                                "1 string m_nameId": "cn_name_quest_001",
-                                "1 string m_text": "Eine Frau, die Zale ausgerechnet an dem Tag umgebracht hat, an dem sie ihren Liebsten treffen wollte. Sie will das Häuschen auf den Raom-Ebenen besuchen, wo sie verabredet waren."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_002",
-                                "1 string m_nameId": "cn_name_quest_002",
-                                "1 string m_text": "Ein junger Mann, der sich kurzentschlossen für den Freitod entschieden hat, obwohl er mit seinem Los im Leben zufrieden war. Er weiß nicht, warum er nicht hinübergehen kann, aber er vermutet, dass es mit der Frau westlich des Podiums des Lebens zu tun hat."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_003",
-                                "1 string m_nameId": "cn_name_quest_003",
-                                "1 string m_text": "Trotz ihrer unangenehmen\nVergangenheit froh, Kagachi zu sehen,\nhat Kuja in ihren letzten Augenblicken\netwas mitzuteilen. Sie wünscht sich einen\nruhigen Ort zum Reden und schlägt die\nSook-Moore vor."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_004",
-                                "1 string m_nameId": "cn_name_quest_004",
-                                "1 string m_text": "Eine Frau, die man zur Teilnahme an der Rebellion überredet hatte, und die diese sinnlose Tat jetzt bereut. Ihr letzter Wunsch ist ein Besuch an ihrem Lieblingsort nahe dem Eingang zum Kiho-Ufer."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_005",
-                                "1 string m_nameId": "cn_name_quest_005",
-                                "1 string m_text": "Eine Frau, die blindlings der Arche der\nHoffnung gefolgt ist und noch immer\nnicht ahnt, dass sie getäuscht wurde.\nSie wird kurz nach eurem Treffen zur\nGefallenen Seele."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_006",
-                                "1 string m_nameId": "cn_name_quest_006",
-                                "1 string m_text": "Leo ist bestürzt über seine Verwandlung in eine Gefallene Seele. Selbst im Tod will er den Thronsaal besuchen, um seine Mutter Lobelia zu unterstützen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_007",
-                                "1 string m_nameId": "cn_name_quest_007",
-                                "1 string m_text": "Ein Bandit, den Soju erschlagen hat. Voller Bewunderung über diese Tat, scheint er es nicht übelzunehmen. Er will, dass du eine Zwillingsklinge findest, die in den alten Ruinen verborgen ist."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_008",
-                                "1 string m_nameId": "cn_name_quest_008",
-                                "1 string m_text": "Ein Mann, den Soju in der Vergangenheit getötet hat. Sein Durst nach Rache lässt ihn zum Gefallenen werden und er geht zum Angriff über."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_009",
-                                "1 string m_nameId": "cn_name_quest_009",
-                                "1 string m_text": "Ein Mann, den Soju einst tötete. Ein strikter Vertreter der Vernunft, der seinen Tod hinnimmt und nicht weiß, warum er zur Verlorenen Seele wurde. Auf der Suche nach Antworten bringst du ihn in sein Zuhause in den Mesid-Wäldern."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_010",
-                                "1 string m_nameId": "cn_name_quest_010",
-                                "1 string m_text": "Ein Mann, der zur Blutwache gehen wollte, nachdem er Zaav kennengelernt hatte. Vor dem Hinübergehen will er sich einen Blutwachenspeer ansehen, der auf Angriff 100 oder mehr gebracht wurde."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_011",
-                                "1 string m_nameId": "cn_name_quest_011",
-                                "1 string m_text": "Eine Wächterin, die zur selben Zeit wie Kagachi gedient hat. Sie will, dass du sie ins Erdgeschoss des Ehir-Palastes bringst, damit sie mit einem Daemonen sprechen kann, der ihr einst zu helfen geschworen hatte."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_012",
-                                "1 string m_nameId": "cn_name_quest_012",
-                                "1 string m_text": "Ein Wahrheitssucher, der ein Wesen finden will, das angeblich den Schlüssel zu aller Weisheit besitzt. Obwohl er zweifelt, will er es gerne mit eigenen Augen sehen und bittet dich um Hilfe. Den Gerüchten nach kann dieses Wesen an einem vergessen Ort gefunden werden."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_013",
-                                "1 string m_nameId": "cn_name_quest_013",
-                                "1 string m_text": "Ein Wächter, der starb, als sein Körper dem Jenseits anheimfiel, was in den früheren Tagen durchaus vorkam. Sein letzter Wunsch ist, nach Kiraq zurückzukehren, wo er geboren wurde."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_014",
-                                "1 string m_nameId": "cn_name_quest_014",
-                                "1 string m_text": "Ein Mann, der starb, als er vor seiner Angebeteten angab, und jetzt bereut, dass er es mit dem Training nicht so ernst genommen hat. Er will sie ein letztes Mal am Brunnen nordöstlich von Deto sehen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_015",
-                                "1 string m_nameId": "cn_name_quest_015",
-                                "1 string m_text": "Eine alte Frau, die starb, als ihr Schwiegertochter sie dazu überlistet hat, sich zum Freitod zu melden. Ihre Wut verwandelt sie in eine Gefallene und du bist gezwungen zu kämpfen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_016",
-                                "1 string m_nameId": "cn_name_quest_016",
-                                "1 string m_text": "Eine Frau, die wegen ihrer Sorge um eine männerfürchtende Freundin zur Verlorenen Seele wurde. Sie will ihre Freundin bestärken und dafür zu deren Haus nahe den Treppen nördlich vom Podium des Lebens gebracht werden."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_017",
-                                "1 string m_nameId": "cn_name_quest_017",
-                                "1 string m_text": "Ein Mädchen, das die Gefallenen getötet haben und das seine Mutter an der Kreuzung nördlich von Deto treffen möchte. Allerdings hat sie Angst vor der Wirkung, die das auf ihre liebende Mutter haben könnte und entscheidet, dass ein Blick genug ist."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_018",
-                                "1 string m_nameId": "cn_name_quest_018",
-                                "1 string m_text": "Ein Hund, der seinen Wunsch, sein Herrchen zu treffen, nur durch Bellen bekunden kann. Du fragst dich durch die Stände in Deto, weil du glaubst, dass sein Herrchen irgendwo in der Nähe sein muss."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_019",
-                                "1 string m_nameId": "cn_name_quest_019",
-                                "1 string m_text": "Ein ungewöhnlicher Mann, der von sich behauptet, jeglichen Geruch identifizieren zu können. Er wünscht sich nur, die Luft am Eingang zum Tashir-Kanal noch ein letztes Mal zu schnuppern und möchte, dass du ihn dorthin bringst."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_020",
-                                "1 string m_nameId": "cn_name_quest_020",
-                                "1 string m_text": "Ein Mann, der starb und zum Verlorenen\nwurde, nur um dann von den Gefallenen \ngehetzt zu werden. Er hat keine Ahnung,\nwarum er nicht hinüber kann, bittet dich\naber, ihm bei der Flucht zum Eingang\nnach Deto zu helfen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_021",
-                                "1 string m_nameId": "cn_name_quest_021",
-                                "1 string m_text": "Ein Junge, der Jogo und Wucan sehr bewundert, weil sie immer Zeit für ihn hatten. Er bittet dich, ihm die Goliath-Axt der beiden zu bringen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_022",
-                                "1 string m_nameId": "cn_name_quest_022",
-                                "1 string m_text": "Ein Frau, die beinahe irrwitzig von Leo besessen ist. Sie beginnt eine Szene zu machen und verlangt, Leo zu sehen, bevor sie hinübergeht, also kommst du dem nach."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_023",
-                                "1 string m_nameId": "cn_name_quest_023",
-                                "1 string m_text": "Eine Frau, die ihrer Herrscherin Lady Sara treu ergeben ist. Du nimmst an, dass sie sie kennenlernen will, aber stattdessen wünscht sie sich nur, ein Feld voller Linnaea-Blumen zu sehen, die Sara so sehr mochte."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_024",
-                                "1 string m_nameId": "cn_name_quest_024",
-                                "1 string m_text": "Eine Alchimistin, die ihr Leben ihrem Handwerk gewidmet hatte und unumstößliches Vertrauen in ihre Fähigkeiten hat. Sie will beweisen, dass ihre Waffen ohnegleichen waren und bittet dich, ihr eine Waffe mit Angriff 200 oder mehr zu zeigen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_025",
-                                "1 string m_nameId": "cn_name_quest_025",
-                                "1 string m_text": "Ein Mann, den die Welt jenseits des Inneren Königreichs fasziniert und der die verschwundene Welt studiert, in der es schneit. Er will, dass du eine Waffe aus jener Welt suchst und ihm so seinen letzten Wunsch erfüllst."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_026",
-                                "1 string m_nameId": "cn_name_quest_026",
-                                "1 string m_text": "Eine Historikerin, die sich auf das Zeitalter der Magie spezialisiert hatte. Sie will ein uraltes Rätsel lösen, bevor sie hinübergeht und möchte, dass du ihr eine Waffe aus dem Zeitalter der Magie zeigst."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_027",
-                                "1 string m_nameId": "cn_name_quest_027",
-                                "1 string m_text": "Ein Mann, der die Gefallenen im\nRahmen seiner Forschungen beobachtet\nhat. Er will sie im\nSchattenstein-Steinbruch begutachten,\nden er selbst zu Lebzeiten wegen der\ngroßen Gefahren dort gemieden hat."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_028",
-                                "1 string m_nameId": "cn_name_quest_028",
-                                "1 string m_text": "Ein Mann, der behauptet, die beste Rüstung gehabt zu haben, aber getötet worden zu sein, als die Gefallenen sie stahlen. Da verstand er, dass Waffen wichtiger sind, also will er nun eine Waffe mit Angriff 150 oder mehr sehen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_029",
-                                "1 string m_nameId": "cn_name_quest_029",
-                                "1 string m_text": "Ein Mann, der sich seiner Familie zuliebe\nauf Verbrechen eingelassen hat und\ndafür von den Wächtern hingerichtet\nwurde. Obwohl er sein Schicksal\nakzeptiert, ist die Liebe zu seiner Familie\nso stark, dass er zum Gefallenen wird und\nden Tod durch deine Hand sucht."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_030",
-                                "1 string m_nameId": "cn_name_quest_030",
-                                "1 string m_text": "Ein Mann, der so lange Zeit als Verlorener verbracht hat, dass er bald ein Gefallener sein wird und sich vor dem fürchtet, was das bedeuten mag. Er sucht deine Hilfe, aber es ist zu spät und bist gezwungen, ihn als Gefallenen zu bekämpfen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_031",
-                                "1 string m_nameId": "cn_name_quest_031",
-                                "1 string m_text": "Eine Wache, die die Traditionen des Reiches verlachte und für Fantasien hielt. Als er sich überraschenderweise hinter dem Schleier wiederfindet, will er den Seelenkäfig besuchen, wo es angeblich kein Jenseits gibt."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_032",
-                                "1 string m_nameId": "cn_name_quest_032",
-                                "1 string m_text": "Ein Wächter, der nach seiner Offenbarung Amok gelaufen ist und zu einem lebenden Gefallenen wurde. Er hat lange auf einen Wächter gewartet, der seinem Leiden ein Ende bereiten würde."
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_001",
+                    "1 string m_nameId": "cn_name_quest_001",
+                    "1 string m_text": "Eine Frau, die Zale ausgerechnet an dem Tag umgebracht hat, an dem sie ihren Liebsten treffen wollte. Sie will das Häuschen auf den Raom-Ebenen besuchen, wo sie verabredet waren."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_002",
+                    "1 string m_nameId": "cn_name_quest_002",
+                    "1 string m_text": "Ein junger Mann, der sich kurzentschlossen für den Freitod entschieden hat, obwohl er mit seinem Los im Leben zufrieden war. Er weiß nicht, warum er nicht hinübergehen kann, aber er vermutet, dass es mit der Frau westlich des Podiums des Lebens zu tun hat."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_003",
+                    "1 string m_nameId": "cn_name_quest_003",
+                    "1 string m_text": "Trotz ihrer unangenehmen\nVergangenheit froh, Kagachi zu sehen,\nhat Kuja in ihren letzten Augenblicken\netwas mitzuteilen. Sie wünscht sich einen\nruhigen Ort zum Reden und schlägt die\nSook-Moore vor."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_004",
+                    "1 string m_nameId": "cn_name_quest_004",
+                    "1 string m_text": "Eine Frau, die man zur Teilnahme an der Rebellion überredet hatte, und die diese sinnlose Tat jetzt bereut. Ihr letzter Wunsch ist ein Besuch an ihrem Lieblingsort nahe dem Eingang zum Kiho-Ufer."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_005",
+                    "1 string m_nameId": "cn_name_quest_005",
+                    "1 string m_text": "Eine Frau, die blindlings der Arche der\nHoffnung gefolgt ist und noch immer\nnicht ahnt, dass sie getäuscht wurde.\nSie wird kurz nach eurem Treffen zur\nGefallenen Seele."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_006",
+                    "1 string m_nameId": "cn_name_quest_006",
+                    "1 string m_text": "Leo ist bestürzt über seine Verwandlung in eine Gefallene Seele. Selbst im Tod will er den Thronsaal besuchen, um seine Mutter Lobelia zu unterstützen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_007",
+                    "1 string m_nameId": "cn_name_quest_007",
+                    "1 string m_text": "Ein Bandit, den Soju erschlagen hat. Voller Bewunderung über diese Tat, scheint er es nicht übelzunehmen. Er will, dass du eine Zwillingsklinge findest, die in den alten Ruinen verborgen ist."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_008",
+                    "1 string m_nameId": "cn_name_quest_008",
+                    "1 string m_text": "Ein Mann, den Soju in der Vergangenheit getötet hat. Sein Durst nach Rache lässt ihn zum Gefallenen werden und er geht zum Angriff über."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_009",
+                    "1 string m_nameId": "cn_name_quest_009",
+                    "1 string m_text": "Ein Mann, den Soju einst tötete. Ein strikter Vertreter der Vernunft, der seinen Tod hinnimmt und nicht weiß, warum er zur Verlorenen Seele wurde. Auf der Suche nach Antworten bringst du ihn in sein Zuhause in den Mesid-Wäldern."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_010",
+                    "1 string m_nameId": "cn_name_quest_010",
+                    "1 string m_text": "Ein Mann, der zur Blutwache gehen wollte, nachdem er Zaav kennengelernt hatte. Vor dem Hinübergehen will er sich einen Blutwachenspeer ansehen, der auf Angriff 100 oder mehr gebracht wurde."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_011",
+                    "1 string m_nameId": "cn_name_quest_011",
+                    "1 string m_text": "Eine Wächterin, die zur selben Zeit wie Kagachi gedient hat. Sie will, dass du sie ins Erdgeschoss des Ehir-Palastes bringst, damit sie mit einem Daemonen sprechen kann, der ihr einst zu helfen geschworen hatte."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_012",
+                    "1 string m_nameId": "cn_name_quest_012",
+                    "1 string m_text": "Ein Wahrheitssucher, der ein Wesen finden will, das angeblich den Schlüssel zu aller Weisheit besitzt. Obwohl er zweifelt, will er es gerne mit eigenen Augen sehen und bittet dich um Hilfe. Den Gerüchten nach kann dieses Wesen an einem vergessen Ort gefunden werden."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_013",
+                    "1 string m_nameId": "cn_name_quest_013",
+                    "1 string m_text": "Ein Wächter, der starb, als sein Körper dem Jenseits anheimfiel, was in den früheren Tagen durchaus vorkam. Sein letzter Wunsch ist, nach Kiraq zurückzukehren, wo er geboren wurde."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_014",
+                    "1 string m_nameId": "cn_name_quest_014",
+                    "1 string m_text": "Ein Mann, der starb, als er vor seiner Angebeteten angab, und jetzt bereut, dass er es mit dem Training nicht so ernst genommen hat. Er will sie ein letztes Mal am Brunnen nordöstlich von Deto sehen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_015",
+                    "1 string m_nameId": "cn_name_quest_015",
+                    "1 string m_text": "Eine alte Frau, die starb, als ihr Schwiegertochter sie dazu überlistet hat, sich zum Freitod zu melden. Ihre Wut verwandelt sie in eine Gefallene und du bist gezwungen zu kämpfen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_016",
+                    "1 string m_nameId": "cn_name_quest_016",
+                    "1 string m_text": "Eine Frau, die wegen ihrer Sorge um eine männerfürchtende Freundin zur Verlorenen Seele wurde. Sie will ihre Freundin bestärken und dafür zu deren Haus nahe den Treppen nördlich vom Podium des Lebens gebracht werden."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_017",
+                    "1 string m_nameId": "cn_name_quest_017",
+                    "1 string m_text": "Ein Mädchen, das die Gefallenen getötet haben und das seine Mutter an der Kreuzung nördlich von Deto treffen möchte. Allerdings hat sie Angst vor der Wirkung, die das auf ihre liebende Mutter haben könnte und entscheidet, dass ein Blick genug ist."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_018",
+                    "1 string m_nameId": "cn_name_quest_018",
+                    "1 string m_text": "Ein Hund, der seinen Wunsch, sein Herrchen zu treffen, nur durch Bellen bekunden kann. Du fragst dich durch die Stände in Deto, weil du glaubst, dass sein Herrchen irgendwo in der Nähe sein muss."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_019",
+                    "1 string m_nameId": "cn_name_quest_019",
+                    "1 string m_text": "Ein ungewöhnlicher Mann, der von sich behauptet, jeglichen Geruch identifizieren zu können. Er wünscht sich nur, die Luft am Eingang zum Tashir-Kanal noch ein letztes Mal zu schnuppern und möchte, dass du ihn dorthin bringst."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_020",
+                    "1 string m_nameId": "cn_name_quest_020",
+                    "1 string m_text": "Ein Mann, der starb und zum Verlorenen\nwurde, nur um dann von den Gefallenen \ngehetzt zu werden. Er hat keine Ahnung,\nwarum er nicht hinüber kann, bittet dich\naber, ihm bei der Flucht zum Eingang\nnach Deto zu helfen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_021",
+                    "1 string m_nameId": "cn_name_quest_021",
+                    "1 string m_text": "Ein Junge, der Jogo und Wucan sehr bewundert, weil sie immer Zeit für ihn hatten. Er bittet dich, ihm die Goliath-Axt der beiden zu bringen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_022",
+                    "1 string m_nameId": "cn_name_quest_022",
+                    "1 string m_text": "Ein Frau, die beinahe irrwitzig von Leo besessen ist. Sie beginnt eine Szene zu machen und verlangt, Leo zu sehen, bevor sie hinübergeht, also kommst du dem nach."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_023",
+                    "1 string m_nameId": "cn_name_quest_023",
+                    "1 string m_text": "Eine Frau, die ihrer Herrscherin Lady Sara treu ergeben ist. Du nimmst an, dass sie sie kennenlernen will, aber stattdessen wünscht sie sich nur, ein Feld voller Linnaea-Blumen zu sehen, die Sara so sehr mochte."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_024",
+                    "1 string m_nameId": "cn_name_quest_024",
+                    "1 string m_text": "Eine Alchimistin, die ihr Leben ihrem Handwerk gewidmet hatte und unumstößliches Vertrauen in ihre Fähigkeiten hat. Sie will beweisen, dass ihre Waffen ohnegleichen waren und bittet dich, ihr eine Waffe mit Angriff 200 oder mehr zu zeigen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_025",
+                    "1 string m_nameId": "cn_name_quest_025",
+                    "1 string m_text": "Ein Mann, den die Welt jenseits des Inneren Königreichs fasziniert und der die verschwundene Welt studiert, in der es schneit. Er will, dass du eine Waffe aus jener Welt suchst und ihm so seinen letzten Wunsch erfüllst."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_026",
+                    "1 string m_nameId": "cn_name_quest_026",
+                    "1 string m_text": "Eine Historikerin, die sich auf das Zeitalter der Magie spezialisiert hatte. Sie will ein uraltes Rätsel lösen, bevor sie hinübergeht und möchte, dass du ihr eine Waffe aus dem Zeitalter der Magie zeigst."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_027",
+                    "1 string m_nameId": "cn_name_quest_027",
+                    "1 string m_text": "Ein Mann, der die Gefallenen im\nRahmen seiner Forschungen beobachtet\nhat. Er will sie im\nSchattenstein-Steinbruch begutachten,\nden er selbst zu Lebzeiten wegen der\ngroßen Gefahren dort gemieden hat."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_028",
+                    "1 string m_nameId": "cn_name_quest_028",
+                    "1 string m_text": "Ein Mann, der behauptet, die beste Rüstung gehabt zu haben, aber getötet worden zu sein, als die Gefallenen sie stahlen. Da verstand er, dass Waffen wichtiger sind, also will er nun eine Waffe mit Angriff 150 oder mehr sehen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_029",
+                    "1 string m_nameId": "cn_name_quest_029",
+                    "1 string m_text": "Ein Mann, der sich seiner Familie zuliebe\nauf Verbrechen eingelassen hat und\ndafür von den Wächtern hingerichtet\nwurde. Obwohl er sein Schicksal\nakzeptiert, ist die Liebe zu seiner Familie\nso stark, dass er zum Gefallenen wird und\nden Tod durch deine Hand sucht."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_030",
+                    "1 string m_nameId": "cn_name_quest_030",
+                    "1 string m_text": "Ein Mann, der so lange Zeit als Verlorener verbracht hat, dass er bald ein Gefallener sein wird und sich vor dem fürchtet, was das bedeuten mag. Er sucht deine Hilfe, aber es ist zu spät und bist gezwungen, ihn als Gefallenen zu bekämpfen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_031",
+                    "1 string m_nameId": "cn_name_quest_031",
+                    "1 string m_text": "Eine Wache, die die Traditionen des Reiches verlachte und für Fantasien hielt. Als er sich überraschenderweise hinter dem Schleier wiederfindet, will er den Seelenkäfig besuchen, wo es angeblich kein Jenseits gibt."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_032",
+                    "1 string m_nameId": "cn_name_quest_032",
+                    "1 string m_text": "Ein Wächter, der nach seiner Offenbarung Amok gelaufen ist und zu einem lebenden Gefallenen wurde. Er hat lange auf einen Wächter gewartet, der seinem Leiden ein Ende bereiten würde."
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

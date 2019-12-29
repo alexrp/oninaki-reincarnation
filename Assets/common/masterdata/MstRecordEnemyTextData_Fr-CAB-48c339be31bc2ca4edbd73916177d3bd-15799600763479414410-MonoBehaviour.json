@@ -1,528 +1,595 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 5966615154849393000
+    },
+    "1 string m_Name": "MstRecordEnemyTextData_Fr",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 5966615154849392854
-        },
-        "1 string m_Name": "MstRecordEnemyTextData_Fr",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Data",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Data",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_001",
-                                "1 string m_nameId": "CE_0001",
-                                "1 string m_shortText": "Des Déchus qui ressemblent à des oiseaux de mer. Seuls, ils ne sont pas très puissants, mais ils compensent cela en se déplaçant en nuée. Ils approchent les ennemis tranquillement et les attaquent avec leur bec. Pas vraiment une menace, à moins de se faire encercler.",
-                                "1 string m_text": "Journal de recherche 1-1\nUn seul des trois Enomi capturés a survécu au transport. Déjà, ils étaient faibles, et il semble qu'ils n'ont pas supporté le changement brutal d'environnement. Je dois parler à mon collègue responsable des transports pour éviter de nouveaux accidents."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_002",
-                                "1 string m_nameId": "CE_0001_02",
-                                "1 string m_shortText": "Des Déchus qui ressemblent à des oiseaux de mer. Seuls, ils ne sont pas très puissants, mais ils compensent cela en se déplaçant en nuée. Attention à leurs attaques de bec à la chaîne.",
-                                "1 string m_text": "Journal de recherche 1-2\nAprès avoir mis sous sédatif et examiné l'Enomi, j'ai découvert quelque chose d'incroyable : ils sont très agréables au toucher. Plus particulièrement, les zones bleu foncé de ceux qui se sont adaptés à l'eau sont suffisamment douces pour rivaliser avec les meilleures soies."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_003",
-                                "1 string m_nameId": "CE_0001_03",
-                                "1 string m_shortText": "Des Déchus qui ressemblent à des oiseaux de mer. Seuls, ils ne sont pas très puissants, mais ils compensent cela en se déplaçant en nuée. Ils se lancent en avant le bec tendu, ce qui donne à leurs attaques une plus grande portée.",
-                                "1 string m_text": "Journal de recherche 1-3\nDeux Enomis sont en cage. Ils évoluent en groupes, mais leurs progénitures pourraient-elles se développer près d'un seul individu ? L'écologie des Déchus est différente de celle des autres êtres vivants et regorge de mystères.\n\n"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_004",
-                                "1 string m_nameId": "CE_0001_04",
-                                "1 string m_shortText": "Des Déchus qui ressemblent à des oiseaux de mer. Seuls, ils ne sont pas très puissants, mais ils compensent cela en se déplaçant en nuée. Ils se lancent parfois en avant pour attaquer plusieurs fois à la suite. Attention à leurs becs lorsque tu es sur leur route.",
-                                "1 string m_text": "Journal de recherche 1-4\nLes Enomis ont fui cette nuit. La cage a été ouverte de l'intérieur. Des empreintes de pas sont deux fois plus grandes que les autres ; sûrement le Déchu. Peut-être que certains ont muté pour devenir une espèce plus grande."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_005",
-                                "1 string m_nameId": "CE_0002",
-                                "1 string m_shortText": "Des Déchus qui imitent les champignons et renferment une mauvaise surprise sous leur chapeau. Ce sont des êtres stationnaires qui n'attaquent que si on s'approche d'eux, crachant des émanations toxiques sur leurs ennemis. Cesse d'attaquer et retire-toi dès que tu vois qu'ils s'apprêtent à décharger.",
-                                "1 string m_text": "Spéciation Déchus 1-1\nAutrefois, les Fongus avaient deux formes : la forme fongique qu'on connaît, et une autre comme des germes de plante noduleuse. Mais il y a des décennies, les combats entre les deux espèces ont conduit à l'extinction de la seconde."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_006",
-                                "1 string m_nameId": "CE_0002_02",
-                                "1 string m_shortText": "Des Déchus qui imitent les champignons et renferment une mauvaise surprise sous leur chapeau. Ce sont des êtres stationnaires qui n'attaquent que si on s'approche d'eux. Les émanations paralysantes qu'ils crachent contraignent les mouvements des membres pendant un certain temps.",
-                                "1 string m_text": "Spéciation Déchus 1-2\nLa lutte a donné lieu à une sous-espèce de Fongus avec un type différent d'émanation toxique qui engourdit le corps, rendant même la parole difficile. D'où leur appellation commune de Fongusceptibles."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_007",
-                                "1 string m_nameId": "CE_0002_03",
-                                "1 string m_shortText": "Des Déchus qui imitent les champignons et renferment une mauvaise surprise sous leur chapeau. Contrairement aux deux autres variétés, ceux-ci ne sont pas stationnaires. Les émanations qu'ils crachent ont un effet de soin sur les Déchus.",
-                                "1 string m_text": "Spéciation Déchus 1-3\nUne fois les germes exterminés, les Fongus sont devenus moins combatifs. À tel point que les Fongusinistres qui ont suivi ont émis des émanations qui soignent les Déchus. Elles n'ont pas d'effet sur les humains, mais l'odeur est désagréable."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_008",
-                                "1 string m_nameId": "CE_0003",
-                                "1 string m_shortText": "Des Déchus féroces impossibles à distinguer les uns des autres. Ils ne se laisseront pas décourager par les attaques timides, et n'arrêteront pas de se balancer avant d'avoir tout détruit sur leur passage. Bien qu'ils soient puissants, leur taille rend leurs attaques faciles à éviter. Frappe leur flanc.\n\n",
-                                "1 string m_text": "Les réflexions d'un Gardien 1-1\nLes Simiens malfaisants, tu dis ? Ohhh oui. Oui, j'ai détruit une bonne quantité de ces créatures. Ils sont faibles. Tout ce qu'ils font, c'est balancer leurs bras. Quel ennui."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_009",
-                                "1 string m_nameId": "CE_0003_02",
-                                "1 string m_shortText": "Des Déchus féroces impossibles à distinguer les uns des autres. Ils ne se laisseront pas décourager par les attaques timides, et n'arrêteront pas de se balancer avant d'avoir tout détruit sur leur passage. Encore plus dangereux, mais ils font de longues pauses entre chaque attaque.",
-                                "1 string m_text": "Les réflexions d'un Gardien 1-2\nLes Simiens... pas mes préférés. Rien à voir avec mon style de combat, mais... ils me rappellent mon ex. Tu devrais peut-être interroger quelqu'un d'autre pour ton étude. Je ne pense pas que mes réponses seront très utiles."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_010",
-                                "1 string m_nameId": "CE_0003_03",
-                                "1 string m_shortText": "Des Déchus féroces impossibles à distinguer les uns des autres. Ils ne se laisseront pas décourager par les attaques timides, et n'arrêteront pas de se balancer avant d'avoir tout détruit sur leur passage. Ils hurleront pour te paralyser, puis t'écraseront. Garde tes distances lorsqu'ils inhalent.\n\n",
-                                "1 string m_text": "Les réflexions d'un Gardien 1-3\nLes Simiens sont coriaces. Des frissons parcourront ton corps  si tu les entends hurler d'assez près. Quelqu'un comme moi peut s'occuper d'eux dès qu'il voit ce qu'ils préparent, mais tu serais plus en sécurité avec une arme à distance."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_011",
-                                "1 string m_nameId": "CE_0004",
-                                "1 string m_shortText": "Des Déchus qui ressemblent à des créatures marines simples. Parfois, ils se cachent et attendent pour une attaque surprise. D'autres fois, ils chargent tout de suite. Ils vivent au bord de l'eau, alors fais attention en explorant des rives avec de nombreuses zones obscures.",
-                                "1 string m_text": "Le labeur de l'armurier 1-1\nLes tibias sont vulnérables. Aucune expérience de combat ou d'entraînement ne peut les renforcer contre les attaques. Et bien sûr, c'est précisément là que ces Déchus grossiers aiment frapper. Avant, je sursautais au moindre de leurs mouvements - jusqu'à aujourd'hui."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_012",
-                                "1 string m_nameId": "CE_0004_02",
-                                "1 string m_shortText": "Des Déchus qui ressemblent à des créatures marines simples. Parfois, ils se cachent et attendent pour faire une attaque surprise. D'autres fois, ils chargent tout de suite. Non seulement leurs assauts peuvent couvrir une distance plus importante à une grande vitesse, mais ils sont également puissants.",
-                                "1 string m_text": "Le labeur de l'armurier 1-2\nNul besoin de craindre ces Déchus louches qui me chargent quand je suis à l'abri dans ma toute nouvelle armure Protecfer. Et j'ai même pris des mesures pour tenir compte de ses inconvénients en termes de volume et de mobilité."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_013",
-                                "1 string m_nameId": "CE_0004_03",
-                                "1 string m_shortText": "Des Déchus qui ressemblent à des créatures marines simples. Parfois, ils se cachent et attendent pour faire une attaque surprise. D'autres fois, ils chargent tout de suite. Leurs assauts couvrent une distance plus importante plus vite, et ils sont radicalement plus puissants.",
-                                "1 string m_text": "Le labeur de l'armurier 1-3\nLes charges ne m'infligent presque plus de dégâts, mais j'ai fait une erreur de calcul avec les roues que j'ai ajoutées pour la mobilité. L'impact de l'attaque m'a envoyé dans les airs, et tout est devenu flou. Il y a beaucoup à améliorer."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_014",
-                                "1 string m_nameId": "CE_0005",
-                                "1 string m_shortText": "Des Déchus volants aux ailes d'insecte. Ils lancent des attaque magiques avec leur bec en forme de tonneau. Ils ont tendance à se retirer quand on s'approche d'eux, alors en tentant une attaque rapprochée tu risques de te faire tirer dessus.",
-                                "1 string m_text": "Encyclopédie des Déchus 1-1\nLes Pluminfâmes peuvent mesurer avec précision la distance qui les sépare de leur cible et déterminer quand faire feu, bien que leur organe sensoriel reste un mystère. Reproduire un tel organe pourrait faire avancer la médecine."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_015",
-                                "1 string m_nameId": "CE_0005_03",
-                                "1 string m_shortText": "Des Déchus volants aux ailes d'insecte. Ils lancent des attaque magiques avec leur bec en forme de tonneau. Ils peuvent lancer ces projectiles puissants dans trois directions différentes à la fois.",
-                                "1 string m_text": "Encyclopédie des Déchus 1-2\nOn raconte que les motifs en forme de feuille sur les ailes des Pluminfâmes sont des veines qui permettent aux Déchus d'absorber la magie de l'atmosphère. Les ailes de chaque espèce ont des motifs différents en raison des divers habitats dans lesquels elles vivent."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_016",
-                                "1 string m_nameId": "CE_0005_02",
-                                "1 string m_shortText": "Des Déchus volants aux ailes d'insecte. Ils lancent des attaque magiques avec leur bec en forme de tonneau. Leurs projectiles sont plus puissants, mais si tu arrives à tenir tête face aux Pluminfâme du crépuscule, ceux-ci ne constitueront pas vraiment une menace.",
-                                "1 string m_text": "Encyclopédie des Déchus 1-3\nAvant de se lancer dans une attaque consommant beaucoup de magie, les Pluminfâmes agitent leurs pour créer la magie nécessaire. Certains théorisent qu'il s'agit d'une parade nuptiale, bien qu'il n'y ait aucun récit de témoin oculaire à l'appui de cette affirmation."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_017",
-                                "1 string m_nameId": "CE_0006",
-                                "1 string m_shortText": "Des Déchus qui ressemblent à de grandes plantes en fleur. Ils peuvent extraire leurs racines et les utiliser pour ramper sur la terre. Le mucilage qu'ils crachent peut te coller aux jambes et ralentir l'esquive. Fais donc très attention lorsque tu fais face à plusieurs de ces ennemis.",
-                                "1 string m_text": "Les prairies à voir absolument 1-1\nLa vallée qui s'étend au pied du Mont Teora abrite le Jardin de fleurs Mazzen, la plus grande prairie du royaume. Chaque année, lorsque les fleurs de toutes les couleurs s'épanouissent, elle est envahie de touristes qui viennent s'émerveiller du paysage vif.\n\n"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_018",
-                                "1 string m_nameId": "CE_0006_02",
-                                "1 string m_shortText": "Des Déchus qui ressemblent à de grandes plantes en fleur. Ils peuvent extraire leurs racines et les utiliser pour ramper sur la terre. Le mucus qu'ils crachent n'inflige que peu de dégâts s'il t'atteint, mais il te ralentira.",
-                                "1 string m_text": "Les prairies à voir absolument 1-2\nAu nord du Sous-bois Grewan se trouve une prairie cachée, où le climat est propice à la floraison de la singulière linnée. À cause des Déchus, y parvenir est un vrai défi, mais la récompense d'un spectacle aussi magnifique en vaut la peine.\n\n"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_019",
-                                "1 string m_nameId": "CE_0006_03",
-                                "1 string m_shortText": "Des Déchus qui ressemblent à de grandes plantes en fleur. Ils peuvent extraire leurs racines et les utiliser pour ramper sur la terre. Marcher sur le mucus qu'ils crachent te ralentira. Les coups indirects infligent peu de dégâts, mais la colle met longtemps à disparaître.",
-                                "1 string m_text": "Les prairies à voir absolument 1-3\nCeux qui recherchent une expérience inhabituelle peuvent visiter la Forêt Ophay, qui est envahie de Déchus fleurs. Vous ne pourrez assister nulle part ailleurs au spectacle d'une végétation frétillante qui change de forme d'un instant à l'autre."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_020",
-                                "1 string m_nameId": "CE_0007",
-                                "1 string m_shortText": "Des Déchus ailés qui rappellent des insectes. Une fois qu'ils ont épuisé leurs forces, les combustibles stockés dans leur abdomen s'enflamment et explosent après un certain temps.",
-                                "1 string m_text": "Le labeur de l'armurier 2-1\nL'explosif qui reste après la destruction des Bombardiers est fait d'essence magique pure. Sans aucun moyen physique d'empêcher l'explosion, d'innombrables chasseurs de Déchus ont été laissés pour compte — jusqu'à aujourd'hui."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_021",
-                                "1 string m_nameId": "CE_0007_02",
-                                "1 string m_shortText": "Des Déchus ailés qui rappellent des insectes. Une fois qu'ils ont épuisé leurs forces, les combustibles stockés dans leur abdomen s'enflamment et explosent après un certain temps. Le souffle de l'explosion a un rayon plus large et plus puissant.",
-                                "1 string m_text": "Le labeur de l'armurier 2-2\nMon tout nouveau gantelet Poignétouffe peut empêcher complètement l'explosif de sauter ! Tu aurais dû voir le sourire sur mon visage quand j'ai constaté que le fusible avait cessé de brûler."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_022",
-                                "1 string m_nameId": "CE_0007_03",
-                                "1 string m_shortText": "Des Déchus ailés qui rappellent des insectes. Une fois qu'ils ont épuisé leurs forces, les combustibles stockés dans leur abdomen s'enflamment et explosent après un certain temps. Le souffle de l'explosion a un rayon encore plus large et plus puissant.",
-                                "1 string m_text": "Le labeur de l'armurier 2-3\nUn Gardien m'a approché alors que je tenais la bombe et m'a demandé ce qu'il se passerait une fois que je l'aurais relâchée, à quoi j'ai répondu qu'elle allait exploser. Quand le Gardien s'est éloigné sans un mot, j'ai réalisé ma grave erreur de calcul."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_023",
-                                "1 string m_nameId": "CE_0008",
-                                "1 string m_shortText": "Des Déchus féroces, de type mammifère avec une vue aussi perçante que les cornes avec lesquelles ils attaquent.",
-                                "1 string m_text": "Spéciation Déchus 2-1\nAutrefois, les Taures étaient assez reclus malgré leur férocité, car ils ont toujours eu du mal à se reproduire - jusqu'à un pic soudain de la population."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_024",
-                                "1 string m_nameId": "CE_0008_02",
-                                "1 string m_shortText": "Des Déchus féroces, de type mammifère avec une vue aussi perçante que les cornes avec lesquelles ils attaquent. Plus intelligents que l'espèce de base, ils réfléchissent et se déplacent rapidement.",
-                                "1 string m_text": "Spéciation Déchus 2-2\nLes dégâts causés par les Taures étaient incommensurables. On tenta de réduire leur nombre, mais en vain. Peu importe combien furent abattus - il en arrivait encore. Il semblait que leur règne de terreur ne connaîtrait son terme qu'à la fin du monde lui-même."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_025",
-                                "1 string m_nameId": "CE_0008_03",
-                                "1 string m_shortText": "Des Déchus féroces, de type mammifère avec une vue aussi perçante que les cornes avec lesquelles ils attaquent. Si tu te fais toucher par une de leurs charges, tu peux être envoyé haut dans les airs.",
-                                "1 string m_text": "Spéciations Déchus 2-3\nMais une autre terreur s'abattit sur la terre : une vague de froid brutale décima les Taures à la frontière. La même chaîne d'événements se produisit encore deux fois. Maintenant, les gens craignent que les booms de population Taure ne soient le signe de calamités à venir."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_026",
-                                "1 string m_nameId": "CE_0009",
-                                "1 string m_shortText": "Des Déchus terrifiants dont les corps sont dominés par une gueule grotesque. Leur baiser confère toutes sortes de debuffs, alors ne te mets pas juste devant eux.",
-                                "1 string m_text": "Journal de recherche 2-1\nL'intérieur de ces Déchus est composé de substances qui réfléchissent peu ou pas la lumière. D'après mon collègue, cela donnait le sentiment d'être aspiré dans un ciel sans étoiles - juste avant d'être aspiré tout court (pour revenir ensuite)."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_027",
-                                "1 string m_nameId": "CE_0009_02",
-                                "1 string m_shortText": "Des Déchus terrifiants dont les corps sont dominés par une gueule grotesque. Ils invoquent d'autres Déchus, alors élimine ceux-ci en premier.",
-                                "1 string m_text": "Journal de recherche 2-2\nSelon mon associé, la température à l'intérieur de ces Déchus était plutôt agréable, voire relaxante. Cependant, il y avait aussi une odeur intense et enivrante qui laissait à la discussion le soin de déterminer à quel point cette expérience était réelle ou hallucinée."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_028",
-                                "1 string m_nameId": "CE_0010_01",
-                                "1 string m_shortText": "De petits Déchus humanoïdes qui voyagent en groupe et détachent leur crâne pour l'utiliser comme arme. Ils fuiront quand leurs rangs diminueront, alors utilise une attaque de zone quand tu es encerclé pour abattre beaucoup d'entre eux à la fois.",
-                                "1 string m_text": "Témoignage d'un Démon 1-1\nCertains pensent que les Déchus humanoïdes ne sont pas le résultat d'émotions humaines, mais animales. C'est le puissant désir d'un animal de devenir humain qui donne naissance à ces Déchus. Il y a peut-être du vrai là-dedans."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_029",
-                                "1 string m_nameId": "CE_0010_04",
-                                "1 string m_shortText": "De petits Déchus humanoïdes qui voyagent en groupe et détachent leur crâne pour l'utiliser comme arme. La forme du crâne varie en fonction de l'individu, bien que cela n'ait aucun effet sur sa force.",
-                                "1 string m_text": "Témoignage d'un Démon 1-2\nSeules des créatures dotée d'une grande intelligence sont capables de manier des armes. Certains Déchus le peuvent. Est-ce que cela fait d'eux des êtres intelligents ? Cela me fascine de réfléchir à ce à quoi ils pourraient penser."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_030",
-                                "1 string m_nameId": "CE_0010_07",
-                                "1 string m_shortText": "De petits Déchus humanoïdes qui voyagent en groupe et détachent leur crâne pour l'utiliser comme arme. Leurs armes sont empoisonnées, alors reste bien hors de portée durant le combat.",
-                                "1 string m_text": "Témoignage d'un Démon 1-3\nUtiliser des armes est une chose, mais du poison ? C'est tout à fait différent. J'en déduis qu'ils doivent être intelligents, après tout. Comment fabriquent-ils ces armes, d'abord ? Cette recherche en vaut vraiment la peine."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_031",
-                                "1 string m_nameId": "CE_0011",
-                                "1 string m_shortText": "Des Déchus qui produisent de l'Écorchite pendant une durée déterminée. Ils sont stationnaires, bien qu'ils émettent parfois des émanations toxiques sur un large rayon.",
-                                "1 string m_text": "Témoignage d'un Démon 2-1\nLes Déchus qui engendrent d'autres Déchus peuvent avoir changé d'aspect au fil des siècles, mais une chose est sûre : la plupart d'entre eux sont dangereux. Ils ne sont pas différents. Il vaut mieux les détruire dès qu'on pose les yeux sur eux."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_032",
-                                "1 string m_nameId": "CE_0011_02",
-                                "1 string m_shortText": "Des Déchus qui produisent de l'Éventrite pendant une durée déterminée. Ils sont stationnaires, bien qu'ils émettent parfois des émanations toxiques sur un large rayon.",
-                                "1 string m_text": "Témoignage d'un Démon 2-2\nD'après une théorie, leur capacité à donner naissance à des Déchus découle d'un désir plus profond d'être parents, dont l'évidence est l'évolution de leur apparence au fil des ans. Le concept est intéressant mais pour moi cela ne tient pas la route."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_033",
-                                "1 string m_nameId": "CE_0011_03",
-                                "1 string m_shortText": "Des Déchus qui produisent de l'Empalite pendant une durée déterminée. Ils sont stationnaires, bien qu'ils émettent parfois des émanations toxiques sur un large rayon.",
-                                "1 string m_text": "Témoignage d'un Démon 2-3\nJe crois que leur capacité à donner naissance à des Déchus découle de l'envie humaine de créer. Cela expliquerait pourquoi ce qu'ils engendrent diffère d'une année à l'autre. Le fait que le désir humain ne connaisse aucune limite est indiscutable."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_034",
-                                "1 string m_nameId": "CE_0012",
-                                "1 string m_shortText": "Des Déchus recouverts d'un exosquelette résistant. Leurs attaques de charge sont dévastatrices. Lorsqu'ils sont isolés, ils ont souvent recours à la défense.",
-                                "1 string m_text": "Lettre froissée 1-1\nDeux semaines se sont écoulées depuis le début de la tempête de sable. Pourtant, elle ne montre aucun signe d'accalmie. Étant novice en la matière, je ne peux pas aider Père dans son travail. Je passe la plupart de mon temps à surveiller mon petit frère à la maison."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_035",
-                                "1 string m_nameId": "CE_0012_02",
-                                "1 string m_shortText": "Des Déchus recouverts d'un exosquelette résistant. Leurs attaques de charge sont dévastatrices. Lorsqu'ils sont isolés, ils ont souvent recours à la défense. Ils se comportent exactement comme l'espèce d'origine, mais sont plus forts.",
-                                "1 string m_text": "Lettre froissée 1-2\nDeux mois se sont écoulés depuis le début de la tempête de sable. Ne pouvant pas m'aventurer dehors, les heures que je passe avec mon frère s'allongent. Nous avons dû rationner nos provisions pour les faire durer, et nous économisons nos forces."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_036",
-                                "1 string m_nameId": "CE_0012_03",
-                                "1 string m_shortText": "Des Déchus recouverts d'un exosquelette résistant. Leurs attaques de charge sont dévastatrices. Lorsqu'ils sont isolés, ils ont souvent recours à la défense. Ils se comportent exactement comme l'espèce de base, mais sont encore plus forts.",
-                                "1 string m_text": "Lettre froissée 1-3\nIl ne reste presque plus personne dans le village. Notre famille est partie pour la capitale une fois la tempête de sable calmée. Nous avons vu plusieurs Déchus le long du chemin, coincés dans les rochers ou recroquevillés, immobiles. Je ressens un petit sentiment de parenté avec eux."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_037",
-                                "1 string m_nameId": "CE_0013",
-                                "1 string m_shortText": "Des Déchus ressemblant à des scorpions qui utilisent leur queues comme artillerie. Ils n'ont aucun moyen d'attaquer de près. Leurs projectiles suivent une trajectoire parabolique et explosent à l'impact.",
-                                "1 string m_text": "L'Ère de la magie 1-1\nNous ne pouvons pas parler de la période centrale de l'Ère de la magie sans discuter des tentatives humaines de créer des Déchus. Bien qu'elles se soient largement soldées par des échecs, certaines ont laissé des cicatrices qui perdurent."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_038",
-                                "1 string m_nameId": "CE_0013_03",
-                                "1 string m_shortText": "Des Déchus ressemblant à des scorpions qui utilisent leur queues comme artillerie. Ils n'ont aucun moyen d'attaquer de près. Leurs projectiles explosent après un court instant, et l'explosion affecte un rayon plus large.",
-                                "1 string m_text": "L'Ère de la magie 1-2\nIls reproduisirent les conditions qui avaient engendré des Déchus et attendirent leur apparition, ou modifièrent les conditions d'une mutation souhaitée. Sans comprendre comment les Déchus avaient été créés, ils s'engagèrent dans ces expériences."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_039",
-                                "1 string m_nameId": "CE_0013_02",
-                                "1 string m_shortText": "Des Déchus ressemblant à des scorpions qui utilisent leur queues comme artillerie. Ils n'ont aucun moyen d'attaquer de près. Leurs projectiles explosent après un long moment, et l'explosion affecte un rayon encore plus large.",
-                                "1 string m_text": "L'Ère de la magie 1-3\nLes Débauchions furent créés durant ce processus. Leurs queues furent fusionnées avec des fusils et ils purent produire leur propre énergie. Ils furent néanmoins abandonnés car ils étaient incontrôlables. Leurs descendants restent sauvages."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_040",
-                                "1 string m_nameId": "CE_0014",
-                                "1 string m_shortText": "Des Déchus avec un bras qui se termine par une boule de fer. Leurs attaques ont une large portée.",
-                                "1 string m_text": "Histoire de l'Égaré 1-1\nQuand je suis revenu à moi, je me suis retrouvé face à Déchu qui avait une boule de fer en guise de poing. J'étais terrifié. Je me suis enfui aussi vite que mes jambes pouvaient me porter. Le Déchu m'a poursuivi. Tout ce que je pouvais faire, c'était courir."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_041",
-                                "1 string m_nameId": "CE_0014_03",
-                                "1 string m_shortText": "Des Déchus avec un bras qui se termine par une boule de fer. Leurs attaques ont une large portée. Ils se comportent exactement comme l'espèce de base, mais sont encore plus puissants.",
-                                "1 string m_text": "Histoire de l'Égaré 1-2\nJe pense que je l'ai semé, mais je ne sais pas où je suis. Peut-être parce que je suis mort ? Alors je dois être un Égaré. Ainsi, les gens ne se transforment pas toujours en Âmes égarées là où ils meurent. J'ai appris quelque chose."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_042",
-                                "1 string m_nameId": "CE_0014_02",
-                                "1 string m_shortText": "Des Déchus avec un bras qui se termine par une boule de fer. Leurs attaques ont une large portée. Ils se comportent exactement comme l'espèce de base, mais sont plus puissants.",
-                                "1 string m_text": "Histoire de l'Égaré 1-3\nJ'ai essayé de prendre un chemin différent pour revenir là où j'étais tout à l'heure, mais le Déchu était là. Peut-être que c'est mieux si je ne bouge pas... Mais que se passe-t-il lorsqu'un Déchu élimine un Égaré ? Est-il possible de mourir deux fois ?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_043",
-                                "1 string m_nameId": "CE_0015",
-                                "1 string m_shortText": "Des Déchus qui creusent sous la terre en utilisant leurs griffes allongées et émergent pour créer des attaques surprises. Déplace-toi dès que tu les vois plonger sous terre pour éviter leur assaut.",
-                                "1 string m_text": "Dieu de la fosse 1-1\nDans un village de montagne, plusieurs personnes disparurent, laissant derrière elles une fosse juste assez large pour un humain. Les villageois désespérés craignirent que ce soit l'œuvre d'un dieu et se mirent à genoux en signe de supplication."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_044",
-                                "1 string m_nameId": "CE_0015_02",
-                                "1 string m_shortText": "Des Déchus qui creusent sous la terre en utilisant leurs griffes allongées et émergent pour créer des attaques surprises. Ils se comportent exactement comme l'espèce de base, mais sont plus forts.",
-                                "1 string m_text": "Dieu de la fosse 1-2\nLes villageois construisirent un autel pour adorer le dieu de la fosse. Là, ils laissèrent des offrandes quotidiennes et passèrent des semaines à creuser un trou géant derrière. Les gens cessèrent de disparaître après cela et les villageois s'en réjouirent."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_045",
-                                "1 string m_nameId": "CE_0016",
-                                "1 string m_shortText": "Des Déchus insaisissables qui peuvent se déformer sur le champ de bataille. Ils chantent d'étranges incantations qui améliorent les Déchus à proximité, augmentant temporairement la Défense de ceux qui sont affectés.",
-                                "1 string m_text": "Témoignage d'un Démon 3-1\nLes Tors existent depuis toujours. Les Déchus sont engendrés par les émotions négatives et donc parfois ils mutent, mais ces créatures ont toujours existé. Elles proviennent probablement d'une émotion de base. Ce qui expliquerait leur force."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_046",
-                                "1 string m_nameId": "CE_0016_03",
-                                "1 string m_shortText": "Des Déchus insaisissables qui peuvent se déformer sur le champ de bataille. Ils chantent d'étranges incantations qui améliorent les Déchus à proximité, augmentant temporairement l'Attaque de ceux qui sont affectés.",
-                                "1 string m_text": "Témoignage d'un Démon 3-2\nUne fois, j'ai essayé de comprendre le fonctionnement des étranges incantations chantées par les Tors. Même s'il me semblait que je pouvais y arriver en y consacrant suffisamment de temps, j'avais appris si peu que j'ai abandonné."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_047",
-                                "1 string m_nameId": "CE_0016_02",
-                                "1 string m_shortText": "Des Déchus insaisissables qui peuvent se déformer sur le champ de bataille. Ils chantent d'étranges incantations qui améliorent les Déchus à proximité, augmentant temporairement la vitesse de déplacement de ceux qui sont affectés.",
-                                "1 string m_text": "Témoignage d'un Démon 3-3\nL'Entravator semble être une espèce qui a évolué récemment. Les Déchus n'étaient pas si puissants dans le passé, tu vois. Peut-être sont-ils la preuve de la misère naissante de l'humanité."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_048",
-                                "1 string m_nameId": "CE_0017",
-                                "1 string m_shortText": "Des Déchus avec une corne en forme de poing qui lancent toutes sortes d'attaques. Ils se précipitent d'un côté à l'autre, déplaçant le centre de leur charge.",
-                                "1 string m_text": "Les réflexions d'un Gardien 2-1\nLes Cornunokés, hein ? Il faut s'en méfier. Ils sont plus complexes qu'on ne le croit. Si tu te retrouves un jour seul face à l'un d'eux, cours. C'est une plaie, mieux vaut les laisser pour quelqu'un qui aime vraiment se battre."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_049",
-                                "1 string m_nameId": "CE_0017_02",
-                                "1 string m_shortText": "Des Déchus avec une corne en forme de poing qui lancent toutes sortes d'attaques. Lorsqu'ils reculent, c'est le signe qu'ils préparent une attaque fatale.",
-                                "1 string m_text": "Réflexions d'un Gardien 2-2\nOui, j'ai vaincu un Cornunoké combattant. C'était amusant. Une vraie démonstration de force. Tu veux savoir comment les éliminer ? C'est facile : combats comme ta vie en dépendait ! Prends les coups qu'ils t'infligent et renvoie-leur !"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_050",
-                                "1 string m_nameId": "CE_0017_03",
-                                "1 string m_shortText": "Des Déchus avec une corne en forme de poing qui lancent toutes sortes d'attaques. Attention lorsqu'ils frappent le sol avec leur corne ; l'onde de choc affecte un large rayon.",
-                                "1 string m_text": "Réflexions d'un Gardien 2-3\nTu dois faire attention aux Cornunokés, mais surtout aux Cornunokés lourds. Ils ont des tonnes d'attaques dans la manche, alors tu dois les surveiller comme un faucon, sinon t'es cuit. Hé, tu m'écoutes au moins ? Ces Déchus sont dangereux !"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_053",
-                                "1 string m_nameId": "CE_1003",
-                                "1 string m_shortText": "Des Déchus avec un marteau géant en guise de bras. Ils utilisent leurs jambes robustes pour lancer des attaques de pivot ou de saut. Éviter leurs coups de marteau n'est pas suffisant pour te protéger du danger, car leur impact fait trembler le sol. Saute pour échapper à l'onde de choc.",
-                                "1 string m_text": "Un balancement de leurs bras laisse un cratère dans le sol. Un balancement de leurs bras écrase toute vie en-dessous. La destruction coule dans leurs veines comme du sang. Leurs instincts survivront à leurs corps et leurs esprits. Des échecs humanoïdes. Sont-ils si dignes de l'absolution ?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_054",
-                                "1 string m_nameId": "CE_1003_02",
-                                "1 string m_shortText": "Des Déchus avec un marteau géant en guise de bras. Ils utilisent leurs jambes robustes pour lancer des attaques de pivot ou de saut. L'onde de choc provoque l'explosion des objets à proximité. Ces objets reviendront à la normale après un certain temps, alors évolue avec précaution sur le champ de bataille.",
-                                "1 string m_text": "Nous méritons le salut. Peu importe si les étrangers périssent, cela signifie simplement que nous ne serons plus en danger une fois que nous aurons interdit l'accès au reste du royaume. Hahaha ! Oui, car nous sommes le peuple élu. Mais alors pourquoi... Pourquoi suis-je dehors ?!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_055",
-                                "1 string m_nameId": "CE_1008",
-                                "1 string m_shortText": "Des Déchus hémisphériques à dix ailes. Bien qu'ils aient perdu la capacité de voler, ils peuvent manipuler le vent en battant des ailes. Leur carapace solide les protège de la plupart des dégâts, mais tu peux attaquer le devant de leur corps si tu parviens à les contourner lorsque leurs ailes sont grandes ouvertes.",
-                                "1 string m_text": "Les choses laides sont l'ennemi. Les choses belles sont l'ennemi. Tout ce qui bouge est l'ennemi. Tout ce qui se se tapit est l'ennemi. Soufflez, ravagez, foncez, prenez de la hauteur. Détruisez tous ceux qui ont cet air de défi."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_056",
-                                "1 string m_nameId": "CE_1008_02",
-                                "1 string m_shortText": "Des Déchus hémisphériques à dix ailes. Bien qu'ils aient perdu la capacité de voler, ils peuvent manipuler le vent en battant des ailes. Ils peuvent faire souffler le vent dans une direction sur toute une zone. Utilise le sprint et d'autres méthodes pour éviter d'être emporté par le vent.",
-                                "1 string m_text": "Je ne peux pas devenir ce que je souhaite être. Je ne peux pas avoir ce que je désire. Je voulais briller. Je voulais la lumière. C'est tout. Pourquoi, alors, mon destin est ainsi ?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_057",
-                                "1 string m_nameId": "CE_1005",
-                                "1 string m_shortText": "Des Déchus humanoïdes avec les caractéristiques de créatures aquatiques. Ils sont faits d'innombrables composants qui oscillent entre l'unité et la séparation. Ils se soignent en s'unissant, il est donc plus facile de les éliminer quand ils sont séparés.",
-                                "1 string m_text": "Comme mon bien-aimé me manque. Comme je meurs d'envie de revivre ces jours passés ensemble. Je ferais n'importe quoi pour avoir une chance de plus. Oui, n'importe quoi. Je supplie. Je prie. Je rends ce qui a été perdu. Mes souvenirs. Pour moi. Pour nous."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_058",
-                                "1 string m_nameId": "CE_1005_02",
-                                "1 string m_shortText": "Des Déchus humanoïdes avec les caractéristiques de créatures aquatiques. Ils sont faits d'innombrables composants qui oscillent entre l'unité et la séparation. Ils explosent lorsque leur nombre baisse. Quand tu as réduit leur nombre, recule pour éviter de subir le souffle de l'explosion.",
-                                "1 string m_text": "Tu es si beau, si intelligent, si gentil. Tu as tout. Tu m'as tout volé, même ma maigre fierté. Je te le ferai payer, même si je dois vendre mon âme pour y parvenir. Tiens-toi prêt : j'aurai ma vengeance."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_059",
-                                "1 string m_nameId": "CE_1002",
-                                "1 string m_shortText": "Des Déchus cracheurs de feu qui se battent à l'instinct, agitant leurs membres et leur queue. La plupart de leurs attaques sont simples mais puissantes. Évite-les tant que possible.",
-                                "1 string m_text": "Pathétique créature que je suis, je sens que je ne suis moi-même qu'au cœur d'une bataille. Mais ne me plains pas. Ne pense pas à moi comme ça. Je veux que tu avances. Tu es celui que j'ai toujours admiré."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_060",
-                                "1 string m_nameId": "CE_1002_02",
-                                "1 string m_shortText": "Des Déchus cracheurs de feu qui se battent à l'instinct, agitant leurs membres et leur queue. Leurs exhalations meurtrières atteignent un rayon plus large car ils balancent la tête d'un côté et de l'autre lorsqu'ils attaquent.",
-                                "1 string m_text": "Il n'y a rien que tu ne puisse pas acquérir. Dans un monde de richesse et de pauvreté, tu es riche. Les pauvres n'existent que pour t'entretenir. Même la mort ne peut pas te toucher ; tu vivras sûrement sur cette terre pour l'éternité."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_061",
-                                "1 string m_nameId": "CE_1007",
-                                "1 string m_shortText": "Des Déchus horribles couverts d'une carapace en forme d'armure. Ils peuvent utiliser leurs bras comme des jambes et ont une seconde tête au bout de leur queue en forme de lance. Leurs armes à ailettes lancent de puissantes attaques. Leur jeu de jambes confus annonce une attaque de saut.",
-                                "1 string m_text": "Une colère aussi pure n'avait besoin que d'un petit coup de coude pour se transformer en une puissance incomparable. Peu importe d'où provient la haine, ou ce qui était si impardonnable. Maintenant, tout ce qui compte c'est de la libérer jusqu'à ce qu'il ne reste plus rien."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_062",
-                                "1 string m_nameId": "CE_1007_02",
-                                "1 string m_shortText": "Des Déchus horribles couverts d'une carapace en forme d'armure. Ils peuvent utiliser leurs bras comme des jambes et ont une seconde tête au bout de leur queue en forme de lance. Une fois leur défense finie, ils lancent leur assaut. Garde tes distances, recule, ou essaie de briser leur défense, en fonction de ce qui marche le mieux avec ton arme.",
-                                "1 string m_text": "Tout reposait sur moi. Sur mes batailles. C'était un fardeau qui m'étouffait, mais je l'ai porté sans me plaindre ; je le portais avec fierté. Mais il est vite devenu évident que je n'étais pas à la hauteur. Je ne pourrais pas être comme mon père. Pourquoi suis-je ainsi ?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_063",
-                                "1 string m_nameId": "CE_1001",
-                                "1 string m_shortText": "Des Déchus qui transportent un bouclier géant qui tire un laser de haute intensité lorsqu'il est amené à l'avant. Leurs flancs, normalement protégés par le bouclier, sont vulnérables. Contourne-les et attaque dès que tu les vois brandir leur bouclier.",
-                                "1 string m_text": "Ceux que l'épée devait protéger sont partis. Dans leur sillage se trouvent les péchés du bouclier qui ne pouvait être une épée. Des péchés inévitables, portés sur des épaules fatiguées jusqu'à la fin des temps."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_064",
-                                "1 string m_nameId": "CE_1001_02",
-                                "1 string m_shortText": "Des Déchus qui transportent un bouclier menaçant qui tire un laser de haute intensité lorsqu'il est amené à l'avant. Comme l'espèce de base, leurs flancs sont vulnérables. Étant donné qu'avec eux il est difficile d'atteindre d'autre Déchus, vaincs-les en premier.",
-                                "1 string m_text": "Nous avons cherché la suprématie. Être éternels. Où est le problème ? Vous — vous qui prétendez que la vie n'est qu'une brève étincelle, mais ne comprenez pas la majesté de notre ambition — oui, vous êtes ceux qui ont tort."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_065",
-                                "1 string m_nameId": "CE_1006",
-                                "1 string m_shortText": "Des Déchus terrifiants composés d'une myriade de visages masqués qui lancent une attaque unifiée une fois que chaque visage est prêt à frapper. Les faisceaux qu'ils projettent depuis leur formation sphérique sont difficiles à éviter sans sauter, mais un visage brisé ne peut pas tirer, alors concentre-toi sur un seul.",
-                                "1 string m_text": "Pourquoi ai-je été tué ? Pourquoi dois-je être tué ? Qu'ai-je fait ? Tout ce que j'ai maintenant, c'est de la haine pure, de la haine que je sème partout où je pose les pieds."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_066",
-                                "1 string m_nameId": "CE_1006_02",
-                                "1 string m_shortText": "Des Déchus terrifiants composés d'une myriade de visages masqués qui lancent une attaque unifiée une fois que chaque visage est prêt à frapper. Le rythme est difficile à trouver à cause de leurs formations irrégulières, mais ils ne se comportent pas très différemment de l'espèce de base. Alors adapte-toi.",
-                                "1 string m_text": "Oh là là. Tu as entendu la nouvelle ? Tu penses que c'est vrai ? C'est terrifiant. Je ne me serais jamais attendue à quelque chose comme ça. Si on avait su... En parlant d'inattendu, l'autre jour — oui, quelle histoire. Mais cela n'a rien à voir avec nous."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_067",
-                                "1 string m_nameId": "CE_1004",
-                                "1 string m_shortText": "Des Déchus humanoïdes qui manipulent la vie végétale. Plutôt que de se déplacer, ils utilisent leur portée flexible pour tendre une embuscade à leurs ennemis. Les fleurs rouges au sol explosent après sept flashs.",
-                                "1 string m_text": "C'est de ta faute si tu t'es fait avoir. La victoire appartient aux intelligents, après tout. Je ne t'en veux pas de te sentir blessée. L'argent, c'est la seule chose à laquelle tu peux te fier. La confiance des gens ne vaut rien."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_068",
-                                "1 string m_nameId": "CE_1010",
-                                "1 string m_shortText": "Des Déchus géants avec trois visages et deux roues qui réduisent les ennemis en poussière. Ils utilisent le terrain à leur avantage pour éviter toute fuite. Si tu n'arrive pas à t'en éloigner suffisamment, tu ne feras que retarder l'inévitable.",
-                                "1 string m_text": "Les humains doivent être haïs, ils doivent être craints. Bien que nous soyons bien supérieurs, les humains sont plus nombreux. Leurs hordes violentes nous massacrent. Je ne dois pas être vaincue. Les humains seront ceux qui périront. Pas moi."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_069",
-                                "1 string m_nameId": "CE_1010_02",
-                                "1 string m_shortText": "Des Déchus avec trois visages et deux roues, ils écrasent leurs ennemis. Une fois endommagées, leurs roues peuvent se régénérer de façon limitée. Une fois détruites, ces créatures sont facilement expédiées.\n",
-                                "1 string m_text": "Je pensais que nous serions amis pour toujours. C'est pour ça que je taisais ces sentiments que j'avais à ton égard. Je les avais enfermés à double tour. Alors pourquoi m'as-tu trahi ? Le jour où tu m'as poignardé dans le dos, tu disais que nous étions amis, mais tu as été le premier à t'en prendre à moi."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_070",
-                                "1 string m_nameId": "CE_1009_02",
-                                "1 string m_shortText": "Des Déchus cylindriques qui se sont scindés en cinq sections pouvant combattre indépendamment les unes des autres. L'attaque de chaque section a sa propre particularité. Élimine-les par ordre de difficulté.",
-                                "1 string m_text": "Quand on me demande si j'ai confiance en la situation actuelle, je réponds que oui, parce que c'est ce que l'on m'a appris. Ne pas avoir la foi est impensable ; ne pas avoir la foi détruirait tout. Personne ne sait ce qui se passe après la mort. Les Gardiens par-dessus tout devraient comprendre cela."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_071",
-                                "1 string m_nameId": "CE_1009",
-                                "1 string m_shortText": "Des Déchus cylindriques qui se sont scindés en cinq sections pouvant combattre indépendamment les unes des autres. Si tu as confiance en tes capacités, tu peux utiliser des attaques à distance pour détruire plusieurs sections à la fois.",
-                                "1 string m_text": "Où est-ce que ça a mal tourné ? Mon plan progressait si parfaitement. Ceux qui m'ont ridiculisé sont fichus. Mon étoile était censée être la prochaine à s'élever. J'en ai toujours tiré parti. Suis-je condamné à être un imbécile pour toujours ? Je vous maudis... je vous maudis tous !"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_072",
-                                "1 string m_nameId": "CE_1011",
-                                "1 string m_shortText": "Des Déchus nés du désespoir de l'humanité. Chaque fois qu'une des chaînes enroulées autour d'eux tombe, elle gagne une attaque supplémentaire. Ils n'ont pas de faiblesses. Utilise la force que tu as acquise au fil de tes batailles, et combats de ton mieux.",
-                                "1 string m_text": "Qui est arrivé en premier : l'Oni ou le désespoir ?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_075",
-                                "1 string m_nameId": "CE_1012",
-                                "1 string m_shortText": "Des Déchus qui brandissent une arme différente au bout de chacune de leurs quatre mains. Recevoir un coup de n'importe quelle arme pourrait s'avérer mortel. Observe bien l'arme avec laquelle ils attaquent et réagis de manière appropriée.",
-                                "1 string m_text": "J'ai attendu. J'ai remué ciel et terre lors de mes préparatifs. Je suis le Créateur ; rien ne peut me vaincre. Pourtant, j'ai été frappé. Maintenant, tout ce que je peux faire c'est rester ici, une palissade sur laquelle se jetteraient ceux qui hériteraient de ma volonté. Alors venez ; testez votre force contre moi."
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_001",
+                    "1 string m_nameId": "CE_0001",
+                    "1 string m_shortText": "Des Déchus qui ressemblent à des oiseaux de mer. Seuls, ils ne sont pas très puissants, mais ils compensent cela en se déplaçant en nuée. Ils approchent les ennemis tranquillement et les attaquent avec leur bec. Pas vraiment une menace, à moins de se faire encercler.",
+                    "1 string m_text": "Journal de recherche 1-1\nUn seul des trois Enomi capturés a survécu au transport. Déjà, ils étaient faibles, et il semble qu'ils n'ont pas supporté le changement brutal d'environnement. Je dois parler à mon collègue responsable des transports pour éviter de nouveaux accidents."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_002",
+                    "1 string m_nameId": "CE_0001_02",
+                    "1 string m_shortText": "Des Déchus qui ressemblent à des oiseaux de mer. Seuls, ils ne sont pas très puissants, mais ils compensent cela en se déplaçant en nuée. Attention à leurs attaques de bec à la chaîne.",
+                    "1 string m_text": "Journal de recherche 1-2\nAprès avoir mis sous sédatif et examiné l'Enomi, j'ai découvert quelque chose d'incroyable : ils sont très agréables au toucher. Plus particulièrement, les zones bleu foncé de ceux qui se sont adaptés à l'eau sont suffisamment douces pour rivaliser avec les meilleures soies."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_003",
+                    "1 string m_nameId": "CE_0001_03",
+                    "1 string m_shortText": "Des Déchus qui ressemblent à des oiseaux de mer. Seuls, ils ne sont pas très puissants, mais ils compensent cela en se déplaçant en nuée. Ils se lancent en avant le bec tendu, ce qui donne à leurs attaques une plus grande portée.",
+                    "1 string m_text": "Journal de recherche 1-3\nDeux Enomis sont en cage. Ils évoluent en groupes, mais leurs progénitures pourraient-elles se développer près d'un seul individu ? L'écologie des Déchus est différente de celle des autres êtres vivants et regorge de mystères.\n\n"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_004",
+                    "1 string m_nameId": "CE_0001_04",
+                    "1 string m_shortText": "Des Déchus qui ressemblent à des oiseaux de mer. Seuls, ils ne sont pas très puissants, mais ils compensent cela en se déplaçant en nuée. Ils se lancent parfois en avant pour attaquer plusieurs fois à la suite. Attention à leurs becs lorsque tu es sur leur route.",
+                    "1 string m_text": "Journal de recherche 1-4\nLes Enomis ont fui cette nuit. La cage a été ouverte de l'intérieur. Des empreintes de pas sont deux fois plus grandes que les autres ; sûrement le Déchu. Peut-être que certains ont muté pour devenir une espèce plus grande."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_005",
+                    "1 string m_nameId": "CE_0002",
+                    "1 string m_shortText": "Des Déchus qui imitent les champignons et renferment une mauvaise surprise sous leur chapeau. Ce sont des êtres stationnaires qui n'attaquent que si on s'approche d'eux, crachant des émanations toxiques sur leurs ennemis. Cesse d'attaquer et retire-toi dès que tu vois qu'ils s'apprêtent à décharger.",
+                    "1 string m_text": "Spéciation Déchus 1-1\nAutrefois, les Fongus avaient deux formes : la forme fongique qu'on connaît, et une autre comme des germes de plante noduleuse. Mais il y a des décennies, les combats entre les deux espèces ont conduit à l'extinction de la seconde."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_006",
+                    "1 string m_nameId": "CE_0002_02",
+                    "1 string m_shortText": "Des Déchus qui imitent les champignons et renferment une mauvaise surprise sous leur chapeau. Ce sont des êtres stationnaires qui n'attaquent que si on s'approche d'eux. Les émanations paralysantes qu'ils crachent contraignent les mouvements des membres pendant un certain temps.",
+                    "1 string m_text": "Spéciation Déchus 1-2\nLa lutte a donné lieu à une sous-espèce de Fongus avec un type différent d'émanation toxique qui engourdit le corps, rendant même la parole difficile. D'où leur appellation commune de Fongusceptibles."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_007",
+                    "1 string m_nameId": "CE_0002_03",
+                    "1 string m_shortText": "Des Déchus qui imitent les champignons et renferment une mauvaise surprise sous leur chapeau. Contrairement aux deux autres variétés, ceux-ci ne sont pas stationnaires. Les émanations qu'ils crachent ont un effet de soin sur les Déchus.",
+                    "1 string m_text": "Spéciation Déchus 1-3\nUne fois les germes exterminés, les Fongus sont devenus moins combatifs. À tel point que les Fongusinistres qui ont suivi ont émis des émanations qui soignent les Déchus. Elles n'ont pas d'effet sur les humains, mais l'odeur est désagréable."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_008",
+                    "1 string m_nameId": "CE_0003",
+                    "1 string m_shortText": "Des Déchus féroces impossibles à distinguer les uns des autres. Ils ne se laisseront pas décourager par les attaques timides, et n'arrêteront pas de se balancer avant d'avoir tout détruit sur leur passage. Bien qu'ils soient puissants, leur taille rend leurs attaques faciles à éviter. Frappe leur flanc.\n\n",
+                    "1 string m_text": "Les réflexions d'un Gardien 1-1\nLes Simiens malfaisants, tu dis ? Ohhh oui. Oui, j'ai détruit une bonne quantité de ces créatures. Ils sont faibles. Tout ce qu'ils font, c'est balancer leurs bras. Quel ennui."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_009",
+                    "1 string m_nameId": "CE_0003_02",
+                    "1 string m_shortText": "Des Déchus féroces impossibles à distinguer les uns des autres. Ils ne se laisseront pas décourager par les attaques timides, et n'arrêteront pas de se balancer avant d'avoir tout détruit sur leur passage. Encore plus dangereux, mais ils font de longues pauses entre chaque attaque.",
+                    "1 string m_text": "Les réflexions d'un Gardien 1-2\nLes Simiens... pas mes préférés. Rien à voir avec mon style de combat, mais... ils me rappellent mon ex. Tu devrais peut-être interroger quelqu'un d'autre pour ton étude. Je ne pense pas que mes réponses seront très utiles."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_010",
+                    "1 string m_nameId": "CE_0003_03",
+                    "1 string m_shortText": "Des Déchus féroces impossibles à distinguer les uns des autres. Ils ne se laisseront pas décourager par les attaques timides, et n'arrêteront pas de se balancer avant d'avoir tout détruit sur leur passage. Ils hurleront pour te paralyser, puis t'écraseront. Garde tes distances lorsqu'ils inhalent.\n\n",
+                    "1 string m_text": "Les réflexions d'un Gardien 1-3\nLes Simiens sont coriaces. Des frissons parcourront ton corps  si tu les entends hurler d'assez près. Quelqu'un comme moi peut s'occuper d'eux dès qu'il voit ce qu'ils préparent, mais tu serais plus en sécurité avec une arme à distance."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_011",
+                    "1 string m_nameId": "CE_0004",
+                    "1 string m_shortText": "Des Déchus qui ressemblent à des créatures marines simples. Parfois, ils se cachent et attendent pour une attaque surprise. D'autres fois, ils chargent tout de suite. Ils vivent au bord de l'eau, alors fais attention en explorant des rives avec de nombreuses zones obscures.",
+                    "1 string m_text": "Le labeur de l'armurier 1-1\nLes tibias sont vulnérables. Aucune expérience de combat ou d'entraînement ne peut les renforcer contre les attaques. Et bien sûr, c'est précisément là que ces Déchus grossiers aiment frapper. Avant, je sursautais au moindre de leurs mouvements - jusqu'à aujourd'hui."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_012",
+                    "1 string m_nameId": "CE_0004_02",
+                    "1 string m_shortText": "Des Déchus qui ressemblent à des créatures marines simples. Parfois, ils se cachent et attendent pour faire une attaque surprise. D'autres fois, ils chargent tout de suite. Non seulement leurs assauts peuvent couvrir une distance plus importante à une grande vitesse, mais ils sont également puissants.",
+                    "1 string m_text": "Le labeur de l'armurier 1-2\nNul besoin de craindre ces Déchus louches qui me chargent quand je suis à l'abri dans ma toute nouvelle armure Protecfer. Et j'ai même pris des mesures pour tenir compte de ses inconvénients en termes de volume et de mobilité."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_013",
+                    "1 string m_nameId": "CE_0004_03",
+                    "1 string m_shortText": "Des Déchus qui ressemblent à des créatures marines simples. Parfois, ils se cachent et attendent pour faire une attaque surprise. D'autres fois, ils chargent tout de suite. Leurs assauts couvrent une distance plus importante plus vite, et ils sont radicalement plus puissants.",
+                    "1 string m_text": "Le labeur de l'armurier 1-3\nLes charges ne m'infligent presque plus de dégâts, mais j'ai fait une erreur de calcul avec les roues que j'ai ajoutées pour la mobilité. L'impact de l'attaque m'a envoyé dans les airs, et tout est devenu flou. Il y a beaucoup à améliorer."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_014",
+                    "1 string m_nameId": "CE_0005",
+                    "1 string m_shortText": "Des Déchus volants aux ailes d'insecte. Ils lancent des attaque magiques avec leur bec en forme de tonneau. Ils ont tendance à se retirer quand on s'approche d'eux, alors en tentant une attaque rapprochée tu risques de te faire tirer dessus.",
+                    "1 string m_text": "Encyclopédie des Déchus 1-1\nLes Pluminfâmes peuvent mesurer avec précision la distance qui les sépare de leur cible et déterminer quand faire feu, bien que leur organe sensoriel reste un mystère. Reproduire un tel organe pourrait faire avancer la médecine."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_015",
+                    "1 string m_nameId": "CE_0005_03",
+                    "1 string m_shortText": "Des Déchus volants aux ailes d'insecte. Ils lancent des attaque magiques avec leur bec en forme de tonneau. Ils peuvent lancer ces projectiles puissants dans trois directions différentes à la fois.",
+                    "1 string m_text": "Encyclopédie des Déchus 1-2\nOn raconte que les motifs en forme de feuille sur les ailes des Pluminfâmes sont des veines qui permettent aux Déchus d'absorber la magie de l'atmosphère. Les ailes de chaque espèce ont des motifs différents en raison des divers habitats dans lesquels elles vivent."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_016",
+                    "1 string m_nameId": "CE_0005_02",
+                    "1 string m_shortText": "Des Déchus volants aux ailes d'insecte. Ils lancent des attaque magiques avec leur bec en forme de tonneau. Leurs projectiles sont plus puissants, mais si tu arrives à tenir tête face aux Pluminfâme du crépuscule, ceux-ci ne constitueront pas vraiment une menace.",
+                    "1 string m_text": "Encyclopédie des Déchus 1-3\nAvant de se lancer dans une attaque consommant beaucoup de magie, les Pluminfâmes agitent leurs pour créer la magie nécessaire. Certains théorisent qu'il s'agit d'une parade nuptiale, bien qu'il n'y ait aucun récit de témoin oculaire à l'appui de cette affirmation."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_017",
+                    "1 string m_nameId": "CE_0006",
+                    "1 string m_shortText": "Des Déchus qui ressemblent à de grandes plantes en fleur. Ils peuvent extraire leurs racines et les utiliser pour ramper sur la terre. Le mucilage qu'ils crachent peut te coller aux jambes et ralentir l'esquive. Fais donc très attention lorsque tu fais face à plusieurs de ces ennemis.",
+                    "1 string m_text": "Les prairies à voir absolument 1-1\nLa vallée qui s'étend au pied du Mont Teora abrite le Jardin de fleurs Mazzen, la plus grande prairie du royaume. Chaque année, lorsque les fleurs de toutes les couleurs s'épanouissent, elle est envahie de touristes qui viennent s'émerveiller du paysage vif.\n\n"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_018",
+                    "1 string m_nameId": "CE_0006_02",
+                    "1 string m_shortText": "Des Déchus qui ressemblent à de grandes plantes en fleur. Ils peuvent extraire leurs racines et les utiliser pour ramper sur la terre. Le mucus qu'ils crachent n'inflige que peu de dégâts s'il t'atteint, mais il te ralentira.",
+                    "1 string m_text": "Les prairies à voir absolument 1-2\nAu nord du Sous-bois Grewan se trouve une prairie cachée, où le climat est propice à la floraison de la singulière linnée. À cause des Déchus, y parvenir est un vrai défi, mais la récompense d'un spectacle aussi magnifique en vaut la peine.\n\n"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_019",
+                    "1 string m_nameId": "CE_0006_03",
+                    "1 string m_shortText": "Des Déchus qui ressemblent à de grandes plantes en fleur. Ils peuvent extraire leurs racines et les utiliser pour ramper sur la terre. Marcher sur le mucus qu'ils crachent te ralentira. Les coups indirects infligent peu de dégâts, mais la colle met longtemps à disparaître.",
+                    "1 string m_text": "Les prairies à voir absolument 1-3\nCeux qui recherchent une expérience inhabituelle peuvent visiter la Forêt Ophay, qui est envahie de Déchus fleurs. Vous ne pourrez assister nulle part ailleurs au spectacle d'une végétation frétillante qui change de forme d'un instant à l'autre."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_020",
+                    "1 string m_nameId": "CE_0007",
+                    "1 string m_shortText": "Des Déchus ailés qui rappellent des insectes. Une fois qu'ils ont épuisé leurs forces, les combustibles stockés dans leur abdomen s'enflamment et explosent après un certain temps.",
+                    "1 string m_text": "Le labeur de l'armurier 2-1\nL'explosif qui reste après la destruction des Bombardiers est fait d'essence magique pure. Sans aucun moyen physique d'empêcher l'explosion, d'innombrables chasseurs de Déchus ont été laissés pour compte — jusqu'à aujourd'hui."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_021",
+                    "1 string m_nameId": "CE_0007_02",
+                    "1 string m_shortText": "Des Déchus ailés qui rappellent des insectes. Une fois qu'ils ont épuisé leurs forces, les combustibles stockés dans leur abdomen s'enflamment et explosent après un certain temps. Le souffle de l'explosion a un rayon plus large et plus puissant.",
+                    "1 string m_text": "Le labeur de l'armurier 2-2\nMon tout nouveau gantelet Poignétouffe peut empêcher complètement l'explosif de sauter ! Tu aurais dû voir le sourire sur mon visage quand j'ai constaté que le fusible avait cessé de brûler."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_022",
+                    "1 string m_nameId": "CE_0007_03",
+                    "1 string m_shortText": "Des Déchus ailés qui rappellent des insectes. Une fois qu'ils ont épuisé leurs forces, les combustibles stockés dans leur abdomen s'enflamment et explosent après un certain temps. Le souffle de l'explosion a un rayon encore plus large et plus puissant.",
+                    "1 string m_text": "Le labeur de l'armurier 2-3\nUn Gardien m'a approché alors que je tenais la bombe et m'a demandé ce qu'il se passerait une fois que je l'aurais relâchée, à quoi j'ai répondu qu'elle allait exploser. Quand le Gardien s'est éloigné sans un mot, j'ai réalisé ma grave erreur de calcul."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_023",
+                    "1 string m_nameId": "CE_0008",
+                    "1 string m_shortText": "Des Déchus féroces, de type mammifère avec une vue aussi perçante que les cornes avec lesquelles ils attaquent.",
+                    "1 string m_text": "Spéciation Déchus 2-1\nAutrefois, les Taures étaient assez reclus malgré leur férocité, car ils ont toujours eu du mal à se reproduire - jusqu'à un pic soudain de la population."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_024",
+                    "1 string m_nameId": "CE_0008_02",
+                    "1 string m_shortText": "Des Déchus féroces, de type mammifère avec une vue aussi perçante que les cornes avec lesquelles ils attaquent. Plus intelligents que l'espèce de base, ils réfléchissent et se déplacent rapidement.",
+                    "1 string m_text": "Spéciation Déchus 2-2\nLes dégâts causés par les Taures étaient incommensurables. On tenta de réduire leur nombre, mais en vain. Peu importe combien furent abattus - il en arrivait encore. Il semblait que leur règne de terreur ne connaîtrait son terme qu'à la fin du monde lui-même."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_025",
+                    "1 string m_nameId": "CE_0008_03",
+                    "1 string m_shortText": "Des Déchus féroces, de type mammifère avec une vue aussi perçante que les cornes avec lesquelles ils attaquent. Si tu te fais toucher par une de leurs charges, tu peux être envoyé haut dans les airs.",
+                    "1 string m_text": "Spéciations Déchus 2-3\nMais une autre terreur s'abattit sur la terre : une vague de froid brutale décima les Taures à la frontière. La même chaîne d'événements se produisit encore deux fois. Maintenant, les gens craignent que les booms de population Taure ne soient le signe de calamités à venir."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_026",
+                    "1 string m_nameId": "CE_0009",
+                    "1 string m_shortText": "Des Déchus terrifiants dont les corps sont dominés par une gueule grotesque. Leur baiser confère toutes sortes de debuffs, alors ne te mets pas juste devant eux.",
+                    "1 string m_text": "Journal de recherche 2-1\nL'intérieur de ces Déchus est composé de substances qui réfléchissent peu ou pas la lumière. D'après mon collègue, cela donnait le sentiment d'être aspiré dans un ciel sans étoiles - juste avant d'être aspiré tout court (pour revenir ensuite)."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_027",
+                    "1 string m_nameId": "CE_0009_02",
+                    "1 string m_shortText": "Des Déchus terrifiants dont les corps sont dominés par une gueule grotesque. Ils invoquent d'autres Déchus, alors élimine ceux-ci en premier.",
+                    "1 string m_text": "Journal de recherche 2-2\nSelon mon associé, la température à l'intérieur de ces Déchus était plutôt agréable, voire relaxante. Cependant, il y avait aussi une odeur intense et enivrante qui laissait à la discussion le soin de déterminer à quel point cette expérience était réelle ou hallucinée."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_028",
+                    "1 string m_nameId": "CE_0010_01",
+                    "1 string m_shortText": "De petits Déchus humanoïdes qui voyagent en groupe et détachent leur crâne pour l'utiliser comme arme. Ils fuiront quand leurs rangs diminueront, alors utilise une attaque de zone quand tu es encerclé pour abattre beaucoup d'entre eux à la fois.",
+                    "1 string m_text": "Témoignage d'un Démon 1-1\nCertains pensent que les Déchus humanoïdes ne sont pas le résultat d'émotions humaines, mais animales. C'est le puissant désir d'un animal de devenir humain qui donne naissance à ces Déchus. Il y a peut-être du vrai là-dedans."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_029",
+                    "1 string m_nameId": "CE_0010_04",
+                    "1 string m_shortText": "De petits Déchus humanoïdes qui voyagent en groupe et détachent leur crâne pour l'utiliser comme arme. La forme du crâne varie en fonction de l'individu, bien que cela n'ait aucun effet sur sa force.",
+                    "1 string m_text": "Témoignage d'un Démon 1-2\nSeules des créatures dotée d'une grande intelligence sont capables de manier des armes. Certains Déchus le peuvent. Est-ce que cela fait d'eux des êtres intelligents ? Cela me fascine de réfléchir à ce à quoi ils pourraient penser."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_030",
+                    "1 string m_nameId": "CE_0010_07",
+                    "1 string m_shortText": "De petits Déchus humanoïdes qui voyagent en groupe et détachent leur crâne pour l'utiliser comme arme. Leurs armes sont empoisonnées, alors reste bien hors de portée durant le combat.",
+                    "1 string m_text": "Témoignage d'un Démon 1-3\nUtiliser des armes est une chose, mais du poison ? C'est tout à fait différent. J'en déduis qu'ils doivent être intelligents, après tout. Comment fabriquent-ils ces armes, d'abord ? Cette recherche en vaut vraiment la peine."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_031",
+                    "1 string m_nameId": "CE_0011",
+                    "1 string m_shortText": "Des Déchus qui produisent de l'Écorchite pendant une durée déterminée. Ils sont stationnaires, bien qu'ils émettent parfois des émanations toxiques sur un large rayon.",
+                    "1 string m_text": "Témoignage d'un Démon 2-1\nLes Déchus qui engendrent d'autres Déchus peuvent avoir changé d'aspect au fil des siècles, mais une chose est sûre : la plupart d'entre eux sont dangereux. Ils ne sont pas différents. Il vaut mieux les détruire dès qu'on pose les yeux sur eux."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_032",
+                    "1 string m_nameId": "CE_0011_02",
+                    "1 string m_shortText": "Des Déchus qui produisent de l'Éventrite pendant une durée déterminée. Ils sont stationnaires, bien qu'ils émettent parfois des émanations toxiques sur un large rayon.",
+                    "1 string m_text": "Témoignage d'un Démon 2-2\nD'après une théorie, leur capacité à donner naissance à des Déchus découle d'un désir plus profond d'être parents, dont l'évidence est l'évolution de leur apparence au fil des ans. Le concept est intéressant mais pour moi cela ne tient pas la route."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_033",
+                    "1 string m_nameId": "CE_0011_03",
+                    "1 string m_shortText": "Des Déchus qui produisent de l'Empalite pendant une durée déterminée. Ils sont stationnaires, bien qu'ils émettent parfois des émanations toxiques sur un large rayon.",
+                    "1 string m_text": "Témoignage d'un Démon 2-3\nJe crois que leur capacité à donner naissance à des Déchus découle de l'envie humaine de créer. Cela expliquerait pourquoi ce qu'ils engendrent diffère d'une année à l'autre. Le fait que le désir humain ne connaisse aucune limite est indiscutable."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_034",
+                    "1 string m_nameId": "CE_0012",
+                    "1 string m_shortText": "Des Déchus recouverts d'un exosquelette résistant. Leurs attaques de charge sont dévastatrices. Lorsqu'ils sont isolés, ils ont souvent recours à la défense.",
+                    "1 string m_text": "Lettre froissée 1-1\nDeux semaines se sont écoulées depuis le début de la tempête de sable. Pourtant, elle ne montre aucun signe d'accalmie. Étant novice en la matière, je ne peux pas aider Père dans son travail. Je passe la plupart de mon temps à surveiller mon petit frère à la maison."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_035",
+                    "1 string m_nameId": "CE_0012_02",
+                    "1 string m_shortText": "Des Déchus recouverts d'un exosquelette résistant. Leurs attaques de charge sont dévastatrices. Lorsqu'ils sont isolés, ils ont souvent recours à la défense. Ils se comportent exactement comme l'espèce d'origine, mais sont plus forts.",
+                    "1 string m_text": "Lettre froissée 1-2\nDeux mois se sont écoulés depuis le début de la tempête de sable. Ne pouvant pas m'aventurer dehors, les heures que je passe avec mon frère s'allongent. Nous avons dû rationner nos provisions pour les faire durer, et nous économisons nos forces."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_036",
+                    "1 string m_nameId": "CE_0012_03",
+                    "1 string m_shortText": "Des Déchus recouverts d'un exosquelette résistant. Leurs attaques de charge sont dévastatrices. Lorsqu'ils sont isolés, ils ont souvent recours à la défense. Ils se comportent exactement comme l'espèce de base, mais sont encore plus forts.",
+                    "1 string m_text": "Lettre froissée 1-3\nIl ne reste presque plus personne dans le village. Notre famille est partie pour la capitale une fois la tempête de sable calmée. Nous avons vu plusieurs Déchus le long du chemin, coincés dans les rochers ou recroquevillés, immobiles. Je ressens un petit sentiment de parenté avec eux."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_037",
+                    "1 string m_nameId": "CE_0013",
+                    "1 string m_shortText": "Des Déchus ressemblant à des scorpions qui utilisent leur queues comme artillerie. Ils n'ont aucun moyen d'attaquer de près. Leurs projectiles suivent une trajectoire parabolique et explosent à l'impact.",
+                    "1 string m_text": "L'Ère de la magie 1-1\nNous ne pouvons pas parler de la période centrale de l'Ère de la magie sans discuter des tentatives humaines de créer des Déchus. Bien qu'elles se soient largement soldées par des échecs, certaines ont laissé des cicatrices qui perdurent."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_038",
+                    "1 string m_nameId": "CE_0013_03",
+                    "1 string m_shortText": "Des Déchus ressemblant à des scorpions qui utilisent leur queues comme artillerie. Ils n'ont aucun moyen d'attaquer de près. Leurs projectiles explosent après un court instant, et l'explosion affecte un rayon plus large.",
+                    "1 string m_text": "L'Ère de la magie 1-2\nIls reproduisirent les conditions qui avaient engendré des Déchus et attendirent leur apparition, ou modifièrent les conditions d'une mutation souhaitée. Sans comprendre comment les Déchus avaient été créés, ils s'engagèrent dans ces expériences."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_039",
+                    "1 string m_nameId": "CE_0013_02",
+                    "1 string m_shortText": "Des Déchus ressemblant à des scorpions qui utilisent leur queues comme artillerie. Ils n'ont aucun moyen d'attaquer de près. Leurs projectiles explosent après un long moment, et l'explosion affecte un rayon encore plus large.",
+                    "1 string m_text": "L'Ère de la magie 1-3\nLes Débauchions furent créés durant ce processus. Leurs queues furent fusionnées avec des fusils et ils purent produire leur propre énergie. Ils furent néanmoins abandonnés car ils étaient incontrôlables. Leurs descendants restent sauvages."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_040",
+                    "1 string m_nameId": "CE_0014",
+                    "1 string m_shortText": "Des Déchus avec un bras qui se termine par une boule de fer. Leurs attaques ont une large portée.",
+                    "1 string m_text": "Histoire de l'Égaré 1-1\nQuand je suis revenu à moi, je me suis retrouvé face à Déchu qui avait une boule de fer en guise de poing. J'étais terrifié. Je me suis enfui aussi vite que mes jambes pouvaient me porter. Le Déchu m'a poursuivi. Tout ce que je pouvais faire, c'était courir."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_041",
+                    "1 string m_nameId": "CE_0014_03",
+                    "1 string m_shortText": "Des Déchus avec un bras qui se termine par une boule de fer. Leurs attaques ont une large portée. Ils se comportent exactement comme l'espèce de base, mais sont encore plus puissants.",
+                    "1 string m_text": "Histoire de l'Égaré 1-2\nJe pense que je l'ai semé, mais je ne sais pas où je suis. Peut-être parce que je suis mort ? Alors je dois être un Égaré. Ainsi, les gens ne se transforment pas toujours en Âmes égarées là où ils meurent. J'ai appris quelque chose."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_042",
+                    "1 string m_nameId": "CE_0014_02",
+                    "1 string m_shortText": "Des Déchus avec un bras qui se termine par une boule de fer. Leurs attaques ont une large portée. Ils se comportent exactement comme l'espèce de base, mais sont plus puissants.",
+                    "1 string m_text": "Histoire de l'Égaré 1-3\nJ'ai essayé de prendre un chemin différent pour revenir là où j'étais tout à l'heure, mais le Déchu était là. Peut-être que c'est mieux si je ne bouge pas... Mais que se passe-t-il lorsqu'un Déchu élimine un Égaré ? Est-il possible de mourir deux fois ?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_043",
+                    "1 string m_nameId": "CE_0015",
+                    "1 string m_shortText": "Des Déchus qui creusent sous la terre en utilisant leurs griffes allongées et émergent pour créer des attaques surprises. Déplace-toi dès que tu les vois plonger sous terre pour éviter leur assaut.",
+                    "1 string m_text": "Dieu de la fosse 1-1\nDans un village de montagne, plusieurs personnes disparurent, laissant derrière elles une fosse juste assez large pour un humain. Les villageois désespérés craignirent que ce soit l'œuvre d'un dieu et se mirent à genoux en signe de supplication."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_044",
+                    "1 string m_nameId": "CE_0015_02",
+                    "1 string m_shortText": "Des Déchus qui creusent sous la terre en utilisant leurs griffes allongées et émergent pour créer des attaques surprises. Ils se comportent exactement comme l'espèce de base, mais sont plus forts.",
+                    "1 string m_text": "Dieu de la fosse 1-2\nLes villageois construisirent un autel pour adorer le dieu de la fosse. Là, ils laissèrent des offrandes quotidiennes et passèrent des semaines à creuser un trou géant derrière. Les gens cessèrent de disparaître après cela et les villageois s'en réjouirent."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_045",
+                    "1 string m_nameId": "CE_0016",
+                    "1 string m_shortText": "Des Déchus insaisissables qui peuvent se déformer sur le champ de bataille. Ils chantent d'étranges incantations qui améliorent les Déchus à proximité, augmentant temporairement la Défense de ceux qui sont affectés.",
+                    "1 string m_text": "Témoignage d'un Démon 3-1\nLes Tors existent depuis toujours. Les Déchus sont engendrés par les émotions négatives et donc parfois ils mutent, mais ces créatures ont toujours existé. Elles proviennent probablement d'une émotion de base. Ce qui expliquerait leur force."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_046",
+                    "1 string m_nameId": "CE_0016_03",
+                    "1 string m_shortText": "Des Déchus insaisissables qui peuvent se déformer sur le champ de bataille. Ils chantent d'étranges incantations qui améliorent les Déchus à proximité, augmentant temporairement l'Attaque de ceux qui sont affectés.",
+                    "1 string m_text": "Témoignage d'un Démon 3-2\nUne fois, j'ai essayé de comprendre le fonctionnement des étranges incantations chantées par les Tors. Même s'il me semblait que je pouvais y arriver en y consacrant suffisamment de temps, j'avais appris si peu que j'ai abandonné."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_047",
+                    "1 string m_nameId": "CE_0016_02",
+                    "1 string m_shortText": "Des Déchus insaisissables qui peuvent se déformer sur le champ de bataille. Ils chantent d'étranges incantations qui améliorent les Déchus à proximité, augmentant temporairement la vitesse de déplacement de ceux qui sont affectés.",
+                    "1 string m_text": "Témoignage d'un Démon 3-3\nL'Entravator semble être une espèce qui a évolué récemment. Les Déchus n'étaient pas si puissants dans le passé, tu vois. Peut-être sont-ils la preuve de la misère naissante de l'humanité."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_048",
+                    "1 string m_nameId": "CE_0017",
+                    "1 string m_shortText": "Des Déchus avec une corne en forme de poing qui lancent toutes sortes d'attaques. Ils se précipitent d'un côté à l'autre, déplaçant le centre de leur charge.",
+                    "1 string m_text": "Les réflexions d'un Gardien 2-1\nLes Cornunokés, hein ? Il faut s'en méfier. Ils sont plus complexes qu'on ne le croit. Si tu te retrouves un jour seul face à l'un d'eux, cours. C'est une plaie, mieux vaut les laisser pour quelqu'un qui aime vraiment se battre."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_049",
+                    "1 string m_nameId": "CE_0017_02",
+                    "1 string m_shortText": "Des Déchus avec une corne en forme de poing qui lancent toutes sortes d'attaques. Lorsqu'ils reculent, c'est le signe qu'ils préparent une attaque fatale.",
+                    "1 string m_text": "Réflexions d'un Gardien 2-2\nOui, j'ai vaincu un Cornunoké combattant. C'était amusant. Une vraie démonstration de force. Tu veux savoir comment les éliminer ? C'est facile : combats comme ta vie en dépendait ! Prends les coups qu'ils t'infligent et renvoie-leur !"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_050",
+                    "1 string m_nameId": "CE_0017_03",
+                    "1 string m_shortText": "Des Déchus avec une corne en forme de poing qui lancent toutes sortes d'attaques. Attention lorsqu'ils frappent le sol avec leur corne ; l'onde de choc affecte un large rayon.",
+                    "1 string m_text": "Réflexions d'un Gardien 2-3\nTu dois faire attention aux Cornunokés, mais surtout aux Cornunokés lourds. Ils ont des tonnes d'attaques dans la manche, alors tu dois les surveiller comme un faucon, sinon t'es cuit. Hé, tu m'écoutes au moins ? Ces Déchus sont dangereux !"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_053",
+                    "1 string m_nameId": "CE_1003",
+                    "1 string m_shortText": "Des Déchus avec un marteau géant en guise de bras. Ils utilisent leurs jambes robustes pour lancer des attaques de pivot ou de saut. Éviter leurs coups de marteau n'est pas suffisant pour te protéger du danger, car leur impact fait trembler le sol. Saute pour échapper à l'onde de choc.",
+                    "1 string m_text": "Un balancement de leurs bras laisse un cratère dans le sol. Un balancement de leurs bras écrase toute vie en-dessous. La destruction coule dans leurs veines comme du sang. Leurs instincts survivront à leurs corps et leurs esprits. Des échecs humanoïdes. Sont-ils si dignes de l'absolution ?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_054",
+                    "1 string m_nameId": "CE_1003_02",
+                    "1 string m_shortText": "Des Déchus avec un marteau géant en guise de bras. Ils utilisent leurs jambes robustes pour lancer des attaques de pivot ou de saut. L'onde de choc provoque l'explosion des objets à proximité. Ces objets reviendront à la normale après un certain temps, alors évolue avec précaution sur le champ de bataille.",
+                    "1 string m_text": "Nous méritons le salut. Peu importe si les étrangers périssent, cela signifie simplement que nous ne serons plus en danger une fois que nous aurons interdit l'accès au reste du royaume. Hahaha ! Oui, car nous sommes le peuple élu. Mais alors pourquoi... Pourquoi suis-je dehors ?!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_055",
+                    "1 string m_nameId": "CE_1008",
+                    "1 string m_shortText": "Des Déchus hémisphériques à dix ailes. Bien qu'ils aient perdu la capacité de voler, ils peuvent manipuler le vent en battant des ailes. Leur carapace solide les protège de la plupart des dégâts, mais tu peux attaquer le devant de leur corps si tu parviens à les contourner lorsque leurs ailes sont grandes ouvertes.",
+                    "1 string m_text": "Les choses laides sont l'ennemi. Les choses belles sont l'ennemi. Tout ce qui bouge est l'ennemi. Tout ce qui se se tapit est l'ennemi. Soufflez, ravagez, foncez, prenez de la hauteur. Détruisez tous ceux qui ont cet air de défi."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_056",
+                    "1 string m_nameId": "CE_1008_02",
+                    "1 string m_shortText": "Des Déchus hémisphériques à dix ailes. Bien qu'ils aient perdu la capacité de voler, ils peuvent manipuler le vent en battant des ailes. Ils peuvent faire souffler le vent dans une direction sur toute une zone. Utilise le sprint et d'autres méthodes pour éviter d'être emporté par le vent.",
+                    "1 string m_text": "Je ne peux pas devenir ce que je souhaite être. Je ne peux pas avoir ce que je désire. Je voulais briller. Je voulais la lumière. C'est tout. Pourquoi, alors, mon destin est ainsi ?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_057",
+                    "1 string m_nameId": "CE_1005",
+                    "1 string m_shortText": "Des Déchus humanoïdes avec les caractéristiques de créatures aquatiques. Ils sont faits d'innombrables composants qui oscillent entre l'unité et la séparation. Ils se soignent en s'unissant, il est donc plus facile de les éliminer quand ils sont séparés.",
+                    "1 string m_text": "Comme mon bien-aimé me manque. Comme je meurs d'envie de revivre ces jours passés ensemble. Je ferais n'importe quoi pour avoir une chance de plus. Oui, n'importe quoi. Je supplie. Je prie. Je rends ce qui a été perdu. Mes souvenirs. Pour moi. Pour nous."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_058",
+                    "1 string m_nameId": "CE_1005_02",
+                    "1 string m_shortText": "Des Déchus humanoïdes avec les caractéristiques de créatures aquatiques. Ils sont faits d'innombrables composants qui oscillent entre l'unité et la séparation. Ils explosent lorsque leur nombre baisse. Quand tu as réduit leur nombre, recule pour éviter de subir le souffle de l'explosion.",
+                    "1 string m_text": "Tu es si beau, si intelligent, si gentil. Tu as tout. Tu m'as tout volé, même ma maigre fierté. Je te le ferai payer, même si je dois vendre mon âme pour y parvenir. Tiens-toi prêt : j'aurai ma vengeance."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_059",
+                    "1 string m_nameId": "CE_1002",
+                    "1 string m_shortText": "Des Déchus cracheurs de feu qui se battent à l'instinct, agitant leurs membres et leur queue. La plupart de leurs attaques sont simples mais puissantes. Évite-les tant que possible.",
+                    "1 string m_text": "Pathétique créature que je suis, je sens que je ne suis moi-même qu'au cœur d'une bataille. Mais ne me plains pas. Ne pense pas à moi comme ça. Je veux que tu avances. Tu es celui que j'ai toujours admiré."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_060",
+                    "1 string m_nameId": "CE_1002_02",
+                    "1 string m_shortText": "Des Déchus cracheurs de feu qui se battent à l'instinct, agitant leurs membres et leur queue. Leurs exhalations meurtrières atteignent un rayon plus large car ils balancent la tête d'un côté et de l'autre lorsqu'ils attaquent.",
+                    "1 string m_text": "Il n'y a rien que tu ne puisse pas acquérir. Dans un monde de richesse et de pauvreté, tu es riche. Les pauvres n'existent que pour t'entretenir. Même la mort ne peut pas te toucher ; tu vivras sûrement sur cette terre pour l'éternité."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_061",
+                    "1 string m_nameId": "CE_1007",
+                    "1 string m_shortText": "Des Déchus horribles couverts d'une carapace en forme d'armure. Ils peuvent utiliser leurs bras comme des jambes et ont une seconde tête au bout de leur queue en forme de lance. Leurs armes à ailettes lancent de puissantes attaques. Leur jeu de jambes confus annonce une attaque de saut.",
+                    "1 string m_text": "Une colère aussi pure n'avait besoin que d'un petit coup de coude pour se transformer en une puissance incomparable. Peu importe d'où provient la haine, ou ce qui était si impardonnable. Maintenant, tout ce qui compte c'est de la libérer jusqu'à ce qu'il ne reste plus rien."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_062",
+                    "1 string m_nameId": "CE_1007_02",
+                    "1 string m_shortText": "Des Déchus horribles couverts d'une carapace en forme d'armure. Ils peuvent utiliser leurs bras comme des jambes et ont une seconde tête au bout de leur queue en forme de lance. Une fois leur défense finie, ils lancent leur assaut. Garde tes distances, recule, ou essaie de briser leur défense, en fonction de ce qui marche le mieux avec ton arme.",
+                    "1 string m_text": "Tout reposait sur moi. Sur mes batailles. C'était un fardeau qui m'étouffait, mais je l'ai porté sans me plaindre ; je le portais avec fierté. Mais il est vite devenu évident que je n'étais pas à la hauteur. Je ne pourrais pas être comme mon père. Pourquoi suis-je ainsi ?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_063",
+                    "1 string m_nameId": "CE_1001",
+                    "1 string m_shortText": "Des Déchus qui transportent un bouclier géant qui tire un laser de haute intensité lorsqu'il est amené à l'avant. Leurs flancs, normalement protégés par le bouclier, sont vulnérables. Contourne-les et attaque dès que tu les vois brandir leur bouclier.",
+                    "1 string m_text": "Ceux que l'épée devait protéger sont partis. Dans leur sillage se trouvent les péchés du bouclier qui ne pouvait être une épée. Des péchés inévitables, portés sur des épaules fatiguées jusqu'à la fin des temps."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_064",
+                    "1 string m_nameId": "CE_1001_02",
+                    "1 string m_shortText": "Des Déchus qui transportent un bouclier menaçant qui tire un laser de haute intensité lorsqu'il est amené à l'avant. Comme l'espèce de base, leurs flancs sont vulnérables. Étant donné qu'avec eux il est difficile d'atteindre d'autre Déchus, vaincs-les en premier.",
+                    "1 string m_text": "Nous avons cherché la suprématie. Être éternels. Où est le problème ? Vous — vous qui prétendez que la vie n'est qu'une brève étincelle, mais ne comprenez pas la majesté de notre ambition — oui, vous êtes ceux qui ont tort."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_065",
+                    "1 string m_nameId": "CE_1006",
+                    "1 string m_shortText": "Des Déchus terrifiants composés d'une myriade de visages masqués qui lancent une attaque unifiée une fois que chaque visage est prêt à frapper. Les faisceaux qu'ils projettent depuis leur formation sphérique sont difficiles à éviter sans sauter, mais un visage brisé ne peut pas tirer, alors concentre-toi sur un seul.",
+                    "1 string m_text": "Pourquoi ai-je été tué ? Pourquoi dois-je être tué ? Qu'ai-je fait ? Tout ce que j'ai maintenant, c'est de la haine pure, de la haine que je sème partout où je pose les pieds."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_066",
+                    "1 string m_nameId": "CE_1006_02",
+                    "1 string m_shortText": "Des Déchus terrifiants composés d'une myriade de visages masqués qui lancent une attaque unifiée une fois que chaque visage est prêt à frapper. Le rythme est difficile à trouver à cause de leurs formations irrégulières, mais ils ne se comportent pas très différemment de l'espèce de base. Alors adapte-toi.",
+                    "1 string m_text": "Oh là là. Tu as entendu la nouvelle ? Tu penses que c'est vrai ? C'est terrifiant. Je ne me serais jamais attendue à quelque chose comme ça. Si on avait su... En parlant d'inattendu, l'autre jour — oui, quelle histoire. Mais cela n'a rien à voir avec nous."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_067",
+                    "1 string m_nameId": "CE_1004",
+                    "1 string m_shortText": "Des Déchus humanoïdes qui manipulent la vie végétale. Plutôt que de se déplacer, ils utilisent leur portée flexible pour tendre une embuscade à leurs ennemis. Les fleurs rouges au sol explosent après sept flashs.",
+                    "1 string m_text": "C'est de ta faute si tu t'es fait avoir. La victoire appartient aux intelligents, après tout. Je ne t'en veux pas de te sentir blessée. L'argent, c'est la seule chose à laquelle tu peux te fier. La confiance des gens ne vaut rien."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_068",
+                    "1 string m_nameId": "CE_1010",
+                    "1 string m_shortText": "Des Déchus géants avec trois visages et deux roues qui réduisent les ennemis en poussière. Ils utilisent le terrain à leur avantage pour éviter toute fuite. Si tu n'arrive pas à t'en éloigner suffisamment, tu ne feras que retarder l'inévitable.",
+                    "1 string m_text": "Les humains doivent être haïs, ils doivent être craints. Bien que nous soyons bien supérieurs, les humains sont plus nombreux. Leurs hordes violentes nous massacrent. Je ne dois pas être vaincue. Les humains seront ceux qui périront. Pas moi."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_069",
+                    "1 string m_nameId": "CE_1010_02",
+                    "1 string m_shortText": "Des Déchus avec trois visages et deux roues, ils écrasent leurs ennemis. Une fois endommagées, leurs roues peuvent se régénérer de façon limitée. Une fois détruites, ces créatures sont facilement expédiées.\n",
+                    "1 string m_text": "Je pensais que nous serions amis pour toujours. C'est pour ça que je taisais ces sentiments que j'avais à ton égard. Je les avais enfermés à double tour. Alors pourquoi m'as-tu trahi ? Le jour où tu m'as poignardé dans le dos, tu disais que nous étions amis, mais tu as été le premier à t'en prendre à moi."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_070",
+                    "1 string m_nameId": "CE_1009_02",
+                    "1 string m_shortText": "Des Déchus cylindriques qui se sont scindés en cinq sections pouvant combattre indépendamment les unes des autres. L'attaque de chaque section a sa propre particularité. Élimine-les par ordre de difficulté.",
+                    "1 string m_text": "Quand on me demande si j'ai confiance en la situation actuelle, je réponds que oui, parce que c'est ce que l'on m'a appris. Ne pas avoir la foi est impensable ; ne pas avoir la foi détruirait tout. Personne ne sait ce qui se passe après la mort. Les Gardiens par-dessus tout devraient comprendre cela."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_071",
+                    "1 string m_nameId": "CE_1009",
+                    "1 string m_shortText": "Des Déchus cylindriques qui se sont scindés en cinq sections pouvant combattre indépendamment les unes des autres. Si tu as confiance en tes capacités, tu peux utiliser des attaques à distance pour détruire plusieurs sections à la fois.",
+                    "1 string m_text": "Où est-ce que ça a mal tourné ? Mon plan progressait si parfaitement. Ceux qui m'ont ridiculisé sont fichus. Mon étoile était censée être la prochaine à s'élever. J'en ai toujours tiré parti. Suis-je condamné à être un imbécile pour toujours ? Je vous maudis... je vous maudis tous !"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_072",
+                    "1 string m_nameId": "CE_1011",
+                    "1 string m_shortText": "Des Déchus nés du désespoir de l'humanité. Chaque fois qu'une des chaînes enroulées autour d'eux tombe, elle gagne une attaque supplémentaire. Ils n'ont pas de faiblesses. Utilise la force que tu as acquise au fil de tes batailles, et combats de ton mieux.",
+                    "1 string m_text": "Qui est arrivé en premier : l'Oni ou le désespoir ?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_075",
+                    "1 string m_nameId": "CE_1012",
+                    "1 string m_shortText": "Des Déchus qui brandissent une arme différente au bout de chacune de leurs quatre mains. Recevoir un coup de n'importe quelle arme pourrait s'avérer mortel. Observe bien l'arme avec laquelle ils attaquent et réagis de manière appropriée.",
+                    "1 string m_text": "J'ai attendu. J'ai remué ciel et terre lors de mes préparatifs. Je suis le Créateur ; rien ne peut me vaincre. Pourtant, j'ai été frappé. Maintenant, tout ce que je peux faire c'est rester ici, une palissade sur laquelle se jetteraient ceux qui hériteraient de ma volonté. Alors venez ; testez votre force contre moi."
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

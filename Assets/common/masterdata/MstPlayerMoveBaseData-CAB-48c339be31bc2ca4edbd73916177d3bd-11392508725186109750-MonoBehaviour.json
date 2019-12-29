@@ -1,42 +1,39 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 2505644229796283000
+    },
+    "1 string m_Name": "MstPlayerMoveBaseData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 2505644229796282768
-        },
-        "1 string m_Name": "MstPlayerMoveBaseData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Base",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Base",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_collisionNode": "",
-                                "0 float m_collisionOffsetY": 0.899999976,
-                                "0 float m_collisionRadius": 0.349999994,
-                                "0 float m_collisionHeight": 1.79999995,
-                                "1 UInt8 m_traceSlope": 0,
-                                "0 int m_traceSlopeAngle": 10,
-                                "0 float m_standPlainOffsetY": 0,
-                                "0 float m_standSlopeOffsetY": 0
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_collisionNode": "",
+                    "0 float m_collisionOffsetY": 0.899999976,
+                    "0 float m_collisionRadius": 0.349999994,
+                    "0 float m_collisionHeight": 1.79999995,
+                    "1 UInt8 m_traceSlope": 0,
+                    "0 int m_traceSlopeAngle": 10,
+                    "0 float m_standPlainOffsetY": 0,
+                    "0 float m_standSlopeOffsetY": 0
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

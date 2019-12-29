@@ -1,133 +1,177 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 2449996222325972500
+    },
+    "1 string m_Name": "MstRotary",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 2449996222325972723
-        },
-        "1 string m_Name": "MstRotary",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Rotary",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Rotary",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "ma_0401_21",
-                                "1 string m_main": "ROTARY_01",
-                                "0 float m_maxAngleVelocity": 80,
-                                "0 float m_angleAcceleration": 100,
-                                "0 float m_angleDeceleration": 100,
-                                "0 vector m_segmentInitialStates": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 1},
-                                        {"0 int data": 1},
-                                        {"0 int data": 2}
-                                    ]
-                                },
-                                "0 int m_switchLRotation": -1,
-                                "0 vector m_switchLSegments": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 0},
-                                        {"0 int data": 1},
-                                        {"0 int data": -1}
-                                    ]
-                                },
-                                "0 int m_switchRRotation": 1,
-                                "0 vector m_switchRSegments": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 2},
-                                        {"0 int data": -1},
-                                        {"0 int data": -1}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "ma_0401_31",
-                                "1 string m_main": "ROTARY_02",
-                                "0 float m_maxAngleVelocity": 80,
-                                "0 float m_angleAcceleration": 100,
-                                "0 float m_angleDeceleration": 100,
-                                "0 vector m_segmentInitialStates": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 2},
-                                        {"0 int data": 1},
-                                        {"0 int data": 2}
-                                    ]
-                                },
-                                "0 int m_switchLRotation": -2,
-                                "0 vector m_switchLSegments": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 1},
-                                        {"0 int data": -1},
-                                        {"0 int data": -1}
-                                    ]
-                                },
-                                "0 int m_switchRRotation": 1,
-                                "0 vector m_switchRSegments": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 0},
-                                        {"0 int data": 2},
-                                        {"0 int data": -1}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "ma_0401_41",
-                                "1 string m_main": "ROTARY_03",
-                                "0 float m_maxAngleVelocity": 80,
-                                "0 float m_angleAcceleration": 100,
-                                "0 float m_angleDeceleration": 100,
-                                "0 vector m_segmentInitialStates": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 2},
-                                        {"0 int data": 0},
-                                        {"0 int data": 1}
-                                    ]
-                                },
-                                "0 int m_switchLRotation": -1,
-                                "0 vector m_switchLSegments": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 0},
-                                        {"0 int data": 1},
-                                        {"0 int data": -1}
-                                    ]
-                                },
-                                "0 int m_switchRRotation": 2,
-                                "0 vector m_switchRSegments": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 1},
-                                        {"0 int data": 2},
-                                        {"0 int data": -1}
-                                    ]
-                                }
-                            }}
-                        ]
+                  "0 Param data": {
+                    "1 string m_mapName": "ma_0401_21",
+                    "1 string m_main": "ROTARY_01",
+                    "0 float m_maxAngleVelocity": 80,
+                    "0 float m_angleAcceleration": 100,
+                    "0 float m_angleDeceleration": 100,
+                    "0 vector m_segmentInitialStates": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 1
+                        },
+                        {
+                          "0 int data": 1
+                        },
+                        {
+                          "0 int data": 2
+                        }
+                      ]
+                    },
+                    "0 int m_switchLRotation": -1,
+                    "0 vector m_switchLSegments": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 1
+                        },
+                        {
+                          "0 int data": -1
+                        }
+                      ]
+                    },
+                    "0 int m_switchRRotation": 1,
+                    "0 vector m_switchRSegments": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 2
+                        },
+                        {
+                          "0 int data": -1
+                        },
+                        {
+                          "0 int data": -1
+                        }
+                      ]
                     }
-                }}
-            ]
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "ma_0401_31",
+                    "1 string m_main": "ROTARY_02",
+                    "0 float m_maxAngleVelocity": 80,
+                    "0 float m_angleAcceleration": 100,
+                    "0 float m_angleDeceleration": 100,
+                    "0 vector m_segmentInitialStates": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 2
+                        },
+                        {
+                          "0 int data": 1
+                        },
+                        {
+                          "0 int data": 2
+                        }
+                      ]
+                    },
+                    "0 int m_switchLRotation": -2,
+                    "0 vector m_switchLSegments": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 1
+                        },
+                        {
+                          "0 int data": -1
+                        },
+                        {
+                          "0 int data": -1
+                        }
+                      ]
+                    },
+                    "0 int m_switchRRotation": 1,
+                    "0 vector m_switchRSegments": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 2
+                        },
+                        {
+                          "0 int data": -1
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "ma_0401_41",
+                    "1 string m_main": "ROTARY_03",
+                    "0 float m_maxAngleVelocity": 80,
+                    "0 float m_angleAcceleration": 100,
+                    "0 float m_angleDeceleration": 100,
+                    "0 vector m_segmentInitialStates": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 2
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 1
+                        }
+                      ]
+                    },
+                    "0 int m_switchLRotation": -1,
+                    "0 vector m_switchLSegments": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 1
+                        },
+                        {
+                          "0 int data": -1
+                        }
+                      ]
+                    },
+                    "0 int m_switchRRotation": 2,
+                    "0 vector m_switchRSegments": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 1
+                        },
+                        {
+                          "0 int data": 2
+                        },
+                        {
+                          "0 int data": -1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

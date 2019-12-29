@@ -1,167 +1,180 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 3638801492901626400
+    },
+    "1 string m_Name": "MstShopTransmutationData_BonusData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 3638801492901626286
-        },
-        "1 string m_Name": "MstShopTransmutationData_BonusData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "BonusData",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "BonusData",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_SPECIAL_001",
-                                "1 string m_bonusId": "BONUS_SPECIAL",
-                                "0 float m_probabilityValue": 10,
-                                "0 float m_thresholdValue": 100,
-                                "0 float m_effectValue": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_SPECIAL_002",
-                                "1 string m_bonusId": "BONUS_SPECIAL",
-                                "0 float m_probabilityValue": 8,
-                                "0 float m_thresholdValue": 5,
-                                "0 float m_effectValue": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_RARITY_001",
-                                "1 string m_bonusId": "BONUS_RARITY",
-                                "0 float m_probabilityValue": 4,
-                                "0 float m_thresholdValue": 10,
-                                "0 float m_effectValue": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_ENHANCE_03_001",
-                                "1 string m_bonusId": "BONUS_ENHANCE_03",
-                                "0 float m_probabilityValue": 10,
-                                "0 float m_thresholdValue": 1,
-                                "0 float m_effectValue": 30
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_MANASTONE_SLOT_03_001",
-                                "1 string m_bonusId": "BONUS_MANASTONE_SLOT_03",
-                                "0 float m_probabilityValue": 10,
-                                "0 float m_thresholdValue": 1,
-                                "0 float m_effectValue": 3
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_ENHANCE_02_001",
-                                "1 string m_bonusId": "BONUS_ENHANCE_02",
-                                "0 float m_probabilityValue": 20,
-                                "0 float m_thresholdValue": 1,
-                                "0 float m_effectValue": 20
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_MANASTONE_SLOT_02_001",
-                                "1 string m_bonusId": "BONUS_MANASTONE_SLOT_02",
-                                "0 float m_probabilityValue": 20,
-                                "0 float m_thresholdValue": 1,
-                                "0 float m_effectValue": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_ENHANCE_01_001",
-                                "1 string m_bonusId": "BONUS_ENHANCE_01",
-                                "0 float m_probabilityValue": 30,
-                                "0 float m_thresholdValue": 1,
-                                "0 float m_effectValue": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_MANASTONE_SLOT_01_001",
-                                "1 string m_bonusId": "BONUS_MANASTONE_SLOT_01",
-                                "0 float m_probabilityValue": 30,
-                                "0 float m_thresholdValue": 1,
-                                "0 float m_effectValue": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_RARITY_002",
-                                "1 string m_bonusId": "BONUS_RARITY",
-                                "0 float m_probabilityValue": 5,
-                                "0 float m_thresholdValue": 0,
-                                "0 float m_effectValue": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_SPECIAL_003",
-                                "1 string m_bonusId": "BONUS_SPECIAL",
-                                "0 float m_probabilityValue": 5,
-                                "0 float m_thresholdValue": 0,
-                                "0 float m_effectValue": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_WEAPON_001",
-                                "1 string m_bonusId": "BONUS_WEAPON",
-                                "0 float m_probabilityValue": 70,
-                                "0 float m_thresholdValue": 3,
-                                "0 float m_effectValue": 50
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_SPECIAL_004",
-                                "1 string m_bonusId": "BONUS_SPECIAL",
-                                "0 float m_probabilityValue": 30,
-                                "0 float m_thresholdValue": 200,
-                                "0 float m_effectValue": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_RARITY_003",
-                                "1 string m_bonusId": "BONUS_RARITY",
-                                "0 float m_probabilityValue": 70,
-                                "0 float m_thresholdValue": 3,
-                                "0 float m_effectValue": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_RARITY_004",
-                                "1 string m_bonusId": "BONUS_RARITY",
-                                "0 float m_probabilityValue": 5,
-                                "0 float m_thresholdValue": 0,
-                                "0 float m_effectValue": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_SPECIAL_005",
-                                "1 string m_bonusId": "BONUS_SPECIAL",
-                                "0 float m_probabilityValue": 5,
-                                "0 float m_thresholdValue": 0,
-                                "0 float m_effectValue": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "BONUS_MANASTONE_001",
-                                "1 string m_bonusId": "BONUS_MANASTONE",
-                                "0 float m_probabilityValue": 40,
-                                "0 float m_thresholdValue": 0,
-                                "0 float m_effectValue": 50
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_SPECIAL_001",
+                    "1 string m_bonusId": "BONUS_SPECIAL",
+                    "0 float m_probabilityValue": 10,
+                    "0 float m_thresholdValue": 100,
+                    "0 float m_effectValue": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_SPECIAL_002",
+                    "1 string m_bonusId": "BONUS_SPECIAL",
+                    "0 float m_probabilityValue": 8,
+                    "0 float m_thresholdValue": 5,
+                    "0 float m_effectValue": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_RARITY_001",
+                    "1 string m_bonusId": "BONUS_RARITY",
+                    "0 float m_probabilityValue": 4,
+                    "0 float m_thresholdValue": 10,
+                    "0 float m_effectValue": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_ENHANCE_03_001",
+                    "1 string m_bonusId": "BONUS_ENHANCE_03",
+                    "0 float m_probabilityValue": 10,
+                    "0 float m_thresholdValue": 1,
+                    "0 float m_effectValue": 30
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_MANASTONE_SLOT_03_001",
+                    "1 string m_bonusId": "BONUS_MANASTONE_SLOT_03",
+                    "0 float m_probabilityValue": 10,
+                    "0 float m_thresholdValue": 1,
+                    "0 float m_effectValue": 3
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_ENHANCE_02_001",
+                    "1 string m_bonusId": "BONUS_ENHANCE_02",
+                    "0 float m_probabilityValue": 20,
+                    "0 float m_thresholdValue": 1,
+                    "0 float m_effectValue": 20
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_MANASTONE_SLOT_02_001",
+                    "1 string m_bonusId": "BONUS_MANASTONE_SLOT_02",
+                    "0 float m_probabilityValue": 20,
+                    "0 float m_thresholdValue": 1,
+                    "0 float m_effectValue": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_ENHANCE_01_001",
+                    "1 string m_bonusId": "BONUS_ENHANCE_01",
+                    "0 float m_probabilityValue": 30,
+                    "0 float m_thresholdValue": 1,
+                    "0 float m_effectValue": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_MANASTONE_SLOT_01_001",
+                    "1 string m_bonusId": "BONUS_MANASTONE_SLOT_01",
+                    "0 float m_probabilityValue": 30,
+                    "0 float m_thresholdValue": 1,
+                    "0 float m_effectValue": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_RARITY_002",
+                    "1 string m_bonusId": "BONUS_RARITY",
+                    "0 float m_probabilityValue": 5,
+                    "0 float m_thresholdValue": 0,
+                    "0 float m_effectValue": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_SPECIAL_003",
+                    "1 string m_bonusId": "BONUS_SPECIAL",
+                    "0 float m_probabilityValue": 5,
+                    "0 float m_thresholdValue": 0,
+                    "0 float m_effectValue": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_WEAPON_001",
+                    "1 string m_bonusId": "BONUS_WEAPON",
+                    "0 float m_probabilityValue": 70,
+                    "0 float m_thresholdValue": 3,
+                    "0 float m_effectValue": 50
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_SPECIAL_004",
+                    "1 string m_bonusId": "BONUS_SPECIAL",
+                    "0 float m_probabilityValue": 30,
+                    "0 float m_thresholdValue": 200,
+                    "0 float m_effectValue": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_RARITY_003",
+                    "1 string m_bonusId": "BONUS_RARITY",
+                    "0 float m_probabilityValue": 70,
+                    "0 float m_thresholdValue": 3,
+                    "0 float m_effectValue": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_RARITY_004",
+                    "1 string m_bonusId": "BONUS_RARITY",
+                    "0 float m_probabilityValue": 5,
+                    "0 float m_thresholdValue": 0,
+                    "0 float m_effectValue": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_SPECIAL_005",
+                    "1 string m_bonusId": "BONUS_SPECIAL",
+                    "0 float m_probabilityValue": 5,
+                    "0 float m_thresholdValue": 0,
+                    "0 float m_effectValue": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "BONUS_MANASTONE_001",
+                    "1 string m_bonusId": "BONUS_MANASTONE",
+                    "0 float m_probabilityValue": 40,
+                    "0 float m_thresholdValue": 0,
+                    "0 float m_effectValue": 50
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

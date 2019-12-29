@@ -1,41 +1,39 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -2383874401154028500
+    },
+    "1 string m_Name": "MST_EVT_112010_LocalDefine",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -2383874401154028523
-        },
-        "1 string m_Name": "MST_EVT_112010_LocalDefine",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "LocalDefine",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "LocalDefine",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_name": "L_TimelineID_01",
-                                "1 string m_value": "112010_00"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_name": "L_TimelineID_02",
-                                "1 string m_value": "112010_10"
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_name": "L_TimelineID_01",
+                    "1 string m_value": "112010_00"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_name": "L_TimelineID_02",
+                    "1 string m_value": "112010_10"
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

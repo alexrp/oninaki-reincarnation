@@ -1,229 +1,258 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -1549593569392672800
+    },
+    "1 string m_Name": "MstRecordGlossaryTextData_Fr",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -1549593569392672815
-        },
-        "1 string m_Name": "MstRecordGlossaryTextData_Fr",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Data",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Data",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_001",
-                                "1 string m_name": "Réincarnation",
-                                "1 string m_text": "Le cycle de la renaissance est un principe fondamental antérieur à l'histoire humaine. Lorsqu'un être vivant meurt, son âme se réincarne, laissant derrière elle les souvenirs de sa vie avant de renaître dans un nouveau corps.\n\nÀ la mort, les émotions négatives ne sont pas perdues. Petit à petit, elles se rassemblent pour enfin donner naissance à l’Oni. L'humanité doit absolument changer si elle souhaite empêcher cela."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_002",
-                                "1 string m_name": "Le Monde des vivants",
-                                "1 string m_text": "Le monde dans lequel les êtres vivants évoluent. Un lieu riche et fertile où prospère une vie naturelle et abondante."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_003",
-                                "1 string m_name": "Le Monde des vivants",
-                                "1 string m_text": "Le monde dans lequel les êtres vivants évoluent. Un lieu riche et fertile où prospère une vie naturelle et abondante.\n\nAutrefois, durant l'Ère de la magie, les civilisations humaines avancées prospéraient, mais elles aussi furent détruites par l'Oni. Depuis leur chute, aucune civilisation n’a été capable de rivaliser avec leurs prouesses technologiques."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_004",
-                                "1 string m_name": "Au-delà du Voile",
-                                "1 string m_text": "Le monde des morts. L'Au-delà et le Monde des vivants sont les deux faces d'une même pièce, coexistant dans le même espace physique.\n\nL'Au-delà est un milieu hostile, même pour les Gardiens. Lorsqu'on s'y rend pour la première fois, on s'aperçoit qu'aucun de nos sens ne fonctionne, car il faut qu'ils s'habituent d'abord à l'ombre qui les entoure."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_005",
-                                "1 string m_name": "Traverser le Voile",
-                                "1 string m_text": "Une capacité possédée par les Gardiens du Voile qui leur permet de voyager entre le Monde des vivants et l'Au-delà.\n\nLe masque qui recouvre la bouche des Gardiens provient du tissage d'une plante qui pousse Au-delà du Voile. Le masque a des propriétés étranges qui amplifient les capacités psychiques de celui qui le porte, lui donnant le pouvoir de se déplacer d'un monde à l'autre juste par la pensée."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_006",
-                                "1 string m_name": "Traverser le Voile",
-                                "1 string m_text": "Une capacité innée chez Sara et Soju qui leur permet de voyager entre le Monde des vivants et l'Au-delà.\n\nLe masque qui recouvre la bouche des Gardiens provient du tissage d'une plante qui pousse Au-delà du Voile. Le masque a des propriétés étranges qui amplifient les capacités psychiques de celui qui le porte, lui donnant le pouvoir de se déplacer d'un monde à l'autre juste par la pensée."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_007",
-                                "1 string m_name": "Âmes",
-                                "1 string m_text": "Les âmes manquent de conscience, mais elles gardent les souvenirs et les émotions antérieures à la mort. Une fois qu'une âme est enfin libérée de ces liens, elle peut se réincarner.\n\nAu moment de mourir, ceux qui ont de solides attaches émotionnelles à la vie ne deviennent pas des âmes, mais rejoignent les rangs des Égarés."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_008",
-                                "1 string m_name": "Les Gardiens du Voile",
-                                "1 string m_text": "Des serviteurs du royaume qui perdurent le cycle de la réincarnation. L'ordre fut formé il y a trente ans.\n\nIls doivent agir dans la plus grande discrétion : soit individuellement, soit en équipe.\n\nIl faut pouvoir traverser le Voile pour rallier ces rangs-là. Cependant, leurs compétences varient et seuls les plus talentueux peuvent contrôler les Démons."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_009",
-                                "1 string m_name": "Âmes égarées",
-                                "1 string m_text": "Des âmes conscientes accablées d'émotions puissantes qui errent dans l'Au-delà.\n\nAu bout d'un certain temps, les Âmes égarées finissent par devenir des Déchus, même si la durée varie. Ce processus a tendance à suivre l'un des deux schémas suivants : soit la conscience s'estompe, soit leurs attaches émotionnelles persistantes se transforment en une obsession.\n\nL'une des tâches des Gardiens du Voile est de sauver les Âmes égarées avant qu'elles ne deviennent des Déchus."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_010",
-                                "1 string m_name": "Démons",
-                                "1 string m_text": "Des êtres uniques morts en ressentant des émotions intenses et persistantes, mais pas encore des Déchus. Mourir dans ces conditions ne garantit pas qu'un Démon prendra forme, et la véritable cause est encore mystérieuse.\n\nLa plupart perdent leurs souvenirs, mais reçoivent un grand pouvoir. Certains pensent qu'ils sont les manifestations physiques des croyances et idéaux qu’ils avaient jadis lorsqu'ils étaient en vie."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_011",
-                                "1 string m_name": "Les Déchus",
-                                "1 string m_text": "Le destin ultime d'une Âme égarée. Un seul spécimen peut donner naissance à une multitude de Déchus qui attaquent tout ce qui approche.\n\nLa forme que prennent les Déchus dépend de leurs souvenirs, de leur personnalité et des émotions qu'ils ont ressenties avant de mourir. Le passage du temps et l’ombre accumulée sur le lieu du décès peuvent les amener à muter davantage."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_012",
-                                "1 string m_name": "L'Ère de la magie",
-                                "1 string m_text": "L'apogée d'une grande civilisation qui a débuté avec la découverte de techniques permettant d'exploiter l'ombre pour utiliser son énergie, et qui a duré environ huit cents ans.\n\nDe nombreuses reliques de l'Ère de la magie ont subsisté, telles que les Piliers du monde et les Ruines englouties. Cependant, les arts magiques de cette époque sont perdus depuis longtemps."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_013",
-                                "1 string m_name": "La Souveraine",
-                                "1 string m_text": "La Souveraine du Royaume intérieur. La Prêtresse Oni, réincarnée à maintes reprises, exerce cette fonction depuis des générations.\n\nCependant, la lignée a été brisée lorsque Sara a été exécutée et que Lobelia est montée sur le trône. Lobelia a été la première souveraine non issue de la lignée. C'est ce qui annonça la fin cataclysmique du Royaume intérieur."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_014",
-                                "1 string m_name": "Sans-ombre",
-                                "1 string m_text": "Une race humanoïde nommée ainsi parce qu'elle n'a pas d'ombre. Après bien des guerres contre l'humanité, elle fut presque anéantie par l'Oni.\n\nLes sans-ombre ont la capacité unique d'absorber l'ombre. Beaucoup possèdent divers pouvoirs étranges ; certains contrôlent des forces magiques, d'autres sont presque immortels ou capables de traverser le Voile."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_015",
-                                "1 string m_name": "Lignée",
-                                "1 string m_text": "Ceux qui ont hérité du sang de la Prêtresse Oni. Un membre de la lignée gouverne le Royaume intérieur depuis sa création.\n\nLa Prêtresse Oni enfante tout en conservant sa virginité. Une fois que l'enfant a atteint l'âge requis, il subit le Rituel du lien. Il hérite alors des pouvoirs et des souvenirs de la Prêtresse Oni, faisant de la lignée et de la Prêtresse Oni une seule et même personne."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_016",
-                                "1 string m_name": "Prophètes",
-                                "1 string m_text": "Le nom donné au corps des officiers régissant les affaires du Royaume intérieur.\n\nDirigés par la Souveraine, ils sont divisés en plusieurs ministères en fonction de leur rôle au sein du gouvernement.\n\nLes Gardiens du Voile travaillent sous l'égide du ministère de la Réincarnation, également chargé de gérer les Voyages de sept jours."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_017",
-                                "1 string m_name": "La Garde du sang",
-                                "1 string m_text": "Un groupe de Gardiens d'élite assignés à la protection des souverains. En raison de leur rôle critique dans la défense de la plus haute autorité du royaume, se voir affecté à la Garde du sang est un grand honneur.\n\nLes effectifs de la Garde du sang étaient autrefois assez restreints, mais depuis que Lobelia est montée sur le trône, elle a considérablement élargi leurs rangs.\n"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_018",
-                                "1 string m_name": "Dîme",
-                                "1 string m_text": "Accorde une mort miséricordieuse à ceux qui veulent embrasser la réincarnation.\n\nLes gens demandent la dîme pour plusieurs raisons. Certains sentent la mort approcher. D'autres veulent se libérer de la souffrance ou de la pauvreté, alors que d'autres souhaitent accéder rapidement à la vie suivante. Cependant, pour la demander, il faut obtenir la permission du royaume après une enquête stricte."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_019",
-                                "1 string m_name": "Voyage de sept jours",
-                                "1 string m_text": "Une tradition du royaume. Cette cérémonie a lieu une fois par semaine à Deto pour commémorer les morts.\n\nRessentir de la tristesse lors du décès d'un être cher est interdit dans le royaume. Ainsi, le Voyage de sept jours n'est pas marqué par le chagrin, mais par de la gratitude envers la vie et des prières pour un passage de l'autre côté en toute sécurité."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_020",
-                                "1 string m_name": "Ombre",
-                                "1 string m_text": "Lorsque les âmes des morts Au-delà du Voile se débarrassent des derniers vestiges de leur attachement au Monde des vivants, certains de leurs souvenirs et de leurs sentiments peuvent s'échapper et former une ombre. Au cours des dernières années, l'ombre a commencé à apparaître de ce côté du Voile."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_021",
-                                "1 string m_name": "Ombre",
-                                "1 string m_text": "Lorsque les âmes des morts Au-delà du Voile perdent les derniers vestiges de leur attachement au Monde des vivants, certains de leurs souvenirs et de leurs sentiments peuvent s'échapper et former une ombre. Au cours des dernières années, l'ombre a commencé à apparaître de ce côté du Voile.\n\nÀ l'Ère de la magie, le pouvoir de l'ombre fut exploité pour alimenter une gamme de dispositifs extraordinaires."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_022",
-                                "1 string m_name": "Ombre des ténèbres",
-                                "1 string m_text": "L'ombre créée à partir d'émotions négatives puissantes. Dépouillée des âmes réincarnées, elle ne peut pas disparaître de ce monde.\n\nLorsque suffisamment d'ombres des ténèbres se seront rassemblées, l'Oni se réveillera. Ainsi, l'Oni est une ombre composée entièrement du désespoir le plus sombre."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_023",
-                                "1 string m_name": "Les Piliers du monde",
-                                "1 string m_text": "Des structures géantes créées pour récupérer les ombres des ténèbres. Symbole du Royaume intérieur, ils existent depuis le début de son histoire.\n\nIl y a longtemps, la Prêtresse Oni apporta les maigres vestiges de l'humanité dans la ville sans-ombre pour former le Royaume intérieur. En les réunissant ici, elle s'assura de pouvoir assister à la dernière manifestation de l'Oni et du destin de l'humanité."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_024",
-                                "1 string m_name": "Le Puits des ombres",
-                                "1 string m_text": "L'endroit où les ombres des ténèbres rassemblées par les Piliers du monde sont récupérées. Enterré profondément sous le Palais Ehir, il se trouve derrière une porte verrouillée qui ne peut être ouverte que par une personne du même sang que la Prêtresse Oni.\n\nHaine, tristesse, colère, malveillance - ce bassin est un réservoir d'émotions négatives. Toute personne emprisonnée à l'intérieur est vidée de son espoir."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_025",
-                                "1 string m_name": "L'Oni",
-                                "1 string m_text": "Une collection d'ombres des ténèbres. Il a porté de nombreux noms différents au fil du temps et a déjà fait l'objet de recherches par une civilisation qui l'avait baptisée le « Fléau ».\n\nLes préceptes de la réincarnation garantissent qu'il se manifeste à la fin de cycles réguliers, amenant calamité et ruine à la civilisation. Même l'Ère de la magie connut sa fin face à son pouvoir inexorable."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_026",
-                                "1 string m_name": "L'Arche de l'espoir",
-                                "1 string m_text": "Un culte religieux fondé par Guzan Musai. Ses adeptes sont mécontents de l'état du monde, citant comme principaux griefs la réduction catastrophique du taux de natalité et les échecs de la réincarnation.\n\nLorsqu'ils tournèrent le dos aux préceptes du royaume, Dame Lobelia les déclara hérétiques. Maintenant, la Souveraine est l'objet même de la haine de ce culte."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_027",
-                                "1 string m_name": "Ombreroches",
-                                "1 string m_text": "Des pierres qui ont absorbé l'ombre.\n\nEn fixant une ombreroche à une arme, on peut l'imprégner des propriétés de l'ombre présentes dans l'ombreroche.\n\nLes capacités des ombreroches sont nombreuses et variées, et elles reflètent la diversité des pensées et émotions qui font l'humanité."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_028",
-                                "1 string m_name": "Grosses ombreroches",
-                                "1 string m_text": "Un type d'ombreroche hautement purifié.\n\nBien que l'Ère de la magie puisait l'essentiel de son énergie des Piliers du monde, de grosses ombreroches furent utilisées comme source d'énergie supplémentaire.\n\nLes golems situés sous le Palais Ehir en ont besoin pour fonctionner ; en effet, elles étaient utilisées comme générateurs d'énergie pour les moyens de transport."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_029",
-                                "1 string m_name": "Éveillé",
-                                "1 string m_text": "L'état dans lequel un Gardien entre après avoir libéré son pouvoir latent. On pense que ce phénomène est provoqué par la résonance des émotions du Gardien et d'une ombre."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_030",
-                                "1 string m_name": "Pierres d'âme",
-                                "1 string m_text": "Des ombres, souvent utilisées comme source d'énergie pour valoriser les Démons. Les Pierres d'âme se fondent de manière imprévisible pendant la bataille avec les Déchus. Elles peuvent être utilisées sur les Démons pour déverrouiller leurs pouvoirs latents. Ce processus est connu pour débloquer des souvenirs antérieurs à la mort du démon, mais ce phénomène est extrêmement rare."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_031",
-                                "1 string m_name": "Lien",
-                                "1 string m_text": "Une capacité possédée par les Gardiens du Voile pour s'imprégner du pouvoir des Démons. La capacité à se lier dépend fortement de l'aptitude innée de la personne et requiert à la fois des sens aiguisés et une volonté de fer. Pour cette raison, très peu ont le potentiel de maîtriser le Lien."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_032",
-                                "1 string m_name": "Manifestation",
-                                "1 string m_text": "En harmonisant sa conscience avec celle d'un Démon, un Gardien peut obtenir un pouvoir dépassant ses limites. Cependant, plus il l'utilise longtemps, plus il y a de risques que les deux psychés fusionnent, détruisant son esprit. Lorsque cela arrive, les chances de guérison sont minces.\n\nLe pouvoir de la manifestation se fait au prix de grands risques. C'est vraiment une épée à double tranchant."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_033",
-                                "1 string m_name": "Stèles",
-                                "1 string m_text": "Des pierres sculptées qui se trouvent à la frontière du Monde des vivants et de l'Au-delà. On pense que les Stèles émettent des champs puissants qui réagissent aux souvenirs résiduels des Déchus. C'est pour cette raison que les Déchus ne s'en approchent jamais."
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "GLY_001",
+                    "1 string m_name": "Réincarnation",
+                    "1 string m_text": "Le cycle de la renaissance est un principe fondamental antérieur à l'histoire humaine. Lorsqu'un être vivant meurt, son âme se réincarne, laissant derrière elle les souvenirs de sa vie avant de renaître dans un nouveau corps.\n\nÀ la mort, les émotions négatives ne sont pas perdues. Petit à petit, elles se rassemblent pour enfin donner naissance à l’Oni. L'humanité doit absolument changer si elle souhaite empêcher cela."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_002",
+                    "1 string m_name": "Le Monde des vivants",
+                    "1 string m_text": "Le monde dans lequel les êtres vivants évoluent. Un lieu riche et fertile où prospère une vie naturelle et abondante."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_003",
+                    "1 string m_name": "Le Monde des vivants",
+                    "1 string m_text": "Le monde dans lequel les êtres vivants évoluent. Un lieu riche et fertile où prospère une vie naturelle et abondante.\n\nAutrefois, durant l'Ère de la magie, les civilisations humaines avancées prospéraient, mais elles aussi furent détruites par l'Oni. Depuis leur chute, aucune civilisation n’a été capable de rivaliser avec leurs prouesses technologiques."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_004",
+                    "1 string m_name": "Au-delà du Voile",
+                    "1 string m_text": "Le monde des morts. L'Au-delà et le Monde des vivants sont les deux faces d'une même pièce, coexistant dans le même espace physique.\n\nL'Au-delà est un milieu hostile, même pour les Gardiens. Lorsqu'on s'y rend pour la première fois, on s'aperçoit qu'aucun de nos sens ne fonctionne, car il faut qu'ils s'habituent d'abord à l'ombre qui les entoure."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_005",
+                    "1 string m_name": "Traverser le Voile",
+                    "1 string m_text": "Une capacité possédée par les Gardiens du Voile qui leur permet de voyager entre le Monde des vivants et l'Au-delà.\n\nLe masque qui recouvre la bouche des Gardiens provient du tissage d'une plante qui pousse Au-delà du Voile. Le masque a des propriétés étranges qui amplifient les capacités psychiques de celui qui le porte, lui donnant le pouvoir de se déplacer d'un monde à l'autre juste par la pensée."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_006",
+                    "1 string m_name": "Traverser le Voile",
+                    "1 string m_text": "Une capacité innée chez Sara et Soju qui leur permet de voyager entre le Monde des vivants et l'Au-delà.\n\nLe masque qui recouvre la bouche des Gardiens provient du tissage d'une plante qui pousse Au-delà du Voile. Le masque a des propriétés étranges qui amplifient les capacités psychiques de celui qui le porte, lui donnant le pouvoir de se déplacer d'un monde à l'autre juste par la pensée."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_007",
+                    "1 string m_name": "Âmes",
+                    "1 string m_text": "Les âmes manquent de conscience, mais elles gardent les souvenirs et les émotions antérieures à la mort. Une fois qu'une âme est enfin libérée de ces liens, elle peut se réincarner.\n\nAu moment de mourir, ceux qui ont de solides attaches émotionnelles à la vie ne deviennent pas des âmes, mais rejoignent les rangs des Égarés."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_008",
+                    "1 string m_name": "Les Gardiens du Voile",
+                    "1 string m_text": "Des serviteurs du royaume qui perdurent le cycle de la réincarnation. L'ordre fut formé il y a trente ans.\n\nIls doivent agir dans la plus grande discrétion : soit individuellement, soit en équipe.\n\nIl faut pouvoir traverser le Voile pour rallier ces rangs-là. Cependant, leurs compétences varient et seuls les plus talentueux peuvent contrôler les Démons."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_009",
+                    "1 string m_name": "Âmes égarées",
+                    "1 string m_text": "Des âmes conscientes accablées d'émotions puissantes qui errent dans l'Au-delà.\n\nAu bout d'un certain temps, les Âmes égarées finissent par devenir des Déchus, même si la durée varie. Ce processus a tendance à suivre l'un des deux schémas suivants : soit la conscience s'estompe, soit leurs attaches émotionnelles persistantes se transforment en une obsession.\n\nL'une des tâches des Gardiens du Voile est de sauver les Âmes égarées avant qu'elles ne deviennent des Déchus."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_010",
+                    "1 string m_name": "Démons",
+                    "1 string m_text": "Des êtres uniques morts en ressentant des émotions intenses et persistantes, mais pas encore des Déchus. Mourir dans ces conditions ne garantit pas qu'un Démon prendra forme, et la véritable cause est encore mystérieuse.\n\nLa plupart perdent leurs souvenirs, mais reçoivent un grand pouvoir. Certains pensent qu'ils sont les manifestations physiques des croyances et idéaux qu’ils avaient jadis lorsqu'ils étaient en vie."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_011",
+                    "1 string m_name": "Les Déchus",
+                    "1 string m_text": "Le destin ultime d'une Âme égarée. Un seul spécimen peut donner naissance à une multitude de Déchus qui attaquent tout ce qui approche.\n\nLa forme que prennent les Déchus dépend de leurs souvenirs, de leur personnalité et des émotions qu'ils ont ressenties avant de mourir. Le passage du temps et l’ombre accumulée sur le lieu du décès peuvent les amener à muter davantage."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_012",
+                    "1 string m_name": "L'Ère de la magie",
+                    "1 string m_text": "L'apogée d'une grande civilisation qui a débuté avec la découverte de techniques permettant d'exploiter l'ombre pour utiliser son énergie, et qui a duré environ huit cents ans.\n\nDe nombreuses reliques de l'Ère de la magie ont subsisté, telles que les Piliers du monde et les Ruines englouties. Cependant, les arts magiques de cette époque sont perdus depuis longtemps."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_013",
+                    "1 string m_name": "La Souveraine",
+                    "1 string m_text": "La Souveraine du Royaume intérieur. La Prêtresse Oni, réincarnée à maintes reprises, exerce cette fonction depuis des générations.\n\nCependant, la lignée a été brisée lorsque Sara a été exécutée et que Lobelia est montée sur le trône. Lobelia a été la première souveraine non issue de la lignée. C'est ce qui annonça la fin cataclysmique du Royaume intérieur."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_014",
+                    "1 string m_name": "Sans-ombre",
+                    "1 string m_text": "Une race humanoïde nommée ainsi parce qu'elle n'a pas d'ombre. Après bien des guerres contre l'humanité, elle fut presque anéantie par l'Oni.\n\nLes sans-ombre ont la capacité unique d'absorber l'ombre. Beaucoup possèdent divers pouvoirs étranges ; certains contrôlent des forces magiques, d'autres sont presque immortels ou capables de traverser le Voile."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_015",
+                    "1 string m_name": "Lignée",
+                    "1 string m_text": "Ceux qui ont hérité du sang de la Prêtresse Oni. Un membre de la lignée gouverne le Royaume intérieur depuis sa création.\n\nLa Prêtresse Oni enfante tout en conservant sa virginité. Une fois que l'enfant a atteint l'âge requis, il subit le Rituel du lien. Il hérite alors des pouvoirs et des souvenirs de la Prêtresse Oni, faisant de la lignée et de la Prêtresse Oni une seule et même personne."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_016",
+                    "1 string m_name": "Prophètes",
+                    "1 string m_text": "Le nom donné au corps des officiers régissant les affaires du Royaume intérieur.\n\nDirigés par la Souveraine, ils sont divisés en plusieurs ministères en fonction de leur rôle au sein du gouvernement.\n\nLes Gardiens du Voile travaillent sous l'égide du ministère de la Réincarnation, également chargé de gérer les Voyages de sept jours."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_017",
+                    "1 string m_name": "La Garde du sang",
+                    "1 string m_text": "Un groupe de Gardiens d'élite assignés à la protection des souverains. En raison de leur rôle critique dans la défense de la plus haute autorité du royaume, se voir affecté à la Garde du sang est un grand honneur.\n\nLes effectifs de la Garde du sang étaient autrefois assez restreints, mais depuis que Lobelia est montée sur le trône, elle a considérablement élargi leurs rangs.\n"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_018",
+                    "1 string m_name": "Dîme",
+                    "1 string m_text": "Accorde une mort miséricordieuse à ceux qui veulent embrasser la réincarnation.\n\nLes gens demandent la dîme pour plusieurs raisons. Certains sentent la mort approcher. D'autres veulent se libérer de la souffrance ou de la pauvreté, alors que d'autres souhaitent accéder rapidement à la vie suivante. Cependant, pour la demander, il faut obtenir la permission du royaume après une enquête stricte."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_019",
+                    "1 string m_name": "Voyage de sept jours",
+                    "1 string m_text": "Une tradition du royaume. Cette cérémonie a lieu une fois par semaine à Deto pour commémorer les morts.\n\nRessentir de la tristesse lors du décès d'un être cher est interdit dans le royaume. Ainsi, le Voyage de sept jours n'est pas marqué par le chagrin, mais par de la gratitude envers la vie et des prières pour un passage de l'autre côté en toute sécurité."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_020",
+                    "1 string m_name": "Ombre",
+                    "1 string m_text": "Lorsque les âmes des morts Au-delà du Voile se débarrassent des derniers vestiges de leur attachement au Monde des vivants, certains de leurs souvenirs et de leurs sentiments peuvent s'échapper et former une ombre. Au cours des dernières années, l'ombre a commencé à apparaître de ce côté du Voile."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_021",
+                    "1 string m_name": "Ombre",
+                    "1 string m_text": "Lorsque les âmes des morts Au-delà du Voile perdent les derniers vestiges de leur attachement au Monde des vivants, certains de leurs souvenirs et de leurs sentiments peuvent s'échapper et former une ombre. Au cours des dernières années, l'ombre a commencé à apparaître de ce côté du Voile.\n\nÀ l'Ère de la magie, le pouvoir de l'ombre fut exploité pour alimenter une gamme de dispositifs extraordinaires."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_022",
+                    "1 string m_name": "Ombre des ténèbres",
+                    "1 string m_text": "L'ombre créée à partir d'émotions négatives puissantes. Dépouillée des âmes réincarnées, elle ne peut pas disparaître de ce monde.\n\nLorsque suffisamment d'ombres des ténèbres se seront rassemblées, l'Oni se réveillera. Ainsi, l'Oni est une ombre composée entièrement du désespoir le plus sombre."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_023",
+                    "1 string m_name": "Les Piliers du monde",
+                    "1 string m_text": "Des structures géantes créées pour récupérer les ombres des ténèbres. Symbole du Royaume intérieur, ils existent depuis le début de son histoire.\n\nIl y a longtemps, la Prêtresse Oni apporta les maigres vestiges de l'humanité dans la ville sans-ombre pour former le Royaume intérieur. En les réunissant ici, elle s'assura de pouvoir assister à la dernière manifestation de l'Oni et du destin de l'humanité."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_024",
+                    "1 string m_name": "Le Puits des ombres",
+                    "1 string m_text": "L'endroit où les ombres des ténèbres rassemblées par les Piliers du monde sont récupérées. Enterré profondément sous le Palais Ehir, il se trouve derrière une porte verrouillée qui ne peut être ouverte que par une personne du même sang que la Prêtresse Oni.\n\nHaine, tristesse, colère, malveillance - ce bassin est un réservoir d'émotions négatives. Toute personne emprisonnée à l'intérieur est vidée de son espoir."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_025",
+                    "1 string m_name": "L'Oni",
+                    "1 string m_text": "Une collection d'ombres des ténèbres. Il a porté de nombreux noms différents au fil du temps et a déjà fait l'objet de recherches par une civilisation qui l'avait baptisée le « Fléau ».\n\nLes préceptes de la réincarnation garantissent qu'il se manifeste à la fin de cycles réguliers, amenant calamité et ruine à la civilisation. Même l'Ère de la magie connut sa fin face à son pouvoir inexorable."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_026",
+                    "1 string m_name": "L'Arche de l'espoir",
+                    "1 string m_text": "Un culte religieux fondé par Guzan Musai. Ses adeptes sont mécontents de l'état du monde, citant comme principaux griefs la réduction catastrophique du taux de natalité et les échecs de la réincarnation.\n\nLorsqu'ils tournèrent le dos aux préceptes du royaume, Dame Lobelia les déclara hérétiques. Maintenant, la Souveraine est l'objet même de la haine de ce culte."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_027",
+                    "1 string m_name": "Ombreroches",
+                    "1 string m_text": "Des pierres qui ont absorbé l'ombre.\n\nEn fixant une ombreroche à une arme, on peut l'imprégner des propriétés de l'ombre présentes dans l'ombreroche.\n\nLes capacités des ombreroches sont nombreuses et variées, et elles reflètent la diversité des pensées et émotions qui font l'humanité."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_028",
+                    "1 string m_name": "Grosses ombreroches",
+                    "1 string m_text": "Un type d'ombreroche hautement purifié.\n\nBien que l'Ère de la magie puisait l'essentiel de son énergie des Piliers du monde, de grosses ombreroches furent utilisées comme source d'énergie supplémentaire.\n\nLes golems situés sous le Palais Ehir en ont besoin pour fonctionner ; en effet, elles étaient utilisées comme générateurs d'énergie pour les moyens de transport."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_029",
+                    "1 string m_name": "Éveillé",
+                    "1 string m_text": "L'état dans lequel un Gardien entre après avoir libéré son pouvoir latent. On pense que ce phénomène est provoqué par la résonance des émotions du Gardien et d'une ombre."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_030",
+                    "1 string m_name": "Pierres d'âme",
+                    "1 string m_text": "Des ombres, souvent utilisées comme source d'énergie pour valoriser les Démons. Les Pierres d'âme se fondent de manière imprévisible pendant la bataille avec les Déchus. Elles peuvent être utilisées sur les Démons pour déverrouiller leurs pouvoirs latents. Ce processus est connu pour débloquer des souvenirs antérieurs à la mort du démon, mais ce phénomène est extrêmement rare."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_031",
+                    "1 string m_name": "Lien",
+                    "1 string m_text": "Une capacité possédée par les Gardiens du Voile pour s'imprégner du pouvoir des Démons. La capacité à se lier dépend fortement de l'aptitude innée de la personne et requiert à la fois des sens aiguisés et une volonté de fer. Pour cette raison, très peu ont le potentiel de maîtriser le Lien."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_032",
+                    "1 string m_name": "Manifestation",
+                    "1 string m_text": "En harmonisant sa conscience avec celle d'un Démon, un Gardien peut obtenir un pouvoir dépassant ses limites. Cependant, plus il l'utilise longtemps, plus il y a de risques que les deux psychés fusionnent, détruisant son esprit. Lorsque cela arrive, les chances de guérison sont minces.\n\nLe pouvoir de la manifestation se fait au prix de grands risques. C'est vraiment une épée à double tranchant."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_033",
+                    "1 string m_name": "Stèles",
+                    "1 string m_text": "Des pierres sculptées qui se trouvent à la frontière du Monde des vivants et de l'Au-delà. On pense que les Stèles émettent des champs puissants qui réagissent aux souvenirs résiduels des Déchus. C'est pour cette raison que les Déchus ne s'en approchent jamais."
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

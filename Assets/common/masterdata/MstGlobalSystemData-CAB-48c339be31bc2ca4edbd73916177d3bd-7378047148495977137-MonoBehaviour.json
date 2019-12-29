@@ -1,66 +1,63 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 5117284623145012000
+    },
+    "1 string m_Name": "MstGlobalSystemData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 5117284623145012662
-        },
-        "1 string m_Name": "MstGlobalSystemData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "System",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "System",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "0 float m_inputDelayFirst": 0.150000006,
-                                "0 float m_IntervalFirst": 0.119999997,
-                                "0 float m_inputDelaySecond": 5,
-                                "0 float m_inputIntervalSecond": 0.150000006,
-                                "0 float m_inputDelayFirstV": 0.100000001,
-                                "0 float m_IntervalFirstV": 0.0799999982,
-                                "0 float m_inputDelaySecondV": 1,
-                                "0 float m_inputIntervalSecondV": 0.0299999993,
-                                "0 float m_inputEndDisableTime": 0.5,
-                                "0 float m_windowTransitionTime": 0.25,
-                                "1 string m_defaultEaseType": "InOutSine",
-                                "0 float m_radarChartHpMax": 1000,
-                                "0 float m_radarChartHpMin": 100,
-                                "0 float m_radarChartAttackMax": 450,
-                                "0 float m_radarChartAttackMin": 20,
-                                "0 float m_radarChartDefenceMax": 200,
-                                "0 float m_radarChartDefenceMin": 20,
-                                "0 float m_radarChartSpeedMax": 95,
-                                "0 float m_radarChartSpeedMin": 60,
-                                "0 float m_radarChartWeightMax": 130,
-                                "0 float m_radarChartWeightMin": 60,
-                                "0 float m_enemyRadarChartHpMax": 100,
-                                "0 float m_enemyRadarChartHpMin": 1,
-                                "0 float m_enemyRadarChartAttackMax": 100,
-                                "0 float m_enemyRadarChartAttackMin": 1,
-                                "0 float m_enemyRadarChartDefenceMax": 100,
-                                "0 float m_enemyRadarChartDefenceMin": 1,
-                                "0 float m_enemyRadarChartSpeedMax": 100,
-                                "0 float m_enemyRadarChartSpeedMin": 1,
-                                "0 float m_enemyRadarChartWeightMax": 100,
-                                "0 float m_enemyRadarChartWeightMin": 1,
-                                "0 float m_safeAreaAutoSaveWait": 30
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "0 float m_inputDelayFirst": 0.150000006,
+                    "0 float m_IntervalFirst": 0.119999997,
+                    "0 float m_inputDelaySecond": 5,
+                    "0 float m_inputIntervalSecond": 0.150000006,
+                    "0 float m_inputDelayFirstV": 0.100000001,
+                    "0 float m_IntervalFirstV": 0.0799999982,
+                    "0 float m_inputDelaySecondV": 1,
+                    "0 float m_inputIntervalSecondV": 0.0299999993,
+                    "0 float m_inputEndDisableTime": 0.5,
+                    "0 float m_windowTransitionTime": 0.25,
+                    "1 string m_defaultEaseType": "InOutSine",
+                    "0 float m_radarChartHpMax": 1000,
+                    "0 float m_radarChartHpMin": 100,
+                    "0 float m_radarChartAttackMax": 450,
+                    "0 float m_radarChartAttackMin": 20,
+                    "0 float m_radarChartDefenceMax": 200,
+                    "0 float m_radarChartDefenceMin": 20,
+                    "0 float m_radarChartSpeedMax": 95,
+                    "0 float m_radarChartSpeedMin": 60,
+                    "0 float m_radarChartWeightMax": 130,
+                    "0 float m_radarChartWeightMin": 60,
+                    "0 float m_enemyRadarChartHpMax": 100,
+                    "0 float m_enemyRadarChartHpMin": 1,
+                    "0 float m_enemyRadarChartAttackMax": 100,
+                    "0 float m_enemyRadarChartAttackMin": 1,
+                    "0 float m_enemyRadarChartDefenceMax": 100,
+                    "0 float m_enemyRadarChartDefenceMin": 1,
+                    "0 float m_enemyRadarChartSpeedMax": 100,
+                    "0 float m_enemyRadarChartSpeedMin": 1,
+                    "0 float m_enemyRadarChartWeightMax": 100,
+                    "0 float m_enemyRadarChartWeightMin": 1,
+                    "0 float m_safeAreaAutoSaveWait": 30
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

@@ -1,623 +1,656 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -2020164025479354600
+    },
+    "1 string m_Name": "MstDropItemData_Random",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -2020164025479354697
-        },
-        "1 string m_Name": "MstDropItemData_Random",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Random",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Random",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0101",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 129999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 9,
-                                "0 int m_dropRank": 1,
-                                "0 int m_weaponRatio": 0,
-                                "0 int m_manaStoneRatio": 0,
-                                "0 int m_potionRatio": 100,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0102",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 129999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 6,
-                                "0 int m_dropRank": 1,
-                                "0 int m_weaponRatio": 0,
-                                "0 int m_manaStoneRatio": 0,
-                                "0 int m_potionRatio": 100,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0102",
-                                "0 int m_locationNo": 2,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 129999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 8,
-                                "0 int m_dropRank": 1,
-                                "0 int m_weaponRatio": 0,
-                                "0 int m_manaStoneRatio": 0,
-                                "0 int m_potionRatio": 100,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0104",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 129999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 20,
-                                "0 int m_dropRank": 2,
-                                "0 int m_weaponRatio": 50,
-                                "0 int m_manaStoneRatio": 15,
-                                "0 int m_potionRatio": 35,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0103",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 129999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 24,
-                                "0 int m_dropRank": 2,
-                                "0 int m_weaponRatio": 50,
-                                "0 int m_manaStoneRatio": 15,
-                                "0 int m_potionRatio": 35,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0103",
-                                "0 int m_locationNo": 2,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 129999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 20,
-                                "0 int m_dropRank": 2,
-                                "0 int m_weaponRatio": 50,
-                                "0 int m_manaStoneRatio": 15,
-                                "0 int m_potionRatio": 35,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0101",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 130000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 19,
-                                "0 int m_dropRank": 1,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 30,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0102",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 130000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 24,
-                                "0 int m_dropRank": 1,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 30,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0102",
-                                "0 int m_locationNo": 2,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 130000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 27,
-                                "0 int m_dropRank": 1,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 30,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0104",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 130000,
-                                "0 int m_counterMax": 299999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 27,
-                                "0 int m_dropRank": 2,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 30,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0103",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 130000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 32,
-                                "0 int m_dropRank": 2,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 30,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0103",
-                                "0 int m_locationNo": 2,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 130000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 26,
-                                "0 int m_dropRank": 2,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 30,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0001",
-                                "0 int m_locationNo": 2,
-                                "1 string m_counterName": "",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 0,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 29,
-                                "0 int m_dropRank": 3,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 30,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0201",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 299999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 29,
-                                "0 int m_dropRank": 3,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 25,
-                                "0 int m_potionBigRatio": 5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0202",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 299999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 32,
-                                "0 int m_dropRank": 3,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 25,
-                                "0 int m_potionBigRatio": 5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0002",
-                                "0 int m_locationNo": 3,
-                                "1 string m_counterName": "",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 0,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 35,
-                                "0 int m_dropRank": 4,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 25,
-                                "0 int m_potionBigRatio": 5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0203",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 299999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 27,
-                                "0 int m_dropRank": 4,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 25,
-                                "0 int m_potionBigRatio": 5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0203",
-                                "0 int m_locationNo": 3,
-                                "1 string m_counterName": "",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 0,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 32,
-                                "0 int m_dropRank": 4,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 25,
-                                "0 int m_potionBigRatio": 5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0201",
-                                "0 int m_locationNo": 2,
-                                "1 string m_counterName": "",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 0,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 38,
-                                "0 int m_dropRank": 5,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 20,
-                                "0 int m_potionBigRatio": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0203",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 300000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 46,
-                                "0 int m_dropRank": 5,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 20,
-                                "0 int m_potionBigRatio": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0202",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 300000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 58,
-                                "0 int m_dropRank": 5,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 20,
-                                "0 int m_potionBigRatio": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0201",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 300000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 62,
-                                "0 int m_dropRank": 5,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 20,
-                                "0 int m_potionBigRatio": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0104",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 300000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 64,
-                                "0 int m_dropRank": 6,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 20,
-                                "0 int m_potionBigRatio": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0001",
-                                "0 int m_locationNo": 3,
-                                "1 string m_counterName": "",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 0,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 38,
-                                "0 int m_dropRank": 6,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 10,
-                                "0 int m_potionBigRatio": 20
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0401",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 0,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 52,
-                                "0 int m_dropRank": 6,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 10,
-                                "0 int m_potionBigRatio": 20
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0401",
-                                "0 int m_locationNo": 2,
-                                "1 string m_counterName": "",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 0,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 125,
-                                "0 int m_dropRank": 6,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 10,
-                                "0 int m_potionBigRatio": 20
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0402",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 0,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 33,
-                                "0 int m_dropRank": 7,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 10,
-                                "0 int m_potionBigRatio": 20
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0402",
-                                "0 int m_locationNo": 2,
-                                "1 string m_counterName": "",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 0,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 33,
-                                "0 int m_dropRank": 7,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 10,
-                                "0 int m_potionBigRatio": 20
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0402",
-                                "0 int m_locationNo": 4,
-                                "1 string m_counterName": "",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 0,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 33,
-                                "0 int m_dropRank": 7,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 10,
-                                "0 int m_potionBigRatio": 20
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "ma_0002",
-                                "0 int m_locationNo": 4,
-                                "1 string m_counterName": "",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 0,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 144,
-                                "0 int m_dropRank": 8,
-                                "0 int m_weaponRatio": 35,
-                                "0 int m_manaStoneRatio": 35,
-                                "0 int m_potionRatio": 10,
-                                "0 int m_potionBigRatio": 20
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "shop",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 131069,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 0,
-                                "0 int m_dropRank": 2,
-                                "0 int m_weaponRatio": 50,
-                                "0 int m_manaStoneRatio": 50,
-                                "0 int m_potionRatio": 0,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "shop",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 131070,
-                                "0 int m_counterMax": 221999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 0,
-                                "0 int m_dropRank": 3,
-                                "0 int m_weaponRatio": 50,
-                                "0 int m_manaStoneRatio": 50,
-                                "0 int m_potionRatio": 0,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "shop",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 222000,
-                                "0 int m_counterMax": 299999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 0,
-                                "0 int m_dropRank": 4,
-                                "0 int m_weaponRatio": 50,
-                                "0 int m_manaStoneRatio": 50,
-                                "0 int m_potionRatio": 0,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "shop",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 300000,
-                                "0 int m_counterMax": 333009,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 0,
-                                "0 int m_dropRank": 5,
-                                "0 int m_weaponRatio": 50,
-                                "0 int m_manaStoneRatio": 50,
-                                "0 int m_potionRatio": 0,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "shop",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 333010,
-                                "0 int m_counterMax": 421019,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 0,
-                                "0 int m_dropRank": 6,
-                                "0 int m_weaponRatio": 50,
-                                "0 int m_manaStoneRatio": 50,
-                                "0 int m_potionRatio": 0,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "shop",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 421020,
-                                "0 int m_counterMax": 431004,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 0,
-                                "0 int m_dropRank": 7,
-                                "0 int m_weaponRatio": 50,
-                                "0 int m_manaStoneRatio": 50,
-                                "0 int m_potionRatio": 0,
-                                "0 int m_potionBigRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_locationAreaId": "shop",
-                                "0 int m_locationNo": 1,
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 431005,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": "",
-                                "0 int m_dropNum": 0,
-                                "0 int m_dropRank": 8,
-                                "0 int m_weaponRatio": 50,
-                                "0 int m_manaStoneRatio": 50,
-                                "0 int m_potionRatio": 0,
-                                "0 int m_potionBigRatio": 0
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0101",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 129999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 9,
+                    "0 int m_dropRank": 1,
+                    "0 int m_weaponRatio": 0,
+                    "0 int m_manaStoneRatio": 0,
+                    "0 int m_potionRatio": 100,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0102",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 129999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 6,
+                    "0 int m_dropRank": 1,
+                    "0 int m_weaponRatio": 0,
+                    "0 int m_manaStoneRatio": 0,
+                    "0 int m_potionRatio": 100,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0102",
+                    "0 int m_locationNo": 2,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 129999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 8,
+                    "0 int m_dropRank": 1,
+                    "0 int m_weaponRatio": 0,
+                    "0 int m_manaStoneRatio": 0,
+                    "0 int m_potionRatio": 100,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0104",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 129999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 20,
+                    "0 int m_dropRank": 2,
+                    "0 int m_weaponRatio": 50,
+                    "0 int m_manaStoneRatio": 15,
+                    "0 int m_potionRatio": 35,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0103",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 129999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 24,
+                    "0 int m_dropRank": 2,
+                    "0 int m_weaponRatio": 50,
+                    "0 int m_manaStoneRatio": 15,
+                    "0 int m_potionRatio": 35,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0103",
+                    "0 int m_locationNo": 2,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 129999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 20,
+                    "0 int m_dropRank": 2,
+                    "0 int m_weaponRatio": 50,
+                    "0 int m_manaStoneRatio": 15,
+                    "0 int m_potionRatio": 35,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0101",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 130000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 19,
+                    "0 int m_dropRank": 1,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 30,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0102",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 130000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 24,
+                    "0 int m_dropRank": 1,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 30,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0102",
+                    "0 int m_locationNo": 2,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 130000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 27,
+                    "0 int m_dropRank": 1,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 30,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0104",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 130000,
+                    "0 int m_counterMax": 299999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 27,
+                    "0 int m_dropRank": 2,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 30,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0103",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 130000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 32,
+                    "0 int m_dropRank": 2,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 30,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0103",
+                    "0 int m_locationNo": 2,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 130000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 26,
+                    "0 int m_dropRank": 2,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 30,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0001",
+                    "0 int m_locationNo": 2,
+                    "1 string m_counterName": "",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 0,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 29,
+                    "0 int m_dropRank": 3,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 30,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0201",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 299999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 29,
+                    "0 int m_dropRank": 3,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 25,
+                    "0 int m_potionBigRatio": 5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0202",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 299999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 32,
+                    "0 int m_dropRank": 3,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 25,
+                    "0 int m_potionBigRatio": 5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0002",
+                    "0 int m_locationNo": 3,
+                    "1 string m_counterName": "",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 0,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 35,
+                    "0 int m_dropRank": 4,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 25,
+                    "0 int m_potionBigRatio": 5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0203",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 299999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 27,
+                    "0 int m_dropRank": 4,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 25,
+                    "0 int m_potionBigRatio": 5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0203",
+                    "0 int m_locationNo": 3,
+                    "1 string m_counterName": "",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 0,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 32,
+                    "0 int m_dropRank": 4,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 25,
+                    "0 int m_potionBigRatio": 5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0201",
+                    "0 int m_locationNo": 2,
+                    "1 string m_counterName": "",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 0,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 38,
+                    "0 int m_dropRank": 5,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 20,
+                    "0 int m_potionBigRatio": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0203",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 300000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 46,
+                    "0 int m_dropRank": 5,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 20,
+                    "0 int m_potionBigRatio": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0202",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 300000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 58,
+                    "0 int m_dropRank": 5,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 20,
+                    "0 int m_potionBigRatio": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0201",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 300000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 62,
+                    "0 int m_dropRank": 5,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 20,
+                    "0 int m_potionBigRatio": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0104",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 300000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 64,
+                    "0 int m_dropRank": 6,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 20,
+                    "0 int m_potionBigRatio": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0001",
+                    "0 int m_locationNo": 3,
+                    "1 string m_counterName": "",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 0,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 38,
+                    "0 int m_dropRank": 6,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 10,
+                    "0 int m_potionBigRatio": 20
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0401",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 0,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 52,
+                    "0 int m_dropRank": 6,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 10,
+                    "0 int m_potionBigRatio": 20
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0401",
+                    "0 int m_locationNo": 2,
+                    "1 string m_counterName": "",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 0,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 125,
+                    "0 int m_dropRank": 6,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 10,
+                    "0 int m_potionBigRatio": 20
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0402",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 0,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 33,
+                    "0 int m_dropRank": 7,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 10,
+                    "0 int m_potionBigRatio": 20
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0402",
+                    "0 int m_locationNo": 2,
+                    "1 string m_counterName": "",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 0,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 33,
+                    "0 int m_dropRank": 7,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 10,
+                    "0 int m_potionBigRatio": 20
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0402",
+                    "0 int m_locationNo": 4,
+                    "1 string m_counterName": "",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 0,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 33,
+                    "0 int m_dropRank": 7,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 10,
+                    "0 int m_potionBigRatio": 20
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "ma_0002",
+                    "0 int m_locationNo": 4,
+                    "1 string m_counterName": "",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 0,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 144,
+                    "0 int m_dropRank": 8,
+                    "0 int m_weaponRatio": 35,
+                    "0 int m_manaStoneRatio": 35,
+                    "0 int m_potionRatio": 10,
+                    "0 int m_potionBigRatio": 20
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "shop",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 131069,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 0,
+                    "0 int m_dropRank": 2,
+                    "0 int m_weaponRatio": 50,
+                    "0 int m_manaStoneRatio": 50,
+                    "0 int m_potionRatio": 0,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "shop",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 131070,
+                    "0 int m_counterMax": 221999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 0,
+                    "0 int m_dropRank": 3,
+                    "0 int m_weaponRatio": 50,
+                    "0 int m_manaStoneRatio": 50,
+                    "0 int m_potionRatio": 0,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "shop",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 222000,
+                    "0 int m_counterMax": 299999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 0,
+                    "0 int m_dropRank": 4,
+                    "0 int m_weaponRatio": 50,
+                    "0 int m_manaStoneRatio": 50,
+                    "0 int m_potionRatio": 0,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "shop",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 300000,
+                    "0 int m_counterMax": 333009,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 0,
+                    "0 int m_dropRank": 5,
+                    "0 int m_weaponRatio": 50,
+                    "0 int m_manaStoneRatio": 50,
+                    "0 int m_potionRatio": 0,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "shop",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 333010,
+                    "0 int m_counterMax": 421019,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 0,
+                    "0 int m_dropRank": 6,
+                    "0 int m_weaponRatio": 50,
+                    "0 int m_manaStoneRatio": 50,
+                    "0 int m_potionRatio": 0,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "shop",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 421020,
+                    "0 int m_counterMax": 431004,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 0,
+                    "0 int m_dropRank": 7,
+                    "0 int m_weaponRatio": 50,
+                    "0 int m_manaStoneRatio": 50,
+                    "0 int m_potionRatio": 0,
+                    "0 int m_potionBigRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_locationAreaId": "shop",
+                    "0 int m_locationNo": 1,
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 431005,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": "",
+                    "0 int m_dropNum": 0,
+                    "0 int m_dropRank": 8,
+                    "0 int m_weaponRatio": 50,
+                    "0 int m_manaStoneRatio": 50,
+                    "0 int m_potionRatio": 0,
+                    "0 int m_potionBigRatio": 0
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

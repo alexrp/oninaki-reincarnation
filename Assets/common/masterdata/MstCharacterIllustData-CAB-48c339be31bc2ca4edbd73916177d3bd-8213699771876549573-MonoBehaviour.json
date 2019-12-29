@@ -1,215 +1,234 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -2541856805035030500
+    },
+    "1 string m_Name": "MstCharacterIllustData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -2541856805035030404
-        },
-        "1 string m_Name": "MstCharacterIllustData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Data",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Data",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_001",
-                                "1 string m_illustName": "@uin_illust_player_00",
-                                "0 float m_posX": -10,
-                                "0 float m_posY": -15,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_002",
-                                "1 string m_illustName": "@uin_illust_player_01",
-                                "0 float m_posX": 36,
-                                "0 float m_posY": -68,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_003",
-                                "1 string m_illustName": "@uin_illust_player_02",
-                                "0 float m_posX": 36,
-                                "0 float m_posY": -68,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_004",
-                                "1 string m_illustName": "@uin_illust_player_03",
-                                "0 float m_posX": 36,
-                                "0 float m_posY": -68,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_005",
-                                "1 string m_illustName": "@uin_illust_player_04",
-                                "0 float m_posX": 36,
-                                "0 float m_posY": -68,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_006",
-                                "1 string m_illustName": "@uin_illust_kamishiro_01",
-                                "0 float m_posX": 38,
-                                "0 float m_posY": -18,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_007",
-                                "1 string m_illustName": "@uin_illust_kamishiro_02",
-                                "0 float m_posX": -256,
-                                "0 float m_posY": -26,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_008",
-                                "1 string m_illustName": "@uin_illust_kamishiro_03",
-                                "0 float m_posX": 128,
-                                "0 float m_posY": -19,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_009",
-                                "1 string m_illustName": "@uin_illust_kamishiro_04",
-                                "0 float m_posX": 83,
-                                "0 float m_posY": -34,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_010",
-                                "1 string m_illustName": "@uin_illust_kamishiro_05",
-                                "0 float m_posX": 64,
-                                "0 float m_posY": -24,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_011",
-                                "1 string m_illustName": "@uin_illust_kamishiro_06",
-                                "0 float m_posX": 48,
-                                "0 float m_posY": -38,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_012",
-                                "1 string m_illustName": "@uin_illust_kamishiro_07",
-                                "0 float m_posX": -44,
-                                "0 float m_posY": -10,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_013",
-                                "1 string m_illustName": "@uin_illust_kamishiro_08",
-                                "0 float m_posX": 39,
-                                "0 float m_posY": -30,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_014",
-                                "1 string m_illustName": "@uin_illust_kamishiro_09",
-                                "0 float m_posX": -154,
-                                "0 float m_posY": -19,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_015",
-                                "1 string m_illustName": "@uin_illust_kamishiro_11",
-                                "0 float m_posX": 86,
-                                "0 float m_posY": -32,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_016",
-                                "1 string m_illustName": "@uin_illust_kamishiro_12",
-                                "0 float m_posX": -16,
-                                "0 float m_posY": 2,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_017",
-                                "1 string m_illustName": "@uin_illust_linne",
-                                "0 float m_posX": -4,
-                                "0 float m_posY": -18,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_018",
-                                "1 string m_illustName": "@uin_illust_sara",
-                                "0 float m_posX": 58,
-                                "0 float m_posY": -9,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_019",
-                                "1 string m_illustName": "@uin_illust_mayura",
-                                "0 float m_posX": 11,
-                                "0 float m_posY": -16,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_020",
-                                "1 string m_illustName": "@uin_illust_kushi",
-                                "0 float m_posX": 17,
-                                "0 float m_posY": -3,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_021",
-                                "1 string m_illustName": "@uin_illust_lobelia",
-                                "0 float m_posX": 50,
-                                "0 float m_posY": 3,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_022",
-                                "1 string m_illustName": "@uin_illust_leo",
-                                "0 float m_posX": 28,
-                                "0 float m_posY": -5,
-                                "0 float m_scale": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ILLUST_023",
-                                "1 string m_illustName": "@uin_illust_two_shot",
-                                "0 float m_posX": -90,
-                                "0 float m_posY": 0,
-                                "0 float m_scale": 1
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_001",
+                    "1 string m_illustName": "@uin_illust_player_00",
+                    "0 float m_posX": -10,
+                    "0 float m_posY": -15,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_002",
+                    "1 string m_illustName": "@uin_illust_player_01",
+                    "0 float m_posX": 36,
+                    "0 float m_posY": -68,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_003",
+                    "1 string m_illustName": "@uin_illust_player_02",
+                    "0 float m_posX": 36,
+                    "0 float m_posY": -68,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_004",
+                    "1 string m_illustName": "@uin_illust_player_03",
+                    "0 float m_posX": 36,
+                    "0 float m_posY": -68,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_005",
+                    "1 string m_illustName": "@uin_illust_player_04",
+                    "0 float m_posX": 36,
+                    "0 float m_posY": -68,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_006",
+                    "1 string m_illustName": "@uin_illust_kamishiro_01",
+                    "0 float m_posX": 38,
+                    "0 float m_posY": -18,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_007",
+                    "1 string m_illustName": "@uin_illust_kamishiro_02",
+                    "0 float m_posX": -256,
+                    "0 float m_posY": -26,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_008",
+                    "1 string m_illustName": "@uin_illust_kamishiro_03",
+                    "0 float m_posX": 128,
+                    "0 float m_posY": -19,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_009",
+                    "1 string m_illustName": "@uin_illust_kamishiro_04",
+                    "0 float m_posX": 83,
+                    "0 float m_posY": -34,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_010",
+                    "1 string m_illustName": "@uin_illust_kamishiro_05",
+                    "0 float m_posX": 64,
+                    "0 float m_posY": -24,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_011",
+                    "1 string m_illustName": "@uin_illust_kamishiro_06",
+                    "0 float m_posX": 48,
+                    "0 float m_posY": -38,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_012",
+                    "1 string m_illustName": "@uin_illust_kamishiro_07",
+                    "0 float m_posX": -44,
+                    "0 float m_posY": -10,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_013",
+                    "1 string m_illustName": "@uin_illust_kamishiro_08",
+                    "0 float m_posX": 39,
+                    "0 float m_posY": -30,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_014",
+                    "1 string m_illustName": "@uin_illust_kamishiro_09",
+                    "0 float m_posX": -154,
+                    "0 float m_posY": -19,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_015",
+                    "1 string m_illustName": "@uin_illust_kamishiro_11",
+                    "0 float m_posX": 86,
+                    "0 float m_posY": -32,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_016",
+                    "1 string m_illustName": "@uin_illust_kamishiro_12",
+                    "0 float m_posX": -16,
+                    "0 float m_posY": 2,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_017",
+                    "1 string m_illustName": "@uin_illust_linne",
+                    "0 float m_posX": -4,
+                    "0 float m_posY": -18,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_018",
+                    "1 string m_illustName": "@uin_illust_sara",
+                    "0 float m_posX": 58,
+                    "0 float m_posY": -9,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_019",
+                    "1 string m_illustName": "@uin_illust_mayura",
+                    "0 float m_posX": 11,
+                    "0 float m_posY": -16,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_020",
+                    "1 string m_illustName": "@uin_illust_kushi",
+                    "0 float m_posX": 17,
+                    "0 float m_posY": -3,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_021",
+                    "1 string m_illustName": "@uin_illust_lobelia",
+                    "0 float m_posX": 50,
+                    "0 float m_posY": 3,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_022",
+                    "1 string m_illustName": "@uin_illust_leo",
+                    "0 float m_posX": 28,
+                    "0 float m_posY": -5,
+                    "0 float m_scale": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ILLUST_023",
+                    "1 string m_illustName": "@uin_illust_two_shot",
+                    "0 float m_posX": -90,
+                    "0 float m_posY": 0,
+                    "0 float m_scale": 1
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

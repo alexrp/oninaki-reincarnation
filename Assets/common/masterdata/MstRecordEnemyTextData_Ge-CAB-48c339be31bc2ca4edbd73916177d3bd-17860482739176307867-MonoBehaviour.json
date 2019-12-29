@@ -1,528 +1,595 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 5966615154849393000
+    },
+    "1 string m_Name": "MstRecordEnemyTextData_Ge",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 5966615154849392854
-        },
-        "1 string m_Name": "MstRecordEnemyTextData_Ge",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Data",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Data",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_001",
-                                "1 string m_nameId": "CE_0001",
-                                "1 string m_shortText": "Gefallene, die wie Seevögel aussehen. Alleine nicht sehr stark, jedoch in Schwärmen auftretend. Sie nähern sich dem Gegner ohne Eile und greifen mit dem Schnabel an. Kein großes Risiko, solange man sich nicht umzingeln lässt.",
-                                "1 string m_text": "Forschungstagebuch 1-1\nNur einer der drei gefangenen Pingis hat den Transport überlebt. Sie waren nicht imstande mit der abrupten Umgebungsänderung zurechtzukommen. Ich muss mit dem Kollegen sprechen, der für den Transport zuständig ist, damit es nicht zu weiteren Unfällen kommt."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_002",
-                                "1 string m_nameId": "CE_0001_02",
-                                "1 string m_shortText": "Gefallene, die wie Seevögel aussehen. Alleine nicht sehr stark, jedoch in Schwärmen auftretend. Vorsicht vor den Kettenangriffen mit den Schnäbeln.",
-                                "1 string m_text": "Forschungstagebuch 1-2\nNach Sedierung und Untersuchung des Pingis stellte ich überrascht fest, wie herrlich sie sich anfassen. Vor allem die dunkelblauen Bereiche der wasseradaptierten Exemplare können sich mit der feinsten Seide messen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_003",
-                                "1 string m_nameId": "CE_0001_03",
-                                "1 string m_shortText": "Gefallene, die wie Seevögel aussehen. Alleine nicht sehr stark, jedoch in Schwärmen auftretend. Sie stürzen sich mit ausgestrecktem Schnabel vorwärts, um ihre Reichweite zu erhöhen.",
-                                "1 string m_text": "Forschungstagebuch 1-3\nNun sind zwei Pingis im Käfig. Natürlich treten sie in Schwärmen auf, aber kann sich ein einzelnes Exemplar vermehren? Die Ökologie der Gefallenen ist anders als bei jeder anderen Kreatur und voller Rätsel, die noch gelüftet werden wollen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_004",
-                                "1 string m_nameId": "CE_0001_04",
-                                "1 string m_shortText": "Gefallene, die wie Seevögel aussehen. Alleine nicht sehr stark, jedoch in Schwärmen auftretend. Stürzen sich manchmal vor, um mehrfach hintereinander anzugreifen. Warte auf die Unterbrechung ihres Musters.",
-                                "1 string m_text": "Forschungstagebuch 1-4\nDie Pingis sind in der Nacht geflohen. Der Käfig wurde von innen aufgebrochen. Ein Satz Fußspuren ist doppelt so groß wie die anderen - das muss der Alpha gewesen sein. Vielleicht sind einige Exemplare zu einer größeren Spezies mutiert."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_005",
-                                "1 string m_nameId": "CE_0002",
-                                "1 string m_shortText": "Gefallene, die Pilze imitieren und mit einer hässlichen Überraschung unter der Kappe aufwarten. Ortsfeste Kreaturen. Greifen nur an, wenn man sich ihnen nähert. Setzen dann giftige Dämpfe frei. Man sollte aufhören zu kämpfen und das Weite suchen, sobald sie zum Versprühen der Dämpfe ansetzen.",
-                                "1 string m_text": "Artenbildung Gefallene 1-1\nPilzgefallene hatten einst zwei Formen - einmal die pilzartige, die auch heute bekannt ist, und einmal eine knotige pflanzenartige. Vor langer Zeit führten fortlaufende Kämpfe zwischen beiden Formen dazu, dass zweitere ausstarb."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_006",
-                                "1 string m_nameId": "CE_0002_02",
-                                "1 string m_shortText": "Gefallene, die Pilze imitieren und mit einer hässlichen Überraschung unter der Kappe aufwarten. Ortsfeste Kreaturen. Greifen nur an, wenn man sich ihnen nähert. Stoßen paralysierende Dämpfe aus, die einen vorübergehend lähmen.",
-                                "1 string m_text": "Artenbildung Gefallene 1-2\nDer Kampf führte zu einer Unterart des Pilzgefallenen mit abweichendem Giftdampf, der betäubend wirkt und sogar die Sprachfähigkeit beeinträchtigt. Daher ihr landläufiger Name: Jammerpilze."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_007",
-                                "1 string m_nameId": "CE_0002_03",
-                                "1 string m_shortText": "Gefallene, die Pilze imitieren und mit einer hässlichen Überraschung unter der Kappe aufwarten. Im Gegensatz zu den anderen beiden Varietäten nicht ortsfest. Die Dämpfe, die sie freisetzen, wirken heilend auf Gefallene.",
-                                "1 string m_text": "Artenbildung Gefallene 1-3\nAls die pflanzenartigen Gefallenen ausgerottet waren, nahm die Kampfbereitschaft der pilzartigen so stark ab, dass die Heulpilze begannen, Dämpfe abzusondern, die andere Gefallene heilen. Die Dämpfe sind für uns unschädlich, riechen aber sehr unangenehm."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_008",
-                                "1 string m_nameId": "CE_0003",
-                                "1 string m_shortText": "Wilde Gefallene, die nicht voneinander zu unterscheiden sind. Halbherzige Angriffe können ihnen nichts anhaben. Sie schwingen, bis sie alles in ihrem Weg zerstört haben. Sie sind zwar stark, aber dank ihrer Größe leicht zu vermeiden. Man sollte sie ausmanövrieren und dann ihre Flanke angreifen.",
-                                "1 string m_text": "Gedanken eines Wächters 1-1\nSündiger Schwarzzaffe, sagst du? Oooh ja. Ja, ich habe einige von ihnen getötet. Es war einfach. Sie tun nichts als mit den Armen schwingen. Wie langweilig."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_009",
-                                "1 string m_nameId": "CE_0003_02",
-                                "1 string m_shortText": "Wilde Gefallene, die nicht voneinander zu unterscheiden sind. Halbherzige Angriffe können ihnen nichts anhaben. Sie schwingen, bis sie alles in ihrem Weg zerstört haben. Noch kraftvoller, legen jedoch Pausen zwischen den Angriffen ein.",
-                                "1 string m_text": "Gedanken eines Wächters 1-2\nSchwarzzaffen ... sind nicht meine Lieblinge. Sie sehen aus wie mein Ex und benehmen sich auch so ... Tut mir leid, du solltest wohl besser jemand anderen befragen. Ich glaube nicht, dass meine Antworten hilfreich sind.\n"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_010",
-                                "1 string m_nameId": "CE_0003_03",
-                                "1 string m_shortText": "Wilde Gefallene, die nicht voneinander zu unterscheiden sind. Halbherzige Angriffe können ihnen nichts anhaben. Sie schwingen, bis sie alles in ihrem Weg zerstört haben. Sie heulen, um den Gegner zu paralysieren, und zermalmen ihn dann mit ihrer Masse. Man gehe auf Abstand, wenn man sie Luft holen sieht.",
-                                "1 string m_text": "Gedanken eines Wächters 1-3\nSchwarzzaffen sind zäh. Sie können einen lähmen, wenn man ihre Schreie aus nächster Nähe hört. Ich komme mit ihnen zurecht, da ich sehe, was sie im Schilde führen. Das Sicherste ist jedoch eine Fernkampfwaffe."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_011",
-                                "1 string m_nameId": "CE_0004",
-                                "1 string m_shortText": "Gefallene, die wie einfaches marines Leben aussehen. Manchmal verstecken sie sich, um überraschend anzugreifen. Manchmal greifen sie auch einfach so überraschend an. Sie leben meist am Wasser, also Vorsicht beim Erkunden von Stränden und Ufern mit unübersichtlichen Stellen.",
-                                "1 string m_text": "Der Kampf des Schmieds 1-1\nSchienbeine sind höchst verwundbar. Keine Kampferfahrung und keine Übung kann sie gegen Angriffe stählen. Und sie sind liebster Zielpunkt dieser krassen Gefallenen. Ich bin vor der kleinsten Bewegung der Gefallenen zurückgeschreckt ... bis heute jedenfalls."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_012",
-                                "1 string m_nameId": "CE_0004_02",
-                                "1 string m_shortText": "Gefallene, die wie einfaches marines Leben aussehen. Manchmal verstecken sie sich, um überraschend anzugreifen. Manchmal greifen sie auch einfach so überraschend an. Sie können nicht nur schneller weitere Strecken zurücklegen, sondern sind auch noch stärker.",
-                                "1 string m_text": "Der Kampf des Schmieds 1-2\nDiese fischigen Gefallenen muss niemand fürchten, der meine brandneue Eisenfuß-Rüstung trägt. Ich habe sogar die Nachteile bezüglich Gewicht und Sperrigkeit in den Griff gekriegt."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_013",
-                                "1 string m_nameId": "CE_0004_03",
-                                "1 string m_shortText": "Gefallene, die wie einfaches marines Leben aussehen. Manchmal verstecken sie sich, um überraschend anzugreifen. Manchmal greifen sie auch einfach so überraschend an. Sie können schneller weitere Strecken zurücklegen und sind erheblich stärker.",
-                                "1 string m_text": "Der Kampf des Schmieds 1-3\nDie Angriffe fügen mir kaum Schaden zu, aber ich habe mich bei den Rädern zur Erhöhung der Beweglichkeit verrechnet. Der Aufprall hat mich fortgeschleudert, wobei ich mich drehte wie ein Kreisel. Ich habe noch viel Spielraum für Verbesserungen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_014",
-                                "1 string m_nameId": "CE_0005",
-                                "1 string m_shortText": "Üble Gefallene mit insektenartigen Flügeln. Verschießen Magie aus dem laufförmigen Schnabel. Sie ziehen sich zurück, wenn man sich nähert. Nahkampfversuche enden häufig damit, dass man erschossen wird.",
-                                "1 string m_text": "Enzyklopädie der Gefallenen 1-1\nFaulfedern können die Distanz zum Ziel akkurat bestimmen und entsprechend feuern, obwohl das Sensororgan, das sie dazu einsetzen, bis heute unbekannt ist. Ließe es sich reproduzieren, wäre die Medizin einen großen Schritt weiter."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_015",
-                                "1 string m_nameId": "CE_0005_03",
-                                "1 string m_shortText": "Üble Gefallene mit insektenartigen Flügeln. Verschießen Magie aus dem laufförmigen Schnabel. Können die mächtigen Projektile in drei Richtungen zugleich verschießen.",
-                                "1 string m_text": "Enzyklopädie der Gefallenen 1-2\nDer blattartige Aufbau von Faulfeder-Flügeln bietet Adern, mit denen die Gefallenen atmosphärische Magie absorbieren können. Die Flügel sind je nach Spezies und jeweiligem Habitat anders aufgebaut."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_016",
-                                "1 string m_nameId": "CE_0005_02",
-                                "1 string m_shortText": "Üble Gefallene mit insektenartigen Flügeln. Verschießen Magie aus dem laufförmigen Schnabel. Ihre Projektile sind stärker, aber nicht viel. Wer mit Dämmerungsfaulfedern zurechtkommt, wird hier nicht scheitern.",
-                                "1 string m_text": "Enzyklopädie der Gefallenen 1-3\nVor ihren magielastigen Angriffen plustern Faulfedern sich auf, um die erforderliche Magie zu sammeln. Manche behaupten auch, es handele sich um Balzverhalten. Leider gibt es keine lebenden Zeugen, die eine solche Theorie unterstützen könnten."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_017",
-                                "1 string m_nameId": "CE_0006",
-                                "1 string m_shortText": "Gefallene, die aussehen wie große Blumen. Sie können die Wurzeln aus dem Boden ziehen und zur Fortbewegung nutzen. Vorsicht ist bei dem Schleim geboten, den sie spucken und der die eigene Beweglichkeit beeinträchtigt. Mehrere dieser Feinde können durchaus gefährlich werden.",
-                                "1 string m_text": "Berühmte Blumenwiesen 1-1\nDas Tal am Fuße des Teora-Bergs ist die Heimat des Mazzen-Blumengartens, den größten Blumenwiesen des Reichs. Alljährlich zur farbenprächtigen Blütezeit kommen Touristen von nah und fern, um die herrliche Landschaft zu erleben."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_018",
-                                "1 string m_nameId": "CE_0006_02",
-                                "1 string m_shortText": "Gefallene, die aussehen wie große Blumen. Sie können die Wurzeln aus dem Boden ziehen und zur Fortbewegung nutzen. Der Schleim, den sie verspucken, bewirkt zwar nicht viel Schaden, aber eine deutliche Verlangsamung.",
-                                "1 string m_text": "Berühmte Blumenwiesen 1-2\nIm Norden des tiefen Grewan-Dunkelwaldes liegt eine Blumenwiese verborgen, deren Klima ideal für die bemerkenswerten Moosglöckchen ist. Aufgrund der Gefallenen ist sie nur schwer zu erreichen, doch der wunderbare Anblick ist die Anstrengung allemal wert."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_019",
-                                "1 string m_nameId": "CE_0006_03",
-                                "1 string m_shortText": "Gefallene, die aussehen wie große Blumen. Sie können die Wurzeln aus dem Boden ziehen und zur Fortbewegung nutzen. Tritt man in den Schleim, den sie verspucken, so bewegt man sich langsamer. Indirekte Treffer bewirken wenig Schaden, aber der Schleim ist sehr hartnäckig.",
-                                "1 string m_text": "Berühmte Blumenwiesen 1-3\nFreunde des Außergewöhnlichen sollten den Ophay-Wald aufsuchen, in dem es besonders viele florale Gefallene gibt. Ein solches Spektakel aus wimmelnder Vegetation, die ihre Form von jetzt auf gleich ändern kann, findet man sonst nirgends."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_020",
-                                "1 string m_nameId": "CE_0007",
-                                "1 string m_shortText": "Geflügelte insektenartige Gefallene. Wenn ihre Stärke erschöpft ist, entzünden sich die brennbaren Stoffe in ihrem Abdomen, und sie explodieren nach einer Weile.",
-                                "1 string m_text": "Der Kampf des Schmieds 2-1\nDie Sprengstoffrückstände von Bomberdetonationen bestehen aus purer magischer Essenz. Es gibt keine physische Möglichkeit, die Explosion zu verhindern, weswegen Gefallenenjäger ihnen bislang hilflos gegenüberstanden. Aber das wir nun anders."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_021",
-                                "1 string m_nameId": "CE_0007_02",
-                                "1 string m_shortText": "Geflügelte insektenartige Gefallene. Wenn ihre Stärke erschöpft ist, entzünden sich die brennbaren Stoffe in ihrem Abdomen, und sie explodieren nach einer Weile. Ihre Explosion ist stärker und hat einen größeren Radius.",
-                                "1 string m_text": "Der Kampf des Schmieds 2-2\nMein brandneuer Löschhandschuh kann die Explosion vollständig verhindern! Meine Freude kannte keine Grenzen, als mir klar wurde, dass die Lunte wirklich erloschen war."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_022",
-                                "1 string m_nameId": "CE_0007_03",
-                                "1 string m_shortText": "Geflügelte insektenartige Gefallene. Wenn ihre Stärke erschöpft ist, entzünden sich die brennbaren Stoffe in ihrem Abdomen, und sie explodieren nach einer Weile. Ihre Explosion ist noch stärker und hat einen noch größeren Radius.",
-                                "1 string m_text": "Der Kampf des Schmieds 2-3\nEin Wächter kam auf mich zu, als ich die Bombe hielt, und fragte, was geschähe, wenn ich sie losließe. Ich teilte ihm mit, dass sie dann detonieren würde. Als der Wächter mit ausdrucksloser Miene beiseitetrat, wurde mir mein Denkfehler bewusst."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_023",
-                                "1 string m_nameId": "CE_0008",
-                                "1 string m_shortText": "Wilde Säugetier-artige Gefallene mit Augen, die so scharf sind wie die Hörner, mit denen sie angreifen.",
-                                "1 string m_text": "Artenbildung Gefallene 2-1\nTauren leben trotz ihrer Wildheit recht zurückgezogen, da ihre Reproduktion historisch nicht gut klappte. Doch dann kam es plötzlich zu einer Populationsexplosion."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_024",
-                                "1 string m_nameId": "CE_0008_02",
-                                "1 string m_shortText": "Wilde Säugetier-artige Gefallene mit Augen, die so scharf sind wie die Hörner, mit denen sie angreifen. Intelligenter als die Grundspezies. Sie denken schnell und bewegen sich noch schneller.",
-                                "1 string m_text": "Artenbildung Gefallene 2-2\nDie Schäden durch die Tauren waren unermesslich. Wir haben immer wieder versucht, sie zu dezimieren, jedoch erfolglos. Egal, wie viele wir erlegten, es kamen immer mehr. Ihre Schreckensherrschaft schien bis ans Ende der Welt zu dauern."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_025",
-                                "1 string m_nameId": "CE_0008_03",
-                                "1 string m_shortText": "Wilde Säugetier-artige Gefallene mit Augen, die so scharf sind wie die Hörner, mit denen sie angreifen. Treffer von ihnen können einen hoch in die Luft schleudern.",
-                                "1 string m_text": "Artenbildung Gefallene 2-3\nDoch dann wurde das Land von einem brutalen Kälteeinbruch heimgesucht, der die Tauren an der Grenze dezimierte. Dies geschah drei Mal. Nun wird befürchtet, dass ein plötzlicher Anstieg in der Taurenpopulation ein schlechtes Vorzeichen ist."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_026",
-                                "1 string m_nameId": "CE_0009",
-                                "1 string m_shortText": "Grässliche Gefallene, deren Leiber von ihrem grotesken Maul dominiert werden. Ihr Kuss bedeutet alle möglichen Schwächungszauber - man halte sich also von ihnen fern.",
-                                "1 string m_text": "Forschungstagebuch 2-1\nDas Innere dieser Gefallenen besteht aus Substanzen, die wenig bis kein Licht reflektieren. Mein Kollege berichtete, es sei, als werde man in einen sternenlosen Himmel gezogen, nachdem es ihm gelungen war, aus so einem finsteren Leib zurückzukehren."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_027",
-                                "1 string m_nameId": "CE_0009_02",
-                                "1 string m_shortText": "Grässliche Gefallene, deren Leiber von ihrem grotesken Maul dominiert werden. Sie können aus dem Nichts andere Gefallene herbeirufen, daher achte man darauf, sie zuerst zu besiegen.",
-                                "1 string m_text": "Forschungstagebuch 2-2\nMeinem Kollegen zufolge war die Temperatur im Gefallenen angenehm, regelrecht entspannend. Er erwähnte allerdings auch einen intensiven toxischen Geruch, so dass nicht zu beurteilen ist, wo die Erfahrung aufhört und die Halluzination anfängt."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_028",
-                                "1 string m_nameId": "CE_0010_01",
-                                "1 string m_shortText": "Kleine humanoide Gefallene, die in Rudeln leben und ihre Schädelknochen als Waffen einsetzen. Sie flüchten, wenn sie zu wenige sind, daher empfehlen sich Flächenangriffe, wenn man umzingelt wird, um schnell möglichst viele Exemplare zu töten.",
-                                "1 string m_text": "Bericht eines Daemons 1-1\nEs gibt die Theorie, dass humanoide Gefallene aus Tieren hervorgehen; dass es der starke Wunsch eines Tiers ist, zum Menschen zu werden, der diese Gefallenen ins Leben ruft. Etwas sagt mir, dass an der Theorie etwas dran ist."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_029",
-                                "1 string m_nameId": "CE_0010_04",
-                                "1 string m_shortText": "Kleine humanoide Gefallene, die in Rudeln leben und ihre Schädelknochen als Waffen einsetzen. Die Schädelform hängt vom Individuum ab, wodurch die Stärke jedoch nicht beeinträchtigt wird.",
-                                "1 string m_text": "Bericht eines Daemons 1-2\nNur Kreaturen von hoher Intelligenz sind zum Waffeneinsatz fähig. Einige Gefallene sind dazu in der Lage. Sind sie deswegen intelligent? Faszinierend, sich vorzustellen, worüber sie nachdenken mögen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_030",
-                                "1 string m_nameId": "CE_0010_07",
-                                "1 string m_shortText": "Kleine humanoide Gefallene, die in Rudeln leben und ihre Schädelknochen als Waffen einsetzen. Ihre Waffen sind vergiftet, man achte im Kampf also auf gebührenden Abstand.",
-                                "1 string m_text": "Bericht eines Daemons 1-3\nWaffen sind eins, aber Gift? Das ist noch etwas ganz anderes. Sie müssen wohl doch intelligent sein. Wie fertigen sie diese Waffen überhaupt? Ich muss ständig darüber nachdenken. Diese Forschung ist es wirklich wert."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_031",
-                                "1 string m_nameId": "CE_0011",
-                                "1 string m_shortText": "Gefallene, die eine bestimmte Zeit lang Prickerich produzieren. Sie sind ortsfest, doch die toxischen Dämpfe, die sie absondern, können weit verteilt werden.",
-                                "1 string m_text": "Bericht eines Daemons 2-1\nGefallene, die andere Gefallene erschaffen können, mögen im Lauf der Zeit ihr Äußeres geändert haben, aber es ist sicher, dass die meisten von ihnen gefährlich sind. Diese hier bilden keine Ausnahme. Am besten zerstört man sie, sobald man sie findet."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_032",
-                                "1 string m_nameId": "CE_0011_02",
-                                "1 string m_shortText": "Gefallene, die eine bestimmte Zeit lang Fetzerich produzieren. Sie sind ortsfest, doch die toxischen Dämpfe, die sie absondern, können weit verteilt werden.",
-                                "1 string m_text": "Bericht eines Daemons 2-2\nIch las die Theorie, dass ihre Macht, andere Gefallene hervorzubringen, aus dem tiefen Sehnen nach Elternschaft entsteht. Ihre äußerliche Veränderung über die Jahre scheint dies zu untermauern. Interessant, aber ich glaube nicht, dass es nachweisbar ist."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_033",
-                                "1 string m_nameId": "CE_0011_03",
-                                "1 string m_shortText": "Gefallene, die eine bestimmte Zeit lang Spalterich produzieren. Sie sind ortsfest, doch die toxischen Dämpfe, die sie absondern, können weit verteilt werden.",
-                                "1 string m_text": "Bericht eines Daemons 2-3\nIch persönlich glaube, dass ihre Macht, andere Gefallene hervorzubringen, sich aus dem menschlichen Bedürfnis speist, etwas zu erschaffen. Das würde erklären, warum ihre Brut von Jahr zu Jahr anders ausfällt - ihre Wünsche ändern sich."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_034",
-                                "1 string m_nameId": "CE_0012",
-                                "1 string m_shortText": "Gefallene mit hartem Exoskelett. Ihr Ansturm ist verheerend. Einzeln begnügen sie sich meist mit Verteidigung.",
-                                "1 string m_text": "Zerknüllter Brief 1-1\nDer Sandsturm tobt seit zwei Wochen. Er macht keine Anstalten, sich zu legen. Jung, wie ich bin, kann ich Vater bei der Arbeit nicht helfen. Ich passe meistens zuhause auf meinen kleinen Bruder auf."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_035",
-                                "1 string m_nameId": "CE_0012_02",
-                                "1 string m_shortText": "Gefallene mit hartem Exoskelett. Ihr Ansturm ist verheerend. Einzeln begnügen sie sich meist mit Verteidigung. Sie verhalten sich exakt wie die Ursprungsart, sind jedoch stärker.",
-                                "1 string m_text": "Zerknüllter Brief 1-2\nDer Sandsturm tobt seit zwei Monaten. Wir können nicht rausgehen. Die Stunden, die ich mit meinem kleinen Bruder vertreibe, werden immer länger. Wir müssen unsere Vorräte rationieren und unsere Kräfte schonen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_036",
-                                "1 string m_nameId": "CE_0012_03",
-                                "1 string m_shortText": "Gefallene mit hartem Exoskelett. Ihr Ansturm ist verheerend. Einzeln begnügen sie sich meist mit Verteidigung. Sie verhalten sich exakt wie die Ursprungsart, sind jedoch stärker.",
-                                "1 string m_text": "Zerknüllter Brief 1-3\nEs ist fast niemand mehr im Dorf. Unsere Familie brach zur Hauptstadt auf, als der Sandsturm vorbei war. Unterwegs sahen wir viele Gefallene, manche eingeklemmt, andere zusammengerollt, alle reglos. Ich spüre eine Art von Verwandtschaft mit diesen Kreaturen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_037",
-                                "1 string m_nameId": "CE_0013",
-                                "1 string m_shortText": "Skorpion-artige Gefallene, deren Schwänze als Artillerie dienen. Im Nahkampf haben sie keine Angriffsmöglichkeit. Ihre Projektile folgen einer Parabelflugbahn und explodieren beim Auftreffen.",
-                                "1 string m_text": "Das Zeitalter der Magie 1-1\nWir können nicht von der mittleren Periode des Zeitalters der Magie sprechen, ohne die Versuche der Menschen zu erwähnen, Gefallene zu erschaffen. Die meisten Versuche schlugen fehl, manche hinterließen bleibende Narben."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_038",
-                                "1 string m_nameId": "CE_0013_03",
-                                "1 string m_shortText": "Skorpion-artige Gefallene, deren Schwänze als Artillerie dienen. Im Nahkampf haben sie keine Angriffsmöglichkeit. Ihre Projektile explodieren nach kurzer Verzögerung, und der Explosionsradius ist größer.",
-                                "1 string m_text": "Das Zeitalter der Magie 1-2\nMan reproduzierte die Umstände, unter denen Gefallene entstanden waren, und wartete auf ihr Erscheinen, oder änderte die Umstände, wenn man Mutationen wünschte. Man verstand nicht vollends, wie Gefallene entstehen, stürzte sich aber umso waghalsiger in die Experimente."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_039",
-                                "1 string m_nameId": "CE_0013_02",
-                                "1 string m_shortText": "Skorpion-artige Gefallene, deren Schwänze als Artillerie dienen. Im Nahkampf haben sie keine Angriffsmöglichkeit. Ihre Projektile explodieren nach langer Verzögerung, und der Explosionsradius ist noch größer.",
-                                "1 string m_text": "Das Zeitalter der Magie 1-3\nSo entstanden die Verderber. Ihre Schwänze waren mit Schusswaffen versehen, und sie konnten sich selbst mit Energie versorgen. Dennoch wurden sie verworfen - vermutlich, weil man sie nicht kontrollieren konnte. Ihre Abkömmlinge durchstreifen heute noch die Wildnis."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_040",
-                                "1 string m_nameId": "CE_0014",
-                                "1 string m_shortText": "Gefallene mit Armen, die mit Eisenkugeln enden. Ihre Wirbelangriffe haben eine hohe Reichweite.",
-                                "1 string m_text": "Geschichte der Verlorenen 1-1\nAls ich zu mir kam, fand ich mich einem Gefallenen gegenüber, der eine Eisenkugel anstelle einer Faust hatte. Ich war außer mir vor Schrecken. Ich floh, so schnell wie meine Beine mich tragen konnten. Der Gefallene verfolgte mich. Ich konnte nichts anderes tun als zu laufen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_041",
-                                "1 string m_nameId": "CE_0014_03",
-                                "1 string m_shortText": "Gefallene mit Armen, die mit Eisenkugeln enden. Ihre Wirbelangriffe haben eine hohe Reichweite. Sie verhalten sich exakt wie die Ursprungsart, sind jedoch stärker.",
-                                "1 string m_text": "Geschichte der Verlorenen 1-2\nIch habe ihn abgeschüttelt, aber jetzt weiß ich nicht mehr, wo ich bin. Vielleicht, weil ich gestorben bin? Dann muss ich ein Verlorener sein. Aber nicht alle werden zu verlorenen Seelen, wenn sie sterben, das habe ich gelernt. Aber was nützt das schon, wo ich doch tot bin?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_042",
-                                "1 string m_nameId": "CE_0014_02",
-                                "1 string m_shortText": "Gefallene mit Armen, die mit Eisenkugeln enden. Ihre Wirbelangriffe haben eine hohe Reichweite. Sie verhalten sich exakt wie die Ursprungsart, sind jedoch stärker.",
-                                "1 string m_text": "Geschichte der Verlorenen 1-3\nIch versuchte es mit einem anderen Pfad, aber der Gefallene tauchte wieder auf. Vielleicht sollte ich mich gar nicht bewegen ... Obwohl ich mich schon frage, was passiert, wenn ein Gefallener einen Verlorenen angreift. Kann man denn zweimal sterben?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_043",
-                                "1 string m_nameId": "CE_0015",
-                                "1 string m_shortText": "Gefallene, die sich mit ihren verlängerten Grabklauen eingraben, um überraschend anzugreifen. Man sollte daher einen Ortswechsel vollziehen, wenn man sieht, wie sie sich einbuddeln.",
-                                "1 string m_text": "Gott der Grube 1-1\nIn einem Bergdorf verschwanden etliche Einwohner. Stets blieb eine etwa mannsgroße Grube zurück. Es hat niemand mit angesehen, wie sie verschwanden. Die Dörfler verzweifelten, weil sie den Zorn eines Gottes wähnten, und warfen sich jammernd zu Boden."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_044",
-                                "1 string m_nameId": "CE_0015_02",
-                                "1 string m_shortText": "Gefallene, die sich mit ihren verlängerten Grabklauen eingraben, um überraschend anzugreifen. Sie verhalten sich exakt wie die Ursprungsart, sind jedoch stärker.",
-                                "1 string m_text": "Gott der Grube 1-2\nDie Dörfler errichteten dem Gott der Grube einen Altar. Dort opferten sie täglich und verbrachten Wochen damit, hinter dem Altar eine gigantische Grube auszuheben. Danach verschwanden keine Leute mehr, und die Dörfler jubelten."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_045",
-                                "1 string m_nameId": "CE_0016",
-                                "1 string m_shortText": "Dämonische Gefallene, die über das Schlachtfeld teleportieren können. Mit ihren seltsamen Beschwörungen stärken sie Gefallene in der Nähe und erhöhen vorübergehend deren Verteidigung.",
-                                "1 string m_text": "Bericht eines Daemons 3-1\nFluchwirker hat es schon immer gegeben.\nSie entstehen aus negativen Emotionen und\nmutieren bisweilen, aber diese hier hat es\nschon immer in der Form gegeben.\nVermutlich entstehen sie aus einer\nGrundemotion. Vielleicht sind sie\ndeswegen so stark."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_046",
-                                "1 string m_nameId": "CE_0016_03",
-                                "1 string m_shortText": "Dämonische Gefallene, die über das Schlachtfeld teleportieren können. Mit ihren seltsamen Beschwörungen stärken sie Gefallene in der Nähe und erhöhen vorübergehend deren Angriff.",
-                                "1 string m_text": "Bericht eines Daemons 3-2\nIch wollte ergründen, wie die seltsamen Beschwörungen der Fluchsprecher funktionieren. Eine Weile hatte ich Hoffnung, doch schließlich sah ich ein, dass meine Anstrengungen zu nichts führen würden, und gab auf. Hätte ich weitergemacht, wäre es vielleicht einfacher geworden."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_047",
-                                "1 string m_nameId": "CE_0016_02",
-                                "1 string m_shortText": "Dämonische Gefallene, die über das Schlachtfeld teleportieren können. Mit ihren seltsamen Beschwörungen stärken sie Gefallene in der Nähe und erhöhen vorübergehend deren Bewegungstempo.",
-                                "1 string m_text": "Bericht eines Daemons 3-3\nFluchbinder scheinen eine sehr junge Spezies zu sein. Gefallene waren bisher nie so stark. Vielleicht sind sie der Beweis für den bevorstehenden Niedergang der Menschheit."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_048",
-                                "1 string m_nameId": "CE_0017",
-                                "1 string m_shortText": "Gefallene mit faustförmigem Horn, mit dem sie verschiedene Angriffe entfesseln können. Sie springen hin und her und verlagern das Zentrum ihres Angriffs.",
-                                "1 string m_text": "Gedanken eines Wächters 2-1\nHornonoken, was? Bei denen muss man aufpassen, sie sind abgefeimter, als man denken sollte. Wer einem begegnet, nimmt lieber die Beine in die Hand. Sie sind harte Gegner, die man am besten Leuten überlässt, denen das Kämpfen im Blut liegt."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_049",
-                                "1 string m_nameId": "CE_0017_02",
-                                "1 string m_shortText": "Gefallene mit faustförmigem Horn, mit dem sie verschiedene Angriffe entfesseln können. Wenn sie Anlauf nehmen, ist das ein sicheres Zeichen, dass sie zum Todesstoß ansetzen.",
-                                "1 string m_text": "Gedanken eines Wächters 2-2\nJa, ich habe einen dieser Hornonoken erlegt. Das hat wirklich Spaß gemacht - der reinste Muskeltest. Wie ich ihn besiegt habe? Ganz einfach - ich habe um mein Leben gekämpft! Ihre Treffer eingesteckt und sofort zurückgeschlagen!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_050",
-                                "1 string m_nameId": "CE_0017_03",
-                                "1 string m_shortText": "Gefallene mit faustförmigem Horn, mit dem sie verschiedene Angriffe entfesseln können. Vorsicht - wenn sie ihr Horn auf den Boden schlagen, breitet sich die Stoßwelle mit großem Radius aus.",
-                                "1 string m_text": "Gedanken eines Wächters 2-3\nSchwere Hornonoken sind besonders schlimm. Sie haben so viele Angriffe auf Lager, dass man aufpassen muss wie ein Schießhund, wenn man nicht als Leiche enden will. He - hörst du eigentlich zu? Diese Gefallenen sind schlechte Neuigkeiten!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_053",
-                                "1 string m_nameId": "CE_1003",
-                                "1 string m_shortText": "Gefallene mit einem Riesenhammer als Arm. Mit ihren stämmigen Beinen können sie Dreh- oder Sprungangriffe ausführen. Es reicht nicht, ihren Hämmern auszuweichen, da der Aufprall auf dem Boden Erdbeben auslöst. Man muss springen, um der Stoßwelle zu entgehen.",
-                                "1 string m_text": "Ein Hieb, und im Boden ist ein Krater. Ein Hieb, und alles Leben darunter ist dahin. Die Zerstörung liegt ihnen nun mal im Blut. Ihre Instinkte sind mächtiger als ihre Körper und ihr Geist. Humanoide Fehlschläge. Warum sollten sie der Absolution würdig sein?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_054",
-                                "1 string m_nameId": "CE_1003_02",
-                                "1 string m_shortText": "Gefallene mit einem Riesenhammer als Arm. Können Dreh- oder Sprungangriffe ausführen. Die Stoßwelle lässt Objekte in der Nähe explodieren. Diese erscheinen nach einer Weile wieder, auf dem Schlachtfeld ist also Vorsicht geboten.\n\n",
-                                "1 string m_text": "Wir verdienen die Erlösung. Wenn Fremde sterben, ist es egal, solange wir sicher sind, wenn wir den Rest des Reichs versiegeln. Hahaha! Ja, denn wir sind die Auserwählten. Aber ... Warum bin ich dann draußen!?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_055",
-                                "1 string m_nameId": "CE_1008",
-                                "1 string m_shortText": "Zehnflügelige halbkugelförmige Gefallene. Fliegen können sie nicht mehr, doch sie beeinflussen den Wind, indem sie mit den Flügeln schlagen. Ihre harten Panzer halten den meisten Schaden von ihnen fern, aber das verletzliche Innere lässt sich angreifen, wenn ihre Flügel weit geöffnet sind.",
-                                "1 string m_text": "Hässliche Dinge sind der Gegner. Schöne Dinge sind der Gegner. Was immer sich bewegt, ist der Gegner. Was immer sich verbirgt, ist der Gegner. Schlage, wüte, eile, schwebe. Zerstöre alle, die dir Widerstand leisten."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_056",
-                                "1 string m_nameId": "CE_1008_02",
-                                "1 string m_shortText": "Zehnflügelige halbkugelförmige Gefallene. Fliegen können sie nicht mehr, doch sie beeinflussen den Wind, indem sie mit den Flügeln schlagen. Sie können die Windrichtung über einer ganzen Region verändern. Verwende Sprinten und weitere Methoden, um nicht davongeblasen zu werden.",
-                                "1 string m_text": "Ich kann nicht werden, was ich sein will. Ich kann nicht haben, was ich begehre. Ich wollte strahlen. Ich wollte das Licht. Das war alles. Warum ist dann dies mein Schicksal?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_057",
-                                "1 string m_nameId": "CE_1005",
-                                "1 string m_shortText": "Humanoide Gefallene mit den Eigenschaften aquatischer Kreaturen. Aus zahllosen Komponenten zusammengesetzt, die zwischen Einheit und Trennung fluktuieren. Sie heilen in der Einheit und sind daher in der Trennung leichter zu besiegen.",
-                                "1 string m_text": "Wie ich meinen Liebsten vermisse. Wie sehr ich wünschte, in unsere gemeinsamen Zeiten zurückkehren zu können. Ich würde alles für eine weitere Chance geben. Ja, alles. Ich flehe. Bete. Möge ich das Verlorene wiederfinden. Meine Erinnerungen. An mich. An uns."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_058",
-                                "1 string m_nameId": "CE_1005_02",
-                                "1 string m_shortText": "Humanoide Gefallene mit den Eigenschaften aquatischer Kreaturen. Aus zahllosen Komponenten zusammengesetzt, die zwischen Einheit und Trennung fluktuieren. Explodieren, wenn diese schwinden. Detonieren, wenn man sie erschlägt!",
-                                "1 string m_text": "Du bist so schön, so klug, so freundlich. Du hast alles. Du hast mir alles genommen, sogar mein bisschen Stolz. Ich werde dich büßen lassen, und wenn ich meine Seele dafür verkaufen muss. Sei gewarnt. Ich werde mich rächen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_059",
-                                "1 string m_nameId": "CE_1002",
-                                "1 string m_shortText": "Feuerspeiende Gefallene, die nach Instinkt kämpfen, wobei sie mit den Gliedmaßen wirbeln und mit dem Schwanz peitschen. Die meisten Angriffe sind schlicht, aber stark. Man sollte ihnen ausweichen.",
-                                "1 string m_text": "Ich jämmerliche Kreatur fühle mich nur mitten in der Schlacht wie ich selbst. Aber bemitleide mich nicht. Denk nicht so von mir. Ich will, dass du dein Leben weiterlebst. Ich habe dich immer bewundert."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_060",
-                                "1 string m_nameId": "CE_1002_02",
-                                "1 string m_shortText": "Feuerspeiende Gefallene, die nach Instinkt kämpfen, wobei sie mit den Gliedmaßen wirbeln und mit dem Schwanz peitschen. Ihre tödlichen Garben reichen besonders weit, da sie beim Angreifen den Kopf hin- und herschwingen.",
-                                "1 string m_text": "Es gibt nichts, was du nicht erreichen\nkönntest. In einer Welt der Habenden\nund Habenichtse gehörst du zu den \nHabenden. Die Habenichtse gibt es nur,\num dich zu erhalten. Nicht mal der Tod\nkann dir etwas anhaben. Gewiss wirst du\nbis in alle Ewigkeit hier leben."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_061",
-                                "1 string m_nameId": "CE_1007",
-                                "1 string m_shortText": "Grässliche Gefallene in rüstungsartigem Panzer. Sie können die Arme als Beine einsetzen und verfügen über einen zweiten Kopf am Ende des speerförmigen Schwanzes. Mit den Flossenarmen entfesseln sie mächtige Angriffe. Nutzen sie sie als Beine, kündigt dies einen Sprungangriff an.",
-                                "1 string m_text": "Solch reiner Zorn braucht nur einen winzigen Impuls, um zu unvergleichlicher Kraft zu werden. Es ist einerlei, woher der Hass rührt und was so unverzeihlich ist. Es gilt, die Energie zu entfesseln, bis nichts mehr übrig ist."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_062",
-                                "1 string m_nameId": "CE_1007_02",
-                                "1 string m_shortText": "Grässliche Gefallene in rüstungsartigem Panzer. Sie können die Arme als Beine einsetzen und verfügen über einen zweiten Kopf am Ende des speerförmigen Schwanzes. Wenn sie aufhören, sich zu verteidigen, folgt ein Angriff. Ausweichen oder auf Distanz gehen ist ratsam.",
-                                "1 string m_text": "Alles hing von mir ab. Von meinen Kämpfen. Die Bürde war erstickend, aber ich habe mich nicht beklagt. Ich habe sie sogar mit Stolz getragen. Aber es zeigte sich bald, dass ich überfordert war. Ich konnte nicht wie mein Vater sein. Warum bin ich, wie ich bin?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_063",
-                                "1 string m_nameId": "CE_1001",
-                                "1 string m_shortText": "Gefallene, die einen riesigen Schild mit sich tragen, welcher im Kampf einen Laser von hoher Intensität verschießen kann. Ihre verletzlichen Flanken werden normalerweise vom Schild geschützt. Man umkreise sie und greife an, wenn sie den Schild nach vorne bringen.",
-                                "1 string m_text": "Die, welche das Schwert schützen sollte, sind fort. Sie lassen die Sünden des Schildes zurück, der nie ein Schwert hatte sein sollen. Sünden, vor denen es kein Entkommen gibt, die auf müden Schultern lasten werden bis ans Ende der Zeit."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_064",
-                                "1 string m_nameId": "CE_1001_02",
-                                "1 string m_shortText": "Gefallene, die einen unheilvollen Schild mit sich tragen, welcher im Kampf einen Laser von hoher Intensität verschießen kann. Wie bei der Ursprungsart sind ihre Flanken verwundbar. Man sollte sie zuerst besiegen, da sie Treffer bei anderen Gefallenen erschweren.",
-                                "1 string m_text": "Wir strebten nach Überlegenheit. Um ewig zu sein. Was ist so falsch daran? Ihr seid diejenigen, die sich irren. Ihr mit eurer Idee, dass das Leben nur ein kurzer Funke ist, die ihr die Großartigkeit unseres Ansinnens nicht begreift. Ihr."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_065",
-                                "1 string m_nameId": "CE_1006",
-                                "1 string m_shortText": "Furchterregende Gefallene aus unzähligen maskierten Gesichtern, die einen einheitlichen Angriff entfesseln, sobald alle Gesichter bereit sind. Den Strahlen, die sie verschießen, kann man nur durch Springen ausweichen. Zerstörte Gesichter können nicht schießen, also konzentriere man sich auf eins.",
-                                "1 string m_text": "Warum wurde ich getötet? Warum musste ich getötet werden? Was habe ich getan? Nun verspüre ich nur noch reinen Hass, den ich überall verbreite, wo ich bin."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_066",
-                                "1 string m_nameId": "CE_1006_02",
-                                "1 string m_shortText": "Furchterregende Gefallene aus unzähligen maskierten Gesichtern, die einen einheitlichen Angriff entfesseln, sobald alle Gesichter bereit sind. Ihre unregelmäßige Form erschwert es, den passenden Rhythmus zu finden, also ist ein wenig Flexibilität gefragt.",
-                                "1 string m_text": "Meine Güte. Du liebe gute Güte. Hast du schon gehört? Meinst du, es ist wahr? Wie schrecklich. So etwas hätte ich nie erwartet. Wer hätte das geahnt ... Wo wir beim Unerwarteten sind - neulich, ja, das war auch noch so eine Geschichte. Aber nichts davon hat mit uns zu tun."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_067",
-                                "1 string m_nameId": "CE_1004",
-                                "1 string m_shortText": "Humanoide Gefallene, die Pflanzen manipulieren können. Sie bleiben lieber an einem Ort und nutzen ihre flexible Reichweite, um Gegner anzugreifen. Rote Blüten am Boden explodieren nach sieben Blitzen.",
-                                "1 string m_text": "Es ist unsere eigene Schuld, dass wir uns haben täuschen lassen. Der Sieg gebührt immer noch den Klugen. Ich werfe dir nicht vor, dich beleidigt zu fühlen. Man kann nichts außer kalter barer Münze trauen. Das Vertrauen der Leute ist nichts wert."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_068",
-                                "1 string m_nameId": "CE_1010",
-                                "1 string m_shortText": "Riesige Gefallene mit drei Gesichtern und zwei Rädern, die ihre Gegner unter sich zermalmen. Sie nutzen das Terrain zu ihrem Vorteil und blockieren alle Fluchtwege. Wer sich nicht weit genug von ihnen entfernen kann, dem ist das Ende gewiss.",
-                                "1 string m_text": "Menschen muss man hassen und fürchten. Wir sind zwar weit überlegen, aber die Menschen sind viel zahlreicher. Ihre grausamen Horden schlachten uns. Ich darf nicht besiegt werden. Die Menschen sollen sterben. Nicht ich."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_069",
-                                "1 string m_nameId": "CE_1010_02",
-                                "1 string m_shortText": "Gefallene mit drei Gesichtern und zwei Rädern, die einige Male regeneriert werden können - jedoch nicht beliebig oft. Sind die Räder zerstört, hat man die Kreaturen praktisch besiegt.\n",
-                                "1 string m_text": "Ich dachte, wir wären Freunde für immer. Deswegen habe ich über die Gefühle geschwiegen, die ich für dich hatte. Und sie in mir eingeschlossen. Warum hast du mich verraten? Am Tag, als du mich im Stich ließest, sagtest du, wir wären Freunde, und dann verrietest du mich zuerst."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_070",
-                                "1 string m_nameId": "CE_1009_02",
-                                "1 string m_shortText": "Zylindrische Gefallene, unterteilt in fünf Segmente, die unabhängig voneinander kämpfen können. Jedes Segment kämpft auf seine Weise. Man sollte sich zunächst auf die konzentrieren, die einem die größten Schwierigkeiten machen.",
-                                "1 string m_text": "Wenn ich gefragt werde, ob ich Vertrauen in die Gegebenheiten habe, antworte ich mit Ja, weil mir das beigebracht wurde. Es ist undenkbar, kein Vertrauen zu haben. Es würde alles zerstören. Niemand weiß, was nach dem Tod passiert. Das sollten die Wächter aller Leute wissen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_071",
-                                "1 string m_nameId": "CE_1009",
-                                "1 string m_shortText": "Zylindrische Gefallene, unterteilt in fünf Segmente, die unabhängig voneinander kämpfen können. Wer Zutrauen in seine Fähigkeiten hat, kann Flächenangriffe einsetzen, um mehrere Segmente gleichzeitig zu töten.",
-                                "1 string m_text": "Was ist schiefgegangen? Mein Plan hatte sich doch perfekt entwickelt. Wer mich zum Narren halten wollte, ist ruiniert. Ich war der aufgehende Stern. Immer werde ich ausgenutzt. Bin ich dazu verdammt, ewig der Trottel zu sein? Seid verflucht ... Ihr alle!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_072",
-                                "1 string m_nameId": "CE_1011",
-                                "1 string m_shortText": "Gefallene, entstanden aus der Verzweiflung der Menschheit. Wann immer eine der Ketten abfällt, erhalten sie einen zusätzlichen Angriff. Schwächen haben sie nicht. Man nutze seine Erfahrung aus zahlreichen Kämpfen und gebe alles.",
-                                "1 string m_text": "Was war zuerst da - Oni oder Verzweiflung?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_075",
-                                "1 string m_nameId": "CE_1012",
-                                "1 string m_shortText": "Gefallene, die in jeder ihrer vier Hände eine andere Waffe führen. Jede davon kann tödlich sein. Man beobachte, mit welcher Waffe der Angriff kommt, und reagiere entsprechend.",
-                                "1 string m_text": "Ich habe gewartet und bei den Vorbereitungen alles bedacht. Ich bin der Schöpfer, nichts kann mich besiegen. Doch ich wurde niedergeworfen. Nun stehe ich hier als Bollwerk, an dem jene, die mich beerben wollten, zerschellen sollen. Also kommt und erprobt eure Stärke an mir."
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_001",
+                    "1 string m_nameId": "CE_0001",
+                    "1 string m_shortText": "Gefallene, die wie Seevögel aussehen. Alleine nicht sehr stark, jedoch in Schwärmen auftretend. Sie nähern sich dem Gegner ohne Eile und greifen mit dem Schnabel an. Kein großes Risiko, solange man sich nicht umzingeln lässt.",
+                    "1 string m_text": "Forschungstagebuch 1-1\nNur einer der drei gefangenen Pingis hat den Transport überlebt. Sie waren nicht imstande mit der abrupten Umgebungsänderung zurechtzukommen. Ich muss mit dem Kollegen sprechen, der für den Transport zuständig ist, damit es nicht zu weiteren Unfällen kommt."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_002",
+                    "1 string m_nameId": "CE_0001_02",
+                    "1 string m_shortText": "Gefallene, die wie Seevögel aussehen. Alleine nicht sehr stark, jedoch in Schwärmen auftretend. Vorsicht vor den Kettenangriffen mit den Schnäbeln.",
+                    "1 string m_text": "Forschungstagebuch 1-2\nNach Sedierung und Untersuchung des Pingis stellte ich überrascht fest, wie herrlich sie sich anfassen. Vor allem die dunkelblauen Bereiche der wasseradaptierten Exemplare können sich mit der feinsten Seide messen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_003",
+                    "1 string m_nameId": "CE_0001_03",
+                    "1 string m_shortText": "Gefallene, die wie Seevögel aussehen. Alleine nicht sehr stark, jedoch in Schwärmen auftretend. Sie stürzen sich mit ausgestrecktem Schnabel vorwärts, um ihre Reichweite zu erhöhen.",
+                    "1 string m_text": "Forschungstagebuch 1-3\nNun sind zwei Pingis im Käfig. Natürlich treten sie in Schwärmen auf, aber kann sich ein einzelnes Exemplar vermehren? Die Ökologie der Gefallenen ist anders als bei jeder anderen Kreatur und voller Rätsel, die noch gelüftet werden wollen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_004",
+                    "1 string m_nameId": "CE_0001_04",
+                    "1 string m_shortText": "Gefallene, die wie Seevögel aussehen. Alleine nicht sehr stark, jedoch in Schwärmen auftretend. Stürzen sich manchmal vor, um mehrfach hintereinander anzugreifen. Warte auf die Unterbrechung ihres Musters.",
+                    "1 string m_text": "Forschungstagebuch 1-4\nDie Pingis sind in der Nacht geflohen. Der Käfig wurde von innen aufgebrochen. Ein Satz Fußspuren ist doppelt so groß wie die anderen - das muss der Alpha gewesen sein. Vielleicht sind einige Exemplare zu einer größeren Spezies mutiert."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_005",
+                    "1 string m_nameId": "CE_0002",
+                    "1 string m_shortText": "Gefallene, die Pilze imitieren und mit einer hässlichen Überraschung unter der Kappe aufwarten. Ortsfeste Kreaturen. Greifen nur an, wenn man sich ihnen nähert. Setzen dann giftige Dämpfe frei. Man sollte aufhören zu kämpfen und das Weite suchen, sobald sie zum Versprühen der Dämpfe ansetzen.",
+                    "1 string m_text": "Artenbildung Gefallene 1-1\nPilzgefallene hatten einst zwei Formen - einmal die pilzartige, die auch heute bekannt ist, und einmal eine knotige pflanzenartige. Vor langer Zeit führten fortlaufende Kämpfe zwischen beiden Formen dazu, dass zweitere ausstarb."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_006",
+                    "1 string m_nameId": "CE_0002_02",
+                    "1 string m_shortText": "Gefallene, die Pilze imitieren und mit einer hässlichen Überraschung unter der Kappe aufwarten. Ortsfeste Kreaturen. Greifen nur an, wenn man sich ihnen nähert. Stoßen paralysierende Dämpfe aus, die einen vorübergehend lähmen.",
+                    "1 string m_text": "Artenbildung Gefallene 1-2\nDer Kampf führte zu einer Unterart des Pilzgefallenen mit abweichendem Giftdampf, der betäubend wirkt und sogar die Sprachfähigkeit beeinträchtigt. Daher ihr landläufiger Name: Jammerpilze."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_007",
+                    "1 string m_nameId": "CE_0002_03",
+                    "1 string m_shortText": "Gefallene, die Pilze imitieren und mit einer hässlichen Überraschung unter der Kappe aufwarten. Im Gegensatz zu den anderen beiden Varietäten nicht ortsfest. Die Dämpfe, die sie freisetzen, wirken heilend auf Gefallene.",
+                    "1 string m_text": "Artenbildung Gefallene 1-3\nAls die pflanzenartigen Gefallenen ausgerottet waren, nahm die Kampfbereitschaft der pilzartigen so stark ab, dass die Heulpilze begannen, Dämpfe abzusondern, die andere Gefallene heilen. Die Dämpfe sind für uns unschädlich, riechen aber sehr unangenehm."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_008",
+                    "1 string m_nameId": "CE_0003",
+                    "1 string m_shortText": "Wilde Gefallene, die nicht voneinander zu unterscheiden sind. Halbherzige Angriffe können ihnen nichts anhaben. Sie schwingen, bis sie alles in ihrem Weg zerstört haben. Sie sind zwar stark, aber dank ihrer Größe leicht zu vermeiden. Man sollte sie ausmanövrieren und dann ihre Flanke angreifen.",
+                    "1 string m_text": "Gedanken eines Wächters 1-1\nSündiger Schwarzzaffe, sagst du? Oooh ja. Ja, ich habe einige von ihnen getötet. Es war einfach. Sie tun nichts als mit den Armen schwingen. Wie langweilig."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_009",
+                    "1 string m_nameId": "CE_0003_02",
+                    "1 string m_shortText": "Wilde Gefallene, die nicht voneinander zu unterscheiden sind. Halbherzige Angriffe können ihnen nichts anhaben. Sie schwingen, bis sie alles in ihrem Weg zerstört haben. Noch kraftvoller, legen jedoch Pausen zwischen den Angriffen ein.",
+                    "1 string m_text": "Gedanken eines Wächters 1-2\nSchwarzzaffen ... sind nicht meine Lieblinge. Sie sehen aus wie mein Ex und benehmen sich auch so ... Tut mir leid, du solltest wohl besser jemand anderen befragen. Ich glaube nicht, dass meine Antworten hilfreich sind.\n"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_010",
+                    "1 string m_nameId": "CE_0003_03",
+                    "1 string m_shortText": "Wilde Gefallene, die nicht voneinander zu unterscheiden sind. Halbherzige Angriffe können ihnen nichts anhaben. Sie schwingen, bis sie alles in ihrem Weg zerstört haben. Sie heulen, um den Gegner zu paralysieren, und zermalmen ihn dann mit ihrer Masse. Man gehe auf Abstand, wenn man sie Luft holen sieht.",
+                    "1 string m_text": "Gedanken eines Wächters 1-3\nSchwarzzaffen sind zäh. Sie können einen lähmen, wenn man ihre Schreie aus nächster Nähe hört. Ich komme mit ihnen zurecht, da ich sehe, was sie im Schilde führen. Das Sicherste ist jedoch eine Fernkampfwaffe."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_011",
+                    "1 string m_nameId": "CE_0004",
+                    "1 string m_shortText": "Gefallene, die wie einfaches marines Leben aussehen. Manchmal verstecken sie sich, um überraschend anzugreifen. Manchmal greifen sie auch einfach so überraschend an. Sie leben meist am Wasser, also Vorsicht beim Erkunden von Stränden und Ufern mit unübersichtlichen Stellen.",
+                    "1 string m_text": "Der Kampf des Schmieds 1-1\nSchienbeine sind höchst verwundbar. Keine Kampferfahrung und keine Übung kann sie gegen Angriffe stählen. Und sie sind liebster Zielpunkt dieser krassen Gefallenen. Ich bin vor der kleinsten Bewegung der Gefallenen zurückgeschreckt ... bis heute jedenfalls."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_012",
+                    "1 string m_nameId": "CE_0004_02",
+                    "1 string m_shortText": "Gefallene, die wie einfaches marines Leben aussehen. Manchmal verstecken sie sich, um überraschend anzugreifen. Manchmal greifen sie auch einfach so überraschend an. Sie können nicht nur schneller weitere Strecken zurücklegen, sondern sind auch noch stärker.",
+                    "1 string m_text": "Der Kampf des Schmieds 1-2\nDiese fischigen Gefallenen muss niemand fürchten, der meine brandneue Eisenfuß-Rüstung trägt. Ich habe sogar die Nachteile bezüglich Gewicht und Sperrigkeit in den Griff gekriegt."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_013",
+                    "1 string m_nameId": "CE_0004_03",
+                    "1 string m_shortText": "Gefallene, die wie einfaches marines Leben aussehen. Manchmal verstecken sie sich, um überraschend anzugreifen. Manchmal greifen sie auch einfach so überraschend an. Sie können schneller weitere Strecken zurücklegen und sind erheblich stärker.",
+                    "1 string m_text": "Der Kampf des Schmieds 1-3\nDie Angriffe fügen mir kaum Schaden zu, aber ich habe mich bei den Rädern zur Erhöhung der Beweglichkeit verrechnet. Der Aufprall hat mich fortgeschleudert, wobei ich mich drehte wie ein Kreisel. Ich habe noch viel Spielraum für Verbesserungen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_014",
+                    "1 string m_nameId": "CE_0005",
+                    "1 string m_shortText": "Üble Gefallene mit insektenartigen Flügeln. Verschießen Magie aus dem laufförmigen Schnabel. Sie ziehen sich zurück, wenn man sich nähert. Nahkampfversuche enden häufig damit, dass man erschossen wird.",
+                    "1 string m_text": "Enzyklopädie der Gefallenen 1-1\nFaulfedern können die Distanz zum Ziel akkurat bestimmen und entsprechend feuern, obwohl das Sensororgan, das sie dazu einsetzen, bis heute unbekannt ist. Ließe es sich reproduzieren, wäre die Medizin einen großen Schritt weiter."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_015",
+                    "1 string m_nameId": "CE_0005_03",
+                    "1 string m_shortText": "Üble Gefallene mit insektenartigen Flügeln. Verschießen Magie aus dem laufförmigen Schnabel. Können die mächtigen Projektile in drei Richtungen zugleich verschießen.",
+                    "1 string m_text": "Enzyklopädie der Gefallenen 1-2\nDer blattartige Aufbau von Faulfeder-Flügeln bietet Adern, mit denen die Gefallenen atmosphärische Magie absorbieren können. Die Flügel sind je nach Spezies und jeweiligem Habitat anders aufgebaut."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_016",
+                    "1 string m_nameId": "CE_0005_02",
+                    "1 string m_shortText": "Üble Gefallene mit insektenartigen Flügeln. Verschießen Magie aus dem laufförmigen Schnabel. Ihre Projektile sind stärker, aber nicht viel. Wer mit Dämmerungsfaulfedern zurechtkommt, wird hier nicht scheitern.",
+                    "1 string m_text": "Enzyklopädie der Gefallenen 1-3\nVor ihren magielastigen Angriffen plustern Faulfedern sich auf, um die erforderliche Magie zu sammeln. Manche behaupten auch, es handele sich um Balzverhalten. Leider gibt es keine lebenden Zeugen, die eine solche Theorie unterstützen könnten."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_017",
+                    "1 string m_nameId": "CE_0006",
+                    "1 string m_shortText": "Gefallene, die aussehen wie große Blumen. Sie können die Wurzeln aus dem Boden ziehen und zur Fortbewegung nutzen. Vorsicht ist bei dem Schleim geboten, den sie spucken und der die eigene Beweglichkeit beeinträchtigt. Mehrere dieser Feinde können durchaus gefährlich werden.",
+                    "1 string m_text": "Berühmte Blumenwiesen 1-1\nDas Tal am Fuße des Teora-Bergs ist die Heimat des Mazzen-Blumengartens, den größten Blumenwiesen des Reichs. Alljährlich zur farbenprächtigen Blütezeit kommen Touristen von nah und fern, um die herrliche Landschaft zu erleben."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_018",
+                    "1 string m_nameId": "CE_0006_02",
+                    "1 string m_shortText": "Gefallene, die aussehen wie große Blumen. Sie können die Wurzeln aus dem Boden ziehen und zur Fortbewegung nutzen. Der Schleim, den sie verspucken, bewirkt zwar nicht viel Schaden, aber eine deutliche Verlangsamung.",
+                    "1 string m_text": "Berühmte Blumenwiesen 1-2\nIm Norden des tiefen Grewan-Dunkelwaldes liegt eine Blumenwiese verborgen, deren Klima ideal für die bemerkenswerten Moosglöckchen ist. Aufgrund der Gefallenen ist sie nur schwer zu erreichen, doch der wunderbare Anblick ist die Anstrengung allemal wert."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_019",
+                    "1 string m_nameId": "CE_0006_03",
+                    "1 string m_shortText": "Gefallene, die aussehen wie große Blumen. Sie können die Wurzeln aus dem Boden ziehen und zur Fortbewegung nutzen. Tritt man in den Schleim, den sie verspucken, so bewegt man sich langsamer. Indirekte Treffer bewirken wenig Schaden, aber der Schleim ist sehr hartnäckig.",
+                    "1 string m_text": "Berühmte Blumenwiesen 1-3\nFreunde des Außergewöhnlichen sollten den Ophay-Wald aufsuchen, in dem es besonders viele florale Gefallene gibt. Ein solches Spektakel aus wimmelnder Vegetation, die ihre Form von jetzt auf gleich ändern kann, findet man sonst nirgends."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_020",
+                    "1 string m_nameId": "CE_0007",
+                    "1 string m_shortText": "Geflügelte insektenartige Gefallene. Wenn ihre Stärke erschöpft ist, entzünden sich die brennbaren Stoffe in ihrem Abdomen, und sie explodieren nach einer Weile.",
+                    "1 string m_text": "Der Kampf des Schmieds 2-1\nDie Sprengstoffrückstände von Bomberdetonationen bestehen aus purer magischer Essenz. Es gibt keine physische Möglichkeit, die Explosion zu verhindern, weswegen Gefallenenjäger ihnen bislang hilflos gegenüberstanden. Aber das wir nun anders."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_021",
+                    "1 string m_nameId": "CE_0007_02",
+                    "1 string m_shortText": "Geflügelte insektenartige Gefallene. Wenn ihre Stärke erschöpft ist, entzünden sich die brennbaren Stoffe in ihrem Abdomen, und sie explodieren nach einer Weile. Ihre Explosion ist stärker und hat einen größeren Radius.",
+                    "1 string m_text": "Der Kampf des Schmieds 2-2\nMein brandneuer Löschhandschuh kann die Explosion vollständig verhindern! Meine Freude kannte keine Grenzen, als mir klar wurde, dass die Lunte wirklich erloschen war."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_022",
+                    "1 string m_nameId": "CE_0007_03",
+                    "1 string m_shortText": "Geflügelte insektenartige Gefallene. Wenn ihre Stärke erschöpft ist, entzünden sich die brennbaren Stoffe in ihrem Abdomen, und sie explodieren nach einer Weile. Ihre Explosion ist noch stärker und hat einen noch größeren Radius.",
+                    "1 string m_text": "Der Kampf des Schmieds 2-3\nEin Wächter kam auf mich zu, als ich die Bombe hielt, und fragte, was geschähe, wenn ich sie losließe. Ich teilte ihm mit, dass sie dann detonieren würde. Als der Wächter mit ausdrucksloser Miene beiseitetrat, wurde mir mein Denkfehler bewusst."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_023",
+                    "1 string m_nameId": "CE_0008",
+                    "1 string m_shortText": "Wilde Säugetier-artige Gefallene mit Augen, die so scharf sind wie die Hörner, mit denen sie angreifen.",
+                    "1 string m_text": "Artenbildung Gefallene 2-1\nTauren leben trotz ihrer Wildheit recht zurückgezogen, da ihre Reproduktion historisch nicht gut klappte. Doch dann kam es plötzlich zu einer Populationsexplosion."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_024",
+                    "1 string m_nameId": "CE_0008_02",
+                    "1 string m_shortText": "Wilde Säugetier-artige Gefallene mit Augen, die so scharf sind wie die Hörner, mit denen sie angreifen. Intelligenter als die Grundspezies. Sie denken schnell und bewegen sich noch schneller.",
+                    "1 string m_text": "Artenbildung Gefallene 2-2\nDie Schäden durch die Tauren waren unermesslich. Wir haben immer wieder versucht, sie zu dezimieren, jedoch erfolglos. Egal, wie viele wir erlegten, es kamen immer mehr. Ihre Schreckensherrschaft schien bis ans Ende der Welt zu dauern."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_025",
+                    "1 string m_nameId": "CE_0008_03",
+                    "1 string m_shortText": "Wilde Säugetier-artige Gefallene mit Augen, die so scharf sind wie die Hörner, mit denen sie angreifen. Treffer von ihnen können einen hoch in die Luft schleudern.",
+                    "1 string m_text": "Artenbildung Gefallene 2-3\nDoch dann wurde das Land von einem brutalen Kälteeinbruch heimgesucht, der die Tauren an der Grenze dezimierte. Dies geschah drei Mal. Nun wird befürchtet, dass ein plötzlicher Anstieg in der Taurenpopulation ein schlechtes Vorzeichen ist."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_026",
+                    "1 string m_nameId": "CE_0009",
+                    "1 string m_shortText": "Grässliche Gefallene, deren Leiber von ihrem grotesken Maul dominiert werden. Ihr Kuss bedeutet alle möglichen Schwächungszauber - man halte sich also von ihnen fern.",
+                    "1 string m_text": "Forschungstagebuch 2-1\nDas Innere dieser Gefallenen besteht aus Substanzen, die wenig bis kein Licht reflektieren. Mein Kollege berichtete, es sei, als werde man in einen sternenlosen Himmel gezogen, nachdem es ihm gelungen war, aus so einem finsteren Leib zurückzukehren."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_027",
+                    "1 string m_nameId": "CE_0009_02",
+                    "1 string m_shortText": "Grässliche Gefallene, deren Leiber von ihrem grotesken Maul dominiert werden. Sie können aus dem Nichts andere Gefallene herbeirufen, daher achte man darauf, sie zuerst zu besiegen.",
+                    "1 string m_text": "Forschungstagebuch 2-2\nMeinem Kollegen zufolge war die Temperatur im Gefallenen angenehm, regelrecht entspannend. Er erwähnte allerdings auch einen intensiven toxischen Geruch, so dass nicht zu beurteilen ist, wo die Erfahrung aufhört und die Halluzination anfängt."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_028",
+                    "1 string m_nameId": "CE_0010_01",
+                    "1 string m_shortText": "Kleine humanoide Gefallene, die in Rudeln leben und ihre Schädelknochen als Waffen einsetzen. Sie flüchten, wenn sie zu wenige sind, daher empfehlen sich Flächenangriffe, wenn man umzingelt wird, um schnell möglichst viele Exemplare zu töten.",
+                    "1 string m_text": "Bericht eines Daemons 1-1\nEs gibt die Theorie, dass humanoide Gefallene aus Tieren hervorgehen; dass es der starke Wunsch eines Tiers ist, zum Menschen zu werden, der diese Gefallenen ins Leben ruft. Etwas sagt mir, dass an der Theorie etwas dran ist."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_029",
+                    "1 string m_nameId": "CE_0010_04",
+                    "1 string m_shortText": "Kleine humanoide Gefallene, die in Rudeln leben und ihre Schädelknochen als Waffen einsetzen. Die Schädelform hängt vom Individuum ab, wodurch die Stärke jedoch nicht beeinträchtigt wird.",
+                    "1 string m_text": "Bericht eines Daemons 1-2\nNur Kreaturen von hoher Intelligenz sind zum Waffeneinsatz fähig. Einige Gefallene sind dazu in der Lage. Sind sie deswegen intelligent? Faszinierend, sich vorzustellen, worüber sie nachdenken mögen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_030",
+                    "1 string m_nameId": "CE_0010_07",
+                    "1 string m_shortText": "Kleine humanoide Gefallene, die in Rudeln leben und ihre Schädelknochen als Waffen einsetzen. Ihre Waffen sind vergiftet, man achte im Kampf also auf gebührenden Abstand.",
+                    "1 string m_text": "Bericht eines Daemons 1-3\nWaffen sind eins, aber Gift? Das ist noch etwas ganz anderes. Sie müssen wohl doch intelligent sein. Wie fertigen sie diese Waffen überhaupt? Ich muss ständig darüber nachdenken. Diese Forschung ist es wirklich wert."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_031",
+                    "1 string m_nameId": "CE_0011",
+                    "1 string m_shortText": "Gefallene, die eine bestimmte Zeit lang Prickerich produzieren. Sie sind ortsfest, doch die toxischen Dämpfe, die sie absondern, können weit verteilt werden.",
+                    "1 string m_text": "Bericht eines Daemons 2-1\nGefallene, die andere Gefallene erschaffen können, mögen im Lauf der Zeit ihr Äußeres geändert haben, aber es ist sicher, dass die meisten von ihnen gefährlich sind. Diese hier bilden keine Ausnahme. Am besten zerstört man sie, sobald man sie findet."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_032",
+                    "1 string m_nameId": "CE_0011_02",
+                    "1 string m_shortText": "Gefallene, die eine bestimmte Zeit lang Fetzerich produzieren. Sie sind ortsfest, doch die toxischen Dämpfe, die sie absondern, können weit verteilt werden.",
+                    "1 string m_text": "Bericht eines Daemons 2-2\nIch las die Theorie, dass ihre Macht, andere Gefallene hervorzubringen, aus dem tiefen Sehnen nach Elternschaft entsteht. Ihre äußerliche Veränderung über die Jahre scheint dies zu untermauern. Interessant, aber ich glaube nicht, dass es nachweisbar ist."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_033",
+                    "1 string m_nameId": "CE_0011_03",
+                    "1 string m_shortText": "Gefallene, die eine bestimmte Zeit lang Spalterich produzieren. Sie sind ortsfest, doch die toxischen Dämpfe, die sie absondern, können weit verteilt werden.",
+                    "1 string m_text": "Bericht eines Daemons 2-3\nIch persönlich glaube, dass ihre Macht, andere Gefallene hervorzubringen, sich aus dem menschlichen Bedürfnis speist, etwas zu erschaffen. Das würde erklären, warum ihre Brut von Jahr zu Jahr anders ausfällt - ihre Wünsche ändern sich."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_034",
+                    "1 string m_nameId": "CE_0012",
+                    "1 string m_shortText": "Gefallene mit hartem Exoskelett. Ihr Ansturm ist verheerend. Einzeln begnügen sie sich meist mit Verteidigung.",
+                    "1 string m_text": "Zerknüllter Brief 1-1\nDer Sandsturm tobt seit zwei Wochen. Er macht keine Anstalten, sich zu legen. Jung, wie ich bin, kann ich Vater bei der Arbeit nicht helfen. Ich passe meistens zuhause auf meinen kleinen Bruder auf."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_035",
+                    "1 string m_nameId": "CE_0012_02",
+                    "1 string m_shortText": "Gefallene mit hartem Exoskelett. Ihr Ansturm ist verheerend. Einzeln begnügen sie sich meist mit Verteidigung. Sie verhalten sich exakt wie die Ursprungsart, sind jedoch stärker.",
+                    "1 string m_text": "Zerknüllter Brief 1-2\nDer Sandsturm tobt seit zwei Monaten. Wir können nicht rausgehen. Die Stunden, die ich mit meinem kleinen Bruder vertreibe, werden immer länger. Wir müssen unsere Vorräte rationieren und unsere Kräfte schonen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_036",
+                    "1 string m_nameId": "CE_0012_03",
+                    "1 string m_shortText": "Gefallene mit hartem Exoskelett. Ihr Ansturm ist verheerend. Einzeln begnügen sie sich meist mit Verteidigung. Sie verhalten sich exakt wie die Ursprungsart, sind jedoch stärker.",
+                    "1 string m_text": "Zerknüllter Brief 1-3\nEs ist fast niemand mehr im Dorf. Unsere Familie brach zur Hauptstadt auf, als der Sandsturm vorbei war. Unterwegs sahen wir viele Gefallene, manche eingeklemmt, andere zusammengerollt, alle reglos. Ich spüre eine Art von Verwandtschaft mit diesen Kreaturen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_037",
+                    "1 string m_nameId": "CE_0013",
+                    "1 string m_shortText": "Skorpion-artige Gefallene, deren Schwänze als Artillerie dienen. Im Nahkampf haben sie keine Angriffsmöglichkeit. Ihre Projektile folgen einer Parabelflugbahn und explodieren beim Auftreffen.",
+                    "1 string m_text": "Das Zeitalter der Magie 1-1\nWir können nicht von der mittleren Periode des Zeitalters der Magie sprechen, ohne die Versuche der Menschen zu erwähnen, Gefallene zu erschaffen. Die meisten Versuche schlugen fehl, manche hinterließen bleibende Narben."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_038",
+                    "1 string m_nameId": "CE_0013_03",
+                    "1 string m_shortText": "Skorpion-artige Gefallene, deren Schwänze als Artillerie dienen. Im Nahkampf haben sie keine Angriffsmöglichkeit. Ihre Projektile explodieren nach kurzer Verzögerung, und der Explosionsradius ist größer.",
+                    "1 string m_text": "Das Zeitalter der Magie 1-2\nMan reproduzierte die Umstände, unter denen Gefallene entstanden waren, und wartete auf ihr Erscheinen, oder änderte die Umstände, wenn man Mutationen wünschte. Man verstand nicht vollends, wie Gefallene entstehen, stürzte sich aber umso waghalsiger in die Experimente."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_039",
+                    "1 string m_nameId": "CE_0013_02",
+                    "1 string m_shortText": "Skorpion-artige Gefallene, deren Schwänze als Artillerie dienen. Im Nahkampf haben sie keine Angriffsmöglichkeit. Ihre Projektile explodieren nach langer Verzögerung, und der Explosionsradius ist noch größer.",
+                    "1 string m_text": "Das Zeitalter der Magie 1-3\nSo entstanden die Verderber. Ihre Schwänze waren mit Schusswaffen versehen, und sie konnten sich selbst mit Energie versorgen. Dennoch wurden sie verworfen - vermutlich, weil man sie nicht kontrollieren konnte. Ihre Abkömmlinge durchstreifen heute noch die Wildnis."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_040",
+                    "1 string m_nameId": "CE_0014",
+                    "1 string m_shortText": "Gefallene mit Armen, die mit Eisenkugeln enden. Ihre Wirbelangriffe haben eine hohe Reichweite.",
+                    "1 string m_text": "Geschichte der Verlorenen 1-1\nAls ich zu mir kam, fand ich mich einem Gefallenen gegenüber, der eine Eisenkugel anstelle einer Faust hatte. Ich war außer mir vor Schrecken. Ich floh, so schnell wie meine Beine mich tragen konnten. Der Gefallene verfolgte mich. Ich konnte nichts anderes tun als zu laufen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_041",
+                    "1 string m_nameId": "CE_0014_03",
+                    "1 string m_shortText": "Gefallene mit Armen, die mit Eisenkugeln enden. Ihre Wirbelangriffe haben eine hohe Reichweite. Sie verhalten sich exakt wie die Ursprungsart, sind jedoch stärker.",
+                    "1 string m_text": "Geschichte der Verlorenen 1-2\nIch habe ihn abgeschüttelt, aber jetzt weiß ich nicht mehr, wo ich bin. Vielleicht, weil ich gestorben bin? Dann muss ich ein Verlorener sein. Aber nicht alle werden zu verlorenen Seelen, wenn sie sterben, das habe ich gelernt. Aber was nützt das schon, wo ich doch tot bin?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_042",
+                    "1 string m_nameId": "CE_0014_02",
+                    "1 string m_shortText": "Gefallene mit Armen, die mit Eisenkugeln enden. Ihre Wirbelangriffe haben eine hohe Reichweite. Sie verhalten sich exakt wie die Ursprungsart, sind jedoch stärker.",
+                    "1 string m_text": "Geschichte der Verlorenen 1-3\nIch versuchte es mit einem anderen Pfad, aber der Gefallene tauchte wieder auf. Vielleicht sollte ich mich gar nicht bewegen ... Obwohl ich mich schon frage, was passiert, wenn ein Gefallener einen Verlorenen angreift. Kann man denn zweimal sterben?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_043",
+                    "1 string m_nameId": "CE_0015",
+                    "1 string m_shortText": "Gefallene, die sich mit ihren verlängerten Grabklauen eingraben, um überraschend anzugreifen. Man sollte daher einen Ortswechsel vollziehen, wenn man sieht, wie sie sich einbuddeln.",
+                    "1 string m_text": "Gott der Grube 1-1\nIn einem Bergdorf verschwanden etliche Einwohner. Stets blieb eine etwa mannsgroße Grube zurück. Es hat niemand mit angesehen, wie sie verschwanden. Die Dörfler verzweifelten, weil sie den Zorn eines Gottes wähnten, und warfen sich jammernd zu Boden."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_044",
+                    "1 string m_nameId": "CE_0015_02",
+                    "1 string m_shortText": "Gefallene, die sich mit ihren verlängerten Grabklauen eingraben, um überraschend anzugreifen. Sie verhalten sich exakt wie die Ursprungsart, sind jedoch stärker.",
+                    "1 string m_text": "Gott der Grube 1-2\nDie Dörfler errichteten dem Gott der Grube einen Altar. Dort opferten sie täglich und verbrachten Wochen damit, hinter dem Altar eine gigantische Grube auszuheben. Danach verschwanden keine Leute mehr, und die Dörfler jubelten."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_045",
+                    "1 string m_nameId": "CE_0016",
+                    "1 string m_shortText": "Dämonische Gefallene, die über das Schlachtfeld teleportieren können. Mit ihren seltsamen Beschwörungen stärken sie Gefallene in der Nähe und erhöhen vorübergehend deren Verteidigung.",
+                    "1 string m_text": "Bericht eines Daemons 3-1\nFluchwirker hat es schon immer gegeben.\nSie entstehen aus negativen Emotionen und\nmutieren bisweilen, aber diese hier hat es\nschon immer in der Form gegeben.\nVermutlich entstehen sie aus einer\nGrundemotion. Vielleicht sind sie\ndeswegen so stark."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_046",
+                    "1 string m_nameId": "CE_0016_03",
+                    "1 string m_shortText": "Dämonische Gefallene, die über das Schlachtfeld teleportieren können. Mit ihren seltsamen Beschwörungen stärken sie Gefallene in der Nähe und erhöhen vorübergehend deren Angriff.",
+                    "1 string m_text": "Bericht eines Daemons 3-2\nIch wollte ergründen, wie die seltsamen Beschwörungen der Fluchsprecher funktionieren. Eine Weile hatte ich Hoffnung, doch schließlich sah ich ein, dass meine Anstrengungen zu nichts führen würden, und gab auf. Hätte ich weitergemacht, wäre es vielleicht einfacher geworden."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_047",
+                    "1 string m_nameId": "CE_0016_02",
+                    "1 string m_shortText": "Dämonische Gefallene, die über das Schlachtfeld teleportieren können. Mit ihren seltsamen Beschwörungen stärken sie Gefallene in der Nähe und erhöhen vorübergehend deren Bewegungstempo.",
+                    "1 string m_text": "Bericht eines Daemons 3-3\nFluchbinder scheinen eine sehr junge Spezies zu sein. Gefallene waren bisher nie so stark. Vielleicht sind sie der Beweis für den bevorstehenden Niedergang der Menschheit."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_048",
+                    "1 string m_nameId": "CE_0017",
+                    "1 string m_shortText": "Gefallene mit faustförmigem Horn, mit dem sie verschiedene Angriffe entfesseln können. Sie springen hin und her und verlagern das Zentrum ihres Angriffs.",
+                    "1 string m_text": "Gedanken eines Wächters 2-1\nHornonoken, was? Bei denen muss man aufpassen, sie sind abgefeimter, als man denken sollte. Wer einem begegnet, nimmt lieber die Beine in die Hand. Sie sind harte Gegner, die man am besten Leuten überlässt, denen das Kämpfen im Blut liegt."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_049",
+                    "1 string m_nameId": "CE_0017_02",
+                    "1 string m_shortText": "Gefallene mit faustförmigem Horn, mit dem sie verschiedene Angriffe entfesseln können. Wenn sie Anlauf nehmen, ist das ein sicheres Zeichen, dass sie zum Todesstoß ansetzen.",
+                    "1 string m_text": "Gedanken eines Wächters 2-2\nJa, ich habe einen dieser Hornonoken erlegt. Das hat wirklich Spaß gemacht - der reinste Muskeltest. Wie ich ihn besiegt habe? Ganz einfach - ich habe um mein Leben gekämpft! Ihre Treffer eingesteckt und sofort zurückgeschlagen!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_050",
+                    "1 string m_nameId": "CE_0017_03",
+                    "1 string m_shortText": "Gefallene mit faustförmigem Horn, mit dem sie verschiedene Angriffe entfesseln können. Vorsicht - wenn sie ihr Horn auf den Boden schlagen, breitet sich die Stoßwelle mit großem Radius aus.",
+                    "1 string m_text": "Gedanken eines Wächters 2-3\nSchwere Hornonoken sind besonders schlimm. Sie haben so viele Angriffe auf Lager, dass man aufpassen muss wie ein Schießhund, wenn man nicht als Leiche enden will. He - hörst du eigentlich zu? Diese Gefallenen sind schlechte Neuigkeiten!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_053",
+                    "1 string m_nameId": "CE_1003",
+                    "1 string m_shortText": "Gefallene mit einem Riesenhammer als Arm. Mit ihren stämmigen Beinen können sie Dreh- oder Sprungangriffe ausführen. Es reicht nicht, ihren Hämmern auszuweichen, da der Aufprall auf dem Boden Erdbeben auslöst. Man muss springen, um der Stoßwelle zu entgehen.",
+                    "1 string m_text": "Ein Hieb, und im Boden ist ein Krater. Ein Hieb, und alles Leben darunter ist dahin. Die Zerstörung liegt ihnen nun mal im Blut. Ihre Instinkte sind mächtiger als ihre Körper und ihr Geist. Humanoide Fehlschläge. Warum sollten sie der Absolution würdig sein?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_054",
+                    "1 string m_nameId": "CE_1003_02",
+                    "1 string m_shortText": "Gefallene mit einem Riesenhammer als Arm. Können Dreh- oder Sprungangriffe ausführen. Die Stoßwelle lässt Objekte in der Nähe explodieren. Diese erscheinen nach einer Weile wieder, auf dem Schlachtfeld ist also Vorsicht geboten.\n\n",
+                    "1 string m_text": "Wir verdienen die Erlösung. Wenn Fremde sterben, ist es egal, solange wir sicher sind, wenn wir den Rest des Reichs versiegeln. Hahaha! Ja, denn wir sind die Auserwählten. Aber ... Warum bin ich dann draußen!?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_055",
+                    "1 string m_nameId": "CE_1008",
+                    "1 string m_shortText": "Zehnflügelige halbkugelförmige Gefallene. Fliegen können sie nicht mehr, doch sie beeinflussen den Wind, indem sie mit den Flügeln schlagen. Ihre harten Panzer halten den meisten Schaden von ihnen fern, aber das verletzliche Innere lässt sich angreifen, wenn ihre Flügel weit geöffnet sind.",
+                    "1 string m_text": "Hässliche Dinge sind der Gegner. Schöne Dinge sind der Gegner. Was immer sich bewegt, ist der Gegner. Was immer sich verbirgt, ist der Gegner. Schlage, wüte, eile, schwebe. Zerstöre alle, die dir Widerstand leisten."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_056",
+                    "1 string m_nameId": "CE_1008_02",
+                    "1 string m_shortText": "Zehnflügelige halbkugelförmige Gefallene. Fliegen können sie nicht mehr, doch sie beeinflussen den Wind, indem sie mit den Flügeln schlagen. Sie können die Windrichtung über einer ganzen Region verändern. Verwende Sprinten und weitere Methoden, um nicht davongeblasen zu werden.",
+                    "1 string m_text": "Ich kann nicht werden, was ich sein will. Ich kann nicht haben, was ich begehre. Ich wollte strahlen. Ich wollte das Licht. Das war alles. Warum ist dann dies mein Schicksal?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_057",
+                    "1 string m_nameId": "CE_1005",
+                    "1 string m_shortText": "Humanoide Gefallene mit den Eigenschaften aquatischer Kreaturen. Aus zahllosen Komponenten zusammengesetzt, die zwischen Einheit und Trennung fluktuieren. Sie heilen in der Einheit und sind daher in der Trennung leichter zu besiegen.",
+                    "1 string m_text": "Wie ich meinen Liebsten vermisse. Wie sehr ich wünschte, in unsere gemeinsamen Zeiten zurückkehren zu können. Ich würde alles für eine weitere Chance geben. Ja, alles. Ich flehe. Bete. Möge ich das Verlorene wiederfinden. Meine Erinnerungen. An mich. An uns."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_058",
+                    "1 string m_nameId": "CE_1005_02",
+                    "1 string m_shortText": "Humanoide Gefallene mit den Eigenschaften aquatischer Kreaturen. Aus zahllosen Komponenten zusammengesetzt, die zwischen Einheit und Trennung fluktuieren. Explodieren, wenn diese schwinden. Detonieren, wenn man sie erschlägt!",
+                    "1 string m_text": "Du bist so schön, so klug, so freundlich. Du hast alles. Du hast mir alles genommen, sogar mein bisschen Stolz. Ich werde dich büßen lassen, und wenn ich meine Seele dafür verkaufen muss. Sei gewarnt. Ich werde mich rächen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_059",
+                    "1 string m_nameId": "CE_1002",
+                    "1 string m_shortText": "Feuerspeiende Gefallene, die nach Instinkt kämpfen, wobei sie mit den Gliedmaßen wirbeln und mit dem Schwanz peitschen. Die meisten Angriffe sind schlicht, aber stark. Man sollte ihnen ausweichen.",
+                    "1 string m_text": "Ich jämmerliche Kreatur fühle mich nur mitten in der Schlacht wie ich selbst. Aber bemitleide mich nicht. Denk nicht so von mir. Ich will, dass du dein Leben weiterlebst. Ich habe dich immer bewundert."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_060",
+                    "1 string m_nameId": "CE_1002_02",
+                    "1 string m_shortText": "Feuerspeiende Gefallene, die nach Instinkt kämpfen, wobei sie mit den Gliedmaßen wirbeln und mit dem Schwanz peitschen. Ihre tödlichen Garben reichen besonders weit, da sie beim Angreifen den Kopf hin- und herschwingen.",
+                    "1 string m_text": "Es gibt nichts, was du nicht erreichen\nkönntest. In einer Welt der Habenden\nund Habenichtse gehörst du zu den \nHabenden. Die Habenichtse gibt es nur,\num dich zu erhalten. Nicht mal der Tod\nkann dir etwas anhaben. Gewiss wirst du\nbis in alle Ewigkeit hier leben."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_061",
+                    "1 string m_nameId": "CE_1007",
+                    "1 string m_shortText": "Grässliche Gefallene in rüstungsartigem Panzer. Sie können die Arme als Beine einsetzen und verfügen über einen zweiten Kopf am Ende des speerförmigen Schwanzes. Mit den Flossenarmen entfesseln sie mächtige Angriffe. Nutzen sie sie als Beine, kündigt dies einen Sprungangriff an.",
+                    "1 string m_text": "Solch reiner Zorn braucht nur einen winzigen Impuls, um zu unvergleichlicher Kraft zu werden. Es ist einerlei, woher der Hass rührt und was so unverzeihlich ist. Es gilt, die Energie zu entfesseln, bis nichts mehr übrig ist."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_062",
+                    "1 string m_nameId": "CE_1007_02",
+                    "1 string m_shortText": "Grässliche Gefallene in rüstungsartigem Panzer. Sie können die Arme als Beine einsetzen und verfügen über einen zweiten Kopf am Ende des speerförmigen Schwanzes. Wenn sie aufhören, sich zu verteidigen, folgt ein Angriff. Ausweichen oder auf Distanz gehen ist ratsam.",
+                    "1 string m_text": "Alles hing von mir ab. Von meinen Kämpfen. Die Bürde war erstickend, aber ich habe mich nicht beklagt. Ich habe sie sogar mit Stolz getragen. Aber es zeigte sich bald, dass ich überfordert war. Ich konnte nicht wie mein Vater sein. Warum bin ich, wie ich bin?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_063",
+                    "1 string m_nameId": "CE_1001",
+                    "1 string m_shortText": "Gefallene, die einen riesigen Schild mit sich tragen, welcher im Kampf einen Laser von hoher Intensität verschießen kann. Ihre verletzlichen Flanken werden normalerweise vom Schild geschützt. Man umkreise sie und greife an, wenn sie den Schild nach vorne bringen.",
+                    "1 string m_text": "Die, welche das Schwert schützen sollte, sind fort. Sie lassen die Sünden des Schildes zurück, der nie ein Schwert hatte sein sollen. Sünden, vor denen es kein Entkommen gibt, die auf müden Schultern lasten werden bis ans Ende der Zeit."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_064",
+                    "1 string m_nameId": "CE_1001_02",
+                    "1 string m_shortText": "Gefallene, die einen unheilvollen Schild mit sich tragen, welcher im Kampf einen Laser von hoher Intensität verschießen kann. Wie bei der Ursprungsart sind ihre Flanken verwundbar. Man sollte sie zuerst besiegen, da sie Treffer bei anderen Gefallenen erschweren.",
+                    "1 string m_text": "Wir strebten nach Überlegenheit. Um ewig zu sein. Was ist so falsch daran? Ihr seid diejenigen, die sich irren. Ihr mit eurer Idee, dass das Leben nur ein kurzer Funke ist, die ihr die Großartigkeit unseres Ansinnens nicht begreift. Ihr."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_065",
+                    "1 string m_nameId": "CE_1006",
+                    "1 string m_shortText": "Furchterregende Gefallene aus unzähligen maskierten Gesichtern, die einen einheitlichen Angriff entfesseln, sobald alle Gesichter bereit sind. Den Strahlen, die sie verschießen, kann man nur durch Springen ausweichen. Zerstörte Gesichter können nicht schießen, also konzentriere man sich auf eins.",
+                    "1 string m_text": "Warum wurde ich getötet? Warum musste ich getötet werden? Was habe ich getan? Nun verspüre ich nur noch reinen Hass, den ich überall verbreite, wo ich bin."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_066",
+                    "1 string m_nameId": "CE_1006_02",
+                    "1 string m_shortText": "Furchterregende Gefallene aus unzähligen maskierten Gesichtern, die einen einheitlichen Angriff entfesseln, sobald alle Gesichter bereit sind. Ihre unregelmäßige Form erschwert es, den passenden Rhythmus zu finden, also ist ein wenig Flexibilität gefragt.",
+                    "1 string m_text": "Meine Güte. Du liebe gute Güte. Hast du schon gehört? Meinst du, es ist wahr? Wie schrecklich. So etwas hätte ich nie erwartet. Wer hätte das geahnt ... Wo wir beim Unerwarteten sind - neulich, ja, das war auch noch so eine Geschichte. Aber nichts davon hat mit uns zu tun."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_067",
+                    "1 string m_nameId": "CE_1004",
+                    "1 string m_shortText": "Humanoide Gefallene, die Pflanzen manipulieren können. Sie bleiben lieber an einem Ort und nutzen ihre flexible Reichweite, um Gegner anzugreifen. Rote Blüten am Boden explodieren nach sieben Blitzen.",
+                    "1 string m_text": "Es ist unsere eigene Schuld, dass wir uns haben täuschen lassen. Der Sieg gebührt immer noch den Klugen. Ich werfe dir nicht vor, dich beleidigt zu fühlen. Man kann nichts außer kalter barer Münze trauen. Das Vertrauen der Leute ist nichts wert."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_068",
+                    "1 string m_nameId": "CE_1010",
+                    "1 string m_shortText": "Riesige Gefallene mit drei Gesichtern und zwei Rädern, die ihre Gegner unter sich zermalmen. Sie nutzen das Terrain zu ihrem Vorteil und blockieren alle Fluchtwege. Wer sich nicht weit genug von ihnen entfernen kann, dem ist das Ende gewiss.",
+                    "1 string m_text": "Menschen muss man hassen und fürchten. Wir sind zwar weit überlegen, aber die Menschen sind viel zahlreicher. Ihre grausamen Horden schlachten uns. Ich darf nicht besiegt werden. Die Menschen sollen sterben. Nicht ich."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_069",
+                    "1 string m_nameId": "CE_1010_02",
+                    "1 string m_shortText": "Gefallene mit drei Gesichtern und zwei Rädern, die einige Male regeneriert werden können - jedoch nicht beliebig oft. Sind die Räder zerstört, hat man die Kreaturen praktisch besiegt.\n",
+                    "1 string m_text": "Ich dachte, wir wären Freunde für immer. Deswegen habe ich über die Gefühle geschwiegen, die ich für dich hatte. Und sie in mir eingeschlossen. Warum hast du mich verraten? Am Tag, als du mich im Stich ließest, sagtest du, wir wären Freunde, und dann verrietest du mich zuerst."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_070",
+                    "1 string m_nameId": "CE_1009_02",
+                    "1 string m_shortText": "Zylindrische Gefallene, unterteilt in fünf Segmente, die unabhängig voneinander kämpfen können. Jedes Segment kämpft auf seine Weise. Man sollte sich zunächst auf die konzentrieren, die einem die größten Schwierigkeiten machen.",
+                    "1 string m_text": "Wenn ich gefragt werde, ob ich Vertrauen in die Gegebenheiten habe, antworte ich mit Ja, weil mir das beigebracht wurde. Es ist undenkbar, kein Vertrauen zu haben. Es würde alles zerstören. Niemand weiß, was nach dem Tod passiert. Das sollten die Wächter aller Leute wissen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_071",
+                    "1 string m_nameId": "CE_1009",
+                    "1 string m_shortText": "Zylindrische Gefallene, unterteilt in fünf Segmente, die unabhängig voneinander kämpfen können. Wer Zutrauen in seine Fähigkeiten hat, kann Flächenangriffe einsetzen, um mehrere Segmente gleichzeitig zu töten.",
+                    "1 string m_text": "Was ist schiefgegangen? Mein Plan hatte sich doch perfekt entwickelt. Wer mich zum Narren halten wollte, ist ruiniert. Ich war der aufgehende Stern. Immer werde ich ausgenutzt. Bin ich dazu verdammt, ewig der Trottel zu sein? Seid verflucht ... Ihr alle!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_072",
+                    "1 string m_nameId": "CE_1011",
+                    "1 string m_shortText": "Gefallene, entstanden aus der Verzweiflung der Menschheit. Wann immer eine der Ketten abfällt, erhalten sie einen zusätzlichen Angriff. Schwächen haben sie nicht. Man nutze seine Erfahrung aus zahlreichen Kämpfen und gebe alles.",
+                    "1 string m_text": "Was war zuerst da - Oni oder Verzweiflung?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_075",
+                    "1 string m_nameId": "CE_1012",
+                    "1 string m_shortText": "Gefallene, die in jeder ihrer vier Hände eine andere Waffe führen. Jede davon kann tödlich sein. Man beobachte, mit welcher Waffe der Angriff kommt, und reagiere entsprechend.",
+                    "1 string m_text": "Ich habe gewartet und bei den Vorbereitungen alles bedacht. Ich bin der Schöpfer, nichts kann mich besiegen. Doch ich wurde niedergeworfen. Nun stehe ich hier als Bollwerk, an dem jene, die mich beerben wollten, zerschellen sollen. Also kommt und erprobt eure Stärke an mir."
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

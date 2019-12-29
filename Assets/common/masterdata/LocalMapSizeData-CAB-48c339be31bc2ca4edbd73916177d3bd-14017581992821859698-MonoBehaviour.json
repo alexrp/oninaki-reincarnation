@@ -1,774 +1,723 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -5977276861503828000
+    },
+    "1 string m_Name": "LocalMapSizeData",
+    "0 LocalMapSize m_list": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0001_11",
+            "0 float m_scale": 0.518832684,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": 15.9002991,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
         },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -5977276861503827687
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0002_31",
+            "0 float m_scale": 1.78833866,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": 1.67651367,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 30
+            }
+          }
         },
-        "1 string m_Name": "LocalMapSizeData",
-        "0 LocalMapSize m_list": 
         {
-            "0 Array Array": [
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0001_11",
-                    "0 float m_scale": 0.518832684,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 15.9002991,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0002_31",
-                    "0 float m_scale": 1.78833866,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 1.67651367,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 30
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0002_11",
-                    "0 float m_scale": 1.28886878,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": -120.984833,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 60
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0002_61",
-                    "0 float m_scale": 0.998145759,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 90.7562866,
-                        "0 float y": -37.1513977,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0002_41",
-                    "0 float m_scale": 0.5740031,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 8.78256226,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0002_51",
-                    "0 float m_scale": 1.38903916,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": -44.2193604,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 30
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0002_81",
-                    "0 float m_scale": 0.633610666,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 59.8469238,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0002_71",
-                    "0 float m_scale": 0.586215615,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": -12.4835205,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0001_21",
-                    "0 float m_scale": 0.571619034,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 19.9816284,
-                        "0 float y": -83.0765991,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 150
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0001_31",
-                    "0 float m_scale": 0.651414096,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": -31.4654846,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0402_11",
-                    "0 float m_scale": 0.558633327,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 6.83983231,
-                        "0 float y": 39.1424408,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0402_21",
-                    "0 float m_scale": 0.687483013,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 45.8291016,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0402_31",
-                    "0 float m_scale": 1.69713473,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": -56.5288086,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 100,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0402_41",
-                    "0 float m_scale": 0.52381289,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 42.4062805,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0401_21",
-                    "0 float m_scale": 0.438598156,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": -73.2458954,
-                        "0 float y": -60.46698,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 150
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0401_11",
-                    "0 float m_scale": 0.483906955,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 33.2984314,
-                        "0 float y": 19.3652039,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0401_31",
-                    "0 float m_scale": 0.419538051,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 38.4909744,
-                        "0 float y": -25.9073792,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 130
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0401_41",
-                    "0 float m_scale": 0.435680389,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": -28.3404846,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 150
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0103_11",
-                    "0 float m_scale": 0.844789624,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 65.7514648,
-                        "0 float y": -28.6226501,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0103_21",
-                    "0 float m_scale": 0.856467128,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": -25.2942505,
-                        "0 float y": 131.6026,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 50
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0203_11",
-                    "0 float m_scale": 0.669373512,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 36.2545166,
-                        "0 float y": -2.71426392,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0203_21",
-                    "0 float m_scale": 1.01592088,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": -47.9741211,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0203_31",
-                    "0 float m_scale": 0.530913651,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 48.1007767,
-                        "0 float y": 72.6272583,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0201_41",
-                    "0 float m_scale": 2.38636971,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 180.76355,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0201_31",
-                    "0 float m_scale": 0.642577827,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 5.10876465,
-                        "0 float y": 40.0453796,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0201_11",
-                    "0 float m_scale": 0.576528132,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": -36.6131287,
-                        "0 float y": 18.4282227,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0201_21",
-                    "0 float m_scale": 2,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 88.4102859,
-                        "0 float y": 0,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0202_11",
-                    "0 float m_scale": 0.48588562,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 67.3735962,
-                        "0 float y": 116.066223,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0104_11",
-                    "0 float m_scale": 0.596556187,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 11.1921997,
-                        "0 float y": 73.9143982,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0101_11",
-                    "0 float m_scale": 0.621022761,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 32.9965515,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0102_11",
-                    "0 float m_scale": 0.607433796,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": -58.9818268,
-                        "0 float y": 77.3707886,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0102_21",
-                    "0 float m_scale": 0.836905658,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": -77.6902771,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 80
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0600_00",
-                    "0 float m_scale": 1.43776202,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0600_00_m",
-                    "0 float m_scale": 1.82223022,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0101_11_m",
-                    "0 float m_scale": 2,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 160.25444,
-                        "0 float y": -789.599976,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0104_11_m",
-                    "0 float m_scale": 1.35461485,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 273.632233,
-                        "0 float y": -593.050476,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0001_21_m",
-                    "0 float m_scale": 1.78032362,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 52.0264282,
-                        "0 float y": -727.084167,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0201_11_m",
-                    "0 float m_scale": 1.27650225,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 315.423737,
-                        "0 float y": -585.659241,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0201_21_m",
-                    "0 float m_scale": 1.70707667,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": -131.924133,
-                        "0 float y": -148.768402,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0202_11_m",
-                    "0 float m_scale": 1.45714855,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": -270.73822,
-                        "0 float y": -784.528809,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0203_11_m",
-                    "0 float m_scale": 1.34996653,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": -255.143677,
-                        "0 float y": -423.393066,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0402_41_m",
-                    "0 float m_scale": 1.25556087,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": -110.112686,
-                        "0 float y": -594.877625,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0203_21_m",
-                    "0 float m_scale": 2.25121403,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 150.111435,
-                        "0 float y": 429.752258,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0201_31_m",
-                    "0 float m_scale": 1.76758099,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 375.080719,
-                        "0 float y": -350.197266,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0401_11_m",
-                    "0 float m_scale": 1.29687953,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": -202.183517,
-                        "0 float y": 285.452606,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0402_11_m",
-                    "0 float m_scale": 1,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 184.899994,
-                        "0 float y": -505.400024,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }},
-                {"0 LocalMapSize data": 
-                {
-                    "1 string m_mapName": "ma_0002_32_m",
-                    "0 float m_scale": 0.98119092,
-                    "0 Vector3f m_pos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": -81.0463791,
-                        "0 float z": 0
-                    },
-                    "0 Vector2f m_mapMaxOffset": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0
-                    }
-                }}
-            ]
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0002_11",
+            "0 float m_scale": 1.28886878,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": -120.984833,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 60
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0002_61",
+            "0 float m_scale": 0.998145759,
+            "0 Vector3f m_pos": {
+              "0 float x": 90.7562866,
+              "0 float y": -37.1513977,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0002_41",
+            "0 float m_scale": 0.5740031,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": 8.78256226,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0002_51",
+            "0 float m_scale": 1.38903916,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": -44.2193604,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 30
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0002_81",
+            "0 float m_scale": 0.633610666,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": 59.8469238,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0002_71",
+            "0 float m_scale": 0.586215615,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": -12.4835205,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0001_21",
+            "0 float m_scale": 0.571619034,
+            "0 Vector3f m_pos": {
+              "0 float x": 19.9816284,
+              "0 float y": -83.0765991,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 150
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0001_31",
+            "0 float m_scale": 0.651414096,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": -31.4654846,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0402_11",
+            "0 float m_scale": 0.558633327,
+            "0 Vector3f m_pos": {
+              "0 float x": 6.83983231,
+              "0 float y": 39.1424408,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0402_21",
+            "0 float m_scale": 0.687483013,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": 45.8291016,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0402_31",
+            "0 float m_scale": 1.69713473,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": -56.5288086,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 100,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0402_41",
+            "0 float m_scale": 0.52381289,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": 42.4062805,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0401_21",
+            "0 float m_scale": 0.438598156,
+            "0 Vector3f m_pos": {
+              "0 float x": -73.2458954,
+              "0 float y": -60.46698,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 150
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0401_11",
+            "0 float m_scale": 0.483906955,
+            "0 Vector3f m_pos": {
+              "0 float x": 33.2984314,
+              "0 float y": 19.3652039,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0401_31",
+            "0 float m_scale": 0.419538051,
+            "0 Vector3f m_pos": {
+              "0 float x": 38.4909744,
+              "0 float y": -25.9073792,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 130
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0401_41",
+            "0 float m_scale": 0.435680389,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": -28.3404846,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 150
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0103_11",
+            "0 float m_scale": 0.844789624,
+            "0 Vector3f m_pos": {
+              "0 float x": 65.7514648,
+              "0 float y": -28.6226501,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0103_21",
+            "0 float m_scale": 0.856467128,
+            "0 Vector3f m_pos": {
+              "0 float x": -25.2942505,
+              "0 float y": 131.6026,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 50
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0203_11",
+            "0 float m_scale": 0.669373512,
+            "0 Vector3f m_pos": {
+              "0 float x": 36.2545166,
+              "0 float y": -2.71426392,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0203_21",
+            "0 float m_scale": 1.01592088,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": -47.9741211,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0203_31",
+            "0 float m_scale": 0.530913651,
+            "0 Vector3f m_pos": {
+              "0 float x": 48.1007767,
+              "0 float y": 72.6272583,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0201_41",
+            "0 float m_scale": 2.38636971,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": 180.76355,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0201_31",
+            "0 float m_scale": 0.642577827,
+            "0 Vector3f m_pos": {
+              "0 float x": 5.10876465,
+              "0 float y": 40.0453796,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0201_11",
+            "0 float m_scale": 0.576528132,
+            "0 Vector3f m_pos": {
+              "0 float x": -36.6131287,
+              "0 float y": 18.4282227,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0201_21",
+            "0 float m_scale": 2,
+            "0 Vector3f m_pos": {
+              "0 float x": 88.4102859,
+              "0 float y": 0,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0202_11",
+            "0 float m_scale": 0.48588562,
+            "0 Vector3f m_pos": {
+              "0 float x": 67.3735962,
+              "0 float y": 116.066223,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0104_11",
+            "0 float m_scale": 0.596556187,
+            "0 Vector3f m_pos": {
+              "0 float x": 11.1921997,
+              "0 float y": 73.9143982,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0101_11",
+            "0 float m_scale": 0.621022761,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": 32.9965515,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0102_11",
+            "0 float m_scale": 0.607433796,
+            "0 Vector3f m_pos": {
+              "0 float x": -58.9818268,
+              "0 float y": 77.3707886,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0102_21",
+            "0 float m_scale": 0.836905658,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": -77.6902771,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 80
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0600_00",
+            "0 float m_scale": 1.43776202,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": 0,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0600_00_m",
+            "0 float m_scale": 1.82223022,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": 0,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0101_11_m",
+            "0 float m_scale": 2,
+            "0 Vector3f m_pos": {
+              "0 float x": 160.25444,
+              "0 float y": -789.599976,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0104_11_m",
+            "0 float m_scale": 1.35461485,
+            "0 Vector3f m_pos": {
+              "0 float x": 273.632233,
+              "0 float y": -593.050476,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0001_21_m",
+            "0 float m_scale": 1.78032362,
+            "0 Vector3f m_pos": {
+              "0 float x": 52.0264282,
+              "0 float y": -727.084167,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0201_11_m",
+            "0 float m_scale": 1.27650225,
+            "0 Vector3f m_pos": {
+              "0 float x": 315.423737,
+              "0 float y": -585.659241,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0201_21_m",
+            "0 float m_scale": 1.70707667,
+            "0 Vector3f m_pos": {
+              "0 float x": -131.924133,
+              "0 float y": -148.768402,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0202_11_m",
+            "0 float m_scale": 1.45714855,
+            "0 Vector3f m_pos": {
+              "0 float x": -270.73822,
+              "0 float y": -784.528809,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0203_11_m",
+            "0 float m_scale": 1.34996653,
+            "0 Vector3f m_pos": {
+              "0 float x": -255.143677,
+              "0 float y": -423.393066,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0402_41_m",
+            "0 float m_scale": 1.25556087,
+            "0 Vector3f m_pos": {
+              "0 float x": -110.112686,
+              "0 float y": -594.877625,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0203_21_m",
+            "0 float m_scale": 2.25121403,
+            "0 Vector3f m_pos": {
+              "0 float x": 150.111435,
+              "0 float y": 429.752258,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0201_31_m",
+            "0 float m_scale": 1.76758099,
+            "0 Vector3f m_pos": {
+              "0 float x": 375.080719,
+              "0 float y": -350.197266,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0401_11_m",
+            "0 float m_scale": 1.29687953,
+            "0 Vector3f m_pos": {
+              "0 float x": -202.183517,
+              "0 float y": 285.452606,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0402_11_m",
+            "0 float m_scale": 1,
+            "0 Vector3f m_pos": {
+              "0 float x": 184.899994,
+              "0 float y": -505.400024,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
+        },
+        {
+          "0 LocalMapSize data": {
+            "1 string m_mapName": "ma_0002_32_m",
+            "0 float m_scale": 0.98119092,
+            "0 Vector3f m_pos": {
+              "0 float x": 0,
+              "0 float y": -81.0463791,
+              "0 float z": 0
+            },
+            "0 Vector2f m_mapMaxOffset": {
+              "0 float x": 0,
+              "0 float y": 0
+            }
+          }
         }
+      ]
     }
+  }
 }

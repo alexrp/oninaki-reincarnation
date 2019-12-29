@@ -1,1021 +1,1467 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -86958626775807310
+    },
+    "1 string m_Name": "MstRecordData_Character",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -86958626775807308
-        },
-        "1 string m_Name": "MstRecordData_Character",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Character",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Character",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_001",
-                                "1 string m_nameId": "CP_0000_01",
-                                "1 string m_modelId": "CN_0100",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0009_evt001"},
-                                        {"1 string data": "CV_cn0009_evt002"},
-                                        {"1 string data": "CV_cn0009_evt004"},
-                                        {"1 string data": "CV_cn0009_evt006"},
-                                        {"1 string data": "CV_cn0009_evt007"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_002",
-                                "1 string m_nameId": "CP_0000",
-                                "1 string m_modelId": "CP_0000",
-                                "1 string m_IllustId": "ILLUST_001",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cp0000_evt195"},
-                                        {"1 string data": "CV_cp0000_evt055"},
-                                        {"1 string data": "CV_cp0000_evt061"},
-                                        {"1 string data": "CV_cp0001_btl003"},
-                                        {"1 string data": "CV_cp0000_evt011"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_003",
-                                "1 string m_nameId": "CN_0001",
-                                "1 string m_modelId": "CN_0001",
-                                "1 string m_IllustId": "ILLUST_017",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0001_evt063"},
-                                        {"1 string data": "CV_cn0001_evt064"},
-                                        {"1 string data": "CV_cn0001_evt065"},
-                                        {"1 string data": "CV_cn0001_btl006"},
-                                        {"1 string data": "CV_cn0001_btl012"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 112070,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_004",
-                                "1 string m_nameId": "CP_1000:1",
-                                "1 string m_modelId": "CP_1000",
-                                "1 string m_IllustId": "ILLUST_002",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cp1000_evt1_d"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 112070,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_005",
-                                "1 string m_nameId": "CN_0040_01",
-                                "1 string m_modelId": "CN_0150",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0012_evt001"},
-                                        {"1 string data": "CV_cn0012_evt002"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_006",
-                                "1 string m_nameId": "CN_0040",
-                                "1 string m_modelId": "CN_0040",
-                                "1 string m_IllustId": "ILLUST_019",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0002_evt002"},
-                                        {"1 string data": "CV_cn0002_evt061_b"},
-                                        {"1 string data": "CV_cn0002_evt007"},
-                                        {"1 string data": "CV_cn0002_evt010"},
-                                        {"1 string data": "CV_cn0002_evt013"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_007",
-                                "1 string m_nameId": "CN_0050",
-                                "1 string m_modelId": "CN_0050",
-                                "1 string m_IllustId": "ILLUST_020",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0003_evt028"},
-                                        {"1 string data": "CV_cn0003_evt035"},
-                                        {"1 string data": "CV_cn0003_evt024"},
-                                        {"1 string data": "CV_cn0003_evt026"},
-                                        {"1 string data": "CV_cn0003_evt071"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_008",
-                                "1 string m_nameId": "CN_0020",
-                                "1 string m_modelId": "CN_0020",
-                                "1 string m_IllustId": "ILLUST_022",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0004_evt006"},
-                                        {"1 string data": "CV_cn0004_evt016"},
-                                        {"1 string data": "CV_cn0004_evt020"},
-                                        {"1 string data": "CV_cn0004_evt026_b"},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 122050,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_009",
-                                "1 string m_nameId": "CN_0010",
-                                "1 string m_modelId": "CN_0010",
-                                "1 string m_IllustId": "ILLUST_021",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0006_evt001"},
-                                        {"1 string data": "CV_cn0006_evt004"},
-                                        {"1 string data": "CV_cn0006_evt007"},
-                                        {"1 string data": "CV_cn0006_evt009"},
-                                        {"1 string data": "CV_cn0006_evt037"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 221020,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_010",
-                                "1 string m_nameId": "CN_0403",
-                                "1 string m_modelId": "CN_0403",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0023_evt001"},
-                                        {"1 string data": "CV_cn0023_evt002"},
-                                        {"1 string data": "CV_cn0023_evt004"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 112000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_011",
-                                "1 string m_nameId": "CN_0404",
-                                "1 string m_modelId": "CN_0404",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn1013_evt001"},
-                                        {"1 string data": "CV_cn1013_evt006"},
-                                        {"1 string data": "CV_cn1013_evt009"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 112000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_012",
-                                "1 string m_nameId": "CN_0405",
-                                "1 string m_modelId": "CN_0405",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn1013_evt101"},
-                                        {"1 string data": "CV_cn1013_evt102"},
-                                        {"1 string data": "CV_cn1013_evt106"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 112000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_013",
-                                "1 string m_nameId": "CN_0451",
-                                "1 string m_modelId": "CN_0451",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0024_evt005"},
-                                        {"1 string data": "CV_cn0024_evt001"},
-                                        {"1 string data": "CV_cn0024_evt006"},
-                                        {"1 string data": "CV_cn0024_evt010"},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 112000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_014",
-                                "1 string m_nameId": "CN_0452",
-                                "1 string m_modelId": "CN_0452",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0025_evt001"},
-                                        {"1 string data": "CV_cn0025_evt002"},
-                                        {"1 string data": "CV_cn0025_evt004"},
-                                        {"1 string data": "CV_cn0025_evt005"},
-                                        {"1 string data": "CV_cn0025_evt007"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 112000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_015",
-                                "1 string m_nameId": "CN_0402",
-                                "1 string m_modelId": "CN_0402",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0022_evt002"},
-                                        {"1 string data": "CV_ce9003_btl004"},
-                                        {"1 string data": "CV_cn0022_evt013"},
-                                        {"1 string data": "CV_ce9003_btl001"},
-                                        {"1 string data": "CV_cn0022_evt018"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 121010,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_016",
-                                "1 string m_nameId": "CN_0301",
-                                "1 string m_modelId": "CN_0302",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0014_evt002"},
-                                        {"1 string data": "CV_cn0014_evt006"},
-                                        {"1 string data": "CV_cn0014_evt007"},
-                                        {"1 string data": "CV_cn0014_evt008"},
-                                        {"1 string data": "CV_cn0014_evt012"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 112090,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_017",
-                                "1 string m_nameId": "CN_0201",
-                                "1 string m_modelId": "CN_0201",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0016_evt001"},
-                                        {"1 string data": "CV_cn0016_evt005"},
-                                        {"1 string data": "CV_cn0016_evt010"},
-                                        {"1 string data": "CV_cn0016_evt013"},
-                                        {"1 string data": "CV_cn0016_evt012"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 131110,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_018",
-                                "1 string m_nameId": "cn_name_1300_001",
-                                "1 string m_modelId": "CN_1300",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn1005_evt001"},
-                                        {"1 string data": "CV_cn1005_evt003"},
-                                        {"1 string data": "CV_cn1005_evt004"},
-                                        {"1 string data": "CV_cn1005_evt008"},
-                                        {"1 string data": "CV_cn1005_evt012"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 211070,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_019",
-                                "1 string m_nameId": "CN_0202",
-                                "1 string m_modelId": "CN_0300",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0021_evt002"},
-                                        {"1 string data": "CV_cn0021_evt008"},
-                                        {"1 string data": "CV_cn0021_evt011"},
-                                        {"1 string data": "CV_cn0021_evt015_b"},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 233040,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_020",
-                                "1 string m_nameId": "CK_0001",
-                                "1 string m_modelId": "CK_0001",
-                                "1 string m_IllustId": "ILLUST_006",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_ck0001_btl001"},
-                                        {"1 string data": "CV_ck0001_btl007"},
-                                        {"1 string data": "CV_ck0001_btl022"},
-                                        {"1 string data": "CV_ck0001_btl046"},
-                                        {"1 string data": "CV_ck0001_btl082"}
-                                    ]
-                                },
-                                "1 string m_counterName": "CK_0001",
-                                "0 int m_counterMin": 900,
-                                "0 int m_counterMax": 1000,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_021",
-                                "1 string m_nameId": "CK_0002",
-                                "1 string m_modelId": "CK_0002",
-                                "1 string m_IllustId": "ILLUST_007",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_ck0002_btl002"},
-                                        {"1 string data": "CV_ck0002_btl005"},
-                                        {"1 string data": "CV_ck0002_btl026"},
-                                        {"1 string data": "CV_ck0002_btl046"},
-                                        {"1 string data": "CV_ck0002_btl082"}
-                                    ]
-                                },
-                                "1 string m_counterName": "CK_0002",
-                                "0 int m_counterMin": 900,
-                                "0 int m_counterMax": 1000,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_022",
-                                "1 string m_nameId": "CK_0003",
-                                "1 string m_modelId": "CK_0003",
-                                "1 string m_IllustId": "ILLUST_008",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_ck0003_btl002"},
-                                        {"1 string data": "CV_ck0003_btl006"},
-                                        {"1 string data": "CV_ck0003_btl029"},
-                                        {"1 string data": "CV_ck0003_btl045_b"},
-                                        {"1 string data": "CV_ck0003_btl081"}
-                                    ]
-                                },
-                                "1 string m_counterName": "CK_0003",
-                                "0 int m_counterMin": 900,
-                                "0 int m_counterMax": 1000,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_023",
-                                "1 string m_nameId": "CK_0004",
-                                "1 string m_modelId": "CK_0004",
-                                "1 string m_IllustId": "ILLUST_009",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_ck0004_btl003"},
-                                        {"1 string data": "CV_ck0004_btl008_b"},
-                                        {"1 string data": "CV_ck0004_btl021"},
-                                        {"1 string data": "CV_ck0004_btl073"},
-                                        {"1 string data": "CV_ck0004_btl082"}
-                                    ]
-                                },
-                                "1 string m_counterName": "CK_0004",
-                                "0 int m_counterMin": 900,
-                                "0 int m_counterMax": 1000,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_024",
-                                "1 string m_nameId": "CK_0005",
-                                "1 string m_modelId": "CK_0005",
-                                "1 string m_IllustId": "ILLUST_010",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_ck0005_btl001"},
-                                        {"1 string data": "CV_ck0005_btl005"},
-                                        {"1 string data": "CV_ck0005_btl027"},
-                                        {"1 string data": "CV_ck0005_btl046"},
-                                        {"1 string data": "CV_ck0005_btl081"}
-                                    ]
-                                },
-                                "1 string m_counterName": "CK_0005",
-                                "0 int m_counterMin": 900,
-                                "0 int m_counterMax": 1000,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_025",
-                                "1 string m_nameId": "CK_0006",
-                                "1 string m_modelId": "CK_0006",
-                                "1 string m_IllustId": "ILLUST_011",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_ck0006_btl002"},
-                                        {"1 string data": "CV_ck0006_btl005"},
-                                        {"1 string data": "CV_ck0006_btl022"},
-                                        {"1 string data": "CV_ck0006_btl046"},
-                                        {"1 string data": "CV_ck0006_btl080"}
-                                    ]
-                                },
-                                "1 string m_counterName": "CK_0006",
-                                "0 int m_counterMin": 900,
-                                "0 int m_counterMax": 1000,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_026",
-                                "1 string m_nameId": "CK_0007",
-                                "1 string m_modelId": "CK_0007",
-                                "1 string m_IllustId": "ILLUST_012",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_ck0007_btl004"},
-                                        {"1 string data": "CV_ck0007_btl005"},
-                                        {"1 string data": "CV_ck0007_btl027"},
-                                        {"1 string data": "CV_ck0007_btl048_b"},
-                                        {"1 string data": "CV_ck0007_btl081"}
-                                    ]
-                                },
-                                "1 string m_counterName": "CK_0007",
-                                "0 int m_counterMin": 900,
-                                "0 int m_counterMax": 1000,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_027",
-                                "1 string m_nameId": "CK_0008",
-                                "1 string m_modelId": "CK_0008",
-                                "1 string m_IllustId": "ILLUST_013",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_ck0008_btl003"},
-                                        {"1 string data": "CV_ck0008_btl005"},
-                                        {"1 string data": "CV_ck0008_btl022"},
-                                        {"1 string data": "CV_ck0008_btl046"},
-                                        {"1 string data": "CV_ck0008_btl080"}
-                                    ]
-                                },
-                                "1 string m_counterName": "CK_0008",
-                                "0 int m_counterMin": 900,
-                                "0 int m_counterMax": 1000,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_028",
-                                "1 string m_nameId": "CK_0009",
-                                "1 string m_modelId": "CK_0009",
-                                "1 string m_IllustId": "ILLUST_014",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_ck0009_btl001"},
-                                        {"1 string data": "CV_ck0009_btl005"},
-                                        {"1 string data": "CV_ck0009_btl030"},
-                                        {"1 string data": "CV_ck0009_btl040"},
-                                        {"1 string data": "CV_ck0009_btl080"}
-                                    ]
-                                },
-                                "1 string m_counterName": "CK_0009",
-                                "0 int m_counterMin": 900,
-                                "0 int m_counterMax": 1000,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_029",
-                                "1 string m_nameId": "CK_0011",
-                                "1 string m_modelId": "CK_0011",
-                                "1 string m_IllustId": "ILLUST_015",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_ck0011_btl002"},
-                                        {"1 string data": "CV_ck0011_btl009"},
-                                        {"1 string data": "CV_ck0011_btl021"},
-                                        {"1 string data": "CV_ck0011_btl040"},
-                                        {"1 string data": "CV_ck0011_btl080"}
-                                    ]
-                                },
-                                "1 string m_counterName": "CK_0011",
-                                "0 int m_counterMin": 900,
-                                "0 int m_counterMax": 1000,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_030",
-                                "1 string m_nameId": "CK_0012",
-                                "1 string m_modelId": "CK_0012",
-                                "1 string m_IllustId": "ILLUST_016",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_ck0012_evt401"},
-                                        {"1 string data": "CV_ck0012_evt405"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "CK_0012",
-                                "0 int m_counterMin": 900,
-                                "0 int m_counterMax": 1000,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_031",
-                                "1 string m_nameId": "CN_9999",
-                                "1 string m_modelId": "CP_1001",
-                                "1 string m_IllustId": "ILLUST_004",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cp0001_btl011"},
-                                        {"1 string data": "CV_cp0000_evt189"},
-                                        {"1 string data": "CV_cp0000_evt156"},
-                                        {"1 string data": "CV_cp0001_btl027"},
-                                        {"1 string data": "CV_cp0001_btl123"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 311020,
-                                "0 int m_counterMax": 333020,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_032",
-                                "1 string m_nameId": "CP_0000_02",
-                                "1 string m_modelId": "CP_1001",
-                                "1 string m_IllustId": "ILLUST_004",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cp0001_btl011"},
-                                        {"1 string data": "CV_cp0000_evt189"},
-                                        {"1 string data": "CV_cp0000_evt156"},
-                                        {"1 string data": "CV_cp0001_btl027"},
-                                        {"1 string data": "CV_cp0001_btl123"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 333030,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_033",
-                                "1 string m_nameId": "CP_1000",
-                                "1 string m_modelId": "CP_1004",
-                                "1 string m_IllustId": "ILLUST_002",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cp2000_evt027"},
-                                        {"1 string data": "CV_cp1000_evt005"},
-                                        {"1 string data": "CV_cp1000_evt011"},
-                                        {"1 string data": "CV_cp1000_evt013"},
-                                        {"1 string data": "CV_cp1000_evt025"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 333030,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_034",
-                                "1 string m_nameId": "CN_0050_01",
-                                "1 string m_modelId": "CN_0051",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0003_evt101"},
-                                        {"1 string data": "CV_cn0003_evt106"},
-                                        {"1 string data": "CV_cn0003_evt110"},
-                                        {"1 string data": "CV_cn0003_evt125"},
-                                        {"1 string data": "CV_cn0003_evt133"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 312080,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_035",
-                                "1 string m_nameId": "CN_0151",
-                                "1 string m_modelId": "CN_0151",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0013_evt004"},
-                                        {"1 string data": "CV_cn0013_evt004"},
-                                        {"1 string data": "CV_cn0013_evt008"},
-                                        {"1 string data": "CV_cn0013_evt009"},
-                                        {"1 string data": "CV_cn0013_evt012_c"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 312080,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_036",
-                                "1 string m_nameId": "CN_0101",
-                                "1 string m_modelId": "CN_0101",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0010_evt005"},
-                                        {"1 string data": "CV_cn0010_evt006"},
-                                        {"1 string data": "CV_cn0010_evt022_c"},
-                                        {"1 string data": "CV_cn0010_evt008"},
-                                        {"1 string data": "CV_cn0010_evt010"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 321110,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_037",
-                                "1 string m_nameId": "CN_0202_01",
-                                "1 string m_modelId": "CN_0202",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0017_evt001"},
-                                        {"1 string data": "CV_cn0017_evt003"},
-                                        {"1 string data": "CV_cn0017_evt009"},
-                                        {"1 string data": "CV_cn0017_evt011"},
-                                        {"1 string data": "CV_cn0017_evt012_b"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 333030,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_038",
-                                "1 string m_nameId": "CN_0203",
-                                "1 string m_modelId": "CN_0203",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0018_evt007_c"},
-                                        {"1 string data": "CV_cn0018_evt013"},
-                                        {"1 string data": "CV_cn0018_evt021"},
-                                        {"1 string data": "CV_cn0018_evt014_c"},
-                                        {"1 string data": "CV_cn0018_evt019"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 422090,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_039",
-                                "1 string m_nameId": "CN_0102",
-                                "1 string m_modelId": "CN_0204",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0019_evt002"},
-                                        {"1 string data": "CV_cn0011_evt001"},
-                                        {"1 string data": "CV_cn0011_evt006"},
-                                        {"1 string data": "CV_cn0019_evt014"},
-                                        {"1 string data": "CV_cn0019_evt020"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 423030,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_040",
-                                "1 string m_nameId": "CN_0501",
-                                "1 string m_modelId": "CN_0501",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0027_evt001"},
-                                        {"1 string data": "CV_cn0027_evt004"},
-                                        {"1 string data": "CV_cn0027_evt006"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 332030,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_041",
-                                "1 string m_nameId": "CN_0502",
-                                "1 string m_modelId": "CN_0502",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_ce9004_btl001"},
-                                        {"1 string data": "CV_ce9004_btl009"},
-                                        {"1 string data": "CV_ce9004_btl020"},
-                                        {"1 string data": "CV_ce9004_btl024"},
-                                        {"1 string data": "CV_ce9004_btl014"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 332030,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_042",
-                                "1 string m_nameId": "CN_0003",
-                                "1 string m_modelId": "CN_0003",
-                                "1 string m_IllustId": "ILLUST_018",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0005_evt005"},
-                                        {"1 string data": "CV_cn0005_evt052"},
-                                        {"1 string data": "CV_cn0005_evt053"},
-                                        {"1 string data": "CV_cn0005_evt001"},
-                                        {"1 string data": "CV_cn0005_evt027"}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 411020,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_043",
-                                "1 string m_nameId": "CN_0010_01",
-                                "1 string m_modelId": "CN_0011",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0006_evt101"},
-                                        {"1 string data": "CV_cn0006_evt103"},
-                                        {"1 string data": "CV_cn0006_evt105"},
-                                        {"1 string data": "CV_cn0006_evt108"},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 421000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_044",
-                                "1 string m_nameId": "CN_0020_01",
-                                "1 string m_modelId": "CN_0021",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0004_evt109"},
-                                        {"1 string data": "CV_cn0004_evt110"},
-                                        {"1 string data": "CV_cn0004_evt114"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 421000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CHAR_045",
-                                "1 string m_nameId": "CN_0005",
-                                "1 string m_modelId": "CN_0005",
-                                "1 string m_IllustId": "",
-                                "0 vector m_voiceIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CV_cn0007_evt002"},
-                                        {"1 string data": "CV_cn0007_evt005"},
-                                        {"1 string data": "CV_cn0007_evt006"},
-                                        {"1 string data": "CV_cn0007_evt001_b"},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 431005,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "クリア済み",
-                                "1 string m_disableFlag": ""
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_001",
+                    "1 string m_nameId": "CP_0000_01",
+                    "1 string m_modelId": "CN_0100",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0009_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn0009_evt002"
+                        },
+                        {
+                          "1 string data": "CV_cn0009_evt004"
+                        },
+                        {
+                          "1 string data": "CV_cn0009_evt006"
+                        },
+                        {
+                          "1 string data": "CV_cn0009_evt007"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_002",
+                    "1 string m_nameId": "CP_0000",
+                    "1 string m_modelId": "CP_0000",
+                    "1 string m_IllustId": "ILLUST_001",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cp0000_evt195"
+                        },
+                        {
+                          "1 string data": "CV_cp0000_evt055"
+                        },
+                        {
+                          "1 string data": "CV_cp0000_evt061"
+                        },
+                        {
+                          "1 string data": "CV_cp0001_btl003"
+                        },
+                        {
+                          "1 string data": "CV_cp0000_evt011"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_003",
+                    "1 string m_nameId": "CN_0001",
+                    "1 string m_modelId": "CN_0001",
+                    "1 string m_IllustId": "ILLUST_017",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0001_evt063"
+                        },
+                        {
+                          "1 string data": "CV_cn0001_evt064"
+                        },
+                        {
+                          "1 string data": "CV_cn0001_evt065"
+                        },
+                        {
+                          "1 string data": "CV_cn0001_btl006"
+                        },
+                        {
+                          "1 string data": "CV_cn0001_btl012"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 112070,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_004",
+                    "1 string m_nameId": "CP_1000:1",
+                    "1 string m_modelId": "CP_1000",
+                    "1 string m_IllustId": "ILLUST_002",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cp1000_evt1_d"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 112070,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_005",
+                    "1 string m_nameId": "CN_0040_01",
+                    "1 string m_modelId": "CN_0150",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0012_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn0012_evt002"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_006",
+                    "1 string m_nameId": "CN_0040",
+                    "1 string m_modelId": "CN_0040",
+                    "1 string m_IllustId": "ILLUST_019",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0002_evt002"
+                        },
+                        {
+                          "1 string data": "CV_cn0002_evt061_b"
+                        },
+                        {
+                          "1 string data": "CV_cn0002_evt007"
+                        },
+                        {
+                          "1 string data": "CV_cn0002_evt010"
+                        },
+                        {
+                          "1 string data": "CV_cn0002_evt013"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_007",
+                    "1 string m_nameId": "CN_0050",
+                    "1 string m_modelId": "CN_0050",
+                    "1 string m_IllustId": "ILLUST_020",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0003_evt028"
+                        },
+                        {
+                          "1 string data": "CV_cn0003_evt035"
+                        },
+                        {
+                          "1 string data": "CV_cn0003_evt024"
+                        },
+                        {
+                          "1 string data": "CV_cn0003_evt026"
+                        },
+                        {
+                          "1 string data": "CV_cn0003_evt071"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_008",
+                    "1 string m_nameId": "CN_0020",
+                    "1 string m_modelId": "CN_0020",
+                    "1 string m_IllustId": "ILLUST_022",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0004_evt006"
+                        },
+                        {
+                          "1 string data": "CV_cn0004_evt016"
+                        },
+                        {
+                          "1 string data": "CV_cn0004_evt020"
+                        },
+                        {
+                          "1 string data": "CV_cn0004_evt026_b"
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 122050,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_009",
+                    "1 string m_nameId": "CN_0010",
+                    "1 string m_modelId": "CN_0010",
+                    "1 string m_IllustId": "ILLUST_021",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0006_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn0006_evt004"
+                        },
+                        {
+                          "1 string data": "CV_cn0006_evt007"
+                        },
+                        {
+                          "1 string data": "CV_cn0006_evt009"
+                        },
+                        {
+                          "1 string data": "CV_cn0006_evt037"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 221020,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_010",
+                    "1 string m_nameId": "CN_0403",
+                    "1 string m_modelId": "CN_0403",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0023_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn0023_evt002"
+                        },
+                        {
+                          "1 string data": "CV_cn0023_evt004"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 112000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_011",
+                    "1 string m_nameId": "CN_0404",
+                    "1 string m_modelId": "CN_0404",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn1013_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn1013_evt006"
+                        },
+                        {
+                          "1 string data": "CV_cn1013_evt009"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 112000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_012",
+                    "1 string m_nameId": "CN_0405",
+                    "1 string m_modelId": "CN_0405",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn1013_evt101"
+                        },
+                        {
+                          "1 string data": "CV_cn1013_evt102"
+                        },
+                        {
+                          "1 string data": "CV_cn1013_evt106"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 112000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_013",
+                    "1 string m_nameId": "CN_0451",
+                    "1 string m_modelId": "CN_0451",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0024_evt005"
+                        },
+                        {
+                          "1 string data": "CV_cn0024_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn0024_evt006"
+                        },
+                        {
+                          "1 string data": "CV_cn0024_evt010"
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 112000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_014",
+                    "1 string m_nameId": "CN_0452",
+                    "1 string m_modelId": "CN_0452",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0025_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn0025_evt002"
+                        },
+                        {
+                          "1 string data": "CV_cn0025_evt004"
+                        },
+                        {
+                          "1 string data": "CV_cn0025_evt005"
+                        },
+                        {
+                          "1 string data": "CV_cn0025_evt007"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 112000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_015",
+                    "1 string m_nameId": "CN_0402",
+                    "1 string m_modelId": "CN_0402",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0022_evt002"
+                        },
+                        {
+                          "1 string data": "CV_ce9003_btl004"
+                        },
+                        {
+                          "1 string data": "CV_cn0022_evt013"
+                        },
+                        {
+                          "1 string data": "CV_ce9003_btl001"
+                        },
+                        {
+                          "1 string data": "CV_cn0022_evt018"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 121010,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_016",
+                    "1 string m_nameId": "CN_0301",
+                    "1 string m_modelId": "CN_0302",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0014_evt002"
+                        },
+                        {
+                          "1 string data": "CV_cn0014_evt006"
+                        },
+                        {
+                          "1 string data": "CV_cn0014_evt007"
+                        },
+                        {
+                          "1 string data": "CV_cn0014_evt008"
+                        },
+                        {
+                          "1 string data": "CV_cn0014_evt012"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 112090,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_017",
+                    "1 string m_nameId": "CN_0201",
+                    "1 string m_modelId": "CN_0201",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0016_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn0016_evt005"
+                        },
+                        {
+                          "1 string data": "CV_cn0016_evt010"
+                        },
+                        {
+                          "1 string data": "CV_cn0016_evt013"
+                        },
+                        {
+                          "1 string data": "CV_cn0016_evt012"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 131110,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_018",
+                    "1 string m_nameId": "cn_name_1300_001",
+                    "1 string m_modelId": "CN_1300",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn1005_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn1005_evt003"
+                        },
+                        {
+                          "1 string data": "CV_cn1005_evt004"
+                        },
+                        {
+                          "1 string data": "CV_cn1005_evt008"
+                        },
+                        {
+                          "1 string data": "CV_cn1005_evt012"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 211070,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_019",
+                    "1 string m_nameId": "CN_0202",
+                    "1 string m_modelId": "CN_0300",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0021_evt002"
+                        },
+                        {
+                          "1 string data": "CV_cn0021_evt008"
+                        },
+                        {
+                          "1 string data": "CV_cn0021_evt011"
+                        },
+                        {
+                          "1 string data": "CV_cn0021_evt015_b"
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 233040,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_020",
+                    "1 string m_nameId": "CK_0001",
+                    "1 string m_modelId": "CK_0001",
+                    "1 string m_IllustId": "ILLUST_006",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_ck0001_btl001"
+                        },
+                        {
+                          "1 string data": "CV_ck0001_btl007"
+                        },
+                        {
+                          "1 string data": "CV_ck0001_btl022"
+                        },
+                        {
+                          "1 string data": "CV_ck0001_btl046"
+                        },
+                        {
+                          "1 string data": "CV_ck0001_btl082"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "CK_0001",
+                    "0 int m_counterMin": 900,
+                    "0 int m_counterMax": 1000,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_021",
+                    "1 string m_nameId": "CK_0002",
+                    "1 string m_modelId": "CK_0002",
+                    "1 string m_IllustId": "ILLUST_007",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_ck0002_btl002"
+                        },
+                        {
+                          "1 string data": "CV_ck0002_btl005"
+                        },
+                        {
+                          "1 string data": "CV_ck0002_btl026"
+                        },
+                        {
+                          "1 string data": "CV_ck0002_btl046"
+                        },
+                        {
+                          "1 string data": "CV_ck0002_btl082"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "CK_0002",
+                    "0 int m_counterMin": 900,
+                    "0 int m_counterMax": 1000,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_022",
+                    "1 string m_nameId": "CK_0003",
+                    "1 string m_modelId": "CK_0003",
+                    "1 string m_IllustId": "ILLUST_008",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_ck0003_btl002"
+                        },
+                        {
+                          "1 string data": "CV_ck0003_btl006"
+                        },
+                        {
+                          "1 string data": "CV_ck0003_btl029"
+                        },
+                        {
+                          "1 string data": "CV_ck0003_btl045_b"
+                        },
+                        {
+                          "1 string data": "CV_ck0003_btl081"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "CK_0003",
+                    "0 int m_counterMin": 900,
+                    "0 int m_counterMax": 1000,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_023",
+                    "1 string m_nameId": "CK_0004",
+                    "1 string m_modelId": "CK_0004",
+                    "1 string m_IllustId": "ILLUST_009",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_ck0004_btl003"
+                        },
+                        {
+                          "1 string data": "CV_ck0004_btl008_b"
+                        },
+                        {
+                          "1 string data": "CV_ck0004_btl021"
+                        },
+                        {
+                          "1 string data": "CV_ck0004_btl073"
+                        },
+                        {
+                          "1 string data": "CV_ck0004_btl082"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "CK_0004",
+                    "0 int m_counterMin": 900,
+                    "0 int m_counterMax": 1000,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_024",
+                    "1 string m_nameId": "CK_0005",
+                    "1 string m_modelId": "CK_0005",
+                    "1 string m_IllustId": "ILLUST_010",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_ck0005_btl001"
+                        },
+                        {
+                          "1 string data": "CV_ck0005_btl005"
+                        },
+                        {
+                          "1 string data": "CV_ck0005_btl027"
+                        },
+                        {
+                          "1 string data": "CV_ck0005_btl046"
+                        },
+                        {
+                          "1 string data": "CV_ck0005_btl081"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "CK_0005",
+                    "0 int m_counterMin": 900,
+                    "0 int m_counterMax": 1000,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_025",
+                    "1 string m_nameId": "CK_0006",
+                    "1 string m_modelId": "CK_0006",
+                    "1 string m_IllustId": "ILLUST_011",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_ck0006_btl002"
+                        },
+                        {
+                          "1 string data": "CV_ck0006_btl005"
+                        },
+                        {
+                          "1 string data": "CV_ck0006_btl022"
+                        },
+                        {
+                          "1 string data": "CV_ck0006_btl046"
+                        },
+                        {
+                          "1 string data": "CV_ck0006_btl080"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "CK_0006",
+                    "0 int m_counterMin": 900,
+                    "0 int m_counterMax": 1000,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_026",
+                    "1 string m_nameId": "CK_0007",
+                    "1 string m_modelId": "CK_0007",
+                    "1 string m_IllustId": "ILLUST_012",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_ck0007_btl004"
+                        },
+                        {
+                          "1 string data": "CV_ck0007_btl005"
+                        },
+                        {
+                          "1 string data": "CV_ck0007_btl027"
+                        },
+                        {
+                          "1 string data": "CV_ck0007_btl048_b"
+                        },
+                        {
+                          "1 string data": "CV_ck0007_btl081"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "CK_0007",
+                    "0 int m_counterMin": 900,
+                    "0 int m_counterMax": 1000,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_027",
+                    "1 string m_nameId": "CK_0008",
+                    "1 string m_modelId": "CK_0008",
+                    "1 string m_IllustId": "ILLUST_013",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_ck0008_btl003"
+                        },
+                        {
+                          "1 string data": "CV_ck0008_btl005"
+                        },
+                        {
+                          "1 string data": "CV_ck0008_btl022"
+                        },
+                        {
+                          "1 string data": "CV_ck0008_btl046"
+                        },
+                        {
+                          "1 string data": "CV_ck0008_btl080"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "CK_0008",
+                    "0 int m_counterMin": 900,
+                    "0 int m_counterMax": 1000,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_028",
+                    "1 string m_nameId": "CK_0009",
+                    "1 string m_modelId": "CK_0009",
+                    "1 string m_IllustId": "ILLUST_014",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_ck0009_btl001"
+                        },
+                        {
+                          "1 string data": "CV_ck0009_btl005"
+                        },
+                        {
+                          "1 string data": "CV_ck0009_btl030"
+                        },
+                        {
+                          "1 string data": "CV_ck0009_btl040"
+                        },
+                        {
+                          "1 string data": "CV_ck0009_btl080"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "CK_0009",
+                    "0 int m_counterMin": 900,
+                    "0 int m_counterMax": 1000,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_029",
+                    "1 string m_nameId": "CK_0011",
+                    "1 string m_modelId": "CK_0011",
+                    "1 string m_IllustId": "ILLUST_015",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_ck0011_btl002"
+                        },
+                        {
+                          "1 string data": "CV_ck0011_btl009"
+                        },
+                        {
+                          "1 string data": "CV_ck0011_btl021"
+                        },
+                        {
+                          "1 string data": "CV_ck0011_btl040"
+                        },
+                        {
+                          "1 string data": "CV_ck0011_btl080"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "CK_0011",
+                    "0 int m_counterMin": 900,
+                    "0 int m_counterMax": 1000,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_030",
+                    "1 string m_nameId": "CK_0012",
+                    "1 string m_modelId": "CK_0012",
+                    "1 string m_IllustId": "ILLUST_016",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_ck0012_evt401"
+                        },
+                        {
+                          "1 string data": "CV_ck0012_evt405"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "CK_0012",
+                    "0 int m_counterMin": 900,
+                    "0 int m_counterMax": 1000,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_031",
+                    "1 string m_nameId": "CN_9999",
+                    "1 string m_modelId": "CP_1001",
+                    "1 string m_IllustId": "ILLUST_004",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cp0001_btl011"
+                        },
+                        {
+                          "1 string data": "CV_cp0000_evt189"
+                        },
+                        {
+                          "1 string data": "CV_cp0000_evt156"
+                        },
+                        {
+                          "1 string data": "CV_cp0001_btl027"
+                        },
+                        {
+                          "1 string data": "CV_cp0001_btl123"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 311020,
+                    "0 int m_counterMax": 333020,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_032",
+                    "1 string m_nameId": "CP_0000_02",
+                    "1 string m_modelId": "CP_1001",
+                    "1 string m_IllustId": "ILLUST_004",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cp0001_btl011"
+                        },
+                        {
+                          "1 string data": "CV_cp0000_evt189"
+                        },
+                        {
+                          "1 string data": "CV_cp0000_evt156"
+                        },
+                        {
+                          "1 string data": "CV_cp0001_btl027"
+                        },
+                        {
+                          "1 string data": "CV_cp0001_btl123"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 333030,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_033",
+                    "1 string m_nameId": "CP_1000",
+                    "1 string m_modelId": "CP_1004",
+                    "1 string m_IllustId": "ILLUST_002",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cp2000_evt027"
+                        },
+                        {
+                          "1 string data": "CV_cp1000_evt005"
+                        },
+                        {
+                          "1 string data": "CV_cp1000_evt011"
+                        },
+                        {
+                          "1 string data": "CV_cp1000_evt013"
+                        },
+                        {
+                          "1 string data": "CV_cp1000_evt025"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 333030,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_034",
+                    "1 string m_nameId": "CN_0050_01",
+                    "1 string m_modelId": "CN_0051",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0003_evt101"
+                        },
+                        {
+                          "1 string data": "CV_cn0003_evt106"
+                        },
+                        {
+                          "1 string data": "CV_cn0003_evt110"
+                        },
+                        {
+                          "1 string data": "CV_cn0003_evt125"
+                        },
+                        {
+                          "1 string data": "CV_cn0003_evt133"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 312080,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_035",
+                    "1 string m_nameId": "CN_0151",
+                    "1 string m_modelId": "CN_0151",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0013_evt004"
+                        },
+                        {
+                          "1 string data": "CV_cn0013_evt004"
+                        },
+                        {
+                          "1 string data": "CV_cn0013_evt008"
+                        },
+                        {
+                          "1 string data": "CV_cn0013_evt009"
+                        },
+                        {
+                          "1 string data": "CV_cn0013_evt012_c"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 312080,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_036",
+                    "1 string m_nameId": "CN_0101",
+                    "1 string m_modelId": "CN_0101",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0010_evt005"
+                        },
+                        {
+                          "1 string data": "CV_cn0010_evt006"
+                        },
+                        {
+                          "1 string data": "CV_cn0010_evt022_c"
+                        },
+                        {
+                          "1 string data": "CV_cn0010_evt008"
+                        },
+                        {
+                          "1 string data": "CV_cn0010_evt010"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 321110,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_037",
+                    "1 string m_nameId": "CN_0202_01",
+                    "1 string m_modelId": "CN_0202",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0017_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn0017_evt003"
+                        },
+                        {
+                          "1 string data": "CV_cn0017_evt009"
+                        },
+                        {
+                          "1 string data": "CV_cn0017_evt011"
+                        },
+                        {
+                          "1 string data": "CV_cn0017_evt012_b"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 333030,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_038",
+                    "1 string m_nameId": "CN_0203",
+                    "1 string m_modelId": "CN_0203",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0018_evt007_c"
+                        },
+                        {
+                          "1 string data": "CV_cn0018_evt013"
+                        },
+                        {
+                          "1 string data": "CV_cn0018_evt021"
+                        },
+                        {
+                          "1 string data": "CV_cn0018_evt014_c"
+                        },
+                        {
+                          "1 string data": "CV_cn0018_evt019"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 422090,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_039",
+                    "1 string m_nameId": "CN_0102",
+                    "1 string m_modelId": "CN_0204",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0019_evt002"
+                        },
+                        {
+                          "1 string data": "CV_cn0011_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn0011_evt006"
+                        },
+                        {
+                          "1 string data": "CV_cn0019_evt014"
+                        },
+                        {
+                          "1 string data": "CV_cn0019_evt020"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 423030,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_040",
+                    "1 string m_nameId": "CN_0501",
+                    "1 string m_modelId": "CN_0501",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0027_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn0027_evt004"
+                        },
+                        {
+                          "1 string data": "CV_cn0027_evt006"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 332030,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_041",
+                    "1 string m_nameId": "CN_0502",
+                    "1 string m_modelId": "CN_0502",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_ce9004_btl001"
+                        },
+                        {
+                          "1 string data": "CV_ce9004_btl009"
+                        },
+                        {
+                          "1 string data": "CV_ce9004_btl020"
+                        },
+                        {
+                          "1 string data": "CV_ce9004_btl024"
+                        },
+                        {
+                          "1 string data": "CV_ce9004_btl014"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 332030,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_042",
+                    "1 string m_nameId": "CN_0003",
+                    "1 string m_modelId": "CN_0003",
+                    "1 string m_IllustId": "ILLUST_018",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0005_evt005"
+                        },
+                        {
+                          "1 string data": "CV_cn0005_evt052"
+                        },
+                        {
+                          "1 string data": "CV_cn0005_evt053"
+                        },
+                        {
+                          "1 string data": "CV_cn0005_evt001"
+                        },
+                        {
+                          "1 string data": "CV_cn0005_evt027"
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 411020,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_043",
+                    "1 string m_nameId": "CN_0010_01",
+                    "1 string m_modelId": "CN_0011",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0006_evt101"
+                        },
+                        {
+                          "1 string data": "CV_cn0006_evt103"
+                        },
+                        {
+                          "1 string data": "CV_cn0006_evt105"
+                        },
+                        {
+                          "1 string data": "CV_cn0006_evt108"
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 421000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_044",
+                    "1 string m_nameId": "CN_0020_01",
+                    "1 string m_modelId": "CN_0021",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0004_evt109"
+                        },
+                        {
+                          "1 string data": "CV_cn0004_evt110"
+                        },
+                        {
+                          "1 string data": "CV_cn0004_evt114"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 421000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CHAR_045",
+                    "1 string m_nameId": "CN_0005",
+                    "1 string m_modelId": "CN_0005",
+                    "1 string m_IllustId": "",
+                    "0 vector m_voiceIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CV_cn0007_evt002"
+                        },
+                        {
+                          "1 string data": "CV_cn0007_evt005"
+                        },
+                        {
+                          "1 string data": "CV_cn0007_evt006"
+                        },
+                        {
+                          "1 string data": "CV_cn0007_evt001_b"
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 431005,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "クリア済み",
+                    "1 string m_disableFlag": ""
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

@@ -1,43 +1,40 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -1625727507297127000
+    },
+    "1 string m_Name": "MstGlobalBattleData_Kotowari",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -1625727507297126873
-        },
-        "1 string m_Name": "MstGlobalBattleData_Kotowari",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Kotowari",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Kotowari",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "0 float m_nearDistanceMax": 0.100000001,
-                                "0 float m_nearDistanceMin": 1,
-                                "0 float m_farDistanceMax": 10,
-                                "0 float m_farDistanceMin": 5,
-                                "0 float m_farReactionDistance": 5,
-                                "0 float m_timeHealIntervalPlayer": 10,
-                                "0 float m_timeHealIntervalEnemy": 10,
-                                "0 int m_reflectReactionPower": 300,
-                                "1 string m_reflectReactionId": "RCT_BLOW_003"
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "0 float m_nearDistanceMax": 0.100000001,
+                    "0 float m_nearDistanceMin": 1,
+                    "0 float m_farDistanceMax": 10,
+                    "0 float m_farDistanceMin": 5,
+                    "0 float m_farReactionDistance": 5,
+                    "0 float m_timeHealIntervalPlayer": 10,
+                    "0 float m_timeHealIntervalEnemy": 10,
+                    "0 int m_reflectReactionPower": 300,
+                    "1 string m_reflectReactionId": "RCT_BLOW_003"
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

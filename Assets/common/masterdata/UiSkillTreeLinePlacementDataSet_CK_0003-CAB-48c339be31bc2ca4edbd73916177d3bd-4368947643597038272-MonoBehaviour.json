@@ -1,823 +1,871 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 1330301913293655600
+    },
+    "1 string m_Name": "UiSkillTreeLinePlacementDataSet_CK_0003",
+    "0 UiSkillTreeLinePlacementInfoData m_linePlacementList": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
+                {
+                  "1 string data": "LINE_001"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_01",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 340.600037,
+              "0 float y": 0,
+              "0 float z": 2.60003042
+            }
+          }
         },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 1330301913293655636
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
+                {
+                  "1 string data": "LINE_002"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_02",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 473.849976,
+              "0 float y": 0,
+              "0 float z": -0.650007606
+            }
+          }
         },
-        "1 string m_Name": "UiSkillTreeLinePlacementDataSet_CK_0003",
-        "0 UiSkillTreeLinePlacementInfoData m_linePlacementList": 
         {
-            "0 Array Array": [
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_001"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_01",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 340.600037,
-                        "0 float y": 0,
-                        "0 float z": 2.60003042
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_003"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_03",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 613.599976,
+              "0 float y": 0,
+              "0 float z": -1.95010233
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_002"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_02",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 473.849976,
-                        "0 float y": 0,
-                        "0 float z": -0.650007606
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_004"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_04",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 794.300049,
+              "0 float y": 0,
+              "0 float z": 0.650007606
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_003"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_03",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 613.599976,
-                        "0 float y": 0,
-                        "0 float z": -1.95010233
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_005"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_05",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 893.749878,
+              "0 float y": 0,
+              "0 float z": 82.5499268
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_004"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_04",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 794.300049,
-                        "0 float y": 0,
-                        "0 float z": 0.650007606
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_006"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_06",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 894.399902,
+              "0 float y": 0,
+              "0 float z": 273
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_005"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_05",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 893.749878,
-                        "0 float y": 0,
-                        "0 float z": 82.5499268
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_007"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_07",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 830.699951,
+              "0 float y": 0,
+              "0 float z": 417.82016
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_006"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_06",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 894.399902,
-                        "0 float y": 0,
-                        "0 float z": 273
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_008"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_08",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 962.649963,
+              "0 float y": 0,
+              "0 float z": 403.650177
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_007"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_07",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 830.699951,
-                        "0 float y": 0,
-                        "0 float z": 417.82016
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_009"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_09",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 872.950073,
+              "0 float y": 0,
+              "0 float z": 542.099976
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_008"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_08",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 962.649963,
-                        "0 float y": 0,
-                        "0 float z": 403.650177
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_010"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_10",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 665.599976,
+              "0 float y": 0,
+              "0 float z": 685.750122
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_009"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_09",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 872.950073,
-                        "0 float y": 0,
-                        "0 float z": 542.099976
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_011"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_11",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 508.299988,
+              "0 float y": 0,
+              "0 float z": 659.750122
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_010"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_10",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 665.599976,
-                        "0 float y": 0,
-                        "0 float z": 685.750122
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_012"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_12",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 399.75,
+              "0 float y": 0,
+              "0 float z": 661.699951
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_011"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_11",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 508.299988,
-                        "0 float y": 0,
-                        "0 float z": 659.750122
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_013"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_13",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 197.600037,
+              "0 float y": 0,
+              "0 float z": 663.650024
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_012"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_12",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 399.75,
-                        "0 float y": 0,
-                        "0 float z": 661.699951
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_014"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_14",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 684.449829,
+              "0 float y": 0,
+              "0 float z": 581.099976
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_013"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_13",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 197.600037,
-                        "0 float y": 0,
-                        "0 float z": 663.650024
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_015"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_15",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 601.899963,
+              "0 float y": 0,
+              "0 float z": 456.300079
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_014"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_14",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 684.449829,
-                        "0 float y": 0,
-                        "0 float z": 581.099976
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_016"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_16",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 457.599976,
+              "0 float y": 0,
+              "0 float z": 432.250183
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_015"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_15",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 601.899963,
-                        "0 float y": 0,
-                        "0 float z": 456.300079
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_017"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_17",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 669.5,
+              "0 float y": 0,
+              "0 float z": 361.400085
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_016"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_16",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 457.599976,
-                        "0 float y": 0,
-                        "0 float z": 432.250183
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_018"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_18",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 696.80011,
+              "0 float y": 0,
+              "0 float z": 227.499954
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_017"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_17",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 669.5,
-                        "0 float y": 0,
-                        "0 float z": 361.400085
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_019"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_19",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 654.549988,
+              "0 float y": 0,
+              "0 float z": 507.000183
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_018"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_18",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 696.80011,
-                        "0 float y": 0,
-                        "0 float z": 227.499954
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_020"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_20",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 646.099976,
+              "0 float y": 0,
+              "0 float z": 432.250183
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_019"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_19",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 654.549988,
-                        "0 float y": 0,
-                        "0 float z": 507.000183
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_021"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_21",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 911.950134,
+              "0 float y": 0,
+              "0 float z": -88.4000015
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_020"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_20",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 646.099976,
-                        "0 float y": 0,
-                        "0 float z": 432.250183
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_022"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_22",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 904.812988,
+              "0 float y": 0,
+              "0 float z": -261.949951
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_021"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_21",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 911.950134,
-                        "0 float y": 0,
-                        "0 float z": -88.4000015
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_023"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_23",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 945.099976,
+              "0 float y": 0,
+              "0 float z": -401.700073
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_022"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_22",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 904.812988,
-                        "0 float y": 0,
-                        "0 float z": -261.949951
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_024"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_24",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 893.099976,
+              "0 float y": 0,
+              "0 float z": -527.80011
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_023"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_23",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 945.099976,
-                        "0 float y": 0,
-                        "0 float z": -401.700073
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_025"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_25",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 739.699829,
+              "0 float y": 0,
+              "0 float z": -624
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_024"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_24",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 893.099976,
-                        "0 float y": 0,
-                        "0 float z": -527.80011
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_026"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_26",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 672.75,
+              "0 float y": 0,
+              "0 float z": -704.600037
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_025"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_25",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 739.699829,
-                        "0 float y": 0,
-                        "0 float z": -624
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_027"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_27",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 516.099915,
+              "0 float y": 0,
+              "0 float z": -779.350037
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_026"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_26",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 672.75,
-                        "0 float y": 0,
-                        "0 float z": -704.600037
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_028"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_28",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 317.849915,
+              "0 float y": 0,
+              "0 float z": -754.649963
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_027"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_27",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 516.099915,
-                        "0 float y": 0,
-                        "0 float z": -779.350037
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_029"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_29",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 147.549988,
+              "0 float y": 0,
+              "0 float z": -605.149963
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_028"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_28",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 317.849915,
-                        "0 float y": 0,
-                        "0 float z": -754.649963
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_030"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_30",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 81.25,
+              "0 float y": 0,
+              "0 float z": -650.000183
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_029"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_29",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 147.549988,
-                        "0 float y": 0,
-                        "0 float z": -605.149963
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_031"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_31",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -21.4499969,
+              "0 float y": 0,
+              "0 float z": -690.30011
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_030"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_30",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 81.25,
-                        "0 float y": 0,
-                        "0 float z": -650.000183
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_032"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_32",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -82.5499954,
+              "0 float y": 0,
+              "0 float z": -726.699951
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_031"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_31",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -21.4499969,
-                        "0 float y": 0,
-                        "0 float z": -690.30011
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_033"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_33",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -254.799988,
+              "0 float y": 0,
+              "0 float z": -729.950012
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_032"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_32",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -82.5499954,
-                        "0 float y": 0,
-                        "0 float z": -726.699951
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_034"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_34",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 256.099976,
+              "0 float y": 0,
+              "0 float z": -192.400024
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_033"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_33",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -254.799988,
-                        "0 float y": 0,
-                        "0 float z": -729.950012
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_035"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_35",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 352.949982,
+              "0 float y": 0,
+              "0 float z": -225.550003
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_034"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_34",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 256.099976,
-                        "0 float y": 0,
-                        "0 float z": -192.400024
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_036"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_36",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 622.050049,
+              "0 float y": 0,
+              "0 float z": -237.899994
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_035"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_35",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 352.949982,
-                        "0 float y": 0,
-                        "0 float z": -225.550003
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_037"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_37",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 282.099976,
+              "0 float y": 0,
+              "0 float z": -288.600098
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_036"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_36",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 622.050049,
-                        "0 float y": 0,
-                        "0 float z": -237.899994
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_038"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_38",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 278.199982,
+              "0 float y": 0,
+              "0 float z": -440.049957
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_037"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_37",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 282.099976,
-                        "0 float y": 0,
-                        "0 float z": -288.600098
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_039"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_39",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 199.550003,
+              "0 float y": 0,
+              "0 float z": -540.799927
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_038"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_38",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 278.199982,
-                        "0 float y": 0,
-                        "0 float z": -440.049957
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_040"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_40",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 351,
+              "0 float y": 0,
+              "0 float z": -551.849976
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_039"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_39",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 199.550003,
-                        "0 float y": 0,
-                        "0 float z": -540.799927
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_041"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_41",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 466.049927,
+              "0 float y": 0,
+              "0 float z": -521.949951
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_040"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_40",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 351,
-                        "0 float y": 0,
-                        "0 float z": -551.849976
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_042"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_42",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 429.649994,
+              "0 float y": 0,
+              "0 float z": -634.399963
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_041"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_41",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 466.049927,
-                        "0 float y": 0,
-                        "0 float z": -521.949951
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_043"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_43",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 321.099976,
+              "0 float y": 0,
+              "0 float z": -685.099976
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_042"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_42",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 429.649994,
-                        "0 float y": 0,
-                        "0 float z": -634.399963
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_044"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_44",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 538.836975,
+              "0 float y": 0,
+              "0 float z": -553.82605
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_043"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_43",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 321.099976,
-                        "0 float y": 0,
-                        "0 float z": -685.099976
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_045"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_45",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 612.949951,
+              "0 float y": 0,
+              "0 float z": -677.429993
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_044"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_44",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 538.836975,
-                        "0 float y": 0,
-                        "0 float z": -553.82605
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_046"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_46",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 572.649963,
+              "0 float y": 0,
+              "0 float z": -474.499969
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_045"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_45",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 612.949951,
-                        "0 float y": 0,
-                        "0 float z": -677.429993
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_047"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_47",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 666.899963,
+              "0 float y": 0,
+              "0 float z": -536.25
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_046"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_46",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 572.649963,
-                        "0 float y": 0,
-                        "0 float z": -474.499969
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_048"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_48",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 734.5,
+              "0 float y": 0,
+              "0 float z": -484.900177
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_047"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_47",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 666.899963,
-                        "0 float y": 0,
-                        "0 float z": -536.25
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_049"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_49",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 839.149963,
+              "0 float y": 0,
+              "0 float z": -434.199982
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeLinePlacementInfoData data": {
+            "0 vector m_ids": {
+              "1 Array Array": [
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_048"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_48",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 734.5,
-                        "0 float y": 0,
-                        "0 float z": -484.900177
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
+                  "1 string data": "LINE_019"
+                },
                 {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_049"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_49",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 839.149963,
-                        "0 float y": 0,
-                        "0 float z": -434.199982
-                    }
-                }},
-                {"0 UiSkillTreeLinePlacementInfoData data": 
-                {
-                    "0 vector m_ids": 
-                    {
-                        "1 Array Array": [
-                            {"1 string data": "LINE_019"},
-                            {"1 string data": "LINE_020"}
-                        ]
-                    },
-                    "1 string m_spriteName": "@uin_tree_03_50",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 735.799988,
-                        "0 float y": 0,
-                        "0 float z": 484.900085
-                    }
-                }}
-            ]
+                  "1 string data": "LINE_020"
+                }
+              ]
+            },
+            "1 string m_spriteName": "@uin_tree_03_50",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 735.799988,
+              "0 float y": 0,
+              "0 float z": 484.900085
+            }
+          }
         }
+      ]
     }
+  }
 }

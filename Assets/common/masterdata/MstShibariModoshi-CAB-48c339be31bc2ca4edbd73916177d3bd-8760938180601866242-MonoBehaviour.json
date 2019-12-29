@@ -1,89 +1,117 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 8633627182855072000
+    },
+    "1 string m_Name": "MstShibariModoshi",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 8633627182855072121
-        },
-        "1 string m_Name": "MstShibariModoshi",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "ShibariModoshi",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "ShibariModoshi",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "ma_0201_41",
-                                "1 string m_placementId": "GIMMICK_01",
-                                "1 vector m_isAreaBoss": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 UInt8 data": 1},
-                                        {"0 UInt8 data": 0},
-                                        {"0 UInt8 data": 0}
-                                    ]
-                                },
-                                "0 vector m_areaBossMapId": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "ma_0201_41"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_areaBossNo": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 0},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "ma_0203_21",
-                                "1 string m_placementId": "GIMMICK_03",
-                                "1 vector m_isAreaBoss": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 UInt8 data": 1},
-                                        {"0 UInt8 data": 0},
-                                        {"0 UInt8 data": 0}
-                                    ]
-                                },
-                                "0 vector m_areaBossMapId": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "ma_0203_21"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_areaBossNo": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 0},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                }
-                            }}
-                        ]
+                  "0 Param data": {
+                    "1 string m_mapName": "ma_0201_41",
+                    "1 string m_placementId": "GIMMICK_01",
+                    "1 vector m_isAreaBoss": {
+                      "1 Array Array": [
+                        {
+                          "0 UInt8 data": 1
+                        },
+                        {
+                          "0 UInt8 data": 0
+                        },
+                        {
+                          "0 UInt8 data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_areaBossMapId": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "ma_0201_41"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_areaBossNo": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
                     }
-                }}
-            ]
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "ma_0203_21",
+                    "1 string m_placementId": "GIMMICK_03",
+                    "1 vector m_isAreaBoss": {
+                      "1 Array Array": [
+                        {
+                          "0 UInt8 data": 1
+                        },
+                        {
+                          "0 UInt8 data": 0
+                        },
+                        {
+                          "0 UInt8 data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_areaBossMapId": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "ma_0203_21"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_areaBossNo": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

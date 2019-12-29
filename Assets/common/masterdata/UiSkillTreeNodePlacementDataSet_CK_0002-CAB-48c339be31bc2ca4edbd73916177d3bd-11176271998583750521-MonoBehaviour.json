@@ -1,443 +1,439 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 7672875373575844000
+    },
+    "1 string m_Name": "UiSkillTreeNodePlacementDataSet_CK_0002",
+    "1 string m_startNodeId": "NODE_001",
+    "0 UiSkillTreeNodePlacementInfoData m_nodePlacementList": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_001",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 288.799988,
+              "0 float y": 0,
+              "0 float z": 0
+            }
+          }
         },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 7672875373575843815
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_002",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 455.799988,
+              "0 float y": 0,
+              "0 float z": 0
+            }
+          }
         },
-        "1 string m_Name": "UiSkillTreeNodePlacementDataSet_CK_0002",
-        "1 string m_startNodeId": "NODE_001",
-        "0 UiSkillTreeNodePlacementInfoData m_nodePlacementList": 
         {
-            "0 Array Array": [
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_001",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 288.799988,
-                        "0 float y": 0,
-                        "0 float z": 0
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_002",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 455.799988,
-                        "0 float y": 0,
-                        "0 float z": 0
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_003",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 798.400024,
-                        "0 float y": 0,
-                        "0 float z": 0
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_004",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 1073.80005,
-                        "0 float y": 0,
-                        "0 float z": 0
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_005",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 405,
-                        "0 float y": 0,
-                        "0 float z": 273.375092
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_006",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 409.5,
-                        "0 float y": 0,
-                        "0 float z": -273.375031
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_007",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 623.5,
-                        "0 float y": 0,
-                        "0 float z": 188.699997
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_008",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 623,
-                        "0 float y": 0,
-                        "0 float z": -187
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_009",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 822.099976,
-                        "0 float y": 0,
-                        "0 float z": 250.199997
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_010",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 822.400024,
-                        "0 float y": 0,
-                        "0 float z": -249.699997
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_011",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 0,
-                        "0 float y": 0,
-                        "0 float z": -332.399994
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_012",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -345.262482,
-                        "0 float y": 0,
-                        "0 float z": -413
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_013",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 349.100006,
-                        "0 float y": 0,
-                        "0 float z": -414.5
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_014",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -159.300003,
-                        "0 float y": 0,
-                        "0 float z": -503.700012
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_015",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 150.899994,
-                        "0 float y": 0,
-                        "0 float z": -507.700012
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_016",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -0.899999976,
-                        "0 float y": 0,
-                        "0 float z": -672.099976
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_017",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -219.699997,
-                        "0 float y": 0,
-                        "0 float z": -723.099976
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_018",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 1.29999995,
-                        "0 float y": 0,
-                        "0 float z": -836.400024
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_019",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 223.600006,
-                        "0 float y": 0,
-                        "0 float z": -719.799988
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_020",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -115,
-                        "0 float y": 0,
-                        "0 float z": -976.500061
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_021",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 115,
-                        "0 float y": 0,
-                        "0 float z": -976.500061
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_022",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -287.399994,
-                        "0 float y": 1.54013815e-005,
-                        "0 float z": 0
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_023",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -458.700012,
-                        "0 float y": 1.40012562e-005,
-                        "0 float z": 0.400000006
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_024",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -794.200012,
-                        "0 float y": 1.37329098e-005,
-                        "0 float z": 0.400000006
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_025",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -1071.30005,
-                        "0 float y": 1.40012562e-005,
-                        "0 float z": 3.4000001
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_026",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -409.799988,
-                        "0 float y": 3.02124026e-005,
-                        "0 float z": 273.375092
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_027",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -405.000061,
-                        "0 float y": -2.26593002e-005,
-                        "0 float z": -273.375031
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_028",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -621,
-                        "0 float y": 1.37329098e-005,
-                        "0 float z": 187.800003
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_029",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -624.299988,
-                        "0 float y": -2.74658196e-005,
-                        "0 float z": -188.399994
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_030",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -823.799988,
-                        "0 float y": 0,
-                        "0 float z": 253.199997
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_031",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -820.799988,
-                        "0 float y": 2.90759035e-005,
-                        "0 float z": -247.899994
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_032",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -1.29999995,
-                        "0 float y": 0,
-                        "0 float z": 335.100006
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_033",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -345.262482,
-                        "0 float y": 0,
-                        "0 float z": 417.5
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_034",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 345.262482,
-                        "0 float y": 0,
-                        "0 float z": 413.399994
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_035",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -151.899994,
-                        "0 float y": 0,
-                        "0 float z": 509.200012
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_036",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 158.800003,
-                        "0 float y": 0,
-                        "0 float z": 508.100006
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_037",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -0.400000006,
-                        "0 float y": 0,
-                        "0 float z": 677.400024
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_038",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -220.899994,
-                        "0 float y": 0,
-                        "0 float z": 721.200012
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_039",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -0.800000012,
-                        "0 float y": 0,
-                        "0 float z": 839.400024
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_040",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 219.100006,
-                        "0 float y": 0,
-                        "0 float z": 725.200012
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_041",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": -115.099998,
-                        "0 float y": 0,
-                        "0 float z": 976.5
-                    }
-                }},
-                {"0 UiSkillTreeNodePlacementInfoData data": 
-                {
-                    "1 string m_id": "NODE_042",
-                    "0 Vector3f m_placementPos": 
-                    {
-                        "0 float x": 109.799995,
-                        "0 float y": 0,
-                        "0 float z": 976.5
-                    }
-                }}
-            ]
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_003",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 798.400024,
+              "0 float y": 0,
+              "0 float z": 0
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_004",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 1073.80005,
+              "0 float y": 0,
+              "0 float z": 0
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_005",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 405,
+              "0 float y": 0,
+              "0 float z": 273.375092
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_006",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 409.5,
+              "0 float y": 0,
+              "0 float z": -273.375031
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_007",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 623.5,
+              "0 float y": 0,
+              "0 float z": 188.699997
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_008",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 623,
+              "0 float y": 0,
+              "0 float z": -187
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_009",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 822.099976,
+              "0 float y": 0,
+              "0 float z": 250.199997
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_010",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 822.400024,
+              "0 float y": 0,
+              "0 float z": -249.699997
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_011",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 0,
+              "0 float y": 0,
+              "0 float z": -332.399994
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_012",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -345.262482,
+              "0 float y": 0,
+              "0 float z": -413
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_013",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 349.100006,
+              "0 float y": 0,
+              "0 float z": -414.5
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_014",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -159.300003,
+              "0 float y": 0,
+              "0 float z": -503.700012
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_015",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 150.899994,
+              "0 float y": 0,
+              "0 float z": -507.700012
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_016",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -0.899999976,
+              "0 float y": 0,
+              "0 float z": -672.099976
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_017",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -219.699997,
+              "0 float y": 0,
+              "0 float z": -723.099976
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_018",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 1.29999995,
+              "0 float y": 0,
+              "0 float z": -836.400024
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_019",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 223.600006,
+              "0 float y": 0,
+              "0 float z": -719.799988
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_020",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -115,
+              "0 float y": 0,
+              "0 float z": -976.500061
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_021",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 115,
+              "0 float y": 0,
+              "0 float z": -976.500061
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_022",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -287.399994,
+              "0 float y": 0.0000154013815,
+              "0 float z": 0
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_023",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -458.700012,
+              "0 float y": 0.0000140012562,
+              "0 float z": 0.400000006
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_024",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -794.200012,
+              "0 float y": 0.0000137329098,
+              "0 float z": 0.400000006
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_025",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -1071.30005,
+              "0 float y": 0.0000140012562,
+              "0 float z": 3.4000001
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_026",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -409.799988,
+              "0 float y": 0.0000302124026,
+              "0 float z": 273.375092
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_027",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -405.000061,
+              "0 float y": -0.0000226593002,
+              "0 float z": -273.375031
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_028",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -621,
+              "0 float y": 0.0000137329098,
+              "0 float z": 187.800003
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_029",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -624.299988,
+              "0 float y": -0.0000274658196,
+              "0 float z": -188.399994
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_030",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -823.799988,
+              "0 float y": 0,
+              "0 float z": 253.199997
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_031",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -820.799988,
+              "0 float y": 0.0000290759035,
+              "0 float z": -247.899994
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_032",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -1.29999995,
+              "0 float y": 0,
+              "0 float z": 335.100006
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_033",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -345.262482,
+              "0 float y": 0,
+              "0 float z": 417.5
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_034",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 345.262482,
+              "0 float y": 0,
+              "0 float z": 413.399994
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_035",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -151.899994,
+              "0 float y": 0,
+              "0 float z": 509.200012
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_036",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 158.800003,
+              "0 float y": 0,
+              "0 float z": 508.100006
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_037",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -0.400000006,
+              "0 float y": 0,
+              "0 float z": 677.400024
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_038",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -220.899994,
+              "0 float y": 0,
+              "0 float z": 721.200012
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_039",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -0.800000012,
+              "0 float y": 0,
+              "0 float z": 839.400024
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_040",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 219.100006,
+              "0 float y": 0,
+              "0 float z": 725.200012
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_041",
+            "0 Vector3f m_placementPos": {
+              "0 float x": -115.099998,
+              "0 float y": 0,
+              "0 float z": 976.5
+            }
+          }
+        },
+        {
+          "0 UiSkillTreeNodePlacementInfoData data": {
+            "1 string m_id": "NODE_042",
+            "0 Vector3f m_placementPos": {
+              "0 float x": 109.799995,
+              "0 float y": 0,
+              "0 float z": 976.5
+            }
+          }
         }
+      ]
     }
+  }
 }

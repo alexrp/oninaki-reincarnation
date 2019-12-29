@@ -1,54 +1,56 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 5125956030668795000
+    },
+    "1 string m_Name": "MstShadowEnemyData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 5125956030668794588
-        },
-        "1 string m_Name": "MstShadowEnemyData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Global",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Global",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "0 vector m_modelId": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CE_0132"},
-                                        {"1 string data": "CE_0131"},
-                                        {"1 string data": "CE_0130"}
-                                    ]
-                                },
-                                "0 float m_contactRadius": 0.5,
-                                "0 float m_moveDistance": 30,
-                                "0 float m_moveStartDistance": 15,
-                                "0 float m_moveSpeedMin": 2,
-                                "0 float m_moveSpeedMax": 4,
-                                "0 int m_spinSpeedMin": 180,
-                                "0 int m_spinSpeedMax": 180,
-                                "0 int m_spinSpeedChangeAngle": 0,
-                                "0 int m_spinSpeedLimitAngle": 360,
-                                "0 int m_scaleMin": 200,
-                                "0 int m_scaleMax": 250,
-                                "0 float m_vanishTime": 40
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "0 vector m_modelId": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CE_0132"
+                        },
+                        {
+                          "1 string data": "CE_0131"
+                        },
+                        {
+                          "1 string data": "CE_0130"
+                        }
+                      ]
+                    },
+                    "0 float m_contactRadius": 0.5,
+                    "0 float m_moveDistance": 30,
+                    "0 float m_moveStartDistance": 15,
+                    "0 float m_moveSpeedMin": 2,
+                    "0 float m_moveSpeedMax": 4,
+                    "0 int m_spinSpeedMin": 180,
+                    "0 int m_spinSpeedMax": 180,
+                    "0 int m_spinSpeedChangeAngle": 0,
+                    "0 int m_spinSpeedLimitAngle": 360,
+                    "0 int m_scaleMin": 200,
+                    "0 int m_scaleMax": 250,
+                    "0 float m_vanishTime": 40
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

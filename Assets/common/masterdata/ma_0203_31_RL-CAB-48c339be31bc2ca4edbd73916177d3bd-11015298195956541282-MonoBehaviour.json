@@ -1,139 +1,141 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 3977095387942362000
+    },
+    "1 string m_Name": "ma_0203_31_RL",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 3977095387942362066
-        },
-        "1 string m_Name": "ma_0203_31_RL",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Route",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Route",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "L_SOUND_LINE_01",
-                                "0 int m_routeType": 4,
-                                "0 float m_width": 0,
-                                "0 float m_posX": -62.9000015,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": -85.0999985,
-                                "0 float m_rotY": 0,
-                                "0 float m_sizeX": 5,
-                                "0 float m_sizeZ": 5,
-                                "0 int m_collisionType": 2,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_routeType": 4,
-                                "0 float m_width": 0,
-                                "0 float m_posX": 67.6899948,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": -82,
-                                "0 float m_rotY": 0,
-                                "0 float m_sizeX": 5,
-                                "0 float m_sizeZ": 5,
-                                "0 int m_collisionType": 2,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "L_SOUND_LINE_02",
-                                "0 int m_routeType": 4,
-                                "0 float m_width": 0,
-                                "0 float m_posX": -62.9000015,
-                                "0 float m_posY": 2.97000003,
-                                "0 float m_posZ": 43.7000008,
-                                "0 float m_rotY": 0,
-                                "0 float m_sizeX": 5,
-                                "0 float m_sizeZ": 5,
-                                "0 int m_collisionType": 2,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_routeType": 4,
-                                "0 float m_width": 0,
-                                "0 float m_posX": -16.1000023,
-                                "0 float m_posY": 2.97000003,
-                                "0 float m_posZ": 24.1000004,
-                                "0 float m_rotY": 0,
-                                "0 float m_sizeX": 5,
-                                "0 float m_sizeZ": 5,
-                                "0 int m_collisionType": 2,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_routeType": 4,
-                                "0 float m_width": 0,
-                                "0 float m_posX": 10.5,
-                                "0 float m_posY": 2.97000003,
-                                "0 float m_posZ": 11.9000015,
-                                "0 float m_rotY": 0,
-                                "0 float m_sizeX": 5,
-                                "0 float m_sizeZ": 5,
-                                "0 int m_collisionType": 2,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_routeType": 4,
-                                "0 float m_width": 0,
-                                "0 float m_posX": 68.7999954,
-                                "0 float m_posY": 2.97000003,
-                                "0 float m_posZ": 11.9000015,
-                                "0 float m_rotY": 0,
-                                "0 float m_sizeX": 5,
-                                "0 float m_sizeZ": 5,
-                                "0 int m_collisionType": 2,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "L_SOUND_LINE_01",
+                    "0 int m_routeType": 4,
+                    "0 float m_width": 0,
+                    "0 float m_posX": -62.9000015,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": -85.0999985,
+                    "0 float m_rotY": 0,
+                    "0 float m_sizeX": 5,
+                    "0 float m_sizeZ": 5,
+                    "0 int m_collisionType": 2,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_routeType": 4,
+                    "0 float m_width": 0,
+                    "0 float m_posX": 67.6899948,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": -82,
+                    "0 float m_rotY": 0,
+                    "0 float m_sizeX": 5,
+                    "0 float m_sizeZ": 5,
+                    "0 int m_collisionType": 2,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "L_SOUND_LINE_02",
+                    "0 int m_routeType": 4,
+                    "0 float m_width": 0,
+                    "0 float m_posX": -62.9000015,
+                    "0 float m_posY": 2.97000003,
+                    "0 float m_posZ": 43.7000008,
+                    "0 float m_rotY": 0,
+                    "0 float m_sizeX": 5,
+                    "0 float m_sizeZ": 5,
+                    "0 int m_collisionType": 2,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_routeType": 4,
+                    "0 float m_width": 0,
+                    "0 float m_posX": -16.1000023,
+                    "0 float m_posY": 2.97000003,
+                    "0 float m_posZ": 24.1000004,
+                    "0 float m_rotY": 0,
+                    "0 float m_sizeX": 5,
+                    "0 float m_sizeZ": 5,
+                    "0 int m_collisionType": 2,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_routeType": 4,
+                    "0 float m_width": 0,
+                    "0 float m_posX": 10.5,
+                    "0 float m_posY": 2.97000003,
+                    "0 float m_posZ": 11.9000015,
+                    "0 float m_rotY": 0,
+                    "0 float m_sizeX": 5,
+                    "0 float m_sizeZ": 5,
+                    "0 int m_collisionType": 2,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_routeType": 4,
+                    "0 float m_width": 0,
+                    "0 float m_posX": 68.7999954,
+                    "0 float m_posY": 2.97000003,
+                    "0 float m_posZ": 11.9000015,
+                    "0 float m_rotY": 0,
+                    "0 float m_sizeX": 5,
+                    "0 float m_sizeZ": 5,
+                    "0 int m_collisionType": 2,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

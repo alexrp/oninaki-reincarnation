@@ -1,40 +1,37 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -8125710565572031000
+    },
+    "1 string m_Name": "MstGlobalPlayerAccessData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -8125710565572031309
-        },
-        "1 string m_Name": "MstGlobalPlayerAccessData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "PlayerAccess",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "PlayerAccess",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "0 float m_playerAccessRadius": 1.5,
-                                "0 float m_playerAccessAngle": 90,
-                                "0 float m_playerAccessHeight": 2,
-                                "0 float m_playerAccessOffsetX": 0,
-                                "0 float m_playerAccessOffsetY": 0,
-                                "0 float m_playerAccessOffsetZ": 0
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "0 float m_playerAccessRadius": 1.5,
+                    "0 float m_playerAccessAngle": 90,
+                    "0 float m_playerAccessHeight": 2,
+                    "0 float m_playerAccessOffsetX": 0,
+                    "0 float m_playerAccessOffsetY": 0,
+                    "0 float m_playerAccessOffsetZ": 0
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

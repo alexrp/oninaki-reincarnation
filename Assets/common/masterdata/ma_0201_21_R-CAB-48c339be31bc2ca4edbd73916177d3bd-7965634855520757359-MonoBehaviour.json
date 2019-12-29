@@ -1,157 +1,160 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 3977095387942362000
+    },
+    "1 string m_Name": "ma_0201_21_R",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 3977095387942362066
-        },
-        "1 string m_Name": "ma_0201_21_R",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Route",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Route",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "FIX_01",
-                                "0 int m_routeType": 0,
-                                "0 float m_width": 0,
-                                "0 float m_posX": 10.0100002,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": -7.61600018,
-                                "0 float m_rotY": 0,
-                                "0 float m_sizeX": 0,
-                                "0 float m_sizeZ": 0,
-                                "0 int m_collisionType": 1,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "FIX_02",
-                                "0 int m_routeType": 0,
-                                "0 float m_width": 0,
-                                "0 float m_posX": 27.6299992,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 12.3389997,
-                                "0 float m_rotY": 234.986816,
-                                "0 float m_sizeX": 0,
-                                "0 float m_sizeZ": 0,
-                                "0 int m_collisionType": 1,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "FIX_03",
-                                "0 int m_routeType": 0,
-                                "0 float m_width": 0,
-                                "0 float m_posX": -1.22599995,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 20.8990002,
-                                "0 float m_rotY": 143.862198,
-                                "0 float m_sizeX": 0,
-                                "0 float m_sizeZ": 0,
-                                "0 int m_collisionType": 1,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "FIX_04",
-                                "0 int m_routeType": 0,
-                                "0 float m_width": 0,
-                                "0 float m_posX": 10.0100002,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": -16.4099998,
-                                "0 float m_rotY": 180,
-                                "0 float m_sizeX": 0,
-                                "0 float m_sizeZ": 0,
-                                "0 int m_collisionType": 1,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "FIX_05",
-                                "0 int m_routeType": 0,
-                                "0 float m_width": 0,
-                                "0 float m_posX": 34.6199989,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 10.79,
-                                "0 float m_rotY": 262.027588,
-                                "0 float m_sizeX": 0,
-                                "0 float m_sizeZ": 0,
-                                "0 int m_collisionType": 1,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "FIX_06",
-                                "0 int m_routeType": 0,
-                                "0 float m_width": 0,
-                                "0 float m_posX": -5.59000015,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 25.9300003,
-                                "0 float m_rotY": 134.845306,
-                                "0 float m_sizeX": 0,
-                                "0 float m_sizeZ": 0,
-                                "0 int m_collisionType": 1,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "FIX_07",
-                                "0 int m_routeType": 0,
-                                "0 float m_width": 0,
-                                "0 float m_posX": 9.98999977,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 25.3239994,
-                                "0 float m_rotY": 180,
-                                "0 float m_sizeX": 0,
-                                "0 float m_sizeZ": 0,
-                                "0 int m_collisionType": 1,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "FIX_01",
+                    "0 int m_routeType": 0,
+                    "0 float m_width": 0,
+                    "0 float m_posX": 10.0100002,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": -7.61600018,
+                    "0 float m_rotY": 0,
+                    "0 float m_sizeX": 0,
+                    "0 float m_sizeZ": 0,
+                    "0 int m_collisionType": 1,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "FIX_02",
+                    "0 int m_routeType": 0,
+                    "0 float m_width": 0,
+                    "0 float m_posX": 27.6299992,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 12.3389997,
+                    "0 float m_rotY": 234.986816,
+                    "0 float m_sizeX": 0,
+                    "0 float m_sizeZ": 0,
+                    "0 int m_collisionType": 1,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "FIX_03",
+                    "0 int m_routeType": 0,
+                    "0 float m_width": 0,
+                    "0 float m_posX": -1.22599995,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 20.8990002,
+                    "0 float m_rotY": 143.862198,
+                    "0 float m_sizeX": 0,
+                    "0 float m_sizeZ": 0,
+                    "0 int m_collisionType": 1,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "FIX_04",
+                    "0 int m_routeType": 0,
+                    "0 float m_width": 0,
+                    "0 float m_posX": 10.0100002,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": -16.4099998,
+                    "0 float m_rotY": 180,
+                    "0 float m_sizeX": 0,
+                    "0 float m_sizeZ": 0,
+                    "0 int m_collisionType": 1,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "FIX_05",
+                    "0 int m_routeType": 0,
+                    "0 float m_width": 0,
+                    "0 float m_posX": 34.6199989,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 10.79,
+                    "0 float m_rotY": 262.027588,
+                    "0 float m_sizeX": 0,
+                    "0 float m_sizeZ": 0,
+                    "0 int m_collisionType": 1,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "FIX_06",
+                    "0 int m_routeType": 0,
+                    "0 float m_width": 0,
+                    "0 float m_posX": -5.59000015,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 25.9300003,
+                    "0 float m_rotY": 134.845306,
+                    "0 float m_sizeX": 0,
+                    "0 float m_sizeZ": 0,
+                    "0 int m_collisionType": 1,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "FIX_07",
+                    "0 int m_routeType": 0,
+                    "0 float m_width": 0,
+                    "0 float m_posX": 9.98999977,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 25.3239994,
+                    "0 float m_rotY": 180,
+                    "0 float m_sizeX": 0,
+                    "0 float m_sizeZ": 0,
+                    "0 int m_collisionType": 1,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

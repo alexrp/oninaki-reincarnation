@@ -1,185 +1,188 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -2951270119944230000
+    },
+    "1 string m_Name": "MstBattleLockonCursorData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -2951270119944230120
-        },
-        "1 string m_Name": "MstBattleLockonCursorData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Common",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Common",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "LOCK_PC06_101",
-                                "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
-                                "0 int m_effectScale": 40,
-                                "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
-                                "0 int m_hitEffectScale": 0,
-                                "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
-                                "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
-                                "0 int m_definitionEffectScale": 80,
-                                "1 string m_definitionSeId": "",
-                                "0 int m_radius": 75,
-                                "0 int m_height": 1000,
-                                "0 int m_moveSpeed": 12,
-                                "1 string m_startPositionNode": "",
-                                "0 int m_startPositionOffsetX": 0,
-                                "0 int m_startPositionOffsetY": 0,
-                                "0 int m_startPositionOffsetZ": 100,
-                                "0 int m_totalLockonNum": 1,
-                                "0 int m_personalLockonNum": 1,
-                                "0 int m_definitionTime": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "LOCK_PC06_103",
-                                "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
-                                "0 int m_effectScale": 40,
-                                "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
-                                "0 int m_hitEffectScale": 0,
-                                "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
-                                "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
-                                "0 int m_definitionEffectScale": 80,
-                                "1 string m_definitionSeId": "",
-                                "0 int m_radius": 75,
-                                "0 int m_height": 1000,
-                                "0 int m_moveSpeed": 12,
-                                "1 string m_startPositionNode": "",
-                                "0 int m_startPositionOffsetX": 0,
-                                "0 int m_startPositionOffsetY": 0,
-                                "0 int m_startPositionOffsetZ": 100,
-                                "0 int m_totalLockonNum": 10,
-                                "0 int m_personalLockonNum": 1,
-                                "0 int m_definitionTime": 5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "LOCK_PC06_104",
-                                "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
-                                "0 int m_effectScale": 40,
-                                "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
-                                "0 int m_hitEffectScale": 0,
-                                "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
-                                "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
-                                "0 int m_definitionEffectScale": 80,
-                                "1 string m_definitionSeId": "",
-                                "0 int m_radius": 75,
-                                "0 int m_height": 1000,
-                                "0 int m_moveSpeed": 12,
-                                "1 string m_startPositionNode": "",
-                                "0 int m_startPositionOffsetX": 0,
-                                "0 int m_startPositionOffsetY": -100,
-                                "0 int m_startPositionOffsetZ": 100,
-                                "0 int m_totalLockonNum": 1,
-                                "0 int m_personalLockonNum": 1,
-                                "0 int m_definitionTime": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "LOCK_PC06_105",
-                                "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
-                                "0 int m_effectScale": 40,
-                                "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
-                                "0 int m_hitEffectScale": 0,
-                                "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
-                                "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
-                                "0 int m_definitionEffectScale": 80,
-                                "1 string m_definitionSeId": "",
-                                "0 int m_radius": 75,
-                                "0 int m_height": 1000,
-                                "0 int m_moveSpeed": 12,
-                                "1 string m_startPositionNode": "",
-                                "0 int m_startPositionOffsetX": 0,
-                                "0 int m_startPositionOffsetY": 0,
-                                "0 int m_startPositionOffsetZ": 100,
-                                "0 int m_totalLockonNum": 10,
-                                "0 int m_personalLockonNum": 1,
-                                "0 int m_definitionTime": 5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "LOCK_PC06_107",
-                                "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
-                                "0 int m_effectScale": 40,
-                                "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
-                                "0 int m_hitEffectScale": 0,
-                                "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
-                                "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
-                                "0 int m_definitionEffectScale": 80,
-                                "1 string m_definitionSeId": "",
-                                "0 int m_radius": 75,
-                                "0 int m_height": 1000,
-                                "0 int m_moveSpeed": 12,
-                                "1 string m_startPositionNode": "",
-                                "0 int m_startPositionOffsetX": 0,
-                                "0 int m_startPositionOffsetY": 0,
-                                "0 int m_startPositionOffsetZ": 100,
-                                "0 int m_totalLockonNum": 1,
-                                "0 int m_personalLockonNum": 1,
-                                "0 int m_definitionTime": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "LOCK_PC06_108",
-                                "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
-                                "0 int m_effectScale": 40,
-                                "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
-                                "0 int m_hitEffectScale": 0,
-                                "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
-                                "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
-                                "0 int m_definitionEffectScale": 80,
-                                "1 string m_definitionSeId": "",
-                                "0 int m_radius": 75,
-                                "0 int m_height": 1000,
-                                "0 int m_moveSpeed": 12,
-                                "1 string m_startPositionNode": "",
-                                "0 int m_startPositionOffsetX": 0,
-                                "0 int m_startPositionOffsetY": 0,
-                                "0 int m_startPositionOffsetZ": 100,
-                                "0 int m_totalLockonNum": 15,
-                                "0 int m_personalLockonNum": 15,
-                                "0 int m_definitionTime": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "LOCK_PC06_108_k",
-                                "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
-                                "0 int m_effectScale": 40,
-                                "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
-                                "0 int m_hitEffectScale": 0,
-                                "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
-                                "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
-                                "0 int m_definitionEffectScale": 80,
-                                "1 string m_definitionSeId": "",
-                                "0 int m_radius": 75,
-                                "0 int m_height": 1000,
-                                "0 int m_moveSpeed": 12,
-                                "1 string m_startPositionNode": "",
-                                "0 int m_startPositionOffsetX": 0,
-                                "0 int m_startPositionOffsetY": 0,
-                                "0 int m_startPositionOffsetZ": 100,
-                                "0 int m_totalLockonNum": 20,
-                                "0 int m_personalLockonNum": 20,
-                                "0 int m_definitionTime": 5
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "LOCK_PC06_101",
+                    "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
+                    "0 int m_effectScale": 40,
+                    "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
+                    "0 int m_hitEffectScale": 0,
+                    "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
+                    "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
+                    "0 int m_definitionEffectScale": 80,
+                    "1 string m_definitionSeId": "",
+                    "0 int m_radius": 75,
+                    "0 int m_height": 1000,
+                    "0 int m_moveSpeed": 12,
+                    "1 string m_startPositionNode": "",
+                    "0 int m_startPositionOffsetX": 0,
+                    "0 int m_startPositionOffsetY": 0,
+                    "0 int m_startPositionOffsetZ": 100,
+                    "0 int m_totalLockonNum": 1,
+                    "0 int m_personalLockonNum": 1,
+                    "0 int m_definitionTime": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "LOCK_PC06_103",
+                    "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
+                    "0 int m_effectScale": 40,
+                    "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
+                    "0 int m_hitEffectScale": 0,
+                    "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
+                    "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
+                    "0 int m_definitionEffectScale": 80,
+                    "1 string m_definitionSeId": "",
+                    "0 int m_radius": 75,
+                    "0 int m_height": 1000,
+                    "0 int m_moveSpeed": 12,
+                    "1 string m_startPositionNode": "",
+                    "0 int m_startPositionOffsetX": 0,
+                    "0 int m_startPositionOffsetY": 0,
+                    "0 int m_startPositionOffsetZ": 100,
+                    "0 int m_totalLockonNum": 10,
+                    "0 int m_personalLockonNum": 1,
+                    "0 int m_definitionTime": 5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "LOCK_PC06_104",
+                    "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
+                    "0 int m_effectScale": 40,
+                    "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
+                    "0 int m_hitEffectScale": 0,
+                    "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
+                    "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
+                    "0 int m_definitionEffectScale": 80,
+                    "1 string m_definitionSeId": "",
+                    "0 int m_radius": 75,
+                    "0 int m_height": 1000,
+                    "0 int m_moveSpeed": 12,
+                    "1 string m_startPositionNode": "",
+                    "0 int m_startPositionOffsetX": 0,
+                    "0 int m_startPositionOffsetY": -100,
+                    "0 int m_startPositionOffsetZ": 100,
+                    "0 int m_totalLockonNum": 1,
+                    "0 int m_personalLockonNum": 1,
+                    "0 int m_definitionTime": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "LOCK_PC06_105",
+                    "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
+                    "0 int m_effectScale": 40,
+                    "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
+                    "0 int m_hitEffectScale": 0,
+                    "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
+                    "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
+                    "0 int m_definitionEffectScale": 80,
+                    "1 string m_definitionSeId": "",
+                    "0 int m_radius": 75,
+                    "0 int m_height": 1000,
+                    "0 int m_moveSpeed": 12,
+                    "1 string m_startPositionNode": "",
+                    "0 int m_startPositionOffsetX": 0,
+                    "0 int m_startPositionOffsetY": 0,
+                    "0 int m_startPositionOffsetZ": 100,
+                    "0 int m_totalLockonNum": 10,
+                    "0 int m_personalLockonNum": 1,
+                    "0 int m_definitionTime": 5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "LOCK_PC06_107",
+                    "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
+                    "0 int m_effectScale": 40,
+                    "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
+                    "0 int m_hitEffectScale": 0,
+                    "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
+                    "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
+                    "0 int m_definitionEffectScale": 80,
+                    "1 string m_definitionSeId": "",
+                    "0 int m_radius": 75,
+                    "0 int m_height": 1000,
+                    "0 int m_moveSpeed": 12,
+                    "1 string m_startPositionNode": "",
+                    "0 int m_startPositionOffsetX": 0,
+                    "0 int m_startPositionOffsetY": 0,
+                    "0 int m_startPositionOffsetZ": 100,
+                    "0 int m_totalLockonNum": 1,
+                    "0 int m_personalLockonNum": 1,
+                    "0 int m_definitionTime": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "LOCK_PC06_108",
+                    "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
+                    "0 int m_effectScale": 40,
+                    "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
+                    "0 int m_hitEffectScale": 0,
+                    "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
+                    "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
+                    "0 int m_definitionEffectScale": 80,
+                    "1 string m_definitionSeId": "",
+                    "0 int m_radius": 75,
+                    "0 int m_height": 1000,
+                    "0 int m_moveSpeed": 12,
+                    "1 string m_startPositionNode": "",
+                    "0 int m_startPositionOffsetX": 0,
+                    "0 int m_startPositionOffsetY": 0,
+                    "0 int m_startPositionOffsetZ": 100,
+                    "0 int m_totalLockonNum": 15,
+                    "0 int m_personalLockonNum": 15,
+                    "0 int m_definitionTime": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "LOCK_PC06_108_k",
+                    "1 string m_effectId": "EF_CK_0006_SKILL_07_LOOKONC_00",
+                    "0 int m_effectScale": 40,
+                    "1 string m_hitEffectId": "EF_CK_0006_SKILL_07_LOOKONT_00",
+                    "0 int m_hitEffectScale": 0,
+                    "1 string m_hitSeId": "SE_BT_SHOOT_ROCKON",
+                    "1 string m_definitionEffectId": "EF_CK_0006_SKILL_07_LOOKON_00",
+                    "0 int m_definitionEffectScale": 80,
+                    "1 string m_definitionSeId": "",
+                    "0 int m_radius": 75,
+                    "0 int m_height": 1000,
+                    "0 int m_moveSpeed": 12,
+                    "1 string m_startPositionNode": "",
+                    "0 int m_startPositionOffsetX": 0,
+                    "0 int m_startPositionOffsetY": 0,
+                    "0 int m_startPositionOffsetZ": 100,
+                    "0 int m_totalLockonNum": 20,
+                    "0 int m_personalLockonNum": 20,
+                    "0 int m_definitionTime": 5
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

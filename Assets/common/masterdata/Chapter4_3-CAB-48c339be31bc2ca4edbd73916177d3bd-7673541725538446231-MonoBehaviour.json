@@ -1,735 +1,819 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 4759405696329208000
+    },
+    "1 string m_Name": "Chapter4_3",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 4759405696329207662
-        },
-        "1 string m_Name": "Chapter4_3",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "EventText",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "EventText",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt177_b",
-                                "1 string m_text": "そこをどけぇぇぇ！！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt116",
-                                "1 string m_text": "オレは真実が知りたい。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt043_c",
-                                "1 string m_text": "教えてくれ。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt143",
-                                "1 string m_text": "輪廻転生は、誰のためのものなんだ？"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "オレは……オレたちは、これまで\nなぜ命を送って来たんだ？"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "何を見守って来たんだ？"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "誰のために……？"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 800,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "何のために……？"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt178",
-                                "1 string m_text": "答えてくれ！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00_A",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "ロベリア！！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00_A",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "レイオウ！！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00_A",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "サラ！！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_10",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt052_b",
-                                "1 string m_text": "ロベリア！！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_10",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt110",
-                                "1 string m_text": "輪廻転生は先の世のため！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_10",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt111",
-                                "1 string m_text": "民を欺く偽りの権力者のためならず！！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_10",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt112",
-                                "1 string m_text": "この邦は民のもの！！\nその邦が愚か者に奪われることなど許し難し！！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_10",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt127",
-                                "1 string m_text": "あああああああああ！！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_10",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "CV_cp0000_evt031",
-                                "1 string m_text": "これまでオレを導いてくれた全てが\n真実を指し示してくれていたはずなのに……。\n\nオレが問うべき相手はもういない……。\nおそらく真実は、永遠に失われてしまった……。\n\nこの邦は哭き続ける……。\n再び、終わりが来るその時まで……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_20",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt052_b",
-                                "1 string m_text": "レイオウ！！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_20",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "CV_cn0004_evt114",
-                                "1 string m_text": "知れたこと。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_20",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "CV_cn0004_evt115",
-                                "1 string m_text": "民こそが邦！！\n民の命は何よりも尊い！！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_20",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "CV_cn0004_evt116",
-                                "1 string m_text": "我らの命も輪廻転生も\n民のためにある！！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt191",
-                                "1 string m_text": "サラ！！"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt009",
-                                "1 string m_text": "ソウジュ……私の弟……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt013",
-                                "1 string m_text": "あなたが気づかなければ\nこのまま巫女としての役割を\n終えるのも良いと思った……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt041",
-                                "1 string m_text": "でも……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "あなたは辿り着いたのですね。\n私の想いに答えてくれました……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "あなたは全てを知らなくてはならない。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0007_evt001_b",
-                                "1 string m_text": "あなたの答えを出しなさい。\n私は玉座で待っています。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt105",
-                                "1 string m_text": "なぜだ……？"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt013",
-                                "1 string m_text": "あなたも、全てを知ったのね。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt192_b",
-                                "1 string m_text": "サラ……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt056",
-                                "1 string m_text": "いや……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "人に紛れ続けた、ただひとりの鬼の化身\n鬼巫女と呼ぶべきか？"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt009",
-                                "1 string m_text": "ソウジュ……私のかわいい弟。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt113",
-                                "1 string m_text": "芝居はもうたくさんだ。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 800,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "輪廻転生の理は、人の命を\nつなぐための仕組みなんかじゃなかった。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "命の終わりと共に脱ぎ捨てられる\n怒りや悲しみ、憎しみや恨み……。\nそんな絶望を取り込むための仕組み。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1000,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "輪廻転生によって生かされていたのは人じゃない。\n鬼巫女が守る鬼だったんだな。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1100,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt017",
-                                "1 string m_text": "結果として、あなたもその手伝いをしてきた。\nそのことは、理解している？"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "鬼は人の絶望によって育つ。\nしかし人から生まれた絶望ゆえに\nその本能が人を滅ぼしてきた。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1300,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "人が存在しなければ生まれない絶望が人を滅ぼすの。\nそれは、この世界の大いなる矛盾だわ。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1400,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "何度も滅びかけた世界は\nもうこの邦を残すだけ……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1500,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt042",
-                                "1 string m_text": "ようやく本当の終わりを迎える。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1600,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt043",
-                                "1 string m_text": "次に鬼が目覚めた時、人は根絶される。\nそして鬼が現れることもなくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1700,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt041",
-                                "1 string m_text": "不思議ね。その時が来ると思った私は\n生きてきて初めて迷いを抱えた。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1800,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "人も鬼もすべて消えてしまう結末に向かうべきか。\nそれともわずかに残った人々の心に変革を願い\n矛盾から抜け出すべきか。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1900,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "ソウジュ、長い年月をひとり生まれ変わり続けた私から\nあなたという存在が分かれ現れたのは\n私が求めた答えを探すため。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2000,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "私が巫女なら、あなたは審判者。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2100,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "時に喜び、時に悲しみ、時に怒り、時に裏切られ\n実に人間らしく生きてきたあなただからできる。\n人の中で生きたあなたにしかわからない。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt013",
-                                "1 string m_text": "ソウジュ、あなたはどちらを望むの？ "
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2300,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt020",
-                                "1 string m_text": "善悪では測ることなどできない。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2400,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt016",
-                                "1 string m_text": "あなたがしてきたことが全ての人にとって\n善ではないように。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2500,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt044",
-                                "1 string m_text": "この邦は本当に許されないものなの？"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2600,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt022",
-                                "1 string m_text": "あなたは迷う。人間のように。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2700,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt045",
-                                "1 string m_text": "答えて、ソウジュ。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2800,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt046",
-                                "1 string m_text": "人と深く関わって来たあなたの答えを。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2900,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "あなたは、人間として\nこの邦の存在を否定し未成熟な鬼を殺すの？"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 3000,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "それとも、鬼の化身として鬼が再生するその日まで\n人間と共に生き続けるの？"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00_A",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "輪廻転生の理を守り人と生きる"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00_A",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "邦を否定し鬼を殺す"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_10",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt016",
-                                "1 string m_text": "あなたは、自分が信じてきたことを\n貫く強さを持っているのね。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_10",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt047",
-                                "1 string m_text": "本当に人間みたい。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_10",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt022",
-                                "1 string m_text": "あなたが人間のように生み出す悪意も\n私はこれから見てみたい。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_10",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt048",
-                                "1 string m_text": "鬼が蘇るその時まで\n人間を守ってね、ソウジュ。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_10",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "CV_cp0000_evt181",
-                                "1 string m_text": "オレが信じるものは……"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_20",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt016",
-                                "1 string m_text": "それがあなたの答えなのね。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_20",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt012_a",
-                                "1 string m_text": "自分が信じてやってきたことを否定し\n新たな可能性に希望を見出せる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_20",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt047",
-                                "1 string m_text": "それもまた人間のよう。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_20",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt022",
-                                "1 string m_text": "そんなあなたを楽しむ私も\n人間の影響を受けすぎたのかもしれない。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_30",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt049",
-                                "1 string m_text": "あなたが終わらせてくれる結末を\n私自身、望んでいたのかもしれない……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_30",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt050",
-                                "1 string m_text": "あなたが……代わりに人間を見続けて……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_30",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "CV_cn0005_evt051",
-                                "1 string m_text": "お願いね……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431020_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt179",
-                                "1 string m_text": "それでも……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431020_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt180",
-                                "1 string m_text": "終わらせるべきなんだ……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt057",
-                                "1 string m_text": "もうひとり、この邦にいてはいけない者がいる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_00_A",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "自決する"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_00_A",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "自決しない"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_10",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt181",
-                                "1 string m_text": "レシアンたちのように\n人は可能性を探す。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_10",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt125",
-                                "1 string m_text": "オレは人の変革を信じている。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_10",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt074",
-                                "1 string m_text": "それでも、もし滅ぶ日が来るのなら\nそれが人の滅びの時なのだろう……。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_20",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt074",
-                                "1 string m_text": "しかし、まだその時ではない。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_20",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt116",
-                                "1 string m_text": "オレは、この結末へと人を導いた。\n最後まで見届ける責任がある。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431040_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "CV_cp0000_evt032",
-                                "1 string m_text": "仮初めの安寧が邦を包んでいく。\n\n人がある限り、いずれその絶望から\nまた鬼は生まれるだろう。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431040_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "CV_cp0000_evt033",
-                                "1 string m_text": "そして今度こそ、人を喰らい尽くす。\nその時、この邦が、最後の世界が終わる。\n\nあるいは、そうなるより先に\n人が人を根絶してしまうかもしれない。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431040_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "CV_cp0000_evt034",
-                                "1 string m_text": "どちらが起こるにせよ、それはまだ先の話。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431040_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "CV_cp0000_evt035",
-                                "1 string m_text": "少しの混乱の後に\nいつもの日常が戻ってくるだけだ。\n\n何も変わらないかもしれない。\n\nそれでも、オレは息を潜めただ見守ろう。\nそうして、命と寄り添い続ける。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431040_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "CV_cp0000_evt035_2",
-                                "1 string m_text": "この、鬼の哭く邦で。"
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt177_b",
+                    "1 string m_text": "そこをどけぇぇぇ！！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt116",
+                    "1 string m_text": "オレは真実が知りたい。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt043_c",
+                    "1 string m_text": "教えてくれ。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt143",
+                    "1 string m_text": "輪廻転生は、誰のためのものなんだ？"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "オレは……オレたちは、これまで\nなぜ命を送って来たんだ？"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "何を見守って来たんだ？"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "誰のために……？"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 800,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "何のために……？"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt178",
+                    "1 string m_text": "答えてくれ！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00_A",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "ロベリア！！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00_A",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "レイオウ！！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00_A",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "サラ！！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_10",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt052_b",
+                    "1 string m_text": "ロベリア！！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_10",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt110",
+                    "1 string m_text": "輪廻転生は先の世のため！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_10",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt111",
+                    "1 string m_text": "民を欺く偽りの権力者のためならず！！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_10",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt112",
+                    "1 string m_text": "この邦は民のもの！！\nその邦が愚か者に奪われることなど許し難し！！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_10",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt127",
+                    "1 string m_text": "あああああああああ！！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_10",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "CV_cp0000_evt031",
+                    "1 string m_text": "これまでオレを導いてくれた全てが\n真実を指し示してくれていたはずなのに……。\n\nオレが問うべき相手はもういない……。\nおそらく真実は、永遠に失われてしまった……。\n\nこの邦は哭き続ける……。\n再び、終わりが来るその時まで……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_20",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt052_b",
+                    "1 string m_text": "レイオウ！！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_20",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "CV_cn0004_evt114",
+                    "1 string m_text": "知れたこと。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_20",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "CV_cn0004_evt115",
+                    "1 string m_text": "民こそが邦！！\n民の命は何よりも尊い！！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_20",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "CV_cn0004_evt116",
+                    "1 string m_text": "我らの命も輪廻転生も\n民のためにある！！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt191",
+                    "1 string m_text": "サラ！！"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt009",
+                    "1 string m_text": "ソウジュ……私の弟……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt013",
+                    "1 string m_text": "あなたが気づかなければ\nこのまま巫女としての役割を\n終えるのも良いと思った……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt041",
+                    "1 string m_text": "でも……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "あなたは辿り着いたのですね。\n私の想いに答えてくれました……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "あなたは全てを知らなくてはならない。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0007_evt001_b",
+                    "1 string m_text": "あなたの答えを出しなさい。\n私は玉座で待っています。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt105",
+                    "1 string m_text": "なぜだ……？"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt013",
+                    "1 string m_text": "あなたも、全てを知ったのね。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt192_b",
+                    "1 string m_text": "サラ……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt056",
+                    "1 string m_text": "いや……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "人に紛れ続けた、ただひとりの鬼の化身\n鬼巫女と呼ぶべきか？"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt009",
+                    "1 string m_text": "ソウジュ……私のかわいい弟。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt113",
+                    "1 string m_text": "芝居はもうたくさんだ。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 800,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "輪廻転生の理は、人の命を\nつなぐための仕組みなんかじゃなかった。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "命の終わりと共に脱ぎ捨てられる\n怒りや悲しみ、憎しみや恨み……。\nそんな絶望を取り込むための仕組み。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1000,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "輪廻転生によって生かされていたのは人じゃない。\n鬼巫女が守る鬼だったんだな。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1100,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt017",
+                    "1 string m_text": "結果として、あなたもその手伝いをしてきた。\nそのことは、理解している？"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "鬼は人の絶望によって育つ。\nしかし人から生まれた絶望ゆえに\nその本能が人を滅ぼしてきた。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1300,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "人が存在しなければ生まれない絶望が人を滅ぼすの。\nそれは、この世界の大いなる矛盾だわ。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1400,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "何度も滅びかけた世界は\nもうこの邦を残すだけ……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1500,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt042",
+                    "1 string m_text": "ようやく本当の終わりを迎える。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1600,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt043",
+                    "1 string m_text": "次に鬼が目覚めた時、人は根絶される。\nそして鬼が現れることもなくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1700,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt041",
+                    "1 string m_text": "不思議ね。その時が来ると思った私は\n生きてきて初めて迷いを抱えた。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1800,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "人も鬼もすべて消えてしまう結末に向かうべきか。\nそれともわずかに残った人々の心に変革を願い\n矛盾から抜け出すべきか。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1900,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "ソウジュ、長い年月をひとり生まれ変わり続けた私から\nあなたという存在が分かれ現れたのは\n私が求めた答えを探すため。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2000,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "私が巫女なら、あなたは審判者。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2100,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "時に喜び、時に悲しみ、時に怒り、時に裏切られ\n実に人間らしく生きてきたあなただからできる。\n人の中で生きたあなたにしかわからない。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt013",
+                    "1 string m_text": "ソウジュ、あなたはどちらを望むの？ "
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2300,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt020",
+                    "1 string m_text": "善悪では測ることなどできない。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2400,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt016",
+                    "1 string m_text": "あなたがしてきたことが全ての人にとって\n善ではないように。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2500,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt044",
+                    "1 string m_text": "この邦は本当に許されないものなの？"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2600,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt022",
+                    "1 string m_text": "あなたは迷う。人間のように。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2700,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt045",
+                    "1 string m_text": "答えて、ソウジュ。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2800,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt046",
+                    "1 string m_text": "人と深く関わって来たあなたの答えを。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2900,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "あなたは、人間として\nこの邦の存在を否定し未成熟な鬼を殺すの？"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 3000,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "それとも、鬼の化身として鬼が再生するその日まで\n人間と共に生き続けるの？"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00_A",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "輪廻転生の理を守り人と生きる"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00_A",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "邦を否定し鬼を殺す"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_10",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt016",
+                    "1 string m_text": "あなたは、自分が信じてきたことを\n貫く強さを持っているのね。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_10",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt047",
+                    "1 string m_text": "本当に人間みたい。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_10",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt022",
+                    "1 string m_text": "あなたが人間のように生み出す悪意も\n私はこれから見てみたい。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_10",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt048",
+                    "1 string m_text": "鬼が蘇るその時まで\n人間を守ってね、ソウジュ。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_10",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "CV_cp0000_evt181",
+                    "1 string m_text": "オレが信じるものは……"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_20",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt016",
+                    "1 string m_text": "それがあなたの答えなのね。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_20",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt012_a",
+                    "1 string m_text": "自分が信じてやってきたことを否定し\n新たな可能性に希望を見出せる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_20",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt047",
+                    "1 string m_text": "それもまた人間のよう。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_20",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt022",
+                    "1 string m_text": "そんなあなたを楽しむ私も\n人間の影響を受けすぎたのかもしれない。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_30",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt049",
+                    "1 string m_text": "あなたが終わらせてくれる結末を\n私自身、望んでいたのかもしれない……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_30",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt050",
+                    "1 string m_text": "あなたが……代わりに人間を見続けて……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_30",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "CV_cn0005_evt051",
+                    "1 string m_text": "お願いね……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431020_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt179",
+                    "1 string m_text": "それでも……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431020_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt180",
+                    "1 string m_text": "終わらせるべきなんだ……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt057",
+                    "1 string m_text": "もうひとり、この邦にいてはいけない者がいる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_00_A",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "自決する"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_00_A",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "自決しない"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_10",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt181",
+                    "1 string m_text": "レシアンたちのように\n人は可能性を探す。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_10",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt125",
+                    "1 string m_text": "オレは人の変革を信じている。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_10",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt074",
+                    "1 string m_text": "それでも、もし滅ぶ日が来るのなら\nそれが人の滅びの時なのだろう……。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_20",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt074",
+                    "1 string m_text": "しかし、まだその時ではない。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_20",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt116",
+                    "1 string m_text": "オレは、この結末へと人を導いた。\n最後まで見届ける責任がある。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431040_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "CV_cp0000_evt032",
+                    "1 string m_text": "仮初めの安寧が邦を包んでいく。\n\n人がある限り、いずれその絶望から\nまた鬼は生まれるだろう。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431040_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "CV_cp0000_evt033",
+                    "1 string m_text": "そして今度こそ、人を喰らい尽くす。\nその時、この邦が、最後の世界が終わる。\n\nあるいは、そうなるより先に\n人が人を根絶してしまうかもしれない。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431040_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "CV_cp0000_evt034",
+                    "1 string m_text": "どちらが起こるにせよ、それはまだ先の話。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431040_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "CV_cp0000_evt035",
+                    "1 string m_text": "少しの混乱の後に\nいつもの日常が戻ってくるだけだ。\n\n何も変わらないかもしれない。\n\nそれでも、オレは息を潜めただ見守ろう。\nそうして、命と寄り添い続ける。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431040_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "CV_cp0000_evt035_2",
+                    "1 string m_text": "この、鬼の哭く邦で。"
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

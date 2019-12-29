@@ -1,123 +1,123 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -6327911995456746000
+    },
+    "1 string m_Name": "MstPartyMemberData_Base",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -6327911995456746670
-        },
-        "1 string m_Name": "MstPartyMemberData_Base",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Base",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Base",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_0001",
-                                "1 string m_modelId": "CN_0001",
-                                "0 float m_moveSpeedWalk": 3,
-                                "0 float m_moveSpeedRun": 6.5,
-                                "0 int m_weightRatio": 100,
-                                "1 string m_utsushiyoChangeId": "CN_5001",
-                                "1 UInt8 m_disableKakuriyo": 0,
-                                "1 UInt8 m_disableLookAtFace": 0,
-                                "1 UInt8 m_disableRunAnim": 0,
-                                "1 UInt8 m_flying": 0,
-                                "0 float m_flyingHeight": 0,
-                                "0 float m_traceRadiusFieldMin": 1,
-                                "0 float m_traceRadiusFieldMax": 2.5,
-                                "0 float m_traceRadiusBattleMin": 2,
-                                "0 float m_traceRadiusBattleMax": 3.5,
-                                "0 int m_traceAngleBattleBack": 90,
-                                "0 float m_walkToRunTime": 0.5,
-                                "0 float m_runToWalkDistance": 1.5,
-                                "0 float m_potionCoolTime": 60,
-                                "0 float m_potionDelayTime": 0.5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_5001",
-                                "1 string m_modelId": "CN_5001",
-                                "0 float m_moveSpeedWalk": 3,
-                                "0 float m_moveSpeedRun": 6.5,
-                                "0 int m_weightRatio": 100,
-                                "1 string m_utsushiyoChangeId": "",
-                                "1 UInt8 m_disableKakuriyo": 0,
-                                "1 UInt8 m_disableLookAtFace": 1,
-                                "1 UInt8 m_disableRunAnim": 1,
-                                "1 UInt8 m_flying": 1,
-                                "0 float m_flyingHeight": 1,
-                                "0 float m_traceRadiusFieldMin": 1,
-                                "0 float m_traceRadiusFieldMax": 2.5,
-                                "0 float m_traceRadiusBattleMin": 2,
-                                "0 float m_traceRadiusBattleMax": 3.5,
-                                "0 int m_traceAngleBattleBack": 90,
-                                "0 float m_walkToRunTime": 0.5,
-                                "0 float m_runToWalkDistance": 1.5,
-                                "0 float m_potionCoolTime": -1,
-                                "0 float m_potionDelayTime": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_0003",
-                                "1 string m_modelId": "CN_0003",
-                                "0 float m_moveSpeedWalk": 3,
-                                "0 float m_moveSpeedRun": 6.5,
-                                "0 int m_weightRatio": 100,
-                                "1 string m_utsushiyoChangeId": "",
-                                "1 UInt8 m_disableKakuriyo": 0,
-                                "1 UInt8 m_disableLookAtFace": 0,
-                                "1 UInt8 m_disableRunAnim": 0,
-                                "1 UInt8 m_flying": 0,
-                                "0 float m_flyingHeight": 0,
-                                "0 float m_traceRadiusFieldMin": 1,
-                                "0 float m_traceRadiusFieldMax": 2.5,
-                                "0 float m_traceRadiusBattleMin": 2,
-                                "0 float m_traceRadiusBattleMax": 3.5,
-                                "0 int m_traceAngleBattleBack": 90,
-                                "0 float m_walkToRunTime": 0.5,
-                                "0 float m_runToWalkDistance": 1.5,
-                                "0 float m_potionCoolTime": -1,
-                                "0 float m_potionDelayTime": -1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_0151",
-                                "1 string m_modelId": "CN_0151",
-                                "0 float m_moveSpeedWalk": 3,
-                                "0 float m_moveSpeedRun": 6.5,
-                                "0 int m_weightRatio": 100,
-                                "1 string m_utsushiyoChangeId": "",
-                                "1 UInt8 m_disableKakuriyo": 1,
-                                "1 UInt8 m_disableLookAtFace": 0,
-                                "1 UInt8 m_disableRunAnim": 0,
-                                "1 UInt8 m_flying": 0,
-                                "0 float m_flyingHeight": 0,
-                                "0 float m_traceRadiusFieldMin": 1,
-                                "0 float m_traceRadiusFieldMax": 2.5,
-                                "0 float m_traceRadiusBattleMin": 2,
-                                "0 float m_traceRadiusBattleMax": 3.5,
-                                "0 int m_traceAngleBattleBack": 90,
-                                "0 float m_walkToRunTime": 0.5,
-                                "0 float m_runToWalkDistance": 1.5,
-                                "0 float m_potionCoolTime": -1,
-                                "0 float m_potionDelayTime": -1
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "CN_0001",
+                    "1 string m_modelId": "CN_0001",
+                    "0 float m_moveSpeedWalk": 3,
+                    "0 float m_moveSpeedRun": 6.5,
+                    "0 int m_weightRatio": 100,
+                    "1 string m_utsushiyoChangeId": "CN_5001",
+                    "1 UInt8 m_disableKakuriyo": 0,
+                    "1 UInt8 m_disableLookAtFace": 0,
+                    "1 UInt8 m_disableRunAnim": 0,
+                    "1 UInt8 m_flying": 0,
+                    "0 float m_flyingHeight": 0,
+                    "0 float m_traceRadiusFieldMin": 1,
+                    "0 float m_traceRadiusFieldMax": 2.5,
+                    "0 float m_traceRadiusBattleMin": 2,
+                    "0 float m_traceRadiusBattleMax": 3.5,
+                    "0 int m_traceAngleBattleBack": 90,
+                    "0 float m_walkToRunTime": 0.5,
+                    "0 float m_runToWalkDistance": 1.5,
+                    "0 float m_potionCoolTime": 60,
+                    "0 float m_potionDelayTime": 0.5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_5001",
+                    "1 string m_modelId": "CN_5001",
+                    "0 float m_moveSpeedWalk": 3,
+                    "0 float m_moveSpeedRun": 6.5,
+                    "0 int m_weightRatio": 100,
+                    "1 string m_utsushiyoChangeId": "",
+                    "1 UInt8 m_disableKakuriyo": 0,
+                    "1 UInt8 m_disableLookAtFace": 1,
+                    "1 UInt8 m_disableRunAnim": 1,
+                    "1 UInt8 m_flying": 1,
+                    "0 float m_flyingHeight": 1,
+                    "0 float m_traceRadiusFieldMin": 1,
+                    "0 float m_traceRadiusFieldMax": 2.5,
+                    "0 float m_traceRadiusBattleMin": 2,
+                    "0 float m_traceRadiusBattleMax": 3.5,
+                    "0 int m_traceAngleBattleBack": 90,
+                    "0 float m_walkToRunTime": 0.5,
+                    "0 float m_runToWalkDistance": 1.5,
+                    "0 float m_potionCoolTime": -1,
+                    "0 float m_potionDelayTime": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_0003",
+                    "1 string m_modelId": "CN_0003",
+                    "0 float m_moveSpeedWalk": 3,
+                    "0 float m_moveSpeedRun": 6.5,
+                    "0 int m_weightRatio": 100,
+                    "1 string m_utsushiyoChangeId": "",
+                    "1 UInt8 m_disableKakuriyo": 0,
+                    "1 UInt8 m_disableLookAtFace": 0,
+                    "1 UInt8 m_disableRunAnim": 0,
+                    "1 UInt8 m_flying": 0,
+                    "0 float m_flyingHeight": 0,
+                    "0 float m_traceRadiusFieldMin": 1,
+                    "0 float m_traceRadiusFieldMax": 2.5,
+                    "0 float m_traceRadiusBattleMin": 2,
+                    "0 float m_traceRadiusBattleMax": 3.5,
+                    "0 int m_traceAngleBattleBack": 90,
+                    "0 float m_walkToRunTime": 0.5,
+                    "0 float m_runToWalkDistance": 1.5,
+                    "0 float m_potionCoolTime": -1,
+                    "0 float m_potionDelayTime": -1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_0151",
+                    "1 string m_modelId": "CN_0151",
+                    "0 float m_moveSpeedWalk": 3,
+                    "0 float m_moveSpeedRun": 6.5,
+                    "0 int m_weightRatio": 100,
+                    "1 string m_utsushiyoChangeId": "",
+                    "1 UInt8 m_disableKakuriyo": 1,
+                    "1 UInt8 m_disableLookAtFace": 0,
+                    "1 UInt8 m_disableRunAnim": 0,
+                    "1 UInt8 m_flying": 0,
+                    "0 float m_flyingHeight": 0,
+                    "0 float m_traceRadiusFieldMin": 1,
+                    "0 float m_traceRadiusFieldMax": 2.5,
+                    "0 float m_traceRadiusBattleMin": 2,
+                    "0 float m_traceRadiusBattleMax": 3.5,
+                    "0 int m_traceAngleBattleBack": 90,
+                    "0 float m_walkToRunTime": 0.5,
+                    "0 float m_runToWalkDistance": 1.5,
+                    "0 float m_potionCoolTime": -1,
+                    "0 float m_potionDelayTime": -1
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

@@ -1,55 +1,53 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -3934732035171635000
+    },
+    "1 string m_Name": "ma_0101_01_E",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -3934732035171635413
-        },
-        "1 string m_Name": "ma_0101_01_E",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "PlacementCollision",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "PlacementCollision",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVENT_01",
-                                "0 float m_posX": 36.6800003,
-                                "0 float m_posY": 3.02999997,
-                                "0 float m_posZ": 69.2300034,
-                                "0 float m_rotY": 345.743469,
-                                "0 float m_scaleX": 10,
-                                "0 float m_scaleY": 5,
-                                "0 float m_scaleZ": 4,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVENT_02",
-                                "0 float m_posX": 36.6800003,
-                                "0 float m_posY": 3.02999997,
-                                "0 float m_posZ": 62.2200012,
-                                "0 float m_rotY": 345.743469,
-                                "0 float m_scaleX": 7,
-                                "0 float m_scaleY": 7,
-                                "0 float m_scaleZ": 7,
-                                "0 int m_type": 2
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "EVENT_01",
+                    "0 float m_posX": 36.6800003,
+                    "0 float m_posY": 3.02999997,
+                    "0 float m_posZ": 69.2300034,
+                    "0 float m_rotY": 345.743469,
+                    "0 float m_scaleX": 10,
+                    "0 float m_scaleY": 5,
+                    "0 float m_scaleZ": 4,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVENT_02",
+                    "0 float m_posX": 36.6800003,
+                    "0 float m_posY": 3.02999997,
+                    "0 float m_posZ": 62.2200012,
+                    "0 float m_rotY": 345.743469,
+                    "0 float m_scaleX": 7,
+                    "0 float m_scaleY": 7,
+                    "0 float m_scaleZ": 7,
+                    "0 int m_type": 2
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

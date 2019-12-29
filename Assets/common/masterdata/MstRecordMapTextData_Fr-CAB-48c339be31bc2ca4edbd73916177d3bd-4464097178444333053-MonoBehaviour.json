@@ -1,193 +1,216 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 4259738555811155000
+    },
+    "1 string m_Name": "MstRecordMapTextData_Fr",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 4259738555811154894
-        },
-        "1 string m_Name": "MstRecordMapTextData_Fr",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Data",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Data",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_002",
-                                "1 string m_nameId": "ma_0001_1",
-                                "1 string m_text": "Le plus grand quartier commerçant du Royaume intérieur, situé à Szaka. La rue principale qui traverse le quartier du nord au sud est bordée de nombreux magasins et marchands ambulants. Au centre se trouve une place célèbre pour les Voyages de sept jours. La place abrite également le Podium de vie, où sont basés les Gardiens."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_003",
-                                "1 string m_nameId": "ma_0001_2",
-                                "1 string m_text": "Un canal qui coule sous Deto. Le canal s'étend sur tout le quartier, soutenant tranquillement la vie des habitants de Szaka. Il est ponctué de salles soi-disant utilisées pour des transactions obscures."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_004",
-                                "1 string m_nameId": "ma_0001_3",
-                                "1 string m_text": "Un passage en-dessous de Deto qui mène au palais. Construit à l'origine comme voie navigable, il a été utilisé pour fuir le palais en cas de danger en raison de sa nature isolée."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_014",
-                                "1 string m_nameId": "ma_0002_1",
-                                "1 string m_text": "Une place devant le Palais Ehir. Elle est ouverte au public et est parfois utilisée pour des festivals et autres occasions."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_015",
-                                "1 string m_nameId": "ma_0002_2",
-                                "1 string m_text": "Un bâtiment situé au cœur du Palais Ehir. Étant le centre d'activité du palais, l'intérieur est richement décoré. Le dernier étage est utilisé pour les audiences avec les souverains."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_016",
-                                "1 string m_nameId": "ma_0002_3",
-                                "1 string m_text": "Une structure en ruine trouvée sous le Palais Ehir. Son existence n'est connue que du souverain et d'une poignée de ses conseillers. Ce n'est sûrement pas un hasard si le palais a été construit sur ces ruines."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_017",
-                                "1 string m_nameId": "ma_0002_4",
-                                "1 string m_text": "Un bâtiment situé derrière le Grand hall. C'était autrefois le hall principal, mais après l'achèvement du Grand hall, le Hall des ombres devint une chambre forte servant à stocker des documents et autres actifs du palais. Malgré son utilisation actuelle, il a conservé le même mobilier que durant ses jours de gloire."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_029",
-                                "1 string m_nameId": "ma_0101_1",
-                                "1 string m_text": "Une plaine herbeuse au sud de Szaka entourée de parois rocheuses et de falaises. Le climat est doux mais sec, il y a donc peu d'arbres. L'endroit étant idéal pour faire pâturer les bêtes, les fermes se sont développées dans la région."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_032",
-                                "1 string m_nameId": "ma_0102_1",
-                                "1 string m_text": "Une ville qui était autrefois une plaque tournante dans l'industrie du transport par voie d'eau. Située le long d'un canal, elle devint prospère en servant de relais entre Szaka et les mines. Cependant, la ville fut un jour frappée par une tempête de sable qui a duré mille jours et, lorsque la tempête se calma, elle n'était plus que ruines."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_033",
-                                "1 string m_nameId": "ma_0102_2",
-                                "1 string m_text": "Les vestiges d'une station d'épuration située sous la Ville perdue. Bien qu'abandonné depuis longtemps, il y a des signes que quelqu'un utilise le site."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_039",
-                                "1 string m_nameId": "ma_0103_1",
-                                "1 string m_text": "Un rassemblement de ruines enfouies dans une substance ressemblant à de la résine. Les bâtiments présentent une architecture différente du style contemporain. Leur utilité reste un mystère."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_040",
-                                "1 string m_nameId": "ma_0103_2",
-                                "1 string m_text": "Une des rares ruines trouvées sur les Côtes Kiho dans lesquelles il est possible de pénétrer. À l'intérieur se trouvent de vastes cavernes, bien qu'on ne sache toujours pas à quoi le site servait."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_044",
-                                "1 string m_nameId": "ma_0104_1",
-                                "1 string m_text": "Un marais dans lequel sont immergées des souches d'arbres imposants. C'est un bel endroit rempli de fleurs, y compris des fleurs sous-marines introuvables ailleurs. Les arbres semblent tous avoir été coupés à la même hauteur et les souches abritent de nombreuses créatures et plantes."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_048",
-                                "1 string m_nameId": "ma_0201_1",
-                                "1 string m_text": "L'un des sommets qui forment les Monts Mazzen, situé dans la partie nord-ouest du Royaume intérieur. Cette montagne rocheuse aux nombreuses vallées formées par l'érosion des rivières est réputée pour sa pêche à la ligne en montagne."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_049",
-                                "1 string m_nameId": "ma_0201_2",
-                                "1 string m_text": "Une vaste forêt qui s'étend au pied du Mont Teora. Elle est si isolée du monde extérieur qu'un écosystème unique s'est développé ici. Il produit un bois d'excellente qualité qui est transporté dans tout le Royaume intérieur."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_050",
-                                "1 string m_nameId": "ma_0201_3",
-                                "1 string m_text": "Un petit village niché au fond des Bois Mesid. Dans la région, le site est utilisé pour la foresterie, et cette industrie fait vivre nombre de ses habitants."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_057",
-                                "1 string m_nameId": "ma_0202_1",
-                                "1 string m_text": "L'une des carrières où on extrayait autrefois des ombreroches de qualité. La carrière a été abandonnée après qu'un mouvement tectonique ait provoqué une éruption de lave dans la vallée. Les wagons et les ascenseurs disséminés sur le site montrent clairement que l'ombreroche était exploitée en masse ici."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_060",
-                                "1 string m_nameId": "ma_0203_1",
-                                "1 string m_text": "Un vaste océan d'arbres baignant dans une atmosphère onirique. Une grande partie reste inexplorée en raison de la nature labyrinthique et de grande envergure du terrain, de sorte que son étendue demeure inconnue."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_061",
-                                "1 string m_nameId": "ma_0203_2",
-                                "1 string m_text": "Un village caché dans un coin reculé de la Forêt Ophay. Coupé du monde extérieur en raison de son éloignement, il est devenu un refuge pour les exilés."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_062",
-                                "1 string m_nameId": "ma_0203_3",
-                                "1 string m_text": "Une forêt mystique où poussent toutes sortes de plantes et fleurs magnifiques. Parce que ses paysages spectaculaires ne restent les mêmes tout au long de l'année et qu'ils ne sont pas affectés par les saisons, on l'a surnommé le Jardin éternel."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_068",
-                                "1 string m_nameId": "ma_0401_1",
-                                "1 string m_text": "Une des vallées qui forme les Gorges Aon. La vallée a une forme de passage, et est surplombée par des chaînes. La légende raconte que le Premier pilier se trouve dans la vallée."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_069",
-                                "1 string m_nameId": "ma_0401_2",
-                                "1 string m_text": "Des ruines qui existent depuis la fondation du Royaume intérieur. Personne ne sait qui a érigé le Premier pilier. Les ruines sont composées d'un matériau qu'on ne trouve que dans les profondeurs du Palais Ehir et dans le pilier lui-même. On pense qu'ils ont été construits en utilisant une technique ancienne perdue au cours des siècles."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_078",
-                                "1 string m_nameId": "ma_0402_1",
-                                "1 string m_text": "Un pays étrange avec de nombreuses vallées profondes en forme de chaînes qui s'étendent en longueur et en largeur. Même au plus fort de la journée, la lumière est tamisée, ce qui rend cet environnement difficile à supporter pour les êtres vivants. À part les Déchus, on n'y trouve que peu de plantes et d'animaux."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_079",
-                                "1 string m_nameId": "ma_0402_2",
-                                "1 string m_text": "Un endroit étrange avec d'énormes rochers rappelant des corps humains et des roches ressemblant à des bras. La terre est extrêmement sèche et désolée, et devient régulièrement un désert."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_080",
-                                "1 string m_nameId": "ma_0402_3",
-                                "1 string m_text": "Le seul village qui se trouve dans la nature. Une colonie humaine s'y est installée après la découverte d'un affluent souterrain. Parmi toutes les terres désolées, c'est le seul endroit foulé par des pieds humains."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_081",
-                                "1 string m_nameId": "ma_0402_4",
-                                "1 string m_text": "Une terre dévastée qui s'étend au nord de Tayu. Les voies navigables souterraines permettaient autrefois aux plantes de pousser ici, mais quand elles se sont asséchées, le lieu est devenu une terre en friche. Les quelques arbres morts qui demeurent sont les seules traces de cet écosystème perdu."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAP_089",
-                                "1 string m_nameId": "ma_0600_1",
-                                "1 string m_text": "Un lieu vide et désolé oublié de l'homme, érodé et usé par le temps qui passe. D'après les légendes, c'était la capitale d'un ancien royaume, mais la vérité est perdue depuis longtemps. C'est un endroit mystérieux où le Voile entre le Monde des vivants et l'Au-delà est mince. On raconte que des morts errent dans ses salles."
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "MAP_002",
+                    "1 string m_nameId": "ma_0001_1",
+                    "1 string m_text": "Le plus grand quartier commerçant du Royaume intérieur, situé à Szaka. La rue principale qui traverse le quartier du nord au sud est bordée de nombreux magasins et marchands ambulants. Au centre se trouve une place célèbre pour les Voyages de sept jours. La place abrite également le Podium de vie, où sont basés les Gardiens."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_003",
+                    "1 string m_nameId": "ma_0001_2",
+                    "1 string m_text": "Un canal qui coule sous Deto. Le canal s'étend sur tout le quartier, soutenant tranquillement la vie des habitants de Szaka. Il est ponctué de salles soi-disant utilisées pour des transactions obscures."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_004",
+                    "1 string m_nameId": "ma_0001_3",
+                    "1 string m_text": "Un passage en-dessous de Deto qui mène au palais. Construit à l'origine comme voie navigable, il a été utilisé pour fuir le palais en cas de danger en raison de sa nature isolée."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_014",
+                    "1 string m_nameId": "ma_0002_1",
+                    "1 string m_text": "Une place devant le Palais Ehir. Elle est ouverte au public et est parfois utilisée pour des festivals et autres occasions."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_015",
+                    "1 string m_nameId": "ma_0002_2",
+                    "1 string m_text": "Un bâtiment situé au cœur du Palais Ehir. Étant le centre d'activité du palais, l'intérieur est richement décoré. Le dernier étage est utilisé pour les audiences avec les souverains."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_016",
+                    "1 string m_nameId": "ma_0002_3",
+                    "1 string m_text": "Une structure en ruine trouvée sous le Palais Ehir. Son existence n'est connue que du souverain et d'une poignée de ses conseillers. Ce n'est sûrement pas un hasard si le palais a été construit sur ces ruines."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_017",
+                    "1 string m_nameId": "ma_0002_4",
+                    "1 string m_text": "Un bâtiment situé derrière le Grand hall. C'était autrefois le hall principal, mais après l'achèvement du Grand hall, le Hall des ombres devint une chambre forte servant à stocker des documents et autres actifs du palais. Malgré son utilisation actuelle, il a conservé le même mobilier que durant ses jours de gloire."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_029",
+                    "1 string m_nameId": "ma_0101_1",
+                    "1 string m_text": "Une plaine herbeuse au sud de Szaka entourée de parois rocheuses et de falaises. Le climat est doux mais sec, il y a donc peu d'arbres. L'endroit étant idéal pour faire pâturer les bêtes, les fermes se sont développées dans la région."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_032",
+                    "1 string m_nameId": "ma_0102_1",
+                    "1 string m_text": "Une ville qui était autrefois une plaque tournante dans l'industrie du transport par voie d'eau. Située le long d'un canal, elle devint prospère en servant de relais entre Szaka et les mines. Cependant, la ville fut un jour frappée par une tempête de sable qui a duré mille jours et, lorsque la tempête se calma, elle n'était plus que ruines."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_033",
+                    "1 string m_nameId": "ma_0102_2",
+                    "1 string m_text": "Les vestiges d'une station d'épuration située sous la Ville perdue. Bien qu'abandonné depuis longtemps, il y a des signes que quelqu'un utilise le site."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_039",
+                    "1 string m_nameId": "ma_0103_1",
+                    "1 string m_text": "Un rassemblement de ruines enfouies dans une substance ressemblant à de la résine. Les bâtiments présentent une architecture différente du style contemporain. Leur utilité reste un mystère."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_040",
+                    "1 string m_nameId": "ma_0103_2",
+                    "1 string m_text": "Une des rares ruines trouvées sur les Côtes Kiho dans lesquelles il est possible de pénétrer. À l'intérieur se trouvent de vastes cavernes, bien qu'on ne sache toujours pas à quoi le site servait."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_044",
+                    "1 string m_nameId": "ma_0104_1",
+                    "1 string m_text": "Un marais dans lequel sont immergées des souches d'arbres imposants. C'est un bel endroit rempli de fleurs, y compris des fleurs sous-marines introuvables ailleurs. Les arbres semblent tous avoir été coupés à la même hauteur et les souches abritent de nombreuses créatures et plantes."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_048",
+                    "1 string m_nameId": "ma_0201_1",
+                    "1 string m_text": "L'un des sommets qui forment les Monts Mazzen, situé dans la partie nord-ouest du Royaume intérieur. Cette montagne rocheuse aux nombreuses vallées formées par l'érosion des rivières est réputée pour sa pêche à la ligne en montagne."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_049",
+                    "1 string m_nameId": "ma_0201_2",
+                    "1 string m_text": "Une vaste forêt qui s'étend au pied du Mont Teora. Elle est si isolée du monde extérieur qu'un écosystème unique s'est développé ici. Il produit un bois d'excellente qualité qui est transporté dans tout le Royaume intérieur."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_050",
+                    "1 string m_nameId": "ma_0201_3",
+                    "1 string m_text": "Un petit village niché au fond des Bois Mesid. Dans la région, le site est utilisé pour la foresterie, et cette industrie fait vivre nombre de ses habitants."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_057",
+                    "1 string m_nameId": "ma_0202_1",
+                    "1 string m_text": "L'une des carrières où on extrayait autrefois des ombreroches de qualité. La carrière a été abandonnée après qu'un mouvement tectonique ait provoqué une éruption de lave dans la vallée. Les wagons et les ascenseurs disséminés sur le site montrent clairement que l'ombreroche était exploitée en masse ici."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_060",
+                    "1 string m_nameId": "ma_0203_1",
+                    "1 string m_text": "Un vaste océan d'arbres baignant dans une atmosphère onirique. Une grande partie reste inexplorée en raison de la nature labyrinthique et de grande envergure du terrain, de sorte que son étendue demeure inconnue."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_061",
+                    "1 string m_nameId": "ma_0203_2",
+                    "1 string m_text": "Un village caché dans un coin reculé de la Forêt Ophay. Coupé du monde extérieur en raison de son éloignement, il est devenu un refuge pour les exilés."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_062",
+                    "1 string m_nameId": "ma_0203_3",
+                    "1 string m_text": "Une forêt mystique où poussent toutes sortes de plantes et fleurs magnifiques. Parce que ses paysages spectaculaires ne restent les mêmes tout au long de l'année et qu'ils ne sont pas affectés par les saisons, on l'a surnommé le Jardin éternel."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_068",
+                    "1 string m_nameId": "ma_0401_1",
+                    "1 string m_text": "Une des vallées qui forme les Gorges Aon. La vallée a une forme de passage, et est surplombée par des chaînes. La légende raconte que le Premier pilier se trouve dans la vallée."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_069",
+                    "1 string m_nameId": "ma_0401_2",
+                    "1 string m_text": "Des ruines qui existent depuis la fondation du Royaume intérieur. Personne ne sait qui a érigé le Premier pilier. Les ruines sont composées d'un matériau qu'on ne trouve que dans les profondeurs du Palais Ehir et dans le pilier lui-même. On pense qu'ils ont été construits en utilisant une technique ancienne perdue au cours des siècles."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_078",
+                    "1 string m_nameId": "ma_0402_1",
+                    "1 string m_text": "Un pays étrange avec de nombreuses vallées profondes en forme de chaînes qui s'étendent en longueur et en largeur. Même au plus fort de la journée, la lumière est tamisée, ce qui rend cet environnement difficile à supporter pour les êtres vivants. À part les Déchus, on n'y trouve que peu de plantes et d'animaux."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_079",
+                    "1 string m_nameId": "ma_0402_2",
+                    "1 string m_text": "Un endroit étrange avec d'énormes rochers rappelant des corps humains et des roches ressemblant à des bras. La terre est extrêmement sèche et désolée, et devient régulièrement un désert."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_080",
+                    "1 string m_nameId": "ma_0402_3",
+                    "1 string m_text": "Le seul village qui se trouve dans la nature. Une colonie humaine s'y est installée après la découverte d'un affluent souterrain. Parmi toutes les terres désolées, c'est le seul endroit foulé par des pieds humains."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_081",
+                    "1 string m_nameId": "ma_0402_4",
+                    "1 string m_text": "Une terre dévastée qui s'étend au nord de Tayu. Les voies navigables souterraines permettaient autrefois aux plantes de pousser ici, mais quand elles se sont asséchées, le lieu est devenu une terre en friche. Les quelques arbres morts qui demeurent sont les seules traces de cet écosystème perdu."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAP_089",
+                    "1 string m_nameId": "ma_0600_1",
+                    "1 string m_text": "Un lieu vide et désolé oublié de l'homme, érodé et usé par le temps qui passe. D'après les légendes, c'était la capitale d'un ancien royaume, mais la vérité est perdue depuis longtemps. C'est un endroit mystérieux où le Voile entre le Monde des vivants et l'Au-delà est mince. On raconte que des morts errent dans ses salles."
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

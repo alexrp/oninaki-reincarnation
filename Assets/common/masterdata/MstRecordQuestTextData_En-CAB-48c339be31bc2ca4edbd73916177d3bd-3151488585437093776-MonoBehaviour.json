@@ -1,223 +1,251 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 3206499839727409700
+    },
+    "1 string m_Name": "MstRecordQuestTextData_En",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 3206499839727409910
-        },
-        "1 string m_Name": "MstRecordQuestTextData_En",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Data",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Data",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_001",
-                                "1 string m_nameId": "cn_name_quest_001",
-                                "1 string m_text": "A woman killed by Zale the day she planned to meet her lover. She wants to visit the small house in Raom Meadows where they'd agreed to rendezvous."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_002",
-                                "1 string m_nameId": "cn_name_quest_002",
-                                "1 string m_text": "A young man who applied for the tithing on a whim, even though he was satisfied with his lot in life. He doesn't know why he lingers, but believes it involves meeting a woman seated to the west of the Dais of Life."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_003",
-                                "1 string m_nameId": "cn_name_quest_003",
-                                "1 string m_text": "Happy to see Kagachi despite their awkward past, Kujo has something to convey in her final moments. She requests a quiet place to talk, and suggests the Sook Fens."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_004",
-                                "1 string m_nameId": "cn_name_quest_004",
-                                "1 string m_text": "A woman compelled to join the uprising who now regrets this senseless act. Her final wish is to visit her favorite place, near the entrance to the ruins at Kiho Shores."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_005",
-                                "1 string m_nameId": "cn_name_quest_005",
-                                "1 string m_text": "A woman who blindly followed the Ark of Hope, and is still unaware she was duped. She becomes a Fallen Soul soon after you meet."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_006",
-                                "1 string m_nameId": "cn_name_quest_006",
-                                "1 string m_text": "Leo is distraught at becoming a Lost Soul. Even in death, he wishes to visit the throne room to support his mother, Lobelia."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_007",
-                                "1 string m_nameId": "cn_name_quest_007",
-                                "1 string m_text": "A bandit slain by Soju. Admiring this feat of strength, he seems to hold no grudge. He wants you to seek out a twinblade sealed within ancient ruins."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_008",
-                                "1 string m_nameId": "cn_name_quest_008",
-                                "1 string m_text": "A man Soju killed in the past. His thirst for revenge drives him to become Fallen, and he leaps to the attack."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_009",
-                                "1 string m_nameId": "cn_name_quest_009",
-                                "1 string m_text": "A man who was killed by Soju. A strong believer in reason, he accepts his death, and is unsure why he became a Lost Soul. To find answers, he asks you to take him to his home in the Mesid Woods."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_010",
-                                "1 string m_nameId": "cn_name_quest_010",
-                                "1 string m_text": "A man who sought to join the Blood Guard after seeing Zaav. Before crossing, he wants a closer look at a Blood Guard spear upgraded to an Attack of 100 or more."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_011",
-                                "1 string m_nameId": "cn_name_quest_011",
-                                "1 string m_text": "A Watcher who served at the same time as Kagachi. She wants you to take her to the ground floor of Ehir Palace to speak with a Daemon who once pledged to help her."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_012",
-                                "1 string m_nameId": "cn_name_quest_012",
-                                "1 string m_text": "A seeker of truth looking for a being said to hold the key to all wisdom. Though dubious, he wants to see for himself, and asks for help. Rumor has it this being can be found in a forgotten place."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_013",
-                                "1 string m_nameId": "cn_name_quest_013",
-                                "1 string m_text": "A Watcher who died when his body succumbed to the Beyond, an occasional risk in the early days. His final wish is to return to Kiraq where he was born."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_014",
-                                "1 string m_nameId": "cn_name_quest_014",
-                                "1 string m_text": "A man who died showing off in front of a girl he liked, and now regrets his lax approach to training. He wants to see her one last time at the well to the northeast of Deto."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_015",
-                                "1 string m_nameId": "cn_name_quest_015",
-                                "1 string m_text": "An old woman who died when her daughter-in-law tricked her into applying for the tithing. Her rancor turns her into one of the Fallen, and you are forced to fight."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_016",
-                                "1 string m_nameId": "cn_name_quest_016",
-                                "1 string m_text": "A woman who became a Lost Soul out of concern for her man-fearing friend. Wanting to reassure her friend, she asks to be taken to her home near the stairs north of the Dais of Life."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_017",
-                                "1 string m_nameId": "cn_name_quest_017",
-                                "1 string m_text": "A girl killed by Fallen who wants to meet her mother at the northernmost crossroads in Deto. However, worried at the effect this could have on her adoring mother, she decides a glimpse is enough."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_018",
-                                "1 string m_nameId": "cn_name_quest_018",
-                                "1 string m_text": "A dog who manages to convey its desire to meet its master through barks alone. You ask around the stalls in Deto, guessing its master must be somewhere in the area."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_019",
-                                "1 string m_nameId": "cn_name_quest_019",
-                                "1 string m_text": "An unusual man who claims to have the ability to identify any smell. He wishes to sample the air near the entryway to Tashir Canal one last time, and asks you to take him there."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_020",
-                                "1 string m_nameId": "cn_name_quest_020",
-                                "1 string m_text": "A man who perished and became Lost, only to be hounded by the Fallen. He has no idea why he lingers, but asks you to help him flee to the entrance to Deto."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_021",
-                                "1 string m_nameId": "cn_name_quest_021",
-                                "1 string m_text": "A young boy who came to admire Ioga and Wucan, as they always made time for him. He asks you to bring him the Goliath axe they wield."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_022",
-                                "1 string m_nameId": "cn_name_quest_022",
-                                "1 string m_text": "A woman obsessed with Leo to the point of madness. She starts to make a scene, demanding to see Leo before she crosses, so you oblige."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_023",
-                                "1 string m_nameId": "cn_name_quest_023",
-                                "1 string m_text": "A woman who is a devout follower of the sovereign, Lady Sara. You assume she wishes to meet her, but she instead wants to see a field full of the linnaea flowers Sara is fond of."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_024",
-                                "1 string m_nameId": "cn_name_quest_024",
-                                "1 string m_text": "An alchemist who devoted her life to the trade, and has absolute confidence in her abilities. Wanting to prove the weapons she crafted have no equal, she asks you to show her any with an Attack of 200 or more that you find."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_025",
-                                "1 string m_nameId": "cn_name_quest_025",
-                                "1 string m_text": "A man fascinated with the world beyond the Inner Kingdom who studied the vanished world where it snows. He requests that you seek out a weapon crafted in this world to fulfill his last wish."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_026",
-                                "1 string m_nameId": "cn_name_quest_026",
-                                "1 string m_text": "A historian who specialized in the Age of Magic. Seeking to unravel its ancient mysteries before crossing, she wants you to show her a weapon made in the Age of Magic."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_027",
-                                "1 string m_nameId": "cn_name_quest_027",
-                                "1 string m_text": "A man who monitored the Fallen as part of his research. He wants to observe the Fallen in Shadestone Quarry, a place he avoided while alive due to the risk involved."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_028",
-                                "1 string m_nameId": "cn_name_quest_028",
-                                "1 string m_text": "A man who claims to have owned the finest armor, but was killed when the Fallen took it. This made him realize weapons are more important, so he wants you to show him one with an Attack of 150 or more."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_029",
-                                "1 string m_nameId": "cn_name_quest_029",
-                                "1 string m_text": "A man who turned to crime for the sake of his family, and was executed by the Watchers. Though accepting of his fate, the love he has for his family is so strong that he becomes a Fallen, and seeks death at your hands."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_030",
-                                "1 string m_nameId": "cn_name_quest_030",
-                                "1 string m_text": "A man who spent so long Lost he knows he will join the Fallen soon, and fears what he may become. He seeks your help, but it is too late, and you are forced to fight his Fallen form."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_031",
-                                "1 string m_nameId": "cn_name_quest_031",
-                                "1 string m_text": "A guard who scoffed at the realm's ways, believing them fantasy. Surprised to find himself Beyond the Veil, he wishes to visit the Soul Cage, a strange place where it is said there is no Beyond."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "QUEST_032",
-                                "1 string m_nameId": "cn_name_quest_032",
-                                "1 string m_text": "A Watcher who ran rampant after Manifesting, and became a living Fallen. He has waited long for a Watcher to come and end his suffering."
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_001",
+                    "1 string m_nameId": "cn_name_quest_001",
+                    "1 string m_text": "A woman killed by Zale the day she planned to meet her lover. She wants to visit the small house in Raom Meadows where they'd agreed to rendezvous."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_002",
+                    "1 string m_nameId": "cn_name_quest_002",
+                    "1 string m_text": "A young man who applied for the tithing on a whim, even though he was satisfied with his lot in life. He doesn't know why he lingers, but believes it involves meeting a woman seated to the west of the Dais of Life."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_003",
+                    "1 string m_nameId": "cn_name_quest_003",
+                    "1 string m_text": "Happy to see Kagachi despite their awkward past, Kujo has something to convey in her final moments. She requests a quiet place to talk, and suggests the Sook Fens."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_004",
+                    "1 string m_nameId": "cn_name_quest_004",
+                    "1 string m_text": "A woman compelled to join the uprising who now regrets this senseless act. Her final wish is to visit her favorite place, near the entrance to the ruins at Kiho Shores."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_005",
+                    "1 string m_nameId": "cn_name_quest_005",
+                    "1 string m_text": "A woman who blindly followed the Ark of Hope, and is still unaware she was duped. She becomes a Fallen Soul soon after you meet."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_006",
+                    "1 string m_nameId": "cn_name_quest_006",
+                    "1 string m_text": "Leo is distraught at becoming a Lost Soul. Even in death, he wishes to visit the throne room to support his mother, Lobelia."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_007",
+                    "1 string m_nameId": "cn_name_quest_007",
+                    "1 string m_text": "A bandit slain by Soju. Admiring this feat of strength, he seems to hold no grudge. He wants you to seek out a twinblade sealed within ancient ruins."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_008",
+                    "1 string m_nameId": "cn_name_quest_008",
+                    "1 string m_text": "A man Soju killed in the past. His thirst for revenge drives him to become Fallen, and he leaps to the attack."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_009",
+                    "1 string m_nameId": "cn_name_quest_009",
+                    "1 string m_text": "A man who was killed by Soju. A strong believer in reason, he accepts his death, and is unsure why he became a Lost Soul. To find answers, he asks you to take him to his home in the Mesid Woods."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_010",
+                    "1 string m_nameId": "cn_name_quest_010",
+                    "1 string m_text": "A man who sought to join the Blood Guard after seeing Zaav. Before crossing, he wants a closer look at a Blood Guard spear upgraded to an Attack of 100 or more."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_011",
+                    "1 string m_nameId": "cn_name_quest_011",
+                    "1 string m_text": "A Watcher who served at the same time as Kagachi. She wants you to take her to the ground floor of Ehir Palace to speak with a Daemon who once pledged to help her."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_012",
+                    "1 string m_nameId": "cn_name_quest_012",
+                    "1 string m_text": "A seeker of truth looking for a being said to hold the key to all wisdom. Though dubious, he wants to see for himself, and asks for help. Rumor has it this being can be found in a forgotten place."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_013",
+                    "1 string m_nameId": "cn_name_quest_013",
+                    "1 string m_text": "A Watcher who died when his body succumbed to the Beyond, an occasional risk in the early days. His final wish is to return to Kiraq where he was born."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_014",
+                    "1 string m_nameId": "cn_name_quest_014",
+                    "1 string m_text": "A man who died showing off in front of a girl he liked, and now regrets his lax approach to training. He wants to see her one last time at the well to the northeast of Deto."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_015",
+                    "1 string m_nameId": "cn_name_quest_015",
+                    "1 string m_text": "An old woman who died when her daughter-in-law tricked her into applying for the tithing. Her rancor turns her into one of the Fallen, and you are forced to fight."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_016",
+                    "1 string m_nameId": "cn_name_quest_016",
+                    "1 string m_text": "A woman who became a Lost Soul out of concern for her man-fearing friend. Wanting to reassure her friend, she asks to be taken to her home near the stairs north of the Dais of Life."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_017",
+                    "1 string m_nameId": "cn_name_quest_017",
+                    "1 string m_text": "A girl killed by Fallen who wants to meet her mother at the northernmost crossroads in Deto. However, worried at the effect this could have on her adoring mother, she decides a glimpse is enough."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_018",
+                    "1 string m_nameId": "cn_name_quest_018",
+                    "1 string m_text": "A dog who manages to convey its desire to meet its master through barks alone. You ask around the stalls in Deto, guessing its master must be somewhere in the area."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_019",
+                    "1 string m_nameId": "cn_name_quest_019",
+                    "1 string m_text": "An unusual man who claims to have the ability to identify any smell. He wishes to sample the air near the entryway to Tashir Canal one last time, and asks you to take him there."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_020",
+                    "1 string m_nameId": "cn_name_quest_020",
+                    "1 string m_text": "A man who perished and became Lost, only to be hounded by the Fallen. He has no idea why he lingers, but asks you to help him flee to the entrance to Deto."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_021",
+                    "1 string m_nameId": "cn_name_quest_021",
+                    "1 string m_text": "A young boy who came to admire Ioga and Wucan, as they always made time for him. He asks you to bring him the Goliath axe they wield."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_022",
+                    "1 string m_nameId": "cn_name_quest_022",
+                    "1 string m_text": "A woman obsessed with Leo to the point of madness. She starts to make a scene, demanding to see Leo before she crosses, so you oblige."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_023",
+                    "1 string m_nameId": "cn_name_quest_023",
+                    "1 string m_text": "A woman who is a devout follower of the sovereign, Lady Sara. You assume she wishes to meet her, but she instead wants to see a field full of the linnaea flowers Sara is fond of."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_024",
+                    "1 string m_nameId": "cn_name_quest_024",
+                    "1 string m_text": "An alchemist who devoted her life to the trade, and has absolute confidence in her abilities. Wanting to prove the weapons she crafted have no equal, she asks you to show her any with an Attack of 200 or more that you find."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_025",
+                    "1 string m_nameId": "cn_name_quest_025",
+                    "1 string m_text": "A man fascinated with the world beyond the Inner Kingdom who studied the vanished world where it snows. He requests that you seek out a weapon crafted in this world to fulfill his last wish."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_026",
+                    "1 string m_nameId": "cn_name_quest_026",
+                    "1 string m_text": "A historian who specialized in the Age of Magic. Seeking to unravel its ancient mysteries before crossing, she wants you to show her a weapon made in the Age of Magic."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_027",
+                    "1 string m_nameId": "cn_name_quest_027",
+                    "1 string m_text": "A man who monitored the Fallen as part of his research. He wants to observe the Fallen in Shadestone Quarry, a place he avoided while alive due to the risk involved."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_028",
+                    "1 string m_nameId": "cn_name_quest_028",
+                    "1 string m_text": "A man who claims to have owned the finest armor, but was killed when the Fallen took it. This made him realize weapons are more important, so he wants you to show him one with an Attack of 150 or more."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_029",
+                    "1 string m_nameId": "cn_name_quest_029",
+                    "1 string m_text": "A man who turned to crime for the sake of his family, and was executed by the Watchers. Though accepting of his fate, the love he has for his family is so strong that he becomes a Fallen, and seeks death at your hands."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_030",
+                    "1 string m_nameId": "cn_name_quest_030",
+                    "1 string m_text": "A man who spent so long Lost he knows he will join the Fallen soon, and fears what he may become. He seeks your help, but it is too late, and you are forced to fight his Fallen form."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_031",
+                    "1 string m_nameId": "cn_name_quest_031",
+                    "1 string m_text": "A guard who scoffed at the realm's ways, believing them fantasy. Surprised to find himself Beyond the Veil, he wishes to visit the Soul Cage, a strange place where it is said there is no Beyond."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "QUEST_032",
+                    "1 string m_nameId": "cn_name_quest_032",
+                    "1 string m_text": "A Watcher who ran rampant after Manifesting, and became a living Fallen. He has waited long for a Watcher to come and end his suffering."
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

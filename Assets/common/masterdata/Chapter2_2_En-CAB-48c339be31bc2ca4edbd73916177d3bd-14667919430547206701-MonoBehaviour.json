@@ -1,1719 +1,1926 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 4759405696329208000
+    },
+    "1 string m_Name": "Chapter2_2_En",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 4759405696329207662
-        },
-        "1 string m_Name": "Chapter2_2_En",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "EventText",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "EventText",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt052",
-                                "1 string m_text": "This is mankind's true form!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt053",
-                                "1 string m_text": "Fear your mortality, fools! Reincarnation is but a fairy tale!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt054",
-                                "1 string m_text": "And if you cling to your false convictions, I'll send you to test them! Come! Who wants to see Beyond the Veil?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "cn_name_1150_002",
-                                "1 string m_voiceId": "CV_cn1004_evt101",
-                                "1 string m_text": "The Ark's gonna come for us! It'll take us all to the next world!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt055",
-                                "1 string m_text": "Ah, of course! The Ark!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Ha ha ha ha!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Maybe there is an Ark."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 800,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt050_a",
-                                "1 string m_text": "But YOU won't be getting on it."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 900,
-                                "1 string m_charaId": "cn_name_1150_002",
-                                "1 string m_voiceId": "CV_cn1004_evt102",
-                                "1 string m_text": "You're wrong! You'll see!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 1000,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt057",
-                                "1 string m_text": "The rich and powerful will never share it!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 1100,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Not a chance."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 1200,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "I bet they're all boarding it right now. Arm in arm, bound for the Beyond!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 1300,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Awww, you're being left behind. Quick! Better look for your little lifeboat before it sails away!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 1400,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt053",
-                                "1 string m_text": "HA HA HA HA!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_00",
-                                "0 int m_subId": 1500,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt056",
-                                "1 string m_text": "You don't want to be here when tragedy strikes!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CN_0404",
-                                "1 string m_voiceId": "CV_cn1013_evt001",
-                                "1 string m_text": "Hey! Kagachi!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0404",
-                                "1 string m_voiceId": "CV_cn1013_evt002",
-                                "1 string m_text": "I'm not seeing things, am I? That was really Kushi just now, wasn't it."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt045",
-                                "1 string m_text": "Sure was."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0404",
-                                "1 string m_voiceId": "CV_cn1013_evt007",
-                                "1 string m_text": "So what's going on!? He looked like...he looked just like a Daemon!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CN_0404",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "What happened to him? What could change him like that?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt056",
-                                "1 string m_text": "There'll be time for talk later. Right now we have work to do."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CN_0404",
-                                "1 string m_voiceId": "CV_cn1013_evt008",
-                                "1 string m_text": "Work? Are you kidding me!?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 800,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt047",
-                                "1 string m_text": "Kushi said he wanted to watch the realm burn."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "It's up to the Veil Watch to stop him."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 1000,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "We're sworn to protect these people."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 1100,
-                                "1 string m_charaId": "CN_0404",
-                                "1 string m_voiceId": "CV_cn1013_evt009",
-                                "1 string m_text": "Why would Kushi want to see the world burn? He would never do anything like this!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 1200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt045",
-                                "1 string m_text": "You're right. He wouldn't."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 1300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt074",
-                                "1 string m_text": "But that isn't Kushi anymore. It's a mortal enemy of the Inner Kingdom."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 1400,
-                                "1 string m_charaId": "CN_0404",
-                                "1 string m_voiceId": "CV_cn1013_evt002",
-                                "1 string m_text": "I have no clue what you're talking about."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 1500,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt099_b",
-                                "1 string m_text": "Funny. That makes two of us!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 1600,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt117",
-                                "1 string m_text": "But there's no time to figure it out now! If we don't move fast, we'll lose everything and everyone that matters!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 1700,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt118",
-                                "1 string m_text": "And then it will be too late!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 1800,
-                                "1 string m_charaId": "CN_0405",
-                                "1 string m_voiceId": "CV_cn1013_evt106",
-                                "1 string m_text": "Makes sense to me, Kagachi."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 1900,
-                                "1 string m_charaId": "CN_0404",
-                                "1 string m_voiceId": "CV_cn1013_evt010",
-                                "1 string m_text": "Heh. That'd be a first!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 2000,
-                                "1 string m_charaId": "CN_0405",
-                                "1 string m_voiceId": "CV_cn1013_evt103",
-                                "1 string m_text": "I'm just sayin' it makes sense that none of this makes sense."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 2100,
-                                "1 string m_charaId": "CN_0405",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "So all we gotta do is focus on saving the city."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 2200,
-                                "1 string m_charaId": "CN_0405",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Evacuate every last man, woman, and child. Sound like a plan, Kagachi?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 2300,
-                                "1 string m_charaId": "CN_0404",
-                                "1 string m_voiceId": "CV_cn1013_evt004",
-                                "1 string m_text": "Hey! Wait up!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 2400,
-                                "1 string m_charaId": "CN_0404",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Seriously, that guy... When we get back, you got some explainin' to do!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 2500,
-                                "1 string m_charaId": "CN_0001",
-                                "1 string m_voiceId": "CV_cn0001_evt025",
-                                "1 string m_text": "What now, Kagachi?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221000_10",
-                                "0 int m_subId": 2600,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt047",
-                                "1 string m_text": "There are too many people for the Watchers to evacuate on our own. We need to pay a visit to the palace."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221010_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt072_b",
-                                "1 string m_text": "What's going on here?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221010_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0001",
-                                "1 string m_voiceId": "CV_cn0001_evt033",
-                                "1 string m_text": "Weird. It seems like they knew this was going to happen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221010_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt097",
-                                "1 string m_text": "But, that would mean..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt048",
-                                "1 string m_text": "You seem well prepared."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Almost as if you expected this. Strange, that."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "CV_cn0004_evt020",
-                                "1 string m_text": "Watch your tongue!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt007",
-                                "1 string m_text": "Who are you to accuse us?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "CV_cn0004_evt021_b",
-                                "1 string m_text": "Kagachi. Watcher."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt008",
-                                "1 string m_text": "A Watcher? Then protect your sovereign! Protect your kingdom!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt049",
-                                "1 string m_text": "A cannon's a lot like a sword, you know. Useless unless you keep it sharp."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 800,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "From what I can see, you've been keeping these swords very sharp indeed."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "The question is, why?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 1000,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt009",
-                                "1 string m_text": "Silence! This does not concern you!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 1100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt086",
-                                "1 string m_text": "You don't deserve to rule."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 1200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "But that's not my call to make. I'm just a Watcher, after all."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 1300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "And I won't stand by as those that placed their faith in you die for nothing."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 1400,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "CV_cn0004_evt019",
-                                "1 string m_text": "Good. Then I have a job for you."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 1500,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt067",
-                                "1 string m_text": "...?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 1600,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Cannons need fuel to fire. Find some and bring it back here, on the double."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 1700,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt052_b",
-                                "1 string m_text": "Get your own fuel."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 1800,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "I'm a Watcher, not your dog. I don't play fetch."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 1900,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "CV_cn0004_evt022",
-                                "1 string m_text": "Don't get full of yourself, whelp."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 2000,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "You think you can protect this realm all by yourself?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 2100,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "What will you do if you fail? It will be too late for regrets then."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 2200,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Besides, do you really think you can best Kushi?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 2300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt122",
-                                "1 string m_text": "..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 2400,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt011",
-                                "1 string m_text": "We both want to protect the realm and its people. Lend us your strength. Help us, Watcher Kagachi."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 2500,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Or would you rather waste your time growling at us?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 2600,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 2700,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt058",
-                                "1 string m_text": "All right."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 2800,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt074",
-                                "1 string m_text": "I'll help you, but only on one condition."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221020_00",
-                                "0 int m_subId": 2900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "You use these things only as a last resort. Got it?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221050_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CN_0001",
-                                "1 string m_voiceId": "CV_cn0001_evt044",
-                                "1 string m_text": "This is what the cannons need to work, right?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221050_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt045",
-                                "1 string m_text": "That's right."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221050_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt074",
-                                "1 string m_text": "But they won't have to. I'll stop Kushi myself."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_10",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "CV_cp0000_evt028",
-                                "1 string m_text": "The cannons arrayed to battle Kushi only serve as a reminder of the realm's fragility.\n\nThey stand, motionless and waiting, but the silence of the city mocks them."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_10",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "CV_cp0000_evt029",
-                                "1 string m_text": "Meanwhile, Lady Lobelia trembles in fear of Kushi's prophesied tragedy.\n\nYet Kushi is nowhere to be seen..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_10",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CN_0001",
-                                "1 string m_voiceId": "CV_cn0001_evt025",
-                                "1 string m_text": "So...what exactly happened with Kushi?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_10",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt047",
-                                "1 string m_text": "I'm not sure."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_10",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "But the hatred inside him isn't his alone."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_10",
-                                "0 int m_subId": 800,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "He's being twisted by the darkness of the Night Devil."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_10",
-                                "0 int m_subId": 900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Kushi's \"tragedy\" will come. Mark my words."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_20",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "cn_name_1600_002",
-                                "1 string m_voiceId": "CV_cn1018_evt101_b",
-                                "1 string m_text": "Stop!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_20",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "cn_name_1200_007",
-                                "1 string m_voiceId": "CV_cn1001_evt201",
-                                "1 string m_text": "Hey, you."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_20",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "cn_name_1200_007",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Do you still believe in the Beyond?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_20",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "cn_name_1200_007",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Do you still have faith in a country that encourages death?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_20",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "cn_name_1600_002",
-                                "1 string m_voiceId": "CV_cn1018_evt102_c",
-                                "1 string m_text": "I...I do! I believe!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_20",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "cn_name_1200_007",
-                                "1 string m_voiceId": "CV_cn1001_evt202_b",
-                                "1 string m_text": "I see. In that case, you won't mind."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_20",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "cn_name_1600_002",
-                                "1 string m_voiceId": "CV_cn1018_evt103_b",
-                                "1 string m_text": "Huh?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_30",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt079",
-                                "1 string m_text": "This is madness!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_40",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "cn_name_1200_007",
-                                "1 string m_voiceId": "CV_cn1001_evt203",
-                                "1 string m_text": "The next world awaits, right?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_40",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "cn_name_1200_007",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "We're fed up with the lies. We won't place our faith in an uncertain afterlife."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_40",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "cn_name_1200_007",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "And we won't let the sovereign have her way. We want guarantees, so we're taking the Ark."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_70",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt052_b",
-                                "1 string m_text": "Enough! Your people are going to get murdered out there! Order your soldiers to withdraw, now!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_70",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt012",
-                                "1 string m_text": "No... No..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_70",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "My kingdom..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_70",
-                                "0 int m_subId": 350,
-                                "1 string m_charaId": "cn_name_1600_110",
-                                "1 string m_voiceId": "CV_cn1018_evt201",
-                                "1 string m_text": "The rioters are approaching the palace!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221060_70",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt086",
-                                "1 string m_text": "Dammit!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt123_b",
-                                "1 string m_text": "Was this your plan all along, Kushi? Or should I call you the Night Devil?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Did you want to watch this realm tear itself apart?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Why would a man like you do this?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0001",
-                                "1 string m_voiceId": "CV_cn0001_evt039",
-                                "1 string m_text": "If only I were stronger. If only I'd shown more kindness."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt056",
-                                "1 string m_text": "This isn't your fault."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "You were the only one who showed the Night Devil kindness."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "If it never figured out how to play nice, that's not your fault."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 800,
-                                "1 string m_charaId": "CN_0001",
-                                "1 string m_voiceId": "CV_cn0001_evt015",
-                                "1 string m_text": "Kagachi..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt074",
-                                "1 string m_text": "That being said, we can't just let it get away with this."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 1000,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "I'm going to stop this fighting, and then I'm going to kill the Night Devil."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 1100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "I won't let it terrorize this realm ever again."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 1200,
-                                "1 string m_charaId": "CN_0001",
-                                "1 string m_voiceId": "CV_cn0001_evt017",
-                                "1 string m_text": "O-Okay."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 1300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt124",
-                                "1 string m_text": "Stop."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 1400,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt120",
-                                "1 string m_text": "You believed in this realm once, you can again. Don't throw away your lives, and don't betray your hearts!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 1500,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Kushi is possessed by the evil of the Night Devil. He isn't himself!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 1600,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "He doesn't hate this realm. The Veil Watch would never betray you!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 1700,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt181",
-                                "1 string m_text": "The Watch has seen the smiles and tears of souls who believed in the Beyond."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 1800,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt125",
-                                "1 string m_text": "That's why I believe."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 1900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt116",
-                                "1 string m_text": "I believe that they'll be reborn in this world!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 2000,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "I believe in the promise of reincarnation!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 2100,
-                                "1 string m_charaId": "cn_name_1200_008",
-                                "1 string m_voiceId": "CV_cn1001_evt301",
-                                "1 string m_text": "No more promises! We want guarantees! GIVE US THE ARK!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221070_00",
-                                "0 int m_subId": 2200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt127",
-                                "1 string m_text": "Why wouldn't you listen!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_221080_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt048",
-                                "1 string m_text": "Send them off with a smile, if you're such a true believer. Isn't that what Watchers do?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222000_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt112_b",
-                                "1 string m_text": "Put it down. That won't solve anything."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222000_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "CV_cn0004_evt023",
-                                "1 string m_text": "I... What am I doing?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222000_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "This place was perfect. Wasn't that enough?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222000_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt092_b",
-                                "1 string m_text": "Get back here!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222000_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "CV_cn0004_evt024",
-                                "1 string m_text": "Stop my mother, I'm begging you!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222020_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt097",
-                                "1 string m_text": "Wait, don't tell me there really IS an Ark?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222020_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt013",
-                                "1 string m_text": "There must be something here!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222020_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt014",
-                                "1 string m_text": "Something only the sovereign has access to!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222020_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt015",
-                                "1 string m_text": "It's here! It has to be!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222020_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt016",
-                                "1 string m_text": "Something that can save us!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222020_00",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt017",
-                                "1 string m_text": "Work, damn you! Why won't you work!?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222020_00",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt018",
-                                "1 string m_text": "I'm the sovereign! Obey me!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222020_00",
-                                "0 int m_subId": 800,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt109_b",
-                                "1 string m_text": "What is this place?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt051",
-                                "1 string m_text": "What do you have there?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt019",
-                                "1 string m_text": "Shut up, shut up, SHUT UP!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt043_e",
-                                "1 string m_text": "Calm down. You're the sovereign. Act like it."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt020",
-                                "1 string m_text": "Heh. Heh heh heh."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt023",
-                                "1 string m_text": "That's right. I...I am the sovereign."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt065",
-                                "1 string m_text": "What is that?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt021",
-                                "1 string m_text": "I have no idea. It was here. It's always been here."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 800,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "But only the true sovereign knows what it is."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt067",
-                                "1 string m_text": "\"True\" sovereign?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 1000,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt057",
-                                "1 string m_text": "In other words, she's a fake."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 1100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt189",
-                                "1 string m_text": "Kushi?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 1200,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt058",
-                                "1 string m_text": "The last sovereign was accused of dubious crimes and executed."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 1300,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "All thanks to Lady Lobelia."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 1400,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt128_a",
-                                "1 string m_text": "What?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 1500,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt059",
-                                "1 string m_text": "These are the Night Devil's memories. They're undoubtedly true."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 1600,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Consider that shiny arsenal of hers, all ready for an emergency. Doesn't that seem paranoid to you?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 1700,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "She was afraid that one day she'd meet the same fate. Betrayed and murdered."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 1800,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "CV_cn0006_evt022",
-                                "1 string m_text": "..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 1900,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt060",
-                                "1 string m_text": "But none of that matters anymore."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 2000,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt104",
-                                "1 string m_text": "What are you planning!?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 2100,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt048",
-                                "1 string m_text": "To see this realm glut itself on despair."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 2200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt190",
-                                "1 string m_text": "Kushi!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 2300,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt061",
-                                "1 string m_text": "This piece of junk has outlived its purpose."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 2400,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "What good is something that can only be used by the true heir to the throne?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 2500,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "The bloodline is broken, and it's her hands that are stained red."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 2600,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt099_a",
-                                "1 string m_text": "You're one to talk."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 2700,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt062",
-                                "1 string m_text": "This realm deserves to burn for believing in lies."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 2800,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt130_d",
-                                "1 string m_text": "If anyone deserves to suffer it's us."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 2900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt047",
-                                "1 string m_text": "We've murdered people whose only crime was clinging to the idea of the afterlife."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 3000,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt125",
-                                "1 string m_text": "None of us are without blame, Kushi. Justice is dead."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 3100,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt063",
-                                "1 string m_text": "You're right. This world is rife with injustice."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 3200,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt050_b",
-                                "1 string m_text": "What a good son you are."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 3300,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "But a true believer would've watched on with a smile as his mother crossed over."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 3400,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "CV_cn0004_evt025",
-                                "1 string m_text": "I will save this realm."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 3500,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "I...will never...let you have it."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 3600,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt047",
-                                "1 string m_text": "Do you mean in the afterlife?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 3700,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt048",
-                                "1 string m_text": "Because here's a secret: there is no afterlife. This world will come to its end."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 3800,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt053",
-                                "1 string m_text": "Isn't that nice to know? Now you won't become Lost."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222030_00",
-                                "0 int m_subId": 3900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt129",
-                                "1 string m_text": "You aren't Kushi anymore. You're the Night Devil, and I will kill you."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222040_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "I loved life."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222040_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "The laughter..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222040_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "And the tears."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222040_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "I loved every last day."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222040_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "I was so blessed."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt126_b",
-                                "1 string m_text": "..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt064",
-                                "1 string m_text": "You've grown up strong, Kagachi."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Forgive me."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt131",
-                                "1 string m_text": "It's not your fault. The Night Devil forced you to do it."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt065",
-                                "1 string m_text": "No. I was in there with him."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "When I lost Mayura, I...I could tell I was coming apart at the seams."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "And then, when the Night Devil possessed me, it felt...good."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 800,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "With my hatred free to rage, I felt liberated."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt132",
-                                "1 string m_text": "I get it. You don't have to—"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 1000,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt066",
-                                "1 string m_text": "No. Listen to me."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 1100,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt067",
-                                "1 string m_text": "This is important."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 1200,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "The Night Devil's memories, I saw them."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 1300,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "That thing is a Daemon whose soul is so fueled by hatred it couldn't reincarnate."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 1400,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "You're the only one who can save it."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 1500,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt133",
-                                "1 string m_text": "Why me?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 1600,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt068",
-                                "1 string m_text": "I don't know."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 1700,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "You'll have to find that answer yourself. Search for its origin, collect the pieces of its malice."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 1800,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "You're the only one who can be bound to it. In due course, it will find you."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 1900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt134",
-                                "1 string m_text": "And you'll be there at my side to face it."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 2000,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt025",
-                                "1 string m_text": "Sorry. You have to handle this one yourself."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 2100,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "After what I tried to do to the kingdom, you wouldn't want my help anyway."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 2200,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "The key...is the girl, Linne. She is the link that binds you and the Night Devil together."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 2300,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Follow your memories, girl. Take care of Kagachi for me."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 2400,
-                                "1 string m_charaId": "CN_0001",
-                                "1 string m_voiceId": "CV_cn0001_evt016",
-                                "1 string m_text": "Me?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 2500,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt017",
-                                "1 string m_text": "Damn, I'm tired."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 2600,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt069",
-                                "1 string m_text": "I think...it's time for me to go. I hope Mayura's waiting for me."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 2700,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt135_b",
-                                "1 string m_text": "No... This isn't how it was supposed to happen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 2800,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt040",
-                                "1 string m_text": "Kagachi..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 2900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt136",
-                                "1 string m_text": "..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 3000,
-                                "1 string m_charaId": "CN_0050",
-                                "1 string m_voiceId": "CV_cn0003_evt070",
-                                "1 string m_text": "I love you, son. Even if you are a stubborn fool."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 3100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt137_d",
-                                "1 string m_text": "With a fool of a father."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_222050_00",
-                                "0 int m_subId": 3200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "CV_cp0000_evt138_d",
-                                "1 string m_text": "Stubborn to the end..."
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt052",
+                    "1 string m_text": "This is mankind's true form!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt053",
+                    "1 string m_text": "Fear your mortality, fools! Reincarnation is but a fairy tale!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt054",
+                    "1 string m_text": "And if you cling to your false convictions, I'll send you to test them! Come! Who wants to see Beyond the Veil?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "cn_name_1150_002",
+                    "1 string m_voiceId": "CV_cn1004_evt101",
+                    "1 string m_text": "The Ark's gonna come for us! It'll take us all to the next world!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt055",
+                    "1 string m_text": "Ah, of course! The Ark!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Ha ha ha ha!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Maybe there is an Ark."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 800,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt050_a",
+                    "1 string m_text": "But YOU won't be getting on it."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 900,
+                    "1 string m_charaId": "cn_name_1150_002",
+                    "1 string m_voiceId": "CV_cn1004_evt102",
+                    "1 string m_text": "You're wrong! You'll see!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 1000,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt057",
+                    "1 string m_text": "The rich and powerful will never share it!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 1100,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Not a chance."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 1200,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "I bet they're all boarding it right now. Arm in arm, bound for the Beyond!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 1300,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Awww, you're being left behind. Quick! Better look for your little lifeboat before it sails away!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 1400,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt053",
+                    "1 string m_text": "HA HA HA HA!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_00",
+                    "0 int m_subId": 1500,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt056",
+                    "1 string m_text": "You don't want to be here when tragedy strikes!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CN_0404",
+                    "1 string m_voiceId": "CV_cn1013_evt001",
+                    "1 string m_text": "Hey! Kagachi!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0404",
+                    "1 string m_voiceId": "CV_cn1013_evt002",
+                    "1 string m_text": "I'm not seeing things, am I? That was really Kushi just now, wasn't it."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt045",
+                    "1 string m_text": "Sure was."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0404",
+                    "1 string m_voiceId": "CV_cn1013_evt007",
+                    "1 string m_text": "So what's going on!? He looked like...he looked just like a Daemon!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CN_0404",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "What happened to him? What could change him like that?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt056",
+                    "1 string m_text": "There'll be time for talk later. Right now we have work to do."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CN_0404",
+                    "1 string m_voiceId": "CV_cn1013_evt008",
+                    "1 string m_text": "Work? Are you kidding me!?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 800,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt047",
+                    "1 string m_text": "Kushi said he wanted to watch the realm burn."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "It's up to the Veil Watch to stop him."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 1000,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "We're sworn to protect these people."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 1100,
+                    "1 string m_charaId": "CN_0404",
+                    "1 string m_voiceId": "CV_cn1013_evt009",
+                    "1 string m_text": "Why would Kushi want to see the world burn? He would never do anything like this!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 1200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt045",
+                    "1 string m_text": "You're right. He wouldn't."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 1300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt074",
+                    "1 string m_text": "But that isn't Kushi anymore. It's a mortal enemy of the Inner Kingdom."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 1400,
+                    "1 string m_charaId": "CN_0404",
+                    "1 string m_voiceId": "CV_cn1013_evt002",
+                    "1 string m_text": "I have no clue what you're talking about."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 1500,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt099_b",
+                    "1 string m_text": "Funny. That makes two of us!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 1600,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt117",
+                    "1 string m_text": "But there's no time to figure it out now! If we don't move fast, we'll lose everything and everyone that matters!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 1700,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt118",
+                    "1 string m_text": "And then it will be too late!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 1800,
+                    "1 string m_charaId": "CN_0405",
+                    "1 string m_voiceId": "CV_cn1013_evt106",
+                    "1 string m_text": "Makes sense to me, Kagachi."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 1900,
+                    "1 string m_charaId": "CN_0404",
+                    "1 string m_voiceId": "CV_cn1013_evt010",
+                    "1 string m_text": "Heh. That'd be a first!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 2000,
+                    "1 string m_charaId": "CN_0405",
+                    "1 string m_voiceId": "CV_cn1013_evt103",
+                    "1 string m_text": "I'm just sayin' it makes sense that none of this makes sense."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 2100,
+                    "1 string m_charaId": "CN_0405",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "So all we gotta do is focus on saving the city."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 2200,
+                    "1 string m_charaId": "CN_0405",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Evacuate every last man, woman, and child. Sound like a plan, Kagachi?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 2300,
+                    "1 string m_charaId": "CN_0404",
+                    "1 string m_voiceId": "CV_cn1013_evt004",
+                    "1 string m_text": "Hey! Wait up!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 2400,
+                    "1 string m_charaId": "CN_0404",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Seriously, that guy... When we get back, you got some explainin' to do!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 2500,
+                    "1 string m_charaId": "CN_0001",
+                    "1 string m_voiceId": "CV_cn0001_evt025",
+                    "1 string m_text": "What now, Kagachi?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221000_10",
+                    "0 int m_subId": 2600,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt047",
+                    "1 string m_text": "There are too many people for the Watchers to evacuate on our own. We need to pay a visit to the palace."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221010_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt072_b",
+                    "1 string m_text": "What's going on here?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221010_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0001",
+                    "1 string m_voiceId": "CV_cn0001_evt033",
+                    "1 string m_text": "Weird. It seems like they knew this was going to happen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221010_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt097",
+                    "1 string m_text": "But, that would mean..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt048",
+                    "1 string m_text": "You seem well prepared."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Almost as if you expected this. Strange, that."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "CV_cn0004_evt020",
+                    "1 string m_text": "Watch your tongue!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt007",
+                    "1 string m_text": "Who are you to accuse us?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "CV_cn0004_evt021_b",
+                    "1 string m_text": "Kagachi. Watcher."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt008",
+                    "1 string m_text": "A Watcher? Then protect your sovereign! Protect your kingdom!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt049",
+                    "1 string m_text": "A cannon's a lot like a sword, you know. Useless unless you keep it sharp."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 800,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "From what I can see, you've been keeping these swords very sharp indeed."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "The question is, why?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 1000,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt009",
+                    "1 string m_text": "Silence! This does not concern you!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 1100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt086",
+                    "1 string m_text": "You don't deserve to rule."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 1200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "But that's not my call to make. I'm just a Watcher, after all."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 1300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "And I won't stand by as those that placed their faith in you die for nothing."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 1400,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "CV_cn0004_evt019",
+                    "1 string m_text": "Good. Then I have a job for you."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 1500,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt067",
+                    "1 string m_text": "...?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 1600,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Cannons need fuel to fire. Find some and bring it back here, on the double."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 1700,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt052_b",
+                    "1 string m_text": "Get your own fuel."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 1800,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "I'm a Watcher, not your dog. I don't play fetch."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 1900,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "CV_cn0004_evt022",
+                    "1 string m_text": "Don't get full of yourself, whelp."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 2000,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "You think you can protect this realm all by yourself?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 2100,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "What will you do if you fail? It will be too late for regrets then."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 2200,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Besides, do you really think you can best Kushi?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 2300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt122",
+                    "1 string m_text": "..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 2400,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt011",
+                    "1 string m_text": "We both want to protect the realm and its people. Lend us your strength. Help us, Watcher Kagachi."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 2500,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Or would you rather waste your time growling at us?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 2600,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 2700,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt058",
+                    "1 string m_text": "All right."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 2800,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt074",
+                    "1 string m_text": "I'll help you, but only on one condition."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221020_00",
+                    "0 int m_subId": 2900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "You use these things only as a last resort. Got it?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221050_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CN_0001",
+                    "1 string m_voiceId": "CV_cn0001_evt044",
+                    "1 string m_text": "This is what the cannons need to work, right?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221050_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt045",
+                    "1 string m_text": "That's right."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221050_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt074",
+                    "1 string m_text": "But they won't have to. I'll stop Kushi myself."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_10",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "CV_cp0000_evt028",
+                    "1 string m_text": "The cannons arrayed to battle Kushi only serve as a reminder of the realm's fragility.\n\nThey stand, motionless and waiting, but the silence of the city mocks them."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_10",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "CV_cp0000_evt029",
+                    "1 string m_text": "Meanwhile, Lady Lobelia trembles in fear of Kushi's prophesied tragedy.\n\nYet Kushi is nowhere to be seen..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_10",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CN_0001",
+                    "1 string m_voiceId": "CV_cn0001_evt025",
+                    "1 string m_text": "So...what exactly happened with Kushi?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_10",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt047",
+                    "1 string m_text": "I'm not sure."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_10",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "But the hatred inside him isn't his alone."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_10",
+                    "0 int m_subId": 800,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "He's being twisted by the darkness of the Night Devil."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_10",
+                    "0 int m_subId": 900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Kushi's \"tragedy\" will come. Mark my words."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_20",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "cn_name_1600_002",
+                    "1 string m_voiceId": "CV_cn1018_evt101_b",
+                    "1 string m_text": "Stop!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_20",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "cn_name_1200_007",
+                    "1 string m_voiceId": "CV_cn1001_evt201",
+                    "1 string m_text": "Hey, you."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_20",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "cn_name_1200_007",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Do you still believe in the Beyond?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_20",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "cn_name_1200_007",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Do you still have faith in a country that encourages death?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_20",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "cn_name_1600_002",
+                    "1 string m_voiceId": "CV_cn1018_evt102_c",
+                    "1 string m_text": "I...I do! I believe!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_20",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "cn_name_1200_007",
+                    "1 string m_voiceId": "CV_cn1001_evt202_b",
+                    "1 string m_text": "I see. In that case, you won't mind."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_20",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "cn_name_1600_002",
+                    "1 string m_voiceId": "CV_cn1018_evt103_b",
+                    "1 string m_text": "Huh?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_30",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt079",
+                    "1 string m_text": "This is madness!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_40",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "cn_name_1200_007",
+                    "1 string m_voiceId": "CV_cn1001_evt203",
+                    "1 string m_text": "The next world awaits, right?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_40",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "cn_name_1200_007",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "We're fed up with the lies. We won't place our faith in an uncertain afterlife."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_40",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "cn_name_1200_007",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "And we won't let the sovereign have her way. We want guarantees, so we're taking the Ark."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_70",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt052_b",
+                    "1 string m_text": "Enough! Your people are going to get murdered out there! Order your soldiers to withdraw, now!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_70",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt012",
+                    "1 string m_text": "No... No..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_70",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "My kingdom..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_70",
+                    "0 int m_subId": 350,
+                    "1 string m_charaId": "cn_name_1600_110",
+                    "1 string m_voiceId": "CV_cn1018_evt201",
+                    "1 string m_text": "The rioters are approaching the palace!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221060_70",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt086",
+                    "1 string m_text": "Dammit!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt123_b",
+                    "1 string m_text": "Was this your plan all along, Kushi? Or should I call you the Night Devil?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Did you want to watch this realm tear itself apart?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Why would a man like you do this?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0001",
+                    "1 string m_voiceId": "CV_cn0001_evt039",
+                    "1 string m_text": "If only I were stronger. If only I'd shown more kindness."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt056",
+                    "1 string m_text": "This isn't your fault."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "You were the only one who showed the Night Devil kindness."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "If it never figured out how to play nice, that's not your fault."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 800,
+                    "1 string m_charaId": "CN_0001",
+                    "1 string m_voiceId": "CV_cn0001_evt015",
+                    "1 string m_text": "Kagachi..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt074",
+                    "1 string m_text": "That being said, we can't just let it get away with this."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 1000,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "I'm going to stop this fighting, and then I'm going to kill the Night Devil."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 1100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "I won't let it terrorize this realm ever again."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 1200,
+                    "1 string m_charaId": "CN_0001",
+                    "1 string m_voiceId": "CV_cn0001_evt017",
+                    "1 string m_text": "O-Okay."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 1300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt124",
+                    "1 string m_text": "Stop."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 1400,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt120",
+                    "1 string m_text": "You believed in this realm once, you can again. Don't throw away your lives, and don't betray your hearts!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 1500,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Kushi is possessed by the evil of the Night Devil. He isn't himself!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 1600,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "He doesn't hate this realm. The Veil Watch would never betray you!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 1700,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt181",
+                    "1 string m_text": "The Watch has seen the smiles and tears of souls who believed in the Beyond."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 1800,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt125",
+                    "1 string m_text": "That's why I believe."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 1900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt116",
+                    "1 string m_text": "I believe that they'll be reborn in this world!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 2000,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "I believe in the promise of reincarnation!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 2100,
+                    "1 string m_charaId": "cn_name_1200_008",
+                    "1 string m_voiceId": "CV_cn1001_evt301",
+                    "1 string m_text": "No more promises! We want guarantees! GIVE US THE ARK!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221070_00",
+                    "0 int m_subId": 2200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt127",
+                    "1 string m_text": "Why wouldn't you listen!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_221080_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt048",
+                    "1 string m_text": "Send them off with a smile, if you're such a true believer. Isn't that what Watchers do?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222000_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt112_b",
+                    "1 string m_text": "Put it down. That won't solve anything."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222000_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "CV_cn0004_evt023",
+                    "1 string m_text": "I... What am I doing?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222000_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "This place was perfect. Wasn't that enough?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222000_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt092_b",
+                    "1 string m_text": "Get back here!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222000_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "CV_cn0004_evt024",
+                    "1 string m_text": "Stop my mother, I'm begging you!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222020_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt097",
+                    "1 string m_text": "Wait, don't tell me there really IS an Ark?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222020_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt013",
+                    "1 string m_text": "There must be something here!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222020_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt014",
+                    "1 string m_text": "Something only the sovereign has access to!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222020_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt015",
+                    "1 string m_text": "It's here! It has to be!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222020_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt016",
+                    "1 string m_text": "Something that can save us!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222020_00",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt017",
+                    "1 string m_text": "Work, damn you! Why won't you work!?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222020_00",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt018",
+                    "1 string m_text": "I'm the sovereign! Obey me!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222020_00",
+                    "0 int m_subId": 800,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt109_b",
+                    "1 string m_text": "What is this place?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt051",
+                    "1 string m_text": "What do you have there?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt019",
+                    "1 string m_text": "Shut up, shut up, SHUT UP!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt043_e",
+                    "1 string m_text": "Calm down. You're the sovereign. Act like it."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt020",
+                    "1 string m_text": "Heh. Heh heh heh."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt023",
+                    "1 string m_text": "That's right. I...I am the sovereign."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt065",
+                    "1 string m_text": "What is that?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt021",
+                    "1 string m_text": "I have no idea. It was here. It's always been here."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 800,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "But only the true sovereign knows what it is."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt067",
+                    "1 string m_text": "\"True\" sovereign?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 1000,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt057",
+                    "1 string m_text": "In other words, she's a fake."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 1100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt189",
+                    "1 string m_text": "Kushi?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 1200,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt058",
+                    "1 string m_text": "The last sovereign was accused of dubious crimes and executed."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 1300,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "All thanks to Lady Lobelia."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 1400,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt128_a",
+                    "1 string m_text": "What?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 1500,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt059",
+                    "1 string m_text": "These are the Night Devil's memories. They're undoubtedly true."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 1600,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Consider that shiny arsenal of hers, all ready for an emergency. Doesn't that seem paranoid to you?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 1700,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "She was afraid that one day she'd meet the same fate. Betrayed and murdered."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 1800,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "CV_cn0006_evt022",
+                    "1 string m_text": "..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 1900,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt060",
+                    "1 string m_text": "But none of that matters anymore."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 2000,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt104",
+                    "1 string m_text": "What are you planning!?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 2100,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt048",
+                    "1 string m_text": "To see this realm glut itself on despair."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 2200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt190",
+                    "1 string m_text": "Kushi!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 2300,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt061",
+                    "1 string m_text": "This piece of junk has outlived its purpose."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 2400,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "What good is something that can only be used by the true heir to the throne?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 2500,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "The bloodline is broken, and it's her hands that are stained red."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 2600,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt099_a",
+                    "1 string m_text": "You're one to talk."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 2700,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt062",
+                    "1 string m_text": "This realm deserves to burn for believing in lies."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 2800,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt130_d",
+                    "1 string m_text": "If anyone deserves to suffer it's us."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 2900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt047",
+                    "1 string m_text": "We've murdered people whose only crime was clinging to the idea of the afterlife."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 3000,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt125",
+                    "1 string m_text": "None of us are without blame, Kushi. Justice is dead."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 3100,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt063",
+                    "1 string m_text": "You're right. This world is rife with injustice."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 3200,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt050_b",
+                    "1 string m_text": "What a good son you are."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 3300,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "But a true believer would've watched on with a smile as his mother crossed over."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 3400,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "CV_cn0004_evt025",
+                    "1 string m_text": "I will save this realm."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 3500,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "I...will never...let you have it."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 3600,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt047",
+                    "1 string m_text": "Do you mean in the afterlife?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 3700,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt048",
+                    "1 string m_text": "Because here's a secret: there is no afterlife. This world will come to its end."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 3800,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt053",
+                    "1 string m_text": "Isn't that nice to know? Now you won't become Lost."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222030_00",
+                    "0 int m_subId": 3900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt129",
+                    "1 string m_text": "You aren't Kushi anymore. You're the Night Devil, and I will kill you."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222040_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "I loved life."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222040_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "The laughter..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222040_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "And the tears."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222040_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "I loved every last day."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222040_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "I was so blessed."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt126_b",
+                    "1 string m_text": "..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt064",
+                    "1 string m_text": "You've grown up strong, Kagachi."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Forgive me."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt131",
+                    "1 string m_text": "It's not your fault. The Night Devil forced you to do it."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt065",
+                    "1 string m_text": "No. I was in there with him."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "When I lost Mayura, I...I could tell I was coming apart at the seams."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "And then, when the Night Devil possessed me, it felt...good."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 800,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "With my hatred free to rage, I felt liberated."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt132",
+                    "1 string m_text": "I get it. You don't have to—"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 1000,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt066",
+                    "1 string m_text": "No. Listen to me."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 1100,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt067",
+                    "1 string m_text": "This is important."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 1200,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "The Night Devil's memories, I saw them."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 1300,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "That thing is a Daemon whose soul is so fueled by hatred it couldn't reincarnate."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 1400,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "You're the only one who can save it."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 1500,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt133",
+                    "1 string m_text": "Why me?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 1600,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt068",
+                    "1 string m_text": "I don't know."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 1700,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "You'll have to find that answer yourself. Search for its origin, collect the pieces of its malice."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 1800,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "You're the only one who can be bound to it. In due course, it will find you."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 1900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt134",
+                    "1 string m_text": "And you'll be there at my side to face it."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 2000,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt025",
+                    "1 string m_text": "Sorry. You have to handle this one yourself."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 2100,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "After what I tried to do to the kingdom, you wouldn't want my help anyway."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 2200,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "The key...is the girl, Linne. She is the link that binds you and the Night Devil together."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 2300,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Follow your memories, girl. Take care of Kagachi for me."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 2400,
+                    "1 string m_charaId": "CN_0001",
+                    "1 string m_voiceId": "CV_cn0001_evt016",
+                    "1 string m_text": "Me?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 2500,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt017",
+                    "1 string m_text": "Damn, I'm tired."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 2600,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt069",
+                    "1 string m_text": "I think...it's time for me to go. I hope Mayura's waiting for me."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 2700,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt135_b",
+                    "1 string m_text": "No... This isn't how it was supposed to happen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 2800,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt040",
+                    "1 string m_text": "Kagachi..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 2900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt136",
+                    "1 string m_text": "..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 3000,
+                    "1 string m_charaId": "CN_0050",
+                    "1 string m_voiceId": "CV_cn0003_evt070",
+                    "1 string m_text": "I love you, son. Even if you are a stubborn fool."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 3100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt137_d",
+                    "1 string m_text": "With a fool of a father."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_222050_00",
+                    "0 int m_subId": 3200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "CV_cp0000_evt138_d",
+                    "1 string m_text": "Stubborn to the end..."
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

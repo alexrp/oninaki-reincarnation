@@ -1,72 +1,76 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -1839010234062431200
+    },
+    "1 string m_Name": "MstInitializeData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -1839010234062431271
-        },
-        "1 string m_Name": "MstInitializeData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Init",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Init",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_playerId": "CP_0000",
-                                "1 string m_npcId": "",
-                                "0 int m_level": 1,
-                                "0 int m_potion": 1,
-                                "1 string m_nowKamishiroId": "CK_0001",
-                                "0 vector m_kamishiroId": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "CK_0001"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "1 string m_startMapName": "ma_0001_13",
-                                "0 int m_difficulty": 1,
-                                "1 UInt8 m_vibration": 1,
-                                "0 int m_cameraPos": 0,
-                                "1 UInt8 m_showMap": 1,
-                                "0 int m_skillName": 0,
-                                "1 UInt8 m_playerInfo": 1,
-                                "1 UInt8 m_battleControlInfo": 1,
-                                "1 UInt8 m_battleLog": 1,
-                                "1 UInt8 m_damageText": 1,
-                                "0 int m_messageSpeed": 1,
-                                "1 UInt8 m_autoMessage": 0,
-                                "0 int m_autoMessageSpeed": 1,
-                                "1 UInt8 m_textLayoutReverse": 0,
-                                "0 float m_bgmVolume": 1,
-                                "0 float m_seVolume": 1,
-                                "0 float m_voiceVolume": 1,
-                                "0 int m_frameRate": 0,
-                                "0 int m_vSync": 0,
-                                "0 int m_screenMode": 0,
-                                "0 int m_displaySize": 0,
-                                "0 int m_shadowQuality": 0,
-                                "0 int m_antialiasQuality": 1,
-                                "0 int m_controlInfo": 0
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_playerId": "CP_0000",
+                    "1 string m_npcId": "",
+                    "0 int m_level": 1,
+                    "0 int m_potion": 1,
+                    "1 string m_nowKamishiroId": "CK_0001",
+                    "0 vector m_kamishiroId": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "CK_0001"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "1 string m_startMapName": "ma_0001_13",
+                    "0 int m_difficulty": 1,
+                    "1 UInt8 m_vibration": 1,
+                    "0 int m_cameraPos": 0,
+                    "1 UInt8 m_showMap": 1,
+                    "0 int m_skillName": 0,
+                    "1 UInt8 m_playerInfo": 1,
+                    "1 UInt8 m_battleControlInfo": 1,
+                    "1 UInt8 m_battleLog": 1,
+                    "1 UInt8 m_damageText": 1,
+                    "0 int m_messageSpeed": 1,
+                    "1 UInt8 m_autoMessage": 0,
+                    "0 int m_autoMessageSpeed": 1,
+                    "1 UInt8 m_textLayoutReverse": 0,
+                    "0 float m_bgmVolume": 1,
+                    "0 float m_seVolume": 1,
+                    "0 float m_voiceVolume": 1,
+                    "0 int m_frameRate": 0,
+                    "0 int m_vSync": 0,
+                    "0 int m_screenMode": 0,
+                    "0 int m_displaySize": 0,
+                    "0 int m_shadowQuality": 0,
+                    "0 int m_antialiasQuality": 1,
+                    "0 int m_controlInfo": 0
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

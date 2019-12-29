@@ -1,1921 +1,2295 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -4383824684166082000
+    },
+    "1 string m_Name": "MstItemTextData_Ex",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -4383824684166082180
-        },
-        "1 string m_Name": "MstItemTextData_Ex",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Ex",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Ex",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0000_01_001",
-                                "1 string m_description": "すっぴん武器\nせつめいぶんせつめいぶんせつめいぶん\n１２３４５６７８９０１２３４５６７８\nUIリストテスト用"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_1000_01_001",
-                                "1 string m_description": "黒夜叉の剣\nせつめいぶんせつめいぶんせつめいぶん\n１２３４５６７８９０１２３４５６７８\nUIリストテスト用"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_9999_01_001",
-                                "1 string m_description": "短剣（少年ソウジュ）\nせつめいぶんせつめいぶんせつめいぶん\n１２３４５６７８９０１２３４５６７８\nUIリストテスト用"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0001_01_001",
-                                "1 string m_description": "名工により作られた刀。\n無銘ながら、扱いやすく切れ味が鋭い。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0001_02_001",
-                                "1 string m_description": "かつて存在した東方の邦の王家に\n献呈されていたとされる刀。\n気力が高まり、最大ＨＰが上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0001_03_001",
-                                "1 string m_description": "守護者の名を冠する刀。\n取り回しが良く、防御力に優れる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0001_04_001",
-                                "1 string m_description": "骨董品としても価値が高い美しい刀。\n初期同調率が高くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0001_05_001",
-                                "1 string m_description": "幽リ世で作られた刀。\n死者の魂と共鳴すると言われている。\n癒し香以外の回復力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0001_06_001",
-                                "1 string m_description": "魔物を斬るために作られた刀。\n攻撃力に優れるためか、愛用者が多い。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0001_07_001",
-                                "1 string m_description": "裏世界で忌み嫌われている妖刀。\nクリティカル率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0001_08_001",
-                                "1 string m_description": "魂すらも断ち切れるとされる刀。\n破邪の力を増幅させることによって\n状態異常耐性が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0001_09_001",
-                                "1 string m_description": "伝説の工匠が作った最高傑作の刀。\n意思の力が増幅すると言われる。\n鬼哭の発生時間が長くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0001_10_001",
-                                "1 string m_description": "魔導文明より古き時代からあり\n神々が作りあげたと言われる神刀。\n同調率が上昇しやすくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0001_11_001",
-                                "1 string m_description": "雪月花の自然美に負けない美しさと\n断てぬ物なしとされる切れ味を持つ刀。\n圧倒的な攻撃力を誇る。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0001_11_999",
-                                "1 string m_description": "名工により作られた刀。\n無銘ながら、扱いやすく切れ味が鋭い。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0002_01_001",
-                                "1 string m_description": "歴代の天ノ守リが愛用している槍。\n使用者による細かな調整が可能であり\n扱いやすくなっている。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0002_02_001",
-                                "1 string m_description": "裏切り者の逸話で有名な槍。\n一騎打ちに負けないようにするためか\n特殊な機構を有し、防御力に優れる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0002_03_001",
-                                "1 string m_description": "古代の騎士が使ったとされる槍。\n持つ者は民衆の憧れであったという。\n最大ＨＰが上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0002_04_001",
-                                "1 string m_description": "数多の逸話から悲劇の象徴とされる槍。\n状態異常耐性が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0002_05_001",
-                                "1 string m_description": "癒しの力を高める槍。\nその力ゆえに希望を叶える力を持つと\n言われているが真実ではない。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0002_06_001",
-                                "1 string m_description": "勇猛さと気高さを体現する槍。\n純粋な破壊力だけなら随一である。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0002_07_001",
-                                "1 string m_description": "軌跡から疾風が発生する槍。\nジャンプ攻撃の威力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0002_08_001",
-                                "1 string m_description": "月の光によって鍛えた至高の槍。\nクリティカル率が上昇する。\n幽リ世での攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0002_09_001",
-                                "1 string m_description": "太陽の光によって鍛えた究極の槍。\nクリティカル威力が上昇する。\n現シ世での攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0002_10_001",
-                                "1 string m_description": "偉大なる王の高貴なる魂が\n封じられていると言われる名槍。\n瀕死時の防御力が飛躍的に上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0002_11_001",
-                                "1 string m_description": "魔導士の杖という二つ名を持つ槍。\n想モ影を取り込めると言われている。\n初期同調率が高くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0002_11_999",
-                                "1 string m_description": "歴代の天ノ守リが愛用している槍。\n使用者による細かな調整が可能であり\n扱いやすくなっている。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0003_01_001",
-                                "1 string m_description": "弱者が強者に立ち向かうために\n創意工夫の末に作りだした斧。\n非力でも扱いやすく、利便性が高い。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0003_02_001",
-                                "1 string m_description": "意思を持ち、絶大な攻撃力を誇る斧。\n普段は眠っており、真価を発揮しない。\nクリティカル時の威力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0003_03_001",
-                                "1 string m_description": "１００種の鉱石を組み合わせて作る斧。\n状態異常耐性が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0003_04_001",
-                                "1 string m_description": "現シ世と幽リ世の境界で鍛えた斧。\n癒し香以外の回復力が上昇し\n自分の状態異常の時間が短くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0003_05_001",
-                                "1 string m_description": "迷イ人になってしまった職人が\n全ての想いを込めて作りあげた斧。\n生命力が高まり、最大ＨＰが上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0003_06_001",
-                                "1 string m_description": "たとえ一人になろうとも戦い抜いた\n古代の戦士が愛用した斧。\n敵への状態異常発生率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0003_07_001",
-                                "1 string m_description": "極めて頑丈で絶対に壊れない斧。\n天空を背負わせるために作られたという\n逸話があるほどで、高い攻撃力を持つ。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0003_08_001",
-                                "1 string m_description": "天から舞い降りた英雄が愛用した斧。\nクリティカル率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0003_09_001",
-                                "1 string m_description": "大地を揺るがす様から\n東方で祭られていた神の名を持つ斧。\n敵を強制的に怯ませることがある。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0003_10_001",
-                                "1 string m_description": "戦闘用として作られた史上初めての斧。\n槌としての性質も持ち合わせている。\n初期同調率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0003_11_001",
-                                "1 string m_description": "大地に封じられている巨大な力と\n共鳴して力を得ることができる斧。\n防御力に優れている。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0003_11_999",
-                                "1 string m_description": "弱者が強者に立ち向かうために\n創意工夫の末に作りだした斧。\n非力でも扱いやすく、利便性が高い。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0004_01_001",
-                                "1 string m_description": "逝く者の未練を断ち斬る鎌。\n振るう者は覚悟を持って業を背負う。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0004_02_001",
-                                "1 string m_description": "魔導文明初期の遺跡で発掘された鎌。\n初期同調率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0004_03_001",
-                                "1 string m_description": "戦での勝利の舞で使用する鎌。\n見る者たちを鼓舞する力があるという。\n最大ＨＰが上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0004_04_001",
-                                "1 string m_description": "複雑な機構の刃を持つ鎌。\n治療しづらい傷ができる特性を持ち\n殺傷能力が極めて高い。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0004_05_001",
-                                "1 string m_description": "味方の戦意を昂揚させ\n敵の戦意を削ぐことができる鎌。\n防御力に優れており、戦いやすい。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0004_06_001",
-                                "1 string m_description": "七日送りの儀で使われる鎌。\n死者を祝福するために作られた。\n癒し香以外の回復力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0004_07_001",
-                                "1 string m_description": "処刑を執行する時に使われる鎌。\n正義の象徴として扱った邦も存在した。\nクリティカル率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0004_08_001",
-                                "1 string m_description": "想いに感応する性質を持つ鎌。\n純粋な想いほど、大きな力となる。\n同調率が上昇しやすい。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0004_09_001",
-                                "1 string m_description": "とある逝ク人守リと鬼ビ人の誓いの鎌。\n鬼哭時間が長くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0004_10_001",
-                                "1 string m_description": "持つ者を選別する高貴な鎌。\n不可侵の力をもたらすと言われる。\n状態異常耐性が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0005_01_001",
-                                "1 string m_description": "取り回しの良さから獣のような\n身軽さが得られると言われる双剣。\n戦士から盗賊まで愛用者が多い。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0005_02_001",
-                                "1 string m_description": "眠る力を引き出してくれる双剣。\n最大ＨＰが上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0005_03_001",
-                                "1 string m_description": "軽くて頑丈な金属で作られた双剣。\n受け流すことに特化した防御型であり\n達人が使えば、鉄壁を誇る。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0005_04_001",
-                                "1 string m_description": "古き時代より伝わる血塗られた双剣。\n攻撃時に確率でＨＰが回復する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0005_05_001",
-                                "1 string m_description": "一撃必殺を目的として作られた双剣。\n美しい外見で人気が高い。\nクリティカル率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0005_06_001",
-                                "1 string m_description": "有毒の液体を凝固させて刃にした双剣。\n斬りつけると敵の身体に毒素がまわる。\n敵への状態異常発生率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0005_07_001",
-                                "1 string m_description": "それぞれの武器の良いところを\n取り入れようと研究され作られた双剣。\n防御力を貫通してダメージを与える。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0005_08_001",
-                                "1 string m_description": "古代の遺跡に封印されていた双剣。\n剣が持つ者を選ぶと言われている。\n初期同調率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0005_09_001",
-                                "1 string m_description": "質量を無視した破壊力を持つ双剣。\n原理は解明されていないが\n人智を超えた攻撃力を有する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0005_10_001",
-                                "1 string m_description": "権力者の象徴として扱われていた双剣。\n想いを増幅する力を持ち\n攻撃を反射した時の威力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0006_01_001",
-                                "1 string m_description": "希少な鉱物で作られた弩。\n無駄のない構造で壊れにくい。\nかつて貴族が愛用していたと言われる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0006_02_001",
-                                "1 string m_description": "戦場で医療を担う者たちが使う弩。\n状態異常耐性が上昇し\n癒し香以外の回復力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0006_03_001",
-                                "1 string m_description": "手にした者の幸運を奪い取るという\n逸話が存在する呪われし弩。\nクリティカル率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0006_04_001",
-                                "1 string m_description": "学術的な見解に基づいて作られた弩。\n攻撃力を追求した構造になっている。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0006_05_001",
-                                "1 string m_description": "数多の祈りが捧げられた弩。\n持つ者を祝福し、最大ＨＰが上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0006_06_001",
-                                "1 string m_description": "発射音により美しい音色を奏でる弩。\nその音色により敵の感覚が狂う。\n敵への状態異常発生率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0006_07_001",
-                                "1 string m_description": "悠久の時を刻み続ける弩。\n一瞬だけだが時間に干渉する力を持つ。\n敵を強制的に怯ませることがある。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0006_08_001",
-                                "1 string m_description": "伝説の騎士が愛用していた弩。\n性能は高く、特に防御力に優れる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0006_09_001",
-                                "1 string m_description": "暗殺する時に使われていた弩。\n証拠を一切残さず射ることができる。\n敵を即死させることがある。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0006_10_001",
-                                "1 string m_description": "人々の希望の象徴たる弩。\n向けられる強い想いを力に変える。\n同調率が上昇しやすくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0007_01_001",
-                                "1 string m_description": "攻城戦で無類の強さを発揮した盾砲。\n攻防のバランスが取れている。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0007_02_001",
-                                "1 string m_description": "癒しの波動を放つ盾砲。\n長期戦を見据えた設計で作られている。\n最大ＨＰが上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0007_03_001",
-                                "1 string m_description": "信心高き者たちの武器となった盾砲。\n想いを共鳴させることにより\n高い防御力を誇る鉄壁の盾となった。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0007_04_001",
-                                "1 string m_description": "大砲を専門に開発し続けてきた職人が\n知識を総動員して完成させた盾砲。\n射撃攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0007_05_001",
-                                "1 string m_description": "魔導文明末期に長い研究の末に\n作られるも実戦投入されなかった盾砲。\n破壊力はずば抜けている。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0007_06_001",
-                                "1 string m_description": "取り込んだ想モ影を力に変える盾砲。\n初期同調率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0007_07_001",
-                                "1 string m_description": "魔導文明初期の英雄が愛用した盾砲。\n指揮官専用の調整が施されている。\n状態異常耐性が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0007_08_001",
-                                "1 string m_description": "敵を叩き潰すために作られた盾砲。\n高い近接攻撃力を持ち\n敵を強制的に怯ませることがある。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0007_09_001",
-                                "1 string m_description": "魔導文明初期の遺跡で発掘された盾砲。\n精神に感応する機構がある。\nクリティカル率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0007_10_001",
-                                "1 string m_description": "封印されし大陸にのみ伝わる\n現在は失われた技法で作られる盾砲。\nシールド時にダメージ反射が発生する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0008_01_001",
-                                "1 string m_description": "様々な力を無秩序に封じた格闘武器。\n攻防ともに能力の底上げをしてくれる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0008_02_001",
-                                "1 string m_description": "無数の星による加護を受ける格闘武器。\nその一撃は天の裁きのようである。\nクリティカル率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0008_03_001",
-                                "1 string m_description": "堕ちた者たちを終焉に導く格闘武器。\n一撃必殺の高い攻撃力を持つ。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0008_04_001",
-                                "1 string m_description": "安らぐ者たちを天へ導く格闘武器。\n天使の加護で防御力が上昇し\n癒し香以外の回復力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0008_05_001",
-                                "1 string m_description": "次元の狭間で作られた格闘武器。\n何にも干渉されない神秘の力を持つ。\n状態異常耐性が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0008_06_001",
-                                "1 string m_description": "原初から現在までの因果情報が\n封じられていると言われる格闘武器。\n自分の状態強化の時間が長くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0008_07_001",
-                                "1 string m_description": "想モ影に感応する格闘武器。\n精神と共鳴することで七色に光る。\n同調率が上昇しやすくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0008_08_001",
-                                "1 string m_description": "人を超越した絶対的な格闘武器。\n負け知らずの不敗神話を築いている。\n敵を強制的に怯ませることがある。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0008_09_001",
-                                "1 string m_description": "一瞬も永遠も同じであるという\n悟りの境地に辿りつける格闘武器。\n鬼哭の発生時間が長くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0008_10_001",
-                                "1 string m_description": "創造の波動を発する格闘武器。\n天から照らす光が奇蹟をもたらす。\n鬼哭や覚醒時に攻撃の威力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0009_01_001",
-                                "1 string m_description": "影ナシの職人が執念で作り上げた鎖。\n完成度が高く、制御がしやすい。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0009_02_001",
-                                "1 string m_description": "魂を蝕んで惑わせることができる鎖。\n正常な判断力を失わせ\n敵を強制的に怯ませることがある。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0009_03_001",
-                                "1 string m_description": "心の壁を具現化する鎖。\n攻撃するものを拒絶する力を持ち\n防御力を高めてくれる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0009_04_001",
-                                "1 string m_description": "周囲の負の感情を取り込む鎖。\n感情を膨大な力に変えることができる。\n同調率が上昇しやすくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0009_05_001",
-                                "1 string m_description": "魔導文明末期の遺跡で発見された鎖。\n被検体たちの祈りが封じられている。\n癒し香以外の回復力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0009_06_001",
-                                "1 string m_description": "使いこなすのに長い修練が必要な鎖。\n極めれば、無我の境地に辿りつける。\n状態異常耐性が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0009_07_001",
-                                "1 string m_description": "意思を持ち、狙った所を必ず射貫く鎖。\nクリティカル率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0009_08_001",
-                                "1 string m_description": "人間の力に恐怖を感じた\n影ナシが対抗するために作られた鎖。\n無駄を省き、攻撃力に特化している。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0009_09_001",
-                                "1 string m_description": "精神に感応する鎖。\n使い方次第で精神掌握すら可能となる。\n敵の状態異常の時間が長くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0009_10_001",
-                                "1 string m_description": "死神が作ったという逸話がある鎖。\n拘束する者の覇気を失わせる。\n防御力を貫通してダメージを与える。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0011_01_001",
-                                "1 string m_description": "掠めるだけで深い裂傷を生み出す牙。\n見る者を威圧し、獰猛さを感じさせる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0011_02_001",
-                                "1 string m_description": "歴代の大地の守護者たる獣たちが\n継承してきた誓いの牙。\n覇気が高まり、最大ＨＰが上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0011_03_001",
-                                "1 string m_description": "決して屈することのない勇者たちを\n称えるために作られた牙。\n高い防御力を有している。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0011_04_001",
-                                "1 string m_description": "死者を浄化させることができる牙。\n数多の祈りによって\n癒し香以外の回復力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0011_05_001",
-                                "1 string m_description": "力を持つ者の威厳を感じさせる牙。\nクリティカル率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0011_06_001",
-                                "1 string m_description": "見るだけで死を連想させる牙。\n攻撃を受けると恐怖に囚われるという。\n敵への状態異常発生率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0011_07_001",
-                                "1 string m_description": "出自が一切不明であり\n得体の知れない凄みを感じさせる牙。\n切れ味鋭く、高い攻撃力を持つ。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0011_08_001",
-                                "1 string m_description": "悟りの境地に辿りつくことができる\nという逸話を持つ牙。\n初期同調率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0011_09_001",
-                                "1 string m_description": "気高き獣たちの想いを継ぐ者にのみ\n装備が許されるという牙。\n状態異常耐性が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0011_10_001",
-                                "1 string m_description": "荒々しい自然の力を体現する牙。\n見る者を畏怖させる。\n自分への状態強化発生率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0012_01_001",
-                                "1 string m_description": "魔導文明時代に様々な装置の\n動力源として使われていた晶炉。\n現在は製法が失われてしまっている。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0012_02_001",
-                                "1 string m_description": "想モ影に感知して銀色に輝く晶炉。\nクリティカル率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0012_03_001",
-                                "1 string m_description": "錬金術の研究過程で生みだされた晶炉。\n最大ＨＰが上昇するだけでなく\n癒し香以外の回復力も上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0012_04_001",
-                                "1 string m_description": "自然の力を取り込み変換する晶炉。\n敵への状態異常発生率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0012_05_001",
-                                "1 string m_description": "極めて純度の高いエネルギーを\nそのまま物質化して作りあげた晶炉。\n自分の状態強化の時間が長くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0012_06_001",
-                                "1 string m_description": "とてつもなく硬い金属で作られた\n稼働し始めると破壊不可能な晶炉。\n本体の防御力も高めてくれる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0012_07_001",
-                                "1 string m_description": "かつて存在した東方の邦で\n永久不変の力を持つとされた晶炉。\n状態異常耐性が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0012_08_001",
-                                "1 string m_description": "数多の想いが封じられている晶炉。\n思念が共鳴すると神秘的に光を放ち\nクリティカル率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0012_09_001",
-                                "1 string m_description": "伝説の鉱物から作られた晶炉。\n衝撃を増幅する特性があることから\n極めて高い攻撃力を誇る。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "WP_0012_10_001",
-                                "1 string m_description": "異なる次元の神が創りし晶炉。\n様々な記憶の力を持ち\n発動した技の種類が多いほど\n攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0001",
-                                "1 string m_description": "攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0002",
-                                "1 string m_description": "<EX=STONE_0001>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0003",
-                                "1 string m_description": "<EX=STONE_0001>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0004",
-                                "1 string m_description": "同調率が低い時の攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0005",
-                                "1 string m_description": "<EX=STONE_0004>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0006",
-                                "1 string m_description": "<EX=STONE_0004>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0007",
-                                "1 string m_description": "鬼哭時の攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0008",
-                                "1 string m_description": "<EX=STONE_0007>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0009",
-                                "1 string m_description": "<EX=STONE_0007>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0010",
-                                "1 string m_description": "通常攻撃の攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0011",
-                                "1 string m_description": "<EX=STONE_0010>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0012",
-                                "1 string m_description": "<EX=STONE_0010>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0013",
-                                "1 string m_description": "技の攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0014",
-                                "1 string m_description": "<EX=STONE_0013>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0015",
-                                "1 string m_description": "<EX=STONE_0013>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0016",
-                                "1 string m_description": "<ICON=BUTTON_SKILL_1>ボタン入力によって発動する技の\n攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0017",
-                                "1 string m_description": "<EX=STONE_0016>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0018",
-                                "1 string m_description": "<EX=STONE_0016>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0019",
-                                "1 string m_description": "<ICON=BUTTON_SKILL_2>ボタン入力によって発動する技の\n攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0020",
-                                "1 string m_description": "<EX=STONE_0019>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0021",
-                                "1 string m_description": "<EX=STONE_0019>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0022",
-                                "1 string m_description": "<ICON=BUTTON_SKILL_3>ボタン入力によって発動する技の\n攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0023",
-                                "1 string m_description": "<EX=STONE_0022>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0024",
-                                "1 string m_description": "<EX=STONE_0022>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0025",
-                                "1 string m_description": "<ICON=BUTTON_SKILL_4>ボタン入力によって発動する技の\n攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0026",
-                                "1 string m_description": "<EX=STONE_0025>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0027",
-                                "1 string m_description": "<EX=STONE_0025>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0028",
-                                "1 string m_description": "状態異常によって\n与えるダメージが上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0029",
-                                "1 string m_description": "<EX=STONE_0028>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0030",
-                                "1 string m_description": "<EX=STONE_0028>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0031",
-                                "1 string m_description": "攻撃を受けて反射した時に\n与えるダメージが上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0032",
-                                "1 string m_description": "<EX=STONE_0031>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0033",
-                                "1 string m_description": "<EX=STONE_0031>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0034",
-                                "1 string m_description": "攻撃によってダメージリアクションを\n発生させる力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0035",
-                                "1 string m_description": "<EX=STONE_0034>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0036",
-                                "1 string m_description": "<EX=STONE_0034>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0037",
-                                "1 string m_description": "攻撃時にまれにＨＰが回復する。\nＨＰが低い時は発生率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0038",
-                                "1 string m_description": "<EX=STONE_0037>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0039",
-                                "1 string m_description": "<EX=STONE_0037>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0040",
-                                "1 string m_description": "攻撃時に自分もダメージを受けるが\n攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0041",
-                                "1 string m_description": "<EX=STONE_0040>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0042",
-                                "1 string m_description": "<EX=STONE_0040>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0043",
-                                "1 string m_description": "防御力が下がる代わりに\n攻撃力が大幅に上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0044",
-                                "1 string m_description": "<EX=STONE_0043>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0045",
-                                "1 string m_description": "<EX=STONE_0043>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0046",
-                                "1 string m_description": "小さい敵に攻撃がヒットした時の\n攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0047",
-                                "1 string m_description": "<EX=STONE_0046>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0048",
-                                "1 string m_description": "<EX=STONE_0046>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0049",
-                                "1 string m_description": "大きい敵に攻撃がヒットした時の\n攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0050",
-                                "1 string m_description": "<EX=STONE_0049>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0051",
-                                "1 string m_description": "<EX=STONE_0049>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0052",
-                                "1 string m_description": "状態変化が発生している数が多いほど\n攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0053",
-                                "1 string m_description": "<EX=STONE_0052>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0054",
-                                "1 string m_description": "<EX=STONE_0052>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0055",
-                                "1 string m_description": "直前の攻撃からの経過時間が長いほど\n攻撃力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0056",
-                                "1 string m_description": "<EX=STONE_0055>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0057",
-                                "1 string m_description": "<EX=STONE_0055>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0058",
-                                "1 string m_description": "技の連続発動回数が多いほど\n攻撃の威力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0059",
-                                "1 string m_description": "<EX=STONE_0058>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0060",
-                                "1 string m_description": "<EX=STONE_0058>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0061",
-                                "1 string m_description": "クリティカル率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0062",
-                                "1 string m_description": "<EX=STONE_0061>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0063",
-                                "1 string m_description": "<EX=STONE_0061>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0064",
-                                "1 string m_description": "敵への状態異常発生率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0065",
-                                "1 string m_description": "<EX=STONE_0064>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0066",
-                                "1 string m_description": "<EX=STONE_0064>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0067",
-                                "1 string m_description": "敵の状態異常の時間が長くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0068",
-                                "1 string m_description": "<EX=STONE_0067>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0069",
-                                "1 string m_description": "<EX=STONE_0067>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0070",
-                                "1 string m_description": "攻撃時に毒が発生するようになる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0071",
-                                "1 string m_description": "<EX=STONE_0070>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0072",
-                                "1 string m_description": "<EX=STONE_0070>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0073",
-                                "1 string m_description": "攻撃時に混乱が発生するようになる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0074",
-                                "1 string m_description": "<EX=STONE_0073>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0075",
-                                "1 string m_description": "<EX=STONE_0073>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0076",
-                                "1 string m_description": "攻撃時に麻痺が発生するようになる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0077",
-                                "1 string m_description": "<EX=STONE_0076>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0078",
-                                "1 string m_description": "<EX=STONE_0076>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0079",
-                                "1 string m_description": "攻撃時に気絶が発生するようになる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0080",
-                                "1 string m_description": "<EX=STONE_0079>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0081",
-                                "1 string m_description": "<EX=STONE_0079>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0082",
-                                "1 string m_description": "攻撃時に即死が発生するようになる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0083",
-                                "1 string m_description": "<EX=STONE_0082>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0084",
-                                "1 string m_description": "<EX=STONE_0082>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0085",
-                                "1 string m_description": "最大ＨＰが上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0086",
-                                "1 string m_description": "<EX=STONE_0085>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0087",
-                                "1 string m_description": "<EX=STONE_0085>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0088",
-                                "1 string m_description": "回復力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0089",
-                                "1 string m_description": "<EX=STONE_0088>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0090",
-                                "1 string m_description": "<EX=STONE_0088>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0091",
-                                "1 string m_description": "回復量が最大ＨＰを超える時に\nＨＰが最大ＨＰを超えるようになる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0092",
-                                "1 string m_description": "<EX=STONE_0091>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0093",
-                                "1 string m_description": "<EX=STONE_0091>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0094",
-                                "1 string m_description": "自分への状態強化発生率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0095",
-                                "1 string m_description": "<EX=STONE_0094>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0096",
-                                "1 string m_description": "<EX=STONE_0094>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0097",
-                                "1 string m_description": "自分の状態強化の時間が長くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0098",
-                                "1 string m_description": "<EX=STONE_0097>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0099",
-                                "1 string m_description": "<EX=STONE_0097>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0100",
-                                "1 string m_description": "防御力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0101",
-                                "1 string m_description": "<EX=STONE_0100>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0102",
-                                "1 string m_description": "<EX=STONE_0100>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0103",
-                                "1 string m_description": "ＨＰが低い時の防御力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0104",
-                                "1 string m_description": "<EX=STONE_0103>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0105",
-                                "1 string m_description": "<EX=STONE_0103>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0106",
-                                "1 string m_description": "同調率が高い時の防御力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0107",
-                                "1 string m_description": "<EX=STONE_0106>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0108",
-                                "1 string m_description": "<EX=STONE_0106>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0109",
-                                "1 string m_description": "鬼哭時の防御力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0110",
-                                "1 string m_description": "<EX=STONE_0109>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0111",
-                                "1 string m_description": "<EX=STONE_0109>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0112",
-                                "1 string m_description": "受けるダメージが\n上限以上にならなくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0113",
-                                "1 string m_description": "<EX=STONE_0112>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0114",
-                                "1 string m_description": "<EX=STONE_0112>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0115",
-                                "1 string m_description": "ダメージリアクションしづらくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0116",
-                                "1 string m_description": "<EX=STONE_0115>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0117",
-                                "1 string m_description": "<EX=STONE_0115>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0118",
-                                "1 string m_description": "攻撃を受ける範囲が小さくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0119",
-                                "1 string m_description": "<EX=STONE_0118>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0120",
-                                "1 string m_description": "<EX=STONE_0118>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0121",
-                                "1 string m_description": "攻撃を受けた時に\nまれに攻撃を無効化する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0122",
-                                "1 string m_description": "<EX=STONE_0121>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0123",
-                                "1 string m_description": "<EX=STONE_0121>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0124",
-                                "1 string m_description": "毒が発生しづらくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0125",
-                                "1 string m_description": "<EX=STONE_0124>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0126",
-                                "1 string m_description": "<EX=STONE_0124>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0127",
-                                "1 string m_description": "混乱が発生しづらくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0128",
-                                "1 string m_description": "<EX=STONE_0127>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0129",
-                                "1 string m_description": "<EX=STONE_0127>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0130",
-                                "1 string m_description": "麻痺が発生しづらくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0131",
-                                "1 string m_description": "<EX=STONE_0130>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0132",
-                                "1 string m_description": "<EX=STONE_0130>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0133",
-                                "1 string m_description": "気絶が発生しづらくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0134",
-                                "1 string m_description": "<EX=STONE_0133>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0135",
-                                "1 string m_description": "<EX=STONE_0133>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0136",
-                                "1 string m_description": "即死が発生しづらくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0137",
-                                "1 string m_description": "<EX=STONE_0136>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0138",
-                                "1 string m_description": "<EX=STONE_0136>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0139",
-                                "1 string m_description": "自分の状態異常の時間が短くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0140",
-                                "1 string m_description": "<EX=STONE_0139>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0141",
-                                "1 string m_description": "<EX=STONE_0139>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0142",
-                                "1 string m_description": "同調率が上昇しやすくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0143",
-                                "1 string m_description": "<EX=STONE_0142>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0144",
-                                "1 string m_description": "<EX=STONE_0142>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0145",
-                                "1 string m_description": "初期同調率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0146",
-                                "1 string m_description": "<EX=STONE_0145>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0147",
-                                "1 string m_description": "<EX=STONE_0145>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0148",
-                                "1 string m_description": "同調率が低下しづらくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0149",
-                                "1 string m_description": "<EX=STONE_0148>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0150",
-                                "1 string m_description": "<EX=STONE_0148>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0151",
-                                "1 string m_description": "同調率の上限が２００より高くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0152",
-                                "1 string m_description": "<EX=STONE_0151>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0153",
-                                "1 string m_description": "<EX=STONE_0151>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0154",
-                                "1 string m_description": "鬼哭の発生時間が長くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0155",
-                                "1 string m_description": "<EX=STONE_0154>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0156",
-                                "1 string m_description": "<EX=STONE_0154>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0157",
-                                "1 string m_description": "覚醒が発生する確率が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0158",
-                                "1 string m_description": "<EX=STONE_0157>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0159",
-                                "1 string m_description": "<EX=STONE_0157>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0160",
-                                "1 string m_description": "覚醒の発生時間が長くなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0161",
-                                "1 string m_description": "<EX=STONE_0160>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0162",
-                                "1 string m_description": "<EX=STONE_0160>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0163",
-                                "1 string m_description": "敵から視認されづらくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0164",
-                                "1 string m_description": "<EX=STONE_0163>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0165",
-                                "1 string m_description": "<EX=STONE_0163>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0166",
-                                "1 string m_description": "幽リ世で発生する理効果の\n自分への影響力が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0167",
-                                "1 string m_description": "<EX=STONE_0166>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0168",
-                                "1 string m_description": "<EX=STONE_0166>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0169",
-                                "1 string m_description": "幽リ世で発生する理効果の\n自分への影響力が低下する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0170",
-                                "1 string m_description": "<EX=STONE_0169>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0171",
-                                "1 string m_description": "<EX=STONE_0169>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0172",
-                                "1 string m_description": "幽リ世で発生する理効果が\n現シ世でも発生するようになる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0173",
-                                "1 string m_description": "<EX=STONE_0172>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0174",
-                                "1 string m_description": "<EX=STONE_0172>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0175",
-                                "1 string m_description": "入手経験値が上昇する。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0176",
-                                "1 string m_description": "<EX=STONE_0175>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0177",
-                                "1 string m_description": "<EX=STONE_0175>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0178",
-                                "1 string m_description": "鬼魂が出現しやすくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0179",
-                                "1 string m_description": "<EX=STONE_0178>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0180",
-                                "1 string m_description": "<EX=STONE_0178>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0181",
-                                "1 string m_description": "武器がドロップしやすくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0182",
-                                "1 string m_description": "<EX=STONE_0181>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0183",
-                                "1 string m_description": "<EX=STONE_0181>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0184",
-                                "1 string m_description": "影石がドロップしやすくなる。"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0185",
-                                "1 string m_description": "<EX=STONE_0184>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0186",
-                                "1 string m_description": "<EX=STONE_0184>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0187",
-                                "1 string m_description": "<EX=STONE_0085>\n<EX=STONE_0178>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0188",
-                                "1 string m_description": "<EX=STONE_0004>\n<EX=STONE_0106>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0189",
-                                "1 string m_description": "<EX=STONE_0082>\n<EX=STONE_0163>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0190",
-                                "1 string m_description": "<EX=STONE_0088>\n<EX=STONE_0151>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0191",
-                                "1 string m_description": "<EX=STONE_0067>\n<EX=STONE_0070>\r"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0192",
-                                "1 string m_description": "<EX=STONE_0124>\n<EX=STONE_0130>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0193",
-                                "1 string m_description": "<EX=STONE_0109>\n<EX=STONE_0142>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0194",
-                                "1 string m_description": "<EX=STONE_0004>\n<EX=STONE_0157>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0195",
-                                "1 string m_description": "<EX=STONE_0013>\n<EX=STONE_0148>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0196",
-                                "1 string m_description": "<EX=STONE_0001>\n<EX=STONE_0088>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0197",
-                                "1 string m_description": "<EX=STONE_0121>\n<EX=STONE_0163>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0198",
-                                "1 string m_description": "<EX=STONE_0010>\n<EX=STONE_0061>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0199",
-                                "1 string m_description": "<EX=STONE_0007>\n<EX=STONE_0139>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0200",
-                                "1 string m_description": "<EX=STONE_0061>\n<EX=STONE_0088>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0201",
-                                "1 string m_description": "<EX=STONE_0145>\n<EX=STONE_0154>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0202",
-                                "1 string m_description": "<EX=STONE_0094>\n<EX=STONE_0142>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0203",
-                                "1 string m_description": "<EX=STONE_0124>\n<EX=STONE_0127>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0204",
-                                "1 string m_description": "<EX=STONE_0070>\n<EX=STONE_0094>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0205",
-                                "1 string m_description": "<EX=STONE_0028>\n<EX=STONE_0064>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0206",
-                                "1 string m_description": "<EX=STONE_0076>\n<EX=STONE_0154>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0207",
-                                "1 string m_description": "<EX=STONE_0007>\n<EX=STONE_0148>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0208",
-                                "1 string m_description": "<EX=STONE_0064>\n<EX=STONE_0076>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0209",
-                                "1 string m_description": "<EX=STONE_0067>\n<EX=STONE_0079>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0210",
-                                "1 string m_description": "<EX=STONE_0010>\n<EX=STONE_0100>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0211",
-                                "1 string m_description": "<EX=STONE_0013>\n<EX=STONE_0097>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0212",
-                                "1 string m_description": "<EX=STONE_0073>\n<EX=STONE_0076>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0213",
-                                "1 string m_description": "<EX=STONE_0070>\n<EX=STONE_0079>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0214",
-                                "1 string m_description": "<EX=STONE_0031>\n<EX=STONE_0178>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0215",
-                                "1 string m_description": "<EX=STONE_0010>\n<EX=STONE_0142>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0216",
-                                "1 string m_description": "<EX=STONE_0145>\n<EX=STONE_0151>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0217",
-                                "1 string m_description": "<EX=STONE_0127>\n<EX=STONE_0130>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0218",
-                                "1 string m_description": "<EX=STONE_0085>\n<EX=STONE_0139>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0219",
-                                "1 string m_description": "<EX=STONE_0097>\n<EX=STONE_0103>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0220",
-                                "1 string m_description": "<EX=STONE_0124>\n<EX=STONE_0133>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0221",
-                                "1 string m_description": "<EX=STONE_0067>\n<EX=STONE_0106>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0222",
-                                "1 string m_description": "<EX=STONE_0100>\n<EX=STONE_0154>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0223",
-                                "1 string m_description": "<EX=STONE_0103>\n<EX=STONE_0130>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0224",
-                                "1 string m_description": "<EX=STONE_0082>\n<EX=STONE_0121>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0225",
-                                "1 string m_description": "<EX=STONE_0031>\n<EX=STONE_0061>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0226",
-                                "1 string m_description": "<EX=STONE_0004>\n<EX=STONE_0109>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0227",
-                                "1 string m_description": "<EX=STONE_0106>\n<EX=STONE_0160>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0228",
-                                "1 string m_description": "<EX=STONE_0001>\n<EX=STONE_0028>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0229",
-                                "1 string m_description": "<EX=STONE_0094>\n<EX=STONE_0139>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0230",
-                                "1 string m_description": "<EX=STONE_0157>\n<EX=STONE_0163>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0231",
-                                "1 string m_description": "<EX=STONE_0073>\n<EX=STONE_0109>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0232",
-                                "1 string m_description": "<EX=STONE_0100>\n<EX=STONE_0157>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0233",
-                                "1 string m_description": "<EX=STONE_0064>\n<EX=STONE_0073>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0234",
-                                "1 string m_description": "<EX=STONE_0013>\n<EX=STONE_0145>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0235",
-                                "1 string m_description": "<EX=STONE_0001>\n<EX=STONE_0160>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0236",
-                                "1 string m_description": "<EX=STONE_0007>\n<EX=STONE_0079>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0237",
-                                "1 string m_description": "<EX=STONE_0100>\n<EX=STONE_0121>\n<EX=STONE_0133>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0238",
-                                "1 string m_description": "<EX=STONE_0031>\n<EX=STONE_0103>\n<EX=STONE_0139>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0239",
-                                "1 string m_description": "<EX=STONE_0061>\n<EX=STONE_0094>\n<EX=STONE_0097>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0240",
-                                "1 string m_description": "<EX=STONE_0067>\n<EX=STONE_0097>\n<EX=STONE_0160>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0241",
-                                "1 string m_description": "<EX=STONE_0013>\n<EX=STONE_0079>\n<EX=STONE_0085>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0242",
-                                "1 string m_description": "<EX=STONE_0004>\n<EX=STONE_0103>\n<EX=STONE_0106>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0243",
-                                "1 string m_description": "<EX=STONE_0082>\n<EX=STONE_0142>\n<EX=STONE_0148>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0244",
-                                "1 string m_description": "<EX=STONE_0076>\n<EX=STONE_0130>\n<EX=STONE_0151>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0245",
-                                "1 string m_description": "<EX=STONE_0085>\n<EX=STONE_0088>\n<EX=STONE_0151>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0246",
-                                "1 string m_description": "<EX=STONE_0001>\n<EX=STONE_0073>\n<EX=STONE_0127>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0247",
-                                "1 string m_description": "<EX=STONE_0028>\n<EX=STONE_0064>\n<EX=STONE_0094>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0248",
-                                "1 string m_description": "<EX=STONE_0001>\n<EX=STONE_0061>\n<EX=STONE_0145>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0249",
-                                "1 string m_description": "<EX=STONE_0004>\n<EX=STONE_0010>\n<EX=STONE_0178>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0250",
-                                "1 string m_description": "<EX=STONE_0028>\n<EX=STONE_0070>\n<EX=STONE_0124>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0251",
-                                "1 string m_description": "<EX=STONE_0007>\n<EX=STONE_0010>\n<EX=STONE_0031>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0252",
-                                "1 string m_description": "<EX=STONE_0127>\n<EX=STONE_0130>\n<EX=STONE_0133>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0253",
-                                "1 string m_description": "<EX=STONE_0088>\n<EX=STONE_0100>\n<EX=STONE_0139>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0254",
-                                "1 string m_description": "<EX=STONE_0148>\n<EX=STONE_0151>\n<EX=STONE_0154>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0255",
-                                "1 string m_description": "<EX=STONE_0082>\n<EX=STONE_0142>\n<EX=STONE_0145>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0256",
-                                "1 string m_description": "<EX=STONE_0007>\n<EX=STONE_0109>\n<EX=STONE_0154>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "STONE_0257",
-                                "1 string m_description": "<EX=STONE_0013>\n<EX=STONE_0157>\n<EX=STONE_0160>"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "POTION_0001",
-                                "1 string m_description": "ポーションの説明文"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "POTION_0002",
-                                "1 string m_description": "ポーションx3の説明文"
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "WP_0000_01_001",
+                    "1 string m_description": "すっぴん武器\nせつめいぶんせつめいぶんせつめいぶん\n１２３４５６７８９０１２３４５６７８\nUIリストテスト用"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_1000_01_001",
+                    "1 string m_description": "黒夜叉の剣\nせつめいぶんせつめいぶんせつめいぶん\n１２３４５６７８９０１２３４５６７８\nUIリストテスト用"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_9999_01_001",
+                    "1 string m_description": "短剣（少年ソウジュ）\nせつめいぶんせつめいぶんせつめいぶん\n１２３４５６７８９０１２３４５６７８\nUIリストテスト用"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0001_01_001",
+                    "1 string m_description": "名工により作られた刀。\n無銘ながら、扱いやすく切れ味が鋭い。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0001_02_001",
+                    "1 string m_description": "かつて存在した東方の邦の王家に\n献呈されていたとされる刀。\n気力が高まり、最大ＨＰが上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0001_03_001",
+                    "1 string m_description": "守護者の名を冠する刀。\n取り回しが良く、防御力に優れる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0001_04_001",
+                    "1 string m_description": "骨董品としても価値が高い美しい刀。\n初期同調率が高くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0001_05_001",
+                    "1 string m_description": "幽リ世で作られた刀。\n死者の魂と共鳴すると言われている。\n癒し香以外の回復力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0001_06_001",
+                    "1 string m_description": "魔物を斬るために作られた刀。\n攻撃力に優れるためか、愛用者が多い。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0001_07_001",
+                    "1 string m_description": "裏世界で忌み嫌われている妖刀。\nクリティカル率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0001_08_001",
+                    "1 string m_description": "魂すらも断ち切れるとされる刀。\n破邪の力を増幅させることによって\n状態異常耐性が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0001_09_001",
+                    "1 string m_description": "伝説の工匠が作った最高傑作の刀。\n意思の力が増幅すると言われる。\n鬼哭の発生時間が長くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0001_10_001",
+                    "1 string m_description": "魔導文明より古き時代からあり\n神々が作りあげたと言われる神刀。\n同調率が上昇しやすくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0001_11_001",
+                    "1 string m_description": "雪月花の自然美に負けない美しさと\n断てぬ物なしとされる切れ味を持つ刀。\n圧倒的な攻撃力を誇る。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0001_11_999",
+                    "1 string m_description": "名工により作られた刀。\n無銘ながら、扱いやすく切れ味が鋭い。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0002_01_001",
+                    "1 string m_description": "歴代の天ノ守リが愛用している槍。\n使用者による細かな調整が可能であり\n扱いやすくなっている。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0002_02_001",
+                    "1 string m_description": "裏切り者の逸話で有名な槍。\n一騎打ちに負けないようにするためか\n特殊な機構を有し、防御力に優れる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0002_03_001",
+                    "1 string m_description": "古代の騎士が使ったとされる槍。\n持つ者は民衆の憧れであったという。\n最大ＨＰが上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0002_04_001",
+                    "1 string m_description": "数多の逸話から悲劇の象徴とされる槍。\n状態異常耐性が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0002_05_001",
+                    "1 string m_description": "癒しの力を高める槍。\nその力ゆえに希望を叶える力を持つと\n言われているが真実ではない。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0002_06_001",
+                    "1 string m_description": "勇猛さと気高さを体現する槍。\n純粋な破壊力だけなら随一である。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0002_07_001",
+                    "1 string m_description": "軌跡から疾風が発生する槍。\nジャンプ攻撃の威力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0002_08_001",
+                    "1 string m_description": "月の光によって鍛えた至高の槍。\nクリティカル率が上昇する。\n幽リ世での攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0002_09_001",
+                    "1 string m_description": "太陽の光によって鍛えた究極の槍。\nクリティカル威力が上昇する。\n現シ世での攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0002_10_001",
+                    "1 string m_description": "偉大なる王の高貴なる魂が\n封じられていると言われる名槍。\n瀕死時の防御力が飛躍的に上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0002_11_001",
+                    "1 string m_description": "魔導士の杖という二つ名を持つ槍。\n想モ影を取り込めると言われている。\n初期同調率が高くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0002_11_999",
+                    "1 string m_description": "歴代の天ノ守リが愛用している槍。\n使用者による細かな調整が可能であり\n扱いやすくなっている。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0003_01_001",
+                    "1 string m_description": "弱者が強者に立ち向かうために\n創意工夫の末に作りだした斧。\n非力でも扱いやすく、利便性が高い。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0003_02_001",
+                    "1 string m_description": "意思を持ち、絶大な攻撃力を誇る斧。\n普段は眠っており、真価を発揮しない。\nクリティカル時の威力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0003_03_001",
+                    "1 string m_description": "１００種の鉱石を組み合わせて作る斧。\n状態異常耐性が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0003_04_001",
+                    "1 string m_description": "現シ世と幽リ世の境界で鍛えた斧。\n癒し香以外の回復力が上昇し\n自分の状態異常の時間が短くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0003_05_001",
+                    "1 string m_description": "迷イ人になってしまった職人が\n全ての想いを込めて作りあげた斧。\n生命力が高まり、最大ＨＰが上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0003_06_001",
+                    "1 string m_description": "たとえ一人になろうとも戦い抜いた\n古代の戦士が愛用した斧。\n敵への状態異常発生率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0003_07_001",
+                    "1 string m_description": "極めて頑丈で絶対に壊れない斧。\n天空を背負わせるために作られたという\n逸話があるほどで、高い攻撃力を持つ。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0003_08_001",
+                    "1 string m_description": "天から舞い降りた英雄が愛用した斧。\nクリティカル率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0003_09_001",
+                    "1 string m_description": "大地を揺るがす様から\n東方で祭られていた神の名を持つ斧。\n敵を強制的に怯ませることがある。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0003_10_001",
+                    "1 string m_description": "戦闘用として作られた史上初めての斧。\n槌としての性質も持ち合わせている。\n初期同調率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0003_11_001",
+                    "1 string m_description": "大地に封じられている巨大な力と\n共鳴して力を得ることができる斧。\n防御力に優れている。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0003_11_999",
+                    "1 string m_description": "弱者が強者に立ち向かうために\n創意工夫の末に作りだした斧。\n非力でも扱いやすく、利便性が高い。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0004_01_001",
+                    "1 string m_description": "逝く者の未練を断ち斬る鎌。\n振るう者は覚悟を持って業を背負う。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0004_02_001",
+                    "1 string m_description": "魔導文明初期の遺跡で発掘された鎌。\n初期同調率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0004_03_001",
+                    "1 string m_description": "戦での勝利の舞で使用する鎌。\n見る者たちを鼓舞する力があるという。\n最大ＨＰが上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0004_04_001",
+                    "1 string m_description": "複雑な機構の刃を持つ鎌。\n治療しづらい傷ができる特性を持ち\n殺傷能力が極めて高い。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0004_05_001",
+                    "1 string m_description": "味方の戦意を昂揚させ\n敵の戦意を削ぐことができる鎌。\n防御力に優れており、戦いやすい。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0004_06_001",
+                    "1 string m_description": "七日送りの儀で使われる鎌。\n死者を祝福するために作られた。\n癒し香以外の回復力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0004_07_001",
+                    "1 string m_description": "処刑を執行する時に使われる鎌。\n正義の象徴として扱った邦も存在した。\nクリティカル率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0004_08_001",
+                    "1 string m_description": "想いに感応する性質を持つ鎌。\n純粋な想いほど、大きな力となる。\n同調率が上昇しやすい。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0004_09_001",
+                    "1 string m_description": "とある逝ク人守リと鬼ビ人の誓いの鎌。\n鬼哭時間が長くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0004_10_001",
+                    "1 string m_description": "持つ者を選別する高貴な鎌。\n不可侵の力をもたらすと言われる。\n状態異常耐性が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0005_01_001",
+                    "1 string m_description": "取り回しの良さから獣のような\n身軽さが得られると言われる双剣。\n戦士から盗賊まで愛用者が多い。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0005_02_001",
+                    "1 string m_description": "眠る力を引き出してくれる双剣。\n最大ＨＰが上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0005_03_001",
+                    "1 string m_description": "軽くて頑丈な金属で作られた双剣。\n受け流すことに特化した防御型であり\n達人が使えば、鉄壁を誇る。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0005_04_001",
+                    "1 string m_description": "古き時代より伝わる血塗られた双剣。\n攻撃時に確率でＨＰが回復する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0005_05_001",
+                    "1 string m_description": "一撃必殺を目的として作られた双剣。\n美しい外見で人気が高い。\nクリティカル率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0005_06_001",
+                    "1 string m_description": "有毒の液体を凝固させて刃にした双剣。\n斬りつけると敵の身体に毒素がまわる。\n敵への状態異常発生率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0005_07_001",
+                    "1 string m_description": "それぞれの武器の良いところを\n取り入れようと研究され作られた双剣。\n防御力を貫通してダメージを与える。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0005_08_001",
+                    "1 string m_description": "古代の遺跡に封印されていた双剣。\n剣が持つ者を選ぶと言われている。\n初期同調率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0005_09_001",
+                    "1 string m_description": "質量を無視した破壊力を持つ双剣。\n原理は解明されていないが\n人智を超えた攻撃力を有する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0005_10_001",
+                    "1 string m_description": "権力者の象徴として扱われていた双剣。\n想いを増幅する力を持ち\n攻撃を反射した時の威力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0006_01_001",
+                    "1 string m_description": "希少な鉱物で作られた弩。\n無駄のない構造で壊れにくい。\nかつて貴族が愛用していたと言われる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0006_02_001",
+                    "1 string m_description": "戦場で医療を担う者たちが使う弩。\n状態異常耐性が上昇し\n癒し香以外の回復力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0006_03_001",
+                    "1 string m_description": "手にした者の幸運を奪い取るという\n逸話が存在する呪われし弩。\nクリティカル率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0006_04_001",
+                    "1 string m_description": "学術的な見解に基づいて作られた弩。\n攻撃力を追求した構造になっている。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0006_05_001",
+                    "1 string m_description": "数多の祈りが捧げられた弩。\n持つ者を祝福し、最大ＨＰが上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0006_06_001",
+                    "1 string m_description": "発射音により美しい音色を奏でる弩。\nその音色により敵の感覚が狂う。\n敵への状態異常発生率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0006_07_001",
+                    "1 string m_description": "悠久の時を刻み続ける弩。\n一瞬だけだが時間に干渉する力を持つ。\n敵を強制的に怯ませることがある。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0006_08_001",
+                    "1 string m_description": "伝説の騎士が愛用していた弩。\n性能は高く、特に防御力に優れる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0006_09_001",
+                    "1 string m_description": "暗殺する時に使われていた弩。\n証拠を一切残さず射ることができる。\n敵を即死させることがある。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0006_10_001",
+                    "1 string m_description": "人々の希望の象徴たる弩。\n向けられる強い想いを力に変える。\n同調率が上昇しやすくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0007_01_001",
+                    "1 string m_description": "攻城戦で無類の強さを発揮した盾砲。\n攻防のバランスが取れている。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0007_02_001",
+                    "1 string m_description": "癒しの波動を放つ盾砲。\n長期戦を見据えた設計で作られている。\n最大ＨＰが上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0007_03_001",
+                    "1 string m_description": "信心高き者たちの武器となった盾砲。\n想いを共鳴させることにより\n高い防御力を誇る鉄壁の盾となった。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0007_04_001",
+                    "1 string m_description": "大砲を専門に開発し続けてきた職人が\n知識を総動員して完成させた盾砲。\n射撃攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0007_05_001",
+                    "1 string m_description": "魔導文明末期に長い研究の末に\n作られるも実戦投入されなかった盾砲。\n破壊力はずば抜けている。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0007_06_001",
+                    "1 string m_description": "取り込んだ想モ影を力に変える盾砲。\n初期同調率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0007_07_001",
+                    "1 string m_description": "魔導文明初期の英雄が愛用した盾砲。\n指揮官専用の調整が施されている。\n状態異常耐性が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0007_08_001",
+                    "1 string m_description": "敵を叩き潰すために作られた盾砲。\n高い近接攻撃力を持ち\n敵を強制的に怯ませることがある。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0007_09_001",
+                    "1 string m_description": "魔導文明初期の遺跡で発掘された盾砲。\n精神に感応する機構がある。\nクリティカル率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0007_10_001",
+                    "1 string m_description": "封印されし大陸にのみ伝わる\n現在は失われた技法で作られる盾砲。\nシールド時にダメージ反射が発生する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0008_01_001",
+                    "1 string m_description": "様々な力を無秩序に封じた格闘武器。\n攻防ともに能力の底上げをしてくれる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0008_02_001",
+                    "1 string m_description": "無数の星による加護を受ける格闘武器。\nその一撃は天の裁きのようである。\nクリティカル率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0008_03_001",
+                    "1 string m_description": "堕ちた者たちを終焉に導く格闘武器。\n一撃必殺の高い攻撃力を持つ。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0008_04_001",
+                    "1 string m_description": "安らぐ者たちを天へ導く格闘武器。\n天使の加護で防御力が上昇し\n癒し香以外の回復力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0008_05_001",
+                    "1 string m_description": "次元の狭間で作られた格闘武器。\n何にも干渉されない神秘の力を持つ。\n状態異常耐性が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0008_06_001",
+                    "1 string m_description": "原初から現在までの因果情報が\n封じられていると言われる格闘武器。\n自分の状態強化の時間が長くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0008_07_001",
+                    "1 string m_description": "想モ影に感応する格闘武器。\n精神と共鳴することで七色に光る。\n同調率が上昇しやすくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0008_08_001",
+                    "1 string m_description": "人を超越した絶対的な格闘武器。\n負け知らずの不敗神話を築いている。\n敵を強制的に怯ませることがある。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0008_09_001",
+                    "1 string m_description": "一瞬も永遠も同じであるという\n悟りの境地に辿りつける格闘武器。\n鬼哭の発生時間が長くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0008_10_001",
+                    "1 string m_description": "創造の波動を発する格闘武器。\n天から照らす光が奇蹟をもたらす。\n鬼哭や覚醒時に攻撃の威力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0009_01_001",
+                    "1 string m_description": "影ナシの職人が執念で作り上げた鎖。\n完成度が高く、制御がしやすい。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0009_02_001",
+                    "1 string m_description": "魂を蝕んで惑わせることができる鎖。\n正常な判断力を失わせ\n敵を強制的に怯ませることがある。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0009_03_001",
+                    "1 string m_description": "心の壁を具現化する鎖。\n攻撃するものを拒絶する力を持ち\n防御力を高めてくれる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0009_04_001",
+                    "1 string m_description": "周囲の負の感情を取り込む鎖。\n感情を膨大な力に変えることができる。\n同調率が上昇しやすくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0009_05_001",
+                    "1 string m_description": "魔導文明末期の遺跡で発見された鎖。\n被検体たちの祈りが封じられている。\n癒し香以外の回復力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0009_06_001",
+                    "1 string m_description": "使いこなすのに長い修練が必要な鎖。\n極めれば、無我の境地に辿りつける。\n状態異常耐性が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0009_07_001",
+                    "1 string m_description": "意思を持ち、狙った所を必ず射貫く鎖。\nクリティカル率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0009_08_001",
+                    "1 string m_description": "人間の力に恐怖を感じた\n影ナシが対抗するために作られた鎖。\n無駄を省き、攻撃力に特化している。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0009_09_001",
+                    "1 string m_description": "精神に感応する鎖。\n使い方次第で精神掌握すら可能となる。\n敵の状態異常の時間が長くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0009_10_001",
+                    "1 string m_description": "死神が作ったという逸話がある鎖。\n拘束する者の覇気を失わせる。\n防御力を貫通してダメージを与える。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0011_01_001",
+                    "1 string m_description": "掠めるだけで深い裂傷を生み出す牙。\n見る者を威圧し、獰猛さを感じさせる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0011_02_001",
+                    "1 string m_description": "歴代の大地の守護者たる獣たちが\n継承してきた誓いの牙。\n覇気が高まり、最大ＨＰが上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0011_03_001",
+                    "1 string m_description": "決して屈することのない勇者たちを\n称えるために作られた牙。\n高い防御力を有している。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0011_04_001",
+                    "1 string m_description": "死者を浄化させることができる牙。\n数多の祈りによって\n癒し香以外の回復力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0011_05_001",
+                    "1 string m_description": "力を持つ者の威厳を感じさせる牙。\nクリティカル率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0011_06_001",
+                    "1 string m_description": "見るだけで死を連想させる牙。\n攻撃を受けると恐怖に囚われるという。\n敵への状態異常発生率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0011_07_001",
+                    "1 string m_description": "出自が一切不明であり\n得体の知れない凄みを感じさせる牙。\n切れ味鋭く、高い攻撃力を持つ。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0011_08_001",
+                    "1 string m_description": "悟りの境地に辿りつくことができる\nという逸話を持つ牙。\n初期同調率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0011_09_001",
+                    "1 string m_description": "気高き獣たちの想いを継ぐ者にのみ\n装備が許されるという牙。\n状態異常耐性が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0011_10_001",
+                    "1 string m_description": "荒々しい自然の力を体現する牙。\n見る者を畏怖させる。\n自分への状態強化発生率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0012_01_001",
+                    "1 string m_description": "魔導文明時代に様々な装置の\n動力源として使われていた晶炉。\n現在は製法が失われてしまっている。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0012_02_001",
+                    "1 string m_description": "想モ影に感知して銀色に輝く晶炉。\nクリティカル率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0012_03_001",
+                    "1 string m_description": "錬金術の研究過程で生みだされた晶炉。\n最大ＨＰが上昇するだけでなく\n癒し香以外の回復力も上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0012_04_001",
+                    "1 string m_description": "自然の力を取り込み変換する晶炉。\n敵への状態異常発生率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0012_05_001",
+                    "1 string m_description": "極めて純度の高いエネルギーを\nそのまま物質化して作りあげた晶炉。\n自分の状態強化の時間が長くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0012_06_001",
+                    "1 string m_description": "とてつもなく硬い金属で作られた\n稼働し始めると破壊不可能な晶炉。\n本体の防御力も高めてくれる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0012_07_001",
+                    "1 string m_description": "かつて存在した東方の邦で\n永久不変の力を持つとされた晶炉。\n状態異常耐性が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0012_08_001",
+                    "1 string m_description": "数多の想いが封じられている晶炉。\n思念が共鳴すると神秘的に光を放ち\nクリティカル率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0012_09_001",
+                    "1 string m_description": "伝説の鉱物から作られた晶炉。\n衝撃を増幅する特性があることから\n極めて高い攻撃力を誇る。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "WP_0012_10_001",
+                    "1 string m_description": "異なる次元の神が創りし晶炉。\n様々な記憶の力を持ち\n発動した技の種類が多いほど\n攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0001",
+                    "1 string m_description": "攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0002",
+                    "1 string m_description": "<EX=STONE_0001>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0003",
+                    "1 string m_description": "<EX=STONE_0001>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0004",
+                    "1 string m_description": "同調率が低い時の攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0005",
+                    "1 string m_description": "<EX=STONE_0004>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0006",
+                    "1 string m_description": "<EX=STONE_0004>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0007",
+                    "1 string m_description": "鬼哭時の攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0008",
+                    "1 string m_description": "<EX=STONE_0007>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0009",
+                    "1 string m_description": "<EX=STONE_0007>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0010",
+                    "1 string m_description": "通常攻撃の攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0011",
+                    "1 string m_description": "<EX=STONE_0010>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0012",
+                    "1 string m_description": "<EX=STONE_0010>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0013",
+                    "1 string m_description": "技の攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0014",
+                    "1 string m_description": "<EX=STONE_0013>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0015",
+                    "1 string m_description": "<EX=STONE_0013>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0016",
+                    "1 string m_description": "<ICON=BUTTON_SKILL_1>ボタン入力によって発動する技の\n攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0017",
+                    "1 string m_description": "<EX=STONE_0016>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0018",
+                    "1 string m_description": "<EX=STONE_0016>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0019",
+                    "1 string m_description": "<ICON=BUTTON_SKILL_2>ボタン入力によって発動する技の\n攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0020",
+                    "1 string m_description": "<EX=STONE_0019>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0021",
+                    "1 string m_description": "<EX=STONE_0019>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0022",
+                    "1 string m_description": "<ICON=BUTTON_SKILL_3>ボタン入力によって発動する技の\n攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0023",
+                    "1 string m_description": "<EX=STONE_0022>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0024",
+                    "1 string m_description": "<EX=STONE_0022>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0025",
+                    "1 string m_description": "<ICON=BUTTON_SKILL_4>ボタン入力によって発動する技の\n攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0026",
+                    "1 string m_description": "<EX=STONE_0025>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0027",
+                    "1 string m_description": "<EX=STONE_0025>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0028",
+                    "1 string m_description": "状態異常によって\n与えるダメージが上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0029",
+                    "1 string m_description": "<EX=STONE_0028>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0030",
+                    "1 string m_description": "<EX=STONE_0028>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0031",
+                    "1 string m_description": "攻撃を受けて反射した時に\n与えるダメージが上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0032",
+                    "1 string m_description": "<EX=STONE_0031>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0033",
+                    "1 string m_description": "<EX=STONE_0031>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0034",
+                    "1 string m_description": "攻撃によってダメージリアクションを\n発生させる力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0035",
+                    "1 string m_description": "<EX=STONE_0034>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0036",
+                    "1 string m_description": "<EX=STONE_0034>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0037",
+                    "1 string m_description": "攻撃時にまれにＨＰが回復する。\nＨＰが低い時は発生率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0038",
+                    "1 string m_description": "<EX=STONE_0037>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0039",
+                    "1 string m_description": "<EX=STONE_0037>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0040",
+                    "1 string m_description": "攻撃時に自分もダメージを受けるが\n攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0041",
+                    "1 string m_description": "<EX=STONE_0040>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0042",
+                    "1 string m_description": "<EX=STONE_0040>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0043",
+                    "1 string m_description": "防御力が下がる代わりに\n攻撃力が大幅に上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0044",
+                    "1 string m_description": "<EX=STONE_0043>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0045",
+                    "1 string m_description": "<EX=STONE_0043>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0046",
+                    "1 string m_description": "小さい敵に攻撃がヒットした時の\n攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0047",
+                    "1 string m_description": "<EX=STONE_0046>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0048",
+                    "1 string m_description": "<EX=STONE_0046>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0049",
+                    "1 string m_description": "大きい敵に攻撃がヒットした時の\n攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0050",
+                    "1 string m_description": "<EX=STONE_0049>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0051",
+                    "1 string m_description": "<EX=STONE_0049>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0052",
+                    "1 string m_description": "状態変化が発生している数が多いほど\n攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0053",
+                    "1 string m_description": "<EX=STONE_0052>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0054",
+                    "1 string m_description": "<EX=STONE_0052>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0055",
+                    "1 string m_description": "直前の攻撃からの経過時間が長いほど\n攻撃力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0056",
+                    "1 string m_description": "<EX=STONE_0055>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0057",
+                    "1 string m_description": "<EX=STONE_0055>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0058",
+                    "1 string m_description": "技の連続発動回数が多いほど\n攻撃の威力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0059",
+                    "1 string m_description": "<EX=STONE_0058>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0060",
+                    "1 string m_description": "<EX=STONE_0058>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0061",
+                    "1 string m_description": "クリティカル率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0062",
+                    "1 string m_description": "<EX=STONE_0061>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0063",
+                    "1 string m_description": "<EX=STONE_0061>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0064",
+                    "1 string m_description": "敵への状態異常発生率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0065",
+                    "1 string m_description": "<EX=STONE_0064>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0066",
+                    "1 string m_description": "<EX=STONE_0064>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0067",
+                    "1 string m_description": "敵の状態異常の時間が長くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0068",
+                    "1 string m_description": "<EX=STONE_0067>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0069",
+                    "1 string m_description": "<EX=STONE_0067>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0070",
+                    "1 string m_description": "攻撃時に毒が発生するようになる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0071",
+                    "1 string m_description": "<EX=STONE_0070>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0072",
+                    "1 string m_description": "<EX=STONE_0070>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0073",
+                    "1 string m_description": "攻撃時に混乱が発生するようになる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0074",
+                    "1 string m_description": "<EX=STONE_0073>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0075",
+                    "1 string m_description": "<EX=STONE_0073>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0076",
+                    "1 string m_description": "攻撃時に麻痺が発生するようになる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0077",
+                    "1 string m_description": "<EX=STONE_0076>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0078",
+                    "1 string m_description": "<EX=STONE_0076>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0079",
+                    "1 string m_description": "攻撃時に気絶が発生するようになる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0080",
+                    "1 string m_description": "<EX=STONE_0079>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0081",
+                    "1 string m_description": "<EX=STONE_0079>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0082",
+                    "1 string m_description": "攻撃時に即死が発生するようになる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0083",
+                    "1 string m_description": "<EX=STONE_0082>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0084",
+                    "1 string m_description": "<EX=STONE_0082>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0085",
+                    "1 string m_description": "最大ＨＰが上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0086",
+                    "1 string m_description": "<EX=STONE_0085>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0087",
+                    "1 string m_description": "<EX=STONE_0085>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0088",
+                    "1 string m_description": "回復力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0089",
+                    "1 string m_description": "<EX=STONE_0088>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0090",
+                    "1 string m_description": "<EX=STONE_0088>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0091",
+                    "1 string m_description": "回復量が最大ＨＰを超える時に\nＨＰが最大ＨＰを超えるようになる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0092",
+                    "1 string m_description": "<EX=STONE_0091>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0093",
+                    "1 string m_description": "<EX=STONE_0091>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0094",
+                    "1 string m_description": "自分への状態強化発生率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0095",
+                    "1 string m_description": "<EX=STONE_0094>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0096",
+                    "1 string m_description": "<EX=STONE_0094>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0097",
+                    "1 string m_description": "自分の状態強化の時間が長くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0098",
+                    "1 string m_description": "<EX=STONE_0097>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0099",
+                    "1 string m_description": "<EX=STONE_0097>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0100",
+                    "1 string m_description": "防御力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0101",
+                    "1 string m_description": "<EX=STONE_0100>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0102",
+                    "1 string m_description": "<EX=STONE_0100>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0103",
+                    "1 string m_description": "ＨＰが低い時の防御力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0104",
+                    "1 string m_description": "<EX=STONE_0103>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0105",
+                    "1 string m_description": "<EX=STONE_0103>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0106",
+                    "1 string m_description": "同調率が高い時の防御力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0107",
+                    "1 string m_description": "<EX=STONE_0106>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0108",
+                    "1 string m_description": "<EX=STONE_0106>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0109",
+                    "1 string m_description": "鬼哭時の防御力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0110",
+                    "1 string m_description": "<EX=STONE_0109>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0111",
+                    "1 string m_description": "<EX=STONE_0109>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0112",
+                    "1 string m_description": "受けるダメージが\n上限以上にならなくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0113",
+                    "1 string m_description": "<EX=STONE_0112>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0114",
+                    "1 string m_description": "<EX=STONE_0112>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0115",
+                    "1 string m_description": "ダメージリアクションしづらくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0116",
+                    "1 string m_description": "<EX=STONE_0115>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0117",
+                    "1 string m_description": "<EX=STONE_0115>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0118",
+                    "1 string m_description": "攻撃を受ける範囲が小さくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0119",
+                    "1 string m_description": "<EX=STONE_0118>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0120",
+                    "1 string m_description": "<EX=STONE_0118>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0121",
+                    "1 string m_description": "攻撃を受けた時に\nまれに攻撃を無効化する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0122",
+                    "1 string m_description": "<EX=STONE_0121>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0123",
+                    "1 string m_description": "<EX=STONE_0121>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0124",
+                    "1 string m_description": "毒が発生しづらくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0125",
+                    "1 string m_description": "<EX=STONE_0124>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0126",
+                    "1 string m_description": "<EX=STONE_0124>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0127",
+                    "1 string m_description": "混乱が発生しづらくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0128",
+                    "1 string m_description": "<EX=STONE_0127>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0129",
+                    "1 string m_description": "<EX=STONE_0127>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0130",
+                    "1 string m_description": "麻痺が発生しづらくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0131",
+                    "1 string m_description": "<EX=STONE_0130>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0132",
+                    "1 string m_description": "<EX=STONE_0130>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0133",
+                    "1 string m_description": "気絶が発生しづらくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0134",
+                    "1 string m_description": "<EX=STONE_0133>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0135",
+                    "1 string m_description": "<EX=STONE_0133>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0136",
+                    "1 string m_description": "即死が発生しづらくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0137",
+                    "1 string m_description": "<EX=STONE_0136>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0138",
+                    "1 string m_description": "<EX=STONE_0136>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0139",
+                    "1 string m_description": "自分の状態異常の時間が短くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0140",
+                    "1 string m_description": "<EX=STONE_0139>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0141",
+                    "1 string m_description": "<EX=STONE_0139>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0142",
+                    "1 string m_description": "同調率が上昇しやすくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0143",
+                    "1 string m_description": "<EX=STONE_0142>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0144",
+                    "1 string m_description": "<EX=STONE_0142>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0145",
+                    "1 string m_description": "初期同調率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0146",
+                    "1 string m_description": "<EX=STONE_0145>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0147",
+                    "1 string m_description": "<EX=STONE_0145>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0148",
+                    "1 string m_description": "同調率が低下しづらくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0149",
+                    "1 string m_description": "<EX=STONE_0148>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0150",
+                    "1 string m_description": "<EX=STONE_0148>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0151",
+                    "1 string m_description": "同調率の上限が２００より高くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0152",
+                    "1 string m_description": "<EX=STONE_0151>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0153",
+                    "1 string m_description": "<EX=STONE_0151>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0154",
+                    "1 string m_description": "鬼哭の発生時間が長くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0155",
+                    "1 string m_description": "<EX=STONE_0154>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0156",
+                    "1 string m_description": "<EX=STONE_0154>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0157",
+                    "1 string m_description": "覚醒が発生する確率が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0158",
+                    "1 string m_description": "<EX=STONE_0157>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0159",
+                    "1 string m_description": "<EX=STONE_0157>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0160",
+                    "1 string m_description": "覚醒の発生時間が長くなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0161",
+                    "1 string m_description": "<EX=STONE_0160>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0162",
+                    "1 string m_description": "<EX=STONE_0160>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0163",
+                    "1 string m_description": "敵から視認されづらくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0164",
+                    "1 string m_description": "<EX=STONE_0163>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0165",
+                    "1 string m_description": "<EX=STONE_0163>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0166",
+                    "1 string m_description": "幽リ世で発生する理効果の\n自分への影響力が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0167",
+                    "1 string m_description": "<EX=STONE_0166>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0168",
+                    "1 string m_description": "<EX=STONE_0166>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0169",
+                    "1 string m_description": "幽リ世で発生する理効果の\n自分への影響力が低下する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0170",
+                    "1 string m_description": "<EX=STONE_0169>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0171",
+                    "1 string m_description": "<EX=STONE_0169>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0172",
+                    "1 string m_description": "幽リ世で発生する理効果が\n現シ世でも発生するようになる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0173",
+                    "1 string m_description": "<EX=STONE_0172>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0174",
+                    "1 string m_description": "<EX=STONE_0172>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0175",
+                    "1 string m_description": "入手経験値が上昇する。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0176",
+                    "1 string m_description": "<EX=STONE_0175>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0177",
+                    "1 string m_description": "<EX=STONE_0175>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0178",
+                    "1 string m_description": "鬼魂が出現しやすくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0179",
+                    "1 string m_description": "<EX=STONE_0178>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0180",
+                    "1 string m_description": "<EX=STONE_0178>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0181",
+                    "1 string m_description": "武器がドロップしやすくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0182",
+                    "1 string m_description": "<EX=STONE_0181>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0183",
+                    "1 string m_description": "<EX=STONE_0181>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0184",
+                    "1 string m_description": "影石がドロップしやすくなる。"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0185",
+                    "1 string m_description": "<EX=STONE_0184>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0186",
+                    "1 string m_description": "<EX=STONE_0184>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0187",
+                    "1 string m_description": "<EX=STONE_0085>\n<EX=STONE_0178>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0188",
+                    "1 string m_description": "<EX=STONE_0004>\n<EX=STONE_0106>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0189",
+                    "1 string m_description": "<EX=STONE_0082>\n<EX=STONE_0163>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0190",
+                    "1 string m_description": "<EX=STONE_0088>\n<EX=STONE_0151>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0191",
+                    "1 string m_description": "<EX=STONE_0067>\n<EX=STONE_0070>\r"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0192",
+                    "1 string m_description": "<EX=STONE_0124>\n<EX=STONE_0130>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0193",
+                    "1 string m_description": "<EX=STONE_0109>\n<EX=STONE_0142>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0194",
+                    "1 string m_description": "<EX=STONE_0004>\n<EX=STONE_0157>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0195",
+                    "1 string m_description": "<EX=STONE_0013>\n<EX=STONE_0148>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0196",
+                    "1 string m_description": "<EX=STONE_0001>\n<EX=STONE_0088>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0197",
+                    "1 string m_description": "<EX=STONE_0121>\n<EX=STONE_0163>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0198",
+                    "1 string m_description": "<EX=STONE_0010>\n<EX=STONE_0061>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0199",
+                    "1 string m_description": "<EX=STONE_0007>\n<EX=STONE_0139>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0200",
+                    "1 string m_description": "<EX=STONE_0061>\n<EX=STONE_0088>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0201",
+                    "1 string m_description": "<EX=STONE_0145>\n<EX=STONE_0154>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0202",
+                    "1 string m_description": "<EX=STONE_0094>\n<EX=STONE_0142>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0203",
+                    "1 string m_description": "<EX=STONE_0124>\n<EX=STONE_0127>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0204",
+                    "1 string m_description": "<EX=STONE_0070>\n<EX=STONE_0094>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0205",
+                    "1 string m_description": "<EX=STONE_0028>\n<EX=STONE_0064>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0206",
+                    "1 string m_description": "<EX=STONE_0076>\n<EX=STONE_0154>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0207",
+                    "1 string m_description": "<EX=STONE_0007>\n<EX=STONE_0148>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0208",
+                    "1 string m_description": "<EX=STONE_0064>\n<EX=STONE_0076>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0209",
+                    "1 string m_description": "<EX=STONE_0067>\n<EX=STONE_0079>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0210",
+                    "1 string m_description": "<EX=STONE_0010>\n<EX=STONE_0100>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0211",
+                    "1 string m_description": "<EX=STONE_0013>\n<EX=STONE_0097>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0212",
+                    "1 string m_description": "<EX=STONE_0073>\n<EX=STONE_0076>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0213",
+                    "1 string m_description": "<EX=STONE_0070>\n<EX=STONE_0079>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0214",
+                    "1 string m_description": "<EX=STONE_0031>\n<EX=STONE_0178>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0215",
+                    "1 string m_description": "<EX=STONE_0010>\n<EX=STONE_0142>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0216",
+                    "1 string m_description": "<EX=STONE_0145>\n<EX=STONE_0151>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0217",
+                    "1 string m_description": "<EX=STONE_0127>\n<EX=STONE_0130>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0218",
+                    "1 string m_description": "<EX=STONE_0085>\n<EX=STONE_0139>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0219",
+                    "1 string m_description": "<EX=STONE_0097>\n<EX=STONE_0103>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0220",
+                    "1 string m_description": "<EX=STONE_0124>\n<EX=STONE_0133>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0221",
+                    "1 string m_description": "<EX=STONE_0067>\n<EX=STONE_0106>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0222",
+                    "1 string m_description": "<EX=STONE_0100>\n<EX=STONE_0154>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0223",
+                    "1 string m_description": "<EX=STONE_0103>\n<EX=STONE_0130>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0224",
+                    "1 string m_description": "<EX=STONE_0082>\n<EX=STONE_0121>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0225",
+                    "1 string m_description": "<EX=STONE_0031>\n<EX=STONE_0061>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0226",
+                    "1 string m_description": "<EX=STONE_0004>\n<EX=STONE_0109>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0227",
+                    "1 string m_description": "<EX=STONE_0106>\n<EX=STONE_0160>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0228",
+                    "1 string m_description": "<EX=STONE_0001>\n<EX=STONE_0028>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0229",
+                    "1 string m_description": "<EX=STONE_0094>\n<EX=STONE_0139>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0230",
+                    "1 string m_description": "<EX=STONE_0157>\n<EX=STONE_0163>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0231",
+                    "1 string m_description": "<EX=STONE_0073>\n<EX=STONE_0109>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0232",
+                    "1 string m_description": "<EX=STONE_0100>\n<EX=STONE_0157>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0233",
+                    "1 string m_description": "<EX=STONE_0064>\n<EX=STONE_0073>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0234",
+                    "1 string m_description": "<EX=STONE_0013>\n<EX=STONE_0145>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0235",
+                    "1 string m_description": "<EX=STONE_0001>\n<EX=STONE_0160>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0236",
+                    "1 string m_description": "<EX=STONE_0007>\n<EX=STONE_0079>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0237",
+                    "1 string m_description": "<EX=STONE_0100>\n<EX=STONE_0121>\n<EX=STONE_0133>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0238",
+                    "1 string m_description": "<EX=STONE_0031>\n<EX=STONE_0103>\n<EX=STONE_0139>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0239",
+                    "1 string m_description": "<EX=STONE_0061>\n<EX=STONE_0094>\n<EX=STONE_0097>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0240",
+                    "1 string m_description": "<EX=STONE_0067>\n<EX=STONE_0097>\n<EX=STONE_0160>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0241",
+                    "1 string m_description": "<EX=STONE_0013>\n<EX=STONE_0079>\n<EX=STONE_0085>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0242",
+                    "1 string m_description": "<EX=STONE_0004>\n<EX=STONE_0103>\n<EX=STONE_0106>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0243",
+                    "1 string m_description": "<EX=STONE_0082>\n<EX=STONE_0142>\n<EX=STONE_0148>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0244",
+                    "1 string m_description": "<EX=STONE_0076>\n<EX=STONE_0130>\n<EX=STONE_0151>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0245",
+                    "1 string m_description": "<EX=STONE_0085>\n<EX=STONE_0088>\n<EX=STONE_0151>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0246",
+                    "1 string m_description": "<EX=STONE_0001>\n<EX=STONE_0073>\n<EX=STONE_0127>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0247",
+                    "1 string m_description": "<EX=STONE_0028>\n<EX=STONE_0064>\n<EX=STONE_0094>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0248",
+                    "1 string m_description": "<EX=STONE_0001>\n<EX=STONE_0061>\n<EX=STONE_0145>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0249",
+                    "1 string m_description": "<EX=STONE_0004>\n<EX=STONE_0010>\n<EX=STONE_0178>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0250",
+                    "1 string m_description": "<EX=STONE_0028>\n<EX=STONE_0070>\n<EX=STONE_0124>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0251",
+                    "1 string m_description": "<EX=STONE_0007>\n<EX=STONE_0010>\n<EX=STONE_0031>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0252",
+                    "1 string m_description": "<EX=STONE_0127>\n<EX=STONE_0130>\n<EX=STONE_0133>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0253",
+                    "1 string m_description": "<EX=STONE_0088>\n<EX=STONE_0100>\n<EX=STONE_0139>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0254",
+                    "1 string m_description": "<EX=STONE_0148>\n<EX=STONE_0151>\n<EX=STONE_0154>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0255",
+                    "1 string m_description": "<EX=STONE_0082>\n<EX=STONE_0142>\n<EX=STONE_0145>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0256",
+                    "1 string m_description": "<EX=STONE_0007>\n<EX=STONE_0109>\n<EX=STONE_0154>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "STONE_0257",
+                    "1 string m_description": "<EX=STONE_0013>\n<EX=STONE_0157>\n<EX=STONE_0160>"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "POTION_0001",
+                    "1 string m_description": "ポーションの説明文"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "POTION_0002",
+                    "1 string m_description": "ポーションx3の説明文"
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

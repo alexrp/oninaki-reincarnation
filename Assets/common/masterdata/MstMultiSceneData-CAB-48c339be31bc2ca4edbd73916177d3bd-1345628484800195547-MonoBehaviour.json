@@ -1,202 +1,279 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 271581145788868960
+    },
+    "1 string m_Name": "MstMultiSceneData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 271581145788868958
-        },
-        "1 string m_Name": "MstMultiSceneData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "MultiScene",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "MultiScene",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_mainScene": "Proto_BG2",
-                                "0 vector m_subScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "Proto_BG2_BGAsset"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_debugScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mainScene": "Proto_BG2_U",
-                                "0 vector m_subScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "Proto_BG2_U_BGAsset"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_debugScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mainScene": "Proto_BG_Switch",
-                                "0 vector m_subScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "Proto_BG_Switch_BGAsset"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_debugScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mainScene": "EffectAdjust",
-                                "0 vector m_subScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "EffectAdjust_BGAsset"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_debugScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mainScene": "Proto_BG2_Battle",
-                                "0 vector m_subScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "Proto_BG2"},
-                                        {"1 string data": "Proto_BG2_BGAsset"},
-                                        {"1 string data": "Proto_BG2_Chara"}
-                                    ]
-                                },
-                                "0 vector m_debugScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mainScene": "Proto_BG2_U_Battle",
-                                "0 vector m_subScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "Proto_BG2_U"},
-                                        {"1 string data": "Proto_BG2_U_BGAsset"},
-                                        {"1 string data": "Proto_BG2_Chara"}
-                                    ]
-                                },
-                                "0 vector m_debugScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mainScene": "ma_1001_01_U",
-                                "0 vector m_subScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "ma_1001_01_U_BGAssets"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_debugScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mainScene": "ma_1001_01_K",
-                                "0 vector m_subScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "ma_1001_01_K_BGAssets"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_debugScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mainScene": "ma_1001_02_U",
-                                "0 vector m_subScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "ma_1001_02_U_BGAssets"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_debugScenes": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }}
-                        ]
+                  "0 Param data": {
+                    "1 string m_mainScene": "Proto_BG2",
+                    "0 vector m_subScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "Proto_BG2_BGAsset"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_debugScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
                     }
-                }}
-            ]
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mainScene": "Proto_BG2_U",
+                    "0 vector m_subScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "Proto_BG2_U_BGAsset"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_debugScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mainScene": "Proto_BG_Switch",
+                    "0 vector m_subScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "Proto_BG_Switch_BGAsset"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_debugScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mainScene": "EffectAdjust",
+                    "0 vector m_subScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "EffectAdjust_BGAsset"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_debugScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mainScene": "Proto_BG2_Battle",
+                    "0 vector m_subScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "Proto_BG2"
+                        },
+                        {
+                          "1 string data": "Proto_BG2_BGAsset"
+                        },
+                        {
+                          "1 string data": "Proto_BG2_Chara"
+                        }
+                      ]
+                    },
+                    "0 vector m_debugScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mainScene": "Proto_BG2_U_Battle",
+                    "0 vector m_subScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "Proto_BG2_U"
+                        },
+                        {
+                          "1 string data": "Proto_BG2_U_BGAsset"
+                        },
+                        {
+                          "1 string data": "Proto_BG2_Chara"
+                        }
+                      ]
+                    },
+                    "0 vector m_debugScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mainScene": "ma_1001_01_U",
+                    "0 vector m_subScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "ma_1001_01_U_BGAssets"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_debugScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mainScene": "ma_1001_01_K",
+                    "0 vector m_subScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "ma_1001_01_K_BGAssets"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_debugScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mainScene": "ma_1001_02_U",
+                    "0 vector m_subScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "ma_1001_02_U_BGAssets"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_debugScenes": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

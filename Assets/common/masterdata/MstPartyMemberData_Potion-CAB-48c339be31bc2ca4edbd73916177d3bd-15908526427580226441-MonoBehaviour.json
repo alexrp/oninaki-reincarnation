@@ -1,66 +1,67 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 4078201004726650400
+    },
+    "1 string m_Name": "MstPartyMemberData_Potion",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 4078201004726650189
-        },
-        "1 string m_Name": "MstPartyMemberData_Potion",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Potion",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Potion",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_0001",
-                                "0 int m_hpMinRatio": 0,
-                                "0 int m_hpMaxRatio": 10,
-                                "0 int m_useRatio": 100
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_hpMinRatio": 11,
-                                "0 int m_hpMaxRatio": 20,
-                                "0 int m_useRatio": 90
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_hpMinRatio": 21,
-                                "0 int m_hpMaxRatio": 50,
-                                "0 int m_useRatio": 80
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_hpMinRatio": 51,
-                                "0 int m_hpMaxRatio": 70,
-                                "0 int m_useRatio": 60
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_hpMinRatio": 71,
-                                "0 int m_hpMaxRatio": 100,
-                                "0 int m_useRatio": 30
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "CN_0001",
+                    "0 int m_hpMinRatio": 0,
+                    "0 int m_hpMaxRatio": 10,
+                    "0 int m_useRatio": 100
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_hpMinRatio": 11,
+                    "0 int m_hpMaxRatio": 20,
+                    "0 int m_useRatio": 90
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_hpMinRatio": 21,
+                    "0 int m_hpMaxRatio": 50,
+                    "0 int m_useRatio": 80
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_hpMinRatio": 51,
+                    "0 int m_hpMaxRatio": 70,
+                    "0 int m_useRatio": 60
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_hpMinRatio": 71,
+                    "0 int m_hpMaxRatio": 100,
+                    "0 int m_useRatio": 30
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

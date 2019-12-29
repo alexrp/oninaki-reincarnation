@@ -1,41 +1,38 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 1420353453143996700
+    },
+    "1 string m_Name": "MstSafeAreaData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 1420353453143996698
-        },
-        "1 string m_Name": "MstSafeAreaData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "SafeAreaData",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "SafeAreaData",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "0 float m_activationRange": 6,
-                                "0 float m_enemyBlockRadius": 4,
-                                "0 float m_enemyBlockHeight": 16,
-                                "1 string m_areaEffect": "EF_CMN_GM_SAFETYAREA_00",
-                                "1 string m_areaSe": "SE_GMK_SAFEAREA",
-                                "0 float m_activationDuration": 0.300000012,
-                                "0 float m_effectDelay": 0.400000006
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "0 float m_activationRange": 6,
+                    "0 float m_enemyBlockRadius": 4,
+                    "0 float m_enemyBlockHeight": 16,
+                    "1 string m_areaEffect": "EF_CMN_GM_SAFETYAREA_00",
+                    "1 string m_areaSe": "SE_GMK_SAFEAREA",
+                    "0 float m_activationDuration": 0.300000012,
+                    "0 float m_effectDelay": 0.400000006
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

@@ -1,131 +1,137 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 334171241888804800
+    },
+    "1 string m_Name": "MstEnemyData_PartGrowth",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 334171241888804827
-        },
-        "1 string m_Name": "MstEnemyData_PartGrowth",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "PartGrowth",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "PartGrowth",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1001_01",
-                                "0 int m_levelMin": 1,
-                                "0 int m_levelMax": 109,
-                                "0 float m_damageRateMin": 1.20000005,
-                                "0 float m_damageRateMax": 1.20000005,
-                                "0 int m_criticalRatioMin": 100,
-                                "0 int m_criticalRatioMax": 100
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1001_02",
-                                "0 int m_levelMin": 1,
-                                "0 int m_levelMax": 109,
-                                "0 float m_damageRateMin": 1,
-                                "0 float m_damageRateMax": 1,
-                                "0 int m_criticalRatioMin": 0,
-                                "0 int m_criticalRatioMax": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1002_01",
-                                "0 int m_levelMin": 1,
-                                "0 int m_levelMax": 109,
-                                "0 float m_damageRateMin": 1.20000005,
-                                "0 float m_damageRateMax": 1.20000005,
-                                "0 int m_criticalRatioMin": 100,
-                                "0 int m_criticalRatioMax": 100
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1008_01",
-                                "0 int m_levelMin": 1,
-                                "0 int m_levelMax": 109,
-                                "0 float m_damageRateMin": 1.20000005,
-                                "0 float m_damageRateMax": 1.20000005,
-                                "0 int m_criticalRatioMin": 100,
-                                "0 int m_criticalRatioMax": 100
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1008_02",
-                                "0 int m_levelMin": 1,
-                                "0 int m_levelMax": 109,
-                                "0 float m_damageRateMin": 1,
-                                "0 float m_damageRateMax": 1,
-                                "0 int m_criticalRatioMin": 0,
-                                "0 int m_criticalRatioMax": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1001_01B",
-                                "0 int m_levelMin": 1,
-                                "0 int m_levelMax": 109,
-                                "0 float m_damageRateMin": 1.20000005,
-                                "0 float m_damageRateMax": 1.20000005,
-                                "0 int m_criticalRatioMin": 100,
-                                "0 int m_criticalRatioMax": 100
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1001_02B",
-                                "0 int m_levelMin": 1,
-                                "0 int m_levelMax": 109,
-                                "0 float m_damageRateMin": 1,
-                                "0 float m_damageRateMax": 1,
-                                "0 int m_criticalRatioMin": 0,
-                                "0 int m_criticalRatioMax": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1002_01B",
-                                "0 int m_levelMin": 1,
-                                "0 int m_levelMax": 109,
-                                "0 float m_damageRateMin": 1.20000005,
-                                "0 float m_damageRateMax": 1.20000005,
-                                "0 int m_criticalRatioMin": 100,
-                                "0 int m_criticalRatioMax": 100
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1008_01B",
-                                "0 int m_levelMin": 1,
-                                "0 int m_levelMax": 109,
-                                "0 float m_damageRateMin": 1.20000005,
-                                "0 float m_damageRateMax": 1.20000005,
-                                "0 int m_criticalRatioMin": 100,
-                                "0 int m_criticalRatioMax": 100
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1008_02B",
-                                "0 int m_levelMin": 1,
-                                "0 int m_levelMax": 109,
-                                "0 float m_damageRateMin": 1,
-                                "0 float m_damageRateMax": 1,
-                                "0 int m_criticalRatioMin": 0,
-                                "0 int m_criticalRatioMax": 0
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "CE_1001_01",
+                    "0 int m_levelMin": 1,
+                    "0 int m_levelMax": 109,
+                    "0 float m_damageRateMin": 1.20000005,
+                    "0 float m_damageRateMax": 1.20000005,
+                    "0 int m_criticalRatioMin": 100,
+                    "0 int m_criticalRatioMax": 100
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1001_02",
+                    "0 int m_levelMin": 1,
+                    "0 int m_levelMax": 109,
+                    "0 float m_damageRateMin": 1,
+                    "0 float m_damageRateMax": 1,
+                    "0 int m_criticalRatioMin": 0,
+                    "0 int m_criticalRatioMax": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1002_01",
+                    "0 int m_levelMin": 1,
+                    "0 int m_levelMax": 109,
+                    "0 float m_damageRateMin": 1.20000005,
+                    "0 float m_damageRateMax": 1.20000005,
+                    "0 int m_criticalRatioMin": 100,
+                    "0 int m_criticalRatioMax": 100
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1008_01",
+                    "0 int m_levelMin": 1,
+                    "0 int m_levelMax": 109,
+                    "0 float m_damageRateMin": 1.20000005,
+                    "0 float m_damageRateMax": 1.20000005,
+                    "0 int m_criticalRatioMin": 100,
+                    "0 int m_criticalRatioMax": 100
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1008_02",
+                    "0 int m_levelMin": 1,
+                    "0 int m_levelMax": 109,
+                    "0 float m_damageRateMin": 1,
+                    "0 float m_damageRateMax": 1,
+                    "0 int m_criticalRatioMin": 0,
+                    "0 int m_criticalRatioMax": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1001_01B",
+                    "0 int m_levelMin": 1,
+                    "0 int m_levelMax": 109,
+                    "0 float m_damageRateMin": 1.20000005,
+                    "0 float m_damageRateMax": 1.20000005,
+                    "0 int m_criticalRatioMin": 100,
+                    "0 int m_criticalRatioMax": 100
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1001_02B",
+                    "0 int m_levelMin": 1,
+                    "0 int m_levelMax": 109,
+                    "0 float m_damageRateMin": 1,
+                    "0 float m_damageRateMax": 1,
+                    "0 int m_criticalRatioMin": 0,
+                    "0 int m_criticalRatioMax": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1002_01B",
+                    "0 int m_levelMin": 1,
+                    "0 int m_levelMax": 109,
+                    "0 float m_damageRateMin": 1.20000005,
+                    "0 float m_damageRateMax": 1.20000005,
+                    "0 int m_criticalRatioMin": 100,
+                    "0 int m_criticalRatioMax": 100
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1008_01B",
+                    "0 int m_levelMin": 1,
+                    "0 int m_levelMax": 109,
+                    "0 float m_damageRateMin": 1.20000005,
+                    "0 float m_damageRateMax": 1.20000005,
+                    "0 int m_criticalRatioMin": 100,
+                    "0 int m_criticalRatioMax": 100
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1008_02B",
+                    "0 int m_levelMin": 1,
+                    "0 int m_levelMax": 109,
+                    "0 float m_damageRateMin": 1,
+                    "0 float m_damageRateMax": 1,
+                    "0 int m_criticalRatioMin": 0,
+                    "0 int m_criticalRatioMax": 0
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

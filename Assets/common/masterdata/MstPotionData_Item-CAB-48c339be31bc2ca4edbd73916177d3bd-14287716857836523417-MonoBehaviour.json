@@ -1,45 +1,43 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -3673625317793912300
+    },
+    "1 string m_Name": "MstPotionData_Item",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -3673625317793912570
-        },
-        "1 string m_Name": "MstPotionData_Item",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Item",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Item",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "POT_0001",
-                                "1 string m_modelId": "gm_item_02_c",
-                                "0 int m_rarity": 0,
-                                "0 int m_addNum": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "POT_0002",
-                                "1 string m_modelId": "gm_item_02_c_v1",
-                                "0 int m_rarity": 1,
-                                "0 int m_addNum": 3
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "POT_0001",
+                    "1 string m_modelId": "gm_item_02_c",
+                    "0 int m_rarity": 0,
+                    "0 int m_addNum": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "POT_0002",
+                    "1 string m_modelId": "gm_item_02_c_v1",
+                    "0 int m_rarity": 1,
+                    "0 int m_addNum": 3
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

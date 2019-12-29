@@ -1,136 +1,139 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 1941662808023380700
+    },
+    "1 string m_Name": "MstGimmick_1001",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 1941662808023380637
-        },
-        "1 string m_Name": "MstGimmick_1001",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Gimmick",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Gimmick",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "ma_1001_07",
-                                "1 string m_placementId": "MANA_BLOCK_01",
-                                "1 string m_gimmickType": "ManaBlock_01",
-                                "0 int m_worldMode": 1,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "ma_1001_09",
-                                "1 string m_placementId": "SAFEAREA_01",
-                                "1 string m_gimmickType": "SafeArea",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "KAKURIYO_ROAD_01",
-                                "1 string m_gimmickType": "KakuriyoRoad",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "KAKURIYO_ROAD_02",
-                                "1 string m_gimmickType": "KakuriyoRoad",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "KAKURIYO_ROAD_03",
-                                "1 string m_gimmickType": "KakuriyoRoad",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "KAKURIYO_ROAD_04",
-                                "1 string m_gimmickType": "KakuriyoRoad",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_mapName": "",
-                                "1 string m_placementId": "ITEMBOX_01",
-                                "1 string m_gimmickType": "ItemBox",
-                                "0 int m_worldMode": 0,
-                                "0 int m_ageMode": 0,
-                                "1 string m_counterName": "",
-                                "0 int m_counterRangeLow": 0,
-                                "0 int m_counterRangeHigh": 0,
-                                "1 string m_validFlags": "",
-                                "1 string m_invalidFlags": "",
-                                "1 string m_layer": "",
-                                "1 string m_unlockGimmickId": ""
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_mapName": "ma_1001_07",
+                    "1 string m_placementId": "MANA_BLOCK_01",
+                    "1 string m_gimmickType": "ManaBlock_01",
+                    "0 int m_worldMode": 1,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "ma_1001_09",
+                    "1 string m_placementId": "SAFEAREA_01",
+                    "1 string m_gimmickType": "SafeArea",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "KAKURIYO_ROAD_01",
+                    "1 string m_gimmickType": "KakuriyoRoad",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "KAKURIYO_ROAD_02",
+                    "1 string m_gimmickType": "KakuriyoRoad",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "KAKURIYO_ROAD_03",
+                    "1 string m_gimmickType": "KakuriyoRoad",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "KAKURIYO_ROAD_04",
+                    "1 string m_gimmickType": "KakuriyoRoad",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_mapName": "",
+                    "1 string m_placementId": "ITEMBOX_01",
+                    "1 string m_gimmickType": "ItemBox",
+                    "0 int m_worldMode": 0,
+                    "0 int m_ageMode": 0,
+                    "1 string m_counterName": "",
+                    "0 int m_counterRangeLow": 0,
+                    "0 int m_counterRangeHigh": 0,
+                    "1 string m_validFlags": "",
+                    "1 string m_invalidFlags": "",
+                    "1 string m_layer": "",
+                    "1 string m_unlockGimmickId": ""
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

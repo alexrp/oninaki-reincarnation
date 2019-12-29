@@ -1,39 +1,36 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -3359384847152749000
+    },
+    "1 string m_Name": "MstGlobalBattleData_Sound",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -3359384847152749032
-        },
-        "1 string m_Name": "MstGlobalBattleData_Sound",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Sound",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Sound",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_seIdKamishiroCharge": "SE_BT_KAMISHIRO_CHR",
-                                "1 string m_seIdKamishiroChange": "SE_BT_KAMISHIRO_CHN",
-                                "1 string m_seIdKikokuStart": "SE_BT_KIKOKU1",
-                                "1 string m_seIdKikokuLoop": "SE_BT_KIKOKU1_LP",
-                                "0 float m_bossBgmStopDistance": 12
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_seIdKamishiroCharge": "SE_BT_KAMISHIRO_CHR",
+                    "1 string m_seIdKamishiroChange": "SE_BT_KAMISHIRO_CHN",
+                    "1 string m_seIdKikokuStart": "SE_BT_KIKOKU1",
+                    "1 string m_seIdKikokuLoop": "SE_BT_KIKOKU1_LP",
+                    "0 float m_bossBgmStopDistance": 12
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

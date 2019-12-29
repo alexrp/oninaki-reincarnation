@@ -1,41 +1,38 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -1461400050561661700
+    },
+    "1 string m_Name": "MstPlayerMoveControlData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -1461400050561661814
-        },
-        "1 string m_Name": "MstPlayerMoveControlData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Control",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Control",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "0 float m_walkSpeed": 2.20000005,
-                                "0 float m_runSpeed": 7,
-                                "0 float m_walkSpeedKamishiroCharge": 1.5,
-                                "0 float m_idleHealStartTime": 2,
-                                "0 int m_idleHealRatio": 5,
-                                "0 float m_idleHealInterval": 2,
-                                "0 float m_kakuriyoLockAreaMoveSpeedRate": 0.5
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "0 float m_walkSpeed": 2.20000005,
+                    "0 float m_runSpeed": 7,
+                    "0 float m_walkSpeedKamishiroCharge": 1.5,
+                    "0 float m_idleHealStartTime": 2,
+                    "0 int m_idleHealRatio": 5,
+                    "0 float m_idleHealInterval": 2,
+                    "0 float m_kakuriyoLockAreaMoveSpeedRate": 0.5
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

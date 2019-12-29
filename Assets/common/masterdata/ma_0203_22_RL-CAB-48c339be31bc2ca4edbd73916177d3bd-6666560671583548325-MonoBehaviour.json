@@ -1,49 +1,46 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 3977095387942362000
+    },
+    "1 string m_Name": "ma_0203_22_RL",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 3977095387942362066
-        },
-        "1 string m_Name": "ma_0203_22_RL",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Route",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Route",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "L_FIX_01",
-                                "0 int m_routeType": 0,
-                                "0 float m_width": 0,
-                                "0 float m_posX": 2.66100001,
-                                "0 float m_posY": 0.324999988,
-                                "0 float m_posZ": 2.77399993,
-                                "0 float m_rotY": 189.100006,
-                                "0 float m_sizeX": 0,
-                                "0 float m_sizeZ": 0,
-                                "0 int m_collisionType": 1,
-                                "1 string m_animName": "",
-                                "0 float m_delayTime": 0,
-                                "0 int m_animPlayNum": 0,
-                                "0 float m_waitTime": 0,
-                                "0 float m_endRotY": -1
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "L_FIX_01",
+                    "0 int m_routeType": 0,
+                    "0 float m_width": 0,
+                    "0 float m_posX": 2.66100001,
+                    "0 float m_posY": 0.324999988,
+                    "0 float m_posZ": 2.77399993,
+                    "0 float m_rotY": 189.100006,
+                    "0 float m_sizeX": 0,
+                    "0 float m_sizeZ": 0,
+                    "0 int m_collisionType": 1,
+                    "1 string m_animName": "",
+                    "0 float m_delayTime": 0,
+                    "0 int m_animPlayNum": 0,
+                    "0 float m_waitTime": 0,
+                    "0 float m_endRotY": -1
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

@@ -1,61 +1,63 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -2383874401154028500
+    },
+    "1 string m_Name": "MST_EVT_423030_LocalDefine",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -2383874401154028523
-        },
-        "1 string m_Name": "MST_EVT_423030_LocalDefine",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "LocalDefine",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "LocalDefine",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_name": "L_TimelineID_01",
-                                "1 string m_value": "423030_00"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_name": "L_TimelineID_02",
-                                "1 string m_value": "423030_10"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_name": "L_TimelineID_03",
-                                "1 string m_value": "423030_20"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_name": "L_TimelineID_04",
-                                "1 string m_value": "423030_30"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_name": "L_TimelineID_05",
-                                "1 string m_value": "423030_40"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_name": "L_TimelineID_06",
-                                "1 string m_value": "423030_50"
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_name": "L_TimelineID_01",
+                    "1 string m_value": "423030_00"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_name": "L_TimelineID_02",
+                    "1 string m_value": "423030_10"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_name": "L_TimelineID_03",
+                    "1 string m_value": "423030_20"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_name": "L_TimelineID_04",
+                    "1 string m_value": "423030_30"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_name": "L_TimelineID_05",
+                    "1 string m_value": "423030_40"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_name": "L_TimelineID_06",
+                    "1 string m_value": "423030_50"
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

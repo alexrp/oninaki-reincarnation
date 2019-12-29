@@ -1,211 +1,217 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 9181227337014408000
+    },
+    "1 string m_Name": "MstEnemyData_Part",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 9181227337014407750
-        },
-        "1 string m_Name": "MstEnemyData_Part",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Part",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Part",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1001_01",
-                                "1 string m_enemyId": "CE_1001",
-                                "1 string m_mesh": "",
-                                "0 int m_form": 0,
-                                "0 int m_size1": 200,
-                                "0 int m_size2": 0,
-                                "0 int m_size3": 0,
-                                "1 string m_node": "C_Hips",
-                                "0 int m_offsetX": 0,
-                                "0 int m_offsetY": -100,
-                                "0 int m_offsetZ": 0,
-                                "0 int m_angleX": -90,
-                                "0 int m_angleY": 0,
-                                "0 int m_angleZ": 0,
-                                "0 int m_receiveDamageAngle": 90
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1001_02",
-                                "1 string m_enemyId": "CE_1001",
-                                "1 string m_mesh": "",
-                                "0 int m_form": 0,
-                                "0 int m_size1": 200,
-                                "0 int m_size2": 0,
-                                "0 int m_size3": 0,
-                                "1 string m_node": "C_Hips",
-                                "0 int m_offsetX": 0,
-                                "0 int m_offsetY": -110,
-                                "0 int m_offsetZ": 0,
-                                "0 int m_angleX": 90,
-                                "0 int m_angleY": 0,
-                                "0 int m_angleZ": 0,
-                                "0 int m_receiveDamageAngle": 90
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1002_01",
-                                "1 string m_enemyId": "CE_1002",
-                                "1 string m_mesh": "",
-                                "0 int m_form": 0,
-                                "0 int m_size1": 120,
-                                "0 int m_size2": 0,
-                                "0 int m_size3": 0,
-                                "1 string m_node": "C_Abdomen1",
-                                "0 int m_offsetX": -10,
-                                "0 int m_offsetY": -120,
-                                "0 int m_offsetZ": 0,
-                                "0 int m_angleX": 90,
-                                "0 int m_angleY": 0,
-                                "0 int m_angleZ": 0,
-                                "0 int m_receiveDamageAngle": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1008_01",
-                                "1 string m_enemyId": "CE_1008",
-                                "1 string m_mesh": "",
-                                "0 int m_form": 0,
-                                "0 int m_size1": 300,
-                                "0 int m_size2": 0,
-                                "0 int m_size3": 0,
-                                "1 string m_node": "C_Hips",
-                                "0 int m_offsetX": 0,
-                                "0 int m_offsetY": 0,
-                                "0 int m_offsetZ": 0,
-                                "0 int m_angleX": 0,
-                                "0 int m_angleY": 90,
-                                "0 int m_angleZ": 0,
-                                "0 int m_receiveDamageAngle": 90
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1008_02",
-                                "1 string m_enemyId": "CE_1008",
-                                "1 string m_mesh": "",
-                                "0 int m_form": 0,
-                                "0 int m_size1": 300,
-                                "0 int m_size2": 0,
-                                "0 int m_size3": 0,
-                                "1 string m_node": "C_Hips",
-                                "0 int m_offsetX": 10,
-                                "0 int m_offsetY": 0,
-                                "0 int m_offsetZ": 0,
-                                "0 int m_angleX": 0,
-                                "0 int m_angleY": -90,
-                                "0 int m_angleZ": 0,
-                                "0 int m_receiveDamageAngle": 90
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1001_01B",
-                                "1 string m_enemyId": "CE_1001_02",
-                                "1 string m_mesh": "",
-                                "0 int m_form": 0,
-                                "0 int m_size1": 200,
-                                "0 int m_size2": 0,
-                                "0 int m_size3": 0,
-                                "1 string m_node": "C_Hips",
-                                "0 int m_offsetX": 0,
-                                "0 int m_offsetY": -100,
-                                "0 int m_offsetZ": 0,
-                                "0 int m_angleX": -90,
-                                "0 int m_angleY": 0,
-                                "0 int m_angleZ": 0,
-                                "0 int m_receiveDamageAngle": 90
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1001_02B",
-                                "1 string m_enemyId": "CE_1001_02",
-                                "1 string m_mesh": "",
-                                "0 int m_form": 0,
-                                "0 int m_size1": 200,
-                                "0 int m_size2": 0,
-                                "0 int m_size3": 0,
-                                "1 string m_node": "C_Hips",
-                                "0 int m_offsetX": 0,
-                                "0 int m_offsetY": -110,
-                                "0 int m_offsetZ": 0,
-                                "0 int m_angleX": 90,
-                                "0 int m_angleY": 0,
-                                "0 int m_angleZ": 0,
-                                "0 int m_receiveDamageAngle": 90
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1002_01B",
-                                "1 string m_enemyId": "CE_1002_02",
-                                "1 string m_mesh": "",
-                                "0 int m_form": 0,
-                                "0 int m_size1": 120,
-                                "0 int m_size2": 0,
-                                "0 int m_size3": 0,
-                                "1 string m_node": "C_Abdomen1",
-                                "0 int m_offsetX": -10,
-                                "0 int m_offsetY": -120,
-                                "0 int m_offsetZ": 0,
-                                "0 int m_angleX": 90,
-                                "0 int m_angleY": 0,
-                                "0 int m_angleZ": 0,
-                                "0 int m_receiveDamageAngle": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1008_01B",
-                                "1 string m_enemyId": "CE_1008_02",
-                                "1 string m_mesh": "",
-                                "0 int m_form": 0,
-                                "0 int m_size1": 300,
-                                "0 int m_size2": 0,
-                                "0 int m_size3": 0,
-                                "1 string m_node": "C_Hips",
-                                "0 int m_offsetX": 0,
-                                "0 int m_offsetY": 0,
-                                "0 int m_offsetZ": 0,
-                                "0 int m_angleX": 0,
-                                "0 int m_angleY": 90,
-                                "0 int m_angleZ": 0,
-                                "0 int m_receiveDamageAngle": 90
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CE_1008_02B",
-                                "1 string m_enemyId": "CE_1008_02",
-                                "1 string m_mesh": "",
-                                "0 int m_form": 0,
-                                "0 int m_size1": 300,
-                                "0 int m_size2": 0,
-                                "0 int m_size3": 0,
-                                "1 string m_node": "C_Hips",
-                                "0 int m_offsetX": 10,
-                                "0 int m_offsetY": 0,
-                                "0 int m_offsetZ": 0,
-                                "0 int m_angleX": 0,
-                                "0 int m_angleY": -90,
-                                "0 int m_angleZ": 0,
-                                "0 int m_receiveDamageAngle": 90
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "CE_1001_01",
+                    "1 string m_enemyId": "CE_1001",
+                    "1 string m_mesh": "",
+                    "0 int m_form": 0,
+                    "0 int m_size1": 200,
+                    "0 int m_size2": 0,
+                    "0 int m_size3": 0,
+                    "1 string m_node": "C_Hips",
+                    "0 int m_offsetX": 0,
+                    "0 int m_offsetY": -100,
+                    "0 int m_offsetZ": 0,
+                    "0 int m_angleX": -90,
+                    "0 int m_angleY": 0,
+                    "0 int m_angleZ": 0,
+                    "0 int m_receiveDamageAngle": 90
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1001_02",
+                    "1 string m_enemyId": "CE_1001",
+                    "1 string m_mesh": "",
+                    "0 int m_form": 0,
+                    "0 int m_size1": 200,
+                    "0 int m_size2": 0,
+                    "0 int m_size3": 0,
+                    "1 string m_node": "C_Hips",
+                    "0 int m_offsetX": 0,
+                    "0 int m_offsetY": -110,
+                    "0 int m_offsetZ": 0,
+                    "0 int m_angleX": 90,
+                    "0 int m_angleY": 0,
+                    "0 int m_angleZ": 0,
+                    "0 int m_receiveDamageAngle": 90
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1002_01",
+                    "1 string m_enemyId": "CE_1002",
+                    "1 string m_mesh": "",
+                    "0 int m_form": 0,
+                    "0 int m_size1": 120,
+                    "0 int m_size2": 0,
+                    "0 int m_size3": 0,
+                    "1 string m_node": "C_Abdomen1",
+                    "0 int m_offsetX": -10,
+                    "0 int m_offsetY": -120,
+                    "0 int m_offsetZ": 0,
+                    "0 int m_angleX": 90,
+                    "0 int m_angleY": 0,
+                    "0 int m_angleZ": 0,
+                    "0 int m_receiveDamageAngle": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1008_01",
+                    "1 string m_enemyId": "CE_1008",
+                    "1 string m_mesh": "",
+                    "0 int m_form": 0,
+                    "0 int m_size1": 300,
+                    "0 int m_size2": 0,
+                    "0 int m_size3": 0,
+                    "1 string m_node": "C_Hips",
+                    "0 int m_offsetX": 0,
+                    "0 int m_offsetY": 0,
+                    "0 int m_offsetZ": 0,
+                    "0 int m_angleX": 0,
+                    "0 int m_angleY": 90,
+                    "0 int m_angleZ": 0,
+                    "0 int m_receiveDamageAngle": 90
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1008_02",
+                    "1 string m_enemyId": "CE_1008",
+                    "1 string m_mesh": "",
+                    "0 int m_form": 0,
+                    "0 int m_size1": 300,
+                    "0 int m_size2": 0,
+                    "0 int m_size3": 0,
+                    "1 string m_node": "C_Hips",
+                    "0 int m_offsetX": 10,
+                    "0 int m_offsetY": 0,
+                    "0 int m_offsetZ": 0,
+                    "0 int m_angleX": 0,
+                    "0 int m_angleY": -90,
+                    "0 int m_angleZ": 0,
+                    "0 int m_receiveDamageAngle": 90
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1001_01B",
+                    "1 string m_enemyId": "CE_1001_02",
+                    "1 string m_mesh": "",
+                    "0 int m_form": 0,
+                    "0 int m_size1": 200,
+                    "0 int m_size2": 0,
+                    "0 int m_size3": 0,
+                    "1 string m_node": "C_Hips",
+                    "0 int m_offsetX": 0,
+                    "0 int m_offsetY": -100,
+                    "0 int m_offsetZ": 0,
+                    "0 int m_angleX": -90,
+                    "0 int m_angleY": 0,
+                    "0 int m_angleZ": 0,
+                    "0 int m_receiveDamageAngle": 90
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1001_02B",
+                    "1 string m_enemyId": "CE_1001_02",
+                    "1 string m_mesh": "",
+                    "0 int m_form": 0,
+                    "0 int m_size1": 200,
+                    "0 int m_size2": 0,
+                    "0 int m_size3": 0,
+                    "1 string m_node": "C_Hips",
+                    "0 int m_offsetX": 0,
+                    "0 int m_offsetY": -110,
+                    "0 int m_offsetZ": 0,
+                    "0 int m_angleX": 90,
+                    "0 int m_angleY": 0,
+                    "0 int m_angleZ": 0,
+                    "0 int m_receiveDamageAngle": 90
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1002_01B",
+                    "1 string m_enemyId": "CE_1002_02",
+                    "1 string m_mesh": "",
+                    "0 int m_form": 0,
+                    "0 int m_size1": 120,
+                    "0 int m_size2": 0,
+                    "0 int m_size3": 0,
+                    "1 string m_node": "C_Abdomen1",
+                    "0 int m_offsetX": -10,
+                    "0 int m_offsetY": -120,
+                    "0 int m_offsetZ": 0,
+                    "0 int m_angleX": 90,
+                    "0 int m_angleY": 0,
+                    "0 int m_angleZ": 0,
+                    "0 int m_receiveDamageAngle": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1008_01B",
+                    "1 string m_enemyId": "CE_1008_02",
+                    "1 string m_mesh": "",
+                    "0 int m_form": 0,
+                    "0 int m_size1": 300,
+                    "0 int m_size2": 0,
+                    "0 int m_size3": 0,
+                    "1 string m_node": "C_Hips",
+                    "0 int m_offsetX": 0,
+                    "0 int m_offsetY": 0,
+                    "0 int m_offsetZ": 0,
+                    "0 int m_angleX": 0,
+                    "0 int m_angleY": 90,
+                    "0 int m_angleZ": 0,
+                    "0 int m_receiveDamageAngle": 90
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CE_1008_02B",
+                    "1 string m_enemyId": "CE_1008_02",
+                    "1 string m_mesh": "",
+                    "0 int m_form": 0,
+                    "0 int m_size1": 300,
+                    "0 int m_size2": 0,
+                    "0 int m_size3": 0,
+                    "1 string m_node": "C_Hips",
+                    "0 int m_offsetX": 10,
+                    "0 int m_offsetY": 0,
+                    "0 int m_offsetZ": 0,
+                    "0 int m_angleX": 0,
+                    "0 int m_angleY": -90,
+                    "0 int m_angleZ": 0,
+                    "0 int m_receiveDamageAngle": 90
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

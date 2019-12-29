@@ -1,70 +1,74 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 1569246194232513300
+    },
+    "1 string m_Name": "MstGlobalBattleData_Common",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 1569246194232513260
-        },
-        "1 string m_Name": "MstGlobalBattleData_Common",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Common",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Common",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "0 float m_kamishiroChangeNeedTime": 1,
-                                "0 float m_kakuriyoReceiveDamageRate": 1,
-                                "0 float m_kakuriyoAttackDamageRate": 1,
-                                "0 float m_kakuriyoLockAreaReceiveDamageRate": 100,
-                                "0 vector m_battleCollisionReactionPriority": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 0},
-                                        {"0 int data": 1},
-                                        {"0 int data": 2},
-                                        {"0 int data": 3}
-                                    ]
-                                },
-                                "0 float m_battleCollisionReactionStockComboTime": 0.5,
-                                "0 int m_enemyTraceMaxNum": 10,
-                                "0 float m_enemyTraceInvalidCoolTime": 5,
-                                "0 int m_isolateCollisionLimitPlayer": 3,
-                                "0 int m_isolateCollisionLimitEnemy": 2,
-                                "0 int m_deviceCollisionLimit1": 4,
-                                "0 int m_deviceCollisionLimit2": 8,
-                                "0 float m_deviceCollisionDestroyDistance1": 8,
-                                "0 float m_deviceCollisionDestroyDistance2": 12,
-                                "0 float m_deviceCollisionLifeTimePowUpRate": 1.79999995,
-                                "0 float m_deviceCollisionLifeTimeHealValue": 3,
-                                "0 int m_collisionIgnoreDefenceGuardValueCutRatio": 10,
-                                "0 int m_collisionGuardBreakGuardValueCutRatio": 10,
-                                "0 int m_spiritDropBaseRatio": 10,
-                                "0 float m_spiritDropUpRate": 0.100000001,
-                                "0 int m_spiritDropRatioLimit": 50,
-                                "0 int m_randomDropPriorityEnableRatio": 70,
-                                "1 string m_damageReactionCancelUniqueFlag": "SKL_PC05_SPTSKL_09",
-                                "1 string m_debuffPotionUsableFlag": "SKL_PC06_SPTSKL_30",
-                                "1 string m_deviceCollisionNumPowUpFlag": "SKL_PC08_SPTSKL_04",
-                                "1 string m_deviceCollisionDistancePowUpFlag": "SKL_PC08_SPTSKL_05",
-                                "1 string m_deviceCollisionLifeTimePowUpFlag": "SKL_PC08_SPTSKL_05",
-                                "0 float m_golemCoolTimeRate": 0.800000012
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "0 float m_kamishiroChangeNeedTime": 1,
+                    "0 float m_kakuriyoReceiveDamageRate": 1,
+                    "0 float m_kakuriyoAttackDamageRate": 1,
+                    "0 float m_kakuriyoLockAreaReceiveDamageRate": 100,
+                    "0 vector m_battleCollisionReactionPriority": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 1
+                        },
+                        {
+                          "0 int data": 2
+                        },
+                        {
+                          "0 int data": 3
+                        }
+                      ]
+                    },
+                    "0 float m_battleCollisionReactionStockComboTime": 0.5,
+                    "0 int m_enemyTraceMaxNum": 10,
+                    "0 float m_enemyTraceInvalidCoolTime": 5,
+                    "0 int m_isolateCollisionLimitPlayer": 3,
+                    "0 int m_isolateCollisionLimitEnemy": 2,
+                    "0 int m_deviceCollisionLimit1": 4,
+                    "0 int m_deviceCollisionLimit2": 8,
+                    "0 float m_deviceCollisionDestroyDistance1": 8,
+                    "0 float m_deviceCollisionDestroyDistance2": 12,
+                    "0 float m_deviceCollisionLifeTimePowUpRate": 1.79999995,
+                    "0 float m_deviceCollisionLifeTimeHealValue": 3,
+                    "0 int m_collisionIgnoreDefenceGuardValueCutRatio": 10,
+                    "0 int m_collisionGuardBreakGuardValueCutRatio": 10,
+                    "0 int m_spiritDropBaseRatio": 10,
+                    "0 float m_spiritDropUpRate": 0.100000001,
+                    "0 int m_spiritDropRatioLimit": 50,
+                    "0 int m_randomDropPriorityEnableRatio": 70,
+                    "1 string m_damageReactionCancelUniqueFlag": "SKL_PC05_SPTSKL_09",
+                    "1 string m_debuffPotionUsableFlag": "SKL_PC06_SPTSKL_30",
+                    "1 string m_deviceCollisionNumPowUpFlag": "SKL_PC08_SPTSKL_04",
+                    "1 string m_deviceCollisionDistancePowUpFlag": "SKL_PC08_SPTSKL_05",
+                    "1 string m_deviceCollisionLifeTimePowUpFlag": "SKL_PC08_SPTSKL_05",
+                    "0 float m_golemCoolTimeRate": 0.800000012
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

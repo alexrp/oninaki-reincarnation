@@ -1,328 +1,357 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 5274398512181024000
+    },
+    "1 string m_Name": "MstRecordData_Glossary",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 5274398512181024091
-        },
-        "1 string m_Name": "MstRecordData_Glossary",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Glossary",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Glossary",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_001",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "クリア済み",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_002",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 122040,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_003",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 122050,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_004",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_005",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "ザコ03遭遇起動済み",
-                                "1 string m_disableFlag": "クリア済み"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_006",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "クリア済み",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_007",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_008",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 0,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_009",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_010",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_011",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_012",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 122050,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_013",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "クリア済み",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_014",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "クリア済み",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_015",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "クリア済み",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_016",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 131150,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_017",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 221010,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_018",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 111080,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_019",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 131150,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_020",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 122040,
-                                "1 string m_enableFlag": "TUTORIAL_003",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_021",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 122050,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_022",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 422010,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_023",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "クリア済み",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_024",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 422090,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_025",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "クリア済み",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_026",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 112090,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_027",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "TUTORIAL_015",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_028",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 221020,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_029",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "TUTORIAL_007",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_030",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "TUTORIAL_021",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_031",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "TUTORIAL_101",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_032",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "TUTORIAL_006",
-                                "1 string m_disableFlag": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_033",
-                                "1 string m_counterName": "イベントリスト",
-                                "0 int m_counterMin": 100000,
-                                "0 int m_counterMax": 999999,
-                                "1 string m_enableFlag": "TUTORIAL_013",
-                                "1 string m_disableFlag": ""
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "GLY_001",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "クリア済み",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_002",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 122040,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_003",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 122050,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_004",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_005",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "ザコ03遭遇起動済み",
+                    "1 string m_disableFlag": "クリア済み"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_006",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "クリア済み",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_007",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_008",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 0,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_009",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_010",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_011",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_012",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 122050,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_013",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "クリア済み",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_014",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "クリア済み",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_015",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "クリア済み",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_016",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 131150,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_017",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 221010,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_018",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 111080,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_019",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 131150,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_020",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 122040,
+                    "1 string m_enableFlag": "TUTORIAL_003",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_021",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 122050,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_022",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 422010,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_023",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "クリア済み",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_024",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 422090,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_025",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "クリア済み",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_026",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 112090,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_027",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "TUTORIAL_015",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_028",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 221020,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_029",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "TUTORIAL_007",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_030",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "TUTORIAL_021",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_031",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "TUTORIAL_101",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_032",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "TUTORIAL_006",
+                    "1 string m_disableFlag": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_033",
+                    "1 string m_counterName": "イベントリスト",
+                    "0 int m_counterMin": 100000,
+                    "0 int m_counterMax": 999999,
+                    "1 string m_enableFlag": "TUTORIAL_013",
+                    "1 string m_disableFlag": ""
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

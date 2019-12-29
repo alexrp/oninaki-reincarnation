@@ -1,229 +1,258 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -1549593569392672800
+    },
+    "1 string m_Name": "MstRecordGlossaryTextData_En",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -1549593569392672815
-        },
-        "1 string m_Name": "MstRecordGlossaryTextData_En",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Data",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Data",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_001",
-                                "1 string m_name": "Reincarnation",
-                                "1 string m_text": "The cycle of rebirth is a fundamental principle that predates human history. When a living being dies, its soul transmigrates, leaving behind memories of its life before being reborn in a new body.\n\nNegative emotions are not lost on death; rather, they slowly collect before ultimately giving birth to the Oni. Humanity has no choice but to change if it wishes to stop this from happening."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_002",
-                                "1 string m_name": "The Living World",
-                                "1 string m_text": "The world in which living beings reside. A rich and fertile place thriving with abundant natural life."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_003",
-                                "1 string m_name": "The Living World",
-                                "1 string m_text": "The world in which living beings reside. A rich and fertile place thriving with abundant natural life.\n\nAdvanced human civilizations once prospered during the Age of Magic, but these too were brought to ruin by the Oni. Since their fall, no civilizations have risen that could rival their technological prowess."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_004",
-                                "1 string m_name": "Beyond the Veil",
-                                "1 string m_text": "The world of the dead. The Beyond and the Living World are two sides of the same coin, existing side by side in the same physical space.\n\nThe Beyond is a harsh place, even for Watchers. A first-time visitor will find that none of their senses function, for they haven't yet become accustomed to the Shadow lurking all around them."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_005",
-                                "1 string m_name": "Crossing the Veil",
-                                "1 string m_text": "An ability possessed by the Veil Watch that allows them to travel between the Living World and the Beyond.\n\nThe mask that covers a Watcher's mouth is woven from a plant that grows Beyond the Veil. It has strange properties that amplify the psychic abilities of its wearer, giving them the power to move from world to world with a mere thought."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_006",
-                                "1 string m_name": "Crossing the Veil",
-                                "1 string m_text": "An ability possessed by the Veil Watch that allows them to travel between the Living World and the Beyond.\n\nThe mask that covers a Watcher's mouth is woven from a plant that grows Beyond the Veil. It has strange properties that amplify the psychic abilities of its wearer, giving them the power to move from world to world with a mere thought. Sara and Soju possess this ability innately."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_007",
-                                "1 string m_name": "Souls",
-                                "1 string m_text": "What remains of a living being after death. Souls exist in the Beyond, and cannot be perceived by the living.\n\nSouls lack consciousness, but they do retain memories and emotions from before death. Once a soul is finally free of these ties, it can be reincarnated.\n\nThose with strong emotional attachments to life do not become souls upon death, and instead join the ranks of the Lost."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_008",
-                                "1 string m_name": "The Veil Watch",
-                                "1 string m_text": "Servants of the realm who ensure that the cycle of reincarnation continues. Their order formed roughly thirty years ago.\n\nWatchers are entrusted with a great deal of discretion. Some operate individually, while some work in teams.\n\nThe ability to pass through the Veil is required to join the Veil Watch. However, Watchers vary in skill, and only the most talented can control Daemons."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_009",
-                                "1 string m_name": "Lost Souls",
-                                "1 string m_text": "Sentient souls burdened by powerful emotions, they wander the Beyond.\n\nLost Souls eventually become Fallen, though the length of time this takes varies. This process tends to follow one of two patterns: either consciousness fades, or their unresolved emotional attachments become an obsession.\n\nOne of the Veil Watch's tasks is to save Lost Souls before they become Fallen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_010",
-                                "1 string m_name": "Daemons",
-                                "1 string m_text": "Unique beings that died with intense, unresolved emotions, but did not become Fallen. Dying under these circumstances alone does not guarantee a Daemon will form, and the true cause is still shrouded in mystery.\n\nMost Daemons lose their memories, but gain great power in exchange. It is thought that Daemons are physical manifestations of the beliefs and ideals they once held in life."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_011",
-                                "1 string m_name": "The Fallen",
-                                "1 string m_text": "The ultimate fate of a Lost Soul. A single specimen can give birth to a host of Fallen that attack anything that draws near.\n\nThe form the Fallen take depends on their memories, personality, and emotions before death. The passage of time and the Shadow that accumulates at the place of death can cause them to mutate further."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_012",
-                                "1 string m_name": "The Age of Magic",
-                                "1 string m_text": "The height of a great civilization that began with the discovery of techniques to harness Shadow for energy, and lasted for roughly eight hundred years.\n\nMany relics from the Age of Magic survive, such as the World Pillars and the Sunken Ruins. However, the magical arts from this time have long since been lost."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_013",
-                                "1 string m_name": "The Sovereign",
-                                "1 string m_text": "The ruler of the Inner Kingdom. The Oni Priestess, reincarnated time and time again, has held this office for generations.\n\nHowever, the bloodline was broken when Sara was executed and Lobelia ascended to the throne. Lobelia was the first sovereign not of the Progeny, which signaled the cataclysmic end of the Inner Kingdom."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_014",
-                                "1 string m_name": "Shadowless",
-                                "1 string m_text": "A humanoid race named for their lack of shadows. They fought many wars against humanity, but were nearly wiped out the last time the Oni awoke.\n\nShadowless possess the unique ability to absorb Shadow, and many of them wielded a variety of strange powers. Some controlled seemingly magical forces. Others were nigh immortal, while still others could pass freely through the Veil."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_015",
-                                "1 string m_name": "Progeny",
-                                "1 string m_text": "One who has inherited the blood of the Oni Priestess. A member of the Progeny has ruled the Inner Kingdom since its inception.\n\nThe Oni Priestess produces a child by virgin birth. Once the child is of age, they undergo the Ritual of Bonding, whereby they inherit the powers and memories of the Oni Priestess—making the Progeny and the Oni Priestess one and the same."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_016",
-                                "1 string m_name": "Seers",
-                                "1 string m_text": "The name given to the body of officials governing the affairs of the Inner Kingdom.\n\nHeaded by the sovereign, the Seers are split into multiple ministries based on their role in government.\n\nThe Veil Watch works under the auspices of the Ministry of Reincarnation, whose other duties include administering the Seven-Day Sendings."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_017",
-                                "1 string m_name": "The Blood Guard",
-                                "1 string m_text": "A group of elite soldiers assigned to protect the sovereign. Due to their critical role defending the highest authority of the realm, being assigned to the Blood Guard is considered a great honor.\n\nThe Blood Guard's numbers were once quite small, but ever since Lobelia ascended to the throne, she has considerably expanded their ranks."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_018",
-                                "1 string m_name": "Tithing",
-                                "1 string m_text": "The act of granting a merciful death to those who wish to embrace reincarnation.\n\nThere are many reasons people request tithing. Some sense death approaching. Others seek release from suffering or poverty, while others simply wish to hurry along their journey to the next life. However, requesting tithing is no simple matter; one must receive permission from the realm following a strict investigation."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_019",
-                                "1 string m_name": "Seven-Day Sending",
-                                "1 string m_text": "A tradition of the realm, this ceremony is held once a week in Deto to commemorate the dead.\n\nSadness at a loved one's passing is forbidden in the realm. Thus, the Seven-Day Sending is marked not by grief, but by thanks given for this life and prayers for safe passage into the next."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_020",
-                                "1 string m_name": "Shadow",
-                                "1 string m_text": "When the souls of the dead Beyond the Veil shed the last vestiges of their attachment to the Living World, some of their memories and feelings may escape and form Shadow. In recent years, Shadow has begun appearing on this side of the Veil."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_021",
-                                "1 string m_name": "Shadow",
-                                "1 string m_text": "When the souls of the dead Beyond the Veil shed the last vestiges of their attachment to the Living World, some of their memories and feelings may escape and form Shadow. In recent years, Shadow has begun appearing on this side of the Veil.\n\nDuring the Age of Magic, the power locked within the Shadow was harnessed to power a vast array of wondrous devices."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_022",
-                                "1 string m_name": "Dark Shadow",
-                                "1 string m_text": "Shadow created from powerful negative emotions. Stripped as it is from souls who have been reincarnated, it can never disappear from this world.\n\nOnce enough Dark Shadow gathers, the Oni will awaken. Thus, the Oni is a Shadow composed entirely of the darkest despair."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_023",
-                                "1 string m_name": "The World Pillars",
-                                "1 string m_text": "Giant structures created to collect Dark Shadow. A symbol of the Inner Kingdom, the World Pillars have existed since the beginning of its history.\n\nLong ago, the Oni Priestess brought the dwindling remnants of humanity to the city of the shadowless to form the Inner Kingdom. By gathering them here, she ensured that she could bear witness to the Oni's last manifestation and humanity's fate."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_024",
-                                "1 string m_name": "The Shadow Pool",
-                                "1 string m_text": "The place where Dark Shadow gathered by the World Pillars collects. Buried deep under Ehir Palace, it is locked behind a door that can only be opened by one with the blood of the Oni Priestess.\n\nHatred, sadness, anger, malice—this pool is a reservoir of negative emotions. Any trapped within are drained of hope."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_025",
-                                "1 string m_name": "The Oni",
-                                "1 string m_text": "A collection of Dark Shadow. It has been called many things over the ages, and was once researched by a civilization that named it the \"Scourge.\"\n\nThe principles of reincarnation ensure that it manifests at the end of regular cycles, bringing calamity and ruin to civilization. Even the Age of Magic was brought to an end by its inexorable power."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_026",
-                                "1 string m_name": "The Ark of Hope",
-                                "1 string m_text": "A religious cult founded by Guzan Musai. Its followers are dissatisfied by the state of the world, citing the catastrophically reduced birth rate and reincarnation's failures as their primary grievances.\n\nAfter they turned their backs on the laws of the realm, Lady Lobelia declared them heretics. Now, the sovereign finds herself the object of the cult's hatred."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_027",
-                                "1 string m_name": "Shadestones",
-                                "1 string m_text": "Stones that have absorbed Shadow.\n\nBy attaching a shadestone to a weapon, one can imbue it with the properties of the Shadow residing in the shadestone.\n\nShadestone abilities are many and varied, which speaks to the range of thoughts and emotions humanity can experience."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_028",
-                                "1 string m_name": "Greater Shadestones",
-                                "1 string m_text": "A highly purified form of shadestone.\n\nAlthough the Age of Magic harvested most of their energy from the World Pillars, they also used greater shadestones as a supplementary source of power.\n\nThe golems under Ehir Palace require greater shadestones to operate, which implies that they were used to provide power for locomotion."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_029",
-                                "1 string m_name": "Awakened",
-                                "1 string m_text": "The state a Watcher enters after they unleash their latent power. It is thought that this phenomenon is brought about by the resonance between a Watcher's emotions and Shadow."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_030",
-                                "1 string m_name": "Soulstones",
-                                "1 string m_text": "A collection of Shadow, often used as a source of energy to empower Daemons. Soulstones coalesce unpredictably during battle with the Fallen. They can be used on Daemons to unlock their latent powers. This process is known to unlock memories from before the Daemon's death, but this phenomenon is extremely rare."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_031",
-                                "1 string m_name": "Possession",
-                                "1 string m_text": "An ability used by the Veil Watch to imbue themselves with the power of Daemons. The ability to Possess is heavily dependent on a person's innate aptitude, and requires both sharp senses and an iron will. Due to this, very few have the potential to master Possession."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_032",
-                                "1 string m_name": "Manifestation",
-                                "1 string m_text": "By harmonizing their consciousness with that of a Daemon, a Watcher can obtain power beyond their limits. The longer they wield it, however, the greater the chance that the two psyches become inextricably fused, destroying the Watcher's mind. Once this happens there is little chance of recovery.\n\nManifestation's power comes at the price of great risk. It truly is a double-edged sword."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "GLY_033",
-                                "1 string m_name": "Waystones",
-                                "1 string m_text": "Carved stones that sit on the border between the Living World and the Beyond. It is thought that Waystones emit powerful fields which react to residual memories within the Fallen. For this reason, Fallen never approach them."
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "GLY_001",
+                    "1 string m_name": "Reincarnation",
+                    "1 string m_text": "The cycle of rebirth is a fundamental principle that predates human history. When a living being dies, its soul transmigrates, leaving behind memories of its life before being reborn in a new body.\n\nNegative emotions are not lost on death; rather, they slowly collect before ultimately giving birth to the Oni. Humanity has no choice but to change if it wishes to stop this from happening."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_002",
+                    "1 string m_name": "The Living World",
+                    "1 string m_text": "The world in which living beings reside. A rich and fertile place thriving with abundant natural life."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_003",
+                    "1 string m_name": "The Living World",
+                    "1 string m_text": "The world in which living beings reside. A rich and fertile place thriving with abundant natural life.\n\nAdvanced human civilizations once prospered during the Age of Magic, but these too were brought to ruin by the Oni. Since their fall, no civilizations have risen that could rival their technological prowess."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_004",
+                    "1 string m_name": "Beyond the Veil",
+                    "1 string m_text": "The world of the dead. The Beyond and the Living World are two sides of the same coin, existing side by side in the same physical space.\n\nThe Beyond is a harsh place, even for Watchers. A first-time visitor will find that none of their senses function, for they haven't yet become accustomed to the Shadow lurking all around them."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_005",
+                    "1 string m_name": "Crossing the Veil",
+                    "1 string m_text": "An ability possessed by the Veil Watch that allows them to travel between the Living World and the Beyond.\n\nThe mask that covers a Watcher's mouth is woven from a plant that grows Beyond the Veil. It has strange properties that amplify the psychic abilities of its wearer, giving them the power to move from world to world with a mere thought."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_006",
+                    "1 string m_name": "Crossing the Veil",
+                    "1 string m_text": "An ability possessed by the Veil Watch that allows them to travel between the Living World and the Beyond.\n\nThe mask that covers a Watcher's mouth is woven from a plant that grows Beyond the Veil. It has strange properties that amplify the psychic abilities of its wearer, giving them the power to move from world to world with a mere thought. Sara and Soju possess this ability innately."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_007",
+                    "1 string m_name": "Souls",
+                    "1 string m_text": "What remains of a living being after death. Souls exist in the Beyond, and cannot be perceived by the living.\n\nSouls lack consciousness, but they do retain memories and emotions from before death. Once a soul is finally free of these ties, it can be reincarnated.\n\nThose with strong emotional attachments to life do not become souls upon death, and instead join the ranks of the Lost."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_008",
+                    "1 string m_name": "The Veil Watch",
+                    "1 string m_text": "Servants of the realm who ensure that the cycle of reincarnation continues. Their order formed roughly thirty years ago.\n\nWatchers are entrusted with a great deal of discretion. Some operate individually, while some work in teams.\n\nThe ability to pass through the Veil is required to join the Veil Watch. However, Watchers vary in skill, and only the most talented can control Daemons."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_009",
+                    "1 string m_name": "Lost Souls",
+                    "1 string m_text": "Sentient souls burdened by powerful emotions, they wander the Beyond.\n\nLost Souls eventually become Fallen, though the length of time this takes varies. This process tends to follow one of two patterns: either consciousness fades, or their unresolved emotional attachments become an obsession.\n\nOne of the Veil Watch's tasks is to save Lost Souls before they become Fallen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_010",
+                    "1 string m_name": "Daemons",
+                    "1 string m_text": "Unique beings that died with intense, unresolved emotions, but did not become Fallen. Dying under these circumstances alone does not guarantee a Daemon will form, and the true cause is still shrouded in mystery.\n\nMost Daemons lose their memories, but gain great power in exchange. It is thought that Daemons are physical manifestations of the beliefs and ideals they once held in life."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_011",
+                    "1 string m_name": "The Fallen",
+                    "1 string m_text": "The ultimate fate of a Lost Soul. A single specimen can give birth to a host of Fallen that attack anything that draws near.\n\nThe form the Fallen take depends on their memories, personality, and emotions before death. The passage of time and the Shadow that accumulates at the place of death can cause them to mutate further."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_012",
+                    "1 string m_name": "The Age of Magic",
+                    "1 string m_text": "The height of a great civilization that began with the discovery of techniques to harness Shadow for energy, and lasted for roughly eight hundred years.\n\nMany relics from the Age of Magic survive, such as the World Pillars and the Sunken Ruins. However, the magical arts from this time have long since been lost."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_013",
+                    "1 string m_name": "The Sovereign",
+                    "1 string m_text": "The ruler of the Inner Kingdom. The Oni Priestess, reincarnated time and time again, has held this office for generations.\n\nHowever, the bloodline was broken when Sara was executed and Lobelia ascended to the throne. Lobelia was the first sovereign not of the Progeny, which signaled the cataclysmic end of the Inner Kingdom."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_014",
+                    "1 string m_name": "Shadowless",
+                    "1 string m_text": "A humanoid race named for their lack of shadows. They fought many wars against humanity, but were nearly wiped out the last time the Oni awoke.\n\nShadowless possess the unique ability to absorb Shadow, and many of them wielded a variety of strange powers. Some controlled seemingly magical forces. Others were nigh immortal, while still others could pass freely through the Veil."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_015",
+                    "1 string m_name": "Progeny",
+                    "1 string m_text": "One who has inherited the blood of the Oni Priestess. A member of the Progeny has ruled the Inner Kingdom since its inception.\n\nThe Oni Priestess produces a child by virgin birth. Once the child is of age, they undergo the Ritual of Bonding, whereby they inherit the powers and memories of the Oni Priestess—making the Progeny and the Oni Priestess one and the same."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_016",
+                    "1 string m_name": "Seers",
+                    "1 string m_text": "The name given to the body of officials governing the affairs of the Inner Kingdom.\n\nHeaded by the sovereign, the Seers are split into multiple ministries based on their role in government.\n\nThe Veil Watch works under the auspices of the Ministry of Reincarnation, whose other duties include administering the Seven-Day Sendings."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_017",
+                    "1 string m_name": "The Blood Guard",
+                    "1 string m_text": "A group of elite soldiers assigned to protect the sovereign. Due to their critical role defending the highest authority of the realm, being assigned to the Blood Guard is considered a great honor.\n\nThe Blood Guard's numbers were once quite small, but ever since Lobelia ascended to the throne, she has considerably expanded their ranks."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_018",
+                    "1 string m_name": "Tithing",
+                    "1 string m_text": "The act of granting a merciful death to those who wish to embrace reincarnation.\n\nThere are many reasons people request tithing. Some sense death approaching. Others seek release from suffering or poverty, while others simply wish to hurry along their journey to the next life. However, requesting tithing is no simple matter; one must receive permission from the realm following a strict investigation."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_019",
+                    "1 string m_name": "Seven-Day Sending",
+                    "1 string m_text": "A tradition of the realm, this ceremony is held once a week in Deto to commemorate the dead.\n\nSadness at a loved one's passing is forbidden in the realm. Thus, the Seven-Day Sending is marked not by grief, but by thanks given for this life and prayers for safe passage into the next."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_020",
+                    "1 string m_name": "Shadow",
+                    "1 string m_text": "When the souls of the dead Beyond the Veil shed the last vestiges of their attachment to the Living World, some of their memories and feelings may escape and form Shadow. In recent years, Shadow has begun appearing on this side of the Veil."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_021",
+                    "1 string m_name": "Shadow",
+                    "1 string m_text": "When the souls of the dead Beyond the Veil shed the last vestiges of their attachment to the Living World, some of their memories and feelings may escape and form Shadow. In recent years, Shadow has begun appearing on this side of the Veil.\n\nDuring the Age of Magic, the power locked within the Shadow was harnessed to power a vast array of wondrous devices."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_022",
+                    "1 string m_name": "Dark Shadow",
+                    "1 string m_text": "Shadow created from powerful negative emotions. Stripped as it is from souls who have been reincarnated, it can never disappear from this world.\n\nOnce enough Dark Shadow gathers, the Oni will awaken. Thus, the Oni is a Shadow composed entirely of the darkest despair."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_023",
+                    "1 string m_name": "The World Pillars",
+                    "1 string m_text": "Giant structures created to collect Dark Shadow. A symbol of the Inner Kingdom, the World Pillars have existed since the beginning of its history.\n\nLong ago, the Oni Priestess brought the dwindling remnants of humanity to the city of the shadowless to form the Inner Kingdom. By gathering them here, she ensured that she could bear witness to the Oni's last manifestation and humanity's fate."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_024",
+                    "1 string m_name": "The Shadow Pool",
+                    "1 string m_text": "The place where Dark Shadow gathered by the World Pillars collects. Buried deep under Ehir Palace, it is locked behind a door that can only be opened by one with the blood of the Oni Priestess.\n\nHatred, sadness, anger, malice—this pool is a reservoir of negative emotions. Any trapped within are drained of hope."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_025",
+                    "1 string m_name": "The Oni",
+                    "1 string m_text": "A collection of Dark Shadow. It has been called many things over the ages, and was once researched by a civilization that named it the \"Scourge.\"\n\nThe principles of reincarnation ensure that it manifests at the end of regular cycles, bringing calamity and ruin to civilization. Even the Age of Magic was brought to an end by its inexorable power."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_026",
+                    "1 string m_name": "The Ark of Hope",
+                    "1 string m_text": "A religious cult founded by Guzan Musai. Its followers are dissatisfied by the state of the world, citing the catastrophically reduced birth rate and reincarnation's failures as their primary grievances.\n\nAfter they turned their backs on the laws of the realm, Lady Lobelia declared them heretics. Now, the sovereign finds herself the object of the cult's hatred."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_027",
+                    "1 string m_name": "Shadestones",
+                    "1 string m_text": "Stones that have absorbed Shadow.\n\nBy attaching a shadestone to a weapon, one can imbue it with the properties of the Shadow residing in the shadestone.\n\nShadestone abilities are many and varied, which speaks to the range of thoughts and emotions humanity can experience."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_028",
+                    "1 string m_name": "Greater Shadestones",
+                    "1 string m_text": "A highly purified form of shadestone.\n\nAlthough the Age of Magic harvested most of their energy from the World Pillars, they also used greater shadestones as a supplementary source of power.\n\nThe golems under Ehir Palace require greater shadestones to operate, which implies that they were used to provide power for locomotion."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_029",
+                    "1 string m_name": "Awakened",
+                    "1 string m_text": "The state a Watcher enters after they unleash their latent power. It is thought that this phenomenon is brought about by the resonance between a Watcher's emotions and Shadow."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_030",
+                    "1 string m_name": "Soulstones",
+                    "1 string m_text": "A collection of Shadow, often used as a source of energy to empower Daemons. Soulstones coalesce unpredictably during battle with the Fallen. They can be used on Daemons to unlock their latent powers. This process is known to unlock memories from before the Daemon's death, but this phenomenon is extremely rare."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_031",
+                    "1 string m_name": "Possession",
+                    "1 string m_text": "An ability used by the Veil Watch to imbue themselves with the power of Daemons. The ability to Possess is heavily dependent on a person's innate aptitude, and requires both sharp senses and an iron will. Due to this, very few have the potential to master Possession."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_032",
+                    "1 string m_name": "Manifestation",
+                    "1 string m_text": "By harmonizing their consciousness with that of a Daemon, a Watcher can obtain power beyond their limits. The longer they wield it, however, the greater the chance that the two psyches become inextricably fused, destroying the Watcher's mind. Once this happens there is little chance of recovery.\n\nManifestation's power comes at the price of great risk. It truly is a double-edged sword."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "GLY_033",
+                    "1 string m_name": "Waystones",
+                    "1 string m_text": "Carved stones that sit on the border between the Living World and the Beyond. It is thought that Waystones emit powerful fields which react to residual memories within the Fallen. For this reason, Fallen never approach them."
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

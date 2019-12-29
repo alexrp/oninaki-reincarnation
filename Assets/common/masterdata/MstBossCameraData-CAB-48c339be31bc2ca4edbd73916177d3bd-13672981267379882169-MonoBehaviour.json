@@ -1,955 +1,1175 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 4873549313063210000
+    },
+    "1 string m_Name": "MstBossCameraData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 4873549313063209963
-        },
-        "1 string m_Name": "MstBossCameraData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "BossCamera",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "BossCamera",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0101_11_BOSS_01",
-                                "0 int m_regionType": 0,
-                                "0 float m_regionCenterX": -7.5,
-                                "0 float m_regionCenterY": -0.875037372,
-                                "0 float m_regionCenterZ": 163,
-                                "0 float m_regionSizeX": 10,
-                                "0 float m_regionSizeZ": 0,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 18,
-                                "0 float m_distanceMax": 23,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_01"},
-                                        {"1 string data": "MUGEN_BOSS_07"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0102_21_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 5,
-                                "0 float m_regionCenterY": 6,
-                                "0 float m_regionCenterZ": 148,
-                                "0 float m_regionSizeX": 5,
-                                "0 float m_regionSizeZ": 6,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 45,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 19,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0104_11_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": -45,
-                                "0 float m_regionCenterY": 0,
-                                "0 float m_regionCenterZ": 86.5,
-                                "0 float m_regionSizeX": 13,
-                                "0 float m_regionSizeZ": 13,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 18,
-                                "0 float m_distanceMax": 23,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_02"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0103_21_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 35,
-                                "0 float m_regionCenterY": 84.0000229,
-                                "0 float m_regionCenterZ": 44,
-                                "0 float m_regionSizeX": 7,
-                                "0 float m_regionSizeZ": 7,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 30,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 19,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0001_21_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": -8,
-                                "0 float m_regionCenterY": 4,
-                                "0 float m_regionCenterZ": 162.507797,
-                                "0 float m_regionSizeX": 10,
-                                "0 float m_regionSizeZ": 11,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 1.5,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 18,
-                                "0 float m_distanceMax": 21,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_03"},
-                                        {"1 string data": "MUGEN_BOSS_13"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0104_11_BOSS_02",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 27,
-                                "0 float m_regionCenterY": -3.70000005,
-                                "0 float m_regionCenterZ": -69,
-                                "0 float m_regionSizeX": 2,
-                                "0 float m_regionSizeZ": 3,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 18,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0201_11_BOSS_01",
-                                "0 int m_regionType": 0,
-                                "0 float m_regionCenterX": -87,
-                                "0 float m_regionCenterY": 45.5,
-                                "0 float m_regionCenterZ": 114,
-                                "0 float m_regionSizeX": 8,
-                                "0 float m_regionSizeZ": 0,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 30,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 18,
-                                "0 float m_distanceMax": 20,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_04"},
-                                        {"1 string data": "MUGEN_BOSS_17"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0201_21_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 10.5,
-                                "0 float m_regionCenterY": -2.24629803e-005,
-                                "0 float m_regionCenterZ": 7.5,
-                                "0 float m_regionSizeX": 7,
-                                "0 float m_regionSizeZ": 12,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 45,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 20,
-                                "0 float m_distanceMax": 22,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_05"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0202_11_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 72,
-                                "0 float m_regionCenterY": 1.14672995,
-                                "0 float m_regionCenterZ": 94.5,
-                                "0 float m_regionSizeX": 12,
-                                "0 float m_regionSizeZ": 5,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 30,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 18,
-                                "0 float m_distanceMax": 23,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_06"},
-                                        {"1 string data": "MUGEN_BOSS_11"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0002_11_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 0,
-                                "0 float m_regionCenterY": 2.70000005,
-                                "0 float m_regionCenterZ": 14,
-                                "0 float m_regionSizeX": 10,
-                                "0 float m_regionSizeZ": 9,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 30,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 19,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0002_41_BOSS_01",
-                                "0 int m_regionType": 0,
-                                "0 float m_regionCenterX": 5.5,
-                                "0 float m_regionCenterY": -23.4659805,
-                                "0 float m_regionCenterZ": 81.5,
-                                "0 float m_regionSizeX": 10,
-                                "0 float m_regionSizeZ": 0,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 30,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 20,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0203_11_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 74.6418533,
-                                "0 float m_regionCenterY": -1.19209299e-005,
-                                "0 float m_regionCenterZ": 40,
-                                "0 float m_regionSizeX": 10,
-                                "0 float m_regionSizeZ": 13,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 18,
-                                "0 float m_distanceMax": 23,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_08"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0203_21_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": -18.5,
-                                "0 float m_regionCenterY": 6.3419342e-005,
-                                "0 float m_regionCenterZ": -25.7942905,
-                                "0 float m_regionSizeX": 7,
-                                "0 float m_regionSizeZ": 10,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 18,
-                                "0 float m_distanceMax": 21,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_10"},
-                                        {"1 string data": "MUGEN_BOSS_15"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0203_31_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 25.9116592,
-                                "0 float m_regionCenterY": 12,
-                                "0 float m_regionCenterZ": 99,
-                                "0 float m_regionSizeX": 7,
-                                "0 float m_regionSizeZ": 15,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 19,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0201_31_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": -47,
-                                "0 float m_regionCenterY": 20.3940907,
-                                "0 float m_regionCenterZ": 26,
-                                "0 float m_regionSizeX": 5.5,
-                                "0 float m_regionSizeZ": 12,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 1.5,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": -90,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 19,
-                                "0 float m_distanceMax": 22,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_12"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0202_11_BOSS_02",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": -84,
-                                "0 float m_regionCenterY": 17.5970898,
-                                "0 float m_regionCenterZ": 105.406502,
-                                "0 float m_regionSizeX": 8,
-                                "0 float m_regionSizeZ": 8,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 19,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0201_11_BOSS_02",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 95.2894669,
-                                "0 float m_regionCenterY": 31.3123703,
-                                "0 float m_regionCenterZ": 101.057899,
-                                "0 float m_regionSizeX": 2,
-                                "0 float m_regionSizeZ": 10,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 30,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 18,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0104_11_BOSS_03",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 65,
-                                "0 float m_regionCenterY": 0.0411039516,
-                                "0 float m_regionCenterZ": 76,
-                                "0 float m_regionSizeX": 13,
-                                "0 float m_regionSizeZ": 10,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 23,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0001_31_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 13,
-                                "0 float m_regionCenterY": 4,
-                                "0 float m_regionCenterZ": 86,
-                                "0 float m_regionSizeX": 5,
-                                "0 float m_regionSizeZ": 5.5,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 45,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 19,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0401_11_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 33.0600014,
-                                "0 float m_regionCenterY": 0,
-                                "0 float m_regionCenterZ": -24.6499996,
-                                "0 float m_regionSizeX": 2.5,
-                                "0 float m_regionSizeZ": 50,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 3,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 30,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 19,
-                                "0 float m_distanceMax": 24,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_14"},
-                                        {"1 string data": "MUGEN_BOSS_19"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0401_42_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 0,
-                                "0 float m_regionCenterY": 3.68523001e-006,
-                                "0 float m_regionCenterZ": 14.6000004,
-                                "0 float m_regionSizeX": 12,
-                                "0 float m_regionSizeZ": 5,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 30,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 19,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0402_41_BOSS_01",
-                                "0 int m_regionType": 0,
-                                "0 float m_regionCenterX": 18.0986691,
-                                "0 float m_regionCenterY": 0,
-                                "0 float m_regionCenterZ": 62.5,
-                                "0 float m_regionSizeX": 9,
-                                "0 float m_regionSizeZ": 0,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 3,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 30,
-                                "0 float m_angleY": 30,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 20,
-                                "0 float m_distanceMax": 23,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_09"},
-                                        {"1 string data": "MUGEN_BOSS_16"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0402_11_BOSS_02",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": -72,
-                                "0 float m_regionCenterY": 14.0000095,
-                                "0 float m_regionCenterZ": 100,
-                                "0 float m_regionSizeX": 15,
-                                "0 float m_regionSizeZ": 15,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 18,
-                                "0 float m_distanceMax": 23,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_18"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0101_11_BOSS_02",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 3.99643993,
-                                "0 float m_regionCenterY": -1.55410802,
-                                "0 float m_regionCenterZ": 38.3581009,
-                                "0 float m_regionSizeX": 15,
-                                "0 float m_regionSizeZ": 13,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 18,
-                                "0 float m_distanceMax": 23,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0001_11_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 0,
-                                "0 float m_regionCenterY": 0,
-                                "0 float m_regionCenterZ": -30,
-                                "0 float m_regionSizeX": 3,
-                                "0 float m_regionSizeZ": 3,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 18,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0002_32_BOSS_01",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 0,
-                                "0 float m_regionCenterY": 0,
-                                "0 float m_regionCenterZ": 8,
-                                "0 float m_regionSizeX": 9,
-                                "0 float m_regionSizeZ": 8,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 0,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 30,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 17,
-                                "0 float m_distanceMax": 20,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MA_0002_32_BOSS_02",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 0,
-                                "0 float m_regionCenterY": 0,
-                                "0 float m_regionCenterZ": 10,
-                                "0 float m_regionSizeX": 10,
-                                "0 float m_regionSizeZ": 8,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 2,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 20,
-                                "0 float m_distanceMax": 24,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "MUGEN_BOSS_20"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_placementId": "MUGEN_BOSS_21",
-                                "0 int m_regionType": 1,
-                                "0 float m_regionCenterX": 0,
-                                "0 float m_regionCenterY": 0,
-                                "0 float m_regionCenterZ": 7,
-                                "0 float m_regionSizeX": 10,
-                                "0 float m_regionSizeZ": 6,
-                                "0 float m_positionX": 0,
-                                "0 float m_positionY": 2,
-                                "0 float m_positionZ": 0,
-                                "0 float m_angleX": 35,
-                                "0 float m_angleY": 0,
-                                "0 float m_angleZ": 0,
-                                "0 float m_distanceMin": 20,
-                                "0 float m_distanceMax": 24,
-                                "0 float m_margin": 0.100000001,
-                                "0 float m_fov": 0,
-                                "0 int m_interpolation": 0,
-                                "0 float m_interpolationDuration": 0,
-                                "0 float m_nearClipPlane": 0,
-                                "0 float m_farClipPlane": 0,
-                                "0 vector m_additionalPlacementIds": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }}
-                        ]
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0101_11_BOSS_01",
+                    "0 int m_regionType": 0,
+                    "0 float m_regionCenterX": -7.5,
+                    "0 float m_regionCenterY": -0.875037372,
+                    "0 float m_regionCenterZ": 163,
+                    "0 float m_regionSizeX": 10,
+                    "0 float m_regionSizeZ": 0,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 18,
+                    "0 float m_distanceMax": 23,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_01"
+                        },
+                        {
+                          "1 string data": "MUGEN_BOSS_07"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
                     }
-                }}
-            ]
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0102_21_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 5,
+                    "0 float m_regionCenterY": 6,
+                    "0 float m_regionCenterZ": 148,
+                    "0 float m_regionSizeX": 5,
+                    "0 float m_regionSizeZ": 6,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 45,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 19,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0104_11_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": -45,
+                    "0 float m_regionCenterY": 0,
+                    "0 float m_regionCenterZ": 86.5,
+                    "0 float m_regionSizeX": 13,
+                    "0 float m_regionSizeZ": 13,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 18,
+                    "0 float m_distanceMax": 23,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_02"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0103_21_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 35,
+                    "0 float m_regionCenterY": 84.0000229,
+                    "0 float m_regionCenterZ": 44,
+                    "0 float m_regionSizeX": 7,
+                    "0 float m_regionSizeZ": 7,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 30,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 19,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0001_21_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": -8,
+                    "0 float m_regionCenterY": 4,
+                    "0 float m_regionCenterZ": 162.507797,
+                    "0 float m_regionSizeX": 10,
+                    "0 float m_regionSizeZ": 11,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 1.5,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 18,
+                    "0 float m_distanceMax": 21,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_03"
+                        },
+                        {
+                          "1 string data": "MUGEN_BOSS_13"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0104_11_BOSS_02",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 27,
+                    "0 float m_regionCenterY": -3.70000005,
+                    "0 float m_regionCenterZ": -69,
+                    "0 float m_regionSizeX": 2,
+                    "0 float m_regionSizeZ": 3,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 18,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0201_11_BOSS_01",
+                    "0 int m_regionType": 0,
+                    "0 float m_regionCenterX": -87,
+                    "0 float m_regionCenterY": 45.5,
+                    "0 float m_regionCenterZ": 114,
+                    "0 float m_regionSizeX": 8,
+                    "0 float m_regionSizeZ": 0,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 30,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 18,
+                    "0 float m_distanceMax": 20,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_04"
+                        },
+                        {
+                          "1 string data": "MUGEN_BOSS_17"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0201_21_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 10.5,
+                    "0 float m_regionCenterY": -0.0000224629803,
+                    "0 float m_regionCenterZ": 7.5,
+                    "0 float m_regionSizeX": 7,
+                    "0 float m_regionSizeZ": 12,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 45,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 20,
+                    "0 float m_distanceMax": 22,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_05"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0202_11_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 72,
+                    "0 float m_regionCenterY": 1.14672995,
+                    "0 float m_regionCenterZ": 94.5,
+                    "0 float m_regionSizeX": 12,
+                    "0 float m_regionSizeZ": 5,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 30,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 18,
+                    "0 float m_distanceMax": 23,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_06"
+                        },
+                        {
+                          "1 string data": "MUGEN_BOSS_11"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0002_11_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 0,
+                    "0 float m_regionCenterY": 2.70000005,
+                    "0 float m_regionCenterZ": 14,
+                    "0 float m_regionSizeX": 10,
+                    "0 float m_regionSizeZ": 9,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 30,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 19,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0002_41_BOSS_01",
+                    "0 int m_regionType": 0,
+                    "0 float m_regionCenterX": 5.5,
+                    "0 float m_regionCenterY": -23.4659805,
+                    "0 float m_regionCenterZ": 81.5,
+                    "0 float m_regionSizeX": 10,
+                    "0 float m_regionSizeZ": 0,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 30,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 20,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0203_11_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 74.6418533,
+                    "0 float m_regionCenterY": -0.0000119209299,
+                    "0 float m_regionCenterZ": 40,
+                    "0 float m_regionSizeX": 10,
+                    "0 float m_regionSizeZ": 13,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 18,
+                    "0 float m_distanceMax": 23,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_08"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0203_21_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": -18.5,
+                    "0 float m_regionCenterY": 0.000063419342,
+                    "0 float m_regionCenterZ": -25.7942905,
+                    "0 float m_regionSizeX": 7,
+                    "0 float m_regionSizeZ": 10,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 18,
+                    "0 float m_distanceMax": 21,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_10"
+                        },
+                        {
+                          "1 string data": "MUGEN_BOSS_15"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0203_31_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 25.9116592,
+                    "0 float m_regionCenterY": 12,
+                    "0 float m_regionCenterZ": 99,
+                    "0 float m_regionSizeX": 7,
+                    "0 float m_regionSizeZ": 15,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 19,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0201_31_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": -47,
+                    "0 float m_regionCenterY": 20.3940907,
+                    "0 float m_regionCenterZ": 26,
+                    "0 float m_regionSizeX": 5.5,
+                    "0 float m_regionSizeZ": 12,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 1.5,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": -90,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 19,
+                    "0 float m_distanceMax": 22,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_12"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0202_11_BOSS_02",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": -84,
+                    "0 float m_regionCenterY": 17.5970898,
+                    "0 float m_regionCenterZ": 105.406502,
+                    "0 float m_regionSizeX": 8,
+                    "0 float m_regionSizeZ": 8,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 19,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0201_11_BOSS_02",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 95.2894669,
+                    "0 float m_regionCenterY": 31.3123703,
+                    "0 float m_regionCenterZ": 101.057899,
+                    "0 float m_regionSizeX": 2,
+                    "0 float m_regionSizeZ": 10,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 30,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 18,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0104_11_BOSS_03",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 65,
+                    "0 float m_regionCenterY": 0.0411039516,
+                    "0 float m_regionCenterZ": 76,
+                    "0 float m_regionSizeX": 13,
+                    "0 float m_regionSizeZ": 10,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 23,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0001_31_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 13,
+                    "0 float m_regionCenterY": 4,
+                    "0 float m_regionCenterZ": 86,
+                    "0 float m_regionSizeX": 5,
+                    "0 float m_regionSizeZ": 5.5,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 45,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 19,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0401_11_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 33.0600014,
+                    "0 float m_regionCenterY": 0,
+                    "0 float m_regionCenterZ": -24.6499996,
+                    "0 float m_regionSizeX": 2.5,
+                    "0 float m_regionSizeZ": 50,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 3,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 30,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 19,
+                    "0 float m_distanceMax": 24,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_14"
+                        },
+                        {
+                          "1 string data": "MUGEN_BOSS_19"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0401_42_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 0,
+                    "0 float m_regionCenterY": 0.00000368523001,
+                    "0 float m_regionCenterZ": 14.6000004,
+                    "0 float m_regionSizeX": 12,
+                    "0 float m_regionSizeZ": 5,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 30,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 19,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0402_41_BOSS_01",
+                    "0 int m_regionType": 0,
+                    "0 float m_regionCenterX": 18.0986691,
+                    "0 float m_regionCenterY": 0,
+                    "0 float m_regionCenterZ": 62.5,
+                    "0 float m_regionSizeX": 9,
+                    "0 float m_regionSizeZ": 0,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 3,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 30,
+                    "0 float m_angleY": 30,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 20,
+                    "0 float m_distanceMax": 23,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_09"
+                        },
+                        {
+                          "1 string data": "MUGEN_BOSS_16"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0402_11_BOSS_02",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": -72,
+                    "0 float m_regionCenterY": 14.0000095,
+                    "0 float m_regionCenterZ": 100,
+                    "0 float m_regionSizeX": 15,
+                    "0 float m_regionSizeZ": 15,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 18,
+                    "0 float m_distanceMax": 23,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_18"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0101_11_BOSS_02",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 3.99643993,
+                    "0 float m_regionCenterY": -1.55410802,
+                    "0 float m_regionCenterZ": 38.3581009,
+                    "0 float m_regionSizeX": 15,
+                    "0 float m_regionSizeZ": 13,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 18,
+                    "0 float m_distanceMax": 23,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0001_11_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 0,
+                    "0 float m_regionCenterY": 0,
+                    "0 float m_regionCenterZ": -30,
+                    "0 float m_regionSizeX": 3,
+                    "0 float m_regionSizeZ": 3,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 18,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0002_32_BOSS_01",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 0,
+                    "0 float m_regionCenterY": 0,
+                    "0 float m_regionCenterZ": 8,
+                    "0 float m_regionSizeX": 9,
+                    "0 float m_regionSizeZ": 8,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 0,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 30,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 17,
+                    "0 float m_distanceMax": 20,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MA_0002_32_BOSS_02",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 0,
+                    "0 float m_regionCenterY": 0,
+                    "0 float m_regionCenterZ": 10,
+                    "0 float m_regionSizeX": 10,
+                    "0 float m_regionSizeZ": 8,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 2,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 20,
+                    "0 float m_distanceMax": 24,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "MUGEN_BOSS_20"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_placementId": "MUGEN_BOSS_21",
+                    "0 int m_regionType": 1,
+                    "0 float m_regionCenterX": 0,
+                    "0 float m_regionCenterY": 0,
+                    "0 float m_regionCenterZ": 7,
+                    "0 float m_regionSizeX": 10,
+                    "0 float m_regionSizeZ": 6,
+                    "0 float m_positionX": 0,
+                    "0 float m_positionY": 2,
+                    "0 float m_positionZ": 0,
+                    "0 float m_angleX": 35,
+                    "0 float m_angleY": 0,
+                    "0 float m_angleZ": 0,
+                    "0 float m_distanceMin": 20,
+                    "0 float m_distanceMax": 24,
+                    "0 float m_margin": 0.100000001,
+                    "0 float m_fov": 0,
+                    "0 int m_interpolation": 0,
+                    "0 float m_interpolationDuration": 0,
+                    "0 float m_nearClipPlane": 0,
+                    "0 float m_farClipPlane": 0,
+                    "0 vector m_additionalPlacementIds": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

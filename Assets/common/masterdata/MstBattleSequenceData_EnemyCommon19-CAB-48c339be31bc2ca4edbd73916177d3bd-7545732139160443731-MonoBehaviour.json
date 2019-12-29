@@ -1,919 +1,1875 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -1328885786104055000
+    },
+    "1 string m_Name": "MstBattleSequenceData_EnemyCommon19",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -1328885786104055125
-        },
-        "1 string m_Name": "MstBattleSequenceData_EnemyCommon19",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "EnemyCommon",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "EnemyCommon",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "SEQ_CE19_101_1",
-                                "0 int m_no": 1,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 0,
-                                "0 int m_command": 8,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "b_skill_01_1"},
-                                        {"1 string data": "100"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "0"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 5,
-                                "0 int m_command": 5,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "2"},
-                                        {"1 string data": "15"},
-                                        {"1 string data": "180"},
-                                        {"1 string data": "0"},
-                                        {"1 string data": "1000"},
-                                        {"1 string data": "3"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 6,
-                                "0 int m_command": 14,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "EF_CE_0019_SKILL_01_1_SIGN"},
-                                        {"1 string data": ""},
-                                        {"1 string data": "C_Jaw"},
-                                        {"1 string data": "=K14"},
-                                        {"1 string data": "True"},
-                                        {"1 string data": "C_Jaw"},
-                                        {"1 string data": "0,90,0"},
-                                        {"1 string data": "True"},
-                                        {"1 string data": "100"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 6,
-                                "0 int m_command": 17,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "SE_BT_BOSS09_3_ATK1"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 40,
-                                "0 int m_command": 11,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "2"},
-                                        {"1 string data": "None"},
-                                        {"1 string data": "None"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 2,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 0,
-                                "0 int m_command": 8,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "b_skill_01_2"},
-                                        {"1 string data": "100"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 0,
-                                "0 int m_command": 1,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "1"},
-                                        {"1 string data": "45"},
-                                        {"1 string data": "None"},
-                                        {"1 string data": "None"},
-                                        {"1 string data": "Size2"},
-                                        {"1 string data": "13000"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "3"},
-                                        {"1 string data": "13"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 45,
-                                "0 int m_command": 39,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "SE_BT_BOSS09_3_ATK1"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 0,
-                                "0 int m_command": 37,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "EF_CE_0019_SKILL_01_1_SIGN"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 0,
-                                "0 int m_command": 14,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "EF_CE_0019_SKILL_01_1_FIRE"},
-                                        {"1 string data": ""},
-                                        {"1 string data": "C_Jaw"},
-                                        {"1 string data": "-20,5,0"},
-                                        {"1 string data": "True"},
-                                        {"1 string data": "C_Jaw"},
-                                        {"1 string data": "0,90,0"},
-                                        {"1 string data": "True"},
-                                        {"1 string data": "100"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 50,
-                                "0 int m_command": 11,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "3"},
-                                        {"1 string data": "None"},
-                                        {"1 string data": "None"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 3,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 0,
-                                "0 int m_command": 8,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "b_skill_01_3"},
-                                        {"1 string data": "100"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "0"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 0,
-                                "0 int m_command": 37,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "EF_CE_0019_SKILL_01_1_FIRE"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "SEQ_CE19_101_2",
-                                "0 int m_no": 1,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 0,
-                                "0 int m_command": 8,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "b_skill_01_1"},
-                                        {"1 string data": "100"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "0"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 5,
-                                "0 int m_command": 5,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "2"},
-                                        {"1 string data": "15"},
-                                        {"1 string data": "180"},
-                                        {"1 string data": "0"},
-                                        {"1 string data": "1000"},
-                                        {"1 string data": "3"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 40,
-                                "0 int m_command": 8,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "b_skill_01_2"},
-                                        {"1 string data": "100"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "0"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 6,
-                                "0 int m_command": 17,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "SE_BT_BOSS09_3_ATK1"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 16,
-                                "0 int m_command": 39,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "SE_BT_BOSS09_3_ATK1"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 39,
-                                "0 int m_command": 14,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "EF_CE_0019_SKILL_01_2_SHOT"},
-                                        {"1 string data": ""},
-                                        {"1 string data": "C_Jaw"},
-                                        {"1 string data": "-22,5,0"},
-                                        {"1 string data": "True"},
-                                        {"1 string data": "C_Jaw"},
-                                        {"1 string data": "-25,-90,0"},
-                                        {"1 string data": "False"},
-                                        {"1 string data": "100"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 40,
-                                "0 int m_command": 17,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "SE_BT_ZAKO13_SHOT"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 40,
-                                "0 int m_command": 30,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "BUL_BE19_101_1"},
-                                        {"1 string data": "None"},
-                                        {"1 string data": "None"},
-                                        {"1 string data": "None"},
-                                        {"1 string data": "0"},
-                                        {"1 string data": "1"},
-                                        {"1 string data": "0"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 40,
-                                "0 int m_command": 30,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "BUL_BE19_101_2"},
-                                        {"1 string data": "OnBulletFinish"},
-                                        {"1 string data": "BUL_BE19_101_1"},
-                                        {"1 string data": "TriggerCollision"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "1"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 41,
-                                "0 int m_command": 7,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "180"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "5"},
-                                        {"1 string data": "10"},
-                                        {"1 string data": "1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "",
-                                "0 int m_no": 0,
-                                "0 float m_speedRate": 0,
-                                "1 UInt8 m_kikokuEnable": 0,
-                                "1 UInt8 m_kikokuDisable": 0,
-                                "1 string m_flagEnable": "",
-                                "1 string m_flagDisable": "",
-                                "0 int m_timing": 50,
-                                "0 int m_command": 8,
-                                "0 vector m_params": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "b_skill_01_3"},
-                                        {"1 string data": "100"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "-1"},
-                                        {"1 string data": "0"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                }
-                            }}
-                        ]
+                  "0 Param data": {
+                    "1 string m_id": "SEQ_CE19_101_1",
+                    "0 int m_no": 1,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 0,
+                    "0 int m_command": 8,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "b_skill_01_1"
+                        },
+                        {
+                          "1 string data": "100"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "0"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
                     }
-                }}
-            ]
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 5,
+                    "0 int m_command": 5,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "2"
+                        },
+                        {
+                          "1 string data": "15"
+                        },
+                        {
+                          "1 string data": "180"
+                        },
+                        {
+                          "1 string data": "0"
+                        },
+                        {
+                          "1 string data": "1000"
+                        },
+                        {
+                          "1 string data": "3"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 6,
+                    "0 int m_command": 14,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "EF_CE_0019_SKILL_01_1_SIGN"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": "C_Jaw"
+                        },
+                        {
+                          "1 string data": "=K14"
+                        },
+                        {
+                          "1 string data": "True"
+                        },
+                        {
+                          "1 string data": "C_Jaw"
+                        },
+                        {
+                          "1 string data": "0,90,0"
+                        },
+                        {
+                          "1 string data": "True"
+                        },
+                        {
+                          "1 string data": "100"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 6,
+                    "0 int m_command": 17,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "SE_BT_BOSS09_3_ATK1"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 40,
+                    "0 int m_command": 11,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "2"
+                        },
+                        {
+                          "1 string data": "None"
+                        },
+                        {
+                          "1 string data": "None"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 2,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 0,
+                    "0 int m_command": 8,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "b_skill_01_2"
+                        },
+                        {
+                          "1 string data": "100"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 0,
+                    "0 int m_command": 1,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "1"
+                        },
+                        {
+                          "1 string data": "45"
+                        },
+                        {
+                          "1 string data": "None"
+                        },
+                        {
+                          "1 string data": "None"
+                        },
+                        {
+                          "1 string data": "Size2"
+                        },
+                        {
+                          "1 string data": "13000"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "3"
+                        },
+                        {
+                          "1 string data": "13"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 45,
+                    "0 int m_command": 39,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "SE_BT_BOSS09_3_ATK1"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 0,
+                    "0 int m_command": 37,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "EF_CE_0019_SKILL_01_1_SIGN"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 0,
+                    "0 int m_command": 14,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "EF_CE_0019_SKILL_01_1_FIRE"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": "C_Jaw"
+                        },
+                        {
+                          "1 string data": "-20,5,0"
+                        },
+                        {
+                          "1 string data": "True"
+                        },
+                        {
+                          "1 string data": "C_Jaw"
+                        },
+                        {
+                          "1 string data": "0,90,0"
+                        },
+                        {
+                          "1 string data": "True"
+                        },
+                        {
+                          "1 string data": "100"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 50,
+                    "0 int m_command": 11,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "3"
+                        },
+                        {
+                          "1 string data": "None"
+                        },
+                        {
+                          "1 string data": "None"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 3,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 0,
+                    "0 int m_command": 8,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "b_skill_01_3"
+                        },
+                        {
+                          "1 string data": "100"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "0"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 0,
+                    "0 int m_command": 37,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "EF_CE_0019_SKILL_01_1_FIRE"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "SEQ_CE19_101_2",
+                    "0 int m_no": 1,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 0,
+                    "0 int m_command": 8,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "b_skill_01_1"
+                        },
+                        {
+                          "1 string data": "100"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "0"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 5,
+                    "0 int m_command": 5,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "2"
+                        },
+                        {
+                          "1 string data": "15"
+                        },
+                        {
+                          "1 string data": "180"
+                        },
+                        {
+                          "1 string data": "0"
+                        },
+                        {
+                          "1 string data": "1000"
+                        },
+                        {
+                          "1 string data": "3"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 40,
+                    "0 int m_command": 8,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "b_skill_01_2"
+                        },
+                        {
+                          "1 string data": "100"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "0"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 6,
+                    "0 int m_command": 17,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "SE_BT_BOSS09_3_ATK1"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 16,
+                    "0 int m_command": 39,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "SE_BT_BOSS09_3_ATK1"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 39,
+                    "0 int m_command": 14,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "EF_CE_0019_SKILL_01_2_SHOT"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": "C_Jaw"
+                        },
+                        {
+                          "1 string data": "-22,5,0"
+                        },
+                        {
+                          "1 string data": "True"
+                        },
+                        {
+                          "1 string data": "C_Jaw"
+                        },
+                        {
+                          "1 string data": "-25,-90,0"
+                        },
+                        {
+                          "1 string data": "False"
+                        },
+                        {
+                          "1 string data": "100"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 40,
+                    "0 int m_command": 17,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "SE_BT_ZAKO13_SHOT"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 40,
+                    "0 int m_command": 30,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "BUL_BE19_101_1"
+                        },
+                        {
+                          "1 string data": "None"
+                        },
+                        {
+                          "1 string data": "None"
+                        },
+                        {
+                          "1 string data": "None"
+                        },
+                        {
+                          "1 string data": "0"
+                        },
+                        {
+                          "1 string data": "1"
+                        },
+                        {
+                          "1 string data": "0"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 40,
+                    "0 int m_command": 30,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "BUL_BE19_101_2"
+                        },
+                        {
+                          "1 string data": "OnBulletFinish"
+                        },
+                        {
+                          "1 string data": "BUL_BE19_101_1"
+                        },
+                        {
+                          "1 string data": "TriggerCollision"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "1"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 41,
+                    "0 int m_command": 7,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "180"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "5"
+                        },
+                        {
+                          "1 string data": "10"
+                        },
+                        {
+                          "1 string data": "1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "",
+                    "0 int m_no": 0,
+                    "0 float m_speedRate": 0,
+                    "1 UInt8 m_kikokuEnable": 0,
+                    "1 UInt8 m_kikokuDisable": 0,
+                    "1 string m_flagEnable": "",
+                    "1 string m_flagDisable": "",
+                    "0 int m_timing": 50,
+                    "0 int m_command": 8,
+                    "0 vector m_params": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "b_skill_01_3"
+                        },
+                        {
+                          "1 string data": "100"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "-1"
+                        },
+                        {
+                          "1 string data": "0"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

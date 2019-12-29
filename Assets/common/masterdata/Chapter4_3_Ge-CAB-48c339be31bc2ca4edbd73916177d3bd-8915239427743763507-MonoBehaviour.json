@@ -1,735 +1,819 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 4759405696329208000
+    },
+    "1 string m_Name": "Chapter4_3_Ge",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 4759405696329207662
-        },
-        "1 string m_Name": "Chapter4_3_Ge",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "EventText",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "EventText",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Aus dem <i>Weg</i>!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Ich will die Wahrheit wissen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Sprecht!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Was ist Wiedergeburt?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Warum habe ich – warum haben wir dafür gekämpft, die Menschen ins Jenseits zu schicken?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Wofür haben wir gekämpft?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Für wen war all das gut?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 800,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "<i>Wofür</i> war das alles gut?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00",
-                                "0 int m_subId": 900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Antwortet mir!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00_A",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Lobelia!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00_A",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Leo!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_00_A",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Sara!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_10",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Lobelia!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_10",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Die Wiedergeburt ist zum Wohle des nächsten Lebens!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_10",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Sie darf nicht einer falschen Herrscherin dienen, die ihre Untertanen täuscht!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_10",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0010",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Dieses Reich gehört seinem Volk! Wir werden nicht zulassen, dass es uns von einem Narren genommen wird!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_10",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Aaah!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_10",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Alles, was ich gesehen habe, hat auf die Wahrheit gedeutet. Und doch entzieht sie sich mir.\n\nEs gibt niemanden mehr, der die Antworten hat, die ich suche. Die Wahrheit wird für alle Ewigkeit verloren sein.\n\nDieses Reich wird weiterhin vor Schmerz jammern – bis erneut das Ende kommt."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_20",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Leo!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_20",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Ist es nicht offensichtlich?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_20",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Die Menschen <i>sind</i> dieses Reich! Nichts ist heiliger als ihr Leben!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_20",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0020",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Unser einziger Zweck, und der der Wiedergeburt, ist es, den Menschen zu dienen!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Sara!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Soju, mein geliebter Bruder."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Hättest du die Wahrheit nicht herausgefunden, so hätte ich mich damit abgefunden, mein Leben als Oni-Priesterin zu verbringen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Jedoch ..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Hast du mich nicht enttäuscht! Ich hatte auch nicht damit gerechnet."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Ich wollte, dass du alles weißt."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431000_30",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Ich werde im Thronsaal auf dich warten. Suche mich dort, denn ich würde gerne deine Antwort hören."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Warum?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Damit du jetzt auch die ganze Wahrheit weißt."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Sara ..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Nein."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Du bist die Oni-Priesterin – die Inkarnation des Oni! Eine Kreatur, die vorgibt, ein Mensch zu sein."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 600,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Soju, mein wunderbarer kleiner Bruder."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 700,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Hör auf! Ich habe dieses Puppenspiel satt."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 800,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Der Kreislauf der Wiedergeburt war nie dazu gedacht, der menschlichen Seele nach dem Tod erneutes Leben zu geben."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 900,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Er war nur ein Weg, um die Verzweiflung aufzunehmen, welche die Menschen abwerfen, wenn sie sterben, wie Trauer, Hass und Bosheit."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1000,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Die Wiedergeburt hat nichts mit der Erhaltung des Lebens zu tun. Sie wurde geschaffen, um deine Kreatur zu schützen und zu nähren, Priesterin: den Oni."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1100,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Und du hast so viel dazu beigetragen, mein lieber Soju. Verstehst du jetzt?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Der Oni ernährt sich von der Verzweiflung der Menschen. Und doch ist es gerade diese Verzweiflung, welche die Menschen in ihre Zerstörung leitet."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1300,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Die Menschheit wird durch die Verzweiflung zerstört, die nur durch ihre Existenz erschaffen wird. Das ist die große Ironie dieser Welt."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1400,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Die Welt steht schon so lange am Rande der Zerstörung, dass dieses Reich alles ist, was von ihr noch bleibt."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1500,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Aber endlich wird der letzte Vorhang fallen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1600,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Wenn der Oni erneut erwacht, wird die Menschheit untergehen. Und ohne die Menschheit wird auch der Oni nicht mehr existieren."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1700,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Wie seltsam. Zum ersten Mal verspüre ich Zweifel."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1800,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Sollen wir verblassen? Sollen wir die Leere willkommen heißen? Oder sollten wir beten, dass die Menschheit ihre Torheit erkennt und aufhört, sich selbst zu zerstören?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 1900,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Soju. Ich habe tausend Leben gelebt, bin aber zu keiner Erkenntnis gekommen. Aber ich wusste, dass <i>du</i> die Antwort finden würdest, die ich suche."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2000,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Wenn ich die Priesterin bin, dann sollst du der Richter sein."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2100,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Du hast gelacht, geweint, bist wütend gewesen und verraten worden. Du hast ein Leben als Mensch geführt, und so kannst <i>nur</i> du entscheiden."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Soju, wie lautet deine Entscheidung?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2300,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Es geht hier nicht um Gut und Böse."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2400,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "So wie dein Handeln sowohl gute als auch schlechte Folgen hatte, ist auch die Realität immer eine Mischung aus beidem."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2500,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Sind die Sünden dieses Reiches wirklich unverzeihlich?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2600,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Bist du genauso verunsichert und verloren wie der Rest der Menschheit?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2700,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Antworte mir, Soju!"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2800,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Du, der du an ihrer Seite gewandelt bist! Wie lautet deine Entscheidung?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 2900,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Wirst du den Oni töten, bevor er erwacht und dieses Land verschlingt? Wirst du die Menschheit beschützen?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00",
-                                "0 int m_subId": 3000,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Oder wirst du akzeptieren, dass du ein Teil des Oni bist, und ohne Angst auf den Tag warten, an dem er erwacht, um die Welt zu verschlingen?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00_A",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Den Kreislauf der Wiedergeburt aufrechterhalten."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_00_A",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Das Reich und seine Bräuche ablehnen und den Oni töten."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_10",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Du willst deinem Glauben also bis zum bitteren Ende folgen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_10",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Wie ... menschlich von dir."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_10",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Ich kann es kaum erwarten, die Dunkelheit zu sehen, die du in die Welt bringen wirst."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_10",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Behalte die Menschheit im Auge, bis der Oni wiedergeboren wird, Soju."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_10",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Was ist es, woran ich wirklich glaube?"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_20",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Das also ist deine Antwort."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_20",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Du lehnst den Glauben ab, der dich immer geleitet hat, und entscheidest dich stattdessen für die Hoffnung auf eine bessere Zukunft."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_20",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Wie ... menschlich."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_20",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Und wie amüsant. Vielleicht hat die Menschheit auch ein wenig auf <i>mich</i> abgefärbt."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_30",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Ich hatte wohl irgendwie gehofft, dass du diese Entscheidung treffen würdest und dass genau dieses Ende kommen würde."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_30",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Gib an meiner Stelle auf die Menschheit acht, Soju."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431010_30",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CN_0003",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Das ist meine letzte Bitte ..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431020_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Trotzdem ..."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431020_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Es muss aufhören."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Es gibt noch eine Person, die nicht in dieses Reich gehört."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_00_A",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Töte dich selbst."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_00_A",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Lebe."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_10",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Die Menschheit sucht immer nach Möglichkeiten – genau wie Leshan und die anderen es taten."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_10",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Ich glaube, dass die Menschheit sich ändern kann."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_10",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Und wenn sie nur der Untergang erwartet? Dann wird es zumindest ein selbst gemachter Untergang sein."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_20",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Aber so weit ist es noch nicht."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431030_20",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "CP_0000",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Ich habe die Menschheit bis hierhin gebracht. Ich werde auch weiterhin über sie wachen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431040_00",
-                                "0 int m_subId": 100,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Ein flüchtiger Frieden umgibt das Reich.\n\nSolange die Menschheit existiert, wird der Oni eines Tages aus ihrer Verzweiflung wiedergeboren werden."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431040_00",
-                                "0 int m_subId": 200,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Wenn der Tag kommt, wird der Oni die Menschheit verzehren. Und dieses Reich – diese Welt – wird enden.\n\nNatürlich besteht immer die Chance, dass sich die Menschheit selbst zerstört, bevor das passiert."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431040_00",
-                                "0 int m_subId": 300,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Aber was auch immer das Schicksal bereithält, ist eine Geschichte für einen anderen Tag."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431040_00",
-                                "0 int m_subId": 400,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Nachdem das Chaos verblasst ist, werden die Dinge so sein, wie sie waren.\n\nUnd am Ende ändert sich vielleicht gar nichts.\n\nAber was auch immer passiert, ich werde hier sein und über den Kreislauf des Lebens der Menschen wachen."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "EVTXT_431040_00",
-                                "0 int m_subId": 500,
-                                "1 string m_charaId": "",
-                                "1 string m_voiceId": "",
-                                "1 string m_text": "Hier, im Klagenden Reich."
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Aus dem <i>Weg</i>!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Ich will die Wahrheit wissen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Sprecht!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Was ist Wiedergeburt?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Warum habe ich – warum haben wir dafür gekämpft, die Menschen ins Jenseits zu schicken?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Wofür haben wir gekämpft?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Für wen war all das gut?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 800,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "<i>Wofür</i> war das alles gut?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00",
+                    "0 int m_subId": 900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Antwortet mir!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00_A",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Lobelia!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00_A",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Leo!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_00_A",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Sara!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_10",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Lobelia!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_10",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Die Wiedergeburt ist zum Wohle des nächsten Lebens!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_10",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Sie darf nicht einer falschen Herrscherin dienen, die ihre Untertanen täuscht!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_10",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0010",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Dieses Reich gehört seinem Volk! Wir werden nicht zulassen, dass es uns von einem Narren genommen wird!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_10",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Aaah!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_10",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Alles, was ich gesehen habe, hat auf die Wahrheit gedeutet. Und doch entzieht sie sich mir.\n\nEs gibt niemanden mehr, der die Antworten hat, die ich suche. Die Wahrheit wird für alle Ewigkeit verloren sein.\n\nDieses Reich wird weiterhin vor Schmerz jammern – bis erneut das Ende kommt."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_20",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Leo!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_20",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Ist es nicht offensichtlich?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_20",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Die Menschen <i>sind</i> dieses Reich! Nichts ist heiliger als ihr Leben!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_20",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0020",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Unser einziger Zweck, und der der Wiedergeburt, ist es, den Menschen zu dienen!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Sara!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Soju, mein geliebter Bruder."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Hättest du die Wahrheit nicht herausgefunden, so hätte ich mich damit abgefunden, mein Leben als Oni-Priesterin zu verbringen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Jedoch ..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Hast du mich nicht enttäuscht! Ich hatte auch nicht damit gerechnet."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Ich wollte, dass du alles weißt."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431000_30",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Ich werde im Thronsaal auf dich warten. Suche mich dort, denn ich würde gerne deine Antwort hören."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Warum?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Damit du jetzt auch die ganze Wahrheit weißt."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Sara ..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Nein."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Du bist die Oni-Priesterin – die Inkarnation des Oni! Eine Kreatur, die vorgibt, ein Mensch zu sein."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 600,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Soju, mein wunderbarer kleiner Bruder."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 700,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Hör auf! Ich habe dieses Puppenspiel satt."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 800,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Der Kreislauf der Wiedergeburt war nie dazu gedacht, der menschlichen Seele nach dem Tod erneutes Leben zu geben."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 900,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Er war nur ein Weg, um die Verzweiflung aufzunehmen, welche die Menschen abwerfen, wenn sie sterben, wie Trauer, Hass und Bosheit."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1000,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Die Wiedergeburt hat nichts mit der Erhaltung des Lebens zu tun. Sie wurde geschaffen, um deine Kreatur zu schützen und zu nähren, Priesterin: den Oni."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1100,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Und du hast so viel dazu beigetragen, mein lieber Soju. Verstehst du jetzt?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Der Oni ernährt sich von der Verzweiflung der Menschen. Und doch ist es gerade diese Verzweiflung, welche die Menschen in ihre Zerstörung leitet."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1300,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Die Menschheit wird durch die Verzweiflung zerstört, die nur durch ihre Existenz erschaffen wird. Das ist die große Ironie dieser Welt."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1400,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Die Welt steht schon so lange am Rande der Zerstörung, dass dieses Reich alles ist, was von ihr noch bleibt."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1500,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Aber endlich wird der letzte Vorhang fallen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1600,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Wenn der Oni erneut erwacht, wird die Menschheit untergehen. Und ohne die Menschheit wird auch der Oni nicht mehr existieren."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1700,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Wie seltsam. Zum ersten Mal verspüre ich Zweifel."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1800,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Sollen wir verblassen? Sollen wir die Leere willkommen heißen? Oder sollten wir beten, dass die Menschheit ihre Torheit erkennt und aufhört, sich selbst zu zerstören?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 1900,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Soju. Ich habe tausend Leben gelebt, bin aber zu keiner Erkenntnis gekommen. Aber ich wusste, dass <i>du</i> die Antwort finden würdest, die ich suche."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2000,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Wenn ich die Priesterin bin, dann sollst du der Richter sein."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2100,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Du hast gelacht, geweint, bist wütend gewesen und verraten worden. Du hast ein Leben als Mensch geführt, und so kannst <i>nur</i> du entscheiden."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Soju, wie lautet deine Entscheidung?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2300,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Es geht hier nicht um Gut und Böse."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2400,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "So wie dein Handeln sowohl gute als auch schlechte Folgen hatte, ist auch die Realität immer eine Mischung aus beidem."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2500,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Sind die Sünden dieses Reiches wirklich unverzeihlich?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2600,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Bist du genauso verunsichert und verloren wie der Rest der Menschheit?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2700,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Antworte mir, Soju!"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2800,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Du, der du an ihrer Seite gewandelt bist! Wie lautet deine Entscheidung?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 2900,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Wirst du den Oni töten, bevor er erwacht und dieses Land verschlingt? Wirst du die Menschheit beschützen?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00",
+                    "0 int m_subId": 3000,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Oder wirst du akzeptieren, dass du ein Teil des Oni bist, und ohne Angst auf den Tag warten, an dem er erwacht, um die Welt zu verschlingen?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00_A",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Den Kreislauf der Wiedergeburt aufrechterhalten."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_00_A",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Das Reich und seine Bräuche ablehnen und den Oni töten."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_10",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Du willst deinem Glauben also bis zum bitteren Ende folgen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_10",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Wie ... menschlich von dir."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_10",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Ich kann es kaum erwarten, die Dunkelheit zu sehen, die du in die Welt bringen wirst."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_10",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Behalte die Menschheit im Auge, bis der Oni wiedergeboren wird, Soju."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_10",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Was ist es, woran ich wirklich glaube?"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_20",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Das also ist deine Antwort."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_20",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Du lehnst den Glauben ab, der dich immer geleitet hat, und entscheidest dich stattdessen für die Hoffnung auf eine bessere Zukunft."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_20",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Wie ... menschlich."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_20",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Und wie amüsant. Vielleicht hat die Menschheit auch ein wenig auf <i>mich</i> abgefärbt."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_30",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Ich hatte wohl irgendwie gehofft, dass du diese Entscheidung treffen würdest und dass genau dieses Ende kommen würde."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_30",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Gib an meiner Stelle auf die Menschheit acht, Soju."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431010_30",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CN_0003",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Das ist meine letzte Bitte ..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431020_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Trotzdem ..."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431020_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Es muss aufhören."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Es gibt noch eine Person, die nicht in dieses Reich gehört."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_00_A",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Töte dich selbst."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_00_A",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Lebe."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_10",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Die Menschheit sucht immer nach Möglichkeiten – genau wie Leshan und die anderen es taten."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_10",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Ich glaube, dass die Menschheit sich ändern kann."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_10",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Und wenn sie nur der Untergang erwartet? Dann wird es zumindest ein selbst gemachter Untergang sein."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_20",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Aber so weit ist es noch nicht."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431030_20",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "CP_0000",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Ich habe die Menschheit bis hierhin gebracht. Ich werde auch weiterhin über sie wachen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431040_00",
+                    "0 int m_subId": 100,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Ein flüchtiger Frieden umgibt das Reich.\n\nSolange die Menschheit existiert, wird der Oni eines Tages aus ihrer Verzweiflung wiedergeboren werden."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431040_00",
+                    "0 int m_subId": 200,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Wenn der Tag kommt, wird der Oni die Menschheit verzehren. Und dieses Reich – diese Welt – wird enden.\n\nNatürlich besteht immer die Chance, dass sich die Menschheit selbst zerstört, bevor das passiert."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431040_00",
+                    "0 int m_subId": 300,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Aber was auch immer das Schicksal bereithält, ist eine Geschichte für einen anderen Tag."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431040_00",
+                    "0 int m_subId": 400,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Nachdem das Chaos verblasst ist, werden die Dinge so sein, wie sie waren.\n\nUnd am Ende ändert sich vielleicht gar nichts.\n\nAber was auch immer passiert, ich werde hier sein und über den Kreislauf des Lebens der Menschen wachen."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "EVTXT_431040_00",
+                    "0 int m_subId": 500,
+                    "1 string m_charaId": "",
+                    "1 string m_voiceId": "",
+                    "1 string m_text": "Hier, im Klagenden Reich."
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

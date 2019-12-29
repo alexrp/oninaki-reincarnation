@@ -1,46 +1,45 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 4205287836478041000
+    },
+    "1 string m_Name": "MstShopTransmutationData_RecoveryData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 4205287836478041198
-        },
-        "1 string m_Name": "MstShopTransmutationData_RecoveryData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "ManaStoneRecoveryData",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "ManaStoneRecoveryData",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "RECOVERY_DATA_001",
-                                "0 float m_probabilityValue": 70
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "RECOVERY_DATA_002",
-                                "0 float m_probabilityValue": 70
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "RECOVERY_DATA_003",
-                                "0 float m_probabilityValue": 100
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "RECOVERY_DATA_001",
+                    "0 float m_probabilityValue": 70
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "RECOVERY_DATA_002",
+                    "0 float m_probabilityValue": 70
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "RECOVERY_DATA_003",
+                    "0 float m_probabilityValue": 100
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

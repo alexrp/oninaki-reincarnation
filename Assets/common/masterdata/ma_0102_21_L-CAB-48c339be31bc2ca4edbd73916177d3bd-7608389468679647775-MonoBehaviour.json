@@ -1,643 +1,690 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -3934732035171635000
+    },
+    "1 string m_Name": "ma_0102_21_L",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -3934732035171635413
-        },
-        "1 string m_Name": "ma_0102_21_L",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "PlacementCollision",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "PlacementCollision",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CAMERA_LOCK_01",
-                                "0 float m_posX": 25,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 100,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 150,
-                                "0 float m_scaleY": 50,
-                                "0 float m_scaleZ": 200,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_01",
-                                "0 float m_posX": 67.8000031,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 18.3199997,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 3,
-                                "0 float m_scaleY": 3,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_02",
-                                "0 float m_posX": 69.0599976,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 22.0799999,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 10,
-                                "0 float m_scaleY": 1,
-                                "0 float m_scaleZ": 6,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_03",
-                                "0 float m_posX": 72.7900009,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 37.7999992,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 3,
-                                "0 float m_scaleY": 3,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_04",
-                                "0 float m_posX": 68.4400024,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 42.5699997,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 3,
-                                "0 float m_scaleY": 3,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_05",
-                                "0 float m_posX": 64.6999969,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 37.5999985,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 2.5,
-                                "0 float m_scaleY": 2.5,
-                                "0 float m_scaleZ": 2.5,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_06",
-                                "0 float m_posX": 70,
-                                "0 float m_posY": 2,
-                                "0 float m_posZ": 68.4400024,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 4,
-                                "0 float m_scaleY": 1,
-                                "0 float m_scaleZ": 5,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_07",
-                                "0 float m_posX": 73.9499969,
-                                "0 float m_posY": 2,
-                                "0 float m_posZ": 82.2799988,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 4,
-                                "0 float m_scaleY": 4,
-                                "0 float m_scaleZ": 4,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_08",
-                                "0 float m_posX": 58.5400009,
-                                "0 float m_posY": 2,
-                                "0 float m_posZ": 83.5800018,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 4,
-                                "0 float m_scaleY": 1,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_09",
-                                "0 float m_posX": 53.1500015,
-                                "0 float m_posY": 2,
-                                "0 float m_posZ": 83.8399963,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 4,
-                                "0 float m_scaleY": 1,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_10",
-                                "0 float m_posX": 39.7700005,
-                                "0 float m_posY": 3.5,
-                                "0 float m_posZ": 83.7399979,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 3,
-                                "0 float m_scaleY": 1,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_11",
-                                "0 float m_posX": 8.06999969,
-                                "0 float m_posY": 4.51999998,
-                                "0 float m_posZ": 87.7699966,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 6,
-                                "0 float m_scaleY": 1,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_12",
-                                "0 float m_posX": 1.13999999,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 86.9100037,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 3,
-                                "0 float m_scaleY": 3,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_13",
-                                "0 float m_posX": -0.100000001,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 64.2200012,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 2.5,
-                                "0 float m_scaleY": 2.5,
-                                "0 float m_scaleZ": 2.5,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_14",
-                                "0 float m_posX": -4.9000001,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 63.4199982,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 2.5,
-                                "0 float m_scaleY": 2.5,
-                                "0 float m_scaleZ": 2.5,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_15",
-                                "0 float m_posX": -1.62,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 57.4900017,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 2.5,
-                                "0 float m_scaleY": 2.5,
-                                "0 float m_scaleZ": 2.5,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_16",
-                                "0 float m_posX": -5.71000004,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 57,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 2.5,
-                                "0 float m_scaleY": 2.5,
-                                "0 float m_scaleZ": 2.5,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_17",
-                                "0 float m_posX": 15.9200001,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 87.8000031,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 6,
-                                "0 float m_scaleY": 10,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_18",
-                                "0 float m_posX": -0.0700000003,
-                                "0 float m_posY": 4.5,
-                                "0 float m_posZ": 72.0699997,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 3,
-                                "0 float m_scaleY": 10,
-                                "0 float m_scaleZ": 6,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_19",
-                                "0 float m_posX": -1.57000005,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 105.239998,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 3,
-                                "0 float m_scaleY": 3,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_20",
-                                "0 float m_posX": -1.88999999,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 110.940002,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 3,
-                                "0 float m_scaleY": 3,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_21",
-                                "0 float m_posX": 4.8499999,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 107.779999,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 3,
-                                "0 float m_scaleY": 3,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_22",
-                                "0 float m_posX": 25.2700005,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 84.1100006,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 8,
-                                "0 float m_scaleY": 1,
-                                "0 float m_scaleZ": 10,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_31",
-                                "0 float m_posX": 75.7900009,
-                                "0 float m_posY": 2,
-                                "0 float m_posZ": 84.3700027,
-                                "0 float m_rotY": 225.000031,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_32",
-                                "0 float m_posX": -1.98000002,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 110.879997,
-                                "0 float m_rotY": 134.999954,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_71",
-                                "0 float m_posX": 5.90999985,
-                                "0 float m_posY": 6,
-                                "0 float m_posZ": 151.289993,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 3,
-                                "0 float m_scaleY": 3,
-                                "0 float m_scaleZ": 3,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_81",
-                                "0 float m_posX": 63.0999985,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 42.3800011,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 2,
-                                "0 float m_scaleY": 2,
-                                "0 float m_scaleZ": 2,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_82",
-                                "0 float m_posX": 25.6299992,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 109.910004,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 5,
-                                "0 float m_scaleY": 5,
-                                "0 float m_scaleZ": 5,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ENEMY_91",
-                                "0 float m_posX": 4.23999977,
-                                "0 float m_posY": 6,
-                                "0 float m_posZ": 148.190002,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 20,
-                                "0 float m_scaleY": 20,
-                                "0 float m_scaleZ": 20,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ITEMBOX_01",
-                                "0 float m_posX": 69,
-                                "0 float m_posY": 2,
-                                "0 float m_posZ": 89.25,
-                                "0 float m_rotY": 180,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ITEMBOX_02",
-                                "0 float m_posX": -9.5,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 65,
-                                "0 float m_rotY": 90,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ITEMBOX_03",
-                                "0 float m_posX": -5.25,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 108.75,
-                                "0 float m_rotY": 90,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "ITEMBOX_04",
-                                "0 float m_posX": -29,
-                                "0 float m_posY": 6,
-                                "0 float m_posZ": 161.5,
-                                "0 float m_rotY": 180,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "KAKURIYO_ROAD_01",
-                                "0 float m_posX": 23.5,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 61.75,
-                                "0 float m_rotY": 315,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "KAKURIYO_ROAD_02",
-                                "0 float m_posX": 4,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 80,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAPJUMP_FROM_01",
-                                "0 float m_posX": 36.5,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 16,
-                                "0 float m_rotY": 180,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAPJUMP_FROM_02",
-                                "0 float m_posX": -24,
-                                "0 float m_posY": 6,
-                                "0 float m_posZ": 160,
-                                "0 float m_rotY": 180,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAPJUMP_FROM_11",
-                                "0 float m_posX": 9.9630003,
-                                "0 float m_posY": 3.99999785,
-                                "0 float m_posZ": 59.8619995,
-                                "0 float m_rotY": 270,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAPJUMP_FROM_12",
-                                "0 float m_posX": 80.1900024,
-                                "0 float m_posY": 2.24113683e-005,
-                                "0 float m_posZ": 75.4199982,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAPJUMP_TO_01",
-                                "0 float m_posX": 36.5,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 18,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 1,
-                                "0 float m_scaleY": 6,
-                                "0 float m_scaleZ": 1,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MAPJUMP_TO_02",
-                                "0 float m_posX": -24,
-                                "0 float m_posY": 6,
-                                "0 float m_posZ": 163.199997,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 2,
-                                "0 float m_scaleY": 6,
-                                "0 float m_scaleZ": 2,
-                                "0 int m_type": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MUGEN_GOAL_11",
-                                "0 float m_posX": 15.0799999,
-                                "0 float m_posY": 3.99998379,
-                                "0 float m_posZ": 60.1599998,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "MUGEN_GOAL_12",
-                                "0 float m_posX": -28.4799995,
-                                "0 float m_posY": 6.00006008,
-                                "0 float m_posZ": 147.889999,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "SAFEAREA_01",
-                                "0 float m_posX": 34.25,
-                                "0 float m_posY": 0,
-                                "0 float m_posZ": 17.5,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "SAFEAREA_02",
-                                "0 float m_posX": 17.5100002,
-                                "0 float m_posY": 4,
-                                "0 float m_posZ": 61.4799995,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "SAFEAREA_03",
-                                "0 float m_posX": -30.5,
-                                "0 float m_posY": 6,
-                                "0 float m_posZ": 153.5,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 0,
-                                "0 float m_scaleY": 0,
-                                "0 float m_scaleZ": 0,
-                                "0 int m_type": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "SOUND_01",
-                                "0 float m_posX": 11.9799995,
-                                "0 float m_posY": 3.31999993,
-                                "0 float m_posZ": 73.0100021,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 5,
-                                "0 float m_scaleY": 5,
-                                "0 float m_scaleZ": 5,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "SOUND_02",
-                                "0 float m_posX": 11.9799995,
-                                "0 float m_posY": 3.31999993,
-                                "0 float m_posZ": 98.5100021,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 5,
-                                "0 float m_scaleY": 5,
-                                "0 float m_scaleZ": 5,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "SOUND_03",
-                                "0 float m_posX": 11.9799995,
-                                "0 float m_posY": 3.31999993,
-                                "0 float m_posZ": 119.129997,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 5,
-                                "0 float m_scaleY": 5,
-                                "0 float m_scaleZ": 5,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "SOUND_04",
-                                "0 float m_posX": 35.4900017,
-                                "0 float m_posY": 3.31999993,
-                                "0 float m_posZ": 96.4000015,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 5,
-                                "0 float m_scaleY": 5,
-                                "0 float m_scaleZ": 5,
-                                "0 int m_type": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "SOUND_05",
-                                "0 float m_posX": 15.1000004,
-                                "0 float m_posY": 4.15999985,
-                                "0 float m_posZ": 135.809998,
-                                "0 float m_rotY": 0,
-                                "0 float m_scaleX": 5,
-                                "0 float m_scaleY": 5,
-                                "0 float m_scaleZ": 5,
-                                "0 int m_type": 2
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "CAMERA_LOCK_01",
+                    "0 float m_posX": 25,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 100,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 150,
+                    "0 float m_scaleY": 50,
+                    "0 float m_scaleZ": 200,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_01",
+                    "0 float m_posX": 67.8000031,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 18.3199997,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 3,
+                    "0 float m_scaleY": 3,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_02",
+                    "0 float m_posX": 69.0599976,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 22.0799999,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 10,
+                    "0 float m_scaleY": 1,
+                    "0 float m_scaleZ": 6,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_03",
+                    "0 float m_posX": 72.7900009,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 37.7999992,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 3,
+                    "0 float m_scaleY": 3,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_04",
+                    "0 float m_posX": 68.4400024,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 42.5699997,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 3,
+                    "0 float m_scaleY": 3,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_05",
+                    "0 float m_posX": 64.6999969,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 37.5999985,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 2.5,
+                    "0 float m_scaleY": 2.5,
+                    "0 float m_scaleZ": 2.5,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_06",
+                    "0 float m_posX": 70,
+                    "0 float m_posY": 2,
+                    "0 float m_posZ": 68.4400024,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 4,
+                    "0 float m_scaleY": 1,
+                    "0 float m_scaleZ": 5,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_07",
+                    "0 float m_posX": 73.9499969,
+                    "0 float m_posY": 2,
+                    "0 float m_posZ": 82.2799988,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 4,
+                    "0 float m_scaleY": 4,
+                    "0 float m_scaleZ": 4,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_08",
+                    "0 float m_posX": 58.5400009,
+                    "0 float m_posY": 2,
+                    "0 float m_posZ": 83.5800018,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 4,
+                    "0 float m_scaleY": 1,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_09",
+                    "0 float m_posX": 53.1500015,
+                    "0 float m_posY": 2,
+                    "0 float m_posZ": 83.8399963,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 4,
+                    "0 float m_scaleY": 1,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_10",
+                    "0 float m_posX": 39.7700005,
+                    "0 float m_posY": 3.5,
+                    "0 float m_posZ": 83.7399979,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 3,
+                    "0 float m_scaleY": 1,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_11",
+                    "0 float m_posX": 8.06999969,
+                    "0 float m_posY": 4.51999998,
+                    "0 float m_posZ": 87.7699966,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 6,
+                    "0 float m_scaleY": 1,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_12",
+                    "0 float m_posX": 1.13999999,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 86.9100037,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 3,
+                    "0 float m_scaleY": 3,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_13",
+                    "0 float m_posX": -0.100000001,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 64.2200012,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 2.5,
+                    "0 float m_scaleY": 2.5,
+                    "0 float m_scaleZ": 2.5,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_14",
+                    "0 float m_posX": -4.9000001,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 63.4199982,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 2.5,
+                    "0 float m_scaleY": 2.5,
+                    "0 float m_scaleZ": 2.5,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_15",
+                    "0 float m_posX": -1.62,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 57.4900017,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 2.5,
+                    "0 float m_scaleY": 2.5,
+                    "0 float m_scaleZ": 2.5,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_16",
+                    "0 float m_posX": -5.71000004,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 57,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 2.5,
+                    "0 float m_scaleY": 2.5,
+                    "0 float m_scaleZ": 2.5,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_17",
+                    "0 float m_posX": 15.9200001,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 87.8000031,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 6,
+                    "0 float m_scaleY": 10,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_18",
+                    "0 float m_posX": -0.0700000003,
+                    "0 float m_posY": 4.5,
+                    "0 float m_posZ": 72.0699997,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 3,
+                    "0 float m_scaleY": 10,
+                    "0 float m_scaleZ": 6,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_19",
+                    "0 float m_posX": -1.57000005,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 105.239998,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 3,
+                    "0 float m_scaleY": 3,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_20",
+                    "0 float m_posX": -1.88999999,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 110.940002,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 3,
+                    "0 float m_scaleY": 3,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_21",
+                    "0 float m_posX": 4.8499999,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 107.779999,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 3,
+                    "0 float m_scaleY": 3,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_22",
+                    "0 float m_posX": 25.2700005,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 84.1100006,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 8,
+                    "0 float m_scaleY": 1,
+                    "0 float m_scaleZ": 10,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_31",
+                    "0 float m_posX": 75.7900009,
+                    "0 float m_posY": 2,
+                    "0 float m_posZ": 84.3700027,
+                    "0 float m_rotY": 225.000031,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_32",
+                    "0 float m_posX": -1.98000002,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 110.879997,
+                    "0 float m_rotY": 134.999954,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_71",
+                    "0 float m_posX": 5.90999985,
+                    "0 float m_posY": 6,
+                    "0 float m_posZ": 151.289993,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 3,
+                    "0 float m_scaleY": 3,
+                    "0 float m_scaleZ": 3,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_81",
+                    "0 float m_posX": 63.0999985,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 42.3800011,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 2,
+                    "0 float m_scaleY": 2,
+                    "0 float m_scaleZ": 2,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_82",
+                    "0 float m_posX": 25.6299992,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 109.910004,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 5,
+                    "0 float m_scaleY": 5,
+                    "0 float m_scaleZ": 5,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ENEMY_91",
+                    "0 float m_posX": 4.23999977,
+                    "0 float m_posY": 6,
+                    "0 float m_posZ": 148.190002,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 20,
+                    "0 float m_scaleY": 20,
+                    "0 float m_scaleZ": 20,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ITEMBOX_01",
+                    "0 float m_posX": 69,
+                    "0 float m_posY": 2,
+                    "0 float m_posZ": 89.25,
+                    "0 float m_rotY": 180,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ITEMBOX_02",
+                    "0 float m_posX": -9.5,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 65,
+                    "0 float m_rotY": 90,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ITEMBOX_03",
+                    "0 float m_posX": -5.25,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 108.75,
+                    "0 float m_rotY": 90,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "ITEMBOX_04",
+                    "0 float m_posX": -29,
+                    "0 float m_posY": 6,
+                    "0 float m_posZ": 161.5,
+                    "0 float m_rotY": 180,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "KAKURIYO_ROAD_01",
+                    "0 float m_posX": 23.5,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 61.75,
+                    "0 float m_rotY": 315,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "KAKURIYO_ROAD_02",
+                    "0 float m_posX": 4,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 80,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAPJUMP_FROM_01",
+                    "0 float m_posX": 36.5,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 16,
+                    "0 float m_rotY": 180,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAPJUMP_FROM_02",
+                    "0 float m_posX": -24,
+                    "0 float m_posY": 6,
+                    "0 float m_posZ": 160,
+                    "0 float m_rotY": 180,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAPJUMP_FROM_11",
+                    "0 float m_posX": 9.9630003,
+                    "0 float m_posY": 3.99999785,
+                    "0 float m_posZ": 59.8619995,
+                    "0 float m_rotY": 270,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAPJUMP_FROM_12",
+                    "0 float m_posX": 80.1900024,
+                    "0 float m_posY": 0.0000224113683,
+                    "0 float m_posZ": 75.4199982,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAPJUMP_TO_01",
+                    "0 float m_posX": 36.5,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 18,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 1,
+                    "0 float m_scaleY": 6,
+                    "0 float m_scaleZ": 1,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MAPJUMP_TO_02",
+                    "0 float m_posX": -24,
+                    "0 float m_posY": 6,
+                    "0 float m_posZ": 163.199997,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 2,
+                    "0 float m_scaleY": 6,
+                    "0 float m_scaleZ": 2,
+                    "0 int m_type": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MUGEN_GOAL_11",
+                    "0 float m_posX": 15.0799999,
+                    "0 float m_posY": 3.99998379,
+                    "0 float m_posZ": 60.1599998,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "MUGEN_GOAL_12",
+                    "0 float m_posX": -28.4799995,
+                    "0 float m_posY": 6.00006008,
+                    "0 float m_posZ": 147.889999,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "SAFEAREA_01",
+                    "0 float m_posX": 34.25,
+                    "0 float m_posY": 0,
+                    "0 float m_posZ": 17.5,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "SAFEAREA_02",
+                    "0 float m_posX": 17.5100002,
+                    "0 float m_posY": 4,
+                    "0 float m_posZ": 61.4799995,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "SAFEAREA_03",
+                    "0 float m_posX": -30.5,
+                    "0 float m_posY": 6,
+                    "0 float m_posZ": 153.5,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 0,
+                    "0 float m_scaleY": 0,
+                    "0 float m_scaleZ": 0,
+                    "0 int m_type": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "SOUND_01",
+                    "0 float m_posX": 11.9799995,
+                    "0 float m_posY": 3.31999993,
+                    "0 float m_posZ": 73.0100021,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 5,
+                    "0 float m_scaleY": 5,
+                    "0 float m_scaleZ": 5,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "SOUND_02",
+                    "0 float m_posX": 11.9799995,
+                    "0 float m_posY": 3.31999993,
+                    "0 float m_posZ": 98.5100021,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 5,
+                    "0 float m_scaleY": 5,
+                    "0 float m_scaleZ": 5,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "SOUND_03",
+                    "0 float m_posX": 11.9799995,
+                    "0 float m_posY": 3.31999993,
+                    "0 float m_posZ": 119.129997,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 5,
+                    "0 float m_scaleY": 5,
+                    "0 float m_scaleZ": 5,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "SOUND_04",
+                    "0 float m_posX": 35.4900017,
+                    "0 float m_posY": 3.31999993,
+                    "0 float m_posZ": 96.4000015,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 5,
+                    "0 float m_scaleY": 5,
+                    "0 float m_scaleZ": 5,
+                    "0 int m_type": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "SOUND_05",
+                    "0 float m_posX": 15.1000004,
+                    "0 float m_posY": 4.15999985,
+                    "0 float m_posZ": 135.809998,
+                    "0 float m_rotY": 0,
+                    "0 float m_scaleX": 5,
+                    "0 float m_scaleY": 5,
+                    "0 float m_scaleZ": 5,
+                    "0 int m_type": 2
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

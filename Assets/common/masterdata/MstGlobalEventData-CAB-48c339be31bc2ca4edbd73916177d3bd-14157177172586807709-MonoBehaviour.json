@@ -1,72 +1,69 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 3153212955839233500
+    },
+    "1 string m_Name": "MstGlobalEventData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 3153212955839233521
-        },
-        "1 string m_Name": "MstGlobalEventData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Event",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Event",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "0 float m_defaultTimelineMoveSpeed": 6,
-                                "0 float m_skipFadeTime": 0.5,
-                                "0 float m_npcTurnedTowardTime": 0.5,
-                                "0 float m_npcNotTurnedTowardAngle": 10,
-                                "0 float m_npcMoveSpeed": 2.5,
-                                "0 float m_npcSpinSpeed": 180,
-                                "0 float m_npcFollowDistance": 1,
-                                "0 float m_npcBalloonOffset": 0.5,
-                                "0 float m_messageNameWait": 0.200000003,
-                                "0 float m_messageTextWait": 0.200000003,
-                                "0 float m_kamishiroAddDuration": 3,
-                                "1 string m_kamishiroAddCameraCurveType": "InSine",
-                                "0 float m_kamishiroAddZoomDistance": 8,
-                                "1 string m_kamishiroAddFeedbackBlurCurveType": "OutBounce",
-                                "0 float m_kamishiroAddFeedbackBlurMin": 0.5,
-                                "0 float m_kamishiroAddFeedbackBlurMax": 0.899999976,
-                                "1 string m_kamishiroAddRadiaBlurCurveType": "InSine",
-                                "0 float m_kamishiroAddRadialBlurMin": 0,
-                                "0 float m_kamishiroAddRadialBlurMax": 1,
-                                "0 float m_kamishiroMemoryDuration": 2.5,
-                                "1 string m_kamishiroMemoryCameraCurveType": "OutSine",
-                                "0 float m_kamishiroMemoryZoomDistance": 8,
-                                "1 string m_kamishiroMemoryFeedbackBlurCurveType": "OutBounce",
-                                "0 float m_kamishiroMemoryFeedbackBlurMin": 0.5,
-                                "0 float m_kamishiroMemoryFeedbackBlurMax": 0.899999976,
-                                "1 string m_kamishiroMemoryRadiaBlurCurveType": "OutSine",
-                                "0 float m_kamishiroMemoryRadialBlurMin": 0,
-                                "0 float m_kamishiroMemoryRadialBlurMax": 1,
-                                "0 float m_messageSpeedSlow": 0.118000001,
-                                "0 float m_messageSpeedNormal": 0.0788000003,
-                                "0 float m_messageSpeedFast": 0.0350000001,
-                                "0 float m_messageSpeedSlowEn": 0.0788000003,
-                                "0 float m_messageSpeedNormalEn": 0.0350000001,
-                                "0 float m_messageSpeedFastEn": 0.0154999997,
-                                "0 float m_autoMessageSlow": 3,
-                                "0 float m_autoMessageNormal": 1.5,
-                                "0 float m_autoMessageFast": 0.75,
-                                "0 float m_autoMessageMoment": 0.100000001
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "0 float m_defaultTimelineMoveSpeed": 6,
+                    "0 float m_skipFadeTime": 0.5,
+                    "0 float m_npcTurnedTowardTime": 0.5,
+                    "0 float m_npcNotTurnedTowardAngle": 10,
+                    "0 float m_npcMoveSpeed": 2.5,
+                    "0 float m_npcSpinSpeed": 180,
+                    "0 float m_npcFollowDistance": 1,
+                    "0 float m_npcBalloonOffset": 0.5,
+                    "0 float m_messageNameWait": 0.200000003,
+                    "0 float m_messageTextWait": 0.200000003,
+                    "0 float m_kamishiroAddDuration": 3,
+                    "1 string m_kamishiroAddCameraCurveType": "InSine",
+                    "0 float m_kamishiroAddZoomDistance": 8,
+                    "1 string m_kamishiroAddFeedbackBlurCurveType": "OutBounce",
+                    "0 float m_kamishiroAddFeedbackBlurMin": 0.5,
+                    "0 float m_kamishiroAddFeedbackBlurMax": 0.899999976,
+                    "1 string m_kamishiroAddRadiaBlurCurveType": "InSine",
+                    "0 float m_kamishiroAddRadialBlurMin": 0,
+                    "0 float m_kamishiroAddRadialBlurMax": 1,
+                    "0 float m_kamishiroMemoryDuration": 2.5,
+                    "1 string m_kamishiroMemoryCameraCurveType": "OutSine",
+                    "0 float m_kamishiroMemoryZoomDistance": 8,
+                    "1 string m_kamishiroMemoryFeedbackBlurCurveType": "OutBounce",
+                    "0 float m_kamishiroMemoryFeedbackBlurMin": 0.5,
+                    "0 float m_kamishiroMemoryFeedbackBlurMax": 0.899999976,
+                    "1 string m_kamishiroMemoryRadiaBlurCurveType": "OutSine",
+                    "0 float m_kamishiroMemoryRadialBlurMin": 0,
+                    "0 float m_kamishiroMemoryRadialBlurMax": 1,
+                    "0 float m_messageSpeedSlow": 0.118000001,
+                    "0 float m_messageSpeedNormal": 0.0788000003,
+                    "0 float m_messageSpeedFast": 0.0350000001,
+                    "0 float m_messageSpeedSlowEn": 0.0788000003,
+                    "0 float m_messageSpeedNormalEn": 0.0350000001,
+                    "0 float m_messageSpeedFastEn": 0.0154999997,
+                    "0 float m_autoMessageSlow": 3,
+                    "0 float m_autoMessageNormal": 1.5,
+                    "0 float m_autoMessageFast": 0.75,
+                    "0 float m_autoMessageMoment": 0.100000001
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

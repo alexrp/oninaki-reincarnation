@@ -1,623 +1,732 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -922444040986595000
+    },
+    "1 string m_Name": "MstEventSystem",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
+          "0 Sheet data": {
+            "1 string m_name": "UpdateCommand",
+            "0 Param m_list": {
+              "0 Array Array": [
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【プレイヤー変更】",
+                    "0 int m_outputCommandName": 3
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【パートナー変更】",
+                    "0 int m_outputCommandName": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【鬼ビ人解放】",
+                    "0 int m_outputCommandName": 5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【鬼ビ人追加】",
+                    "0 int m_outputCommandName": 6
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【マップ解放】",
+                    "0 int m_outputCommandName": 8
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【マップ変更】",
+                    "0 int m_outputCommandName": 9
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ワールド変更】",
+                    "0 int m_outputCommandName": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ワールドマップ移行】",
+                    "0 int m_outputCommandName": 11
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【過去の過去時代の終了】",
+                    "0 int m_outputCommandName": 16
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【エネミーバトル開始】",
+                    "0 int m_outputCommandName": 12
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【エネミー無効化】",
+                    "0 int m_outputCommandName": 13
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【NPCアクティブ切り替え】",
+                    "0 int m_outputCommandName": 14
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【NPC配置リセット】",
+                    "0 int m_outputCommandName": 15
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【クリアセーブ】",
+                    "0 int m_outputCommandName": 17
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【チュートリアル表示】",
+                    "0 int m_outputCommandName": 18
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【システムメッセージ表示】",
+                    "0 int m_outputCommandName": 19
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ラストマップロック】",
+                    "0 int m_outputCommandName": 20
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ドアギミック操作】",
+                    "0 int m_outputCommandName": 21
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ミニマップ更新】",
+                    "0 int m_outputCommandName": 22
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ビットフラグ】",
+                    "0 int m_outputCommandName": 23
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【カウンター設定】",
+                    "0 int m_outputCommandName": 24
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【カウンター】",
+                    "0 int m_outputCommandName": 25
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【次のイベント実行】",
+                    "0 int m_outputCommandName": 26
+                  }
+                }
+              ]
+            }
+          }
         },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -922444040986594980
+          "0 Sheet data": {
+            "1 string m_name": "ConditionCommand",
+            "0 Param m_list": {
+              "0 Array Array": [
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【マップIN】",
+                    "0 int m_outputCommandName": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ワールドIN】",
+                    "0 int m_outputCommandName": 11
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【コリジョンIN】",
+                    "0 int m_outputCommandName": 13
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【アクセス】",
+                    "0 int m_outputCommandName": 16
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【過去の過去IN】",
+                    "0 int m_outputCommandName": 12
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【NPCアクセス】",
+                    "0 int m_outputCommandName": 14
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ギミックアクセス】",
+                    "0 int m_outputCommandName": 15
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【カクリヨロック解除IN】",
+                    "0 int m_outputCommandName": 17
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【カウントダウンIN】",
+                    "0 int m_outputCommandName": 18
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【敵死亡】",
+                    "0 int m_outputCommandName": 19
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【エリアロック】",
+                    "0 int m_outputCommandName": 9
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ビットフラグ】",
+                    "0 int m_outputCommandName": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【カウンター比較】",
+                    "0 int m_outputCommandName": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【カウンターマスク】",
+                    "0 int m_outputCommandName": 3
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【現在のイベントビットフラグ】",
+                    "0 int m_outputCommandName": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【現在のイベントカウンター比較】",
+                    "0 int m_outputCommandName": 5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【現在のイベントカウンターマスク】",
+                    "0 int m_outputCommandName": 6
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【現在のフェーズ比較】",
+                    "0 int m_outputCommandName": 7
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【現在のフェーズ範囲】",
+                    "0 int m_outputCommandName": 8
+                  }
+                }
+              ]
+            }
+          }
         },
-        "1 string m_Name": "MstEventSystem",
-        "0 Sheet m_sheets": 
         {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "OperatorCommand",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "UpdateCommand",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【プレイヤー変更】",
-                                "0 int m_outputCommandName": 3
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【パートナー変更】",
-                                "0 int m_outputCommandName": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【鬼ビ人解放】",
-                                "0 int m_outputCommandName": 5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【鬼ビ人追加】",
-                                "0 int m_outputCommandName": 6
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【マップ解放】",
-                                "0 int m_outputCommandName": 8
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【マップ変更】",
-                                "0 int m_outputCommandName": 9
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ワールド変更】",
-                                "0 int m_outputCommandName": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ワールドマップ移行】",
-                                "0 int m_outputCommandName": 11
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【過去の過去時代の終了】",
-                                "0 int m_outputCommandName": 16
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【エネミーバトル開始】",
-                                "0 int m_outputCommandName": 12
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【エネミー無効化】",
-                                "0 int m_outputCommandName": 13
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【NPCアクティブ切り替え】",
-                                "0 int m_outputCommandName": 14
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【NPC配置リセット】",
-                                "0 int m_outputCommandName": 15
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【クリアセーブ】",
-                                "0 int m_outputCommandName": 17
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【チュートリアル表示】",
-                                "0 int m_outputCommandName": 18
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【システムメッセージ表示】",
-                                "0 int m_outputCommandName": 19
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ラストマップロック】",
-                                "0 int m_outputCommandName": 20
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ドアギミック操作】",
-                                "0 int m_outputCommandName": 21
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ミニマップ更新】",
-                                "0 int m_outputCommandName": 22
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ビットフラグ】",
-                                "0 int m_outputCommandName": 23
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【カウンター設定】",
-                                "0 int m_outputCommandName": 24
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【カウンター】",
-                                "0 int m_outputCommandName": 25
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【次のイベント実行】",
-                                "0 int m_outputCommandName": 26
-                            }}
-                        ]
-                    }
-                }},
-                {"0 Sheet data": 
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【等しい】",
+                    "0 int m_outputCommandName": 1
+                  }
+                },
                 {
-                    "1 string m_name": "ConditionCommand",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【マップIN】",
-                                "0 int m_outputCommandName": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ワールドIN】",
-                                "0 int m_outputCommandName": 11
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【コリジョンIN】",
-                                "0 int m_outputCommandName": 13
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【アクセス】",
-                                "0 int m_outputCommandName": 16
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【過去の過去IN】",
-                                "0 int m_outputCommandName": 12
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【NPCアクセス】",
-                                "0 int m_outputCommandName": 14
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ギミックアクセス】",
-                                "0 int m_outputCommandName": 15
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【カクリヨロック解除IN】",
-                                "0 int m_outputCommandName": 17
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【カウントダウンIN】",
-                                "0 int m_outputCommandName": 18
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【敵死亡】",
-                                "0 int m_outputCommandName": 19
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【エリアロック】",
-                                "0 int m_outputCommandName": 9
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ビットフラグ】",
-                                "0 int m_outputCommandName": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【カウンター比較】",
-                                "0 int m_outputCommandName": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【カウンターマスク】",
-                                "0 int m_outputCommandName": 3
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【現在のイベントビットフラグ】",
-                                "0 int m_outputCommandName": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【現在のイベントカウンター比較】",
-                                "0 int m_outputCommandName": 5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【現在のイベントカウンターマスク】",
-                                "0 int m_outputCommandName": 6
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【現在のフェーズ比較】",
-                                "0 int m_outputCommandName": 7
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【現在のフェーズ範囲】",
-                                "0 int m_outputCommandName": 8
-                            }}
-                        ]
-                    }
-                }},
-                {"0 Sheet data": 
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【等しくない】",
+                    "0 int m_outputCommandName": 2
+                  }
+                },
                 {
-                    "1 string m_name": "OperatorCommand",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【等しい】",
-                                "0 int m_outputCommandName": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【等しくない】",
-                                "0 int m_outputCommandName": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【より大きい 】",
-                                "0 int m_outputCommandName": 3
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【より小さい】",
-                                "0 int m_outputCommandName": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【以上】",
-                                "0 int m_outputCommandName": 5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【以下】",
-                                "0 int m_outputCommandName": 6
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【以下かつ以下】",
-                                "0 int m_outputCommandName": 7
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【より小さいかつより小さい】",
-                                "0 int m_outputCommandName": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【加算】",
-                                "0 int m_outputCommandName": 13
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【減算】",
-                                "0 int m_outputCommandName": 14
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【乗算】",
-                                "0 int m_outputCommandName": 15
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【除算】",
-                                "0 int m_outputCommandName": 16
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【論理積】",
-                                "0 int m_outputCommandName": 17
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【論理和】",
-                                "0 int m_outputCommandName": 18
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【排他的論理和】",
-                                "0 int m_outputCommandName": 19
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ON】",
-                                "0 int m_outputCommandName": 20
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【OFF】",
-                                "0 int m_outputCommandName": 21
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【==】",
-                                "0 int m_outputCommandName": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【!=】",
-                                "0 int m_outputCommandName": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【>】",
-                                "0 int m_outputCommandName": 3
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【<】",
-                                "0 int m_outputCommandName": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【>=】",
-                                "0 int m_outputCommandName": 5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【<=】",
-                                "0 int m_outputCommandName": 6
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【+=】",
-                                "0 int m_outputCommandName": 13
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【-=】",
-                                "0 int m_outputCommandName": 14
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【*=】",
-                                "0 int m_outputCommandName": 15
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【/=】",
-                                "0 int m_outputCommandName": 16
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【and】",
-                                "0 int m_outputCommandName": 17
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【or】",
-                                "0 int m_outputCommandName": 18
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【xor】",
-                                "0 int m_outputCommandName": 19
-                            }}
-                        ]
-                    }
-                }},
-                {"0 Sheet data": 
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【より大きい 】",
+                    "0 int m_outputCommandName": 3
+                  }
+                },
                 {
-                    "1 string m_name": "SequenceCommand",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【終了】",
-                                "0 int m_outputCommandName": 1
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【スキップ停止】",
-                                "0 int m_outputCommandName": 2
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ラベルジャンプ】",
-                                "0 int m_outputCommandName": 3
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【待機】",
-                                "0 int m_outputCommandName": 4
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【マップ読み込み】",
-                                "0 int m_outputCommandName": 9
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【マップジャンプ】",
-                                "0 int m_outputCommandName": 10
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ワールドチェンジ】",
-                                "0 int m_outputCommandName": 11
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【スタッフロール】",
-                                "0 int m_outputCommandName": 5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【クリアセーブ】",
-                                "0 int m_outputCommandName": 6
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ゲームオーバー】",
-                                "0 int m_outputCommandName": 7
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【体験版終了】",
-                                "0 int m_outputCommandName": 8
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【チュートリアル表示】",
-                                "0 int m_outputCommandName": 42
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ローカルマップサウンド再生】",
-                                "0 int m_outputCommandName": 12
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【ローカルマップサウンド停止】",
-                                "0 int m_outputCommandName": 13
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【環境音ボリューム調整】",
-                                "0 int m_outputCommandName": 14
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【プレイヤー移動】",
-                                "0 int m_outputCommandName": 15
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【パートナー移動】",
-                                "0 int m_outputCommandName": 16
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【カメラ移動】",
-                                "0 int m_outputCommandName": 17
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【カメラ追尾】",
-                                "0 int m_outputCommandName": 18
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【移動待ち】",
-                                "0 int m_outputCommandName": 19
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【プレイヤー抜刀状態】",
-                                "0 int m_outputCommandName": 20
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【NPCアクティブ切り替え】",
-                                "0 int m_outputCommandName": 21
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【プレイヤー配置】",
-                                "0 int m_outputCommandName": 22
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【プレイヤー配置キャラID】",
-                                "0 int m_outputCommandName": 23
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【パートナー配置】",
-                                "0 int m_outputCommandName": 24
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【リンネ配置キャラID】",
-                                "0 int m_outputCommandName": 25
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【リンネ配置相対位置】",
-                                "0 int m_outputCommandName": 26
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【メインUIオープン】",
-                                "0 int m_outputCommandName": 30
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【メインUIクローズ】",
-                                "0 int m_outputCommandName": 31
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【フェードイン】",
-                                "0 int m_outputCommandName": 27
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【フェードアウト】",
-                                "0 int m_outputCommandName": 28
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【フェード待ち】",
-                                "0 int m_outputCommandName": 29
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【上半身イベントカメラ初期化】",
-                                "0 int m_outputCommandName": 32
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【上半身イベントカメラ終了】",
-                                "0 int m_outputCommandName": 33
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【TIMELINE読み込み】",
-                                "0 int m_outputCommandName": 34
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【TIMELINE実行】",
-                                "0 int m_outputCommandName": 35
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【TIMELINE待ち】",
-                                "0 int m_outputCommandName": 36
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【TIMELINEクリア】",
-                                "0 int m_outputCommandName": 37
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【TIMELINE削除】",
-                                "0 int m_outputCommandName": 38
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【選択肢回答表示】",
-                                "0 int m_outputCommandName": 40
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_inputCommandName": "【選択肢分岐】",
-                                "0 int m_outputCommandName": 41
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【より小さい】",
+                    "0 int m_outputCommandName": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【以上】",
+                    "0 int m_outputCommandName": 5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【以下】",
+                    "0 int m_outputCommandName": 6
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【以下かつ以下】",
+                    "0 int m_outputCommandName": 7
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【より小さいかつより小さい】",
+                    "0 int m_outputCommandName": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【加算】",
+                    "0 int m_outputCommandName": 13
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【減算】",
+                    "0 int m_outputCommandName": 14
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【乗算】",
+                    "0 int m_outputCommandName": 15
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【除算】",
+                    "0 int m_outputCommandName": 16
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【論理積】",
+                    "0 int m_outputCommandName": 17
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【論理和】",
+                    "0 int m_outputCommandName": 18
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【排他的論理和】",
+                    "0 int m_outputCommandName": 19
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ON】",
+                    "0 int m_outputCommandName": 20
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【OFF】",
+                    "0 int m_outputCommandName": 21
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【==】",
+                    "0 int m_outputCommandName": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【!=】",
+                    "0 int m_outputCommandName": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【>】",
+                    "0 int m_outputCommandName": 3
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【<】",
+                    "0 int m_outputCommandName": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【>=】",
+                    "0 int m_outputCommandName": 5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【<=】",
+                    "0 int m_outputCommandName": 6
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【+=】",
+                    "0 int m_outputCommandName": 13
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【-=】",
+                    "0 int m_outputCommandName": 14
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【*=】",
+                    "0 int m_outputCommandName": 15
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【/=】",
+                    "0 int m_outputCommandName": 16
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【and】",
+                    "0 int m_outputCommandName": 17
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【or】",
+                    "0 int m_outputCommandName": 18
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【xor】",
+                    "0 int m_outputCommandName": 19
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "0 Sheet data": {
+            "1 string m_name": "SequenceCommand",
+            "0 Param m_list": {
+              "0 Array Array": [
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【終了】",
+                    "0 int m_outputCommandName": 1
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【スキップ停止】",
+                    "0 int m_outputCommandName": 2
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ラベルジャンプ】",
+                    "0 int m_outputCommandName": 3
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【待機】",
+                    "0 int m_outputCommandName": 4
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【マップ読み込み】",
+                    "0 int m_outputCommandName": 9
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【マップジャンプ】",
+                    "0 int m_outputCommandName": 10
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ワールドチェンジ】",
+                    "0 int m_outputCommandName": 11
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【スタッフロール】",
+                    "0 int m_outputCommandName": 5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【クリアセーブ】",
+                    "0 int m_outputCommandName": 6
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ゲームオーバー】",
+                    "0 int m_outputCommandName": 7
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【体験版終了】",
+                    "0 int m_outputCommandName": 8
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【チュートリアル表示】",
+                    "0 int m_outputCommandName": 42
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ローカルマップサウンド再生】",
+                    "0 int m_outputCommandName": 12
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【ローカルマップサウンド停止】",
+                    "0 int m_outputCommandName": 13
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【環境音ボリューム調整】",
+                    "0 int m_outputCommandName": 14
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【プレイヤー移動】",
+                    "0 int m_outputCommandName": 15
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【パートナー移動】",
+                    "0 int m_outputCommandName": 16
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【カメラ移動】",
+                    "0 int m_outputCommandName": 17
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【カメラ追尾】",
+                    "0 int m_outputCommandName": 18
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【移動待ち】",
+                    "0 int m_outputCommandName": 19
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【プレイヤー抜刀状態】",
+                    "0 int m_outputCommandName": 20
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【NPCアクティブ切り替え】",
+                    "0 int m_outputCommandName": 21
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【プレイヤー配置】",
+                    "0 int m_outputCommandName": 22
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【プレイヤー配置キャラID】",
+                    "0 int m_outputCommandName": 23
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【パートナー配置】",
+                    "0 int m_outputCommandName": 24
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【リンネ配置キャラID】",
+                    "0 int m_outputCommandName": 25
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【リンネ配置相対位置】",
+                    "0 int m_outputCommandName": 26
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【メインUIオープン】",
+                    "0 int m_outputCommandName": 30
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【メインUIクローズ】",
+                    "0 int m_outputCommandName": 31
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【フェードイン】",
+                    "0 int m_outputCommandName": 27
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【フェードアウト】",
+                    "0 int m_outputCommandName": 28
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【フェード待ち】",
+                    "0 int m_outputCommandName": 29
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【上半身イベントカメラ初期化】",
+                    "0 int m_outputCommandName": 32
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【上半身イベントカメラ終了】",
+                    "0 int m_outputCommandName": 33
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【TIMELINE読み込み】",
+                    "0 int m_outputCommandName": 34
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【TIMELINE実行】",
+                    "0 int m_outputCommandName": 35
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【TIMELINE待ち】",
+                    "0 int m_outputCommandName": 36
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【TIMELINEクリア】",
+                    "0 int m_outputCommandName": 37
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【TIMELINE削除】",
+                    "0 int m_outputCommandName": 38
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【選択肢回答表示】",
+                    "0 int m_outputCommandName": 40
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_inputCommandName": "【選択肢分岐】",
+                    "0 int m_outputCommandName": 41
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

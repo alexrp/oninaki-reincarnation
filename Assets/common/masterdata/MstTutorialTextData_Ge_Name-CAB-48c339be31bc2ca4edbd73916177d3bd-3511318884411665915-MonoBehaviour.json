@@ -1,256 +1,297 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 700889133894525400
+    },
+    "1 string m_Name": "MstTutorialTextData_Ge_Name",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 700889133894525418
-        },
-        "1 string m_Name": "MstTutorialTextData_Ge_Name",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Name",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Name",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_001",
-                                "1 string m_name": "Heil-Räucherstäbchen"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_002",
-                                "1 string m_name": "Minikarte"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_003",
-                                "1 string m_name": "Welt der Leb./Jenseits"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_004",
-                                "1 string m_name": "Wechsel"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_005",
-                                "1 string m_name": "Schwächungszauber"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_006",
-                                "1 string m_name": "Erschei. & Verbunden."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_007",
-                                "1 string m_name": "Erwachen von Fertigkeiten"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_008",
-                                "1 string m_name": "Erwachen"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_009",
-                                "1 string m_name": "Der Alchemist"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_011",
-                                "1 string m_name": "Ereignisse mit Verlorenen"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_012",
-                                "1 string m_name": "Verwenden von Grenzst."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_013",
-                                "1 string m_name": "Grenzsteine"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_014",
-                                "1 string m_name": "Verbessern von Waffen"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_015",
-                                "1 string m_name": "Schattenst. hinzufügen "
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_016",
-                                "1 string m_name": "Umwandlung"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_017",
-                                "1 string m_name": "Umwandlungsboni"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_018",
-                                "1 string m_name": "Schattenst. rückgewinnen"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_019",
-                                "1 string m_name": "Wechseln der Waffen"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_020",
-                                "1 string m_name": "Wechseln der Fertigkeiten"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_021",
-                                "1 string m_name": "Fertigkeitsbaum"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_022",
-                                "1 string m_name": "Daemon-Rang"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_024",
-                                "1 string m_name": "Zuweisen von Erwachen"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_025",
-                                "1 string m_name": "Wechseln zwischen Karten"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_026",
-                                "1 string m_name": "Schnelles Reisen"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_027",
-                                "1 string m_name": "Schatten"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_029",
-                                "1 string m_name": "Heiligtum der Wied."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_030",
-                                "1 string m_name": "Daemonenkunde"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_031",
-                                "1 string m_name": "Vorbestellte Waffe"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_032",
-                                "1 string m_name": "Vorbestellte Waffe"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_033",
-                                "1 string m_name": "Vorbestellte Waffe"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_034",
-                                "1 string m_name": "Seelensteine"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_035",
-                                "1 string m_name": "Daemonen individ."
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_036",
-                                "1 string m_name": "Schattensteine"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_037",
-                                "1 string m_name": "Nach dem Ende"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_101",
-                                "1 string m_name": "Aisha"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_102",
-                                "1 string m_name": "Zaav"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_103",
-                                "1 string m_name": "Wil"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_104",
-                                "1 string m_name": "Izana"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_105",
-                                "1 string m_name": "Rigan"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_106",
-                                "1 string m_name": "Dia"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_107",
-                                "1 string m_name": "Gavod"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_108",
-                                "1 string m_name": "Lucika"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_109",
-                                "1 string m_name": "Treize"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_111",
-                                "1 string m_name": "Zephyr"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "TUTORIAL_112",
-                                "1 string m_name": "Jex"
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_001",
+                    "1 string m_name": "Heil-Räucherstäbchen"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_002",
+                    "1 string m_name": "Minikarte"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_003",
+                    "1 string m_name": "Welt der Leb./Jenseits"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_004",
+                    "1 string m_name": "Wechsel"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_005",
+                    "1 string m_name": "Schwächungszauber"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_006",
+                    "1 string m_name": "Erschei. & Verbunden."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_007",
+                    "1 string m_name": "Erwachen von Fertigkeiten"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_008",
+                    "1 string m_name": "Erwachen"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_009",
+                    "1 string m_name": "Der Alchemist"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_011",
+                    "1 string m_name": "Ereignisse mit Verlorenen"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_012",
+                    "1 string m_name": "Verwenden von Grenzst."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_013",
+                    "1 string m_name": "Grenzsteine"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_014",
+                    "1 string m_name": "Verbessern von Waffen"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_015",
+                    "1 string m_name": "Schattenst. hinzufügen "
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_016",
+                    "1 string m_name": "Umwandlung"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_017",
+                    "1 string m_name": "Umwandlungsboni"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_018",
+                    "1 string m_name": "Schattenst. rückgewinnen"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_019",
+                    "1 string m_name": "Wechseln der Waffen"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_020",
+                    "1 string m_name": "Wechseln der Fertigkeiten"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_021",
+                    "1 string m_name": "Fertigkeitsbaum"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_022",
+                    "1 string m_name": "Daemon-Rang"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_024",
+                    "1 string m_name": "Zuweisen von Erwachen"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_025",
+                    "1 string m_name": "Wechseln zwischen Karten"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_026",
+                    "1 string m_name": "Schnelles Reisen"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_027",
+                    "1 string m_name": "Schatten"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_029",
+                    "1 string m_name": "Heiligtum der Wied."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_030",
+                    "1 string m_name": "Daemonenkunde"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_031",
+                    "1 string m_name": "Vorbestellte Waffe"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_032",
+                    "1 string m_name": "Vorbestellte Waffe"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_033",
+                    "1 string m_name": "Vorbestellte Waffe"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_034",
+                    "1 string m_name": "Seelensteine"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_035",
+                    "1 string m_name": "Daemonen individ."
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_036",
+                    "1 string m_name": "Schattensteine"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_037",
+                    "1 string m_name": "Nach dem Ende"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_101",
+                    "1 string m_name": "Aisha"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_102",
+                    "1 string m_name": "Zaav"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_103",
+                    "1 string m_name": "Wil"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_104",
+                    "1 string m_name": "Izana"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_105",
+                    "1 string m_name": "Rigan"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_106",
+                    "1 string m_name": "Dia"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_107",
+                    "1 string m_name": "Gavod"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_108",
+                    "1 string m_name": "Lucika"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_109",
+                    "1 string m_name": "Treize"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_111",
+                    "1 string m_name": "Zephyr"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "TUTORIAL_112",
+                    "1 string m_name": "Jex"
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

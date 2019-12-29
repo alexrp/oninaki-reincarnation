@@ -1,418 +1,612 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 4575087062890890000
+    },
+    "1 string m_Name": "MstEventUpperBodyData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 4575087062890890116
-        },
-        "1 string m_Name": "MstEventUpperBodyData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "PointPosition",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "PointPosition",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "L_L",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": -1},
-                                        {"0 float data": -1.07000005},
-                                        {"0 float data": 9}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 140},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": "Player"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "L_C",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": -0.850000024},
-                                        {"0 float data": -1.07000005},
-                                        {"0 float data": 9}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 140},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": "Player"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "L_R",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": -0.569999993},
-                                        {"0 float data": -1.07000005},
-                                        {"0 float data": 10}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 140},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": "Player"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "R_R",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 1},
-                                        {"0 float data": -1.07000005},
-                                        {"0 float data": 9}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 220},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": "Npc"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "R_C",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0.850000024},
-                                        {"0 float data": -1.07000005},
-                                        {"0 float data": 9}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 220},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": "Npc"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "R_L",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0.569999993},
-                                        {"0 float data": -1.07000005},
-                                        {"0 float data": 10}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 220},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": "Npc"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "C_N",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": -1.07000005},
-                                        {"0 float data": 9}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": "Player"
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "C_F",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": -1.07000005},
-                                        {"0 float data": 10}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": "Player"
-                            }}
-                        ]
-                    }
-                }},
-                {"0 Sheet data": 
+                  "0 Param data": {
+                    "1 string m_id": "L_L",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": -1
+                        },
+                        {
+                          "0 float data": -1.07000005
+                        },
+                        {
+                          "0 float data": 9
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 140
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": "Player"
+                  }
+                },
                 {
-                    "1 string m_name": "CharaOffset",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_0001",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0.140000001},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_0050",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": -0.100000001},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_0201",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0.0299999993},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_0301",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0.140000001},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_1100",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0.140000001},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_1150",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0.140000001},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_1200",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0.100000001},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_1250",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0.119999997},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_1300",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0.119999997},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": ""
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_1350",
-                                "0 vector m_pos": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0.129999995},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "0 vector m_rot": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 float data": 0},
-                                        {"0 float data": 0},
-                                        {"0 float data": 0}
-                                    ]
-                                },
-                                "1 string m_layer": ""
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "L_C",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": -0.850000024
+                        },
+                        {
+                          "0 float data": -1.07000005
+                        },
+                        {
+                          "0 float data": 9
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 140
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": "Player"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "L_R",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": -0.569999993
+                        },
+                        {
+                          "0 float data": -1.07000005
+                        },
+                        {
+                          "0 float data": 10
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 140
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": "Player"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "R_R",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 1
+                        },
+                        {
+                          "0 float data": -1.07000005
+                        },
+                        {
+                          "0 float data": 9
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 220
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": "Npc"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "R_C",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0.850000024
+                        },
+                        {
+                          "0 float data": -1.07000005
+                        },
+                        {
+                          "0 float data": 9
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 220
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": "Npc"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "R_L",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0.569999993
+                        },
+                        {
+                          "0 float data": -1.07000005
+                        },
+                        {
+                          "0 float data": 10
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 220
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": "Npc"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "C_N",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": -1.07000005
+                        },
+                        {
+                          "0 float data": 9
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": "Player"
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "C_F",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": -1.07000005
+                        },
+                        {
+                          "0 float data": 10
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": "Player"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "0 Sheet data": {
+            "1 string m_name": "CharaOffset",
+            "0 Param m_list": {
+              "0 Array Array": [
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_0001",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0.140000001
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_0050",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": -0.100000001
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_0201",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0.0299999993
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_0301",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0.140000001
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_1100",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0.140000001
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_1150",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0.140000001
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_1200",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0.100000001
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_1250",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0.119999997
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_1300",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0.119999997
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": ""
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "CN_1350",
+                    "0 vector m_pos": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0.129999995
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_rot": {
+                      "1 Array Array": [
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        },
+                        {
+                          "0 float data": 0
+                        }
+                      ]
+                    },
+                    "1 string m_layer": ""
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

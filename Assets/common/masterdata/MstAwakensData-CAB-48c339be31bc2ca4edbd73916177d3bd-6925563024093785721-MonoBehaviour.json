@@ -1,1000 +1,1395 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": -6749676576905353000
+    },
+    "1 string m_Name": "MstAwakensData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": -6749676576905353095
-        },
-        "1 string m_Name": "MstAwakensData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Awakens",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Awakens",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_001",
-                                "1 string m_propertyId": "AWAKE_PROP_001",
-                                "0 int m_sort": 0,
-                                "1 string m_iconName": "@uin_icon_skill_property_01",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 1},
-                                        {"0 int data": 8},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "130"},
-                                        {"1 string data": "130"},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 1},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 4,
-                                "0 int m_unlockAwakensNum": 4,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0,
-                                "0 float m_hpGreaterAddRatio": 0,
-                                "0 float m_syncLessAddRatio": 0,
-                                "0 float m_syncGreaterAddRatio": 0,
-                                "0 float m_kikokuAddRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_002",
-                                "1 string m_propertyId": "AWAKE_PROP_002",
-                                "0 int m_sort": 1,
-                                "1 string m_iconName": "@uin_icon_skill_property_02",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 1},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "150"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 2},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "80"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 0,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0.300000012,
-                                "0 float m_guardAddRatio": 0.300000012,
-                                "0 float m_hpLessAddRatio": 0,
-                                "0 float m_hpGreaterAddRatio": 0.200000003,
-                                "0 float m_syncLessAddRatio": 0,
-                                "0 float m_syncGreaterAddRatio": 0.200000003,
-                                "0 float m_kikokuAddRatio": 0.200000003
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_003",
-                                "1 string m_propertyId": "AWAKE_PROP_003",
-                                "0 int m_sort": 2,
-                                "1 string m_iconName": "@uin_icon_skill_property_03",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 3},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "50"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 7},
-                                        {"0 int data": 8},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "8"},
-                                        {"1 string data": "20"},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 1,
-                                "0 float m_normalAddRatio": 0.300000012,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0,
-                                "0 float m_hpGreaterAddRatio": 0,
-                                "0 float m_syncLessAddRatio": 0,
-                                "0 float m_syncGreaterAddRatio": 0.200000003,
-                                "0 float m_kikokuAddRatio": 0.200000003
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_004",
-                                "1 string m_propertyId": "AWAKE_PROP_004",
-                                "0 int m_sort": 3,
-                                "1 string m_iconName": "@uin_icon_skill_property_04",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 18},
-                                        {"0 int data": 3},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "50"},
-                                        {"1 string data": "25"},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 10},
-                                        {"0 int data": 7},
-                                        {"0 int data": 21}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "10"},
-                                        {"1 string data": "4"},
-                                        {"1 string data": "1"}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 1,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0.300000012,
-                                "0 float m_statusEffectAddRatio": 0.300000012,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0.200000003,
-                                "0 float m_hpGreaterAddRatio": 0,
-                                "0 float m_syncLessAddRatio": 0.200000003,
-                                "0 float m_syncGreaterAddRatio": 0,
-                                "0 float m_kikokuAddRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_005",
-                                "1 string m_propertyId": "AWAKE_PROP_005",
-                                "0 int m_sort": 4,
-                                "1 string m_iconName": "@uin_icon_skill_property_05",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 4},
-                                        {"0 int data": 5},
-                                        {"0 int data": 6}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "50"},
-                                        {"1 string data": "999"},
-                                        {"1 string data": "999"}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 4},
-                                        {"0 int data": 5},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "15"},
-                                        {"1 string data": "25"},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 1,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0.300000012,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0.300000012,
-                                "0 float m_hpLessAddRatio": 0.200000003,
-                                "0 float m_hpGreaterAddRatio": 0,
-                                "0 float m_syncLessAddRatio": 0,
-                                "0 float m_syncGreaterAddRatio": 0,
-                                "0 float m_kikokuAddRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_006",
-                                "1 string m_propertyId": "AWAKE_PROP_006",
-                                "0 int m_sort": 5,
-                                "1 string m_iconName": "@uin_icon_skill_property_06",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 13},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "STATUS_AWKS_HEAL"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 6},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "10"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 1,
-                                "0 float m_normalAddRatio": 0.300000012,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0.200000003,
-                                "0 float m_hpGreaterAddRatio": 0,
-                                "0 float m_syncLessAddRatio": 0.200000003,
-                                "0 float m_syncGreaterAddRatio": 0,
-                                "0 float m_kikokuAddRatio": 0.200000003
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_007",
-                                "1 string m_propertyId": "AWAKE_PROP_007",
-                                "0 int m_sort": 6,
-                                "1 string m_iconName": "@uin_icon_skill_property_07",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 9},
-                                        {"0 int data": 20},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "999"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 16},
-                                        {"0 int data": 15},
-                                        {"0 int data": 13}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "100"},
-                                        {"1 string data": "50"},
-                                        {"1 string data": "STATUS_AWKB_DEFUP"}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 3,
-                                "0 float m_normalAddRatio": 0.300000012,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0.200000003,
-                                "0 float m_hpGreaterAddRatio": 0,
-                                "0 float m_syncLessAddRatio": 0.200000003,
-                                "0 float m_syncGreaterAddRatio": 0,
-                                "0 float m_kikokuAddRatio": 0.200000003
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_008",
-                                "1 string m_propertyId": "AWAKE_PROP_008",
-                                "0 int m_sort": 7,
-                                "1 string m_iconName": "@uin_icon_skill_property_08",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 12},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "200"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 20},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "0.5"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 0,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0.300000012,
-                                "0 float m_statusEffectAddRatio": 0.300000012,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0,
-                                "0 float m_hpGreaterAddRatio": 0.200000003,
-                                "0 float m_syncLessAddRatio": 0.200000003,
-                                "0 float m_syncGreaterAddRatio": -0.5,
-                                "0 float m_kikokuAddRatio": -0.5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_009",
-                                "1 string m_propertyId": "AWAKE_PROP_009",
-                                "0 int m_sort": 8,
-                                "1 string m_iconName": "@uin_icon_skill_property_09",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 23},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "150"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 3},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "80"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 3,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0.300000012,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0.200000003,
-                                "0 float m_hpGreaterAddRatio": 0,
-                                "0 float m_syncLessAddRatio": 0,
-                                "0 float m_syncGreaterAddRatio": 0.200000003,
-                                "0 float m_kikokuAddRatio": 0.200000003
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_010",
-                                "1 string m_propertyId": "AWAKE_PROP_010",
-                                "0 int m_sort": 9,
-                                "1 string m_iconName": "@uin_icon_skill_property_10",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 19},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "50"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 17},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 4,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0.200000003,
-                                "0 float m_hpGreaterAddRatio": 0,
-                                "0 float m_syncLessAddRatio": 0.200000003,
-                                "0 float m_syncGreaterAddRatio": 0,
-                                "0 float m_kikokuAddRatio": 0.200000003
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_011",
-                                "1 string m_propertyId": "AWAKE_PROP_011",
-                                "0 int m_sort": 10,
-                                "1 string m_iconName": "@uin_icon_skill_property_11",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 21},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "30"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 18},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "30"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 4,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0.300000012,
-                                "0 float m_guardAddRatio": 0.300000012,
-                                "0 float m_hpLessAddRatio": 0,
-                                "0 float m_hpGreaterAddRatio": 0.200000003,
-                                "0 float m_syncLessAddRatio": 0,
-                                "0 float m_syncGreaterAddRatio": 0.200000003,
-                                "0 float m_kikokuAddRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_012",
-                                "1 string m_propertyId": "AWAKE_PROP_012",
-                                "0 int m_sort": 11,
-                                "1 string m_iconName": "@uin_icon_skill_property_12",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 17},
-                                        {"0 int data": 15},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "STATUS_AWKS_REACT"},
-                                        {"1 string data": "STATUS_AWKS_REACT"},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 11},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "STATUS_AWKB_REACT"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 3,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0.300000012,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0.300000012,
-                                "0 float m_hpLessAddRatio": 0,
-                                "0 float m_hpGreaterAddRatio": 0.200000003,
-                                "0 float m_syncLessAddRatio": 0,
-                                "0 float m_syncGreaterAddRatio": 0.200000003,
-                                "0 float m_kikokuAddRatio": 0.200000003
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_013",
-                                "1 string m_propertyId": "AWAKE_PROP_013",
-                                "0 int m_sort": 12,
-                                "1 string m_iconName": "@uin_icon_skill_property_13",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 16},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "50"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 10},
-                                        {"0 int data": 9},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "10"},
-                                        {"1 string data": "0"},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 3,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0.300000012,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0.200000003,
-                                "0 float m_hpGreaterAddRatio": 0,
-                                "0 float m_syncLessAddRatio": 0.200000003,
-                                "0 float m_syncGreaterAddRatio": 0,
-                                "0 float m_kikokuAddRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_014",
-                                "1 string m_propertyId": "AWAKE_PROP_014",
-                                "0 int m_sort": 13,
-                                "1 string m_iconName": "@uin_icon_skill_property_14",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 2},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "50"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 12},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "STATUS_AWKB_ATKDOWN"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 2,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0.300000012,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0.200000003,
-                                "0 float m_hpGreaterAddRatio": 0,
-                                "0 float m_syncLessAddRatio": 0.200000003,
-                                "0 float m_syncGreaterAddRatio": 0,
-                                "0 float m_kikokuAddRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_015",
-                                "1 string m_propertyId": "AWAKE_PROP_015",
-                                "0 int m_sort": 14,
-                                "1 string m_iconName": "@uin_icon_skill_property_15",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 10},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "50"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 12},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "STATUS_AWKB_DEFDOWN"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 2,
-                                "0 float m_normalAddRatio": 0.300000012,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0.300000012,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0,
-                                "0 float m_hpGreaterAddRatio": 0.200000003,
-                                "0 float m_syncLessAddRatio": 0,
-                                "0 float m_syncGreaterAddRatio": 0,
-                                "0 float m_kikokuAddRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_016",
-                                "1 string m_propertyId": "AWAKE_PROP_016",
-                                "0 int m_sort": 15,
-                                "1 string m_iconName": "@uin_icon_skill_property_16",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 7},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "0"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 19},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "80"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 1,
-                                "0 float m_normalAddRatio": 0.300000012,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0.300000012,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0,
-                                "0 float m_hpGreaterAddRatio": 0.200000003,
-                                "0 float m_syncLessAddRatio": 0,
-                                "0 float m_syncGreaterAddRatio": 0.200000003,
-                                "0 float m_kikokuAddRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_018",
-                                "1 string m_propertyId": "AWAKE_PROP_018",
-                                "0 int m_sort": 17,
-                                "1 string m_iconName": "@uin_icon_skill_property_18",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 22},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 22},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": ""},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 4,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0.300000012,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0,
-                                "0 float m_hpGreaterAddRatio": 0,
-                                "0 float m_syncLessAddRatio": 0,
-                                "0 float m_syncGreaterAddRatio": 0,
-                                "0 float m_kikokuAddRatio": 0.200000003
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_019",
-                                "1 string m_propertyId": "AWAKE_PROP_019",
-                                "0 int m_sort": 18,
-                                "1 string m_iconName": "@uin_icon_skill_property_19",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 14},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "STATUS_AWKS_ATKUP"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 13},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "STATUS_AWKB_ATKUP"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 2,
-                                "0 float m_normalAddRatio": 0,
-                                "0 float m_criticalAddRatio": 0.300000012,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0.300000012,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0,
-                                "0 float m_hpGreaterAddRatio": 0.200000003,
-                                "0 float m_syncLessAddRatio": 0,
-                                "0 float m_syncGreaterAddRatio": 0.200000003,
-                                "0 float m_kikokuAddRatio": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "AWAKENS_020",
-                                "1 string m_propertyId": "AWAKE_PROP_020",
-                                "0 int m_sort": 19,
-                                "1 string m_iconName": "@uin_icon_skill_property_20",
-                                "0 vector m_awakensTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 11},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_awakensParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "200"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 vector m_propTypes": 
-                                {
-                                    "1 Array Array": [
-                                        {"0 int data": 14},
-                                        {"0 int data": 0},
-                                        {"0 int data": 0}
-                                    ]
-                                },
-                                "0 vector m_propParams": 
-                                {
-                                    "1 Array Array": [
-                                        {"1 string data": "STATUS_AWKB_SPDUP"},
-                                        {"1 string data": ""},
-                                        {"1 string data": ""}
-                                    ]
-                                },
-                                "0 int m_assignMax": 1,
-                                "0 int m_unlockAwakensNum": 2,
-                                "0 float m_normalAddRatio": 0.300000012,
-                                "0 float m_criticalAddRatio": 0.300000012,
-                                "0 float m_statusEffectAddRatio": 0,
-                                "0 float m_comboAddRatio": 0,
-                                "0 float m_guardAddRatio": 0,
-                                "0 float m_hpLessAddRatio": 0.200000003,
-                                "0 float m_hpGreaterAddRatio": 0,
-                                "0 float m_syncLessAddRatio": 0.200000003,
-                                "0 float m_syncGreaterAddRatio": 0,
-                                "0 float m_kikokuAddRatio": 0
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_001",
+                    "1 string m_propertyId": "AWAKE_PROP_001",
+                    "0 int m_sort": 0,
+                    "1 string m_iconName": "@uin_icon_skill_property_01",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 1
+                        },
+                        {
+                          "0 int data": 8
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "130"
+                        },
+                        {
+                          "1 string data": "130"
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 1
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 4,
+                    "0 int m_unlockAwakensNum": 4,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0,
+                    "0 float m_hpGreaterAddRatio": 0,
+                    "0 float m_syncLessAddRatio": 0,
+                    "0 float m_syncGreaterAddRatio": 0,
+                    "0 float m_kikokuAddRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_002",
+                    "1 string m_propertyId": "AWAKE_PROP_002",
+                    "0 int m_sort": 1,
+                    "1 string m_iconName": "@uin_icon_skill_property_02",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 1
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "150"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 2
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "80"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 0,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0.300000012,
+                    "0 float m_guardAddRatio": 0.300000012,
+                    "0 float m_hpLessAddRatio": 0,
+                    "0 float m_hpGreaterAddRatio": 0.200000003,
+                    "0 float m_syncLessAddRatio": 0,
+                    "0 float m_syncGreaterAddRatio": 0.200000003,
+                    "0 float m_kikokuAddRatio": 0.200000003
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_003",
+                    "1 string m_propertyId": "AWAKE_PROP_003",
+                    "0 int m_sort": 2,
+                    "1 string m_iconName": "@uin_icon_skill_property_03",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 3
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "50"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 7
+                        },
+                        {
+                          "0 int data": 8
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "8"
+                        },
+                        {
+                          "1 string data": "20"
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 1,
+                    "0 float m_normalAddRatio": 0.300000012,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0,
+                    "0 float m_hpGreaterAddRatio": 0,
+                    "0 float m_syncLessAddRatio": 0,
+                    "0 float m_syncGreaterAddRatio": 0.200000003,
+                    "0 float m_kikokuAddRatio": 0.200000003
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_004",
+                    "1 string m_propertyId": "AWAKE_PROP_004",
+                    "0 int m_sort": 3,
+                    "1 string m_iconName": "@uin_icon_skill_property_04",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 18
+                        },
+                        {
+                          "0 int data": 3
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "50"
+                        },
+                        {
+                          "1 string data": "25"
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 10
+                        },
+                        {
+                          "0 int data": 7
+                        },
+                        {
+                          "0 int data": 21
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "10"
+                        },
+                        {
+                          "1 string data": "4"
+                        },
+                        {
+                          "1 string data": "1"
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 1,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0.300000012,
+                    "0 float m_statusEffectAddRatio": 0.300000012,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0.200000003,
+                    "0 float m_hpGreaterAddRatio": 0,
+                    "0 float m_syncLessAddRatio": 0.200000003,
+                    "0 float m_syncGreaterAddRatio": 0,
+                    "0 float m_kikokuAddRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_005",
+                    "1 string m_propertyId": "AWAKE_PROP_005",
+                    "0 int m_sort": 4,
+                    "1 string m_iconName": "@uin_icon_skill_property_05",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 4
+                        },
+                        {
+                          "0 int data": 5
+                        },
+                        {
+                          "0 int data": 6
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "50"
+                        },
+                        {
+                          "1 string data": "999"
+                        },
+                        {
+                          "1 string data": "999"
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 4
+                        },
+                        {
+                          "0 int data": 5
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "15"
+                        },
+                        {
+                          "1 string data": "25"
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 1,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0.300000012,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0.300000012,
+                    "0 float m_hpLessAddRatio": 0.200000003,
+                    "0 float m_hpGreaterAddRatio": 0,
+                    "0 float m_syncLessAddRatio": 0,
+                    "0 float m_syncGreaterAddRatio": 0,
+                    "0 float m_kikokuAddRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_006",
+                    "1 string m_propertyId": "AWAKE_PROP_006",
+                    "0 int m_sort": 5,
+                    "1 string m_iconName": "@uin_icon_skill_property_06",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 13
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "STATUS_AWKS_HEAL"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 6
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "10"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 1,
+                    "0 float m_normalAddRatio": 0.300000012,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0.200000003,
+                    "0 float m_hpGreaterAddRatio": 0,
+                    "0 float m_syncLessAddRatio": 0.200000003,
+                    "0 float m_syncGreaterAddRatio": 0,
+                    "0 float m_kikokuAddRatio": 0.200000003
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_007",
+                    "1 string m_propertyId": "AWAKE_PROP_007",
+                    "0 int m_sort": 6,
+                    "1 string m_iconName": "@uin_icon_skill_property_07",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 9
+                        },
+                        {
+                          "0 int data": 20
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "999"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 16
+                        },
+                        {
+                          "0 int data": 15
+                        },
+                        {
+                          "0 int data": 13
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "100"
+                        },
+                        {
+                          "1 string data": "50"
+                        },
+                        {
+                          "1 string data": "STATUS_AWKB_DEFUP"
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 3,
+                    "0 float m_normalAddRatio": 0.300000012,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0.200000003,
+                    "0 float m_hpGreaterAddRatio": 0,
+                    "0 float m_syncLessAddRatio": 0.200000003,
+                    "0 float m_syncGreaterAddRatio": 0,
+                    "0 float m_kikokuAddRatio": 0.200000003
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_008",
+                    "1 string m_propertyId": "AWAKE_PROP_008",
+                    "0 int m_sort": 7,
+                    "1 string m_iconName": "@uin_icon_skill_property_08",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 12
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "200"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 20
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "0.5"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 0,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0.300000012,
+                    "0 float m_statusEffectAddRatio": 0.300000012,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0,
+                    "0 float m_hpGreaterAddRatio": 0.200000003,
+                    "0 float m_syncLessAddRatio": 0.200000003,
+                    "0 float m_syncGreaterAddRatio": -0.5,
+                    "0 float m_kikokuAddRatio": -0.5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_009",
+                    "1 string m_propertyId": "AWAKE_PROP_009",
+                    "0 int m_sort": 8,
+                    "1 string m_iconName": "@uin_icon_skill_property_09",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 23
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "150"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 3
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "80"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 3,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0.300000012,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0.200000003,
+                    "0 float m_hpGreaterAddRatio": 0,
+                    "0 float m_syncLessAddRatio": 0,
+                    "0 float m_syncGreaterAddRatio": 0.200000003,
+                    "0 float m_kikokuAddRatio": 0.200000003
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_010",
+                    "1 string m_propertyId": "AWAKE_PROP_010",
+                    "0 int m_sort": 9,
+                    "1 string m_iconName": "@uin_icon_skill_property_10",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 19
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "50"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 17
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 4,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0.200000003,
+                    "0 float m_hpGreaterAddRatio": 0,
+                    "0 float m_syncLessAddRatio": 0.200000003,
+                    "0 float m_syncGreaterAddRatio": 0,
+                    "0 float m_kikokuAddRatio": 0.200000003
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_011",
+                    "1 string m_propertyId": "AWAKE_PROP_011",
+                    "0 int m_sort": 10,
+                    "1 string m_iconName": "@uin_icon_skill_property_11",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 21
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "30"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 18
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "30"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 4,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0.300000012,
+                    "0 float m_guardAddRatio": 0.300000012,
+                    "0 float m_hpLessAddRatio": 0,
+                    "0 float m_hpGreaterAddRatio": 0.200000003,
+                    "0 float m_syncLessAddRatio": 0,
+                    "0 float m_syncGreaterAddRatio": 0.200000003,
+                    "0 float m_kikokuAddRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_012",
+                    "1 string m_propertyId": "AWAKE_PROP_012",
+                    "0 int m_sort": 11,
+                    "1 string m_iconName": "@uin_icon_skill_property_12",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 17
+                        },
+                        {
+                          "0 int data": 15
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "STATUS_AWKS_REACT"
+                        },
+                        {
+                          "1 string data": "STATUS_AWKS_REACT"
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 11
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "STATUS_AWKB_REACT"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 3,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0.300000012,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0.300000012,
+                    "0 float m_hpLessAddRatio": 0,
+                    "0 float m_hpGreaterAddRatio": 0.200000003,
+                    "0 float m_syncLessAddRatio": 0,
+                    "0 float m_syncGreaterAddRatio": 0.200000003,
+                    "0 float m_kikokuAddRatio": 0.200000003
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_013",
+                    "1 string m_propertyId": "AWAKE_PROP_013",
+                    "0 int m_sort": 12,
+                    "1 string m_iconName": "@uin_icon_skill_property_13",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 16
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "50"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 10
+                        },
+                        {
+                          "0 int data": 9
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "10"
+                        },
+                        {
+                          "1 string data": "0"
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 3,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0.300000012,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0.200000003,
+                    "0 float m_hpGreaterAddRatio": 0,
+                    "0 float m_syncLessAddRatio": 0.200000003,
+                    "0 float m_syncGreaterAddRatio": 0,
+                    "0 float m_kikokuAddRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_014",
+                    "1 string m_propertyId": "AWAKE_PROP_014",
+                    "0 int m_sort": 13,
+                    "1 string m_iconName": "@uin_icon_skill_property_14",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 2
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "50"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 12
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "STATUS_AWKB_ATKDOWN"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 2,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0.300000012,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0.200000003,
+                    "0 float m_hpGreaterAddRatio": 0,
+                    "0 float m_syncLessAddRatio": 0.200000003,
+                    "0 float m_syncGreaterAddRatio": 0,
+                    "0 float m_kikokuAddRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_015",
+                    "1 string m_propertyId": "AWAKE_PROP_015",
+                    "0 int m_sort": 14,
+                    "1 string m_iconName": "@uin_icon_skill_property_15",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 10
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "50"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 12
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "STATUS_AWKB_DEFDOWN"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 2,
+                    "0 float m_normalAddRatio": 0.300000012,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0.300000012,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0,
+                    "0 float m_hpGreaterAddRatio": 0.200000003,
+                    "0 float m_syncLessAddRatio": 0,
+                    "0 float m_syncGreaterAddRatio": 0,
+                    "0 float m_kikokuAddRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_016",
+                    "1 string m_propertyId": "AWAKE_PROP_016",
+                    "0 int m_sort": 15,
+                    "1 string m_iconName": "@uin_icon_skill_property_16",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 7
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "0"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 19
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "80"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 1,
+                    "0 float m_normalAddRatio": 0.300000012,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0.300000012,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0,
+                    "0 float m_hpGreaterAddRatio": 0.200000003,
+                    "0 float m_syncLessAddRatio": 0,
+                    "0 float m_syncGreaterAddRatio": 0.200000003,
+                    "0 float m_kikokuAddRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_018",
+                    "1 string m_propertyId": "AWAKE_PROP_018",
+                    "0 int m_sort": 17,
+                    "1 string m_iconName": "@uin_icon_skill_property_18",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 22
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 22
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 4,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0.300000012,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0,
+                    "0 float m_hpGreaterAddRatio": 0,
+                    "0 float m_syncLessAddRatio": 0,
+                    "0 float m_syncGreaterAddRatio": 0,
+                    "0 float m_kikokuAddRatio": 0.200000003
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_019",
+                    "1 string m_propertyId": "AWAKE_PROP_019",
+                    "0 int m_sort": 18,
+                    "1 string m_iconName": "@uin_icon_skill_property_19",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 14
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "STATUS_AWKS_ATKUP"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 13
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "STATUS_AWKB_ATKUP"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 2,
+                    "0 float m_normalAddRatio": 0,
+                    "0 float m_criticalAddRatio": 0.300000012,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0.300000012,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0,
+                    "0 float m_hpGreaterAddRatio": 0.200000003,
+                    "0 float m_syncLessAddRatio": 0,
+                    "0 float m_syncGreaterAddRatio": 0.200000003,
+                    "0 float m_kikokuAddRatio": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "AWAKENS_020",
+                    "1 string m_propertyId": "AWAKE_PROP_020",
+                    "0 int m_sort": 19,
+                    "1 string m_iconName": "@uin_icon_skill_property_20",
+                    "0 vector m_awakensTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 11
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_awakensParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "200"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 vector m_propTypes": {
+                      "1 Array Array": [
+                        {
+                          "0 int data": 14
+                        },
+                        {
+                          "0 int data": 0
+                        },
+                        {
+                          "0 int data": 0
+                        }
+                      ]
+                    },
+                    "0 vector m_propParams": {
+                      "1 Array Array": [
+                        {
+                          "1 string data": "STATUS_AWKB_SPDUP"
+                        },
+                        {
+                          "1 string data": ""
+                        },
+                        {
+                          "1 string data": ""
+                        }
+                      ]
+                    },
+                    "0 int m_assignMax": 1,
+                    "0 int m_unlockAwakensNum": 2,
+                    "0 float m_normalAddRatio": 0.300000012,
+                    "0 float m_criticalAddRatio": 0.300000012,
+                    "0 float m_statusEffectAddRatio": 0,
+                    "0 float m_comboAddRatio": 0,
+                    "0 float m_guardAddRatio": 0,
+                    "0 float m_hpLessAddRatio": 0.200000003,
+                    "0 float m_hpGreaterAddRatio": 0,
+                    "0 float m_syncLessAddRatio": 0.200000003,
+                    "0 float m_syncGreaterAddRatio": 0,
+                    "0 float m_kikokuAddRatio": 0
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }

@@ -1,121 +1,126 @@
 {
-    "0 MonoBehaviour Base": 
-    {
-        "0 PPtr<GameObject> m_GameObject": 
+  "0 MonoBehaviour Base": {
+    "0 PPtr<GameObject> m_GameObject": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 0
+    },
+    "1 UInt8 m_Enabled": 1,
+    "0 PPtr<MonoScript> m_Script": {
+      "0 int m_FileID": 0,
+      "0 SInt64 m_PathID": 3945602114888860000
+    },
+    "1 string m_Name": "MstNpcData",
+    "0 Sheet m_sheets": {
+      "0 Array Array": [
         {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 0
-        },
-        "1 UInt8 m_Enabled": 1,
-        "0 PPtr<MonoScript> m_Script": 
-        {
-            "0 int m_FileID": 0,
-            "0 SInt64 m_PathID": 3945602114888860102
-        },
-        "1 string m_Name": "MstNpcData",
-        "0 Sheet m_sheets": 
-        {
-            "0 Array Array": [
-                {"0 Sheet data": 
+          "0 Sheet data": {
+            "1 string m_name": "Npc",
+            "0 Param m_list": {
+              "0 Array Array": [
                 {
-                    "1 string m_name": "Npc",
-                    "0 Param m_list": 
-                    {
-                        "0 Array Array": [
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "CN_1000",
-                                "1 UInt8 m_enableCollision": 1,
-                                "0 float m_collisionHeight": 1.5,
-                                "0 float m_collisionRadius": 0.300000012,
-                                "0 float m_navMeshRadius": 0.300000012,
-                                "0 float m_reactionRange": 0.400000006,
-                                "0 float m_reactionOffsetZ": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "cn_col_010",
-                                "1 UInt8 m_enableCollision": 1,
-                                "0 float m_collisionHeight": 1.70000005,
-                                "0 float m_collisionRadius": 0.300000012,
-                                "0 float m_navMeshRadius": 0.300000012,
-                                "0 float m_reactionRange": 0.400000006,
-                                "0 float m_reactionOffsetZ": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "cn_col_011",
-                                "1 UInt8 m_enableCollision": 1,
-                                "0 float m_collisionHeight": 1.10000002,
-                                "0 float m_collisionRadius": 0.300000012,
-                                "0 float m_navMeshRadius": 0.300000012,
-                                "0 float m_reactionRange": 0.400000006,
-                                "0 float m_reactionOffsetZ": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "cn_col_012",
-                                "1 UInt8 m_enableCollision": 1,
-                                "0 float m_collisionHeight": 1.5,
-                                "0 float m_collisionRadius": 0.300000012,
-                                "0 float m_navMeshRadius": 0.300000012,
-                                "0 float m_reactionRange": 0.400000006,
-                                "0 float m_reactionOffsetZ": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "cn_col_013",
-                                "1 UInt8 m_enableCollision": 1,
-                                "0 float m_collisionHeight": 1.20000005,
-                                "0 float m_collisionRadius": 0.300000012,
-                                "0 float m_navMeshRadius": 0.300000012,
-                                "0 float m_reactionRange": 0.400000006,
-                                "0 float m_reactionOffsetZ": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "cn_col_020",
-                                "1 UInt8 m_enableCollision": 0,
-                                "0 float m_collisionHeight": 0,
-                                "0 float m_collisionRadius": 0,
-                                "0 float m_navMeshRadius": 0.400000006,
-                                "0 float m_reactionRange": 0,
-                                "0 float m_reactionOffsetZ": 0
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "cn_col_030",
-                                "1 UInt8 m_enableCollision": 0,
-                                "0 float m_collisionHeight": 0,
-                                "0 float m_collisionRadius": 0,
-                                "0 float m_navMeshRadius": 0,
-                                "0 float m_reactionRange": 0.400000006,
-                                "0 float m_reactionOffsetZ": 0.5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "cn_col_031",
-                                "1 UInt8 m_enableCollision": 1,
-                                "0 float m_collisionHeight": 1.70000005,
-                                "0 float m_collisionRadius": 0.300000012,
-                                "0 float m_navMeshRadius": 0.300000012,
-                                "0 float m_reactionRange": 0.400000006,
-                                "0 float m_reactionOffsetZ": 0.5
-                            }},
-                            {"0 Param data": 
-                            {
-                                "1 string m_id": "cn_col_040",
-                                "1 UInt8 m_enableCollision": 1,
-                                "0 float m_collisionHeight": 0.5,
-                                "0 float m_collisionRadius": 0.300000012,
-                                "0 float m_navMeshRadius": 0.300000012,
-                                "0 float m_reactionRange": 0.400000006,
-                                "0 float m_reactionOffsetZ": 0
-                            }}
-                        ]
-                    }
-                }}
-            ]
+                  "0 Param data": {
+                    "1 string m_id": "CN_1000",
+                    "1 UInt8 m_enableCollision": 1,
+                    "0 float m_collisionHeight": 1.5,
+                    "0 float m_collisionRadius": 0.300000012,
+                    "0 float m_navMeshRadius": 0.300000012,
+                    "0 float m_reactionRange": 0.400000006,
+                    "0 float m_reactionOffsetZ": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "cn_col_010",
+                    "1 UInt8 m_enableCollision": 1,
+                    "0 float m_collisionHeight": 1.70000005,
+                    "0 float m_collisionRadius": 0.300000012,
+                    "0 float m_navMeshRadius": 0.300000012,
+                    "0 float m_reactionRange": 0.400000006,
+                    "0 float m_reactionOffsetZ": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "cn_col_011",
+                    "1 UInt8 m_enableCollision": 1,
+                    "0 float m_collisionHeight": 1.10000002,
+                    "0 float m_collisionRadius": 0.300000012,
+                    "0 float m_navMeshRadius": 0.300000012,
+                    "0 float m_reactionRange": 0.400000006,
+                    "0 float m_reactionOffsetZ": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "cn_col_012",
+                    "1 UInt8 m_enableCollision": 1,
+                    "0 float m_collisionHeight": 1.5,
+                    "0 float m_collisionRadius": 0.300000012,
+                    "0 float m_navMeshRadius": 0.300000012,
+                    "0 float m_reactionRange": 0.400000006,
+                    "0 float m_reactionOffsetZ": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "cn_col_013",
+                    "1 UInt8 m_enableCollision": 1,
+                    "0 float m_collisionHeight": 1.20000005,
+                    "0 float m_collisionRadius": 0.300000012,
+                    "0 float m_navMeshRadius": 0.300000012,
+                    "0 float m_reactionRange": 0.400000006,
+                    "0 float m_reactionOffsetZ": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "cn_col_020",
+                    "1 UInt8 m_enableCollision": 0,
+                    "0 float m_collisionHeight": 0,
+                    "0 float m_collisionRadius": 0,
+                    "0 float m_navMeshRadius": 0.400000006,
+                    "0 float m_reactionRange": 0,
+                    "0 float m_reactionOffsetZ": 0
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "cn_col_030",
+                    "1 UInt8 m_enableCollision": 0,
+                    "0 float m_collisionHeight": 0,
+                    "0 float m_collisionRadius": 0,
+                    "0 float m_navMeshRadius": 0,
+                    "0 float m_reactionRange": 0.400000006,
+                    "0 float m_reactionOffsetZ": 0.5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "cn_col_031",
+                    "1 UInt8 m_enableCollision": 1,
+                    "0 float m_collisionHeight": 1.70000005,
+                    "0 float m_collisionRadius": 0.300000012,
+                    "0 float m_navMeshRadius": 0.300000012,
+                    "0 float m_reactionRange": 0.400000006,
+                    "0 float m_reactionOffsetZ": 0.5
+                  }
+                },
+                {
+                  "0 Param data": {
+                    "1 string m_id": "cn_col_040",
+                    "1 UInt8 m_enableCollision": 1,
+                    "0 float m_collisionHeight": 0.5,
+                    "0 float m_collisionRadius": 0.300000012,
+                    "0 float m_navMeshRadius": 0.300000012,
+                    "0 float m_reactionRange": 0.400000006,
+                    "0 float m_reactionOffsetZ": 0
+                  }
+                }
+              ]
+            }
+          }
         }
+      ]
     }
+  }
 }
