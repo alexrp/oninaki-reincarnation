@@ -20,7 +20,6 @@ namespace Oninaki.Reincarnation
             {
                 case LogType.Error:
                 case LogType.Assert:
-                case LogType.Exception:
                     Log.ErrorLine("Unity: {0}", condition);
                     break;
                 case LogType.Warning:
@@ -28,6 +27,10 @@ namespace Oninaki.Reincarnation
                     break;
                 case LogType.Log:
                     Log.InfoLine("Unity: {0}", condition);
+                    break;
+                case LogType.Exception:
+                    Log.ErrorLine("Unity: {0}", condition);
+                    Log.ErrorLine("Unity: {0}", stackTrace);
                     break;
             }
         }
