@@ -20,20 +20,20 @@
                 {
                   "0 Param data": {
                     "0 float m_activeTime": 30,
-                    "0 float m_banTime": 60,
-                    "0 float m_getCountLimitRatio": 0.200000003,
+                    "0 float m_banTime": 35,
+                    "0 float m_getCountLimitRatio": 0.2,
                     "0 float m_baseRatio": 1,
-                    "0 float m_pinchAddRatio": 2,
+                    "0 float m_pinchAddRatio": 3,
                     "0 int m_pinchJudgeHpRatio": 30,
-                    "0 int m_pinchJudgePotionRatio": 50,
-                    "0 float m_bossAddRatio": 2,
+                    "0 int m_pinchJudgePotionRatio": 30,
+                    "0 float m_bossAddRatio": 5,
                     "0 vector m_timeAddRatio": {
                       "1 Array Array": [
                         {
-                          "0 float data": 0.5
+                          "0 float data": 1
                         },
                         {
-                          "0 float data": 2
+                          "0 float data": 3
                         },
                         {
                           "0 float data": 5
@@ -43,13 +43,13 @@
                     "0 vector m_timeJudgeTime": {
                       "1 Array Array": [
                         {
-                          "0 float data": 120
+                          "0 float data": 60
+                        },
+                        {
+                          "0 float data": 180
                         },
                         {
                           "0 float data": 300
-                        },
-                        {
-                          "0 float data": 600
                         }
                       ]
                     },
