@@ -11,7 +11,7 @@ release of the Oninaki Reincarnation mod.
 ## Settings
 
 * Camera distance settings are now more pronounced, with medium now being
-  equivalent to the old `Far`.
+  equivalent to the old far.
 * The frame rate setting is now a choice between uncapped and 60 FPS.
 * Anisotropic filtering is now enabled.
 * Soft particles are now enabled.
@@ -130,7 +130,8 @@ release of the Oninaki Reincarnation mod.
 ## Bosses
 
 * Finisher animations have been removed from all Sanctum of Rebirth bosses
-  except for Tsukumo, as well as all mini-bosses such as Sight Stealers.
+  (except for Tsukumo), as well as all mini-bosses throughout the game such as
+  Sight Stealers.
 * Increased HP of all regular Sanctum of Rebirth bosses by 3x.
 * Increased XP gain from all regular Sanctum of Rebirth bosses by 2x.
 * Tsukumo
