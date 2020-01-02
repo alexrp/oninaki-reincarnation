@@ -2,10 +2,46 @@
 
 [![Discord Server](https://discordapp.com/api/guilds/660373899388780546/widget.png)](https://discord.gg/kMWvXbd)
 
-A combat and post-game overhaul mod for the [Steam version of
-Oninaki](https://store.steampowered.com/app/987720/ONINAKI).
+A combat and post-game overhaul mod for the
+[Steam version of Oninaki](https://store.steampowered.com/app/987720/ONINAKI).
 
-## Data Modding
+The primary goal of this mod is to improve the overall pace and balance of
+combat, as well as to improve and expand post-game activities. It also fixes a
+number of technical and quality of life issues.
+
+If you have played Oninaki before and thought that something was missing, or
+that the potential of the game's systems was wasted, this mod is for you.
+
+The full list of changes can be found in [`CHANGES.md`](CHANGES.md).
+
+## Installation
+
+To install the mod, grab the latest release from the
+[releases](https://github.com/alexrp/oninaki-reincarnation/releases) page and
+unzip it to `C:\Program Files (x86)\Steam\steamapps\common\ONINAKI` (or wherever
+your Oninaki installation is located).
+
+To uninstall the mod, simply instruct Steam to verify the game's files.
+
+## Feedback & Help
+
+Any kind of constructive feedback and/or help requests are very welcome on the
+[issue tracker](https://github.com/alexrp/oninaki-reincarnation/issues) or on
+our [Discord](https://discordapp.com) server:
+[![Discord Server](https://discordapp.com/api/guilds/660373899388780546/widget.png)](https://discord.gg/kMWvXbd)
+
+## Known Issues
+
+* Text throughout the game may have seemingly random `n` letters. This is due to
+  a Unity Assets Bundle Extractor
+  [bug](https://github.com/DerPopo/UABE/issues/314). This does not affect the
+  game functionally.
+
+## Modding
+
+This section describes the process for developing Oninaki mods.
+
+### Data Modding
 
 The vast majority of the game is configurable through the data stored in the
 `ONINAKI_Data\StreamingAssets\STEAM\common\masterdata` file. The contents of
@@ -28,15 +64,14 @@ When you want to actually test your changes in the game, you need to use the
 6. Press `Import Dump` and open the [`masterdata`](Assets/common/masterdata)
    directory in this repository.
 7. Press `OK` to start the import. (This can take a bit.)
-8. Select `File` -> `Save`.
-9. Close the `Assets info` window.
-10. Select `File` -> `Save`, navigate to your game directory, and overwrite the
-    `masterdata` file there. (You may want to create a backup first.)
+8. Press `OK` to close the `Assets info` window.
+9. Select `File` -> `Save`, navigate to your game directory, and overwrite the
+   `masterdata` file there. (You may want to create a backup first.)
 
 You can now start the game and you should see the effect(s) of any changes you
 have made.
 
-## Script Modding
+### Script Modding
 
 Those aspects of the game that cannot be changed through data modding can
 almost certainly be changed by modifying the game's code (Unity scripts). These
@@ -58,7 +93,7 @@ knowledge. You will need to use the [dnSpy](dnSpy) tool as follows:
 You can now start the game and you should see the effect(s) of any changes you
 have made.
 
-## Script Debugging
+### Script Debugging
 
 Using the [dnSpy](dnSpy) tool, it is possible to debug the game's Unity
 scripts.
@@ -70,14 +105,14 @@ create a backup first.)
 
 Next, open up dnSpy and do the following:
 
-* Make sure you have the version of `Assembly-CSharp.dll` that the game is
-  actually using opened.
-* Select `Debug` -> `Start Debugging...`.
-* Set `Debug engine` to `Unity`, point `Executable` to `ONINAKI.exe`, and press
-  `OK`.
-* Wait for the game to get to the title screen.
-* Select `Debug` -> `Start Debugging...`.
-* Set `Debug engine` to `Unity (Connect)` and press `OK`.
+1. Make sure you have the version of `Assembly-CSharp.dll` that the game is
+   actually using opened.
+2. Select `Debug` -> `Start Debugging...`.
+3. Set `Debug engine` to `Unity`, point `Executable` to `ONINAKI.exe`, and press
+   `OK`.
+4. Wait for the game to get to the title screen.
+5. Select `Debug` -> `Start Debugging...`.
+6. Set `Debug engine` to `Unity (Connect)` and press `OK`.
 
 If everything worked out, you should now be attached to the game. (If something
 is not working, try running dnSpy as administrator.)
