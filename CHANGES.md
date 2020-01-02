@@ -115,7 +115,7 @@ release of the Oninaki Reincarnation mod.
   high risk, high reward action.
     * Defense multiplier decreased from 1.2x to 0.8x.
     * Healing multiplier decreased from 1.2x to 0.8x.
-    * Movement speed multiplier has been increased from 1x to 1.2x.
+    * Movement speed multiplier has been increased from 1x to 1.1x.
 * The leftover affinity multiplier after ending manifestation has been decreased
   from 0.5x to 0.3x.
 
