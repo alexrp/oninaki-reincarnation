@@ -13,6 +13,11 @@ namespace Oninaki.Reincarnation
             Log.InfoLine("Oninaki Reincarnation plugin module started.");
         }
 
+        public static void Write(object[] args)
+        {
+            Log.InfoLine("{0}", args[0]);
+        }
+
         public static void Detach(object[] args)
         {
             Log.InfoLine("Oninaki Reincarnation plugin module stopped.");
