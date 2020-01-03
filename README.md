@@ -27,8 +27,7 @@ To uninstall the mod, simply instruct Steam to verify the game's files.
 
 Any kind of constructive feedback and/or help requests are very welcome on the
 [issue tracker](https://github.com/alexrp/oninaki-reincarnation/issues) or on
-our [Discord](https://discordapp.com) server:
-[![Discord Server](https://discordapp.com/api/guilds/660373899388780546/widget.png)](https://discord.gg/kMWvXbd)
+our [Discord server](https://discord.gg/kMWvXbd).
 
 ## Known Issues
 
