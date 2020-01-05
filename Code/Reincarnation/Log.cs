@@ -14,6 +14,7 @@ namespace Oninaki.Reincarnation
 
                 try
                 {
+                    Console.Write("[{0:HH:mm:ss:fff}] ", DateTime.Now.ToString());
                     Console.Write(format, args);
 
                     if (line)

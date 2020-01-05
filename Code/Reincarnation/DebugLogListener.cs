@@ -44,7 +44,7 @@ namespace Oninaki.Reincarnation
                     var bytes = reader.ReadBytes(BufferSize - sizeof(int));
                     var str = Encoding.ASCII.GetString(bytes, 0, Array.IndexOf<byte>(bytes, 0));
 
-                    Log.DebugLine("{0}", str.Substring(0, str.Length - 1));
+                    Log.DebugLine("Debug: {0}", str.Substring(0, str.Length - 1));
                 }
             }, _cts.Token).ContinueWith(t => {});
         }
