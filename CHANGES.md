@@ -84,16 +84,40 @@ release of the Oninaki Reincarnation mod.
     * Skills that used to cost 3 soulstones now cost 2.
     * Skills that used to cost 5 soulstones now cost 3.
 * Normalized the movement speed multiplier to 1x for all daemons except Zephyr.
+* Normalized the aerial input responsiveness to 100% for all daemons.
 * Aisha
-    * Cooldown of Dash has been reduced from 0.9s to 0.2s.
+    * Dash
+        * Cooldown has been reduced from 0.9s to 0.2s.
+        * Base invincibility frames have been changed to 15.
+    * Moonless Sky
+        * Extends Dash invincibility frames to the full animation.
+* Zaav
+    * Jump
+        * Base invincibility frames have been changed to 15.
+    * Innocence
+        * Extends Jump invincibility frames to the full animation.
+* Dia
+    * Glide
+        * Invincibility frames changed from none to 30.
 * Rigan
-    * Cooldown of Roll has been reduced from 0.9s to 0.2s.
+    * Roll
+        * Cooldown has been reduced from 0.9s to 0.2s.
+    * Artifice
+        * Extends Roll invincibility frames to the full animation.
+    * Intuition
+        * Changed the end point of invincibility frames from the full animation
+          to the intended 19.
 * Izana
     * Cooldown of Warp has been reduced from 1.1s to 0.4s.
 * Lucika
     * Animation speed of Barrier has been increased by 2x.
+* Treize
+    * Chain Jump
+        * Added invincibility frames to the full animation.
 * Zephyr
     * Increased the movement speed multiplier from 0.95x to 1.2x.
+    * Double Jump
+        * Added invincibility frames to the full animation.
 
 ## Skill Awakening
 
@@ -108,6 +132,7 @@ release of the Oninaki Reincarnation mod.
 
 ## Affinity & Manifestation
 
+* Manifesting now awards 50 XP.
 * The multiplier for damage taken that is added to the affinity gauge has been
   decreased from 0.3x to 0.1x.
 * The manifestation gauge now decreases by 2% every 1s, 15s after manifesting.
@@ -137,3 +162,5 @@ release of the Oninaki Reincarnation mod.
 * Tsukumo
     * Increased HP by 5x.
     * Increased XP gain by 5x.
+    * Increased collision radius from 1.5 to 2.
+    * Increased CC resistance by ~3x.
