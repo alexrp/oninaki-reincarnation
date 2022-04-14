@@ -1,7 +1,5 @@
 # Oninaki Reincarnation
 
-[![Discord Server](https://discordapp.com/api/guilds/660373899388780546/widget.png)](https://discord.gg/kMWvXbd)
-
 A combat and post-game overhaul mod for the
 [Steam version of Oninaki](https://store.steampowered.com/app/987720/ONINAKI).
 
